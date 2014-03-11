@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- vim: set ts=2 sts=2 sw=2 noet: -->
+<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+	<link href="/css/patpannuto.css" rel="stylesheet" type="text/css"/>
+
+	<script type="text/javascript" src="/js/jquery-2.1.0.min.js"></script>
+	<script type="text/javascript" src="/js/jquery.autoheight.js"></script>
+	<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+	<title>Pat Pannuto</title>
+</head>
+
+<body>
+
+<div id="wrap">
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<!--
+				<div class="hidden-xs" style="margin:8px 20px 0 20px;">
+					<img src='/images/block_m.png' height="35px" />
+				</div>
+				-->
+				<a class="navbar-brand">Pat Pannuto</a>
+			</div> <!-- navbar-header -->
+
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav pull-right">
+					<li {% if active_page == 'index' %}class="active"{% endif %}><a href="/index.html">Home</a></li>
+					<li {% if active_page == 'cv' %}class="active"{% endif %}><a href="/cv.html">CV // Resume</a></li>
+					<li {% if active_page == 'conferences' %}class="active"{% endif %}><a href="/conferences.html">Conferences</a></li>
+					<li {% if active_page == 'research' %}class="active"{% endif %}><a href="/research.html">Research</a></li>
+					<li {% if active_page == 'talks' %}class="active"{% endif %}><a href="/talks.html">Talks</a></li>
+					<!--<li {% if active_page == 'projects' %}class="active"{% endif %}><a href="/projects.html">Projects</a></li>-->
+					<li {% if active_page == 'teaching' %}class="active"{% endif %}><a href="/teaching.html">Teaching</a></li>
+					<li {% if active_page == 'misc' %}class="active"{% endif %}><a href="/misc.html">Misc</a></li>
+				</ul>
+			</div>
+		</div> <!-- container -->
+	</nav>
+
+	<div class="container" id="main-content">
+		{{ content }}
+	</div>
+
+</div> <!-- wrap -->
+
+</body>
+</html>

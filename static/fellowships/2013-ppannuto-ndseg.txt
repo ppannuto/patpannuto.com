@@ -1,0 +1,45 @@
+My focus is enabling the "Internet of Things"; research to enable smaller,
+smarter sensor nodes for a connected world. As these devices proliferate,
+networks that "just work" are critical. Administering and managing thousands
+of microscopic nodes is an untenable problem.
+
+My research with the Michigan Micro Mote (M3) project fulfills all these goals.
+M3 is an ambitious project to develop a cubic-millimeter sensor node. This
+energy-harvesting node will support complex sensing primitives, such as motion
+detection and image capture. My focus and interest are the software and system
+level research questions: How do nodes with such extremely constrained power
+budgets form a dynamic network? What density of nodes is required for a
+deployment, what sensing coverage can be obtained? In anticipation of the
+hardware, I have written a complete software emulator of the nodes (M-ulator)
+that can dynamically shift to in-circuit emulation, replacing pieces of the
+emulated system with real hardware as they become available, enabling both
+component and system testing. I am confident that there are myriad
+applications for a general purpose millimeter scale computing and sensing
+platform at the DoD, as well as the M-ulator technology for enabling
+concurrent hardware/software development.
+
+The current corner of the M3 project---and the greater sensor network
+community---that I wish to tackle is communication among ultra low power nodes.
+Recent work by Yerva et al (Gecko) is the closest effort towards communicating
+on an M3-scale power budget, and it failed. The fundamental problem is the
+conflation of _communication_ and _synchronization_. Efficient wireless
+communication protocols rely on nodes being synchronized, yet must also rely on
+inefficient fallbacks using the same communication channel to bootstrap
+synchronization and power-hungry real time clocks to maintain it. I propose
+decoupling _synchronization_ from _communication_, using an alternative
+low-power low-bandwidth communication medium to provide synchronization for
+highly efficient RF communication protocols. Leveraging a 91 bps, 695 pW optical
+receiver (FLOW, Kim et al) developed for M3, visual light becomes the
+synchronization medium. I propose Smart Bulbs, LED bulbs that beacon
+imperceptible synchronization messages to nodes. From previous work of
+myself and of Chauvenet et al, the Smart Bulbs can form a mesh network using
+powerline communication as a backhaul. Using Lu et al's Smart Blueprints, the
+Smart Bulbs can automatically self-localize within a building.  Now any
+FLOW-enabled node---or any device with a camera---can freely synchronize and
+localize within a building.
+
+My life goal is to become a professor. Beyond research, I have taught both
+operating systems and embedded systems. I developed a novel class-wide project
+built on M-ulator, requiring the entire class to work together as one cohesive
+team. I love working at the forefront of technology and wish to do so for the
+rest of my life.

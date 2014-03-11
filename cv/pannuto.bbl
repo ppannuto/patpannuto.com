@@ -1,0 +1,61 @@
+\begin{thebibliography}{1}
+
+\bibitem{klugman14gridwatch}
+Noah Klugman, Javier Rosa, {\bf Pat}~{\bf Pannuto}, Matthew Podolsky, William
+  Huang, and Prabal Dutta.
+\newblock {Grid Watch}: Mapping blackouts with smart phones.
+\newblock In {\em Proceedings of the 15th Workshop on Mobile Computing Systems
+  and Applications}, HotMobile '14, New York, NY, USA, Feb 2014. ACM.
+
+\bibitem{sensys12-sdr}
+Ye-Sheng Kuo, {\bf Pat}~{\bf Pannuto}, Thomas Schmid, and Prabal Dutta.
+\newblock Reconfiguring the software radio to improve power, price, and
+  portability.
+\newblock In {\em Proceedings of the 10th ACM Conference on Embedded Networked
+  Sensor Systems}, SenSys '12, New York, NY, USA, 2012. ACM.
+
+\bibitem{lee13modular}
+Yoonmyung Lee, Suyoung Bang, Inhee Lee, Yejoong Kim, Gyouho Kim,
+  Mohammed~Hassan Ghaed, Pat Pannuto, Prabal Dutta, Dennis Sylvester, and David
+  Blaauw.
+\newblock A modular 1~mm$^3$ die-stacked sensing platform with low power
+  {I}$^2${C} inter-die communication and multi-modal energy harvesting.
+\newblock In {\em IEEE Journal of Solid-State Circuits}, volume~48, 2013.
+
+\bibitem{pannuto13gatd}
+{\bf Pat}~{\bf Pannuto}, Brad Campbell, and Prabal Dutta.
+\newblock {GATD}: A robust, extensible, versatile swarm dataplane.
+\newblock In {\em SEC'13: The First International Workshop on Swarm at the Edge
+  of the Cloud}, Sep 2013.
+
+\bibitem{ipsn11-plc}
+{\bf Pat}~{\bf Pannuto} and Prabal Dutta.
+\newblock Exploring powerline networking for the smart building.
+\newblock In {\em Extending the Internet to Low power and Lossy Networks},
+  IP+SN '11, April 2011.
+
+\bibitem{goog12}
+{\bf Pat}~{\bf Pannuto}, Prabal Dutta, Brad Campbell, Sam DeBruin, Trey
+  Grunnagle, William Huang, Ben Kempke, Ye-Sheng Kuo, Andrew Robinson, Aaron
+  Schulman, Maya Spivak, and Lohit Yerva.
+\newblock Platforms and protocols for emerging wireless systems.
+\newblock Future of Mobile Computing Workshop, Mountain View, CA, USA, 2012.
+  Google.
+
+\bibitem{pannuto13enssys}
+{\bf Pat}~{\bf Pannuto}, Yoonmyung Lee, Zhiyoong Foo, David Blaauw, and Prabal
+  Dutta.
+\newblock M3: A mm-scale wireless energy harvesting sensor platform.
+\newblock In {\em Proceedings of the 1st International Workshop on Energy
+  Neutral Sensing Systems}, ENSSys '13, pages 17:1--17:2, New York, NY, USA,
+  2013. ACM.
+
+\bibitem{ipsn12-m3}
+{\bf Pat}~{\bf Pannuto}, Yoonmyung Lee, Ben Kempke, Dennis Sylvester, David
+  Blaauw, and Prabal Dutta.
+\newblock Ultra-constrained sensor platform interfacing.
+\newblock In {\em Proceedings of the 11th international conference on
+  Information Processing in Sensor Networks}, IPSN '12, pages 147--148, New
+  York, NY, USA, 2012. ACM.
+
+\end{thebibliography}
