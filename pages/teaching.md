@@ -25,7 +25,18 @@ more information, see the course syllabus here:
 W12:
 ----
 
-### ECS 482: Introduction To Operating Systems
+[eecs470]: http://www.eecs.umich.edu/courses/eecs470/
+[pulkit]: http://www.linkedin.com/pub/pulkit-gupta/42/777/350
+### [EECS 470: Computer Architecture][eecs470]
+EECS 470 is a Major Design Experience (MDE, the Michigan term for an engineering
+capstone course). It has a well-earned reptuation as one of the toughest MDEs at
+Michigan and was a very different teaching experience. As I was only taking one
+course this semester, I took on double hours supporting this course. We decided
+to change the course format and transform early-semester recitation sessions
+into labs. The course GSI, [Pulkit Gupta][pulkit], and I developed the labs that
+are still in use (as of W'14) today.
+
+### EECS 482: Introduction To Operating Systems
 This was my fourth and final semester as an instructor for this course.
 
 F11:
@@ -69,7 +80,7 @@ the UMID 00011000 to try it yourself!
 [sim-exam]: http://eecs.umich.edu/~prabal/teaching/eecs373-f11/labs/final/mission.html
  * Those interested in more information are encouraged to [attempt the question themselves][sim-exam]
 
-### [ECS 482: Introduction To Operating Systems][eecs482-chen]
+### [EECS 482: Introduction To Operating Systems][eecs482-chen]
 This is my third semester teaching this course. In this course I teach a
 recitation and hold office hours. This course is more refined and traditional
 than 373 (in fact, it's a bit of an institution at Michigan) and I am proud to
@@ -93,7 +104,7 @@ tasks and challenges presented by the labs.
 
 ### EECS 373: Design of Microprocessor-Based Systems
 
-### ECS 482: Introduction To Operating Systems
+### EECS 482: Introduction To Operating Systems
 This was my second term teaching this course. In the winter semester, 482
 is taught by [Jason Flinn](https://web.eecs.umich.edu/~jflinn/). Jason's
 style is a little different than Pete's---a little more hands-on with the
@@ -105,4 +116,9 @@ F10:
 
 This was my first term teaching. At Michigan, undergraduate students are
 offered the opportunity to be Instructional Aides (IA's). An IA often
-covers discussion (recitation) sections for larger 
+covers discussion (recitation) sections for larger courses.
+
+### [EECS 482: Introduction To Operating Systems][eecs482-chen]
+I was offered the opportunity to teach either 281 (Intro to Algorithms) or 482
+(Operating Systems). I have always had a passion for low-level internals, and
+the opportunity to teach our OS course aligned best with my interests.
