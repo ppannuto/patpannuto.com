@@ -7,4 +7,7 @@ all:
 local:	all
 	pushd html && python3.3 -m http.server 8000; popd
 
-.PHONY: all local
+deploy:	all
+	rsync -av html/ patpannuto.com:www/
+
+.PHONY: all local deploy
