@@ -14,6 +14,7 @@ as they are available today with an emphasis on the challenges of actually
 deploying systems. I was also asked to touch on the current state of research in
 the area and what kinds of interesting systems are coming down the pipe.
 
+<a href="http://www.youtube.com/watch?v=cDx0_ybpSFE">[youtube]</a>
 <a href="/talks/dil14-pannuto.pptx">[pptx]</a> <a * href="/talks/dil14-pannuto.pdf">[pdf]</a>
 
 2012
