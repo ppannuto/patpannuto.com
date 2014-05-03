@@ -47,7 +47,7 @@ for dirpath,dirnames,filenames in os.walk('static'):
 			dpath = 'html' + spath[6:]
 			if ext in [
 					'.css', '.js', '.ttf', '.eot', '.svg', '.woff', '.png',
-					'.pdf', '.pptx', '.doc', '.txt',
+					'.pdf', '.pptx', '.doc', '.txt', '.gz', '.tgz',
 					]:
 				# These do not need to be compiled in any way
 				# Just copy them
