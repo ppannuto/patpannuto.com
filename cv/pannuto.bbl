@@ -1,4 +1,12 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{kim14motion}
+Gyouho Kim, Zhi~{Y}oong Foo, {\bf Pat}~{\bf Pannuto}, Ye-Sheng Kuo, Ben Kempke,
+  Mohammad~Hassan Ghaed, Suyoung Bang, Inhee Lee, Yejoong Kim, Seokhyeon Jeong,
+  Prabal Dutta, Dennis Sylvester, and David Blaauw.
+\newblock A millimeter-scale wireless imaging system with continuous motion
+  detection and energy harvesting.
+\newblock In {\em VLSI Circuits (VLSIC), 2014 Symposium on}, June 2014.
 
 \bibitem{klugman14gridwatch}
 Noah Klugman, Javier Rosa, {\bf Pat}~{\bf Pannuto}, Matthew Podolsky, William
@@ -6,6 +14,20 @@ Noah Klugman, Javier Rosa, {\bf Pat}~{\bf Pannuto}, Matthew Podolsky, William
 \newblock {Grid Watch}: Mapping blackouts with smart phones.
 \newblock In {\em Proceedings of the 15th Workshop on Mobile Computing Systems
   and Applications}, HotMobile '14, New York, NY, USA, Feb 2014. ACM.
+
+\bibitem{kuo14luxapose}
+Ye-Sheng Kuo, {\bf Pat}~{\bf Pannuto}, Ko-Jen Hsiao, and Prabal Dutta.
+\newblock Luxapose: Indoor positioning with mobile phones and visible light.
+\newblock In {\em The 20th Annual International Conference on Mobile Computing
+  and Networking}, MobiCom '14, September 2014.
+
+\bibitem{kuo14mbus}
+Ye-Sheng Kuo, {\bf Pat}~{\bf Pannuto}, Gyouho Kim, Zhi~{Y}oong Foo, Inhee Lee,
+  Ben Kempke, Prabal Dutta, David Blaauw, and Yoonmyung Lee.
+\newblock {MBus}: A 17.5~pj/bit portable interconnect bus for millimeter-scale
+  sensor systems with 8~nw standby power.
+\newblock In {\em CICC '14: IEEE Custom Integrated Circuits Conference},
+  September 2014.
 
 \bibitem{sensys12-sdr}
 Ye-Sheng Kuo, {\bf Pat}~{\bf Pannuto}, Thomas Schmid, and Prabal Dutta.
@@ -16,8 +38,8 @@ Ye-Sheng Kuo, {\bf Pat}~{\bf Pannuto}, Thomas Schmid, and Prabal Dutta.
 
 \bibitem{lee13modular}
 Yoonmyung Lee, Suyoung Bang, Inhee Lee, Yejoong Kim, Gyouho Kim,
-  Mohammed~Hassan Ghaed, Pat Pannuto, Prabal Dutta, Dennis Sylvester, and David
-  Blaauw.
+  Mohammed~Hassan Ghaed, {\bf Pat}~{\bf Pannuto}, Prabal Dutta, Dennis
+  Sylvester, and David Blaauw.
 \newblock A modular 1~mm$^3$ die-stacked sensing platform with low power
   {I}$^2${C} inter-die communication and multi-modal energy harvesting.
 \newblock In {\em IEEE Journal of Solid-State Circuits}, volume~48, 2013.
