@@ -4,6 +4,18 @@ Talks
 2014
 ----
 
+### Embedded System Design and the Internet of Things, [Stanford Internet of Things Industrial Research Program](http://iot.stanford.edu/workshop14.html)
+
+The workshop was a kickoff for the Stanford Internet of Things Industrial
+Research Program. I was asked to describe the state of security for the
+Intenet of Things, in particular looking from the persepctive of an embedded
+systems hardware and network developer. The talk gives an overview of some
+recent research, some challenges and directions in networking, and a
+discussion of the hardware trends, expectations, and requirements for embedded
+systems, all with an eye towards security.
+
+<a href="/talks/stanford-IoT14.pptx">[pptx]</a> <a href="/talks/stanford-IoT14.pdf">[pdf]</a> <a href="/talks/stanford-IoT14-lowres.pdf">[pdf - low resolution]</a>
+
 ### Sensing Technologies for Data Collection and Monitoring, [State of the Science](http://dil.berkeley.edu/stateofthescience/) -- _Invited Talk_
 
 The State of the Science conference put on by [DIL](http://dil.berkeley.edu/),
@@ -15,7 +27,7 @@ deploying systems. I was also asked to touch on the current state of research in
 the area and what kinds of interesting systems are coming down the pipe.
 
 <a href="http://www.youtube.com/watch?v=cDx0_ybpSFE">[youtube]</a>
-<a href="/talks/dil14-pannuto.pptx">[pptx]</a> <a * href="/talks/dil14-pannuto.pdf">[pdf]</a>
+<a href="/talks/dil14-pannuto.pptx">[pptx]</a> <a href="/talks/dil14-pannuto.pdf">[pdf]</a>
 
 2012
 ----
