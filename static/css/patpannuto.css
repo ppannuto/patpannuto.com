@@ -2,3 +2,8 @@
 body {
 	padding-top: 50px;
 }
+
+.round {
+	border-radius: 50%;
+	overflow: hidden;
+}
