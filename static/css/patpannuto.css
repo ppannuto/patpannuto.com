@@ -7,3 +7,14 @@ body {
 	border-radius: 50%;
 	overflow: hidden;
 }
+
+#gallery-pat-div {
+	height: 300px;
+}
+
+#gallery-pat-div img {
+	position: absolute;
+	height: 300px;
+	top: 0;
+	border-radius: 10%;
+}

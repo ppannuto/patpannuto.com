@@ -1,33 +1,78 @@
 Who Am I?
 =========
 
-My name is Patrick Pannuto, and I am second-year PhD student at the University of Michigan.
+<div class="row" markdown="1">
+<div class="col-lg-8 col-xs-12">
 
-My research primarily focuses on both wireless and wired (powerline) embedded
-systems, with a focus on low-power systems, deployability, and ease of
-maintenance.
+My name is Pat Pannuto, and I am a third-year PhD student at the University of Michigan.
 
-<!--
-My CV and (dated) resume are <a href="cv.html">available here</a>.
-My current and past research are <a href="research.html">available here</a>.
-Some selected personal projects and open-sourceable code I have
-written for internships are <a href="projects.html">available here</a>.
-<p>Information on current and previous teaching experience is
-<a href="teaching.html">available here</a>.
+I am advised by [Prabal Dutta](http://eecs.umich.edu/~prabal). I am the
+recipient of the [National Defense Science & Engineering Graduate (NDSEG) Fellowship](https://ndseg.asee.org/) (2013),
+the [National Science Foundation Graduate Research Fellowship Program (NSF GRFP) Fellowship](http://www.nsfgrfp.org/) (2013),
+and the [Qualcomm Innovation Fellowship (QInF)](https://www.qualcomm.com/invention/research/university-relations/innovation-fellowship) (2013).
+I am currently supported by NDSEG.
 
-A summary of the conferences I follow from the excellent conference tracker tool is <a href="conferences.html">available here</a>.
--->
+My research focuses on solving the "last inch" problem: bringing connectivity
+and computing capability to everything. A key component of this is the
+[cubic millimeter](http://cubicmm.eecs.umich.edu) project, which aims to bring
+general-purpose computing and sensing to millimeter-scale devices. Recently, we
+identified the system interconnect as a key impediment to further scaling the
+energy and area of embedded computing. To address this, I led the design of
+[MBus, a new chip-to-chip interconnect](http://mbus.io) optimized for
+energy-conscious designs.
 
-### Email
- * <a href="mailto:ppannuto@umich.edu">ppannuto@umich.edu</a>
+In addition, I've worked on solving the indoor localization problem, both using
+[visible light and smartphones][luxapose] and a [novel RF-based
+approach][harmonia] that achieves ultra-wideband accuracy (order 1-10 cm) using
+only narrowband components. I've also done some work on exploring [alternative
+sensing schemes for monitoring power grid health][gridwatch] and [tracking
+human interactions with high spatio-temporal fidelity][opo].
 
-### Lab (More likely to find me here)
- * 4908 BBB [Bob and Betty Beyster Building, formerly CSE]
- * 2260 Hayward, Ann Arbor, MI 48109
+[luxapose]: http://lab11.eecs.umich.edu/projects/vlc_localization/ "Luxapose: Indoor Positioning with Mobile Phones and Visible Light"
+[harmonia]: http://lab11.eecs.umich.edu/projects/harmonia/ "Harmonia: Wideband Spreading for Accurate Indoor RF Localization"
+[gridwatch]: http://lab11.eecs.umich.edu/projects/gridwatch/ "GridWatch: Mapping Blackouts with Smart Phones"
+[opo]: http://lab11.eecs.umich.edu/projects/opo/ "Opo: A Wearable Sensor for Capturing High-Fidelity Face-to-Face Interactions"
 
-### Office
- * 2909 BBB [Bob and Betty Beyster Building, formerly CSE]
- * 2260 Hayward, Ann Arbor, MI 48109
+</div>
+<div class="col-lg-4 hidden-xs">
+<div id="gallery-pat-div"></div>
+</div>
+</div>
+
+<hr />
+
+<div class="row">
+<div class="col-lg-2 col-xs-12">
+
+<div class="panel">
+<div class="panel-heading"> <h3 class="panel-title"><strong>Contact</strong></h3> </div>
+<div class="panel-body">
+<p><a href="mailto:ppannuto@umich.edu">ppannuto@umich.edu</a></p>
+<p><a href="tel:+12489904548">248.990.4548</a></p>
+</div>
+</div>
+</div>
+
+<div class="col-lg-5 col-xs-12">
+<div class="panel">
+<div class="panel-heading"> <h3 class="panel-title"><strong>Lab (More likely to find me here)</strong></h3> </div>
+<div class="panel-body">
+<p>4908 BBB [Bob and Betty Beyster Building, formerly CSE]</p>
+<p>2260 Hayward, Ann Arbor, MI 48109</p>
+</div>
+</div>
+</div>
+
+<div class="col-lg-5 col-xs-12">
+<div class="panel">
+<div class="panel-heading"> <h3 class="panel-title"><strong>Office</strong></h3> </div>
+<div class="panel-body">
+<p>2909 BBB [Bob and Betty Beyster Building, formerly CSE]</p>
+<p>2260 Hayward, Ann Arbor, MI 48109</p>
+</div>
+</div>
+</div>
+</div>
 
 ### News
  * <b>2013/05: </b>I am working at <a href="http://swarmlab.eecs.berkeley.edu">Berkeley</a> this summer
