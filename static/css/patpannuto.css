@@ -37,3 +37,7 @@ body {
 		display: none;
 	}
 }
+
+.talk img {
+	width: 100%;
+}
