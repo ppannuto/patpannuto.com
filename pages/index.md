@@ -2,11 +2,13 @@ Who Am I?
 =========
 
 <div class="row" markdown="1">
-<div class="col-lg-8 col-xs-12">
+<div class="col-lg-8 col-md-8 col-sm-7 col-xs-12">
 
-My name is Pat Pannuto, and I am a third-year PhD student at the University of Michigan.
+<div class="lead">
+I'm Pat Pannuto, a third-year PhD student at the University of Michigan.
+</div>
 
-I am advised by [Prabal Dutta](http://eecs.umich.edu/~prabal). I am the
+I am advised by [Prabal Dutta](http://eecs.umich.edu/~prabal) and am the
 recipient of the [National Defense Science & Engineering Graduate (NDSEG) Fellowship](https://ndseg.asee.org/) (2013),
 the [National Science Foundation Graduate Research Fellowship Program (NSF GRFP) Fellowship](http://www.nsfgrfp.org/) (2013),
 and the [Qualcomm Innovation Fellowship (QInF)](https://www.qualcomm.com/invention/research/university-relations/innovation-fellowship) (2013).
@@ -34,7 +36,7 @@ human interactions with high spatio-temporal fidelity][opo].
 [opo]: http://lab11.eecs.umich.edu/projects/opo/ "Opo: A Wearable Sensor for Capturing High-Fidelity Face-to-Face Interactions"
 
 </div>
-<div class="col-lg-4 hidden-xs">
+<div class="col-lg-4 col-md-4 col-sm-5 hidden-xs">
 <div id="gallery-pat-div"></div>
 </div>
 </div>
@@ -74,8 +76,10 @@ human interactions with high spatio-temporal fidelity][opo].
 </div>
 </div>
 
+<!--
 ### News
  * <b>2013/05: </b>I am working at <a href="http://swarmlab.eecs.berkeley.edu">Berkeley</a> this summer
  * <b>2013/04: </b><a href="http://bradcampbell.org">Brad Campbell</a> and I won Honorable Mentions and $50,000 from the <a href="http://www.qualcomm.com/about/research/university-relations/innovation-fellowship/2013">Qualcomm Innovation Fellowship</a>
  * <b>2013/04: </b>I won the <a href="http://ndseg.asee.org/">NDSEG</a> Fellowship
  * <b>2013/04: </b>I won the <a href="http://www.nsfgrfp.org/">NSF GRFP</a> Fellowship
+-->
