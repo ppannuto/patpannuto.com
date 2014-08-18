@@ -1,106 +1,136 @@
 \documentclass{article}
 \usepackage[margin=1in]{geometry}
 
-\usepackage{tabularx}
-\usepackage{bibentry}
-\bibliographystyle{plain}
+\usepackage{bold-extra}   % Provides bf+sc (only in textbf+textsc env.)
+\usepackage{comment}      % Provides \begin,\end{comment} for large blocks
+\usepackage[protrusion=true,expansion=true,kerning,spacing]{microtype} % better type, spacing
+\usepackage[labeled,resetlabels]{multibib}
+\usepackage{tabularx}     % Complicated table creation
+\usepackage[sc]{titlesec}
+\usepackage{url}          % Pretty printing of hyperlinks
+\usepackage[usenames,dvipsnames,svgnames]{xcolor} % Allow the use and definition of colors
+
+% The hyperref package must loaded last. Can conflict with some packages, see:
+% README ( http://ctan.mackichan.com/macros/latex/contrib/hyperref/README.pdf )
+\usepackage[colorlinks=true,citecolor=violet,urlcolor=blue]{hyperref}     % Creates hyperlinks from ref/cite
+\hypersetup{pdfstartview=FitH} % Sets default zoom to 100% width
+
+% Break URLs properly (thanks to Alex Halderman)
+\def\UrlBreaks{\do-\do\.\do\@\do\\\do\!\do\_\do\|\do\;\do\>\do\]\do\)\do\,\do\?\do\'\do+\do\=\do\#}
+\def\UrlBigBreaks{\do\:\do\/}
+
+% Don't typset URLs in tt font
+\urlstyle{same}
+
+\newcites{J,C,W,PD}%
+  {%
+    Journal Publications,%
+    Conference Publications,%
+    Workshop Publications,%
+    Posters and Demos
+  }
 
 \begin{document}
-\nobibliography{pub.bib,demo.bib}
 
 \begin{table}
-\centering
-\begin{tabular}{c}
-{\bf Pat Pannuto} \\
-4908 BBB, 2260 Hayward \\
-Ann Arbor, MI 48104 \\
-ppannuto@umich.edu \\
-\end{tabular}
+  \centering
+  \begin{tabular}{c}
+    \textsc{\LARGE Pat Pannuto} \\
+    \\
+    \textsc{\large August 17, 2014}
+  \end{tabular}
 \end{table}
 
+\begin{table*}
+  \centering
+  \begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} r}
+    Computer Science and Engineering  & Tel: +1.248.990.4548 \\
+    University of Michigan, Ann Arbor & ppannuto@umich.edu \\
+    4908 BBB, 2260 Hayward            & \url{http://patpannuto.com} \\
+    Ann Arbor, MI 48104               & \\
+  \end{tabular*}
+\end{table*}
 
-\begin{table}
-\begin{tabularx}{\linewidth}{p{2cm} X}
-{\sc Education} & {\bf {\em University of Michigan, Ann Arbor}} \\
- & {\em Advisor: Prabal Dutta} \\
- & Ph.D. Student \\
-% & \\
-% & {\em Relevant Courses:} Algorithms, Compiler Theory, Complex Adaptive
-%Systems, Operating Systems, Computer Organization, Computer Architecture,
-%Cryptography, Continuous and Discrete Systems, Discrete Math, and Statistics \\
- & \\
- & {\bf {\em University of Michigan, Ann Arbor, 2012}} \\
- & B.S.Eng in Computer Engineering \\
- & \\
-{\sc Research Interests} & {\em Wireless and Sensor Networks, Internet of
-Things, (Extremely) Low-Power Systems, Networking, Security, Configuration
-Automation, Platforms and Integration}
-\end{tabularx}
-\end{table}
+\section*{Research Overview and Interests}
 
-{\bf {\em Conference, Workshop, and Technical Report Publications}}
+\begin{itemize}
+  \item[]
+    My research focuses on solving the ``last inch'' problem and solving the
+    challenges that stand between the burgeoning Internet of Things and
+    inevitable Internet of Everything. My interests span from low-level
+    details---developing new technology to meet the energy and area demands of
+    millimeter systems---to large-scale global considerations---understanding
+    how our network and infrastructure must scale to support the trillions of
+    impending devices.
+\end{itemize}
 
-\begin{enumerate}
+\section*{Education}
 
-  \item \bibentry{kuo14mbus}
-  \item \bibentry{kuo14luxapose}
-  \item \bibentry{kim14motion}
-  \item \bibentry{klugman14gridwatch}
-  \item \bibentry{lee13modular}
-  \item \bibentry{sensys12-sdr}
-  \item \bibentry{ipsn11-plc}
+\begin{itemize}
+  \item[]
+    \textbf{University of Michigan}, Ann Arbor, MI (2012--present) \\
+    Ph.D. Student in Computer Science (degree expected roughly summer 2017) \\
+    Advisor: Prabal Dutta
 
-\end{enumerate}
+  \item[]
+    \textbf{University of Michigan}, Ann Arbor, MI (2007--2012) \\
+    B.S.Eng in Computer Engineering
+\end{itemize}
 
-{\bf {\em Demo \& Poster Publications}}
-\begin{enumerate}
-
-  \item \bibentry{pannuto13enssys}
-  \item \bibentry{pannuto13gatd}
-  \item \bibentry{goog12}
-  \item \bibentry{ipsn12-m3}
-
-\end{enumerate}
-
-{\bf {\em Talks and Lectures}}
-
-\begin{enumerate}
-
-\item ``Sensing Technologies for Data Collection and Monitoring''. Invited
-  Talk, State of the Science, Georgetown. March 2014
-\item ``An Introduction to Git''. Invited Lecture, Michigan Hackers,
-University of Michigan. April 2012
-
-\end{enumerate}
-
-{\bf {\em Awards and Grants}}
+\section*{Awards and Grants}
 
 \begin{itemize}
 
-  \item Qualcomm Innovation Fellowship Honorable Mention, Team Fellowship with Brad Campbell, \$50,000 (2013--2014)
-  \item National Defense Science \& Engineering Graduate Fellowship, \$95,000 plus tuition (2013--present)
-  \item National Science Foundation Graduate Research Fellowship, \$90,000 plus tuition (2013, declined)
-  \item University of Michigan Department of Computer Science First-Year Fellowship (2012--2103)
+  \item[] Qualcomm Innovation Fellowship Honorable Mention, Team Fellowship with Brad Campbell, \$50,000 (2013--2014)
+  \item[] National Defense Science \& Engineering Graduate Fellowship, \$95,000 plus tuition (2013--present)
+  \item[] National Science Foundation Graduate Research Fellowship, \$90,000 plus tuition (2013, declined)
+  \item[] University of Michigan Department of Computer Science First-Year Fellowship (2012--2103)
 
 \end{itemize}
 
-{\bf {\em Teaching and Honors}}
+\section*{Teaching and Honors}
 
 \begin{itemize}
 
-  \item Best Undergraduate Instructor, University of Michigan, EECS (2011--2012)
-  \item Undergraduate Teaching Assistant, EECS 470: Computer Architecture (W'12)
-  \item Undergraduate Teaching Assistant, EECS 482: Introduction to Operating Systems (W'12, F'11, W'11, F'10)
-  \item Undergraduate Teaching Assistant, EECS 373: Design of Microprocessor Based Systems (F'11, W'11)
+  \item[] Best Undergraduate Instructor, University of Michigan, EECS (2011--2012)
+  \item[] Undergraduate Teaching Assistant, EECS 470: Computer Architecture (W'12)
+  \item[] Undergraduate Teaching Assistant, EECS 482: Introduction to Operating Systems (W'12, F'11, W'11, F'10)
+  \item[] Undergraduate Teaching Assistant, EECS 373: Design of Microprocessor Based Systems (F'11, W'11)
 
 \end{itemize}
 
-{\bf {\em Professional Service}}
+\section*{Professional Service}
 
 \begin{itemize}
 
-  \item 2014 ACM Workshop on Visible Light Communication Systems -- Demo Co-Chair
+  \item[] 2014 ACM Workshop on Visible Light Communication Systems -- Demo Co-Chair
 
 \end{itemize}
+
+\nociteJ{*}
+\nociteC{*}
+\nociteW{*}
+\nocitePD{*}
+
+\bibliographystyleJ{unsrt}
+\bibliographystyleC{unsrt}
+\bibliographystyleW{unsrt}
+\bibliographystylePD{unsrt}
+
+\bibliographyJ{journal}
+\bibliographyC{conf}
+\bibliographyW{workshop}
+\bibliographyPD{posterdemo}
+
+%{\bf {\em Talks and Lectures}}
+%
+%\begin{enumerate}
+%
+%\item ``Sensing Technologies for Data Collection and Monitoring''. Invited
+%  Talk, State of the Science, Georgetown. March 2014
+%\item ``An Introduction to Git''. Invited Lecture, Michigan Hackers,
+%University of Michigan. April 2012
+%
+%\end{enumerate}
 
 \end{document}

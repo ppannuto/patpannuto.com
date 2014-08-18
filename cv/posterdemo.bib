@@ -1,0 +1,200 @@
+@INPROCEEDINGS{kuo14luxapose_mobicom_demo,
+	author={Kuo, Ye-Sheng and {\bf Pannuto}, {\bf Pat} and Dutta, Prabal},
+	booktitle={The 20th Annual International Conference on Mobile Computing and Networking},
+	title={Demo --- {Luxapose}: Indoor Positioning with Mobile Phones and Visible Light},
+	series={MobiCom '14},
+	year={2014},
+	month={September},
+	location={Maui, HI, USA},
+	conference-url={http://www.sigmobile.com/mobicom/2014/},
+	video-url={\url{https://www.youtube.com/watch?v=HSNY0XVXM1w}},
+	abstract = {We explore the indoor positioning problem with unmodified smartphones
+			and slightly-modified commercial LED luminaires.  The
+			luminaires---modified to allow rapid, on-off keying---transmit their
+			identifiers and/or locations encoded in human-imperceptible optical
+			pulses.  A camera-equipped smartphone, using just a single image frame
+			capture, can detect the presence of the luminaires in the image,
+			decode their transmitted identifiers and/or locations, and determine
+			the smartphone's location and orientation relative to the luminaires.
+			Continuous image capture and processing enables continuous position
+			updates.
+			The key insights underlying this work are (i) the driver circuits of
+			emerging LED lighting systems can be easily modified to transmit data
+			through on-off keying; (ii) the rolling shutter effect of CMOS imagers
+			can be leveraged to receive many bits of data encoded in the optical
+			transmissions with just a single frame capture, (iii) a camera is
+			intrinsically an angle-of-arrival sensor, so the projection of
+			multiple nearby light sources with known positions onto a camera's
+			image plane can be framed as an instance of a sufficiently-constrained
+			angle-of-arrival localization problem, and (iv) this problem can be
+			solved with optimization techniques.
+	},
+}
+
+@inproceedings{kuo14luxapose_vlcs_demo,
+  author = {Kuo, Ye-Sheng and {\bf Pannuto}, {\bf Pat} and Dutta, Prabal},
+  title={Demo --- {Luxapose}: Indoor Positioning with Mobile Phones and Visible Light},
+  booktitle = {1st ACM Workshop on Visible Light Communication Systems},
+  series = {VLCS '14},
+  year = {2014},
+  month = {September},
+  location = {Maui, Hawaii, USA},
+  conference-url = {\url{http://www.networks.rice.edu/VLCS-2014/}},
+	video-url={\url{https://www.youtube.com/watch?v=HSNY0XVXM1w}},
+	abstract = {We explore the indoor positioning problem with unmodified smartphones
+			and slightly-modified commercial LED luminaires.  The
+			luminaires---modified to allow rapid, on-off keying---transmit their
+			identifiers and/or locations encoded in human-imperceptible optical
+			pulses.  A camera-equipped smartphone, using just a single image frame
+			capture, can detect the presence of the luminaires in the image,
+			decode their transmitted identifiers and/or locations, and determine
+			the smartphone's location and orientation relative to the luminaires.
+			Continuous image capture and processing enables continuous position
+			updates.
+			The key insights underlying this work are (i) the driver circuits of
+			emerging LED lighting systems can be easily modified to transmit data
+			through on-off keying; (ii) the rolling shutter effect of CMOS imagers
+			can be leveraged to receive many bits of data encoded in the optical
+			transmissions with just a single frame capture, (iii) a camera is
+			intrinsically an angle-of-arrival sensor, so the projection of
+			multiple nearby light sources with known positions onto a camera's
+			image plane can be framed as an instance of a sufficiently-constrained
+			angle-of-arrival localization problem, and (iv) this problem can be
+			solved with optimization techniques.
+	},
+}
+
+@inproceedings{pannuto13m3_demo,
+ author = {{\bf Pannuto}, {\bf Pat} and Lee, Yoonmyung and Foo, Zhiyoong and Blaauw, David and Dutta, Prabal},
+ title = {Demo: M3: A Mm-scale Wireless Energy Harvesting Sensor Platform},
+ booktitle = {Proceedings of the 1st International Workshop on Energy Neutral Sensing Systems},
+ series = {ENSSys '13},
+ year = {2013},
+ month = {Nov},
+ isbn = {978-1-4503-2432-8},
+ location = {Rome, Italy},
+ pages = {17:1--17:2},
+ articleno = {17},
+ numpages = {2},
+ url = {http://doi.acm.org/10.1145/2534208.2534225},
+ doi = {10.1145/2534208.2534225},
+ acmid = {2534225},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {energy harvesting, smart dust, ultra-low power},
+ abstract = {In this demo, we explore the critical role that power plays in the development
+	of a mm-scale system. We argue that any practical deployment of a mm-scale
+	system must have a significant energy harvesting component. We demo the newest
+	M3 system, a self-contained, 1~mm$^3$, energy-harvesting computing platform
+	capable of short-range (order~cm) wireless transmission.
+	Finally, we present some of the M3's innovations that
+	enable its current basic operation and discuss some of the open problems that
+	remain before a smart dust network becomes operable.},
+ conference-url = {\url{http://www.enssys.org/2013/}},
+}
+
+@inproceedings{pannuto13gatd,
+	author = {{\bf Pannuto}, {\bf Pat} and Campbell, Brad and Dutta, Prabal},
+	title = {{GATD}: A Robust, Extensible, Versatile Swarm Dataplane},
+	booktitle = {The First International Workshop on the Swarm at the Edge of the Cloud},
+	series = {SEC '13},
+	year = {2013},
+	mon = {Sep},
+	day = {29},
+	location = {Montreal, Quebec, Canada},
+	conference-url = {\url{http://www.terraswarm.org/conferences/13/swarm/}},
+	abstract = { We propose Get All The Data (GATD), a data collection and dissemination
+			system for the Swarm. GATD offers a flexible architecture to connect arbitrary
+			producers of data and consumers of events. Too many sensor networks are
+			fragile, vertical silos, with a series of one-off handlers written to shuttle
+			data, manipulate it, process it, and present it. Instead of being mired
+			in details and rigid schemas, we argue that sensor network deployment should
+			be simple. The key in GATD's design is the
+			observation that there are common patterns to how disparate sensor network
+			applications handle and process their generated data.
+
+			To take advantage of these
+			similarities we present a system comprised of common modules that
+			different applications can leverage.
+			To join GATD, new sensors simply send raw data. GATD will buffer this raw
+			data indefinitely until an application specific {\em formatter} is written to
+			map the raw data to key-value pairs. These streams can be combined, processed,
+			graphed, stored, or otherwise manipulated by a standard set of transforms or
+			new custom drivers. With this architecture, we argue that GATD provides a
+			robust, extensible, and versatile Swarm dataplane.
+	},
+}
+
+@inproceedings{kuo13floodcasting,
+ author = {Kuo, Ye-Sheng and {\bf Pannuto}, {\bf Pat} and Dutta, Prabal},
+ title = {Demo: Floodcasting, a Data Dissemination Service Supporting Real-time Actuation and Control},
+ booktitle = {Proceeding of the 11th Annual International Conference on Mobile Systems, Applications, and Services},
+ series = {MobiSys '13},
+ year = {2013},
+ month = {June},
+ isbn = {978-1-4503-1672-9},
+ location = {Taipei, Taiwan},
+ pages = {489--490},
+ numpages = {2},
+ url = {http://doi.acm.org/10.1145/2462456.2465697},
+ doi = {10.1145/2462456.2465697},
+ acmid = {2465697},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {IEEE 802.15.4, constructive interference, real-time, software-defined radio, wireless mac protocol},
+ abstract = {Packet collisions have gone from something to be avoided to
+	something that can be embraced. We build upon recent results that employ
+	intentional packet collisions for synchronized flooding to show how multi-hop
+	wireless networks can support real-time actuation and control.
+	First, we show how a network of nodes can synchronize their LED
+	transmissions to extend the range of a visual light communication (VLC) system.  Second, we show
+	how buffer-free, streaming audio is possible over a multi-hop wireless
+	mesh network.},
+ conference-url = {\url{http://www.sigmobile.org/mobisys/2013/demos.php}},
+}
+
+@inproceedings{pannuto12future_of_mobile,
+ author = {{\bf Pannuto}, {\bf Pat} and Dutta, Prabal and Campbell, Brad and DeBruin, Sam and Grunnagle, Trey and Huang, William and Kempke, Ben and Kuo, Ye-Sheng and Robinson, Andrew and Schulman, Aaron and Spivak, Maya and Yerva, Lohit},
+ title = {Platforms and Protocols for Emerging Wireless Systems},
+ series = {Future of Mobile Computing Workshop},
+ year = {2012},
+ mon = {5},
+ location = {Mountain View, California},
+ publisher = {Google},
+ address = {Mountain View, CA, USA},
+ conference-url = {\url{https://sites.google.com/site/futureofmobileworkshop/}},
+ no-abstract = {},
+}
+
+@inproceedings{pannuto12i2c,
+ author = {{\bf Pannuto}, {\bf Pat} and Lee, Yoonmyung and Kempke, Ben and Sylvester, Dennis and Blaauw, David and Dutta, Prabal},
+ title = {Demo: Ultra-constrained sensor platform interfacing},
+ booktitle = {Proceedings of the 11th international conference on Information Processing in Sensor Networks},
+ series = {IPSN '12},
+ year = {2012},
+ month = {apr},
+ isbn = {978-1-4503-1227-1},
+ location = {Beijing, China},
+ pages = {147--148},
+ numpages = {2},
+ url = {http://doi.acm.org/10.1145/2185677.2185721},
+ doi = {10.1145/2185677.2185721},
+ acmid = {2185721},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {bus protocols, low power, smart dust},
+	abstract = {In this work we expose the challenges of interfacing both conventional and new
+		systems with an extremely resource constrained platform. We find that even when
+			attempts are made to utilize an industry standard protocol (I2C), necessary
+			protocol modifications for ultra-low power design means that interfacing remains
+			non-trivial.
+
+			We present a functional 0.4mm~x~0.8mm ARM Cortex~M0 with 3KB of RAM, 24~GPIOs,
+			and an ultra-low power I2C interface. This chip is part of the Michigan Micro
+			Mote (M3) project, which is designed to build a complete software and hardware
+			platform for general purpose sensing at the millimeter scale. We demo an I2C
+			interface circuit allowing commercial hardware to program and interact with the
+			chip and present the beginning of the millimeter scale sensing revolution.
+	},
+	conference-url = {\url{http://ipsn.acm.org/2012/poster.html}},
+}
