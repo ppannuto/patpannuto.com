@@ -3,6 +3,30 @@
 
 <div class="row talk" markdown="1">
 <div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
+[![Title Slide](/talks/vlcs14_thumb.jpg "System Architecture Directions for a Software-Defined Lighting Infrastructure")](/talks/vlcs14.pdf)
+</div>
+<div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
+### System Architecture Directions for a Software-Defined Lighting Infrastructure, [1st ACM Workshop on Visible Light Communication Systems][vlcs14]
+
+[VLCS'14][vlcs14] was a new workshop attached to [MobiCom'14][mobicom14]. This
+talk presented our initial research into the design of Software-Defined
+Lighting (SDL), in particular looking at the diversity of applications already
+created and coming down the pipe and looking at ways of mapping all of these
+applications to a single, unified lighting network. A copy of the workshop
+[paper](http://lab11.eecs.umich.edu/content/pubs/kuo14vlc_arch.pdf) is also
+available.
+
+[vlcs14]: http://archive.networks.rice.edu/VLCS-2014/index.html
+[mobicom14]: http://www.sigmobile.org/mobicom/2014/
+
+<a href="/talks/vlcs14.pptx">[pptx]</a>
+<a href="/talks/vlcs14.pdf">[pdf]</a>
+<a href="http://lab11.eecs.umich.edu/content/pubs/kuo14vlc_arch.pdf">[paper]</a>
+</div>
+</div>
+
+<div class="row talk" markdown="1">
+<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
 [![Title Slide](/talks/stanford-IoT14_thumb.jpg "Embedded System Design and the Internet of Things")](/talks/stanford-IoT14.pdf)
 </div>
 <div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
