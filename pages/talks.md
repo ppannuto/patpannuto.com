@@ -103,3 +103,30 @@ hackers, so the goal of the talk was to dive into the internals of
 Chacon, [available here](https://github.com/schacon/git-presentations).
 
 <a href="https://www.youtube.com/watch?v=clsnIPDlMrw">[youtube]</a>
+
+2011
+====
+
+<div class="row talk" markdown="1">
+<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
+[![Title Slide](/talks/plc2_thumb.jpg "Exploring Powerline Networking for the Smart Building")](/talks/plc2.pdf)
+</div>
+<div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
+### Exploring Powerline Network for the Smart Building, [IP+SN 2011](http://hinrg.cs.jhu.edu/ip+sn2011/)
+
+[IP+SN 2011](http://hinrg.cs.jhu.edu/ip+sn2011/) was a workshop attached to
+the [IPSN 2011](http://ipsn.acm.org/2011/) conference in downtown Chicago. I
+attended this workshop as an undergraduate, presenting some of the first
+research I ever worked on. The impetus for the work was trying to reconcile
+the cognitive dissonance of using wireless as the medium to connect AC power
+meters, devices that are literally wired together already. The result was that
+powerline networking is not as trivial as I'd hoped, with a fairly
+non-intuitive connectivity graph. The takeaway was that hybrid routing,
+leveraging the physically long hops provided by powerline communication and
+using wireless to bridge disjoint powerline networks, would likely provide the
+most efficient building-wide network.
+
+<a href="/talks/plc2.odp">[odp]</a>
+<a href="/talks/plc2.pdf">[pdf]</a>
+</div>
+</div>
