@@ -112,7 +112,7 @@ Chacon, [available here](https://github.com/schacon/git-presentations).
 [![Title Slide](/talks/plc2_thumb.jpg "Exploring Powerline Networking for the Smart Building")](/talks/plc2.pdf)
 </div>
 <div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
-### Exploring Powerline Network for the Smart Building, [IP+SN 2011](http://hinrg.cs.jhu.edu/ip+sn2011/)
+### Exploring Powerline Networking for the Smart Building, [IP+SN 2011](http://hinrg.cs.jhu.edu/ip+sn2011/)
 
 [IP+SN 2011](http://hinrg.cs.jhu.edu/ip+sn2011/) was a workshop attached to
 the [IPSN 2011](http://ipsn.acm.org/2011/) conference in downtown Chicago. I
