@@ -91,6 +91,11 @@ was focused heavily on [MBus](http://mbus.io/).
 2012
 ====
 
+<div class="row talk" markdown="1">
+<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
+[![Title Slide](/talks/intro_git_thumb.jpg "Introduction to Git by Scott Chacon")](https://github.com/schacon/git-presentations/tree/master/basic_git_talk)
+</div>
+<div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
 ### Introduction to Git, [Michigan Hackers](http://michiganhackers.org/)
 
 The Michigan Hackers are a student group at the University of Michigan who
@@ -103,6 +108,9 @@ hackers, so the goal of the talk was to dive into the internals of
 Chacon, [available here](https://github.com/schacon/git-presentations).
 
 <a href="https://www.youtube.com/watch?v=clsnIPDlMrw">[youtube]</a>
+<a href="https://github.com/schacon/git-presentations/tree/master/basic_git_talk">[slides <i class="fa fa-external-link"></i>]</a>
+</div>
+</div>
 
 2011
 ====
