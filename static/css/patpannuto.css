@@ -40,4 +40,6 @@ body {
 
 .talk img {
 	width: 100%;
+	padding: 2px;
+	border: 2px solid black;
 }
