@@ -128,5 +128,6 @@ most efficient building-wide network.
 
 <a href="/talks/plc2.odp">[odp]</a>
 <a href="/talks/plc2.pdf">[pdf]</a>
+<a href="http://lab11.eecs.umich.edu/content/pubs/pannuto11plc.pdf">[paper]</a>
 </div>
 </div>
