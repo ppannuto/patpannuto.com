@@ -57,6 +57,10 @@
       \step[fieldsource=acceptance-accepted]
       \step[fieldset=userc,append=true,origfieldval]
     }
+    \map{
+      \step[fieldsource=extra]
+      \step[fieldset=userd,origfieldval]
+    }
   }
 }
 
@@ -74,7 +78,12 @@
     }{%
       \space Acceptance:%
       \space\printfield{userb}~/~\printfield{usera}%
-      \space(\printfield{userc})
+      \space(\printfield{userc}).
+    }
+    \iffieldundef{userd}{%
+      %
+    }{%
+      \textbf{\color{red}\printfield{userd}.}
     }
   }
 }
