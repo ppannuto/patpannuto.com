@@ -13,3 +13,5 @@
 *.lg
 *.tmp
 *.xref
+*.bcf
+*.xml

@@ -1,14 +1,24 @@
 \documentclass{article}
 \usepackage[margin=1in]{geometry}
 
+\usepackage[%
+  backend=biber,
+  style=numeric,
+  minnames=15,
+  maxnames=25,
+  defernumbers=true,
+]{biblatex}
+
 \usepackage{bold-extra}   % Provides bf+sc (only in textbf+textsc env.)
+\usepackage{calc}         % Do math in tex (used for percent calculation)
 \usepackage{comment}      % Provides \begin,\end{comment} for large blocks
 \usepackage[protrusion=true,expansion=true,kerning,spacing]{microtype} % better type, spacing
-\usepackage[labeled,resetlabels]{multibib}
 \usepackage{tabularx}     % Complicated table creation
 \usepackage[sc]{titlesec}
 \usepackage{url}          % Pretty printing of hyperlinks
 \usepackage[usenames,dvipsnames,svgnames]{xcolor} % Allow the use and definition of colors
+\usepackage{xparse}       % For doing math (acceptance percentage in particular)
+\usepackage{xstring}
 
 % The hyperref package must loaded last. Can conflict with some packages, see:
 % README ( http://ctan.mackichan.com/macros/latex/contrib/hyperref/README.pdf )
@@ -22,15 +32,55 @@
 % Don't typset URLs in tt font
 \urlstyle{same}
 
-\newcites{J,C,W,PD}%
-  {%
-    Journal Publications,%
-    Conference Publications,%
-    Workshop Publications,%
-    Posters and Demos
+\addbibresource{journal.bib}
+\addbibresource{conf.bib}
+\addbibresource{workshop.bib}
+\addbibresource{posterdemo.bib}
+
+% Custom bibtex keys, from
+% http://tex.stackexchange.com/questions/111846/biblatex-2-custom-fields-only-one-is-working
+\DeclareSourcemap{
+  \maps[datatype=bibtex,overwrite=true]{
+    \map{
+      \step[fieldsource=acceptance-total]
+      \step[fieldset=usera,origfieldval]
+    }
+    \map{
+      \step[fieldsource=acceptance-accepted]
+      \step[fieldset=userb,origfieldval]
+    }
+    \map{
+      \step[fieldsource=acceptance-total]
+      \step[fieldset=acceptance-accepted,append=true,fieldvalue=/]
+      \step[fieldset=acceptance-accepted,append=true,origfieldval]
+      \step[fieldsource=acceptance-accepted]
+      \step[fieldset=userc,append=true,origfieldval]
+    }
   }
+}
+
+\ExplSyntaxOn
+\NewDocumentCommand{\myMathFunction}{m}
+{ \fp_eval:n {round((#1)*100)} }
+\ExplSyntaxOff
+
+\DeclareFieldFormat{userc}{\myMathFunction{#1}\%}
+
+\AtEveryBibitem{%
+  \csappto{blx@bbx@\thefield{entrytype}}{% put at end of entry
+    \iffieldundef{usera}{%
+%    \space \textbf{No annotation!}}{%
+    }{%
+      \space Acceptance:%
+      \space\printfield{userb}\space/\space\printfield{usera}%
+      \space(\printfield{userc})
+    }
+  }
+}
 
 \begin{document}
+
+\nocite{*}
 
 \begin{table}
   \centering
@@ -109,20 +159,13 @@
 
 \end{itemize}
 
-\nociteJ{*}
-\nociteC{*}
-\nociteW{*}
-\nocitePD{*}
+% multibib style labels with biblatex, from
+% http://tex.stackexchange.com/questions/29780/
+\printbibliography[keyword=journal,heading=subbibliography,title={\Large Journal Publications},prefixnumbers={J}]
+\printbibliography[keyword=conf,heading=subbibliography,title={\Large Conference Publications},prefixnumbers={C}]
+\printbibliography[keyword=workshop,heading=subbibliography,title={\Large Workshop Publications},prefixnumbers={W}]
+\printbibliography[keyword=posterdemo,heading=subbibliography,title={\Large Posters and Demos},prefixnumbers={PD}]
 
-\bibliographystyleJ{unsrt}
-\bibliographystyleC{unsrt}
-\bibliographystyleW{unsrt}
-\bibliographystylePD{unsrt}
-
-\bibliographyJ{journal}
-\bibliographyC{conf}
-\bibliographyW{workshop}
-\bibliographyPD{posterdemo}
 
 %{\bf {\em Talks and Lectures}}
 %
