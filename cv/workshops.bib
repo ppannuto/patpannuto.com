@@ -1,0 +1,133 @@
+@inproceedings{kempke14harmonia,
+  keywords={workshop},
+  author = {Kempke, Benjamin and {\bf Pannuto}, {\bf Pat} and Dutta, Prabal},
+  title = {Harmonia: Wideband Spreading for Accurate Indoor {RF} Localization},
+  booktitle = {2014 ACM Workshop on Hot Topics in Wireless},
+  series = {HotWireless '14},
+  year = {2014},
+  month = {September},
+  location = {Maui, Hawaii, USA},
+  abstract = {We introduce {\em Harmonia}, a new RF-based localization scheme
+		that provides the simplicity, cost, and power advantages of
+		  traditional narrowband radios with the decimeter-scale
+		  accuracy of ultra wideband localization techniques. Harmonia is
+		  an asymmetric {\em tag} and {\em anchor} system, requiring
+		  minimal modifications to existing low-power wireless devices
+		  to support high-fidelity localization with comparatively
+		  modest infrastructure costs.  A prototype Harmonia design offers
+		  location estimates with an average-case error of 53.4~cm in
+		  complex, heavy-multipath, indoor environments and captures
+		  location estimates at 56~Hz while requiring only 1.7~mA
+		  additional power draw for each tag and complying with all
+		  US~UWB regulations.  We believe this architecture's
+		  combination of accuracy, update rate, power draw, and system
+		  complexity will lead to a new point in the design space.
+  },
+  conference-url = {\url{http://hotwireless.cs.umass.edu/}},
+}
+
+@inproceedings{kuo14vlc_arch,
+  keywords={workshop},
+  author = {Kuo, Ye-Sheng and {\bf Pannuto}, {\bf Pat} and Dutta, Prabal},
+  title = {System Architecture Directions for a Software-Defined Lighting Infrastructure},
+  booktitle = {1st ACM Workshop on Visible Light Communication Systems},
+  series = {VLCS '14},
+  year = {2014},
+  month = {September},
+  location = {Maui, Hawaii, USA},
+  abstract = {After years of development, cost-effective, energy-efficient, and
+  long-lasting solid-state lighting technology is finally a viable alternative
+  to incandescent and fluorescent lights.  Unfortunately, the remarkable march
+  of semiconductor technology into the lighting industry is almost entirely in
+  the form of a substitute good---one kind of lighting technology that replaces
+  another---but this, we argue, squanders a unique opportunity for lighting to
+  enable a bevy of new applications.  In this paper, we discuss applications in
+  health, energy efficiency, entertainment, communications, indoor positioning,
+  device configuration, and time synchronization.  We then prototype several of
+  the indoor applications to explore a {\em software-defined lighting} (SDL)
+  architecture that could support them.
+
+  Using our prototyped applications, we next take a primitive stab at
+  demonstrating application coexistence, multiplexing multiple applications on
+  a single lighting network.  A major question raised by this effort is how to
+  multiplex these various applications in a more principled manner on a shared
+  lighting infrastructure whose primary role is illumination (implying that any
+  human-perceptible flicker or flashing will be unacceptable).
+  Looking ahead, we draw inspiration from software-defined networking's
+  approach to sharing the network, and software-defined radios' approach to
+  processing waveforms, to sketch the beginnings of an SDL architecture and its
+  application programming interfaces.
+  },
+  conference-url = {\url{http://www.networks.rice.edu/VLCS-2014/}},
+}
+
+@inproceedings{klugman14gridwatch,
+  keywords={workshop},
+ author = {Klugman, Noah and Rosa, Javier and {\bf Pannuto}, {\bf Pat} and Podolsky, Matthew and Huang, William and Dutta, Prabal},
+ title = {{Grid Watch}: Mapping Blackouts with Smart Phones},
+ booktitle = {Proceedings of the 15th Workshop on Mobile Computing Systems and Applications},
+ series = {HotMobile '14},
+ year = {2014},
+ month = {Feb},
+ location = {Santa Barbara, California},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ abstract = {The power grid is one of humanity's most significant engineering
+	 undertakings and it is essential in developed and developing nations
+		 alike.  Currently, transparency into the power grid relies on
+		 utility companies and more fine-grained insight is provided by
+		 costly smart meter deployments. We claim that greater
+		 visibility into power grid conditions can be provided in an
+		 inexpensive and crowd-sourced manner independent of utility
+		 companies by leveraging existing smartphones.  Our key insight
+		 is that an unmodified smartphone can detect power outages by
+		 monitoring changes to its own power state, locally verifying
+		 these outages using a variety of sensors that reduce the
+		 likelihood of false power outage reports, and corroborating
+		 actual reports with other phones through data aggregation in
+		 the cloud.  The proposed approach enables a decentralized
+		 system that can scale, potentially providing researchers and
+		 concerned citizens with a powerful new tool to analyze the
+		 power grid and hold utility companies accountable for poor
+		 power quality.  This paper demonstrates the viability of the
+		 basic idea, identifies a number of challenges that are
+		 specific to this application as well as ones that are common
+		 to many crowd-sourced applications, and highlights some
+		 improvements to smartphone operating systems that could better
+		 support such applications in the future.},
+ conference-url = {\url{http://www.hotmobile.org/2014/}},
+}
+
+@inproceedings{pannuto11plc,
+	keywords={workshop},
+	author={{\bf Pannuto}, {\bf Pat} and Dutta, Prabal},
+	title={Exploring Powerline Networking for the Smart Building},
+	booktitle = {Extending the Internet to Low power and Lossy Networks},
+	series = {IP+SN '11},
+	year = {2011},
+	month = {April},
+	location = {Chicago, Illinois, USA},
+	conference-url = {\url{http://hinrg.cs.jhu.edu/ip+sn2011/}},
+	abstract = {
+		The SmartGrid is ushering in an era of new IP endpoints that already
+		reside on the power grid today, but lack network connectivity.  Many
+		of these endpoints -- refrigerators, air conditioners, and power
+		strips -- will be networked wirelessly.  However, since they already
+		exist on the power grid, a natural question is whether they might be
+		networked over the same wires that supply their power.  Such an
+		approach would allow SmartGrid sensors to vacate increasingly
+		congested spectrum and allow information to flow along the same path
+		as power, perhaps simplifying deployment in the short term and deep
+		demand response in the long term.
+		In this paper we explore the current state of Powerline Communications
+		(PLC) and explore the efficacy of PLC as a sensor network backbone in
+		a modern building.  We evaluate several different PLC modems in both
+		end-to-end and multi-hop configurations.  We further analyze building
+		blueprints to identify and correlate several PLC ``disruptors'' --
+		building facets that inhibit PLC.  Our preliminary results show that
+		PLC is a promising technology for networking sensors in the Smart
+		Building.  However, a number of anomalies suggest a more in-depth
+		study is warranted.
+	},
+}
+

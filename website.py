@@ -8,11 +8,14 @@ import jinja2 as jinja
 import markdown
 
 import logger
+import publications
 
 jinja_env = jinja.Environment(loader=jinja.FileSystemLoader('templates'))
 
 header_tmpl = jinja_env.get_template('header.html')
 footer_tmpl = jinja_env.get_template('footer.html')
+
+pubs_groups   = publications.init(jinja_env)
 
 mkdir('-p', 'html')
 
@@ -26,6 +29,9 @@ def md_to_html(path, md_file):
 for md in os.listdir('pages'):
 	if md[-3:] == '.md':
 		md_to_html('pages', md)
+
+logger.info('Building publications database...')
+publications.generate_publications_page(pubs_groups, jinja_env)
 
 # Put all static content in the html folder
 logger.info('Copying static content...')

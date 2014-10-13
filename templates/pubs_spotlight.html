@@ -1,0 +1,8 @@
+<a href="/publications.html#{{ bibkey }}" class="list-group-item">
+	<h4 class="list-group-item-heading">{{ pub['title-html'] }}</h4>
+	<p class="list-group-item-text">
+		{% if 'booktitle' in pub %}
+		<span class="conference">{{ pub['booktitle-html'] }}</span>
+		{% endif %}
+	</p>
+</a>

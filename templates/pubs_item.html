@@ -1,0 +1,82 @@
+<li class="pub_type_{{ pub['type'] }}">
+<div class="timeline-badge timeline-badge-{{ pub['badge'] }}">{{ pub['badge'] }}</div>
+<div id="{{ bibkey }}" class="timeline-panel pub_entry">
+	{% if new %}
+	<span class="label label-success">New</span>
+	{% endif %}
+	<span class="bib_title">
+		<a id="{{ bibkey }}-title" href="{{ paths['pdf'] }}">{{ pub['title-html'] }}</a>
+	</span> <br />
+	{% if pub['publish-on'] %}
+	<div class="well pub_prepub" style="display: none;" id="{{ bibkey }}-prepubXXX{{ pub['publish-on'] }}">
+		<p>Due to restrictions imposed by the venue, this paper is not currently available.
+		We apologize for the inconvenience. We encourage interested persons to contact the
+		authors for more information about this work.</p>
+		<p>This paper will be available on {{ pub['publish-on'] }}.</p>
+	</div>
+	{% endif %}
+	<span class="bib_authors">{{ pub['authors-html'] }}</span><br />
+	{% if 'booktitle' in pub %}
+	<span class="bib_conference">{{ pub['booktitle-html'] }}</span><br />
+	{% endif %}
+	<span class="pubs_links">
+		{% if 'pdf' in paths %}
+		<a id="{{ bibkey }}-link" href="{{ paths['pdf'] }}">[{{ pub['display-type'] }}]</a>
+		{% endif %}
+		{% if 'video-url' in pub %}
+		<a href="{{ pub['video-url'] }}" target="_blank">[video <i class="fa fa-external-link"></i>]</a>
+		{% endif %}
+		{% if 'bibtex' in hiddens %}
+		<a id="bib_XXXatag_{{ bibkey }}" class="pub_bibtex">[bibtex]</a>
+		{% endif %}
+		{% if 'abstract' in hiddens %}
+		<a id="abstract_XXXatag_{{ bibkey }}" class="pub_abstract">[abstract]</a>
+		{% endif %}
+		{% if 'tex_source' in paths %}
+		<a href="{{ paths['tex_source'] }}">[tex_source]</a>
+		{% endif %}
+		{% if 'conference-url' in pub %}
+		{% if 'acceptance-percent' in pub %}
+		<a href="{{ pub['conference-url'] }}" title="Acceptance: {{ pub['acceptance-accepted'] }} / {{ pub['acceptance-total'] }} ({{ '{0:.0f}%'.format(pub['acceptance-percent']) }})">[conference]</a>
+		{% else %}
+		<a href="{{ pub['conference-url'] }}">[conference]</a>
+		{% endif %}
+		{% endif %}
+		{% if 'url' in pub %}
+		<a href="{{ pub['url'] }}">[doi]</a>
+		{% endif %}
+	</span>
+	{% if 'extra' in pub %}
+	<span class="bib_extra">{{ pub['extra'] }}</span>
+	{% endif %}
+	<br />
+
+	{% if 'bibtex' in hiddens %}
+	<div id="bib_{{ bibkey }}" style="display: none;">
+		<pre>{{ hiddens['bibtex'] }}</pre>
+	</div>
+	{% endif %}
+	{% if 'abstract' in hiddens %}
+	<div id="abstract_{{ bibkey }}" class="panel panel-default" style="display: none;">
+		<div class="panel-body">
+		<div id="abstract_{{ bibkey }}_raw" style="display: none;">
+			<pre>{{ hiddens['abstract'] }}</pre>
+			<p style="font-style: italic;">
+				<a id="abstract_{{ bibkey }}_raw_a" class="pub_abstract_raw">
+					Content has been formatted as TeX source. Click to format for web.
+				</a>
+			</p>
+		</div>
+		<div id="abstract_{{ bibkey }}_html">
+			<p>{{ hiddens['abstract_html'] }}</p>
+			<p style="font-style: italic;">
+				<a id="abstract_{{ bibkey }}_html_a" class="pub_abstract_html">
+					Content has been formatted for web. Click to view raw TeX
+				</a>
+			</p>
+		</div>
+		</div>
+	</div>
+	{% endif %}
+</div>
+</li>

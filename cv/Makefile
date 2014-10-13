@@ -1,6 +1,6 @@
 all: pannuto.pdf
 
-pannuto.pdf: pannuto.tex conf.bib workshop.bib posterdemo.bib
+pannuto.pdf: pannuto.tex conferences.bib workshops.bib journals.bib posterdemo.bib
 	pdflatex pannuto.tex
 	biber pannuto
 	pdflatex pannuto.tex
