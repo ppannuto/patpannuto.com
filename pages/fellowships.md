@@ -1,8 +1,5 @@
-Miscellaneous
-=============
-
 Fellowships
------------
+=============
 
 The single most useful piece of advice I was ever given for fellowship essays:
 > These are not literature, don't write like it.

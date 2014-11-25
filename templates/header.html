@@ -52,7 +52,7 @@
 					<a class="navbar-brand hidden-xs hidden-sm" target="_blank" href="http://instagram.com/ppannuto/">
 						<i class="fa fa-instagram"></i>
 					</a>
-					<a class="navbar-brand hidden-xs hidden-sm" target="_blank" href="https://foursquare.com/user/1752675">
+					<a class="navbar-brand hidden-xs hidden-sm hidden-md" target="_blank" href="https://foursquare.com/user/1752675">
 						<i class="fa fa-foursquare"></i>
 					</a>
 					<a class="navbar-brand hidden-xs">|</a>
@@ -65,7 +65,7 @@
 					<a class="navbar-brand hidden-xs hidden-sm" target="_blank" href="https://bitbucket.org/ppannuto">
 						<i class="fa fa-bitbucket"></i>
 					</a>
-					<a class="navbar-brand hidden-xs hidden-sm" target="_blank" href="https://www.gittip.com/ppannuto/">
+					<a class="navbar-brand hidden-xs hidden-sm hidden-md" target="_blank" href="https://www.gittip.com/ppannuto/">
 						<i class="fa fa-gittip"></i>
 					</a>
 					<a class="navbar-brand hidden-xs">|</a>
@@ -80,12 +80,13 @@
 					<li class="hidden-sm" {% if active_page == 'index' %}class="active"{% endif %}><a href="/index.html">Home</a></li>
 					<!--<li {% if active_page == 'cv' %}class="active"{% endif %}><a href="/cv.html">CV</a></li>-->
 					<li><a href="/cv/pannuto.pdf">CV <i class="fa fa-file-pdf-o"></i></a></li>
-					<li {% if active_page == 'pubs' %}class="active"{% endif %}><a href="/publications.html">Publications</a></li>
+					<li class="hidden-sm" {% if active_page == 'pubs' %}class="active"{% endif %}><a href="/publications.html">Publications</a></li>
+					<li class="hidden-lg hidden-md hidden-xs" {% if active_page == 'pubs' %}class="active"{% endif %}><a href="/publications.html">Pubs.</a></li>
 					<li class="hidden-sm" {% if active_page == 'conferences' %}class="active"{% endif %}><a href="/conferences.html">Conferences</a></li>
 					<li class="hidden-lg hidden-md hidden-xs" {% if active_page == 'conferences' %}class="active"{% endif %}><a href="/conferences.html">Conf.</a></li>
 					<li {% if active_page == 'talks' %}class="active"{% endif %}><a href="/talks.html">Talks</a></li>
 					<li {% if active_page == 'teaching' %}class="active"{% endif %}><a href="/teaching.html">Teaching</a></li>
-					<li {% if active_page == 'misc' %}class="active"{% endif %}><a href="/misc.html">Misc</a></li>
+					<li {% if active_page == 'fellowships' %}class="active"{% endif %}><a href="/fellowships.html">Fellowships</a></li>
 				</ul>
 			</div>
 		</div> <!-- container -->
