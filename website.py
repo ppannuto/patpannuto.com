@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.3
+#!/usr/bin/env python3
 # vim: set noet ts=4 sts=4 sw=4:
 
 import sys,os
