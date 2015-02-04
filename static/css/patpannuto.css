@@ -43,3 +43,7 @@ body {
 	padding: 2px;
 	border: 2px solid black;
 }
+
+:target {
+	background-color: #ffa;
+}
