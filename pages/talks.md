@@ -1,7 +1,7 @@
 2015
 ====
 
-<div class="row talk" markdown="1">
+<div class="row talk" id="techchange15" markdown="1">
 <div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
 [![Title Slide](/talks/techchange15_thumb.jpg "Sensor Systems and the Art of Effectively Deploying Sensor Networks")](/talks/techchange15.pdf)
 </div>
@@ -30,7 +30,7 @@ at the [Center for Effective Global Action (CEGA)](http://cega.berkeley.edu/).
 2014
 ====
 
-<div class="row talk" markdown="1">
+<div class="row talk" id="vlcs14" markdown="1">
 <div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
 [![Title Slide](/talks/vlcs14_thumb.jpg "System Architecture Directions for a Software-Defined Lighting Infrastructure")](/talks/vlcs14.pdf)
 </div>
@@ -56,7 +56,7 @@ available.
 </div>
 </div>
 
-<div class="row talk" markdown="1">
+<div class="row talk" id="stanford-IoT14" markdown="1">
 <div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
 [![Title Slide](/talks/stanford-IoT14_thumb.jpg "Embedded System Design and the Internet of Things")](/talks/stanford-IoT14.pdf)
 </div>
@@ -78,7 +78,7 @@ systems, all with an eye towards security.
 </div>
 </div>
 
-<div class="row talk" markdown="1">
+<div class="row talk" id="dil14-pannuto" markdown="1">
 <div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
 [![Title Slide](/talks/dil14-pannuto_thumb.jpg "Sensing Technologies for Data Collection and Monitoring")](/talks/dil14-pannuto.pdf)
 </div>
@@ -105,7 +105,7 @@ the area and what kinds of interesting systems are coming down the pipe.
 2013
 ====
 
-<div class="row talk" markdown="1">
+<div class="row talk" id="terraswarm13-mbus-trenches" markdown="1">
 <div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
 [![Title Slide](/talks/terraswarm13-mbus-trenches_thumb.jpg "Sensing Technologies for Data Collection and Monitoring")](/talks/terraswarm13-mbus-trenches.pdf)
 </div>
@@ -128,7 +128,7 @@ was focused heavily on [MBus](http://mbus.io/).
 2012
 ====
 
-<div class="row talk" markdown="1">
+<div class="row talk" "intro_git" markdown="1">
 <div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
 [![Title Slide](/talks/intro_git_thumb.jpg "Introduction to Git by Scott Chacon")](https://github.com/schacon/git-presentations/tree/master/basic_git_talk)
 </div>
@@ -154,9 +154,9 @@ Chacon, [available here](https://github.com/schacon/git-presentations).
 2011
 ====
 
-<div class="row talk" markdown="1">
+<div class="row talk" id="pannuto11plc" markdown="1">
 <div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
-[![Title Slide](/talks/plc2_thumb.jpg "Exploring Powerline Networking for the Smart Building")](/talks/plc2.pdf)
+[![Title Slide](/talks/pannuto11plc_thumb.jpg "Exploring Powerline Networking for the Smart Building")](/talks/pannuto11plc.pdf)
 </div>
 <div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
 
@@ -174,8 +174,8 @@ leveraging the physically long hops provided by powerline communication and
 using wireless to bridge disjoint powerline networks, would likely provide the
 most efficient building-wide network.
 
-<a href="/talks/plc2.odp">[odp]</a>
-<a href="/talks/plc2.pdf">[pdf]</a>
+<a href="/talks/pannuto11plc.odp">[odp]</a>
+<a href="/talks/pannuto11plc.pdf">[pdf]</a>
 <a href="http://lab11.eecs.umich.edu/content/pubs/pannuto11plc.pdf">[paper]</a>
 
 </div>

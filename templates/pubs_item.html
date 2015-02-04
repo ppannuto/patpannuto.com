@@ -23,6 +23,9 @@
 		{% if 'pdf' in paths %}
 		<a id="{{ bibkey }}-link" href="{{ paths['pdf'] }}">[{{ pub['display-type'] }}]</a>
 		{% endif %}
+		{% if 'talk' in paths %}
+		<a id="{{ bibkey }}-talk" href="{{ paths['talk'] }}">[talk]</a>
+		{% endif %}
 		{% if 'video-url' in pub %}
 		<a href="{{ pub['video-url'] }}" target="_blank">[video <i class="fa fa-external-link"></i>]</a>
 		{% endif %}

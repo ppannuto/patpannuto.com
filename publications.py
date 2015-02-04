@@ -273,6 +273,17 @@ class Paper ():
 				self.missing_zip = False
 				break
 
+		# Grab a ref to the talk if it exists
+		if 'series' in entry.fields:
+			series_short = entry.fields['series'].lower().replace(' ', '').replace("'", '')
+			if os.path.exists(os.path.join('static', 'talks', series_short+'.pdf')):
+				# talk named after conference
+				self.paths['talk'] = '/talks.html#{}'.format(series_short)
+		if 'talk' not in self.paths:
+			if os.path.exists(os.path.join('static', 'talks', bibkey+'.pdf')):
+				# talk named after bibkey
+				self.paths['talk'] = '/talks.html#{}'.format(bibkey)
+
 		# Possibly remove \url{} from the url entry if needed
 		try:
 			if entry.fields['conference-url'][0:5] == '\\url{':
