@@ -6,6 +6,7 @@
 [![Title Slide](/talks/vlcs14_thumb.jpg "System Architecture Directions for a Software-Defined Lighting Infrastructure")](/talks/vlcs14.pdf)
 </div>
 <div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
+
 ### System Architecture Directions for a Software-Defined Lighting Infrastructure, [1st ACM Workshop on Visible Light Communication Systems][vlcs14]
 
 [VLCS'14][vlcs14] was a new workshop attached to [MobiCom'14][mobicom14]. This
@@ -22,6 +23,7 @@ available.
 <a href="/talks/vlcs14.pptx">[pptx]</a>
 <a href="/talks/vlcs14.pdf">[pdf]</a>
 <a href="http://lab11.eecs.umich.edu/content/pubs/kuo14vlc_arch.pdf">[paper]</a>
+
 </div>
 </div>
 
@@ -30,6 +32,7 @@ available.
 [![Title Slide](/talks/stanford-IoT14_thumb.jpg "Embedded System Design and the Internet of Things")](/talks/stanford-IoT14.pdf)
 </div>
 <div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
+
 ### Embedded System Design and the Internet of Things, [Stanford Internet of Things Industrial Research Program](http://iot.stanford.edu/workshop14.html)
 
 The workshop was a kickoff for the Stanford Internet of Things Industrial
@@ -42,6 +45,7 @@ systems, all with an eye towards security.
 
 <a href="/talks/stanford-IoT14.pptx">[pptx]</a>
 <a href="/talks/stanford-IoT14.pdf">[pdf]</a>
+
 </div>
 </div>
 
@@ -50,6 +54,7 @@ systems, all with an eye towards security.
 [![Title Slide](/talks/dil14-pannuto_thumb.jpg "Sensing Technologies for Data Collection and Monitoring")](/talks/dil14-pannuto.pdf)
 </div>
 <div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
+
 ### Sensing Technologies for Data Collection and Monitoring, [State of the Science](http://dil.berkeley.edu/stateofthescience/)
 
 The State of the Science conference put on by [DIL](http://dil.berkeley.edu/),
@@ -63,6 +68,7 @@ the area and what kinds of interesting systems are coming down the pipe.
 <a href="/talks/dil14-pannuto.pptx">[pptx]</a>
 <a href="/talks/dil14-pannuto.pdf">[pdf]</a>
 <a href="http://www.youtube.com/watch?v=cDx0_ybpSFE">[youtube]</a>
+
 </div>
 </div>
 
@@ -75,6 +81,7 @@ the area and what kinds of interesting systems are coming down the pipe.
 [![Title Slide](/talks/terraswarm13-mbus-trenches_thumb.jpg "Sensing Technologies for Data Collection and Monitoring")](/talks/terraswarm13-mbus-trenches.pdf)
 </div>
 <div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
+
 ### MBus: Enabling the Next Generation of Sensors and Systems, [Terraswarm Annual Meeting](http://www.terraswarm.org/conferences/13/annual/index.htm)
 
 The [TerraSwarm Research Center](http://www.terraswarm.org/) holds an annual
@@ -84,6 +91,7 @@ was focused heavily on [MBus](http://mbus.io/).
 
 <a href="/talks/terraswarm13-mbus-trenches.pptx">[pptx]</a>
 <a href="/talks/terraswarm13-mbus-trenches.pdf">[pdf]</a>
+
 </div>
 </div>
 
@@ -96,6 +104,7 @@ was focused heavily on [MBus](http://mbus.io/).
 [![Title Slide](/talks/intro_git_thumb.jpg "Introduction to Git by Scott Chacon")](https://github.com/schacon/git-presentations/tree/master/basic_git_talk)
 </div>
 <div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
+
 ### Introduction to Git, [Michigan Hackers](http://michiganhackers.org/)
 
 The Michigan Hackers are a student group at the University of Michigan who
@@ -109,6 +118,7 @@ Chacon, [available here](https://github.com/schacon/git-presentations).
 
 <a href="https://www.youtube.com/watch?v=clsnIPDlMrw">[youtube]</a>
 <a href="https://github.com/schacon/git-presentations/tree/master/basic_git_talk">[slides <i class="fa fa-external-link"></i>]</a>
+
 </div>
 </div>
 
@@ -120,6 +130,7 @@ Chacon, [available here](https://github.com/schacon/git-presentations).
 [![Title Slide](/talks/plc2_thumb.jpg "Exploring Powerline Networking for the Smart Building")](/talks/plc2.pdf)
 </div>
 <div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
+
 ### Exploring Powerline Networking for the Smart Building, [IP+SN 2011](http://hinrg.cs.jhu.edu/ip+sn2011/)
 
 [IP+SN 2011](http://hinrg.cs.jhu.edu/ip+sn2011/) was a workshop attached to
@@ -137,5 +148,6 @@ most efficient building-wide network.
 <a href="/talks/plc2.odp">[odp]</a>
 <a href="/talks/plc2.pdf">[pdf]</a>
 <a href="http://lab11.eecs.umich.edu/content/pubs/pannuto11plc.pdf">[paper]</a>
+
 </div>
 </div>
