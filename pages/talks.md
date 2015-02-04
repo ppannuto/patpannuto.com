@@ -1,3 +1,32 @@
+2015
+====
+
+<div class="row talk" markdown="1">
+<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
+[![Title Slide](/talks/techchange15_thumb.jpg "Sensor Systems and the Art of Effectively Deploying Sensor Networks")](/talks/techchange15.pdf)
+</div>
+<div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
+
+### Sensor Systems and the Art of Effectively Deploying Sensor Networks, [TechChange TC111: Technology for Monitoring and Evaluation][tc111]
+
+[TC111][tc111] was a online course focusing on skills and strategies for
+collecting, managing, analyzing, and visualizing Information Communication
+Technologies put on by [TechChange][techchange]. I was asked to give a guest
+lecture on the capabilities and added value of sensor deployments as well as
+the challenges in recovering data from deployments, with a focus on how
+non-technical organizations can realize and utilize sensing. This presentation
+was in collaboration with [Guillaume Kroll](http://cega.berkeley.edu/staff/)
+at the [Center for Effective Global Action (CEGA)](http://cega.berkeley.edu/).
+
+[tc111]: https://docs.google.com/document/d/18FmiR_eUrfM2XlEceVUMaIMFBfU7YOyzoIrblUSf1kU/edit
+[techchange]: http://techchange.org/
+
+<a href="/talks/techchange15.pptx">[pptx]</a>
+<a href="/talks/techchange15.pdf">[pdf]</a>
+
+</div>
+</div>
+
 2014
 ====
 
