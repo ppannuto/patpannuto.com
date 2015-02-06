@@ -38,6 +38,19 @@ body {
 	}
 }
 
+.bib_title {
+	font-weight: bold;
+}
+
+.bib_conference {
+	font-style: italic;
+}
+
+.bib_extra {
+	font-weight: bold;
+	color: red;
+}
+
 .talk img {
 	width: 100%;
 	padding: 2px;
