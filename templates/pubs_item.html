@@ -19,6 +19,9 @@
 	{% if 'booktitle' in pub %}
 	<span class="bib_conference">{{ pub['booktitle-html'] }}</span><br />
 	{% endif %}
+	{% if 'journal' in pub %}
+	<span class="bib_conference">{{ pub['journal-html'] }}, {{ pub['volume'] }}({{ pub['number'] }})</span><br />
+	{% endif %}
 	<span class="pubs_links">
 		{% if 'pdf' in paths %}
 		<a id="{{ bibkey }}-link" href="{{ paths['pdf'] }}">[{{ pub['display-type'] }}]</a>

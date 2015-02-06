@@ -355,6 +355,22 @@ class Paper ():
 		except KeyError:
 			pass
 
+		if 'journal' in entry.fields:
+			entry.fields['journal-html'] = latex_to_html(entry.fields['journal'])
+			if 'series' in entry.fields:
+				series = latex_to_html(entry.fields['series'])
+				series = series.replace(' ', '&nbsp;')
+				entry.fields['journal-html'] += ' (' + series + ')'
+			if 'volume' not in entry.fields:
+				logger.error('{}: a volume key is required for journals'.format(bibkey))
+			if 'number' not in entry.fields:
+				logger.error('{}: a number key (issue) is required for journals'.format(bibkey))
+
+		if 'journal' in entry.fields and 'booktitle' in entry.fields:
+			logger.error('{} has a journal and booktitle entry.'.format(bibkey))
+			logger.error('This is probably not what your want.')
+
+
 		try:
 			entry.fields['acceptance-percent'] =\
 					float(entry.fields['acceptance-accepted']) /\
