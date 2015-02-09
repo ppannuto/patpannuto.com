@@ -128,7 +128,7 @@ was focused heavily on [MBus](http://mbus.io/).
 2012
 ====
 
-<div class="row talk" "intro_git" markdown="1">
+<div class="row talk" id="intro_git" markdown="1">
 <div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
 [![Title Slide](/talks/intro_git_thumb.jpg "Introduction to Git by Scott Chacon")](https://github.com/schacon/git-presentations/tree/master/basic_git_talk)
 </div>
@@ -150,6 +150,7 @@ Chacon, [available here](https://github.com/schacon/git-presentations).
 
 </div>
 </div>
+
 
 2011
 ====
