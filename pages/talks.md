@@ -43,7 +43,7 @@ talk presented our initial research into the design of Software-Defined
 Lighting (SDL), in particular looking at the diversity of applications already
 created and coming down the pipe and looking at ways of mapping all of these
 applications to a single, unified lighting network. A copy of the workshop
-[paper](http://lab11.eecs.umich.edu/content/pubs/kuo14vlc_arch.pdf) is also
+[paper](/publications.html#kuo14vlc_arch) is also
 available.
 
 [vlcs14]: http://archive.networks.rice.edu/VLCS-2014/index.html
@@ -51,7 +51,7 @@ available.
 
 <a href="/talks/vlcs14.pptx">[pptx]</a>
 <a href="/talks/vlcs14.pdf">[pdf]</a>
-<a href="http://lab11.eecs.umich.edu/content/pubs/kuo14vlc_arch.pdf">[paper]</a>
+<a href="/publications.html#kuo14vlc_arch">[paper]</a>
 
 </div>
 </div>
@@ -177,7 +177,7 @@ most efficient building-wide network.
 
 <a href="/talks/pannuto11plc.odp">[odp]</a>
 <a href="/talks/pannuto11plc.pdf">[pdf]</a>
-<a href="http://lab11.eecs.umich.edu/content/pubs/pannuto11plc.pdf">[paper]</a>
+<a href="/publications.html#pannuto11plc">[paper]</a>
 
 </div>
 </div>
