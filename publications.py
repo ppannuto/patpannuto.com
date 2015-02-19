@@ -133,6 +133,11 @@ def latex_to_html(latex):
 					h += '<em>'
 				elif cmd in ('bf',):
 					h += '<strong>'
+				elif cmd in ('textbf',):
+					if l is not '{':
+						raise NotImplementedError("Expected { after \\textbf")
+					h += '<strong>'
+					l = next(lg)
 				elif cmd == 'uA':
 					h += '&mu;A'
 				else:
@@ -148,7 +153,7 @@ def latex_to_html(latex):
 					raise
 				if cmd in ('em', 'emph'):
 					h += '</em>'
-				elif cmd in ('bf',):
+				elif cmd in ('bf', 'textbf'):
 					h += '</strong>'
 				elif cmd == 'uA':
 					h += '&mu;A'
