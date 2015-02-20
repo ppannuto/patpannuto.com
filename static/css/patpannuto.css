@@ -60,3 +60,9 @@ body {
 :target {
 	background-color: #ffa;
 }
+
+.timeline > li > .timeline-panel:target:after {
+	border-right: 14px solid #ffa;
+	border-left: 0 solid #ffa;
+}
+
