@@ -5,7 +5,11 @@
 	<span class="label label-success">New</span>
 	{% endif %}
 	<span class="bib_title">
+		{% if 'to-appear' in pub %}
+		<span class="label label-info">To Appear</span> {{ pub['title-html'] }}
+		{% else %}
 		<a id="{{ bibkey }}-title" href="{{ paths['pdf'] }}">{{ pub['title-html'] }}</a>
+		{% endif %}
 	</span> <br />
 	{% if pub['publish-on'] %}
 	<div class="well pub_prepub" style="display: none;" id="{{ bibkey }}-prepubXXX{{ pub['publish-on'] }}">

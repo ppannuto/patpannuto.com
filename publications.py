@@ -265,9 +265,12 @@ class Paper ():
 			cp(os.path.join('static', 'cv', bibkey + '.pdf'), LOCAL_CONTENT_DIR)
 			self.paths['pdf'] = os.path.join(CONTENT_DIR, bibkey + '.pdf')
 		else:
-			logger.critical_leader('Unable to find {}'.format(bibkey + '.pdf'))
-			logger.critical_leader('\tYou need to add a copy of your paper to the cv/ direcotry')
-			logger.critical('\tYour paper should be named the same as the key to the bib entry')
+			if entry.fields['to-appear'] == '1':
+				logger.warn('No PDF for "To Appear" paper {}'.format(bibkey))
+			else:
+				logger.critical_leader('Unable to find {}'.format(bibkey + '.pdf'))
+				logger.critical_leader('\tYou need to add a copy of your paper to the cv/ direcotry')
+				logger.critical('\tYour paper should be named the same as the key to the bib entry')
 
 		# Try to copy the paper source to the content directory
 		self.missing_zip = True
