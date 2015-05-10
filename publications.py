@@ -125,19 +125,16 @@ def latex_to_html(latex):
 				while l.isalpha():
 					cmd += l
 					l = next(lg)
+				if l == '{':
+					l = next(lg)
 				if len(cmd) == 0:
 					h += ' '
 					continue
 
 				if cmd in ('em', 'emph'):
 					h += '<em>'
-				elif cmd in ('bf',):
+				elif cmd in ('bf', 'textbf'):
 					h += '<strong>'
-				elif cmd in ('textbf',):
-					if l is not '{':
-						raise NotImplementedError("Expected { after \\textbf")
-					h += '<strong>'
-					l = next(lg)
 				elif cmd == 'uA':
 					h += '&mu;A'
 				else:
@@ -265,7 +262,7 @@ class Paper ():
 			cp(os.path.join('static', 'cv', bibkey + '.pdf'), LOCAL_CONTENT_DIR)
 			self.paths['pdf'] = os.path.join(CONTENT_DIR, bibkey + '.pdf')
 		else:
-			if entry.fields['to-appear'] == '1':
+			if 'to-appear' in entry.fields and entry.fields['to-appear'] == '1':
 				logger.warn('No PDF for "To Appear" paper {}'.format(bibkey))
 			else:
 				logger.critical_leader('Unable to find {}'.format(bibkey + '.pdf'))
