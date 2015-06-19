@@ -1,6 +1,37 @@
 2015
 ====
 
+<div class="row talk" id="warp15" markdown="1">
+<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
+[![Title Slide](/talks/pannuto15making-m3_thumb.jpg "Sensor Systems and the Art of Effectively Deploying Sensor Networks")](/talks/pannuto15making-m3.pdf)
+</div>
+<div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
+
+### Lessons from Five Years of Making Michigan Micro Motes (M<sup>3</sup>), [6th Workshop on Architectural Research Prototyping][warp15]
+[WARP'15][warp15] harkened the return of a workshop that had been on a
+five-year hiatus. The workshop seeks to both motivate the importance and value
+of actually building systems in the architecture community as well as to share
+lessons and experiences from fabrication. This talk begins by highlighting an
+architectural problem, the absence of an interconnect technology that is
+appropriate for mm-scale modules, and our solution to that issue: [MBus][mbus].
+The talk then covers a breadth of the system, manufacturing, and design issues
+that we have solved and are struggling with for the Michigan Micro Mote project.
+Finally, the talk closes with an introduction of an emerging issue in low-power
+system design, the need for an indirection layer for peripheral control and
+semi-automated operatations, and our solution to that issue, the MPQ protocol
+for MBus.
+
+[warp15]: http://www.csl.cornell.edu/warp2015/
+[isca15]: http://www.ece.cmu.edu/calcm/isca2015/
+[mbus]: http://mbus.io
+
+<a href="/talks/pannuto15making-m3.pptx">[pptx]</a>
+<a href="/talks/pannuto15making-m3.pdf">[pdf]</a>
+<a href="/publications.html#pannuto15makingM3">[paper]</a>
+
+</div>
+</div>
+
 <div class="row talk" id="techchange15" markdown="1">
 <div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
 [![Title Slide](/talks/techchange15_thumb.jpg "Sensor Systems and the Art of Effectively Deploying Sensor Networks")](/talks/techchange15.pdf)
