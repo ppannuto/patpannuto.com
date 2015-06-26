@@ -1,6 +1,35 @@
 2015
 ====
 
+<div class="row talk" id="isca15" markdown="1">
+<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
+[![Title Slide](/talks/pannuto15mbus_thumb.jpg "MBus: An Ultra-Low Power Interconnect for Next Generation Nanopower Systems")](/talks/pannuto15mbus.pdf)
+</div>
+<div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
+
+### MBus: An Ultra-Low Power Interconnect for Next Generation Nanopower Systems, [42nd International Symposium on Computer Architecture][isca15]
+This presentation introcues [MBus][mbus], the missing interconnect technology
+that enables the millimeter-scale computing class. From the
+[Michigan Micro Mote (M<sup>3</sup>)](http://cubicmm.eecs.umich.edu) project, an
+effort develop next-next generation millimeter-scale computers today, we
+discovered that the traditional technologies for composing embedded systems,
+I<sup>2</sup>C and SPI, cannot scale to millimeter-scale designs. We drafted a
+set of fundamental requirements for a millimeter-scale interconnect, and show
+that no existing interconnect satifies these requirements. We then take these
+requirements and design a new interconnect, MBus, optimizing for
+millimeter-scale systems while providing a superset of features from existing
+interconnect technologies. For more information on MBus and the M<sup>3</sup>
+project, visit [mbus.io][mbus].
+
+[isca15]: http://www.ece.cmu.edu/calcm/isca2015/
+
+<a href="/talks/pannuto15mbus.pptx">[pptx]</a>
+<a href="/talks/pannuto15mbus.pdf">[pdf]</a>
+<a href="/publications.html#pannuto15mbus">[paper]</a>
+
+</div>
+</div>
+
 <div class="row talk" id="warp15" markdown="1">
 <div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
 [![Title Slide](/talks/pannuto15making-m3_thumb.jpg "Sensor Systems and the Art of Effectively Deploying Sensor Networks")](/talks/pannuto15making-m3.pdf)
@@ -22,7 +51,6 @@ semi-automated operatations, and our solution to that issue, the MPQ protocol
 for MBus.
 
 [warp15]: http://www.csl.cornell.edu/warp2015/
-[isca15]: http://www.ece.cmu.edu/calcm/isca2015/
 [mbus]: http://mbus.io
 
 <a href="/talks/pannuto15making-m3.pptx">[pptx]</a>
