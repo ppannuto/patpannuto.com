@@ -1,7 +1,7 @@
 2015
 ====
 
-<div class="row talk" id="isca15" markdown="1">
+<div class="row talk" id="pannuto15mbus" markdown="1">
 <div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
 [![Title Slide](/talks/pannuto15mbus_thumb.jpg "MBus: An Ultra-Low Power Interconnect for Next Generation Nanopower Systems")](/talks/pannuto15mbus.pdf)
 </div>
@@ -30,7 +30,7 @@ project, visit [mbus.io][mbus].
 </div>
 </div>
 
-<div class="row talk" id="warp15" markdown="1">
+<div class="row talk" id="pannuto15making-m3" markdown="1">
 <div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
 [![Title Slide](/talks/pannuto15making-m3_thumb.jpg "Sensor Systems and the Art of Effectively Deploying Sensor Networks")](/talks/pannuto15making-m3.pdf)
 </div>
@@ -55,7 +55,7 @@ for MBus.
 
 <a href="/talks/pannuto15making-m3.pptx">[pptx]</a>
 <a href="/talks/pannuto15making-m3.pdf">[pdf]</a>
-<a href="/publications.html#pannuto15makingM3">[paper]</a>
+<a href="/publications.html#pannuto15making-m3">[paper]</a>
 
 </div>
 </div>
