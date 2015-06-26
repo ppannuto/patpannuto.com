@@ -20,11 +20,11 @@ formatter = colorlog.ColoredFormatter(
 l = logging.getLogger()
 
 stream = logging.StreamHandler()
-stream.setLevel(logging.DEBUG)
+stream.setLevel(logging.INFO)
 stream.setFormatter(formatter)
 
 l = logging.getLogger()
-l.setLevel(logging.DEBUG)
+l.setLevel(logging.INFO)
 l.addHandler(stream)
 
 def debug (s):
