@@ -57,6 +57,10 @@ body {
 	border: 2px solid black;
 }
 
+.talk h3 {
+	margin-top: 0px;
+}
+
 :target {
 	background-color: #ffa;
 }
