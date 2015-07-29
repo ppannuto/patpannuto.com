@@ -5,7 +5,7 @@ Who Am I?
 <div class="col-lg-8 col-md-8 col-sm-7 col-xs-12">
 
 <div class="lead">
-I'm Pat Pannuto, a third-year PhD student at the University of Michigan.
+I'm Pat Pannuto, a fourth-year PhD student at the University of Michigan.
 </div>
 
 I am advised by [Prabal Dutta](http://eecs.umich.edu/~prabal) and am the
