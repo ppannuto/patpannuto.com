@@ -188,6 +188,8 @@ def latex_to_html(latex):
 							l = next(lg)
 						if cmd == 'times':
 							h += '&times;'
+						elif cmd == 'degree':
+							h += '&deg;'
 						else:
 							logger.error("Unknown math mode command: " + cmd)
 							raise NotImplementedError
