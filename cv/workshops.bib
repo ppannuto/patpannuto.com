@@ -1,3 +1,40 @@
+@inproceedings{levy15ownership,
+  keywords={workshop},
+    author = {Levy, Amit and Andersen, Michael P and Campbell, Bradford and Culler, David and Dutta, Prabal and Ghena, Branden and Levis, Philip and \textbf{Pannuto}, \textbf{Pat}},
+    title = {Ownership is Theft: Experiences Building an Embedded {OS} in {R}ust},
+    booktitle = {Proceedings of the 8th Workshop on Programming Languages and Operating Systems},
+    series = {PLOS 2015},
+    year = {2015},
+    month = {Oct},
+    isbn = {978-1-4503-3942-1},
+    doi = {10.1145/2818302.2818306},
+    url = {http://dx.doi.org/10.1145/2818302.2818306},
+    location = {Monterey, CA},
+    publisher = {ACM},
+    address = {New York, NY, USA},
+    conference-url = {http://plosworkshop.org/2015/},
+    abstract = { Rust, a new systems programming language, provides
+        compile-time memory safety checks to help eliminate runtime bugs that
+        manifest from improper memory management. This feature is advantageous
+        for operating system development, and especially for embedded OS
+        development, where recovery and debugging are particularly challenging.
+        However, embedded platforms are highly event-based, and Rust's memory
+        safety mechanisms largely presume threads. In our experience developing
+        an operating system for embedded systems in Rust, we have found that
+        Rust's {\em ownership} model prevents otherwise safe resource sharing
+        common in the embedded domain, conflicts with the reality of hardware
+        resources, and hinders using closures for programming asynchronously.
+        We describe these experiences and how they relate to memory safety as
+        well as illustrate our workarounds that preserve the safety guarantees
+        to the largest extent possible. In addition, we draw from our
+        experience to propose a new language extension to Rust that would
+        enable it to provide better memory safety tools for event-driven
+        platforms.
+    },
+    acceptance-accepted=7,
+    acceptance-total=16,
+}
+
 @inproceedings{kempke15polypoint,
   keywords={workshop},
   author = {Kempke, Benjamin and \textbf{Pannuto}, \textbf{Pat} and Dutta, Prabal},
