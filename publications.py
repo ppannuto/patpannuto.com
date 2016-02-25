@@ -31,16 +31,16 @@ def get_name (person):
 	name += first
 	if middle:
 		if name:
-			name += ' ' + middle
+			name += '~' + middle
 		else:
 			name += middle
 	if last:
 		if name:
-			name += ' ' + last
+			name += '~' + last
 		else:
 			name += last
 	if lineage:
-		name += ', ' + lineage
+		name += ',~' + lineage
 	return name
 
 def hiddens_add_bibtex(hiddens, bibkey, entry, raw_authors):
