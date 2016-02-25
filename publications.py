@@ -46,7 +46,18 @@ def get_name (person):
 def hiddens_add_bibtex(hiddens, bibkey, entry, raw_authors):
 	raw = '@{}{{{},\n'.format(entry.type, bibkey)
 	for f in entry.fields:
-		if f == 'abstract' or f == 'no-abstract':
+		# Skip over some fields we use but aren't appropriate for all
+		if f in (
+				'abstract',
+				'no-abstract',
+				'keywords',
+				'badge',
+				'to-appear',
+				'type',
+				'display-type',
+				'acceptance-accepted',
+				'acceptance-total',
+				):
 			continue
 		elif f == 'authors':
 			raw += '\tauthor = {{{}}},\n'.format(raw_authors[bibkey])
