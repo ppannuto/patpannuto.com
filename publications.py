@@ -1,6 +1,6 @@
 import datetime
 from pybtex.database.input import bibtex
-import os, sys, cgi
+import os, sys, cgi, re
 import jinja2 as jinja
 
 from sh import cp
@@ -60,7 +60,14 @@ def hiddens_add_bibtex(hiddens, bibkey, entry, raw_authors):
 				):
 			continue
 		elif f == 'authors':
-			raw += '\tauthor = {{{}}},\n'.format(raw_authors[bibkey])
+			with_bf = raw_authors[bibkey]
+			# First, strip any \textbf directives (highlighting my name)
+			while True:
+				match = re.search('\\\\textbf{(\S+)}', with_bf)
+				if match is None:
+					break
+				with_bf = with_bf.replace(match.group(0), match.group(1))
+			raw += '\tauthor = {{{}}},\n'.format(with_bf)
 		else:
 			raw += '\t{} = {{{}}},\n'.format(f, entry.fields[f])
 	raw += '}'
