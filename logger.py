@@ -27,6 +27,9 @@ l = logging.getLogger()
 l.setLevel(logging.INFO)
 l.addHandler(stream)
 
+sh_logger = logging.getLogger('sh')
+sh_logger.setLevel(logging.WARN)
+
 def debug (s):
 	l.debug(s)
 
