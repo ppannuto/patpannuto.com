@@ -139,7 +139,11 @@ def latex_to_html(latex):
 				if l in ('!@#$%^&*()-/\\'):
 					h += cgi.escape(l)
 					continue
-				#while l not in (' ', '.', ',', '?', '!'):
+				if l == ',':
+					#h += '&thinsp;'
+					# thinsp's look terrible, go for the full nbsp instead
+					h += '&nbsp;'
+					continue
 				while l.isalpha():
 					cmd += l
 					l = next(lg)
