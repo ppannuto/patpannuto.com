@@ -8,14 +8,14 @@
 <div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
 
 ### MBus: An Ultra-Low Power Interconnect for Next Generation Nanopower Systems, [42nd International Symposium on Computer Architecture][isca15]
-This presentation introcues [MBus][mbus], the missing interconnect technology
+This presentation introduces [MBus][mbus], the missing interconnect technology
 that enables the millimeter-scale computing class. From the
 [Michigan Micro Mote (M<sup>3</sup>)](http://cubicmm.eecs.umich.edu) project, an
 effort develop next-next generation millimeter-scale computers today, we
 discovered that the traditional technologies for composing embedded systems,
 I<sup>2</sup>C and SPI, cannot scale to millimeter-scale designs. We drafted a
 set of fundamental requirements for a millimeter-scale interconnect, and show
-that no existing interconnect satifies these requirements. We then take these
+that no existing interconnect satisfies these requirements. We then take these
 requirements and design a new interconnect, MBus, optimizing for
 millimeter-scale systems while providing a superset of features from existing
 interconnect technologies. For more information on MBus and the M<sup>3</sup>
@@ -37,7 +37,7 @@ project, visit [mbus.io][mbus].
 <div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
 
 ### Lessons from Five Years of Making Michigan Micro Motes (M<sup>3</sup>), [6th Workshop on Architectural Research Prototyping][warp15]
-[WARP'15][warp15] harkened the return of a workshop that had been on a
+[WARP'15][warp15] hearkened the return of a workshop that had been on a
 five-year hiatus. The workshop seeks to both motivate the importance and value
 of actually building systems in the architecture community as well as to share
 lessons and experiences from fabrication. This talk begins by highlighting an
@@ -47,7 +47,7 @@ The talk then covers a breadth of the system, manufacturing, and design issues
 that we have solved and are struggling with for the Michigan Micro Mote project.
 Finally, the talk closes with an introduction of an emerging issue in low-power
 system design, the need for an indirection layer for peripheral control and
-semi-automated operatations, and our solution to that issue, the MPQ protocol
+semi-automated operations, and our solution to that issue, the MPQ protocol
 for MBus.
 
 [warp15]: http://www.csl.cornell.edu/warp2015/
@@ -125,7 +125,7 @@ available.
 
 The workshop was a kickoff for the Stanford Internet of Things Industrial
 Research Program. I was asked to describe the state of security for the
-Intenet of Things, in particular looking from the persepctive of an embedded
+Internet of Things, in particular looking from the perspective of an embedded
 systems hardware and network developer. The talk gives an overview of some
 recent research, some challenges and directions in networking, and a
 discussion of the hardware trends, expectations, and requirements for embedded
@@ -198,7 +198,7 @@ was focused heavily on [MBus](http://mbus.io/).
 The Michigan Hackers are a student group at the University of Michigan who
 attempt to bring together people interested in building system.
 For the last few years, they've thrown [the largest
-hackathon](http://mhacks.org/) in the world. In their nacency, I was invited to
+hackathon](http://mhacks.org/) in the world. In their nascency, I was invited to
 give one of the first tech talks. The audience was primarily experienced
 hackers, so the goal of the talk was to dive into the internals of
 [git](http://git-scm.com/). I presented a slide deck put together by Scott
