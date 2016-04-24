@@ -2,7 +2,13 @@
 # vim: set noet ts=4 sts=4 sw=4:
 
 import sys,os
-from sh import cp, mkdir
+from sh import mkdir
+
+# Yay OS X vs Linux
+try:
+	from sh import gcp as cp
+except ImportError:
+	from sh import cp
 
 import jinja2 as jinja
 import markdown
@@ -58,6 +64,6 @@ for dirpath,dirnames,filenames in os.walk('static'):
 					]:
 				# These do not need to be compiled in any way
 				# Just copy them
-				cp(spath, dpath)
+				cp('-u', spath, dpath)
 			else:
 				logger.debug('Skipping file: ' + spath)
