@@ -1,3 +1,36 @@
+2016
+====
+
+<div class="row talk" id="pannuto16nextmote" markdown="1">
+<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
+[![Title Slide](/talks/pannuto16nextmote_thumb.jpg "The Recent Past and Distant Future of Micro-Scale Embedded Systems")](/talks/pannuto16nextmote.pdf)
+</div>
+<div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
+
+### The Recent Past and Distant Future of [Micro-Scale] Embedded Systems, Keynote at [NextMote: Next Generation Platforms for the Cyber-Physical Internet][nextmote16]
+NextMote was a new workshop at [EWSN'16][ewsn16]. Inspired by the work we have
+been doing in [millimeter-scale system design][mbus], I was invited to come
+I was invited to come give the keynote presentation to open the new workshop.
+
+The talk traverses the evolution from yesterday's motes to "next" and
+"next-next" generation motes. Along the way we'll face a few harsh realities
+that will limit and shape future evolution (a trillion devices cannot demand
+replacing a trillion batteries), uncover recent results already pushing
+boundaries (including highlights from the design and implementation of the
+world's smallest computer), and explore some of the possibilities that emerge
+when we rethink designs from the ground up (can we build useful motes that
+don't include CPUs?).
+
+[ewsn16]: http://www.iti.tugraz.at/EWSN2016/cms/index.php?id=36
+[nextmote16]: http://www.iti.tugraz.at/EWSN2016/cms/index.php?id=12
+
+<a href="/talks/pannuto16nextmote.pptx">[pptx]</a>
+<a href="/talks/pannuto16nextmote.pdf">[pdf]</a>
+
+</div>
+</div>
+
+
 2015
 ====
 
