@@ -203,7 +203,7 @@ the area and what kinds of interesting systems are coming down the pipe.
 </div>
 <div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
 
-### MBus: Enabling the Next Generation of Sensors and Systems, [Terraswarm Annual Meeting](http://www.terraswarm.org/conferences/13/annual/index.htm)
+### MBus: Enabling the Next Generation of Sensors and Systems, [TerraSwarm Annual Meeting](http://www.terraswarm.org/conferences/13/annual/index.htm)
 
 The [TerraSwarm Research Center](http://www.terraswarm.org/) holds an annual
 meeting for all participating members. During the meeting, I was asked to give
