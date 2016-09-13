@@ -1,5 +1,44 @@
+@inproceedings{kempke16surepoint-demo,
+  keywords={posterdemo},
+  author = {Kempke, Benjamin and \textbf{Pannuto}, \textbf{Pat} and Campbell, Bradford and Dutta, Prabal},
+  title={{SurePoint}: Exploiting Ultra Wideband Flooding and Diversity to Provide Robust, Scalable, High-Fidelity Indoor Localization},
+  booktitle = {Proceedings of the 14th ACM Conference on Embedded Networked Sensor Systems},
+  series = {SenSys'16},
+  year = {2016},
+  month = {November},
+  location = {Stanford, CA, USA},
+  conference-url={\url{http://sensys.acm.org/2016/}},
+  abstract = {
+We present SurePoint, a system for drop-in, high-fidelity indoor localization.
+SurePoint builds on recently available commercial ultra-wideband radio hardware.
+While ultra-wideband radios provide a pairwise range estimate natively, we
+show that with the addition of frequency and spatial diversity, we can achieve
+a 53\% decrease in median range error.
+Because this extra diversity requires many additional packets for each range
+estimate, we leverage an efficient broadcast ranging protocol for
+localization that ameliorates this overhead.
+In stationary and fast-moving environments SurePoint achieves up to
+0.08\,m median error and 0.53\,m 99th percentile error.
+As ranging requires the tag to have exclusive access to the channel, we
+employ a protocol to coordinate the localization of multiple tags in space.
+This protocol builds on recent work exploiting the constructive interference
+phenomenon, however SurePoint is the first to demonstrate constructive interface
+using the 802.15.4a ultra-wideband PHY.
+Finally, as the ranging protocol requires careful management of the
+ultra-wideband radio and tight timing, we utilize TriPoint, a dedicated
+``drop-in'' ranging module that provides a simple \iic interface. We show that
+this additional microcontroller demands only marginal energy overhead while
+facilitating interoperability by freeing the primary microcontroller to
+handle other tasks.
+
+This demo complements the paper ``SurePoint: Exploiting Ultra Wideband Flooding
+and Diversity to Provide Robust, Scalable, High-Fidelity Indoor Localization''
+to be presented at SenSys'16.
+  },
+}
+
 @inproceedings{kempke15polypoint-demo,
-	keywords={posterdemo},
+  keywords={posterdemo},
   author = {Kempke, Benjamin and \textbf{Pannuto}, \textbf{Pat} and Campbell, Bradford and Adkins, Joshua and Dutta, Prabal},
   title = {{PolyPoint}: High-Precision Indoor Localization with {UWB}},
   booktitle = {Proceedings of the 13th ACM Conference on Embedded Networked Sensor Systems},
