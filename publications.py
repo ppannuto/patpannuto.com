@@ -159,6 +159,8 @@ def latex_to_html(latex):
 					h += '<strong>'
 				elif cmd == 'uA':
 					h += '&mu;A'
+				elif cmd == 'iic':
+					h += 'I<sup>2</sup>C'
 				else:
 					logger.error("(scope \\\\) Unknown latex command >" + cmd + '<')
 					raise NotImplementedError
