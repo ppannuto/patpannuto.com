@@ -31,6 +31,29 @@ don't include CPUs?).
 </div>
 
 
+<div class="row talk" id="pannuto16msResearchSummit" markdown="1">
+<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
+[![Title Slide](/talks/pannuto16msResearchSummit_thumb.jpg "PolyPoint and the First Steps Towards Ubiquitous Localization")](/talks/pannuto16msResearchSummit.pdf)
+</div>
+<div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
+
+### PolyPoint and the First Steps Towards Ubiquitous Localization, at the [Student Summit on Mobility, Systems, and Networking][MSsummit16]
+This event mirrored MSR&rsquo;s traditional faculty retreats, only targeted at
+senior-level graduate students. This was one of the most enjoyable events I
+have had the pleasure of attending. Lots of really bright people working on
+really interesting things with great opportunities to converse with peers and
+senior members in the field equally. I would highly recommend that anyone given
+the opportunity attend (and that faculty actually nominate your students when
+asked!).
+
+[MSsummit16]: https://www.microsoft.com/en-us/research/event/student-summit-mobility-systems-networking/
+
+<a href="/talks/pannuto16msResearchSummit.pptx">[pptx]</a>
+<a href="/talks/pannuto16msResearchSummit.pdf">[pdf]</a>
+
+</div>
+</div>
+
 2015
 ====
 
