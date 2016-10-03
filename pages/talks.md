@@ -1,6 +1,43 @@
 2016
 ====
 
+<div class="row talk" id="pannuto16hotwireless" markdown="1">
+<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
+[![Title Slide](/talks/pannuto16hotwireless_thumb.jpg "Ultra-Wideband and Indoor Localization")](/talks/pannuto16hotwireless.pdf)
+</div>
+<div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
+
+### Ultra-Wideband and Indoor Localization, invited talk at [HotWireless'16][hotwireless16]
+[HotWireless](hotwireless16) is one of my favorite workshops, I feel like I
+always come away with a few things that I find really interesting coming down
+the pipe. This year I was invited to come give a talk on our recent work in
+ultra-wideband localization technologies.
+
+This is a particularly fun talk for me as it centers around two systems that
+were originally proposed at previous HotWireless workshops. First we discuss
+[SurePoint][kempke16surepoint], a refinement of the [PolyPoint][kempke15polypoint]
+system presented at HotWireless'15, that realizes a robust, reliable, and
+scalable indoor localization system. Then we look at what we can achieve with a
+non-COTS UWB system with [Harmonium][kempke16harmonium] a descendent of
+[Harmonia][kempke14harmonia] from HotWireless'14, that exploits asymmetry
+between the tag and anchor to realize an inexpensive (&lt;$5), lightweight (3g),
+and low-power tag (75mW). Finally, we close with some thoughts on open ideas
+for UWB research, including backscatter, protocol refinements, and better
+utilization of the channel impulse response.
+
+[hotwireless16]: http://hotwireless16.ece.wisc.edu/
+[kempke16surepoint]: /pubs/kempke16surepoint.pdf
+[kempke16harmonium]: /pubs/kempke16harmonium.pdf
+[kempke15polypoint]: /pubs/kempke15polypoint.pdf
+[kempke14harmonia]: /pubs/kempke14harmonia.pdf
+
+<a href="/talks/pannuto16hotwireless.pptx">[pptx]</a>
+<a href="/talks/pannuto16hotwireless.pdf">[pdf]</a>
+
+</div>
+</div>
+
+
 <div class="row talk" id="pannuto16nextmote" markdown="1">
 <div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
 [![Title Slide](/talks/pannuto16nextmote_thumb.jpg "The Recent Past and Distant Future of Micro-Scale Embedded Systems")](/talks/pannuto16nextmote.pdf)
