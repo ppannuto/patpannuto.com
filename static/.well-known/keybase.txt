@@ -4,63 +4,60 @@ https://keybase.io/ppannuto
 
 I hereby claim:
 
-  * I am an admin of http://patpannuto.com
+  * I am an admin of https://patpannuto.com
   * I am ppannuto (https://keybase.io/ppannuto) on keybase.
-  * I have a public key with fingerprint 9828 6D3A 2C87 03E2 8428  D57A 7C57
-  * 1713 5957 C5F1
+  * I have a public key with fingerprint B293 BAAE EA1F CF67 057A  479D DCB4 BCC0 21A3 DC81
 
-To claim this, I am signing this object:
+To do so, I am signing this object:
 
 {
     "body": {
         "key": {
-            "fingerprint": "98286d3a2c8703e28428d57a7c5717135957c5f1",
+            "eldest_kid": "0101e79bd04d49a22d2b0eaa70cd0afce3b5676060ef9a2d33a8adc054f445e48e4d0a",
+            "fingerprint": "b293baaeea1fcf67057a479ddcb4bcc021a3dc81",
             "host": "keybase.io",
-            "key_id": "7C5717135957C5F1",
+            "key_id": "dcb4bcc021a3dc81",
+            "kid": "0101e79bd04d49a22d2b0eaa70cd0afce3b5676060ef9a2d33a8adc054f445e48e4d0a",
             "uid": "88cec3918493a61bb4f0583567cf7700",
             "username": "ppannuto"
         },
         "service": {
             "hostname": "patpannuto.com",
-            "protocol": "http:"
+            "protocol": "https:"
         },
         "type": "web_service_binding",
         "version": 1
     },
-    "ctime": 1396733240,
+    "ctime": 1486244503,
     "expire_in": 157680000,
-    "prev":
-"d6f42a9917023330330c5e6bd2a412783adddbebeb28e66a8cda35edd90dbb48",
-    "seqno": 4,
+    "prev": "f29bc28e3d76a1a496adc3099dc24bf428bdd93221a926a5aed4826d45f30efb",
+    "seqno": 20,
     "tag": "signature"
 }
 
-with the aforementioned key, yielding the PGP signature:
+which yields the signature:
 
 -----BEGIN PGP MESSAGE-----
-Version: GnuPG v1
+Version: Keybase OpenPGP v2.0.62
+Comment: https://keybase.io/crypto
 
-owGbwMvMwMR4UozZzqbQspDx9IHPSQzBDqUW1UpJ+SmVSlbVStmpYCotMy89taig
-KDOvRMlKydLCyMIsxTjRKNnC3MA41cjCxMgixdQ80TzZ1NzQ3NDY1NIUyEwzVNJR
-ysgvBukAGpOUWJyql5kPFANy4jNTgKLmzgj1zqZuIPWlYAkLi+TUZGNLQwsTS+NE
-M8OkJJM0A1MLY1Mz8+Q0c3MDA5DC4tSivMTcVKDqgoLEvLzSknylWh0loGhZZnIq
-yM0gq2EqEkugavSS83OBuguK8kvyk/NzgHIZJSUFViCtJZUFILXlqUnxUFPikzLz
-UoA+B2ooSy0qzszPU7IyBKpMLskEGWtobGlmbmxsZGKgo5RaUZBZlBqfCVJham5m
-YQAEIGtSy4BGppilmRglWloamhsYGRsbGwBRsmmqWVKKUaKJoZG5hXFiSkpKUioQ
-GlmkmpklWiSnJBqbpqakWBqkAP1uoQTyV2FevpKVCdCZielAI4sz0/MSS0qLUpVq
-O5lkWBgYmRjYWJlAccfAxSkAi1F2FQGGeTwbJzZr3uU+7HEtvW/GseTm+Pjwk7+F
-bk143bzgmeuu/H/pJ35vvN+jxHqt3vwjn/XCiaV9X6IzBUVOOpqsnV7gPOfOrk1l
-k0wOCt6Tv+g6Pfdsy/rSTIcv97wuTtkUcHqewPSgBwE6qhx3LOYq3Oz7wnzo/ZXm
-zGjJ63mtbl+VkyqtEzauD9st+UgkP6G0NVJ7dXtwhs+CyrtWTroSRwUMl4Va/I3e
-tZHfur3B4U6ziP3U0sLZF3seLrGy/qmQtSzDb9uRoMJlR9KuHp2l8qNzdVfYXllD
-118H+d1uBt1s9drZcZV/T/Cbrp5/Z85lvVi/bJbFkU2agcxWW7fFmudM7l097x2L
-0PuD5zguOTE+ObXmulnt+lN/MpZZHQibEK7Qs5HtJcOJDE89nSLOyrTZr88ZzONo
-Kyn/9uXc8kMrZx68dkErWixL1Hh2QHD2fcmFP29OuFM8cUms8J7Ozxx9uo3vgyc/
-az4/Y+t+PZfwX6qiR/3Dah7OcmpWu1u545H/bh7/GEvW/iDdFW8mV37eqN58lHfm
-kd3zAhJ2q+QxqEvqfLXf2etePGVL5p0AtgMSEmpmDPr8ayY6Wqk+0g/dMOlCsMq2
-VxGWb7O0AvXYy2a5LPM8+y8yfU+l02b7poVnhV4d9N0fd7u2t+pP30UtS9t0s7a1
-s6/tYHGq6qpKDFHq4WLL9it4mzyDuSRnwvfnHXPEPzkdfPsXAA==
-=wQ2O
+yMIlAnicrZJpSBVRFMffa5P3MgzaqMjqUkYkemfmzvYKbaHIyvrSRguvu41O6sxr
+3qiFSdG+QKC0YYVEG32zaF8gzSSRML+0SURBkoVWEvEqou5Ifetj98vlnvP7/+85
+h9M8bGAoGj7cV7AzZ2Pb+XBbY115aPXRRceqAHHZFhCrAiW8/+KljCf9eInNQAxA
+CUpcNwmDiCETyzKTCeQY65AyiC3KFaJqugY1yC2RZoqCDcwoVJGFkMqRwZHgQDaw
+bKeIewnPdnxhS2RTIRhzjiWLWpoOVR0j3WSMEkQohbKEFUYNSQiL3WSgEMURnOQ5
+titi4hHvL+8f/H+uu7zfzjAop4opGchUsCYRgiyoGoqwoJauQxiASe45uIwLOpHA
+jlPuu6A6G4hohU15MNigk78E9v8wOdQtE+qE5/oudUtFrtj3E8lYoPW3JAK4kpP4
+H5s4sR0mJikUFdxL2q4DYpIgqW8HvhIyNFnUD5VswDcnbI/H7YBQdc2A4gT/8Aph
+ackmobLBFaZrWMLI1ETzCjRNRmVELCQbhDFTkcVcTVnDKuYMGbLGkGopYmIEBI1t
+clwQk4Wpj4uEZ9IucrBf7nFQ3XRv3aBQOBoaMnhAsGKhaGT438Wb9yrt14LLrY1Z
+TfmLG3rWxLZPHvq69/ytvQcXb+6O3n1x0vnZc/Zp2tTr4dcru9JP3H4c33QY9M5S
+Swq15xmHOnMOocjCCwUZ09s/1+aF2+d/yT27sU9/tN4/5jXWtHcvv8J0LxPWb534
+ftio6IRtp5syPt3r/Prtw8v6lld1ozuKT43Y8SC/9VrPszt6w9q5hVcT72r39O0f
+s+zc0mng4RuUGrvLjj28eWnSzCVWS/qB1IzCiikdzekXU2mr5tQkKwveRlc4Tz5v
+Hzzj5ewbP8Z9/L7veGbk7vQxw0s767Nqx9cVrot33T8D0M9IXqRqbEnukZqnAxak
+Ghp7dqcqR1blbriorV2W3Xqw/Tc3FEbZ
+=zJjM
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
@@ -69,3 +66,4 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/ppannuto
 
 ==================================================================
+
