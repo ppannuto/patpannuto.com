@@ -54,7 +54,7 @@ your "essay" to be extremely concise.
     * Goals <a href="/fellowships/2013-ppannuto-ndseg.txt">[txt]</a></li>
 
 ### Qualcomm Innovation Fellowship
-Fellowship Homepage: [www.qualcomm.com/research/university-relations/innovation-fellowship](http://www.qualcomm.com/research/university-relations/innovation-fellowship)
+Fellowship Homepage: [www.qualcomm.com/invention/research/university-relations/innovation-fellowship](https://www.qualcomm.com/invention/research/university-relations/innovation-fellowship)
 
 This fellowship is really interesting as it requires you to have a partner. I
 worked with [Brad Campbell](http://bradcampbell.com), a pretty
