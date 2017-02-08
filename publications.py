@@ -599,7 +599,8 @@ def init (jinja_env):
 		if paper.missing_zip:
 			missing_zips.append(paper.bibkey)
 
-	if len(missing_zips):
+	# Disable this warning, didn't turn out to be a great idea
+	if False: #len(missing_zips):
 		logger.warn("Could not find zip'd sources for the following papers:")
 		s = ''
 		for p in missing_zips:
