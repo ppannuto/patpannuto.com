@@ -21,7 +21,9 @@ l = logging.getLogger()
 
 stream = logging.StreamHandler()
 stream.setLevel(logging.INFO)
-stream.setFormatter(formatter)
+#Temporarily disable due to
+#  https://github.com/borntyping/python-colorlog/issues/36
+#stream.setFormatter(formatter)
 
 l = logging.getLogger()
 l.setLevel(logging.INFO)
