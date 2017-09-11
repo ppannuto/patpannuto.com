@@ -1,3 +1,38 @@
+@inproceedings{levy17rustkernel,
+  keywords={workshop},
+ author = {Levy, Amit and Campbell, Bradford and Ghena, Branden and \textbf{Pannuto}, \textbf{Pat} and Dutta, Prabal and Levis, Philip},
+ title = {The Case for Writing a Kernel in Rust},
+ booktitle = {Proceedings of the 8th Asia-Pacific Workshop on Systems},
+ series = {APSys '17},
+ year = {2017},
+ month = {September},
+ isbn = {978-1-4503-5197-3},
+ location = {Mumbai, India},
+ pages = {1:1--1:7},
+ articleno = {1},
+ numpages = {7},
+ url = {http://doi.acm.org/10.1145/3124680.3124717},
+ doi = {10.1145/3124680.3124717},
+ acmid = {3124717},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ conference-url = {https://www.cse.iitb.ac.in/~apsys2017/},
+ abstract = {Decades of research has attempted to add safety mechanisms to
+   operating system kernels, but this effort has failed in most practical
+     systems. In particular, solutions that sacrifice performance have been
+     generally avoided. However, isolation techniques in modern languages can
+     provide safety while avoiding performance issues. Moreover, utilizing a
+     type-safe language with no garbage collector or other runtime services
+     avoids what would otherwise be some of the largest sections of trusted
+     code base. We report on our experiences in writing a resource efficient
+     embedded kernel in Rust, finding that only a small set of unsafe
+     abstractions are necessary in order to form common kernel building blocks.
+     Further, we argue that Rust’s choice to avoid runtime memory management by
+     using a linear type system will enable the next generation of safe
+     operating systems.
+ },
+}
+
 @inproceedings{levy15ownership,
   keywords={workshop},
     author = {Levy, Amit and Andersen, Michael P and Campbell, Bradford and Culler, David and Dutta, Prabal and Ghena, Branden and Levis, Philip and \textbf{Pannuto}, \textbf{Pat}},
