@@ -55,6 +55,7 @@ def hiddens_add_bibtex(hiddens, bibkey, entry, raw_authors):
 				'to-appear',
 				'type',
 				'display-type',
+				'acceptance-percent',
 				'acceptance-accepted',
 				'acceptance-total',
 				):
@@ -402,6 +403,11 @@ class Paper ():
 			logger.error('This is probably not what your want.')
 
 
+		try:
+			entry.fields['acceptance-percent'] =\
+					float(entry.fields['acceptance-percent'])
+		except KeyError:
+			pass
 		try:
 			entry.fields['acceptance-percent'] =\
 					float(entry.fields['acceptance-accepted']) /\

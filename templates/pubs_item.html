@@ -47,7 +47,11 @@
 		{% endif %}
 		{% if 'conference-url' in pub %}
 		{% if 'acceptance-percent' in pub %}
+		{% if 'acceptance-accepted' in pub %}
 		<a href="{{ pub['conference-url'] }}" title="Acceptance: {{ pub['acceptance-accepted'] }} / {{ pub['acceptance-total'] }} ({{ '{0:.0f}%'.format(pub['acceptance-percent']) }})">[conference]</a>
+		{% else %}
+		<a href="{{ pub['conference-url'] }}" title="Acceptance: {{ '{0:.0f}%'.format(pub['acceptance-percent']) }}">[conference]</a>
+		{% endif %}
 		{% else %}
 		<a href="{{ pub['conference-url'] }}">[conference]</a>
 		{% endif %}
