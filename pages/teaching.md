@@ -9,7 +9,8 @@ the [2011-2012 CSE Undergraduate Instructor Award][ug-award].
 In Winter 2016, I built a new course from scratch: Computing for Computing Scientists.
 
 
-### [EECS 398: Computing for Computer Scientists][c4cs] ([W'16][c4cs-w16], F'16)
+### [EECS 398: Computing for Computer Scientists][c4cs] ([W'16][c4cs-w16], [F'16][c4cs-f16])
+[c4cs-f16]: https://c4cs.github.io/archive/f16
 [c4cs-w16]: https://c4cs.github.io/archive/w16
 [c4cs]: https://c4cs.github.io
 
@@ -34,23 +35,22 @@ available for anyone to explore at [c4cs.github.io](https://c4cs.github.io)
 and [github/c4cs](https://github.com/c4cs/c4cs.github.io).
 I have received the most positive feedback however, about the lecture
 structure, which is a mix of small amounts of traditional lecturing and then
-interactive sessions, me typing on screen with students following along,
+interactive sessions, typing on screen with students following along,
 exploring how things work, and&mdash;critically&mdash;making, correcting, and
 learning from mistakes in real time.
 
-One of the most powerful things the course does is attempt to eliminate the
+Beyond pedagogy, one goal of the course is an attempt to eliminate the
 super-hacker archetype. We show that command line wizardry is not purely for
 the elites, it is simply a different language that has not yet been learned
 (and is unfortunately a bit arcane). During the interactive elements student
 questions consistently result in "live Googling", because even an "expert"
-doesn't know everything. We also aim to eliminate the notion that there is a
+doesn't know everything. We aim to eliminate the notion that there is a
 "right" way to write code; that an elite emacs user is a fundamentally
-better programmer than someone using Sublime. The result of this effort is an
-increase in the comfort and confidence of students who had little to no
-programming experience before college. Numerous students, many from
-underrepresented minorities in CS, have sent private messages to the course
-staff thanking us for the course as they had been thinking of leaving CS as
-they were "not smart enough" for it, when really that was not the case at all.
+better programmer than someone using Sublime. Post-course surveys reveal that
+we are having success. Students, particularly those who entered college with
+little to no prior programming experience, report an increase in their comfort
+and confidence in computer science and an improved sense of "belonging" in the
+field.
 
 
 ### [EECS 470: Computer Architecture][eecs470] (W'12)
