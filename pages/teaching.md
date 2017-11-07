@@ -6,7 +6,12 @@ In my time at Michigan, I have had the opportunity to teach an array of courses,
 some for multiple terms. In 2012, I was recognized by the EECS department and won
 the [2011-2012 CSE Undergraduate Instructor Award][ug-award].
 
+[towner17]: https://crlte.engin.umich.edu/grants-awards-certificate/towner-prize/towner-prize-winners/
+[rackham17]: http://www.rackham.umich.edu/faculty-staff/awards/student-funding/outstanding-graduate-student-instructor-awards#recipients
 In Winter 2016, I built a new course from scratch: Computing for Computing Scientists.
+In 2017, I received the College of Engineering's [Richard & Eleanor Towner Prize
+for Outstanding Graduate Student Instructors][towner17] and the Rackham Graduate School's
+[Outstanding Graduate Student Instructor][rackham17] awards for this course.
 
 
 ### [EECS 398: Computing for Computer Scientists][c4cs] ([W'16][c4cs-w16], [F'16][c4cs-f16])
