@@ -1,5 +1,5 @@
-Fellowships
-=============
+Fellowships & Awards
+====================
 
 The single most useful piece of advice I was ever given for fellowship essays:
 > These are not literature, don't write like it.
@@ -66,6 +66,28 @@ thus far, so check the website for updated information.
     * Proposal <a href="/fellowships/2013-bradjc-ppannuto-quinf.pdf">[pdf]</a>
     * Finals Presentation <a href="/fellowships/2013-bradjc-ppannuto-quinf-finals-proposal.pptx">[pptx]</a> <a href="/fellowships/2013-bradjc-ppannuto-quinf-finals-proposal-handouts.pdf">[pdf]</a>
     * Finals Poster <a href="/fellowships/2013-bradjc-ppannuto-quinf-finals-poster.pdf">[pdf]</a>
+
+---
+
+
+Awards
+------
+
+[towner17]: https://crlte.engin.umich.edu/grants-awards-certificate/towner-prize/towner-prize-winners/
+[rackham17]: http://www.rackham.umich.edu/faculty-staff/awards/student-funding/outstanding-graduate-student-instructor-awards#recipients
+
+In 2017, I was honored with the College of Engineering's [Richard & Eleanor
+Towner Prize for Outstanding Graduate Student Instructors][towner17] and the
+Rackham Graduate School's [Outstanding Graduate Student Instructor][rackham17]
+awards.
+
+While it is my supposition that these awards are highly dependent on the
+supporting letters and nominations (a big thank you to Marcus Darden, who
+led my nominations, as well as all other who wrote letters of support!),
+a few folks have asked me to share my statements, which I'm happy to do here:
+
+  * College of Engineering Towner Prize &ndash; Application <a href="/awards/towner17pannuto.pdf">[pdf]</a>
+  * Rackham Graduate School Outstanding GSI &ndash; Teaching Philosophy <a href="/awards/rackham17pannuto.pdf">[pdf]</a>
 
 <!--
 <h3>Musings</h3>
