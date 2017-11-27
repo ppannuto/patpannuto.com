@@ -83,7 +83,7 @@ awards.
 
 While it is my supposition that these awards are highly dependent on the
 supporting letters and nominations (a big thank you to Marcus Darden, who
-led my nominations, as well as all other who wrote letters of support!),
+led my nominations, as well as all others who wrote letters of support!),
 a few folks have asked me to share my statements, which I'm happy to do here:
 
   * College of Engineering Towner Prize &ndash; Application <a href="/awards/towner17pannuto.pdf">[pdf]</a>
