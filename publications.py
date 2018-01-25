@@ -160,6 +160,8 @@ def latex_to_html(latex):
 					h += '<strong>'
 				elif cmd == 'uA':
 					h += '&mu;A'
+				elif cmd == 'uW':
+					h += '&mu;W'
 				elif cmd == 'iic':
 					h += 'I<sup>2</sup>C'
 				else:
