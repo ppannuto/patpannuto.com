@@ -15,10 +15,12 @@
 \usepackage{comment}      % Provides \begin,\end{comment} for large blocks
 \usepackage[protrusion=true,expansion=true,kerning,spacing]{microtype} % better type, spacing
 \usepackage{tabularx}     % Complicated table creation
+\usepackage{textcomp}     % Missing UTF characters
 \usepackage[sc]{titlesec}
 \usepackage{url}          % Pretty printing of hyperlinks
 \usepackage[usenames,dvipsnames,svgnames]{xcolor} % Allow the use and definition of colors
 \usepackage{xparse}       % For doing math (acceptance percentage in particular)
+\usepackage{xspace}
 \usepackage{xstring}
 
 % The hyperref package must loaded last. Can conflict with some packages, see:
@@ -29,6 +31,16 @@
 % Break URLs properly (thanks to Alex Halderman)
 \def\UrlBreaks{\do-\do\.\do\@\do\\\do\!\do\_\do\|\do\;\do\>\do\]\do\)\do\,\do\?\do\'\do+\do\=\do\#}
 \def\UrlBigBreaks{\do\:\do\/}
+
+% Some macros that a broadly useful:
+\newcommand{\uW}{{\textmu}W\xspace}
+\newcommand{\uA}{{\textmu}A\xspace}
+\newcommand{\um}{{\textmu}m\xspace}
+\newcommand{\us}{{\textmu}s\xspace}
+\newcommand{\uF}{{\textmu}F\xspace}
+\newcommand{\uJ}{{\textmu}J\xspace}
+\newcommand{\iic}{I$^2$C\xspace}
+\newcommand{\vdd}{V$_{\textnormal{DD}}$\xspace}
 
 % Don't typset URLs in tt font
 \urlstyle{same}
@@ -97,17 +109,16 @@
   \begin{tabular}{c}
     \textsc{\LARGE Pat Pannuto} \\
     \\
-    \textsc{\large December 12, 2016}
+    \textsc{\large January 25, 2018}
   \end{tabular}
 \end{table}
 
 \begin{table*}
   \centering
   \begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} r}
-    Computer Science and Engineering  & Tel: +1.248.990.4548 \\
-    University of Michigan, Ann Arbor & ppannuto@umich.edu \\
-    4908 BBB, 2260 Hayward            & \url{http://patpannuto.com} \\
-    Ann Arbor, MI 48104               & \\
+    545W Cory Hall                     & Tel: +1.248.990.4548 \\
+    University of California, Berkeley & ppannuto@berkeley.edu \\
+    Berkeley, CA 94720                 & \url{https://patpannuto.com} \\
   \end{tabular*}
 \end{table*}
 
@@ -117,19 +128,30 @@
   \item[]
     My research focuses on solving the ``last inch'' problem and solving the
     challenges that stand between the burgeoning Internet of Things and
-    inevitable Internet of Everything. My interests span from low-level
-    details---developing new technology to meet the energy and area demands of
-    millimeter systems---to large-scale global considerations---understanding
-    how our network and infrastructure must scale to support the trillions of
-    impending devices.
+    inevitable Internet of Everything.
+    My research vision pushes towards the realization of ubiquitous and
+    pervasive computing,
+    aiming to understand how our interaction and utilization of technology
+    will shift as computing becomes omnipresent and its operation and
+    interaction shifts from conscious action to unconscious extension of
+    perception and ability.
+    My interests span from low-level details---developing new technology to
+    meet the energy and area demands of millimeter systems---to large-scale
+    global considerations---understanding how our network and infrastructure
+    must scale to support the trillions of impending devices.
 \end{itemize}
 
 \section*{Education}
 
 \begin{itemize}
   \item[]
-    \textbf{University of Michigan}, Ann Arbor, MI (2012--present) \\
-    Ph.D. Student in Computer Science (degree expected roughly summer 2018) \\
+    \textbf{University of California, Berkeley}, Berkeley, CA (2017--present) \\
+    Ph.D. Student in Electrical Engineering (degree expected summer 2019) \\
+    Advisor: Prabal Dutta
+
+  \item[]
+    \textbf{University of Michigan}, Ann Arbor, MI (2012--2017) \\
+    M.Eng. in Computer Science \\
     Advisor: Prabal Dutta
 
   \item[]
@@ -141,9 +163,11 @@
 
 \begin{itemize}
 
+  \item[] University of Michigan Rackham Graduate School Outstanding Graduate Student Instructor (2017)
+  \item[] University of Michigan College of Engineering Richard \& Eleanor Towner Prize for Outstanding Graduate Student Instructors (2017)
   \item[] University of Michigan College of Engineering Featured Graduate Student (Fall 2014)
   \item[] Qualcomm Innovation Fellowship Honorable Mention, Team Fellowship with Brad Campbell, \$50,000 (2013--2014)
-  \item[] National Defense Science \& Engineering Graduate Fellowship, \$95,000 plus tuition (2013--present)
+  \item[] National Defense Science \& Engineering Graduate Fellowship, \$95,000 plus tuition (2013--2016)
   \item[] National Science Foundation Graduate Research Fellowship, \$90,000 plus tuition (2013, declined)
   \item[] University of Michigan Department of Computer Science First-Year Fellowship (2012--2013)
   \item[] Best Undergraduate Instructor, University of Michigan, EECS (2011--2012)
@@ -186,7 +210,9 @@
         everyday activities, and ultimately how to be a more efficient user of
         computing resources.
       \item[] \url{https://c4cs.github.io}
+      \item[] \emph{In 2017, I was awarded the Rackham Graduate School Outstanding Graduate Student Instructor and the College of Engineering Richard \& Eleanor Towner Prize for Outstanding Graduate Student Instructors for this course.}
     \end{itemize}
+  \item[] Graduate Teaching Assistant, EECS 373: Design of Microprocessor Based Systems (F'15, W'15)
   \item[] Undergraduate Teaching Assistant, EECS 470: Computer Architecture (W'12)
   \item[] Undergraduate Teaching Assistant, EECS 482: Introduction to Operating Systems (W'12, F'11, W'11, F'10)
   \item[] Undergraduate Teaching Assistant, EECS 373: Design of Microprocessor Based Systems (F'11, W'11)
