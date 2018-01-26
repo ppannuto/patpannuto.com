@@ -12,14 +12,18 @@ and the [Qualcomm Innovation Fellowship (QInF)](https://www.qualcomm.com/inventi
 
 My research focuses on solving the "last inch" problem and solving the
 challenges that stand between the burgeoning Internet of Things and inevitable
-Internet of Everything. My research vision pushes towards the realization of
+Internet of Everything.
+My research vision pushes towards the realization of
 ubiquitous and pervasive computing, aiming to understand how our interaction
 and utilization of technology will shift as computing becomes omnipresent and
 its operation and interaction shifts from conscious action to unconscious
-extension of perception and ability.  My interests span from low-level
-details—developing new technology to meet the energy and area demands of
-millimeter systems—to large-scale global considerations—understanding how our
-network and infrastructure must scale to support the trillions of impending
+extension of perception and ability.
+What advancements will most change how people interact with themselves, the
+world, and one another, and what innovations facilitate these paradigm shifts?
+My interests span from low-level details---developing new technology to meet
+the energy and area demands of next-generation millimeter systems---to
+large-scale global considerations---understanding how our network and
+infrastructure must scale and adapt to support the trillions of impending
 devices.
 
 </div>
