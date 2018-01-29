@@ -1,13 +1,52 @@
 2016
 ====
 
-<div class="row talk" id="pannuto16hotwireless" markdown="1">
+<div class="row talk" id="pannuto16mbus-nzero" markdown="1">
 <div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
-[![Title Slide](/talks/pannuto16hotwireless_thumb.jpg "Ultra-Wideband and Indoor Localization")](/talks/pannuto16hotwireless.pdf)
+[![Title Slide](/talks/pannuto16mbus-nzero_thumb.jpg "MBus: A power-aware interconnect for ultra-low power micro-scale system design")](/talks/pannuto16mbus-nzero.pdf)
+#### _Invited Talk_
 </div>
 <div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
 
-### Ultra-Wideband and Indoor Localization, invited talk at [HotWireless'16][hotwireless16]
+### MBus: A power-aware interconnect for ultra-low power micro-scale system design, at [DARPA N-ZERO Program Review][nzero]
+The [DARPA N-ZERO program][nzero] is a really interesting initiative
+looking to push the envelope for lowest-power sensors:
+<small>
+<blockquote>
+The Near Zero Power RF and Sensor Operations (N-ZERO) program has the goal of developing the technological foundation for persistent, event-driven sensing capabilities in which the sensor can remain dormant, with near-zero power consumption, until awakened by an external trigger or stimulus.
+
+If successful, the program could extend the lifetime of remotely deployed communications and environmental sensors—also known as unattended ground sensors (UGS)—from weeks or months to years.
+</blockquote>
+</small>
+
+The N-ZERO program emphasizes the development of novel low-power sensors and
+wakeup frontends, initially with the intent of using the frontends to
+opportunistically wake traditional sensing and communication systems.
+
+I was invited to the program review to discuss the viability and technical
+challenges of integrating [MBus][mbus] frontends with N-ZERO chips, towards
+the long-term vision of replacing the high-energy traditional sensing and
+compute frontends with ultra-low power systems, such as the [Michigan Micro
+Mote][michigan-micro-mote].
+
+[nzero]: https://www.darpa.mil/program/near-zero-rf-and-sensor-operations
+[michigan-micro-mote]: https://www.eecs.umich.edu/eecs/about/articles/2015/Worlds-Smallest-Computer-Michigan-Micro-Mote.html
+
+<a href="/talks/pannuto16mbus-nzero.pptx">[pptx]</a>
+<a href="/talks/pannuto16mbus-nzero.pdf">[pdf]</a>
+
+</div>
+</div>
+
+
+<div class="row talk" id="pannuto16hotwireless" markdown="1">
+<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
+[![Title Slide](/talks/pannuto16hotwireless_thumb.jpg "Ultra-Wideband and Indoor Localization")](/talks/pannuto16hotwireless.pdf)
+#### _Invited Talk_
+</div>
+<div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
+
+### Ultra-Wideband and Indoor Localization, at [HotWireless'16][hotwireless16]
 [HotWireless](hotwireless16) is one of my favorite workshops, I feel like I
 always come away with a few things that I find really interesting coming down
 the pipe. This year I was invited to come give a talk on our recent work in
@@ -41,10 +80,11 @@ utilization of the channel impulse response.
 <div class="row talk" id="pannuto16nextmote" markdown="1">
 <div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
 [![Title Slide](/talks/pannuto16nextmote_thumb.jpg "The Recent Past and Distant Future of Micro-Scale Embedded Systems")](/talks/pannuto16nextmote.pdf)
+#### _Keynote_
 </div>
 <div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
 
-### The Recent Past and Distant Future of [Micro-Scale] Embedded Systems, Keynote at [NextMote: Next Generation Platforms for the Cyber-Physical Internet][nextmote16]
+### The Recent Past and Distant Future of [Micro-Scale] Embedded Systems, at [NextMote: Next Generation Platforms for the Cyber-Physical Internet][nextmote16]
 NextMote was a new workshop at [EWSN'16][ewsn16]. Inspired by the work we have
 been doing in [millimeter-scale system design][mbus], I was invited to come
 I was invited to come give the keynote presentation to open the new workshop.
@@ -125,7 +165,7 @@ project, visit [mbus.io][mbus].
 
 <div class="row talk" id="pannuto15making-m3" markdown="1">
 <div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
-[![Title Slide](/talks/pannuto15making-m3_thumb.jpg "Sensor Systems and the Art of Effectively Deploying Sensor Networks")](/talks/pannuto15making-m3.pdf)
+[![Title Slide](/talks/pannuto15making-m3_thumb.jpg "Lessons from Five Years of Making Michigan Micro Motes")](/talks/pannuto15making-m3.pdf)
 </div>
 <div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
 
@@ -156,6 +196,7 @@ for MBus.
 <div class="row talk" id="techchange15" markdown="1">
 <div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
 [![Title Slide](/talks/techchange15_thumb.jpg "Sensor Systems and the Art of Effectively Deploying Sensor Networks")](/talks/techchange15.pdf)
+#### _Guest Speaker_
 </div>
 <div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
 
@@ -211,6 +252,7 @@ available.
 <div class="row talk" id="stanford-IoT14" markdown="1">
 <div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
 [![Title Slide](/talks/stanford-IoT14_thumb.jpg "Embedded System Design and the Internet of Things")](/talks/stanford-IoT14.pdf)
+#### _Invited Talk_
 </div>
 <div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
 
@@ -233,6 +275,7 @@ systems, all with an eye towards security.
 <div class="row talk" id="dil14-pannuto" markdown="1">
 <div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
 [![Title Slide](/talks/dil14-pannuto_thumb.jpg "Sensing Technologies for Data Collection and Monitoring")](/talks/dil14-pannuto.pdf)
+#### _Invited Talk_
 </div>
 <div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
 
@@ -283,6 +326,7 @@ was focused heavily on [MBus](http://mbus.io/).
 <div class="row talk" id="intro_git" markdown="1">
 <div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
 [![Title Slide](/talks/intro_git_thumb.jpg "Introduction to Git by Scott Chacon")](https://github.com/schacon/git-presentations/tree/master/basic_git_talk)
+#### _Invited Talk_
 </div>
 <div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
 
