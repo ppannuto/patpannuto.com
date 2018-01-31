@@ -34,6 +34,23 @@ devices.
 
 <hr />
 
+#### Selected Honors & Awards
+
+ - **[Rackham Graduate School Outstanding Graduate Student Instructor](http://www.rackham.umich.edu/faculty-staff/awards/student-funding/outstanding-graduate-student-instructor-awards#recipients)** (2017)
+ - **[Richard & Eleanor Towner Prize for Outstanding Graduate Student Instructors](https://crlte.engin.umich.edu/grants-awards-certificate/towner-prize/towner-prize-winners/)** (2017)
+ - **[Qualcomm Innovation Fellowship](https://www.qualcomm.com/invention/research/university-relations/innovation-fellowship)** Honorable Mention (half fellow), joint with [Brad Campbell](http://www.cs.virginia.edu/~bjc8c/) (2013)
+ - **[National Defense Science & Engineering Graduate Fellowship](https://ndseg.asee.org/)** Fellow (2013)
+ - **[National Science Foundation Graduate Research Fellowship](https://www.nsfgrfp.org/)** Fellow, declined (2013)
+ - **[University of Michigan Department of Computer Science First Year Fellowship](http://eecs.umich.edu/)** Fellow (2012)
+ - **[CSE Undergraduate Instructor Award](http://www.eecs.umich.edu/eecs/events/GSI-awards-2012.html)** (2012)
+<br><br />
+ - **[TerraSwarm'17](https://www.terraswarm.org/conferences/17/annual/)** David Wessel Best Demo Award (2017)
+ - **[_IEEE Micro_](https://www.computer.org/web/computingnow/micro)** Top Pick (2016)
+ - **[INC12](http://incnano.org/)** Outstanding Poster Award (2016)
+ - **[HotWireless'15](http://web.cse.ohio-state.edu/~chebo/HotWireless/)** Potential for Test of Time 2025 Award (2015)
+
+<hr />
+
 #### Michigan Micro Mote & MBus
 The Michigan Micro Mote, or M<sup>3</sup> project, aims to bring
 general-purpose computing and sensing to millimeter-scale devices.
