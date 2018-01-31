@@ -103,10 +103,10 @@ applications:
     [HotWireless'14](/pubs/kempke14harmonia.pdf) }
     </small>
   - **[Luxapose][luxapose].** An exploration in using lighting
-    infrastructure for astral navigation indoors. I have no affiliation with
-    these, but Luxapose spawned a bunch of follow-on work that I think is
-    really cool looking at how to do this without requiring intelligent LED
-    lighting infrastructure, in particular check out
+    infrastructure for astral navigation indoors. Luxapose spawned considerable
+    follow-on work (with which I have no affiliation) that is really cool and
+    looks at how to do this without requiring intelligent LED lighting
+    infrastructure, in particular check out
     [LiTell](http://xyzhang.ucsd.edu/papers/CZhang_MobiCom16_LiTell.pdf)
     and some of [Xinyu's other light-based localization
     work](http://xyzhang.ucsd.edu/publications.html).
