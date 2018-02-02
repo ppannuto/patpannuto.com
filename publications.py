@@ -145,6 +145,22 @@ def latex_to_html(latex):
 					# thinsp's look terrible, go for the full nbsp instead
 					h += '&nbsp;'
 					continue
+				if l == "'":
+					# add ´ to next letter (i.e. \'e -> é)
+					l = next(lg)
+					if l not in 'aeiouyAEIOUY':
+						logger.error("Accent on non-vowel?")
+						raise NotImplementedError
+					h += '&' + l + 'acute;'
+					continue
+				if l == "`":
+					# add ` to next letter (i.e. \`e -> è)
+					l = next(lg)
+					if l not in 'aeiouyAEIOUY':
+						logger.error("Accent on non-vowel?")
+						raise NotImplementedError
+					h += '&' + l + 'grave;'
+					continue
 				while l.isalpha():
 					cmd += l
 					l = next(lg)
