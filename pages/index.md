@@ -98,7 +98,7 @@ applications:
     localized with decimeter accuracy in complex, indoor environments using
     ultra wideband backscatter.
     <br /><small markdown="1">{
-    **IPSN'18** }
+    **[IPSN'18](/pubs/pannuto18slocalization.pdf)** }
     </small>
   - **SurePoint.** In late 2013, DecaWave released the first (and as of 2018
     still only) commercially available ultra wideband transciever. While ultra
@@ -186,7 +186,7 @@ and experimentation for city-scale applications.
 
 <small markdown="1">
 {
-IPSN'18
+[IPSN'18](/pubs/adkins18signpost.pdf)
 }
 </small>
 
