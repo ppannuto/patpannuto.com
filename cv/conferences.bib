@@ -1,72 +1,73 @@
-@inproceedings{pannuto17slocalization,
+@inproceedings{pannuto18slocalization,
  keywords={conf},
  author = {\textbf{Pannuto}, \textbf{Pat} and Kempke, Benjamin, and Dutta, Prabal},
  title = {Slocalization: Sub-\uW, Static, Decimeter-Accurate Localization with Ultra Wideband Backscatter},
  booktitle = {Proceedings of the 17th ACM/IEEE International Conference on Information Processing in Sensor Networks},
- series = {IPSN '18},
+ series = {IPSN'18},
  year = {2018},
- month = {4},
+ month = {April},
  publisher = {ACM},
  address = {New York, NY, USA},
  conference-url={\url{http://ipsn.acm.org/2018/}},
  abstract = {
-Ultra wideband technology has shown incredible promise for providing
-high-quality location estimation, even in indoor complex multipath
+Ultra wideband technology has shown great promise for providing
+high-quality location estimation, even in complex indoor multipath
 environments, but existing ultra wideband systems require tens to hundreds of
 milliwatts during operation.
 Backscatter communication has demonstrated the viability of astonishingly
-low-power tags, but has thus far been restricted to low (localization)
-resolution narrowband systems.
-We combine these technologies to capture the best of both worlds and create
-\emph{Slocalization}, an ultra wideband backscatter localization system that
-realizes decimeter-accurate localization of a static tag in complex indoor
-environments for less than one microwatt.
-This ultra-low energy budget could allow the tag to operate for over 50~years
-on single coin cell battery or completely battery-free with less than
-5\,cm$^2$ of photovoltaic cells indoors.
-The key insight underlying Slocalization is that the vast majority of things
-in the world do not move. Thus instead of localizing on the order of
-milliseconds, Slocalization estimates locations on the order of millihertz.
-To prove the viability of this concept, we implement an energy-harvesting
-Slocalization tag and find that Slocalization can locate this tag with a
-mean 3D Euclidean error of only 30\,cm.
+low-power tags, but has thus far been restricted to
+narrowband systems with low localization resolution.
+The challenge to combining these complimentary technologies is that they
+share a compounding limitation, constrained transmit power. Regulations limit
+ultra wideband transmissions to just -41.3\,dBm/MHz, and a backscatter device
+can only reflect the power it receives.
+The solution is long-term integration of this limited power, lifting the
+initially imperceptible signal out of the noise.
+This integration only works while the target is stationary. However, stationary
+describes the vast majority of objects, especially lost ones.
+With this insight, we design Slocalization, a sub-microwatt,
+decimeter-accurate localization system that opens a new tradeoff space in
+localization systems and realizes an energy, size, and cost point that invites
+the localization of every thing.
+To evaluate this concept,
+we implement an energy-harvesting Slocalization tag and find that
+Slocalization can recover ultra wideband backscatter
+in under fifteen minutes across thirty meters of space
+and localize tags with a mean 3D Euclidean error of only 30\,cm.
  },
- to-appear = {1},
 }
 
-@inproceedings{adkins17signpost,
+@inproceedings{adkins18signpost,
  keywords={conf},
  author = {Adkins, Joshua and Campbell, Bradford and Ghena, Branden and Jackson, Neal and \textbf{Pannuto}, \textbf{Pat} and Rohrer, Samuel and Dutta, Prabal},
  title = {The Signpost Platform for City-Scale Sensing},
  booktitle = {Proceedings of the 17th ACM/IEEE International Conference on Information Processing in Sensor Networks},
- series = {IPSN '18},
+ series = {IPSN'18},
  year = {2018},
- month = {4},
+ month = {April},
  publisher = {ACM},
  address = {New York, NY, USA},
  conference-url={\url{http://ipsn.acm.org/2018/}},
  abstract = {
-City-scale sensing holds the promise of enabling deeper understanding of our
+City-scale sensing holds the promise of enabling a deeper understanding of our
 urban environments.
 However, a city-scale deployment requires physical installation,
 power management, and communications---all challenging tasks standing between a
 good idea and a realized one.
-This suggests the need for a platform that enables easy deployment and
-experimentation for city-scale applications.
-To address these challenges, we present Signpost, a modular platform for city-scale sensing.
-Signpost simplifies deployment by removing the need
+This indicates the need for a platform that enables easy deployment and
+experimentation for applications operating at city scale.
+To address these challenges, we present Signpost, a modular, energy-harvesting platform for city-scale sensing.
+Signpost simplifies deployment by eliminating the need
 for connection to wired infrastructure and instead harvesting energy from an
 integrated solar panel. The platform furnishes the key resources necessary to 
 support multiple, pluggable sensor modules while providing
-fair, safe, and reliable sharing in the face of energy constraints.
+fair, safe, and reliable sharing in the face of dynamic energy constraints.
 We deploy Signpost with several sensor modules, showing the viability
 of an energy-harvesting, multi-tenant, sensing system, and evaluate its
-ability to realize and enable support for city-scale sensing applications.
-We believe Signpost can reduce the difficulty inherent to city-scale deployments,
-enabling new experimentation, insights into urban health, and ultimately,
-improved cities.
+ability to support sensing applications.
+We believe Signpost reduces the difficulty inherent in city-scale deployments,
+enables new experimentation, and provides improved insights into urban health.
  },
- to-appear = {1},
 }
 
 @inproceedings{levy17multiprogramming,
@@ -74,7 +75,7 @@ improved cities.
  author = {Levy, Amit and Campbell, Bradford and Ghena, Branden and Giffin, Daniel B. and \textbf{Pannuto}, \textbf{Pat} and Dutta, Prabal and Levis, Philip},
  title = {Multiprogramming a 64kB Computer Safely and Efficiently},
  booktitle = {Proceedings of the 26th Symposium on Operating Systems Principles},
- series = {SOSP '17},
+ series = {SOSP'17},
  year = {2017},
  month = {10},
  isbn = {978-1-4503-5085-3},
