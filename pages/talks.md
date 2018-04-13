@@ -1,3 +1,40 @@
+2018
+====
+
+<div class="row talk" id="pannuto18slocalization" markdown="1">
+<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
+[![Title Slide](/talks/pannuto18slocalization_thumb.jpg "Slocalization: Sub-μW Ultra Wideband Backscatter Localization")](/talks/pannuto18slocalization.pdf)
+</div>
+<div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
+
+### Slocalization: Sub-μW Ultra Wideband Backscatter Localization, at [IPSN'18][ipsn18]
+After a lot of work in localization and tracking of motes, drones, and people,
+this presentation aims to ask a bigger question: Is it possible to localize
+every physical thing in the world? If we do so, how might the way that humans
+and computers interact with the world change?
+
+We then introduce Slocalization, a new ultra wideband backscatter localization
+system that takes a step towards truly ubiquitous localization. With
+Slocalization, we introduce the latency/energy tradeoff to localization
+research, demonstrating that we can achieve decimeter-accurate localization of
+sub microwatt tags &ndash; at a millihertz update rate. The primary challenge
+is recovery of the very low amount of reflected energy afforded by ultra
+wideband backscatter.  The key idea is to leverage the stationarity and stable
+periodicity of the tag to enable repeated integration of estimates of the
+channel to slowly lift the tag signal out of the noise. We empirically validate
+Slocalization up to 30 meters in a bi-static configuration
+(anchor&rarr;15m&rarr;tag&rarr;15m&rarr;anchor), requiring about fifteen
+minutes to realize sub-decimeter accuracy.
+
+[ipsn18]: https://ipsn.acm.org/2018/
+
+<a href="/talks/pannuto18slocalization.pptx">[pptx]</a>
+<a href="/talks/pannuto18slocalization.pdf">[pdf]</a>
+
+</div>
+</div>
+
+
 2016
 ====
 

@@ -44,6 +44,7 @@ devices.
  - **[University of Michigan Department of Computer Science First Year Fellowship](http://eecs.umich.edu/)** Fellow (2012)
  - **[CSE Undergraduate Instructor Award](http://www.eecs.umich.edu/eecs/events/GSI-awards-2012.html)** (2012)
 <br><br />
+ - **[IPSN'18](https://ipsn.acm.org/2018/)** Best Paper Finalist (2018)
  - **[TerraSwarm'17](https://www.terraswarm.org/conferences/17/annual/)** David Wessel Best Demo Award (2017)
  - **[_IEEE Micro_](https://www.computer.org/web/computingnow/micro)** Top Pick (2016)
  - **[INC12](http://incnano.org/)** Outstanding Poster Award (2016)
