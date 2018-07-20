@@ -4,6 +4,7 @@ pannuto.pdf: pannuto.tex conferences.bib workshops.bib journals.bib posterdemo.b
 	pdflatex pannuto.tex
 	biber pannuto
 	pdflatex pannuto.tex
+	@echo; echo; echo $$(tput bold)Last Run$$(tput sgr0); echo; echo
 	pdflatex pannuto.tex
 
 clean:
