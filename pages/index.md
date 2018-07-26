@@ -116,6 +116,7 @@ applications:
     only narrowband components of lightweight (3 g), low power (75 mW or
     3.9 mJ/fix), low cost (< $5 USD), fast-moving (up to 2.4 m/s) tags.
     <br /><small markdown="1">{
+    **[TOSN'18](/pubs/pannuto18harmonium.pdf)** |
     [IPSN'16](/pubs/kempke16harmonium.pdf) |
     [MC<sup>2</sup>R'15](/pubs/kempke15harmonia.pdf) |
     [HotWireless'14](/pubs/kempke14harmonia.pdf) }
