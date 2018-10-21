@@ -10,9 +10,6 @@ recipient of the [National Defense Science & Engineering Graduate (NDSEG) Fellow
 the [National Science Foundation Graduate Research Fellowship Program (NSF GRFP) Fellowship](http://www.nsfgrfp.org/) (2013),
 and the [Qualcomm Innovation Fellowship (QInF)](https://www.qualcomm.com/invention/research/university-relations/innovation-fellowship) (2013).
 
-My research focuses on solving the "last inch" problem and solving the
-challenges that stand between the burgeoning Internet of Things and inevitable
-Internet of Everything.
 My research vision pushes towards the realization of
 ubiquitous and pervasive computing, aiming to understand how our interaction
 and utilization of technology will shift as computing becomes omnipresent and
