@@ -218,6 +218,9 @@ and experimentation for city-scale applications.
 <div class="panel-heading"> <h3 class="panel-title"><strong>Miscellaneous</strong></h3> </div>
 <div class="panel-body">
 <p><a href="http://confsearch.ethz.ch/confsearch/faces/pages/staticresults.jsp?query=usenix%20asplos%20ewsn%20hotnets%20hotos%20ipsn%20isca%20mobicom%20mobihoc%20mobisys%20nsdi%20osdi%20sensys%20sigcomm%20sosp%20uist&sortMode=1&graphicView=1">These are the conferences I generally follow</a>, courtesy of ConfSearch.</p>
+<p>One of my favorite parts of grad school is the opportunity it has afforded me to travel the world.
+<a href="https://www.amcharts.com/visited_countries/#AT,BE,DK,FR,DE,IT,NL,PT,ES,VA,CA,US,GH,MA,CN,KR">Here's all the countries I've made it to thus far</a>
+(also <a href="https://www.amcharts.com/visited_states/#US-AZ,US-CA,US-CT,US-DC,US-DE,US-FL,US-GA,US-HI,US-IL,US-IN,US-KS,US-KY,US-LA,US-MA,US-MD,US-ME,US-MI,US-MO,US-NJ,US-NV,US-NY,US-OH,US-OK,US-OR,US-PA,US-RI,US-TN,US-TX,US-UT,US-VA,US-WA,US-WI">US states I've spent any appreciable time in</a>).</p>
 </div>
 </div>
 </div>
