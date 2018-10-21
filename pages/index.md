@@ -209,6 +209,20 @@ and experimentation for city-scale applications.
 </div>
 </div>
 
+
+
+<div class="row">
+<div class="col-lg-12 col-xs-12">
+
+<div class="panel">
+<div class="panel-heading"> <h3 class="panel-title"><strong>Miscellaneous</strong></h3> </div>
+<div class="panel-body">
+<p><a href="http://confsearch.ethz.ch/confsearch/faces/pages/staticresults.jsp?query=usenix%20asplos%20ewsn%20hotnets%20hotos%20ipsn%20isca%20mobicom%20mobihoc%20mobisys%20nsdi%20osdi%20sensys%20sigcomm%20sosp%20uist&sortMode=1&graphicView=1">These are the conferences I generally follow</a>, courtesy of ConfSearch.</p>
+</div>
+</div>
+</div>
+</div>
+
 <!--
 ### News
  * <b>2013/05: </b>I am working at <a href="http://swarmlab.eecs.berkeley.edu">Berkeley</a> this summer
