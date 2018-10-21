@@ -1,7 +1,6 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 <!-- vim: set ts=2 sts=2 sw=2 noet: -->
 <html lang="en">
-<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
@@ -83,11 +82,11 @@
 
 			<div class="collapse navbar-collapse">
 				<ul class="nav navbar-nav pull-right">
-					<li class="hidden-sm" {% if active_page == 'index' %}class="active"{% endif %}><a href="/index.html">Pat</a></li>
+					<li class="hidden-sm {% if active_page == 'index' %}active{% endif %}"><a href="/index.html">Pat</a></li>
 					<!--<li {% if active_page == 'cv' %}class="active"{% endif %}><a href="/cv.html">CV</a></li>-->
 					<li><a href="/cv/pannuto.pdf">CV <i class="fa fa-file-pdf-o"></i></a></li>
-					<li class="hidden-sm" {% if active_page == 'pubs' %}class="active"{% endif %}><a href="/publications.html">Publications</a></li>
-					<li class="hidden-lg hidden-md hidden-xs" {% if active_page == 'pubs' %}class="active"{% endif %}><a href="/publications.html">Pubs.</a></li>
+					<li class="hidden-sm {% if active_page == 'publications' %}active{% endif %}"><a href="/publications.html">Publications</a></li>
+					<li class="hidden-lg hidden-md hidden-xs {% if active_page == 'publications' %}active{% endif %}"><a href="/publications.html">Pubs.</a></li>
 					<li {% if active_page == 'talks' %}class="active"{% endif %}><a href="/talks.html">Talks</a></li>
 					<li {% if active_page == 'teaching' %}class="active"{% endif %}><a href="/teaching.html">Teaching</a></li>
 					<li {% if active_page == 'fellowships' %}class="active"{% endif %}><a href="/fellowships.html">Fellowships</a></li>
