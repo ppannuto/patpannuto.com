@@ -17,11 +17,10 @@ its operation and interaction shifts from conscious action to unconscious
 extension of perception and ability.
 What advancements will most change how people interact with themselves, the
 world, and one another, and what innovations facilitate these paradigm shifts?
-My interests span from low-level details---developing new technology to meet
-the energy and area demands of next-generation millimeter systems---to
-large-scale global considerations---understanding how our network and
-infrastructure must scale and adapt to support the trillions of impending
-devices.
+My interests span from low-level details, developing new technology to meet the
+energy and area demands of next-generation millimeter systems, to large-scale
+global considerations, understanding how our network and infrastructure must
+scale and adapt to support the trillions of impending devices.
 
 </div>
 <div class="col-lg-4 col-md-4 col-sm-5 hidden-xs">
