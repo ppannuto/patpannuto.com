@@ -2,29 +2,29 @@ Fellowships & Awards
 ====================
 
 The single most useful piece of advice I was ever given for fellowship essays:
-> These are not literature, don't write like it.
+
+> _These are not literature, don't write like it._
+
 An essay for a fellowship is not a novel, it is not even the standard "essay" as
 you were taught in high school.
-
 You do not have to obey the simple paragraphs of text layout style. Add bold
 words to draw attention to your key points, use whitespace however you want.
 Your goal is to make things as easy for the reader as possible.
 
-The NSF requires that you specifically address the "Intellectual
-Merit" and "Broader Impact" of your proposal&mdash;put in section headings with
-exactly these titles and write about them. You don't need "transition
-sentences". In this context, they're nothing but a waste of precious space that
-could instead say something to bolster your case; worse, as a reader, they're
-just crap that I have to wade through to get to the relevant parts of your
-essay. The last thing you want to do is annoy your reader. Think of the volumes
-of essays they're reading, then put away the thesaurus and get to the point.
-
-At the end of the day, that's really the goal: minimize the crap the reader has
-to process to get what you're trying to communicate. Don't let the word "essay"
-get in your way, if a bulleted list makes the most sense, _put in bullets_.
+The NSF requires that you specifically address the "Intellectual Merit" and
+"Broader Impact" of your proposal&mdash;put in section headings with exactly
+these titles and write about them.
+You don't need transition sentences and narrative flow between these.
+In this context, they're nothing but a waste of precious space that could
+instead say something to bolster your case; worse, as a reader, they're just
+crap to wade through to get to the relevant parts of your essay.
+The last thing you want to do is annoy your reader.
+Don't let the word "essay" get in your way, if a bulleted list makes the most
+sense, _put in bullets_.
 
 Below I've provided my essays (winning and losing) as well as any reviews that
-were made available to me. Hopefully they can serve as helpful examples.
+were made available to me.
+Hopefully they can serve as helpful examples.
 Particularly note the change in style from my (losing) 2012 NSF, which I would
 consider a "traditional essay", to the (winning) 2013 NSF, which I would
 consider a "fellowship essay".
@@ -84,7 +84,7 @@ awards.
 While it is my supposition that these awards are highly dependent on the
 supporting letters and nominations (a big thank you to Marcus Darden, who
 led my nominations, as well as all others who wrote letters of support!),
-a few folks have asked me to share my statements, which I'm happy to do here:
+a few folks have asked me to share my statements, which I'm happy to do:
 
   * College of Engineering Towner Prize &ndash; Application <a href="/awards/towner17pannuto.pdf">[pdf]</a>
   * Rackham Graduate School Outstanding GSI &ndash; Teaching Philosophy <a href="/awards/rackham17pannuto.pdf">[pdf]</a>

@@ -58,14 +58,18 @@ $(".pub_abstract_html").click(function() {
 	$('#'+raw_div_id).show("slow");
 });
 
-$(".type_chk").change(function() {
+function pub_type () {
+	console.log($(this));
 	var chk_val = $(this).attr("value");
 	if (this.checked) {
 		$('.pub_type_'+chk_val).show("slow");
 	} else {
 		$('.pub_type_'+chk_val).hide("slow");
 	}
-});
+}
+
+$(".type_chk").change(pub_type);
+$(".type_chk").each(pub_type);
 
 $('.pub_prepub').each(function() {
 	var id = $(this).attr("id");

@@ -488,7 +488,11 @@ class Publications ():
 			title=t.title()
 			if title == 'Posterdemo':
 				title = 'Posters and Demos'
-			filters['type'] += self.checkbox_tmpl.render(checked='checked',
+			if title in ('Conferences', 'Journals'):
+				checked = True
+			else:
+				checked = False
+			filters['type'] += self.checkbox_tmpl.render(checked=checked,
 				classes='type_chk', value=t.lower(),
 				text=title)
 

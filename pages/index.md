@@ -1,8 +1,12 @@
-<div class="row" style="padding-top: 20px;" markdown="1">
-<div class="col-lg-8 col-md-8 col-sm-7 col-xs-12">
+<div class="row" markdown="1">
+<div class="col-md-8">
 
+# Pat Pannuto
 <div class="lead">
-I'm Pat Pannuto, a PhD student at the University of California, Berkeley.
+PhD student at the University of California, Berkeley.
+<a href="mailto:ppannuto@berkeley.edu">ppannuto@berkeley.edu</a> |
+<a href="tel:+12489904548">248.990.4548</a> |
+<a href="https://www.google.com/maps/place/Cory+Hall,+Berkeley,+CA+94720/@37.8750406,-122.2595182,17z/data=!3m1!4b1!4m5!3m4!1s0x80857c2399f46b11:0x89fed96de243799c!8m2!3d37.8750364!4d-122.2573242">545W Cory</a>
 </div>
 
 I am advised by [Prabal Dutta](http://eecs.umich.edu/~prabal) and am the
@@ -23,11 +27,14 @@ global considerations, understanding how our network and infrastructure must
 scale and adapt to support the trillions of impending devices.
 
 [Selected Publications](/publications.html) | [CV](/cv/pannuto.pdf)
+</div><!-- col-md-8 -->
 
+<div id="portraits" class="d-none d-md-block col-md-4">
+  <img src="/images/gallery/2.jpg" class="col-md-12" style="transform: scalex(-1);"/>
+  <img src="/images/gallery/6.jpg" class="col-md-12"/>
+  <img src="/images/gallery/7.jpg" class="col-md-12"/>
 </div>
-<div class="col-lg-4 col-md-4 col-sm-5 hidden-xs">
-<div id="gallery-pat-div"></div>
-</div>
+
 </div>
 
 <hr />
@@ -193,34 +200,22 @@ and experimentation for city-scale applications.
 
 <hr />
 
-<div class="row">
+
+<div class="row" markdown="1">
 <div class="col-lg-12 col-xs-12">
 
-<div class="panel">
-<div class="panel-heading"> <h3 class="panel-title"><strong>Contact</strong></h3> </div>
-<div class="panel-body">
-<p><a href="mailto:ppannuto@berkeley.edu">ppannuto@berkeley.edu</a></p>
-<p><a href="tel:+12489904548">248.990.4548</a></p>
-<p><a href="https://www.google.com/maps/place/Cory+Hall,+Berkeley,+CA+94720/@37.8750406,-122.2595182,17z/data=!3m1!4b1!4m5!3m4!1s0x80857c2399f46b11:0x89fed96de243799c!8m2!3d37.8750364!4d-122.2573242">545W, Cory Hall, Berkeley, CA 94720</a></p>
-</div>
-</div>
-</div>
-</div>
+## Miscellaneous
 
+<a href="http://confsearch.ethz.ch/confsearch/faces/pages/staticresults.jsp?query=usenix%20asplos%20ewsn%20hotnets%20hotos%20ipsn%20isca%20mobicom%20mobihoc%20mobisys%20nsdi%20osdi%20sensys%20sigcomm%20sosp%20uist&sortMode=1&graphicView=1">These are the conferences I generally follow</a>, courtesy of ConfSearch.
 
+I have been fortunate to be successful in many fellowship applications.
+This is due in no small part to excellent guidance from my colleagues and mentors.
+I am happy to share some of that advice and my application materials [here](/fellowships.html).
 
-<div class="row">
-<div class="col-lg-12 col-xs-12">
-
-<div class="panel">
-<div class="panel-heading"> <h3 class="panel-title"><strong>Miscellaneous</strong></h3> </div>
-<div class="panel-body">
-<p><a href="http://confsearch.ethz.ch/confsearch/faces/pages/staticresults.jsp?query=usenix%20asplos%20ewsn%20hotnets%20hotos%20ipsn%20isca%20mobicom%20mobihoc%20mobisys%20nsdi%20osdi%20sensys%20sigcomm%20sosp%20uist&sortMode=1&graphicView=1">These are the conferences I generally follow</a>, courtesy of ConfSearch.</p>
-<p>One of my favorite parts of grad school is the opportunity it has afforded me to travel the world.
+One of my favorite parts of grad school is the opportunity it has afforded me to travel the world.
 <a href="https://www.amcharts.com/visited_countries/#AT,BE,DK,FR,DE,IT,NL,PT,ES,VA,CA,US,GH,MA,CN,KR">Here's all the countries I've made it to thus far</a>
-(also <a href="https://www.amcharts.com/visited_states/#US-AZ,US-CA,US-CT,US-DC,US-DE,US-FL,US-GA,US-HI,US-IL,US-IN,US-KS,US-KY,US-LA,US-MA,US-MD,US-ME,US-MI,US-MO,US-NJ,US-NV,US-NY,US-OH,US-OK,US-OR,US-PA,US-RI,US-TN,US-TX,US-UT,US-VA,US-WA,US-WI">US states I've spent any appreciable time in</a>).</p>
-</div>
-</div>
+(also <a href="https://www.amcharts.com/visited_states/#US-AZ,US-CA,US-CT,US-DC,US-DE,US-FL,US-GA,US-HI,US-IL,US-IN,US-KS,US-KY,US-LA,US-MA,US-MD,US-ME,US-MI,US-MO,US-NJ,US-NV,US-NY,US-OH,US-OK,US-OR,US-PA,US-RI,US-TN,US-TX,US-UT,US-VA,US-WA,US-WI">US states I've spent any appreciable time in</a>).
+
 </div>
 </div>
 
