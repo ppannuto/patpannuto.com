@@ -208,6 +208,10 @@ and experimentation for city-scale applications.
 
 <a href="http://confsearch.ethz.ch/confsearch/faces/pages/staticresults.jsp?query=usenix%20asplos%20ewsn%20hotnets%20hotos%20ipsn%20isca%20mobicom%20mobihoc%20mobisys%20nsdi%20osdi%20sensys%20sigcomm%20sosp%20uist&sortMode=1&graphicView=1">These are the conferences I generally follow</a>, courtesy of ConfSearch.
 
+I am happy to share slides from any presentation I give.
+I generally try to [post slides from major talks](/talks.html),
+but if something is missing that you are interested in, please reach out and I will add it.
+
 I have been fortunate to be successful in many fellowship applications.
 This is due in no small part to excellent guidance from my colleagues and mentors.
 I am happy to share some of that advice and my application materials [here](/fellowships.html).
