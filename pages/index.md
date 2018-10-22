@@ -26,7 +26,7 @@ energy and area demands of next-generation millimeter systems, to large-scale
 global considerations, understanding how our network and infrastructure must
 scale and adapt to support the trillions of impending devices.
 
-[Selected Publications](/publications.html) | [CV](/cv/pannuto.pdf)
+[Selected Publications](/select.html) | [CV](/cv/pannuto.pdf)
 </div><!-- col-md-8 -->
 
 <div id="portraits" class="d-none d-md-block col-md-4">

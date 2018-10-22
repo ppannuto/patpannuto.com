@@ -488,7 +488,7 @@ class Publications ():
 			title=t.title()
 			if title == 'Posterdemo':
 				title = 'Posters and Demos'
-			if title in ('Conferences', 'Journals'):
+			if title in ('Conferences', 'Journals', 'Workshops'):
 				checked = True
 			else:
 				checked = False
