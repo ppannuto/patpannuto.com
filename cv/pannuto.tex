@@ -109,7 +109,7 @@
   \begin{tabular}{c}
     \textsc{\LARGE Pat Pannuto} \\
     \\
-    \textsc{\large October 4, 2018}
+    \textsc{\large October 28, 2018}
   \end{tabular}
 \end{table}
 
@@ -122,25 +122,73 @@
   \end{tabular*}
 \end{table*}
 
-\section*{Research Overview and Interests}
+
+
+
+\section*{Research Interests and Overview}
 
 \begin{itemize}
   \item[]
-    My research vision pushes towards the realization of ubiquitous and
-    pervasive computing,
-    aiming to understand how our interaction and utilization of technology
-    will shift as computing becomes omnipresent and its operation and
-    interaction shifts from conscious action to unconscious extension of
-    perception and ability.
-    What advancements will most change how people interact with themselves,
-    the world, and one another, and what innovations facilitate these paradigm
-    shifts?
-    My interests span from low-level details---developing new technology to
-    meet the energy and area demands of next-generation millimeter
-    systems---to large-scale global considerations---understanding how our
-    network and infrastructure must scale and adapt to support the trillions
-    of impending devices.
+    From mainframes to wearables Bell's law captures the march of progress,
+    noting the emergence of a new computing class roughly every decade.  My
+    research explores what will be required to keep enabling these next
+    generations of computing, how insights from the emerging centimeter-scale
+    and nascent millimeter-scale computing class can solve problems across all
+    domains, and how our expectations and interactions with technology will
+    shift as we begin to realize the ubiquitous computing vision.
+
+  \item[]
+    The \textbf{MBus} project considers this from an architectural
+    perspective, finding fundamental area and energy constraints in current
+    interconnect technologies and demonstrating that shifting system
+    management into the interconnect can simplify both system and circuit
+    design.
+
+    \textbf{Slocalization}, the first FCC-compliant ultra wideband backscatter
+    platform, is motivated by deployment challenges, giving one answer for how
+    we might manage the deployment of millions of miniature sensors.  It
+    demonstrates decimeter-accurate sub-microwatt whole-room concurrent
+    localization, creates a novel integration technique to recover signals
+    from far below the noise floor, and introduces the energy versus latency
+    tradeoff for systems design.
+
+    \textbf{Harmonium} explores how to efficiently design an active ultra
+    wideband tag, empowering opportunistic high-fidelity tracking, and first
+    introduced the bandstitching technique that allows access to the ultra
+    wideband channel using widely-available narrowband frontends.
+
+    \textbf{SurePoint} investigates diversity in the ultra wideband channel,
+    efficient protocols to capture multiple independent samples, and is the
+    first to demonstrate constructive interference with 802.15.4a.
+
+    The \textbf{Tock} operating system answers questions of management,
+    bringing proper process isolation to embedded systems via new hardware and
+    language features that afford safety. Tock addresses fundamental
+    robustness and adaptability tensions with the introduction of grants, a
+    mechanism for a statically allocated kernel to safely perform dynamic
+    allocations in process memory.
+
+    \textbf{Luxapose} shows how the smartphone camera can recover data from
+    visible lights using the rolling shutter effect and realize
+    centimeter-accurate position and single-degree accurate orientation from
+    the projection of these lights on the camera imager.
+
+    \textbf{Opo} crafts a novel, highly efficient ultrasonic wakeup
+    frontend that enables a new broadcast ranging primitive, affording
+    infrastructure-free human interaction tracking with high spatio-temporal
+    fidelity.
+
+    %aiming to understand how our interaction and utilization of technology
+    %will shift as computing becomes omnipresent and its operation and
+    %interaction shifts from conscious action to unconscious extension of
+    %perception and ability.
+    %What advancements will most change how people interact with themselves,
+    %the world, and one another, and what innovations facilitate these paradigm
+    %shifts?
 \end{itemize}
+
+
+
 
 \section*{Education}
 
@@ -157,43 +205,64 @@
 
   \item[]
     \textbf{University of Michigan}, Ann Arbor, MI (2007--2012) \\
-    B.S.Eng in Computer Engineering
+    B.S.Eng. in Computer Engineering
 \end{itemize}
+
+
+
 
 \section*{Awards and Honors}
 
+\hspace{\parindent} \emph{Fellowships}
+
+%\subsection*{Fellowships}
+\begin{itemize}
+  \item[] \textbf{2013} Qualcomm Innovation Fellowship (Honorable Mention), joint with Bradford Campbell, \$50,000
+  \item[] \textbf{2013} National Defense Science \& Engineering Graduate Fellowship (NDSEG), \$95,000 plus tuition
+  \item[] \textbf{2013} National Science Foundation Graduate Research Fellowship (NSF~GRFP), \$90,000 plus tuition
+  \item[] \textbf{2012} University of Michigan Department of Computer Science First-Year Fellowship
+\end{itemize}
+
+\emph{Publication Awards}
+
+%\subsection*{Publications}
+\begin{itemize}
+  \item[] \textbf{2018} Best Paper Finalist, The 17th ACM/IEEE International Conference on Information Processing in Sensor Networks
+  \item[] \textbf{2017} David Wessel Best Demo Award, TerraSwarm Annual Review
+  %\item[] Un \textbf{2018}iversity of Michigan College of Engineering Featured Graduate Student (Fall 2014)
+  \item[] \textbf{2016} IEEE Micro Top Pick in Computer Architecture
+  \item[] \textbf{2016} Outstanding Poster Award, Twelfth International Nanotechnology Conference on Communication and Cooperation
+  \item[] \textbf{2015} Potential for Test of Time 2025 Award, The 2nd ACM Workshop on Hot Topics in Wireless
+\end{itemize}
+
+\emph{Teaching Honors}
+
+%\subsection*{Teaching}
+\begin{itemize}
+  \item[] \textbf{2017} University of Michigan Rackham Graduate School Outstanding Graduate Student Instructor
+  \item[] \textbf{2017} University of Michigan College of Engineering Richard \& Eleanor Towner Prize for Outstanding Graduate Student Instructors
+  \item[] \textbf{2012} Best Undergraduate Instructor, University of Michigan, EECS
+\end{itemize}
+
+
+
+\section*{Advising and Mentoring}
+
 \begin{itemize}
 
-  \item[] University of Michigan Rackham Graduate School Outstanding Graduate Student Instructor (2017)
-  \item[] University of Michigan College of Engineering Richard \& Eleanor Towner Prize for Outstanding Graduate Student Instructors (2017)
-  \item[] University of Michigan College of Engineering Featured Graduate Student (Fall 2014)
-  \item[] Qualcomm Innovation Fellowship Honorable Mention, Team Fellowship with Brad Campbell, \$50,000 (2013--2014)
-  \item[] National Defense Science \& Engineering Graduate Fellowship, \$95,000 plus tuition (2013--2016)
-  \item[] National Science Foundation Graduate Research Fellowship, \$90,000 plus tuition (2013, declined)
-  \item[] University of Michigan Department of Computer Science First-Year Fellowship (2012--2013)
-  \item[] Best Undergraduate Instructor, University of Michigan, EECS (2011--2012)
+  \item[] \textbf{2018} Andreas Biri, (M.S. in progress): Adaptive protocols for interaction tracking
+  \item[] \textbf{2014} Noah Nuechterlein, (undergraduate independent study): Applied computer vision
 
 \end{itemize}
 
-\section*{Invited Presentations}
 
-\begin{itemize}
-  \item[] \textbf{Invited Talk:} MBus: A power-aware interconnect for ultra-low power micro-scale system design, at DARPA Near Zero Power RF and Sensor Operations (N-ZERO) Program Review (2016)
-  \item[] \textbf{Invited Talk:} Ultra-Wideband and Indoor Localization, at HotWireless'16
-  \item[] \textbf{Keynote Address:} The Recent Past and Distant Future of [Micro-Scale] Embedded Systems, at NextMote: Next Generation Platforms for the Cyber-Physical Internet,
-    part of the International Conference on Embedded Wireless Systems and Networks (EWSN'16)
-  \item[] PolyPoint and the First Steps Towards Ubiquitous Localization, at the Student Summit on Mobility, Systems, and Networking, Microsoft Research
-  \item[] \textbf{Guest Speaker:} Sensor Systems and the Art of Effectively Deploying Sensor Networks, TechChange TC111: Technology for Monitoring and Evaluation
-  \item[] \textbf{Invited Talk:} Embedded System Design and the Internet of Things, Stanford Internet of Things Industrial Research Program
-  \item[] \textbf{Invited Talk:} Sensing Technologies for Data Collection and Monitoring, State of the Science, Development Impact Lab (DIL) and USAID Higher Education Solutions Network (HESN)
-  \item[] MBus: Enabling the Next Generation of Sensors and Systems, TerraSwarm Annual Meeting
-\end{itemize}
 
-\section*{Teaching}
+
+\section*{Teaching Experience}
 
 \begin{itemize}
 
-  \item[] Primary Instructor, EECS 398: Computing for Computer Scientists (F'16, W'16)
+  \item[] Primary Instructor, EECS\,398: Computing for Computer Scientists (F16, W16)
     \begin{itemize}
       \item[] A new class designed and built from scratch. This class attempts
         to address the experience gap that exists across the spectrum of
@@ -203,20 +272,44 @@
         day-to-day activities, how to apply principles learned in courses to
         everyday activities, and ultimately how to be a more efficient user of
         computing resources.
+      \item[] This course has been adopted as part of the permanent curriculum
+        at the University of Michigan as EECS\,201: Computing Pragmatics, an
+        advised co-requisite for first-year EECS majors.
       \item[] \url{https://c4cs.github.io}
       \item[] \emph{In 2017, I was awarded the Rackham Graduate School Outstanding Graduate Student Instructor and the College of Engineering Richard \& Eleanor Towner Prize for Outstanding Graduate Student Instructors for this course.}
     \end{itemize}
-  \item[] Graduate Teaching Assistant, EECS 373: Design of Microprocessor Based Systems (F'15, W'15)
-  \item[] Undergraduate Teaching Assistant, EECS 470: Computer Architecture (W'12)
-  \item[] Undergraduate Teaching Assistant, EECS 482: Introduction to Operating Systems (W'12, F'11, W'11, F'10)
-  \item[] Undergraduate Teaching Assistant, EECS 373: Design of Microprocessor Based Systems (F'11, W'11)
+  \item[] Graduate Teaching Assistant, EECS\,373: Design of Microprocessor Based Systems (F15, W15)
+  \item[] Undergraduate Teaching Assistant, EECS\,470: Computer Architecture (W12)
+  \item[] Undergraduate Teaching Assistant, EECS\,482: Introduction to Operating Systems (W12, F11, W11, F10)
+  \item[] Undergraduate Teaching Assistant, EECS\,373: Design of Microprocessor Based Systems (F11, W11)
 
 \end{itemize}
+
+
+
+
+\section*{Invited Presentations}
+
+\begin{itemize}
+  \item[] \textbf{Invited Talk:} MBus: A power-aware interconnect for ultra-low power micro-scale system design, at DARPA Near Zero Power RF and Sensor Operations (N-ZERO) Program Review (2016)
+  \item[] \textbf{Invited Talk:} Ultra Wideband and Indoor Localization, at HotWireless'16
+  \item[] \textbf{Keynote Address:} The Recent Past and Distant Future of [Micro-Scale] Embedded Systems, at NextMote: Next Generation Platforms for the Cyber-Physical Internet,
+    part of the International Conference on Embedded Wireless Systems and Networks (EWSN'16)
+  \item[] PolyPoint and the First Steps Towards Ubiquitous Localization, at the Student Summit on Mobility, Systems, and Networking, Microsoft Research
+  \item[] \textbf{Guest Speaker:} Sensor Systems and the Art of Effectively Deploying Sensor Networks, TechChange TC111: Technology for Monitoring and Evaluation
+  \item[] \textbf{Invited Talk:} Embedded System Design and the Internet of Things, Stanford Internet of Things Industrial Research Program
+  \item[] \textbf{Invited Talk:} Sensing Technologies for Data Collection and Monitoring, State of the Science, Development Impact Lab (DIL) and USAID Higher Education Solutions Network (HESN)
+  \item[] MBus: Enabling the Next Generation of Sensors and Systems, TerraSwarm Annual Meeting
+\end{itemize}
+
+
+
 
 \section*{Professional Service}
 
 \begin{itemize}
 
+  \item[] 2018 ACM Workshop on Data Acquisition to Analysis (DATA\,18) -- TPC Member
   \item[] 2014 ACM Workshop on Visible Light Communication Systems -- Demo Co-Chair
   \item[] Recurring reviewer for IEEE Transactions on Circuits and Systems II (TCAS-II)
     \emph{2013--present}
@@ -230,6 +323,18 @@
     \emph{2015--2016}
 
 \end{itemize}
+
+
+
+\section*{References}
+
+\begin{tabular}{l l l l}
+  \textbf{Prabal Dutta}              & \textbf{Anthony Rowe}      & \textbf{David Blaauw}  & \textbf{Philip Levis} \\
+  University of California, Berkeley & Carnegie Mellon University & University of Michigan & Stanford University \\
+  prabal@berkeley.edu                & agr@ece.cmu.edu            & blaauw@umich.edu       & pal@cs.stanford.edu \\
+\end{tabular}
+
+
 
 % multibib style labels with biblatex, from
 % http://tex.stackexchange.com/questions/29780/
