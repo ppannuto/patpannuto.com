@@ -14,17 +14,13 @@ recipient of the [National Defense Science & Engineering Graduate (NDSEG) Fellow
 the [National Science Foundation Graduate Research Fellowship Program (NSF GRFP) Fellowship](http://www.nsfgrfp.org/) (2013),
 and the [Qualcomm Innovation Fellowship (QInF)](https://www.qualcomm.com/invention/research/university-relations/innovation-fellowship) (2013).
 
-My research vision pushes towards the realization of
-ubiquitous and pervasive computing, aiming to understand how our interaction
-and utilization of technology will shift as computing becomes omnipresent and
-its operation and interaction shifts from conscious action to unconscious
-extension of perception and ability.
-What advancements will most change how people interact with themselves, the
-world, and one another, and what innovations facilitate these paradigm shifts?
-My interests span from low-level details, developing new technology to meet the
-energy and area demands of next-generation millimeter systems, to large-scale
-global considerations, understanding how our network and infrastructure must
-scale and adapt to support the trillions of impending devices.
+From mainframes to wearables Bell's law captures the march of progress,
+noting the emergence of a new computing class roughly every decade.  My
+research explores what will be required to keep enabling these next
+generations of computing, how insights from the emerging centimeter-scale
+and nascent millimeter-scale computing class can solve problems across all
+domains, and how our expectations and interactions with technology will
+shift as we begin to realize the ubiquitous computing vision.
 
 [Selected Publications](/select.html) | [CV](/cv/pannuto.pdf)
 </div><!-- col-md-8 -->
