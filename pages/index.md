@@ -45,7 +45,7 @@ scale and adapt to support the trillions of impending devices.
  - **[Richard & Eleanor Towner Prize for Outstanding Graduate Student Instructors](https://crlte.engin.umich.edu/grants-awards-certificate/towner-prize/towner-prize-winners/)** (2017)
  - **[Qualcomm Innovation Fellowship](https://www.qualcomm.com/invention/research/university-relations/innovation-fellowship)** Honorable Mention (half fellow), joint with [Brad Campbell](http://www.cs.virginia.edu/~bjc8c/) (2013)
  - **[National Defense Science & Engineering Graduate Fellowship](https://ndseg.asee.org/)** Fellow (2013)
- - **[National Science Foundation Graduate Research Fellowship](https://www.nsfgrfp.org/)** Fellow, declined (2013)
+ - **[National Science Foundation Graduate Research Fellowship](https://www.nsfgrfp.org/)** Fellow (2013)
  - **[University of Michigan Department of Computer Science First Year Fellowship](http://eecs.umich.edu/)** Fellow (2012)
  - **[CSE Undergraduate Instructor Award](http://www.eecs.umich.edu/eecs/events/GSI-awards-2012.html)** (2012)
 <br><br />
