@@ -1,6 +1,6 @@
 all: pannuto.pdf
 
-pannuto.pdf: pannuto.tex conferences.bib workshops.bib journals.bib posterdemo.bib | clean
+pannuto.pdf: pannuto.tex conferences.bib workshops.bib journals.bib posterdemo.bib biblatex.cfg | clean
 	pdflatex pannuto.tex
 	biber pannuto
 	pdflatex pannuto.tex
