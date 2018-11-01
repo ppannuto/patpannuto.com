@@ -30,8 +30,15 @@
 		{% if 'pdf' in paths %}
 		<a id="{{ bibkey }}-link" href="{{ paths['pdf'] }}">[{{ pub['display-type'] }}]</a>
 		{% endif %}
-		{% if 'talk' in paths %}
-		<a id="{{ bibkey }}-talk" href="{{ paths['talk'] }}">[talk]</a>
+		{% if 'talk_pptx' in paths %}
+			{% if 'talk_pdf' in paths %}
+				<a id="{{ bibkey }}-talk" href="{{ paths['talk_pptx'] }}">[slides</a>
+				<a href="{{ paths['talk_pdf'] }}">(as pdf)]</a>
+			{% else %}
+				<a id="{{ bibkey }}-talk" href="{{ paths['talk_pptx'] }}">[slides]</a>
+			{% endif %}
+		{% elif 'talk_pdf' in paths %}
+			<a id="{{ bibkey }}-talk" href="{{ paths['talk_pdf'] }}">[slides]</a>
 		{% endif %}
 		{% if 'video-url' in pub %}
 		<a href="{{ pub['video-url'] }}" target="_blank">[video <i class="fa fa-external-link"></i>]</a>

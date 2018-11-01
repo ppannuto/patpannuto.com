@@ -325,14 +325,18 @@ class Paper ():
 
 		# Grab a ref to the talk if it exists
 		if 'series' in entry.fields:
+			# talk named after conference
 			series_short = entry.fields['series'].lower().replace(' ', '').replace("'", '')
+			if os.path.exists(os.path.join('static', 'talks', series_short+'.pptx')):
+				self.paths['talk_pptx'] = '/talks/{}.pptx'.format(series_short)
 			if os.path.exists(os.path.join('static', 'talks', series_short+'.pdf')):
-				# talk named after conference
-				self.paths['talk'] = '/talks.html#{}'.format(series_short)
+				self.paths['talk_pdf'] = '/talks/{}.pdf'.format(series_short)
 		if 'talk' not in self.paths:
+			# talk named after bibkey
+			if os.path.exists(os.path.join('static', 'talks', bibkey+'.pptx')):
+				self.paths['talk_pptx'] = '/talks/{}.pptx'.format(bibkey)
 			if os.path.exists(os.path.join('static', 'talks', bibkey+'.pdf')):
-				# talk named after bibkey
-				self.paths['talk'] = '/talks.html#{}'.format(bibkey)
+				self.paths['talk_pdf'] = '/talks/{}.pdf'.format(bibkey)
 
 		# Possibly remove \url{} from the url entry if needed
 		try:
