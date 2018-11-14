@@ -168,16 +168,18 @@ to maintain a user-set brightness under variable external lighting conditions.
 }
 
 @inproceedings{kempke15loccomp,
+	keywords={posterdemo},
   author = {Campbell, Bradford and Dutta, Prabal and Kempke, Benjamin and Kuo, Ye-Sheng and \textbf{Pannuto}, \textbf{Pat}},
   title = {DecaWave: Exploring State of the Art Commercial Localization},
+  booktitle = {Microsoft Indoor Localization Competition},
   year = {2015},
   month = {4},
   location = {Seattle, Washington, USA},
   abstract = {In developing technology for indoor localization, we have recently
-begun exploring commercially available state of the art localiza-tion technologies.
+begun exploring commercially available state of the art localization technologies.
 The DecaWave DW1000 is a new ultra-wideband
 transceiver that advertises high-precision indoor pairwise ranging
-between modules with errors as low as 10 cm. We are currently ex-ploring this
+between modules with errors as low as 10 cm. We are currently exploring this
 technology to automate obtaining anchor ground-truth
 locations for other indoor localization systems. Anchor positioning
 is a constrained version of indoor localization, with minimal time
@@ -186,8 +188,40 @@ DW1000 hardware on our own localization system, this provides
 an opportunity for gathering performance data for a commercially-enabled
 localization system deployed by a third-party for comparison purposes.
 We do not claim the ranging hardware as our originalwork, but we do provide a
-hardware implementation, an infrastruc- ture for converting pairwise measurements
+hardware implementation, an infrastructure for converting pairwise measurements
 to locations, and the front-end for viewing the results.},
+  conference-url = {\url{http://research.microsoft.com/en-us/events/indoorloccompetition2015/}},
+  extra = {Third Place in Infrastructure-Based Systems}
+}
+
+@inproceedings{kuo15loccomp,
+	keywords={posterdemo},
+  author = {Kuo, Ye-Sheng and \textbf{Pannuto}, \textbf{Pat} and Campbell, Bradford and Dutta, Prabal},
+  title = {Luxapose: Indoor Positioning with Mobile Phones and Visible Light},
+  booktitle = {Microsoft Indoor Localization Competition},
+  year = {2015},
+  month = {April},
+  location = {Seattle, Washington, USA},
+  abstract = {
+    Luxapose addresses the indoor localization problem
+with unmodified smartphones and software controlled LED luminaires.
+Each luminaire, while providing normal lighting for a space,
+transmits an identifier by switching the luminaire on-and-off at a particular
+frequency. The pulses are imperceptible to humans, but smartphone
+cameras can detect the switching by exploiting the rolling shutter effect
+of CMOS cameras. Once the camera captures an image, the image
+is processed to find the luminaires, determine their identifiers,
+construct a sufficiently constrained angle-of-arrival localization
+problem, and ultimately calculate the smartphone's position and
+orientation in space.
+
+Luxapose requires LED lighting infrastructure for localization, however,
+the LED lights can replace the current lighting in a building. Luxapose
+has virtually no cost to the end-users, requiring just an app on the
+smartphone they already carry. The system has demonstrated ninetieth percentile
+position error of 10~cm and orientation error of 10~degrees when the
+smartphone is held under the LED luminaires.
+  },
   conference-url = {\url{http://research.microsoft.com/en-us/events/indoorloccompetition2015/}}
 }
 
