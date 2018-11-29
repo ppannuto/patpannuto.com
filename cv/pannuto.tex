@@ -73,6 +73,10 @@
       \step[fieldsource=extra]
       \step[fieldset=userd,origfieldval]
     }
+    \map{
+      \step[fieldsource=acceptance-percent]
+      \step[fieldset=usere,origfieldval]
+    }
   }
 }
 
@@ -88,9 +92,14 @@
     \iffieldundef{usera}{%
 %    \space \textbf{No annotation!}}{%
     }{%
-      \space Acceptance:%
+      \\Acceptance:%
       \space\printfield{userb}~/~\printfield{usera}%
       \space(\printfield{userc}).
+    }
+    \iffieldundef{usere}{%
+    }{%
+      \\Acceptance:%
+      \space\printfield{usere}\%.
     }
     \iffieldundef{userd}{%
       %
