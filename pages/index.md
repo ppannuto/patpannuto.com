@@ -9,26 +9,34 @@ PhD student at the University of California, Berkeley.
 <a href="https://www.google.com/maps/place/Cory+Hall,+Berkeley,+CA+94720/@37.8750406,-122.2595182,17z/data=!3m1!4b1!4m5!3m4!1s0x80857c2399f46b11:0x89fed96de243799c!8m2!3d37.8750364!4d-122.2573242">545W Cory</a>
 </div>
 
+---
+
+**I am on the job market this year!**
+
+[CV](/appkit18/pannuto_CV.pdf) |
+[Research](/appkit18/pannuto_research.pdf) |
+[Teaching](/appkit18/pannuto_teaching.pdf) |
+[Diversity](/appkit18/pannuto_diversity.pdf) |
+[Full Appkit](/appkit.html)
+
+---
+
 I am advised by [Prabal Dutta](http://eecs.umich.edu/~prabal) and am the
 recipient of the [National Defense Science & Engineering Graduate (NDSEG) Fellowship](https://ndseg.asee.org/) (2013),
 the [National Science Foundation Graduate Research Fellowship Program (NSF GRFP) Fellowship](http://www.nsfgrfp.org/) (2013),
 and the [Qualcomm Innovation Fellowship (QInF)](https://www.qualcomm.com/invention/research/university-relations/innovation-fellowship) (2013).
 
-From mainframes to wearables Bell's law captures the march of progress,
-noting the emergence of a new computing class roughly every decade.  My
-research explores what will be required to keep enabling these next
-generations of computing, how insights from the emerging centimeter-scale
-and nascent millimeter-scale computing class can solve problems across all
-domains, and how our expectations and interactions with technology will
-shift as we begin to realize the ubiquitous computing vision.
 
-[Selected Publications](/select.html) | [CV](/cv/pannuto.pdf)
+[Selected Publications](/select.html) |
+[All Publications](/publications.html) |
+[Teaching](/teaching.html) |
+[Fellowships](/fellowships.html)
 </div><!-- col-md-8 -->
 
 <div id="portraits" class="d-none d-md-block col-md-4">
   <img src="/images/gallery/2.jpg" class="col-md-12" style="transform: scalex(-1);"/>
   <img src="/images/gallery/6.jpg" class="col-md-12"/>
-  <img src="/images/gallery/7.jpg" class="col-md-12"/>
+  <!--<img src="/images/gallery/7.jpg" class="col-md-12"/>-->
 </div>
 
 </div>
