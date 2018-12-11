@@ -23,5 +23,6 @@ opportunites at industrial research labs.
     3. [MobiCom'14 - Luxapose](/appkit18/3-kuo14luxapose.pdf)
     4. [SOSP'17 - Tock](/appkit18/4-levy17multiprogramming.pdf)
     5. [TOSN'18 - Harmonium](/appkit18/5-pannuto18harmonium.pdf)
+ * [Complete Publication List](/appkit18/pannuto_publication_list.pdf)
 
 A [zipfile of the complete kit is also available](/appkit18/pannuto_appkit.zip).
