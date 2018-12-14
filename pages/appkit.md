@@ -26,3 +26,11 @@ opportunites at industrial research labs.
  * [Complete Publication List](/appkit18/pannuto_publication_list.pdf)
 
 A [zipfile of the complete kit is also available](/appkit18/pannuto_appkit.zip).
+
+---
+
+## External Resources
+
+ * [Google Scholar](https://scholar.google.com/citations?user=4uuuczIAAAAJ&hl=en)
+ * [dblp](http://dblp.org/pers/hd/p/Pannuto:Pat)
+ * [ResearchGate](https://www.researchgate.net/profile/Pat_Pannuto)
