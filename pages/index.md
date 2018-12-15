@@ -11,13 +11,17 @@ PhD student at the University of California, Berkeley.
 
 ---
 
+<div style="text-align:center;" markdown="1">
 **I am on the job market this year!**
 
+**
 [CV](/appkit18/pannuto_CV.pdf) |
 [Research](/appkit18/pannuto_research.pdf) |
 [Teaching](/appkit18/pannuto_teaching.pdf) |
 [Diversity](/appkit18/pannuto_diversity.pdf) |
 [Full Appkit](/appkit.html)
+**
+</div>
 
 ---
 
