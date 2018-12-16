@@ -29,7 +29,8 @@ def md_to_html(path, md_file):
 	page = os.path.splitext(md_file)[0]
 	with open('html/{}.html'.format(page), 'w') as o:
 		logger.info('Processing ' + md_file)
-		content = markdown.markdown(open(os.path.join(path, md_file)).read(), ['extra'])
+		content = markdown.markdown(open(os.path.join(path, md_file)).read(),
+				extensions=['extra'])
 		o.write(header_tmpl.render(active_page=page, content=content))
 
 for md in os.listdir('pages'):
