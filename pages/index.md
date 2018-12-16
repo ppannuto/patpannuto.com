@@ -19,7 +19,7 @@ PhD student at the University of California, Berkeley.
 [Research](/appkit18/pannuto_research.pdf) |
 [Teaching](/appkit18/pannuto_teaching.pdf) |
 [Diversity](/appkit18/pannuto_diversity.pdf) |
-[Full Appkit](/appkit.html)
+[Full&nbsp;Appkit](/appkit.html)
 **
 </div>
 
@@ -31,10 +31,13 @@ the [National Science Foundation Graduate Research Fellowship Program (NSF GRFP)
 and the [Qualcomm Innovation Fellowship (QInF)](https://www.qualcomm.com/invention/research/university-relations/innovation-fellowship) (2013).
 
 
-[Selected Publications](/select.html) |
-[All Publications](/publications.html) |
+<div style="text-align:center;" markdown="1">
+[Selected&nbsp;Publications](/select.html) |
+[All&nbsp;Publications](/publications.html) |
 [Teaching](/teaching.html) |
 [Fellowships](/fellowships.html)
+</div>
+
 </div><!-- col-md-8 -->
 
 <div id="portraits" class="d-none d-md-block col-md-4">
