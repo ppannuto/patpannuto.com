@@ -4,6 +4,5 @@ latexcodec==1.0.5
 Markdown==3.0.1
 MarkupSafe==1.1.0
 pybtex==0.22.0
-PyYAML==3.13
 sh==1.12.14
 six==1.12.0
