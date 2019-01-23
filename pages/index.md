@@ -92,6 +92,36 @@ interconnect](http://mbus.io) optimized for energy-conscious designs.
 </small>
 
 
+#### The Tock Operating System
+
+Low-power microcontrollers lack some of the hardware features and memory
+resources that traditionally enable multiprogrammable systems.
+Accordingly, microcontroller-based operating systems have not provided
+important features like fault isolation, dynamic memory allocation, and
+flexible concurrency.
+However, an emerging class of embedded applications are software platforms,
+rather than single purpose devices, and need these multiprogramming features.
+Tock, a new operating system for low-power platforms, takes advantage of
+limited hardware-protection mechanisms as well as the type-safety features
+of the Rust programming language to provide a multiprogramming environment for
+microcontrollers.
+
+Tock isolates software faults, provides memory protection, and efficiently
+manages memory for dynamic application workloads written in any language. It
+achieves this while retaining the dependability requirements of long-running
+applications.
+
+[www.tockos.org](https://www.tockos.org/)
+
+<small markdown="1">
+{
+[SOSP'17](/pubs/levy17multiprogramming.pdf) |
+[APSys'17](/pubs/levy17rustkernel.pdf) |
+[PLOS'15](/pubs/levy15ownership.pdf)
+}
+</small>
+
+
 #### Localization
 
 Location information is a key aspect of context-aware computing. Making
@@ -158,38 +188,49 @@ applications:
 [luxapose]: http://lab11.eecs.umich.edu/projects/vlc_localization/ "Luxapose: Indoor Positioning with Mobile Phones and Visible Light"
 [harmonia]: http://lab11.eecs.umich.edu/projects/harmonia/ "Harmonia: Wideband Spreading for Accurate Indoor RF Localization"
 [opo]: http://lab11.eecs.umich.edu/projects/opo/ "Opo: A Wearable Sensor for Capturing High-Fidelity Face-to-Face Interactions"
-[gridwatch]: http://lab11.eecs.umich.edu/projects/gridwatch/ "GridWatch: Mapping Blackouts with Smart Phones"
 
 
-#### The Tock Operating System
+#### GridWatch and The Open INcentive Kit
 
-Low-power microcontrollers lack some of the hardware features and memory
-resources that traditionally enable multiprogrammable systems.
-Accordingly, microcontroller-based operating systems have not provided
-important features like fault isolation, dynamic memory allocation, and
-flexible concurrency.
-However, an emerging class of embedded applications are software platforms,
-rather than single purpose devices, and need these multiprogramming features.
-Tock, a new operating system for low-power platforms, takes advantage of
-limited hardware-protection mechanisms as well as the type-safety features
-of the Rust programming language to provide a multiprogramming environment for
-microcontrollers.
+The power grid is one of humanity's most significant engineering undertakings,
+and it is essential in developed and developing nations alike. Yet, most grids
+have remarkably little introspection into their operation. GridWatch is
+inspired by a simple observation, a smartphone stops charging for one of two
+reasons: (1) The user unplugged it, (2) The power went out.
+Given that we can filter the first case with the phone's accelerometer, can a
+critical mass of smartphones act as low-fidelity, high-coverage,
+fine-granularity grid monitor that runs independent of local utilities?
+Following the promise shown by this initial inspiration, GridWatch has grown to
+include a rich suite of power sensing technologies, which includes [custom
+hardware][powerwatch] for high-fidelity measurements and ground truth and most
+recently ideas for [non-contact voltage monitoring][fancythat] from project
+collaborators.
 
-Tock isolates software faults, provides memory protection, and efficiently
-manages memory for dynamic application workloads written in any language. It
-achieves this while retaining the dependability requirements of long-running
-applications.
+Today, GridWatch has micro deployments in the United States, Venezuela,
+Nigeria, and India. The primary deployment, branded DumsorWatch, in Accra,
+Ghana serves as one of the principle measurement and evaluation arms for the
+$498 million [Ghana Power Compact][mccghana] and has several hundred sensors
+deployed and several thousand app-based participants.
 
-[www.tockos.org](https://www.tockos.org/)
+Born out of the complex, wide-area study demanded by DumsorWatch,
+the [Open INcentive Kit][oink] (OINK) is a new platform for running and
+managing incentive-based studies. With OINK, experimenters set up a series of
+rules that express when and how study participants should be incentivized. OINK
+monitors a study, automatically triggers incentives, and handles disbursements.
 
 <small markdown="1">
 {
-[SOSP'17](/pubs/levy17multiprogramming.pdf) |
-[APSys'17](/pubs/levy17rustkernel.pdf) |
-[PLOS'15](/pubs/levy15ownership.pdf)
+[ICTD'19](/pubs/klugman19oink.pdf) |
+[MobiCom'18](/pubs/klugman18liberation.pdf) |
+[HotMobile'14](/pubs/klugman14gridwatch.pdf)
 }
 </small>
 
+[gridwatch]: http://lab11.eecs.umich.edu/projects/gridwatch/ "GridWatch: Mapping Blackouts with Smart Phones"
+[fancythat]: https://dl.acm.org/citation.cfm?id=3209864
+[powerwatch]: https://github.com/lab11/PlugWatch/tree/master/powerwatch
+[mccghana]: https://www.mcc.gov/where-we-work/program/ghana-power-compact
+[oink]: https://openincentivekit.com
 
 #### The Signpost City-Scale Sensing Project
 
