@@ -1,5 +1,11 @@
+<div class="page-header">
+  <h1><a href="/" style="color: inherit;">Pat Pannuto</a></h1>
+</div>
+
+---
+
 Teaching
-========
+--------
 
 [ug-award]: http://www.eecs.umich.edu/eecs/events/GSI-awards-2012.html
 In my time at Michigan, I have had the opportunity to teach an array of courses,

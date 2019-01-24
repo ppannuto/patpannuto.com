@@ -7,6 +7,8 @@ My <a href="/publications.html">complete publication list</a> and
 <a href="/cv/pannuto.pdf">full CV <i class="fa fa-file-pdf-o"></i></a> are also available.
 </p>
 
+---
+
 ## Select Publications
 
 [MBus: A System Integration Bus for the Modular Micro-Scale Computing Class](/pubs/pannuto16mbus-tops-picks.pdf)
