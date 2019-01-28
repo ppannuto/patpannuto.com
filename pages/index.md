@@ -25,11 +25,6 @@ PhD student at the University of California, Berkeley.
 
 ---
 
-I am advised by [Prabal Dutta](http://eecs.umich.edu/~prabal) and am the
-recipient of the [National Defense Science & Engineering Graduate (NDSEG) Fellowship](https://ndseg.asee.org/) (2013),
-the [National Science Foundation Graduate Research Fellowship Program (NSF GRFP) Fellowship](http://www.nsfgrfp.org/) (2013),
-and the [Qualcomm Innovation Fellowship (QInF)](https://www.qualcomm.com/invention/research/university-relations/innovation-fellowship) (2013).
-
 
 <div style="text-align:center;" markdown="1">
 [Selected&nbsp;Publications](/select.html) |
@@ -41,12 +36,30 @@ and the [Qualcomm Innovation Fellowship (QInF)](https://www.qualcomm.com/inventi
 </div><!-- col-md-8 -->
 
 <div id="portraits" class="d-none d-md-block col-md-4">
+  <img src="/images/pannuto-headshot.jpg" class="col-md-12" style="padding-top: 15px;"/>
+  <!--
   <img src="/images/gallery/2.jpg" class="col-md-12" style="transform: scalex(-1);"/>
   <img src="/images/gallery/6.jpg" class="col-md-12"/>
+  -->
   <!--<img src="/images/gallery/7.jpg" class="col-md-12"/>-->
 </div>
 
+
 </div>
+<div class="row" markdown="1">
+
+<div class="col-md-12" markdown="1">
+I am advised by [Prabal Dutta](http://eecs.umich.edu/~prabal) and am a
+[National Defense Science & Engineering Graduate (NDSEG)](https://ndseg.asee.org/)
+Fellow (2013),
+a [National Science Foundation Graduate Research Fellowship Program (NSF GRFP)](http://www.nsfgrfp.org/)
+Fellow (2013),
+and a [Qualcomm Innovation Fellowship (QInF)](https://www.qualcomm.com/invention/research/university-relations/innovation-fellowship)
+Fellow (2013).
+</div>
+
+</div>
+
 
 <hr />
 
