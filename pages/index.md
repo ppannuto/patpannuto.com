@@ -64,7 +64,7 @@ Fellow (2013).
 <hr />
 
 #### Interview Schedule
-_As of January 27, 2019_
+_As of January 28, 2019_
 
  - _**January 30 - February 1**_  
    **IBM Research**  
@@ -75,7 +75,7 @@ _As of January 27, 2019_
    Zurich, Switzerland
  - _**February 11-12**_  
    **University of Michigan**  
-   **[Computer Science and Engineering](https://www.cse.umich.edu/)**  
+   Joint interview with **[Computer Science and Engineering](https://www.cse.umich.edu/)** and **[Electrical & Computer Engineering](http://ece.umich.edu/)**  
    Ann Arbor, Michigan
  - _**February 14-15**_  
    **University of California, Los Angeles**  
@@ -87,10 +87,6 @@ _As of January 27, 2019_
  - _**February 27-28**_  
    _I'll be at [HotMobile](http://hotmobile.org/2019/)_  
    Santa Cruz, California
- - _**March 14-15**_  
-   **University of Michigan**  
-   **[Electrical & Computer Engineering](http://ece.umich.edu/)**  
-   Ann Arbor, Michigan
  - _**April 15-18**_  
    _I'll be at [CPS-IoT Week](http://cpslab.cs.mcgill.ca/cpsiotweek2019/)_  
    Montréal, Canada
