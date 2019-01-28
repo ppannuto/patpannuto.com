@@ -63,6 +63,40 @@ Fellow (2013).
 
 <hr />
 
+#### Interview Schedule
+_As of January 27, 2019_
+
+ - _**January 30 - February 1**_  
+   **IBM Research**  
+   Yorktown Heights, New York
+ - _**February 4-5**_  
+   **ETH Zurich**  
+   **[Assistant Professor of Software Hardware Interfaces](https://www.ethz.ch/en/the-eth-zurich/working-teaching-and-research/faculty-affairs/ausgeschriebene-professuren/ingenieurwissenschaften/professur-oder-assistenzprofessur--tenure-track--fuer-software-h.html)** in the **[Dept. of Information Technology and Electrical Engineering](https://www.ee.ethz.ch/)**  
+   Zurich, Switzerland
+ - _**February 11-12**_  
+   **University of Michigan**  
+   **[Computer Science and Engineering](https://www.cse.umich.edu/)**  
+   Ann Arbor, Michigan
+ - _**February 14-15**_  
+   **University of California, Los Angeles**  
+   **[Electrical and Computer Engineering](https://www.ee.ucla.edu/)**  
+   Los Angeles, California
+ - _**February 18**_  
+   _I'll be around [ISSCC](http://isscc.org/) and at the [Michigan ISSCC Alumni Mixer](http://ece.umich.edu/events/ISSCC2019/)_  
+   San Francisco, California
+ - _**February 27-28**_  
+   _I'll be at [HotMobile](http://hotmobile.org/2019/)_  
+   Santa Cruz, California
+ - _**March 14-15**_  
+   **University of Michigan**  
+   **[Electrical & Computer Engineering](http://ece.umich.edu/)**  
+   Ann Arbor, Michigan
+ - _**April 15-18**_  
+   _I'll be at [CPS-IoT Week](http://cpslab.cs.mcgill.ca/cpsiotweek2019/)_  
+   Montréal, Canada
+
+<hr />
+
 #### Selected Honors & Awards
 
  - **[Rackham Graduate School Outstanding Graduate Student Instructor](http://www.rackham.umich.edu/faculty-staff/awards/student-funding/outstanding-graduate-student-instructor-awards#recipients)** (2017)
