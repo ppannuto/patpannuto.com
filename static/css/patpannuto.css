@@ -3,6 +3,9 @@ body {
 	padding-top: 50px;
 }
 
+/* Override bootstrap link color to be a little darker */
+a {color: #004499;}
+
 .round {
 	border-radius: 50%;
 	overflow: hidden;
