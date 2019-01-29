@@ -87,6 +87,10 @@ _As of January 28, 2019_
  - _**February 27-28**_  
    _I'll be at [HotMobile](http://hotmobile.org/2019/)_  
    Santa Cruz, California
+ - _**March 6-8**_  
+   **University of Wisconsin-Madison**  
+   **[Electrical & Computer Engineering](https://www.engr.wisc.edu/department/electrical-computer-engineering/)**  
+   Madison, Wisconsin
  - _**April 15-18**_  
    _I'll be at [CPS-IoT Week](http://cpslab.cs.mcgill.ca/cpsiotweek2019/)_  
    Montréal, Canada
