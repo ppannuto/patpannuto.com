@@ -64,9 +64,9 @@ Fellow (2013).
 <hr />
 
 #### Interview Schedule
-_As of January 28, 2019_
+_As of January 31, 2019_
 
- - _**January 30 - February 1**_  
+ - _**January 31 - February 1**_  
    **IBM Research**  
    Yorktown Heights, New York
  - _**February 4-5**_  
@@ -91,6 +91,14 @@ _As of January 28, 2019_
    **University of Wisconsin-Madison**  
    **[Electrical & Computer Engineering](https://www.engr.wisc.edu/department/electrical-computer-engineering/)**  
    Madison, Wisconsin
+ - _**March 11-12**_  
+   **Cornell University**  
+   **[Electrical and Computer Engineering](https://www.ece.cornell.edu/ece)**  
+   Ithaca, New York
+ - _**April 1-2**_  
+   **Massachusetts Institute of Technology**  
+   **[Electrical Engineering & Computer Science](https://www.eecs.mit.edu/)**  
+   Boston, Massachusetts
  - _**April 15-18**_  
    _I'll be at [CPS-IoT Week](http://cpslab.cs.mcgill.ca/cpsiotweek2019/)_  
    Montréal, Canada
