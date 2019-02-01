@@ -195,7 +195,7 @@ applications:
     **[IPSN'18](/pubs/pannuto18slocalization.pdf)** }
     </small>
   - **SurePoint.** In late 2013, DecaWave released the first (and as of 2018
-    still only) commercially available ultra wideband transciever. While ultra
+    still only) commercially available ultra wideband transceiver. While ultra
     wideband provides the potential for extremely accurate range estimates, in
     practice single range estimates can exhibit variation well over a meter.
     SurePoint explores what's required to build a scalable, high-fidelity, and
