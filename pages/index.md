@@ -99,6 +99,10 @@ _As of January 31, 2019_
    **Massachusetts Institute of Technology**  
    **[Electrical Engineering & Computer Science](https://www.eecs.mit.edu/)**  
    Boston, Massachusetts
+ - _**April 8-9**_  
+   **University of Washington**  
+   **[Electrical & Computer Engineering](https://www.ece.uw.edu/)**  
+   Seattle, Washington
  - _**April 15-18**_  
    _I'll be at [CPS-IoT Week](http://cpslab.cs.mcgill.ca/cpsiotweek2019/)_  
    Montréal, Canada
