@@ -64,7 +64,7 @@ Fellow (2013).
 <hr />
 
 #### Interview Schedule
-_As of February 8, 2019_
+_As of February 15, 2019_
 
  - _**January 31 - February 1**_  
    **IBM Research**  
@@ -110,6 +110,10 @@ _As of February 8, 2019_
  - _**April 15-18**_  
    _I'll be at [CPS-IoT Week](http://cpslab.cs.mcgill.ca/cpsiotweek2019/)_  
    Montréal, Canada
+ - _**April 24**_  
+   **University of California, San Diego**  
+   **[Computer Science and Engineering](https://cse.ucsd.edu/)**  
+   San Diego, California
 
 <hr />
 
