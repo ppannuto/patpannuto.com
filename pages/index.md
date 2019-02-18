@@ -64,7 +64,7 @@ Fellow (2013).
 <hr />
 
 #### Interview Schedule
-_As of February 15, 2019_
+_As of February 18, 2019_
 
  - _**January 31 - February 1**_  
    **IBM Research**  
@@ -91,9 +91,9 @@ _As of February 15, 2019_
    **University of Wisconsin-Madison**  
    **[Electrical & Computer Engineering](https://www.engr.wisc.edu/department/electrical-computer-engineering/)**  
    Madison, Wisconsin
- - _**March 11-12**_  
+ - _**March 12-13**_  
    **Cornell University**  
-   **[Electrical and Computer Engineering](https://www.ece.cornell.edu/ece)**  
+   Joint interview with **[Electrical and Computer Engineering](https://www.ece.cornell.edu/ece)** and **[Computer Science](https://www.cs.cornell.edu/)**  
    Ithaca, New York
  - _**March 18-19**_  
    **Princeton University**  
