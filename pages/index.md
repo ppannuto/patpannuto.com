@@ -99,6 +99,10 @@ _As of February 18, 2019_
    **Princeton University**  
    **[Electrical Engineering](http://ee.princeton.edu/)**  
    Princeton, New Jersey
+ - _**March 25**_  
+   **Carnegie Mellon University**  
+   **[Electrical and Computer Engineering](https://www.ece.cmu.edu/)**  
+   Pittsburgh, Pennsylvania
  - _**April 1-2**_  
    **Massachusetts Institute of Technology**  
    **[Electrical Engineering & Computer Science](https://www.eecs.mit.edu/)**  
