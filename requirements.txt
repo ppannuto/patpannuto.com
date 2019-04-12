@@ -1,5 +1,5 @@
 colorlog==4.0.2
-Jinja2==2.10
+Jinja2==2.10.1
 latexcodec==1.0.5
 Markdown==3.0.1
 MarkupSafe==1.1.0
