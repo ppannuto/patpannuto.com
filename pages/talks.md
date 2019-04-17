@@ -13,12 +13,12 @@ but if something is missing that you are interested in, please reach out and I w
 
 <div class="row talk" markdown="1">
 <div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
-[![Title Slide](/talks/pannuto19cpsbench_thumb.jpg "Planes, Trains, Apples and Oranges: Reproducible Results and Fair Comparisons in Localization Research")](/talks/pannuto19cpsbench.pdf)
+[![Title Slide](/talks/pannuto19cpsbench_thumb.jpg "Planes, Trains, Apples, and Oranges: Reproducible Results and Fair Comparisons in Localization Research")](/talks/pannuto19cpsbench.pdf)
 #### _Invited Talk_
 </div>
 <div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
 
-### Planes, Trains, Apples and Oranges: Reproducible Results and Fair Comparisons in Localization Research, at [CPS-IoTBench'19][cpsbench19]
+### Planes, Trains, Apples, and Oranges: Reproducible Results and Fair Comparisons in Localization Research, at [CPS-IoTBench'19][cpsbench19]
 Localization remains a continually captivating research problem as so much of
 human interaction and reasoning relies on location-based contexts. However,
 decades of work have revealed that there is no one-size-fits-all solution to
