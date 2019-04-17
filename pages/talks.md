@@ -2,7 +2,46 @@
   <h1><a href="/" style="color: inherit;">Pat Pannuto</a></h1>
 </div>
 
+I am happy to share slides from any presentation I give.
+I generally try to post slides from major talks here,
+but if something is missing that you are interested in, please reach out and I will add it.
+
 ---
+
+2019
+====
+
+<div class="row talk" markdown="1">
+<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
+[![Title Slide](/talks/pannuto19cpsbench_thumb.jpg "Planes, Trains, Apples and Oranges: Reproducible Results and Fair Comparisons in Localization Research")](/talks/pannuto19cpsbench.pdf)
+#### _Invited Talk_
+</div>
+<div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
+
+### Planes, Trains, Apples and Oranges: Reproducible Results and Fair Comparisons in Localization Research, at [CPS-IoTBench'19][cpsbench19]
+Localization remains a continually captivating research problem as so much of
+human interaction and reasoning relies on location-based contexts. However,
+decades of work have revealed that there is no one-size-fits-all solution to
+the bevy of applications that require location information. If every
+application sets its own requirements, how then do we measure progress in
+localization technology when each technology sets its own benchmarks? How can
+we tease apart improvements to underlying physical layer estimates from
+enhancements to algorithms that process these data points and measure these
+contributions against the development of systems that exploit fusion to realize
+better gains than either physical or algorithmic advancements alone? More
+questions than answers, this talk aims to lay out the state of the field as it
+is today and to invite discussion on what defines fair comparisons and how to
+enhance the creation of reproducible artifacts, experimental configurations,
+and location traces and datasets.
+
+[cpsbench19]: https://cps-iotbench2019.ethz.ch/
+
+<a href="/talks/pannuto19cpsbench.pptx">[pptx]</a>
+<a href="/talks/pannuto19cpsbench.pdf">[pdf]</a>
+
+</div>
+</div>
+
 
 2018
 ====
