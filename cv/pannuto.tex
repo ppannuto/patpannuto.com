@@ -15,6 +15,8 @@
 \usepackage{bold-extra}   % Provides bf+sc (only in textbf+textsc env.)
 \usepackage{calc}         % Do math in tex (used for percent calculation)
 \usepackage{comment}      % Provides \begin,\end{comment} for large blocks
+\usepackage{longtable}    % Tables that spans pages
+\usepackage{makecell}     % Multi-line table cells
 \usepackage[protrusion=true,expansion=true,kerning,spacing]{microtype} % better type, spacing
 \usepackage{tabularx}     % Complicated table creation
 \usepackage{textcomp}     % Missing UTF characters
@@ -51,6 +53,9 @@
 \addbibresource{conferences.bib}
 \addbibresource{workshops.bib}
 \addbibresource{posterdemo.bib}
+
+% Configure makecell cells to be top-left aligned
+\renewcommand{\cellalign}{tl}
 
 % Custom bibtex keys, from
 % http://tex.stackexchange.com/questions/111846/biblatex-2-custom-fields-only-one-is-working
@@ -323,18 +328,85 @@ Mobile Computing, Operating Systems, and Development Engineering
 
 \section*{Invited Presentations}
 
-\begin{itemize}
-  \item[] \textbf{Invited Talk:} MBus: A power-aware interconnect for ultra-low power micro-scale system design, at DARPA Near Zero Power RF and Sensor Operations (N-ZERO) Program Review (2016)
-  \item[] \textbf{Invited Talk:} Ultra Wideband and Indoor Localization, at HotWireless'16
-  \item[] \textbf{Keynote Address:} The Recent Past and Distant Future of [Micro-Scale] Embedded Systems, at NextMote: Next Generation Platforms for the Cyber-Physical Internet,
-    part of the International Conference on Embedded Wireless Systems and Networks (EWSN'16)
-  \item[] PolyPoint and the First Steps Towards Ubiquitous Localization, at the Student Summit on Mobility, Systems, and Networking, Microsoft Research
-  \item[] \textbf{Guest Speaker:} Sensor Systems and the Art of Effectively Deploying Sensor Networks, TechChange TC111: Technology for Monitoring and Evaluation
-  \item[] \textbf{Invited Talk:} Embedded System Design and the Internet of Things, Stanford Internet of Things Industrial Research Program
-  \item[] \textbf{Invited Talk:} Sensing Technologies for Data Collection and Monitoring, State of the Science, Development Impact Lab (DIL) and USAID Higher Education Solutions Network (HESN)
-  \item[] MBus: Enabling the Next Generation of Sensors and Systems, TerraSwarm Annual Meeting
-\end{itemize}
+\begin{longtable}{>{\bf}l l}
+  2019 & \makecell{
+    \textbf{A Modular Platform for Nanopower Computing} \\
+    IBM Research; Yorktown Heights, New York \\
+    ETH Z\"urich; Z\"urich, Switzerland \\
+    University of Michigan; Ann Arbor, Michigan \\
+    University of California, Los Angeles; Los Angeles, California \\
+    University of Wisconsin-Madison; Madison, Wisconsin \\
+    Cornell University; Ithaca, New York \\
+    Princeton University; Princeton, New Jersey \\
+    Carnegie Mellon University; Pittsburgh, Pennsylvania \\
+    Massachusetts Institute of Technology; Cambridge, Massachusetts \\
+    University of Washington; Seattle, Washington \\
+    University of California, San Diego; San Diego, California \\
+    \textbf{\color{BrickRed} Invited Talk} \\
+  } \\
 
+  \\
+
+  2016 & \makecell {
+    \textbf{MBus: A power-aware interconnect for ultra-low power micro-scale system design} \\
+    DARPA Near Zero Power RF and Sensor Operations (N-ZERO) Program Review; Santa Barbara, California \\
+    \textbf{\color{BrickRed} Invited Talk} \\
+  } \\
+
+  \\
+
+  2016 & \makecell{
+    \textbf{Ultra Wideband and Indoor Localization} \\
+    3rd ACM Workshop on Hot Topics in Wireless (HotWireless'16); New York City, New York \\
+    \textbf{\color{BrickRed} Invited Talk}
+  } \\
+
+  \\
+
+  2016 & \makecell{
+    \textbf{The Recent Past and Distant Future of [Micro-Scale] Embedded Systems} \\
+    NextMote: Next Generation Platforms for the Cyber-Physical Internet, part of the International Conference on Embedded Wireless Systems and Networks (EWSN'16); Graz, Austria \\
+    \textbf{\color{BrickRed} Keynote Address} \\
+  } \\
+
+  \\
+
+  2016 & \makecell{
+    \textbf{PolyPoint and the First Steps Towards Ubiquitous Localization} \\
+    Student Summit on Mobility, Systems, and Networking, Microsoft Research; Petaluma, California \\
+  } \\
+
+  \\
+
+  2015 & \makecell{
+    \textbf{Sensor Systems and the Art of Effectively Deploying Sensor Networks} \\
+    TechChange TC111: Technology for Monitoring and Evaluation; Online \\
+    \textbf{\color{BrickRed} Invited Guest Speaker} \\
+  } \\
+
+  \\
+
+  2014 & \makecell{
+    \textbf{Embedded System Design and the Internet of Things} \\
+    Stanford Internet of Things Industrial Research Program; Stanford, California \\
+    \textbf{\color{BrickRed} Invited Talk} \\
+  } \\
+
+  \\
+
+  2014 & \makecell{
+    \textbf{Sensing Technologies for Data Collection and Monitoring} \\
+    State of the Science, Development Impact Lab (DIL) and USAID Higher Education Solutions Network (HESN); Washington, D.C. \\
+    \textbf{\color{BrickRed} Invited Talk} \\
+  } \\
+
+  \\
+
+  2013 & \makecell{
+    \textbf{MBus: Enabling the Next Generation of Sensors and Systems} \\
+    TerraSwarm Annual Meeting; Berkeley, California \\
+  } \\
+\end{longtable}
 
 
 
