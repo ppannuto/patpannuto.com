@@ -228,6 +228,7 @@ monitors a study, automatically triggers incentives, and handles disbursements.
 
 <small markdown="1">
 {
+[COMPASS'19](/pubs/klugman19scale.pdf) |
 [ICTD'19](/pubs/klugman19oink.pdf) |
 [MobiCom'18](/pubs/klugman18liberation.pdf) |
 [HotMobile'14](/pubs/klugman14gridwatch.pdf)
