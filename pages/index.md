@@ -12,15 +12,7 @@ PhD student at the University of California, Berkeley.
 ---
 
 <div style="text-align:center;" markdown="1">
-**I am on the job market this year!**
-
-**
-[CV](/appkit18/pannuto_CV.pdf) |
-[Research](/appkit18/pannuto_research.pdf) |
-[Teaching](/appkit18/pannuto_teaching.pdf) |
-[Diversity](/appkit18/pannuto_diversity.pdf) |
-[Full&nbsp;Appkit](/appkit.html)
-**
+**I will be joining [UCSD CSE](https://cse.ucsd.edu/) as an Assistant Professor beginning Winter 2020!**
 </div>
 
 ---
@@ -29,14 +21,17 @@ PhD student at the University of California, Berkeley.
 <div style="text-align:center;" markdown="1">
 [Selected&nbsp;Publications](/select.html) |
 [All&nbsp;Publications](/publications.html) |
+[CV](/cv/pannuto.pdf)
+<br/>
+[Talks](/talks.html) |
 [Teaching](/teaching.html) |
-[Fellowships](/fellowships.html)
+[Fellowships & Awards](/fellowships.html)
 </div>
 
 </div><!-- col-md-8 -->
 
 <div id="portraits" class="d-none d-md-block col-md-4">
-  <img src="/images/pannuto-headshot.jpg" class="col-md-12" style="padding-top: 15px;"/>
+  <img src="/images/pannuto-headshot.jpg" class="col-md-12"/>
   <!--
   <img src="/images/gallery/2.jpg" class="col-md-12" style="transform: scalex(-1);"/>
   <img src="/images/gallery/6.jpg" class="col-md-12"/>
@@ -60,64 +55,6 @@ Fellow (2013).
 
 </div>
 
-
-<hr />
-
-#### Interview Schedule
-_As of February 22, 2019_
-
- - _**January 31 - February 1**_  
-   **IBM Research**  
-   Yorktown Heights, New York
- - _**February 4-5**_  
-   **ETH Zurich**  
-   **[Assistant Professor of Software Hardware Interfaces](https://www.ethz.ch/en/the-eth-zurich/working-teaching-and-research/faculty-affairs/ausgeschriebene-professuren/ingenieurwissenschaften/professur-oder-assistenzprofessur--tenure-track--fuer-software-h.html)** in the **[Dept. of Information Technology and Electrical Engineering](https://www.ee.ethz.ch/)**  
-   Zurich, Switzerland
- - _**February 11-12**_  
-   **University of Michigan**  
-   Joint interview with **[Computer Science and Engineering](https://www.cse.umich.edu/)** and **[Electrical & Computer Engineering](http://ece.umich.edu/)**  
-   Ann Arbor, Michigan
- - _**February 14-15**_  
-   **University of California, Los Angeles**  
-   **[Electrical and Computer Engineering](https://www.ee.ucla.edu/)**  
-   Los Angeles, California
- - _**February 18**_  
-   _I'll be around [ISSCC](http://isscc.org/) and at the [Michigan ISSCC Alumni Mixer](http://ece.umich.edu/events/ISSCC2019/)_  
-   San Francisco, California
- - _**February 27-28**_  
-   _I'll be at [HotMobile](http://hotmobile.org/2019/)_  
-   Santa Cruz, California
- - _**March 6-8**_  
-   **University of Wisconsin-Madison**  
-   **[Electrical & Computer Engineering](https://www.engr.wisc.edu/department/electrical-computer-engineering/)**  
-   Madison, Wisconsin
- - _**March 12-13**_  
-   **Cornell University**  
-   Joint interview with **[Electrical and Computer Engineering](https://www.ece.cornell.edu/ece)** and **[Computer Science](https://www.cs.cornell.edu/)**  
-   Ithaca, New York
- - _**March 18-19**_  
-   **Princeton University**  
-   **[Electrical Engineering](http://ee.princeton.edu/)**  
-   Princeton, New Jersey
- - _**March 25**_  
-   **Carnegie Mellon University**  
-   **[Electrical and Computer Engineering](https://www.ece.cmu.edu/)**  
-   Pittsburgh, Pennsylvania
- - _**April 1-2**_  
-   **Massachusetts Institute of Technology**  
-   **[Electrical Engineering & Computer Science](https://www.eecs.mit.edu/)**  
-   Boston, Massachusetts
- - _**April 8-9**_  
-   **University of Washington**  
-   **[Electrical & Computer Engineering](https://www.ece.uw.edu/)**  
-   Seattle, Washington
- - _**April 15-18**_  
-   _I'll be at [CPS-IoT Week](http://cpslab.cs.mcgill.ca/cpsiotweek2019/)_  
-   Montréal, Canada
- - _**April 24**_  
-   **University of California, San Diego**  
-   **[Computer Science and Engineering](https://cse.ucsd.edu/)**  
-   San Diego, California
 
 <hr />
 
