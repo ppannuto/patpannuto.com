@@ -54,8 +54,12 @@
 \addbibresource{workshops.bib}
 \addbibresource{posterdemo.bib}
 
+% Longtable adds more padding than tabular by default, change to match tabular's no-padding
+\setlength{\LTpre}{0pt}
+%\setlength{\LTpost}{0pt} -- Actually, bottom padding is good
+
 % Configure makecell cells to be top-left aligned
-\renewcommand{\cellalign}{tl}
+\renewcommand{\cellalign}{tp{5.75in}}
 
 % Custom bibtex keys, from
 % http://tex.stackexchange.com/questions/111846/biblatex-2-custom-fields-only-one-is-working
@@ -143,7 +147,7 @@
   \begin{tabular}{c}
     \textsc{\LARGE Pat Pannuto} \\
     \\
-    \textsc{\large May 20, 2019}
+    \textsc{\large July 4, 2019}
   \end{tabular}
 \end{table}
 
@@ -232,7 +236,7 @@ Mobile Computing, Operating Systems, and Development Engineering
 \begin{itemize}
   \item[]
     \textbf{University of California, Berkeley}, Berkeley, CA (2017--present) \\
-    Ph.D. Student in Electrical Engineering (degree expected summer 2019) \\
+    Ph.D. Student in Electrical Engineering (degree expected 2019) \\
     Advisor: Prabal Dutta
 
   \item[]
@@ -250,85 +254,190 @@ Mobile Computing, Operating Systems, and Development Engineering
 
 \section*{Awards and Honors}
 
-\hspace{\parindent} \emph{Fellowships}
+\subsection*{Fellowships}
 
-%\subsection*{Fellowships}
-\begin{itemize}
-  \item[] \textbf{2013} Qualcomm Innovation Fellowship (Honorable Mention), joint with Bradford Campbell, \$50,000
-  \item[] \textbf{2013} National Defense Science \& Engineering Graduate Fellowship (NDSEG), \$95,000 plus tuition
-  \item[] \textbf{2013} National Science Foundation Graduate Research Fellowship (NSF~GRFP), \$90,000 plus tuition
-  \item[] \textbf{2012} University of Michigan Department of Computer Science First-Year Fellowship
-\end{itemize}
+\renewcommand{\arraystretch}{0.5}
+\begin{tabular}{>{\bf}p{1cm} l}
+  2013 & \makecell{Qualcomm Innovation Fellowship (Honorable Mention), joint with Bradford Campbell, \$50,000} \\
+  \\
 
-\emph{Publication Awards}
+  2013 & \makecell{National Defense Science \& Engineering Graduate Fellowship (NDSEG), \$95,000 plus tuition} \\
+  \\
 
-%\subsection*{Publications}
-\begin{itemize}
-  \item[] \textbf{2018} Best Paper Finalist, The 17th ACM/IEEE International Conference on Information Processing in Sensor Networks
-  \item[] \textbf{2017} David Wessel Best Demo Award, TerraSwarm Annual Review
-  %\item[] Un \textbf{2018}iversity of Michigan College of Engineering Featured Graduate Student (Fall 2014)
-  \item[] \textbf{2016} IEEE Micro Top Pick in Computer Architecture
-  \item[] \textbf{2016} Outstanding Poster Award, Twelfth International Nanotechnology Conference on Communication and Cooperation
-  \item[] \textbf{2015} Potential for Test of Time 2025 Award, The 2nd ACM Workshop on Hot Topics in Wireless
-\end{itemize}
+  2013 & \makecell{National Science Foundation Graduate Research Fellowship (NSF~GRFP), \$90,000 plus tuition} \\
+  \\
 
-\emph{Teaching Honors}
+  2012 & \makecell{University of Michigan Department of Computer Science First-Year Fellowship} \\
+\end{tabular}
+\renewcommand{\arraystretch}{1.0}
 
-%\subsection*{Teaching}
-\begin{itemize}
-  \item[] \textbf{2017} University of Michigan Rackham Graduate School Outstanding Graduate Student Instructor
-  \item[] \textbf{2017} University of Michigan College of Engineering Richard \& Eleanor Towner Prize for Outstanding Graduate Student Instructors
-  \item[] \textbf{2012} Best Undergraduate Instructor, University of Michigan, EECS
-\end{itemize}
+\subsection*{Publication Awards}
+\renewcommand{\arraystretch}{0.5}
+\begin{tabular}{>{\bf}p{1cm} l}
+  2018 & \makecell{Best Paper Finalist, The 17th ACM/IEEE International Conference on Information Processing in Sensor Networks} \\
+  \\
+
+  2017 & \makecell{David Wessel Best Demo Award, TerraSwarm Annual Review} \\
+  \\
+
+  2016 & \makecell{IEEE Micro Top Pick in Computer Architecture} \\
+  \\
+
+  2016 & \makecell{Outstanding Poster Award, Twelfth International Nanotechnology Conference on Communication and Cooperation} \\
+  \\
+
+  2015 & \makecell{Potential for Test of Time 2025 Award, The 2nd ACM Workshop on Hot Topics in Wireless} \\
+\end{tabular}
+\renewcommand{\arraystretch}{1.0}
+
+
+\subsection*{Teaching Honors}
+\renewcommand{\arraystretch}{0.5}
+\begin{tabular}{>{\bf}p{1cm} l}
+  2017 & \makecell{University of Michigan Rackham Graduate School Outstanding Graduate Student Instructor} \\
+  \\
+
+  2017 & \makecell{University of Michigan College of Engineering Richard \& Eleanor Towner Prize for Outstanding Graduate Student Instructors} \\
+  \\
+
+  2012 & \makecell{Best Undergraduate Instructor, University of Michigan, EECS} \\
+\end{tabular}
+\renewcommand{\arraystretch}{1.0}
 
 
 
 \section*{Advising and Mentoring}
 
-\begin{itemize}
-
-  \item[] \textbf{2018} \href{https://n.ethz.ch/~abiri/}{Andreas Biri}, (M.Sc.; went on to Ph.D. program at ETH Z\"urich)\\
+\renewcommand{\arraystretch}{0.5}
+\begin{tabular}{>{\bf}p{1cm} l}
+  2018 & \makecell{
+    \href{https://n.ethz.ch/~abiri/}{Andreas Biri}, (M.Sc.; went on to Ph.D. program at ETH Z\"urich)\\
     Thesis: ``TotTernary: A wearable platform for social interaction tracking''
-  \item[] \textbf{2014} Noah Nuechterlein, (undergraduate independent study): Applied computer vision
+  } \\
 
-\end{itemize}
+  \\
 
-
-
+  2014 & \makecell{
+    Noah Nuechterlein, (undergraduate independent study): Applied computer vision
+  } \\
+\end{tabular}
+\renewcommand{\arraystretch}{1.0}
 
 \section*{Teaching Experience}
 
-\begin{itemize}
-
-  \item[] Primary Instructor, EECS\,398: Computing for Computer Scientists (F16, W16)
-    \begin{itemize}
-      \item[] A new class designed and built from scratch. This class attempts
+\renewcommand{\arraystretch}{0.5}
+\begin{tabular}{>{\bf}p{2.1cm} l}
+  \makecell*[{{p{2.1cm}}}]{
+    \raggedright
+    2016 Fall
+    2016 Winter
+  } & \makecell*[{{p{5.5in}}}]{
+    \textbf{Primary Instructor}, EECS\,398: Computing for Computer Scientists \\[.5em]
+        A new class designed and built from scratch. This class attempts
         to address the experience gap that exists across the spectrum of
         incoming Computer Science students. While driven by tools (shells,
         build systems, debuggers, version control), it explores how and why
         computer scientists interface with computers differently in their
         day-to-day activities, how to apply principles learned in courses to
         everyday activities, and ultimately how to be a more efficient user of
-        computing resources.
-      \item[] This course has been adopted as part of the permanent curriculum
+        computing resources.  \\[5.5em]
+        This course has been adopted as part of the permanent curriculum
         at the University of Michigan as EECS\,201: Computing Pragmatics, an
-        advised co-requisite for first-year EECS majors.
-      \item[] \url{https://c4cs.github.io}
-      \item[] \emph{In 2017, I was awarded the Rackham Graduate School Outstanding Graduate Student Instructor and the College of Engineering Richard \& Eleanor Towner Prize for Outstanding Graduate Student Instructors for this course.}
-    \end{itemize}
-  \item[] Graduate Teaching Assistant, EECS\,373: Design of Microprocessor Based Systems (F15, W15)
-  \item[] Undergraduate Teaching Assistant, EECS\,470: Computer Architecture (W12)
-  \item[] Undergraduate Teaching Assistant, EECS\,482: Introduction to Operating Systems (W12, F11, W11, F10)
-  \item[] Undergraduate Teaching Assistant, EECS\,373: Design of Microprocessor Based Systems (F11, W11)
+        advised co-requisite for first-year EECS majors. \\[1.5em]
+        \url{https://c4cs.github.io} \\[.5em]
+        \emph{In 2017, I was awarded the Rackham Graduate School Outstanding Graduate Student Instructor and the College of Engineering Richard \& Eleanor Towner Prize for Outstanding Graduate Student Instructors for this course.} \\
+  } \\
 
-\end{itemize}
+  \\
 
+  \makecell*[{{p{2.1cm}}}]{
+    \raggedright
+    2015 Fall
+    2015 Winter
+  } & \makecell{
+    \textbf{Graduate Teaching Assistant}, EECS\,373: Design of Microprocessor Based Systems
+  } \\
+
+  \\
+
+  \makecell*[{{p{2.1cm}}}]{
+    \raggedright
+    2012 Winter
+  } & \makecell{
+    \textbf{Undergraduate Teaching Assistant}, EECS\,470: Computer Architecture (W12)
+  } \\
+
+  \\
+
+  \makecell*[{{p{2.1cm}}}]{
+    \raggedright
+    2012 Winter
+    2011 Fall
+    2011 Winter
+    2010 Fall
+  } & \makecell{
+    \textbf{Undergraduate Teaching Assistant}, EECS\,482: Introduction to Operating Systems
+  } \\
+
+  \\
+
+  \makecell*[{{p{2.1cm}}}]{
+    \raggedright
+    2011 Fall
+    2011 Winter
+  } & \makecell{
+    \textbf{Undergraduate Teaching Assistant}, EECS\,373: Design of Microprocessor Based Systems
+  } \\
+\end{tabular}
+\renewcommand{\arraystretch}{1.0}
+
+
+\section*{Professional Service}
+
+\renewcommand{\arraystretch}{0.5}
+
+\begin{longtable}{>{\bf}p{2.1cm} l}
+  2019--present & \makecell{Recurring reviewer for IEEE/ACM Transactions on Networking (TNET)} \\
+  \\
+
+  2018          & \makecell{ACM Workshop on Data Acquisition to Analysis (DATA\,18) -- TPC Member} \\
+  \\
+
+  2014--2016    & \makecell{Recurring reviewer for IEEE Transactions on Mobile Computing (TMC)} \\
+  \\
+
+  2015--2016    & \makecell{Computer Science Engineering Student Faculty Representative} \\
+  \\
+
+  2013--2015    & \makecell{Computer Science Engineering Graduate Student Body President} \\
+  \\
+
+  2015          & \makecell{Recurring reviewer for USAID Development Innovation Ventures (DIV)} \\
+  \\
+
+  2014          & \makecell{ACM Workshop on Visible Light Communication Systems -- Demo Co-Chair} \\
+  \\
+
+  2013--2014    & \makecell{Recurring reviewer for IEEE Transactions on Circuits and Systems II (TCAS-II)} \\
+  \\
+\end{longtable}
+
+\renewcommand{\arraystretch}{1.0}
 
 
 
 \section*{Invited Presentations}
 
-\begin{longtable}{>{\bf}l l}
+\renewcommand{\arraystretch}{0.5}
+\begin{longtable}{>{\bf}p{1cm} l}
+  2019 & \makecell{
+    \textbf{Planes, Trains, Apples, and Oranges: Reproducible Results and Fair Comparisons in Localization Research} \\
+    2nd Workshop on Benchmarking Cyber-Physical Systems and Internet of Things (CPS-IoTBench'19) \\
+    \textbf{\color{BrickRed} Invited Talk} \\
+  } \\
+
+  \\
+
   2019 & \makecell{
     \textbf{A Modular Platform for Nanopower Computing} \\
     IBM Research; Yorktown Heights, New York \\
@@ -408,26 +517,7 @@ Mobile Computing, Operating Systems, and Development Engineering
   } \\
 \end{longtable}
 
-
-
-\section*{Professional Service}
-
-\begin{itemize}
-
-  \item[] 2018 ACM Workshop on Data Acquisition to Analysis (DATA\,18) -- TPC Member
-  \item[] 2014 ACM Workshop on Visible Light Communication Systems -- Demo Co-Chair
-  \item[] Recurring reviewer for IEEE Transactions on Circuits and Systems II (TCAS-II)
-    \emph{2013--present}
-  \item[] Recurring reviewer for IEEE Transactions on Mobile Computing (TMC)
-    \emph{2014--present}
-  \item[] Recurring reviewer for USAID Development Innovation Ventures (DIV)
-    \emph{2015--present}
-  \item[] Computer Science Engineering Graduate Student Body President
-    \emph{2013--2015}
-  \item[] Computer Science Engineering Student Faculty Representative
-    \emph{2015--2016}
-
-\end{itemize}
+\renewcommand{\arraystretch}{1.0}
 
 
 
