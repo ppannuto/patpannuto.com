@@ -270,6 +270,8 @@ and experimentation for city-scale applications.
 
 <a href="http://confsearch.ethz.ch/confsearch/faces/pages/staticresults.jsp?query=usenix%20asplos%20ewsn%20hotnets%20hotos%20ipsn%20isca%20micro%20mobicom%20mobihoc%20mobisys%20nsdi%20osdi%20sensys%20sigcomm%20sosp%20uist&sortMode=1&graphicView=1">These are the conferences I generally follow</a>, courtesy of ConfSearch.
 
+Working on, or reviewing, any empirical work? [Check out the Empirical Evaluation Guidelines checklist](https://www.sigplan.org/Resources/EmpiricalEvaluation/).
+
 I am happy to share slides from any presentation I give.
 I generally try to [post slides from major talks](/talks.html),
 but if something is missing that you are interested in, please reach out and I will add it.
