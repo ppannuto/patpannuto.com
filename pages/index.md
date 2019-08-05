@@ -289,11 +289,3 @@ I appreciate Dan Luu's metric of aiming to be [smaller than the JavaScript used 
 
 </div>
 </div>
-
-<!--
-### News
- * <b>2013/05: </b>I am working at <a href="http://swarmlab.eecs.berkeley.edu">Berkeley</a> this summer
- * <b>2013/04: </b><a href="http://bradcampbell.org">Brad Campbell</a> and I won Honorable Mentions and $50,000 from the <a href="http://www.qualcomm.com/about/research/university-relations/innovation-fellowship/2013">Qualcomm Innovation Fellowship</a>
- * <b>2013/04: </b>I won the <a href="http://ndseg.asee.org/">NDSEG</a> Fellowship
- * <b>2013/04: </b>I won the <a href="http://www.nsfgrfp.org/">NSF GRFP</a> Fellowship
--->
