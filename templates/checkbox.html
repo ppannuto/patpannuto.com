@@ -1,4 +1,6 @@
 <div class="form-check form-check-inline">
-  <input type="checkbox" {% if checked %}checked{% endif %} class="form-check-input {{ classes }}" value="{{ value }}">
-  <label class="form-check-label">{{ text }}</label>
+  <label class="form-check-label">
+    <input type="checkbox" {% if checked %}checked{% endif %} class="form-check-input {{ classes }}" value="{{ value }}">
+    {{ text }}
+  </label>
 </div>
