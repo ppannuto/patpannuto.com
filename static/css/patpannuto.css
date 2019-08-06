@@ -22,25 +22,6 @@ a {color: #004499;}
 	border-radius: 10%;
 }
 
-/* http://stackoverflow.com/questions/19203816/vertical-divider-wont-work-in-bootstrap-3-0 */
-.navbar .divider-vertical {
-	height: 50px;
-	margin: 0px;
-	border-right: 1px solid #888;
-	border-left: 1px solid #888;
-}
-
-.navbar-inverse .divider-vertical {
-	border-right-color: #222222;
-	border-left-color: #111111;
-}
-
-@media (max-width: 767px) {
-	.navbar-collapse .nav > .divider-vertical {
-		display: none;
-	}
-}
-
 .bib_title {
 	font-weight: bold;
 }
