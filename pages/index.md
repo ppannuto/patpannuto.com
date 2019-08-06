@@ -286,7 +286,7 @@ One of my favorite parts of grad school is the opportunity it has afforded me to
 
 One lesson from travel is that much of the web is inaccessible from areas where
 internet access is unreliable or expensive. There is
-[a neat tool that estimates the literal cost of loading your webpage](https://whatdoesmysitecost.com/test/190801_MH_5bad0cf65fbc28a8cce943250c3da815#usdCost).
+[a neat tool that estimates the literal cost of loading your webpage](https://whatdoesmysitecost.com/test/190806_DR_5d72d77810bcd05a0b500102039b0530).
 I appreciate Dan Luu's metric of aiming to be [smaller than the JavaScript used by Google's AMP](https://danluu.com/web-bloat/#appendix-irony).
 
 </div>
