@@ -3,56 +3,51 @@
 
 # Pat Pannuto
 <div class="lead">
-PhD student at the University of California, Berkeley.
-<a href="mailto:ppannuto@berkeley.edu">ppannuto@berkeley.edu</a> |
-<a href="tel:+12489904548">248.990.4548</a> |
-<a href="https://www.google.com/maps/place/Cory+Hall,+Berkeley,+CA+94720/@37.8750406,-122.2595182,17z/data=!3m1!4b1!4m5!3m4!1s0x80857c2399f46b11:0x89fed96de243799c!8m2!3d37.8750364!4d-122.2573242">545W Cory</a>
+Assistant Professor, Computer Science Engineering<br />
+<!--<a href="https://cse.ucsd.edu/">University of California, San Diego</a><br />-->
+University of California, San Diego<br />
+<a href="mailto:ppannuto@ucsd.edu">ppannuto@ucsd.edu</a> |
+<!--<a href="tel:+12489904548">248.990.4548</a> |-->
+<a href="https://www.google.com/maps/place/Computer+Science+and+Engineering+Building/@32.8818009,-117.2338248,19.71z/data=!4m5!3m4!1s0x80dc06c3409a5d5f:0xa7dc3be7597d4d47!8m2!3d32.8818006!4d-117.2335236">3202 CSE</a>
 </div>
 
----
-
-<div style="text-align:center;" markdown="1">
-**I will be joining [UCSD CSE](https://cse.ucsd.edu/) as an Assistant Professor beginning Winter 2020!**
-</div>
-
----
-
-
-<div style="text-align:center;" markdown="1">
-[Selected&nbsp;Publications](/select.html) |
-[All&nbsp;Publications](/publications.html) |
-[CV](/cv/pannuto.pdf)
-<br/>
+[Publications](/publications.html) |
+[CV](/cv/pannuto.pdf) |
 [Talks](/talks.html) |
 [Teaching](/teaching.html) |
 [Fellowships & Awards](/fellowships.html)
-</div>
 
 </div><!-- col-md-8 -->
 
 <div id="portraits" class="d-none d-md-block col-md-4">
-  <a href="/images/pannuto-headshot-hires.jpg"><img src="/images/pannuto-headshot.jpg" class="col-md-12"/></a>
-  <!--
-  <img src="/images/gallery/2.jpg" class="col-md-12" style="transform: scalex(-1);"/>
-  <img src="/images/gallery/6.jpg" class="col-md-12"/>
-  -->
-  <!--<img src="/images/gallery/7.jpg" class="col-md-12"/>-->
-</div>
+  <a href="/images/pannuto-headshot-hires.jpg"><img src="/images/pannuto-headshot-square.jpg" class="col-md-12"/></a>
+</div><!-- col-md-4 -->
 
+</div><!-- first row -->
 
-</div>
 <div class="row" markdown="1">
-
 <div class="col-md-12" markdown="1">
-I am advised by [Prabal Dutta](http://eecs.umich.edu/~prabal) and am a
-[National Defense Science & Engineering Graduate (NDSEG)](https://ndseg.asee.org/)
-Fellow (2013),
-a [National Science Foundation Graduate Research Fellowship Program (NSF GRFP)](http://www.nsfgrfp.org/)
-Fellow (2013),
-and a [Qualcomm Innovation Fellowship (QInF)](https://www.qualcomm.com/invention/research/university-relations/innovation-fellowship)
-Fellow (2013).
-</div>
 
+I am interested in the boundary between the digital and physical world. My
+research aims to expand the reach of computational infrastructure to sense and
+actuate more of the physical world.
+
+My expertise is in the design and implementation of **resource constrained
+computing systems**.  These are systems whose deployment in the world
+constrains their form factor, connectivity, deployability, and maintainability,
+which often must then operate on microwatts of power, with only kilobytes of
+memory and effectively kilobit/second lossy communication links &ndash; yet the
+systems as a whole must be accurate, timely, and reliable.
+
+I am always excited to learn about new and interesting problems that we may be
+able to solve. In the past, this has included efforts to embed computation in
+more places with the [world's smallest computer](#m3), to build systems for
+[human social interaction tracking](#localization) to support epidemiologists
+and psychologists, to design infrastructure to support [city-scale
+sensing](#signpost), and to develop technology capable of [country-wide grid
+health monitoring](#gridwatch).
+
+</div>
 </div>
 
 
@@ -62,12 +57,12 @@ Fellow (2013).
 
  - **[Rackham Graduate School Outstanding Graduate Student Instructor](http://www.rackham.umich.edu/faculty-staff/awards/student-funding/outstanding-graduate-student-instructor-awards#recipients)** (2017)
  - **[Richard & Eleanor Towner Prize for Outstanding Graduate Student Instructors](https://crlte.engin.umich.edu/grants-awards-certificate/towner-prize/towner-prize-winners/)** (2017)
- - **[Qualcomm Innovation Fellowship](https://www.qualcomm.com/invention/research/university-relations/innovation-fellowship)** Honorable Mention (half fellow), joint with [Brad Campbell](http://www.cs.virginia.edu/~bjc8c/) (2013)
+ - **[Qualcomm Innovation Fellowship](https://www.qualcomm.com/invention/research/university-relations/innovation-fellowship)** Honorable Mention (½ fellow), with [Brad Campbell](http://www.cs.virginia.edu/~bjc8c/) (2013)
  - **[National Defense Science & Engineering Graduate Fellowship](https://ndseg.asee.org/)** Fellow (2013)
  - **[National Science Foundation Graduate Research Fellowship](https://www.nsfgrfp.org/)** Fellow (2013)
- - **[University of Michigan Department of Computer Science First Year Fellowship](http://eecs.umich.edu/)** Fellow (2012)
+ - **[University of Michigan Department of Computer Science Fellowship](http://eecs.umich.edu/)** Fellow (2012)
  - **[CSE Undergraduate Instructor Award](http://www.eecs.umich.edu/eecs/events/GSI-awards-2012.html)** (2012)
-<br><br />
+<br /><br />
  - **[IPSN'18](https://ipsn.acm.org/2018/)** Best Paper Finalist (2018)
  - **[TerraSwarm'17](https://www.terraswarm.org/conferences/17/annual/)** David Wessel Best Demo Award (2017)
  - **[_IEEE Micro_](https://www.computer.org/web/computingnow/micro)** Top Pick (2016)
@@ -76,7 +71,7 @@ Fellow (2013).
 
 <hr />
 
-#### Michigan Micro Mote & MBus
+#### <a name="m3"></a> Michigan Micro Mote & MBus
 The Michigan Micro Mote, or M<sup>3</sup> project, aims to bring
 general-purpose computing and sensing to millimeter-scale devices.
  As part of this effort, we identified the system interconnect as a key
@@ -100,7 +95,7 @@ interconnect](http://mbus.io) optimized for energy-conscious designs.
 </small>
 
 
-#### The Tock Operating System
+#### <a name="tock"></a> The Tock Operating System
 
 Low-power microcontrollers lack some of the hardware features and memory
 resources that traditionally enable multiprogrammable systems.
@@ -130,7 +125,7 @@ applications.
 </small>
 
 
-#### Localization
+#### <a name="localization"></a> Localization
 
 Location information is a key aspect of context-aware computing. Making
 location a first-class computational resource, like time synchronization or
@@ -198,7 +193,7 @@ applications:
 [opo]: http://lab11.eecs.umich.edu/projects/opo/ "Opo: A Wearable Sensor for Capturing High-Fidelity Face-to-Face Interactions"
 
 
-#### GridWatch and The Open INcentive Kit
+#### <a name="gridwatch"></a> GridWatch and The Open INcentive Kit
 
 The power grid is one of humanity's most significant engineering undertakings,
 and it is essential in developed and developing nations alike. Yet, most grids
@@ -242,7 +237,7 @@ monitors a study, automatically triggers incentives, and handles disbursements.
 [mccghana]: https://www.mcc.gov/where-we-work/program/ghana-power-compact
 [oink]: https://openincentivekit.com
 
-#### The Signpost City-Scale Sensing Project
+#### <a name="signpost"></a> The Signpost City-Scale Sensing Project
 
 City-scale sensing holds the promise of enabling deeper understanding of our
 urban environments. However, a city-scale deployment requires physical
@@ -266,7 +261,7 @@ and experimentation for city-scale applications.
 <div class="row" markdown="1">
 <div class="col-lg-12 col-xs-12">
 
-## Miscellaneous
+## <a name="misc"></a> Miscellaneous
 
 <a href="http://confsearch.ethz.ch/confsearch/faces/pages/staticresults.jsp?query=usenix%20asplos%20ewsn%20hotnets%20hotos%20ipsn%20isca%20micro%20mobicom%20mobihoc%20mobisys%20nsdi%20osdi%20sensys%20sigcomm%20sosp%20uist&sortMode=1&graphicView=1">These are the conferences I generally follow</a>, courtesy of ConfSearch.
 
@@ -288,6 +283,25 @@ One lesson from travel is that much of the web is inaccessible from areas where
 internet access is unreliable or expensive. There is
 [a neat tool that estimates the literal cost of loading your webpage](https://whatdoesmysitecost.com/test/190806_DR_5d72d77810bcd05a0b500102039b0530).
 I appreciate Dan Luu's metric of aiming to be [smaller than the JavaScript used by Google's AMP](https://danluu.com/web-bloat/#appendix-irony).
+
+I am a proud alumnus of the [Lab11](https://lab11.eecs.berkeley.edu) research
+group, headed by [Dr. Prabal Dutta](http://eecs.umich.edu/~prabal).
+During graduate school, I was a
+[National Defense Science & Engineering Graduate (NDSEG)](https://ndseg.asee.org/)
+Fellow (2013),
+a [National Science Foundation Graduate Research Fellowship Program (NSF GRFP)](http://www.nsfgrfp.org/)
+Fellow (2013),
+and a [Qualcomm Innovation Fellowship (QInF)](https://www.qualcomm.com/invention/research/university-relations/innovation-fellowship)
+Fellow (2013).
+My graduate studies were also generously supported by the [Semiconductor Research Corporation][src]
+through both the [TerraSwarm][terraswarm] program (part of [STARnet][starnet]) and the
+[CONIX][conix] center (part of [JUMP][jump]).
+
+[terraswarm]: https://ptolemy.berkeley.edu/projects/terraswarm/
+[conix]: https://conix.io/
+[src]: https://www.src.org
+[starnet]: https://www.src.org/program/starnet/about/
+[jump]: https://www.src.org/program/jump/
 
 </div>
 </div>
