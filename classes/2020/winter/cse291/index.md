@@ -401,7 +401,7 @@ The project will have three milestones:
     <td>
       <ul>
         <li>DDFlow</li><!--Or maybe the new one: The Case for Robust Adaptation: Autonomic Resource Management is a Vulnerability??-->
-        <li><i>TBD</i></li><!--Mate?</ul>
+        <li><i>TBD</i></li><!--Mate?--></ul>
       </ul>
     </td>
   </tr>
