@@ -19,23 +19,51 @@ import publications
 jinja_env = jinja.Environment(loader=jinja.FileSystemLoader('templates'))
 
 header_tmpl = jinja_env.get_template('header.html')
+header_class_tmpl = jinja_env.get_template('header_class.html')
 footer_tmpl = jinja_env.get_template('footer.html')
 
 pubs_groups   = publications.init(jinja_env)
 
 mkdir('-p', 'html')
 
-def md_to_html(path, md_file):
+def md_to_html(src_path, dst_path, md_file):
 	page = os.path.splitext(md_file)[0]
-	with open('html/{}.html'.format(page), 'w') as o:
+	with open('html/{}.html'.format(os.path.join(dst_path, page)), 'w') as o:
 		logger.info('Processing ' + md_file)
-		content = markdown.markdown(open(os.path.join(path, md_file)).read(),
+		content = markdown.markdown(open(os.path.join(src_path, md_file)).read(),
 				extensions=['extra'])
 		o.write(header_tmpl.render(active_page=page, content=content))
 
 for md in os.listdir('pages'):
 	if md[-3:] == '.md':
-		md_to_html('pages', md)
+		md_to_html('pages', '/', md)
+
+def class_md_to_html(src_path, dst_path, md_file):
+	page = os.path.splitext(md_file)[0]
+	with open('html/{}.html'.format(os.path.join(dst_path, page)), 'w') as o:
+		logger.info('Processing ' + md_file)
+		content = markdown.markdown(open(os.path.join(src_path, md_file)).read(),
+				extensions=['extra'])
+		o.write(header_class_tmpl.render(content=content, title='CSE291 K00 - Winter 2020'))
+
+print('Process classes')
+for year in os.listdir('classes'):
+	print('  Process', year)
+	mkdir('-p', os.path.join('html', 'classes', year))
+
+	for quarter in os.listdir(os.path.join('classes', year)):
+		print('    Process', quarter)
+		mkdir('-p', os.path.join('html', 'classes', year, quarter))
+
+		for course in os.listdir(os.path.join('classes', year, quarter)):
+			print('      Process', course)
+			mkdir('-p', os.path.join('html', 'classes', year, quarter, course))
+
+			for md in os.listdir(os.path.join('classes', year, quarter, course)):
+				print('        Process', md)
+				if md[-3:] == '.md':
+					path = os.path.join('classes', year, quarter, course)
+					class_md_to_html(path, path, md)
 
 logger.info('Building publications database...')
 publications.generate_publications_page(pubs_groups, jinja_env)

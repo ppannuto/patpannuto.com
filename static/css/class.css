@@ -1,0 +1,18 @@
+/* vim: set ts=2 sts=2 sw=2 noet: */
+
+body {
+	padding-top: 50px;
+}
+
+/* Override bootstrap link color to be a little darker */
+a {color: #004499;}
+
+/* Override bootstrap font sizes to be less dramatic for classes */
+.h1, h1 {font-size: 1.75rem;}
+.h2, h2 {font-size: 1.50rem;}
+.h3, h3 {font-size: 1.25rem;}
+.h4, h4 {font-size: 1.15rem;}
+.h5, h5 {font-size: 1.08rem;}
+
+/* Don't let img's overflow layout space */
+img {width: 100%;}

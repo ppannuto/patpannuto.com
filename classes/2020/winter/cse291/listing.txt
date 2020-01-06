@@ -1,0 +1,60 @@
+Title:
+Platforms and Systems to Bridge the Digital and Physical World
+
+Description:
+Researchers, policy makers, citizen scientists, and curious individuals have
+an innumerable array of questions about the world around them.  How does
+physical proximity affect disease transmission?  What changes would have the
+greatest impact on the carbon footprint of an urban environment?  What is the
+historical air quality like for asthmatics in the neighborhoods where I am
+shopping for houses? This course is about the design and implementation of
+platforms and systems capable of capturing the data to answer such questions.
+
+Formally, this is the study of embedded systems and wireless sensor networks.
+These are computing systems that are deployed widely in the physical world,
+which creates unique constraints in their physical size, deployment,
+management, communication, energy availability, and operation. We will begin
+with a history of impactful deployments, then study each of the pieces in
+turn, both traditional sensor architectures and more exotic designs such as
+batteryless systems, backscatter communication, and how to do machine learning
+with less than 1 MB of memory.
+
+During the last week of the course, we will shift focus a bit from technology
+development. Often advances in embedded systems can lead to unexpected leaps
+in capability: modern RF techniques can build camera-like structures that
+"see-through" walls to capture occupancy, gestures, or even biometrics like
+respiration and heart rate; my PhD work helped build energy-harvesting,
+wireless (optical) cameras about a cubic millimeter in size and acoustic
+recorders small and thin enough to be imperceptibly embedded in thick paper.
+We will finish the term with thoughts on the ethical implications of recent
+and future advancements, how policy might encode social norms and
+expectations, and what technological solutions could enforce these policies.
+
+The intended audience of this course is PhD students or masters students who
+are interested in pursuing a PhD in the future. The course will also include a
+quarter-long project that will result in a draft of a conference-style paper.
+
+Required Knowledge:
+Equivalent of an undergraduate degree in any of Electrical Engineering,
+Computer Engineering, Computer Science, Data Science, Information Science, or
+similar.  This is a vertical slice through the computing stack, and we will
+touch on topics from programming languages and distributed systems down to
+circuits and wireless. An enthusiasm and willingness to learn a little about a
+lot of new things is far more important than any one specific background.
+
+Recommended Preparation for Those Without Required Knowledge:
+Try playing with some hardware! A Raspberry Pi Zero is $5, various Arduino
+boards run $10-30, or check out the tutorials and hardware from places like
+maker.io -- or stop by my office (3202 CSE) starting ~Dec 9 and I'll happily
+loan you something to play with over the holidays. If you'd prefer something
+more textbook-y, leeseshia.org is a good free book (though a bit more of a
+formal methods take than this course).
+
+Link to Past Course: N/A
+
+
+Enforced Prerequisite: No
+
+Enrollment Limit: 30
+
+Instructor Managing Enrollment: No
