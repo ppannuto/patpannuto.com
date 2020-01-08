@@ -46,6 +46,14 @@ def class_md_to_html(src_path, dst_path, md_file):
 				extensions=['extra'])
 		o.write(header_class_tmpl.render(content=content, title='CSE291 K00 - Winter 2020'))
 
+
+static_extensions = [
+		'.css', '.js', '.ico', '.ttf', '.eot', '.svg', '.woff',
+		'.png', '.jpg', '.pdf', '.pptx', '.doc', '.txt', '.gz',
+		'.tgz', '.otf', '.odp', '.webmanifest', '.xml', '.zip',
+		]
+
+
 print('Process classes')
 for year in os.listdir('classes'):
 	print('  Process', year)
@@ -59,11 +67,21 @@ for year in os.listdir('classes'):
 			print('      Process', course)
 			mkdir('-p', os.path.join('html', 'classes', year, quarter, course))
 
-			for md in os.listdir(os.path.join('classes', year, quarter, course)):
-				print('        Process', md)
-				if md[-3:] == '.md':
+			for filename in os.listdir(os.path.join('classes', year, quarter, course)):
+				print('        Process', filename)
+				if filename[-3:] == '.md':
 					path = os.path.join('classes', year, quarter, course)
-					class_md_to_html(path, path, md)
+					class_md_to_html(path, path, filename)
+
+				# Hacks on hacks on hacks
+				ext = os.path.splitext(filename)[1]
+				if ext in static_extensions:
+					# These do not need to be compiled in any way
+					# Just copy them
+					cp('-u',
+							os.path.join('classes', year, quarter, course, filename),
+							os.path.join('html', 'classes', year, quarter, course)
+							)
 
 logger.info('Building publications database...')
 publications.generate_publications_page(pubs_groups, jinja_env)
@@ -86,11 +104,7 @@ for dirpath,dirnames,filenames in os.walk('static'):
 
 			spath = os.path.join(dirpath, filename)
 			dpath = 'html' + spath[6:]
-			if ext in [
-					'.css', '.js', '.ico', '.ttf', '.eot', '.svg', '.woff',
-					'.png', '.jpg', '.pdf', '.pptx', '.doc', '.txt', '.gz',
-					'.tgz', '.otf', '.odp', '.webmanifest', '.xml', '.zip',
-					]:
+			if ext in static_extensions:
 				# These do not need to be compiled in any way
 				# Just copy them
 				cp('-u', spath, dpath)

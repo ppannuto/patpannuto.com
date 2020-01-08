@@ -191,13 +191,13 @@ The project will have three milestones:
   </tr>
   <tr>
     <td>Jan&nbsp;6</td>
-    <td>Introduction</td>
+    <td><a href="2020-01-06-cse291-01-intro.pptx">Introduction</a></td>
     <td>Pannuto</td>
     <td></td>
   </tr>
   <tr>
     <td>Jan&nbsp;8</td>
-    <td>Ubiquitous Computing</td>
+    <td><a href="2020-01-06-cse291-02-ubiquitous.pptx">Ubiquitous Computing</a></td>
     <td>Pannuto</td>
     <td>
       No paper reviews this week, just read and think about these:
