@@ -26,8 +26,7 @@ Platforms & Systems to Bridge the Digital & Physical World
 Meets M/W from 10:30 to 11:50 in CSE 4140.<br/>
 [Pat Pannuto](https://patpannuto.com) is the instructor and their office is CSE 3202 (right in the corner).
 
-Office hours are M/W from 14:00 to 14:50 in CSE 3202.
-<small>(Most likely) (15:00 to 15:50 on Wed, Jan 8 &ndash; sorry)</small><br />
+Office hours are M/W from 14:00 to 14:50 in CSE 3202.<br/>
 Other times available by appointment, generally afternoons are preferred.
 
 ---
