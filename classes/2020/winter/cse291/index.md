@@ -125,6 +125,15 @@ crowdsource putting into words that one _thing_ for each paper.
 At the end of each review, include a **short**, single sentence or phrase that
 you think best captures the essence of the paper.
 
+#### Submitting Reviews
+
+We will use the [HotCRP review system](https://ucsd-cse291-k00-w20.hotcrp.com)
+&ndash; the same tool used by many conferences to review papers. Reviews are
+due before the start of class. HotCRP will automatically cut off submissions
+at 10:15.  Enrolled students should already have accounts. If you need an
+account or have other issues, please
+<a href="mailto:ppannuto@ucsd.edu?subject=CSE291-K00-W20 HotCRP Issue">e-mail me</a>.
+
 ### Participation
 
 We will rotate through class members to lead discussion each session. Leads
