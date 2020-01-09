@@ -68,8 +68,12 @@ for year in os.listdir('classes'):
 			mkdir('-p', os.path.join('html', 'classes', year, quarter, course))
 
 			for filename in os.listdir(os.path.join('classes', year, quarter, course)):
-				print('        Process', filename)
+				# Skip hidden
+				if filename[0] == '.':
+					continue
+
 				if filename[-3:] == '.md':
+					print('        Process', filename)
 					path = os.path.join('classes', year, quarter, course)
 					class_md_to_html(path, path, filename)
 
@@ -78,6 +82,7 @@ for year in os.listdir('classes'):
 				if ext in static_extensions:
 					# These do not need to be compiled in any way
 					# Just copy them
+					print('        Copy', filename)
 					cp('-u',
 							os.path.join('classes', year, quarter, course, filename),
 							os.path.join('html', 'classes', year, quarter, course)
