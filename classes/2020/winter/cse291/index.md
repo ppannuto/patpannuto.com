@@ -248,6 +248,7 @@ The project will have three milestones:
         <li><a href="/papers/catlett2017aot.pdf">Array of Things: A Scientific Research Instrument in the Public Way</a></li>
         <li><a href="/papers/mottola2010tunnels.pdf">Not all Wireless Sensor Networks are Created Equal: A Comparative Study on Tunnels</a></li>
       </ul>
+      <hr />
       For those wanting more...
       <ul>
         <li><a href="https://wp.nyu.edu/sonyc/">Sounds of New York City (SONYC)</a></li>
