@@ -281,7 +281,9 @@ I have been fortunate to be successful in many fellowship applications.
 This is due in no small part to excellent guidance from my colleagues and mentors.
 I am happy to share some of that advice and my application materials [here](/fellowships.html).
 
-One of my favorite parts of grad school is the opportunity it has afforded me to travel the world.
+[Here are my application materials from the faculty market](/appkit). Hopefully they are helpful.
+
+One of my favorite parts of academia is the opportunity it has afforded me to travel the world.
 <a href="https://www.amcharts.com/visited_countries/#AT,BE,DK,FR,DE,IN,IT,NL,PT,ES,VA,CA,US,GH,MA,CN,KR">Here's all the countries I've made it to thus far</a>
 (also <a href="https://www.amcharts.com/visited_states/#US-AZ,US-CA,US-CT,US-DC,US-DE,US-FL,US-GA,US-HI,US-IL,US-IN,US-KS,US-KY,US-LA,US-MA,US-MD,US-ME,US-MI,US-MO,US-NJ,US-NV,US-NY,US-OH,US-OK,US-OR,US-PA,US-RI,US-TN,US-TX,US-UT,US-VA,US-WA,US-WI">US states I've spent any appreciable time in</a>).
 

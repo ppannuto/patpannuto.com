@@ -1,3 +1,7 @@
+<h2>Note: This is an archive of my application kit from when I was on the market during the 2018-2019 hiring cycle.</h2>
+
+---
+
 <div class="page-header">
   <h1><a href="/" style="color: inherit;">Pat Pannuto</a></h1>
 </div>
