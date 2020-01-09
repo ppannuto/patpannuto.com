@@ -272,7 +272,7 @@ The project will have three milestones:
   <tr>
     <td>Jan&nbsp;22</td>
     <td>Building blocks &amp; Sensor System Architectures</td>
-    <td></td>
+    <td>Pannuto</td>
     <td>
       <ul>
         <li><a href="/papers/dutta2008epic.pdf">A Building Block Approach to Sensornet Systems</a></li>
