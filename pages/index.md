@@ -14,7 +14,7 @@ University of California, San Diego<br />
 [Publications](/publications.html) |
 [CV](/cv/pannuto.pdf) |
 [Talks](/talks.html) |
-[Teaching](/teaching.html) |
+[Teaching](#teaching) |
 [Fellowships & Awards](/fellowships.html)
 
 </div><!-- col-md-8 -->
@@ -71,9 +71,11 @@ health monitoring](#gridwatch).
 
 <hr />
 
-#### Teaching
+#### <a name="teaching"></a>Teaching
 
  - [CSE291 - K00: Platforms and Systems to Bridge the Digital and Physical World](/classes/2020/winter/cse291/)
+
+A [history of my teaching prior to joining UCSD](/teaching.html) is also available.
 
 <hr />
 
