@@ -242,7 +242,7 @@ The project will have three milestones:
     <td>Cities and the People in Them</td>
     <td>Pannuto</td>
     <td>
-      Paper lead signups due <i>before</i> class
+      <a href="https://github.com/ppannuto/patpannuto.com/blob/master/classes/2020/winter/cse291/index.md">Sign up for one discussion to lead by submitting a pull request.</a> <small>Conflicts resolved by pull request timestamp (first come, first serve).</small>
       <hr />
       <ul>
         <li><a href="/papers/catlett2017aot.pdf">Array of Things: A Scientific Research Instrument in the Public Way</a></li>
@@ -374,7 +374,7 @@ The project will have three milestones:
   <tr>
     <td>Feb&nbsp;19</td>
     <td>What's an application, an OS, in an embedded context?</td>
-    <td></td>
+    <td>Nagesh</td>
     <td>
       <ul>
         <li>TinyOS</li>
