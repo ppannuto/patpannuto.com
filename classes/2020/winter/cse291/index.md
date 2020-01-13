@@ -222,7 +222,7 @@ The project will have three milestones:
   </tr>
   <tr>
     <td>Jan&nbsp;13</td>
-    <td>Indoors &amp; Outdoors</td>
+    <td><a href="2020-01-06-cse291-03-deployments1.pptx">Indoors &amp; Outdoors</a></td>
     <td>Pannuto</td>
     <td>
       <ul>
