@@ -20,13 +20,13 @@ University of California, San Diego<br />
 </div><!-- col-md-8 -->
 
 <div id="portraits" class="d-none d-md-block col-md-4">
-  <a href="/images/pannuto-headshot-hires.jpg"><img src="/images/pannuto-headshot-square.jpg" class="col-md-12"/></a>
+  <a href="/images/pannuto-headshot-hires.jpg"><img src="/images/pannuto-headshot-square.jpg" alt="Headshot photo of Pat" class="col-md-12"/></a>
 </div><!-- col-md-4 -->
 
 </div><!-- first row -->
 
 <div class="row" markdown="1">
-<div class="col-md-12" markdown="1">
+<div class="col-md-12">
 
 I am interested in the boundary between the digital and physical world. My
 research aims to expand the reach of computational infrastructure to sense and
@@ -89,7 +89,7 @@ interconnect](http://mbus.io) optimized for energy-conscious designs.
 
 [Cubeworks](http://cubeworks.us/) is commercializing the M<sup>3</sup> technology.
 
-<small markdown="1">
+<small>
 {
 [JSTS'16](/pubs/lee16mbus.pdf) |
 **[Micro Top Picks '16](/pubs/pannuto16mbus-top-picks.pdf)** |
@@ -124,7 +124,7 @@ applications.
 
 [www.tockos.org](https://www.tockos.org/)
 
-<small markdown="1">
+<small>
 {
 [SOSP'17](/pubs/levy17multiprogramming.pdf) |
 [APSys'17](/pubs/levy17rustkernel.pdf) |
@@ -155,7 +155,7 @@ applications:
     the physical world, demonstrating a sub-microwatt tag that can be
     localized with decimeter accuracy in complex, indoor environments using
     ultra wideband backscatter.
-    <br /><small markdown="1">{
+    <br /><small>{
     **[IPSN'18](/pubs/pannuto18slocalization.pdf)** }
     </small>
   - **SurePoint.** In late 2013, DecaWave released the first (and as of 2018
@@ -165,14 +165,14 @@ applications:
     SurePoint explores what's required to build a scalable, high-fidelity, and
     high-reliability (29 cm 50th percentile, 77 cm 99th percentile accuracy of
     raw range estimates) system atop a UWB ranging primitive.
-    <br /><small markdown="1">{
+    <br /><small>{
     [SenSys'16](/pubs/kempke16surepoint.pdf) |
     [HotWireless'15](/pubs/kempke15polypoint.pdf) }
     </small>
   - **[Harmonium][harmonia].** Ultra wideband tracking (order 1-10 cm) with
     only narrowband components of lightweight (3 g), low power (75 mW or
     3.9 mJ/fix), low cost (< $5 USD), fast-moving (up to 2.4 m/s) tags.
-    <br /><small markdown="1">{
+    <br /><small>{
     **[TOSN'18](/pubs/pannuto18harmonium.pdf)** |
     [IPSN'16](/pubs/kempke16harmonium.pdf) |
     [MC<sup>2</sup>R'15](/pubs/kempke15harmonia.pdf) |
@@ -186,13 +186,13 @@ applications:
     [LiTell](http://xyzhang.ucsd.edu/papers/CZhang_MobiCom16_LiTell.pdf)
     and some of [Xinyu's other light-based localization
     work](http://xyzhang.ucsd.edu/publications.html).
-    <br /><small markdown="1">{
+    <br /><small>{
     [MobiCom'14](/pubs/kuo14luxapose.pdf) }
     </small>
   - **[Opo][opo].** An exploration in _relative_ location, a low-power (126
     J/day) wearable badge that provides high fidelity (centimeter-accurate,
     second-level granularity) human interaction information.
-    <br /><small markdown="1">{
+    <br /><small>{
     [SenSys'14](/pubs/huang14opo.pdf) }
     </small>
 
@@ -229,7 +229,7 @@ managing incentive-based studies. With OINK, experimenters set up a series of
 rules that express when and how study participants should be incentivized. OINK
 monitors a study, automatically triggers incentives, and handles disbursements.
 
-<small markdown="1">
+<small>
 {
 [COMPASS'19](/pubs/klugman19scale.pdf) |
 [GetMobile'19](/pubs/klugman19oldtricks.pdf) |
@@ -256,7 +256,7 @@ and experimentation for city-scale applications.
 
 [github/lab11/signpost](https://github.com/lab11/signpost)
 
-<small markdown="1">
+<small>
 {
 [IPSN'18](/pubs/adkins18signpost.pdf)
 }

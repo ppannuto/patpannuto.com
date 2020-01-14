@@ -132,7 +132,7 @@ We will use the [HotCRP review system](https://ucsd-cse291-k00-w20.hotcrp.com)
 due before the start of class. HotCRP will automatically cut off submissions
 at 10:15.  Enrolled students should already have accounts. If you need an
 account or have other issues, please
-<a href="mailto:ppannuto@ucsd.edu?subject=CSE291-K00-W20 HotCRP Issue">e-mail me</a>.
+<a href="mailto:ppannuto@ucsd.edu?subject=CSE291-K00-W20%20HotCRP Issue">e-mail me</a>.
 
 ### Participation
 
@@ -267,7 +267,7 @@ The project will have three milestones:
   <tr>
     <td>Jan&nbsp;20</td>
     <td colspan="2"><i>MLK Day</i></td>
-    <td>Project proposals due. Submit via e-mail to <a href="mailto:ppannuto@ucsd.edu?subject=CSE291-K00-W20 Project Proposal">ppannuto@ucsd.edu</a>.
+    <td>Project proposals due. Submit via e-mail to <a href="mailto:ppannuto@ucsd.edu?subject=CSE291-K00-W20%20Project%20Proposal">ppannuto@ucsd.edu</a>.</td>
   </tr>
   <tr>
     <td>Jan&nbsp;22</td>
@@ -369,7 +369,7 @@ The project will have three milestones:
   <tr>
     <td>Feb&nbsp;17</td>
     <td colspan="2"><i>President's Day</i></td>
-    <td>Project drafts due. Submit via e-mail to <a href="mailto:ppannuto@ucsd.edu?subject=CSE291-K00-W20 Project Draft">ppannuto@ucsd.edu</a>.
+    <td>Project drafts due. Submit via e-mail to <a href="mailto:ppannuto@ucsd.edu?subject=CSE291-K00-W20%20Project%20Draft">ppannuto@ucsd.edu</a>.
   </tr>
   <tr>
     <td>Feb&nbsp;19</td>
@@ -379,7 +379,7 @@ The project will have three milestones:
       <ul>
         <li>TinyOS</li>
         <!-- Either Regehr's Safe TinyOS , or the full 35 pager from Phil ... -->
-        <li><a href="/pubs/levy17multiprogramming.pdf">Multiprogramming a 64kB Computer Safely and Efficiently</li>
+        <li><a href="/pubs/levy17multiprogramming.pdf">Multiprogramming a 64kB Computer Safely and Efficiently</a></li>
         <li><a href="/papers/hardin2018appiso.pdf">Application Memory Isolation on Ultra-Low-Power MCUs</a></li>
     </td>
   </tr>
