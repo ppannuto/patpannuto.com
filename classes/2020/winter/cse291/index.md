@@ -342,7 +342,7 @@ The project will have three milestones:
   <tr>
     <td>Feb&nbsp;10</td>
     <td>Wild Ideas in Non-Traditional Communication</td>
-    <td></td>
+    <td>Renjie</td>
     <td>
       <ul>
         <li><a href="/papers/iyer2016interscatter.pdf">Inter-Technology Backscatter: Towards Internet Connectivity for Implanted Devices</a></li>
