@@ -421,7 +421,7 @@ The project will have three milestones:
   <tr>
     <td>Mar&nbsp;2</td>
     <td>Trusting sensors and data</td>
-    <td></td>
+    <td>Ke Sun</td>
     <td>
       <ul>
         <li>One of the Kevin Fu sensor injection papers  (Light Commands or Pacemakers)</li>
