@@ -288,7 +288,7 @@ The project will have three milestones:
   <tr>
     <td>Jan&nbsp;27</td>
     <td>Energy Harvesting and Fair Sharing</td>
-    <td></td>
+    <td>Xiaofan</td>
     <td>
       <ul>
         <li><a href="/papers/cao2008virtualbattery.pdf">Virtual Battery: An Energy Reserve Abstraction for Embedded Sensor Networks</a></li>
