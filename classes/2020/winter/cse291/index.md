@@ -199,13 +199,13 @@ The project will have three milestones:
   </tr>
   <tr>
     <td>Jan&nbsp;6</td>
-    <td><a href="2020-01-06-cse291-01-intro.pptx">Introduction</a></td>
+    <td><a href="2020-01-06-cse291-intro.pptx">Introduction</a></td>
     <td>Pannuto</td>
     <td></td>
   </tr>
   <tr>
     <td>Jan&nbsp;8</td>
-    <td><a href="2020-01-06-cse291-02-ubiquitous.pptx">Ubiquitous Computing</a></td>
+    <td><a href="2020-01-08-cse291-ubiquitous.pptx">Ubiquitous Computing</a></td>
     <td>Pannuto</td>
     <td>
       No paper reviews this week, just read and think about these:
@@ -222,7 +222,7 @@ The project will have three milestones:
   </tr>
   <tr>
     <td>Jan&nbsp;13</td>
-    <td><a href="2020-01-06-cse291-03-deployments1.pptx">Indoors &amp; Outdoors</a></td>
+    <td><a href="2020-01-13-cse291-deployments1.pptx">Indoors &amp; Outdoors</a></td>
     <td>Pannuto</td>
     <td>
       <ul>
