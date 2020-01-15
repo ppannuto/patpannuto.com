@@ -4,22 +4,22 @@ Platforms & Systems to Bridge the Digital & Physical World
 
 <div class="row flex-nowrap no-gutters" markdown="1">
 <div class="col-lg-2 col-xs-4">
-<img src="/images/research/m3-finger-square.jpg" />
+<img src="/images/research/m3-finger-square.jpg" alt="M3 sensor on a finger" />
 </div>
 <div class="col-lg-2 col-xs-4">
-<img src="/images/research/vlc-centers.png" />
+<img src="/images/research/vlc-centers.png" alt="Luxapose image processing pipeline" />
 </div>
 <div class="col-lg-2 col-xs-4">
-<img src="/images/research/signpost-closeup-square.jpg" />
+<img src="/images/research/signpost-closeup-square.jpg" alt="Signpost platform deployed outside" />
 </div>
 <div class="col-lg-2 d-none d-sm-block">
-<img src="/images/research/tottag-overlay.png" />
+<img src="/images/research/tottag-overlay.png" alt="TotTag ranging platform" />
 </div>
 <div class="col-lg-2 d-none d-sm-block">
-<img src="/images/research/opo-tie.png" />
+<img src="/images/research/opo-tie.png" alt="Opo interaction tracker clipped to a tie" />
 </div>
 <div class="col-lg-2 d-none d-sm-block">
-<img src="/images/research/powerblade.jpg" />
+<img src="/images/research/powerblade.jpg" alt="Powerblade power meter on a plug" />
 </div>
 </div>
 
@@ -132,7 +132,7 @@ We will use the [HotCRP review system](https://ucsd-cse291-k00-w20.hotcrp.com)
 due before the start of class. HotCRP will automatically cut off submissions
 at 10:15.  Enrolled students should already have accounts. If you need an
 account or have other issues, please
-<a href="mailto:ppannuto@ucsd.edu?subject=CSE291-K00-W20%20HotCRP Issue">e-mail me</a>.
+<a href="mailto:ppannuto@ucsd.edu?subject=CSE291-K00-W20%20HotCRP%20Issue">e-mail me</a>.
 
 ### Participation
 
@@ -381,6 +381,7 @@ The project will have three milestones:
         <!-- Either Regehr's Safe TinyOS , or the full 35 pager from Phil ... -->
         <li><a href="/pubs/levy17multiprogramming.pdf">Multiprogramming a 64kB Computer Safely and Efficiently</a></li>
         <li><a href="/papers/hardin2018appiso.pdf">Application Memory Isolation on Ultra-Low-Power MCUs</a></li>
+      </ul>
     </td>
   </tr>
 
@@ -410,7 +411,7 @@ The project will have three milestones:
     <td>
       <ul>
         <li>DDFlow</li><!--Or maybe the new one: The Case for Robust Adaptation: Autonomic Resource Management is a Vulnerability??-->
-        <li><i>TBD</i></li><!--Mate?--></ul>
+        <li><i>TBD</i></li><!--Mate?-->
       </ul>
     </td>
   </tr>
