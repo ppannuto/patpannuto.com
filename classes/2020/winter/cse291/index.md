@@ -239,7 +239,7 @@ The project will have three milestones:
   </tr>
   <tr>
     <td>Jan&nbsp;15</td>
-    <td>Cities and the People in Them</td>
+    <td><a href="2020-01-15-cse291-deployments2.pptx">Cities and the People in Them</a></td>
     <td>Pannuto</td>
     <td>
       <a href="https://github.com/ppannuto/patpannuto.com/blob/master/classes/2020/winter/cse291/index.md">Sign up for one discussion to lead by submitting a pull request.</a> <small>Conflicts resolved by pull request timestamp (first come, first serve).</small>
