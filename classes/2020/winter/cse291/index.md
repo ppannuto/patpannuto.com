@@ -2,7 +2,7 @@ Platforms & Systems to Bridge the Digital & Physical World
 ==========================================================
 ## CSE291 K00 - Winter 2020
 
-<div class="row flex-nowrap no-gutters" markdown="1">
+<div class="row flex-nowrap no-gutters">
 <div class="col-lg-2 col-xs-4">
 <img src="/images/research/m3-finger-square.jpg" alt="M3 sensor on a finger" />
 </div>
