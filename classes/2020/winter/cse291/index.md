@@ -407,7 +407,7 @@ The project will have three milestones:
   <tr>
     <td>Feb&nbsp;26</td>
     <td>Distributed Computing and Task Planning</td>
-    <td></td>
+    <td>Wenshan Luo</td>
     <td>
       <ul>
         <li>DDFlow</li><!--Or maybe the new one: The Case for Robust Adaptation: Autonomic Resource Management is a Vulnerability??-->
