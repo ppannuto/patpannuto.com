@@ -322,7 +322,7 @@ The project will have three milestones:
   <tr>
     <td>Feb&nbsp;5</td>
     <td>Great Ideas in Traditional Communication</td>
-    <td></td>
+    <td>Sushmitha</td>
     <td>
       <ul>
         <li><a href="/papers/hui2008ipdead.pdf">IP is Dead, Long Live IP for Wireless Sensor Networks</a></li>
