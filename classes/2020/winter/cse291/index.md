@@ -432,7 +432,7 @@ The project will have three milestones:
   <tr>
     <td>Mar&nbsp;4</td>
     <td>Trusting systems</td>
-    <td></td>
+    <td>Eric Weise</td>
     <td>
       <ul>
         <li><a href="/papers/anderson2019wave.pdf">WAVE: A Decentralized Authorization Framework with Transitive Delegation</a></li>
