@@ -277,6 +277,9 @@ The project will have three milestones:
       <ul>
         <li><a href="/papers/dutta2008epic.pdf">A Building Block Approach to Sensornet Systems</a></li>
         <li><a href="/papers/kim2018postsoc.pdf">System Architecture Directions for Post-SoC/32-bit Networked Sensors</a></li>
+      </ul>
+      No review for the last one, but please do read it:
+      <ul>
         <li><a href="/papers/campbell2014ehtoolkit.pdf">An Energy-Harvesting Sensor Architecture and Toolkit for Building Monitoring and Event Detection</a></li>
       </ul>
     </td>
