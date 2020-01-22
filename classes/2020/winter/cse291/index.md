@@ -271,7 +271,7 @@ The project will have three milestones:
   </tr>
   <tr>
     <td>Jan&nbsp;22</td>
-    <td>Building blocks &amp; Sensor System Architectures</td>
+    <td><a href="2020-01-22-cse291-architectures.pptx">Building blocks &amp; Sensor System Architectures</a></td>
     <td>Pannuto</td>
     <td>
       <ul>
