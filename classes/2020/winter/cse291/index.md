@@ -306,7 +306,7 @@ The project will have three milestones:
     <td>
       <ul>
         <li><a href="/papers/colin2018capybara.pdf">A Reconfigurable Energy Storage Architecture forEnergy-harvesting Devices</a></li>
-        <li><a href="http://lab11.eecs.berkeley.edu/content/pubs/jackson19capacity.pdf">Capacity over Capacitance for Reliable Energy Harvesting Sensors</a></li>
+        <li><a href="/papers/jackson19capacity.pdf">Capacity over Capacitance for Reliable Energy Harvesting Sensors</a></li>
       </ul>
     </td>
   </tr>
