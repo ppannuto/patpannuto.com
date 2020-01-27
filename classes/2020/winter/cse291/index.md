@@ -290,7 +290,7 @@ The project will have three milestones:
   </tr>
   <tr>
     <td>Jan&nbsp;27</td>
-    <td>Energy Harvesting and Fair Sharing</td>
+    <td><a href="2020-01-27-cse291-eh.pptx">Energy Harvesting and Fair Sharing</a></td>
     <td>Xiaofan</td>
     <td>
       <ul>
