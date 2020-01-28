@@ -302,7 +302,7 @@ The project will have three milestones:
   <tr>
     <td>Jan&nbsp;29</td>
     <td>Whither intermittent computing?</td>
-    <td></td>
+    <td>Pannuto</td>
     <td>
       <ul>
         <li><a href="/papers/colin2018capybara.pdf">A Reconfigurable Energy Storage Architecture for Energy-harvesting Devices</a></li>
