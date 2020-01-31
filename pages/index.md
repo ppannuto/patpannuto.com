@@ -131,7 +131,11 @@ Tock, a new operating system for low-power platforms, takes advantage of
 limited hardware-protection mechanisms as well as the type-safety features
 of the Rust programming language to provide a multiprogramming environment for
 microcontrollers.
-
+</div>
+<div class="col-md-2">
+![Tock Logo](/images/research/tock-logo-square.png){: .img-fluid .d-none .d-md-block }
+</div>
+<div class="col-md-12">
 Tock isolates software faults, provides memory protection, and efficiently
 manages memory for dynamic application workloads written in any language. It
 achieves this while retaining the dependability requirements of long-running
@@ -143,9 +147,6 @@ security module, which is built on top of Tock.
 [opensk]: https://security.googleblog.com/2020/01/say-hello-to-opensk-fully-open-source.html
 
 [www.tockos.org](https://www.tockos.org/)
-</div>
-<div class="col-md-2">
-![Tock Logo](/images/research/tock-logo-square.png){: .img-fluid }
 </div>
 </div>
 <small>
