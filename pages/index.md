@@ -80,6 +80,8 @@ A [history of my teaching prior to joining UCSD](/teaching.html) is also availab
 <hr />
 
 #### <a name="m3"></a> Michigan Micro Mote & MBus
+<div class="row" markdown="1">
+<div class="col-md-10">
 The Michigan Micro Mote, or M<sup>3</sup> project, aims to bring
 general-purpose computing and sensing to millimeter-scale devices.
  As part of this effort, we identified the system interconnect as a key
@@ -87,8 +89,20 @@ impediment to further scaling the energy and area of embedded computing.
 To address this, I led the design of [MBus, a new chip-to-chip
 interconnect](http://mbus.io) optimized for energy-conscious designs.
 
-[Cubeworks](http://cubeworks.us/) is commercializing the M<sup>3</sup> technology.
+The Michigan Micro Mote is on display in World's Smallest Computer exhibit the
+lobby of the Computer History Musuem in Mountain View.
+You can [see the exhibit online here][chm].
 
+[chm]: https://computerhistory.org/blog/the-worlds-smallest-computer/
+
+[Cubeworks](http://cubeworks.us/) is commercializing the M<sup>3</sup> technology.
+</div>
+<div class="col-md-2">
+![M3 node on a finger](/images/research/m3-finger-square.jpg){: .img-fluid }
+
+![M3 node on edge of US nickel coin](/images/research/m3-nickel-square.jpg){: .img-fluid }
+</div>
+</div>
 <small>
 {
 [JSTS'16](/pubs/lee16mbus.pdf) |
@@ -104,7 +118,8 @@ interconnect](http://mbus.io) optimized for energy-conscious designs.
 
 
 #### <a name="tock"></a> The Tock Operating System
-
+<div class="row" markdown="1">
+<div class="col-md-10">
 Low-power microcontrollers lack some of the hardware features and memory
 resources that traditionally enable multiprogrammable systems.
 Accordingly, microcontroller-based operating systems have not provided
@@ -122,8 +137,17 @@ manages memory for dynamic application workloads written in any language. It
 achieves this while retaining the dependability requirements of long-running
 applications.
 
-[www.tockos.org](https://www.tockos.org/)
+[Google recently announced the OpenSK][opensk], a fully open-source hardware
+security module, which is built on top of Tock.
 
+[opensk]: https://security.googleblog.com/2020/01/say-hello-to-opensk-fully-open-source.html
+
+[www.tockos.org](https://www.tockos.org/)
+</div>
+<div class="col-md-2">
+![Tock Logo](/images/research/tock-logo-square.png){: .img-fluid }
+</div>
+</div>
 <small>
 {
 [SOSP'17](/pubs/levy17multiprogramming.pdf) |
@@ -143,58 +167,101 @@ environments.
 I have worked on several localization efforts, tackling different
 applications:
 
-  - **Slocalization.** For most of modern history, massive effort has gone
-    into the careful organization, sorting, and filing of information for
-    later retrieval. With the rise of the Information Age, we have
-    transitioned from filing information to simply searching for it on demand,
-    expecting our computing infrastructure to automatically find exactly what
-    we are searching for.  The same is not yet true for the physical world.
-    While there are exceptions, the vast majority of things in the physical
-    world remain invisible to the computational domain.
-    Slocalization takes one small step towards enabling "search not file" for
-    the physical world, demonstrating a sub-microwatt tag that can be
-    localized with decimeter accuracy in complex, indoor environments using
-    ultra wideband backscatter.
-    <br /><small>{
-    **[IPSN'18](/pubs/pannuto18slocalization.pdf)** }
-    </small>
-  - **SurePoint.** In late 2013, DecaWave released the first (and as of 2018
-    still only) commercially available ultra wideband transceiver. While ultra
-    wideband provides the potential for extremely accurate range estimates, in
-    practice single range estimates can exhibit variation well over a meter.
-    SurePoint explores what's required to build a scalable, high-fidelity, and
-    high-reliability (29 cm 50th percentile, 77 cm 99th percentile accuracy of
-    raw range estimates) system atop a UWB ranging primitive.
-    <br /><small>{
-    [SenSys'16](/pubs/kempke16surepoint.pdf) |
-    [HotWireless'15](/pubs/kempke15polypoint.pdf) }
-    </small>
-  - **[Harmonium][harmonia].** Ultra wideband tracking (order 1-10 cm) with
-    only narrowband components of lightweight (3 g), low power (75 mW or
-    3.9 mJ/fix), low cost (< $5 USD), fast-moving (up to 2.4 m/s) tags.
-    <br /><small>{
-    **[TOSN'18](/pubs/pannuto18harmonium.pdf)** |
-    [IPSN'16](/pubs/kempke16harmonium.pdf) |
-    [MC<sup>2</sup>R'15](/pubs/kempke15harmonia.pdf) |
-    [HotWireless'14](/pubs/kempke14harmonia.pdf) }
-    </small>
-  - **[Luxapose][luxapose].** An exploration in using lighting
-    infrastructure for astral navigation indoors. Luxapose spawned considerable
-    follow-on work (with which I have no affiliation) that is really cool and
-    looks at how to do this without requiring intelligent LED lighting
-    infrastructure, in particular check out
-    [LiTell](http://xyzhang.ucsd.edu/papers/CZhang_MobiCom16_LiTell.pdf)
-    and some of [Xinyu's other light-based localization
-    work](http://xyzhang.ucsd.edu/publications.html).
-    <br /><small>{
-    [MobiCom'14](/pubs/kuo14luxapose.pdf) }
-    </small>
-  - **[Opo][opo].** An exploration in _relative_ location, a low-power (126
-    J/day) wearable badge that provides high fidelity (centimeter-accurate,
-    second-level granularity) human interaction information.
-    <br /><small>{
-    [SenSys'14](/pubs/huang14opo.pdf) }
-    </small>
+##### <a name="slocalization"></a> Slocalization
+<div class="row" markdown="1">
+<div class="col-md-9">
+For most of modern history, massive effort has gone into the careful
+organization, sorting, and filing of information for later retrieval. With the
+rise of the Information Age, we have transitioned from filing information to
+simply searching for it on demand, expecting our computing infrastructure to
+automatically find exactly what we are searching for.  The same is not yet true
+for the physical world.  While there are exceptions, the vast majority of
+things in the physical world remain invisible to the computational domain.
+Slocalization takes one small step towards enabling "search not file" for the
+physical world, demonstrating a sub-microwatt tag that can be localized with
+decimeter accuracy in complex, indoor environments using ultra wideband
+backscatter.
+</div>
+<div class="col-md-3">
+![Channel impulse response after repeated integrations](/images/research/sloc-cir.png){: .img-fluid }
+
+![Frontside of tag hardware](/images/research/sloc-tag-front-500px.png){: .img-fluid }
+
+![Backside of tag hardware](/images/research/sloc-tag-back-500px.png){: .img-fluid }
+</div>
+</div>
+<small>{
+**[IPSN'18](/pubs/pannuto18slocalization.pdf)** }
+</small>
+
+##### <a name="surepoint"></a> SurePoint
+In late 2013, DecaWave released the first (and as of 2019 still only)
+commercially available ultra wideband transceiver. While ultra wideband
+provides the potential for extremely accurate range estimates, in practice
+single range estimates can exhibit variation well over a meter.  SurePoint
+explores what's required to build a scalable, high-fidelity, and
+high-reliability (29 cm 50th percentile, 77 cm 99th percentile accuracy of raw
+range estimates) system atop a UWB ranging primitive.
+<br /><small>{
+[SenSys'16](/pubs/kempke16surepoint.pdf) |
+[HotWireless'15](/pubs/kempke15polypoint.pdf) }
+</small>
+
+##### <a name="harmonium"></a> [Harmonium][harmonia]
+<div class="row" markdown="1">
+<div class="col-md-9">
+Ultra wideband tracking (order 1-10 cm) with only narrowband components of
+lightweight (3 g), low power (75 mW or 3.9 mJ/fix), low cost (< $5 USD),
+fast-moving (up to 2.4 m/s) tags.
+</div>
+<div class="col-md-3">
+![Harmonium tag mounted on a micro quadrotor](/images/research/harm-quad-with-tag.jpg){: .img-fluid }
+</div>
+</div>
+<small>{
+**[TOSN'18](/pubs/pannuto18harmonium.pdf)** |
+[IPSN'16](/pubs/kempke16harmonium.pdf) |
+[MC<sup>2</sup>R'15](/pubs/kempke15harmonia.pdf) |
+[HotWireless'14](/pubs/kempke14harmonia.pdf) }
+</small>
+
+##### <a name="luxapose"></a> [Luxapose][luxapose]
+<div class="row" markdown="1">
+<div class="col-md-10">
+An exploration in using lighting infrastructure for astral navigation indoors.
+Luxapose spawned considerable follow-on work (with which I have no affiliation)
+that is really cool and looks at how to do this without requiring intelligent
+LED lighting infrastructure, in particular check out
+[LiTell](http://xyzhang.ucsd.edu/papers/CZhang_MobiCom16_LiTell.pdf) and some of
+[Xinyu's other light-based localization work](http://xyzhang.ucsd.edu/publications.html).
+</div>
+<div class="col-md-2">
+![Luxapose image processing snapshot](/images/research/vlc-centers.png){: .img-fluid }
+</div>
+</div>
+<small>{
+[MobiCom'14](/pubs/kuo14luxapose.pdf) }
+</small>
+
+##### <a name="opo"></a> [Opo][opo]
+<div class="row" markdown="1">
+<div class="col-md-8">
+An exploration in _relative_ location, a low-power (126 J/day) wearable badge
+that provides high fidelity (centimeter-accurate, second-level granularity)
+human interaction information.
+
+Opo was initially developed in partnership with epidemiologists interested in
+understanding the impact of interaction time and distance on the spread of flu
+in elementary school settings. The platform has since also been adapted to
+support handwashing studies in hospital settings.
+</div>
+<div class="col-md-4">
+![Various configurations of people wearing Opo tags](/images/research/opo-quad.png){: .img-fluid }
+</div>
+</div>
+<small>{
+[SenSys'14](/pubs/huang14opo.pdf) }
+</small>
 
 [luxapose]: http://lab11.eecs.umich.edu/projects/vlc_localization/ "Luxapose: Indoor Positioning with Mobile Phones and Visible Light"
 [harmonia]: http://lab11.eecs.umich.edu/projects/harmonia/ "Harmonia: Wideband Spreading for Accurate Indoor RF Localization"
@@ -245,8 +312,10 @@ monitors a study, automatically triggers incentives, and handles disbursements.
 [mccghana]: https://www.mcc.gov/where-we-work/program/ghana-power-compact
 [oink]: https://openincentivekit.com
 
-#### <a name="signpost"></a> The Signpost City-Scale Sensing Project
 
+#### <a name="signpost"></a> The Signpost City-Scale Sensing Project
+<div class="row" markdown="1">
+<div class="col-md-9">
 City-scale sensing holds the promise of enabling deeper understanding of our
 urban environments. However, a city-scale deployment requires physical
 installation, power management, and communications—all challenging tasks
@@ -255,7 +324,11 @@ The Signpost project aims to provide a platform that enables easy deployment
 and experimentation for city-scale applications.
 
 [github/lab11/signpost](https://github.com/lab11/signpost)
-
+</div>
+<div class="col-md-3">
+![A deployed signpost in the wild](/images/research/signpost-closeup-square.jpg){: .img-fluid }
+</div>
+</div>
 <small>
 {
 [IPSN'18](/pubs/adkins18signpost.pdf)
