@@ -395,7 +395,7 @@ The project will have three milestones:
   <tr>
     <td>Feb&nbsp;24</td>
     <td>ML at the Very Edge</td>
-    <td></td>
+    <td>Gayathri</td>
     <td>
       <ul>
         <li><a href="/papers/yao2017deepiot.pdf">DeepIoT: Compressing Deep Neural Network Structures for Sensing Systems with a Compressor-Critic Framework</a></li>
