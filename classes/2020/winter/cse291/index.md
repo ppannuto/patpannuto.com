@@ -324,7 +324,7 @@ The project will have three milestones:
   </tr>
   <tr>
     <td>Feb&nbsp;5</td>
-    <td>Great Ideas in Traditional Communication</td>
+    <td><a href="2020-02-05-cse291-trad-comm.pdf">Great Ideas in Traditional Communication</a></td>
     <td>Sushmitha</td>
     <td>
       <ul>
