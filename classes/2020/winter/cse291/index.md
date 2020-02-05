@@ -380,10 +380,15 @@ The project will have three milestones:
     <td>Nagesh</td>
     <td>
       <ul>
-        <li>TinyOS</li>
-        <!-- Either Regehr's Safe TinyOS , or the full 35 pager from Phil ... -->
         <li><a href="/pubs/levy17multiprogramming.pdf">Multiprogramming a 64kB Computer Safely and Efficiently</a></li>
         <li><a href="/papers/hardin2018appiso.pdf">Application Memory Isolation on Ultra-Low-Power MCUs</a></li>
+      </ul>
+      <hr />
+      For those wanting more...
+      <ul>
+        <li><a href="https://people.eecs.berkeley.edu/~pister/290Q/Papers/levis06tinyos.pdf">TinyOS: An Operating Systemfor Sensor Networks</a></li>
+        <li><a href="https://cseweb.ucsd.edu/~schulman/class/cse291_f18/docs/cooprider_tinyos.pdf">Efficient Memory Safety for TinyOS</a></li>
+        <li><a href="https://sing.stanford.edu/pubs/tinyos-retrospective-osdi2012.pdf">Experiences from a Decade of TinyOS Development</a></li>
       </ul>
     </td>
   </tr>
