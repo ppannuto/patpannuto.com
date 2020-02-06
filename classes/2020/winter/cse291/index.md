@@ -418,8 +418,10 @@ The project will have three milestones:
     <td>Wenshan</td>
     <td>
       <ul>
-        <li>DDFlow</li><!--Or maybe the new one: The Case for Robust Adaptation: Autonomic Resource Management is a Vulnerability??-->
-        <li><i>TBD</i></li><!--Mate?-->
+        <li><a href="/papers/noor2019ddflow.pdf">DDFlow: Visualized Declarative Programming for Heterogeneous IoT Networks</a></li>
+        <!--Or maybe the new one: The Case for Robust Adaptation: Autonomic Resource Management is a Vulnerability??-->
+        <li><a href="/papers/brooks2018accessors.pdf">A Component Architecture for the Internet of Things</a></li>
+        <!--Mate?-->
       </ul>
     </td>
   </tr>
