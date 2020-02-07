@@ -435,8 +435,8 @@ The project will have three milestones:
     <td>Ke Sun</td>
     <td>
       <ul>
-        <li><a href="https://lightcommands.com/20191104-Light-Commands.pdf">Light Commands: Laser-Based Audio InjectionAttacks on Voice-Controllable Systems</a></li>
-        <li><a href="/papers/hunt2017sevenproperties">The Seven Properties of Highly Secure Devices (Azure Sphere)</a></li>
+        <li><a href="https://lightcommands.com/20191104-Light-Commands.pdf">Light Commands: Laser-Based Audio Injection Attacks on Voice-Controllable Systems</a></li>
+        <li><a href="/papers/hunt2017sevenproperties.pdf">The Seven Properties of Highly Secure Devices (Azure Sphere)</a></li>
       </ul>
     </td>
   </tr>
