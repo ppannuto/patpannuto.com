@@ -344,7 +344,7 @@ The project will have three milestones:
   </tr>
   <tr>
     <td>Feb&nbsp;10</td>
-    <td>Wild Ideas in Non-Traditional Communication</td>
+    <td><a href="2020-02-10-cse291-allthescatters.pptx">Wild Ideas in Non-Traditional Communication</a></td>
     <td>Renjie</td>
     <td>
       <ul>
