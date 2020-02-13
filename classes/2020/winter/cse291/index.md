@@ -353,6 +353,59 @@ The project will have three milestones:
       </ul>
     </td>
   </tr>
+  <tr class="table-warning">
+    <td colspan="4">
+    <small>
+    <a name="kqs"></a><p><strong>In the spirit of communication...</strong></p>
+    <p>One of the suggestions from the excellent <a href="https://cra.org/new-computing-faculty-workshops-in-summer-2018/">New Computing Faculty Workshop</a> is to collect some anonymous feedback midway through the term. They provide the simple <a href="/teaching/KQS.pdf">Keep-Quit-Start template</a> as one mechanism for this. Largely as an exercise in keeping myself honest, I wanted to share what I gathered from this feedback as well as what I have and will do to try to improve:</p>
+    <small>
+    <ul>
+      <li>Discussions (generally great)</li>
+      <ul>
+        <li>Interesting, friendly, accessible to all, good energy; keep going with this</li>
+        <li>Discussion lead is helpful task, but <strong>TODO: Get pre-presentation feedback to leads earlier <small>(requires slides to me early too!)</small>.</strong></li>
+        <li>Context for work is good, but <strong>TODO: Give more background prior next readings.</strong>
+        <li>Whiteboard: supporting explanations great. The whiteboard lectures better than slides. <strong>Done: More whiteboard, fewer slides (when I lead).</strong></li>
+        <li>Upload slides/notes on the course website, <strong>Done: They're here already! (Click the titles)</strong></li>
+        <li>Circle the desks again/reliably, <strong>Done: We'll do this moving forward.</strong></li>
+        <li>Can get lost, especially for harder more complex topics; sometimes feels scattered, <strong>TODO: Maybe a post-lecture summary? Maybe an assigned note-taker each day?</strong></li>
+      </ul>
+      <li>Reviews</li>
+      <ul>
+        <li>Working well; very helpful to document own perspectives in advance</li>
+        <li>Peer-review of course proposals were very good. <strong>TODO: Consider second review session?</strong></li>
+      </ul>
+      <li>Misc</li>
+      <ul>
+        <li>The class size is good, valuable.</li>
+        <li>Platform for out-of-class discussion? <strong>Done: Set up a slack channel.</strong></li>
+        <li>Good breadth of work, topics, but <strong>TODO: Clearer outline of the course plan (why this order, these papers?).</strong>
+        <li>More consistently finish on time, <strong>Done: This is a team one however, we will also more aggressively start on time, rather than waiting for folks to trickle in.</strong></li>
+        <li>Provide tutorials, resources for people without background in an area, <strong>TODO: Try to add links to syllabus where I can.</strong></li>
+        <li>Recordings/Podcast the discussions, <strong>TODO: I'm not sure this is easy to capture well (without mic'ing everyone?); will investigate.</strong></li>
+        <li>Bring snacks? <strong>TODO: Maybe, no promises :)</strong></li>
+      </ul>
+    </ul>
+    </small>
+    <p>KQS also invites self-reflection on what class participants can continue
+    to do or improve on. Similarly here's some of those ideas, and in
+    particular what I will try to do to help everyone reach their goals:</p>
+    <small>
+    <ul>
+    <li>Discussion</li>
+    <ul>
+      <li>(some) Participating well and it's useful; (others) Want to participate more / more consistently; <strong>TODO: I will make more effort to actively account and ensure everyone speaks every day</strong></li>
+      <li>Finding presentations from original authors helpful</li>
+      <li>Finding and reading beyond paper (books, online articles) as background helpful</li>
+      <li>(some) Actually / reliably reading very valuable; (others) need to read more deeply / more in advance; read other classmates reviews in advance; <strong>TODO: Propose earlier review deadline</strong></li>
+    </ul>
+    <li>Project</li>
+    <ul>
+      <li>Appreciate that project tied to my interest as well as class goals</li>
+      <li>More offline discussion of the project, guidance; <strong>TODO: Explicit OH invitation for those I haven't met with 1:1?</strong></li>
+    </ul>
+    </small>
+  </tr>
   <tr>
     <td>Feb&nbsp;12</td>
     <td>Sharing Spectrum</td>
