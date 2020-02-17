@@ -367,7 +367,7 @@ The project will have three milestones:
       <ul>
         <li>Interesting, friendly, accessible to all, good energy; keep going with this</li>
         <li>Discussion lead is helpful task, but <strong>TODO: Get pre-presentation feedback to leads earlier <small>(requires slides to me early too!)</small>.</strong></li>
-        <li>Context for work is good, but <strong>TODO: Give more background prior next readings.</strong>
+        <li>Context for work is good, but <strong>Done: Give more background prior next readings (1: Added explicit pre-reading questions; 2: Consistent &ldquo;preview of next class&rdquo; at the end of each class).</strong>
         <li>Whiteboard: supporting explanations great. The whiteboard lectures better than slides. <strong>Done: More whiteboard, fewer slides (when I lead).</strong></li>
         <li>Upload slides/notes on the course website, <strong>Done: They're here already! (Click the titles)</strong></li>
         <li>Circle the desks again/reliably, <strong>Done: We'll do this moving forward.</strong></li>
@@ -432,7 +432,15 @@ The project will have three milestones:
   </tr>
   <tr>
     <td>Feb&nbsp;19</td>
-    <td>What's an application, an OS, in an embedded context?</td>
+    <td>
+    What's an application, an OS, in an embedded context?
+    <hr />
+    Pre-reading questions:
+    <ul>
+      <li>What are the requirements of multi-processing?</li>
+      <li>Why have prior embedded systems been single-task, what is changing?</li>
+    </ul>
+    </td>
     <td>Nagesh</td>
     <td>
       <ul>
@@ -455,7 +463,16 @@ The project will have three milestones:
   </tr>
   <tr>
     <td>Feb&nbsp;24</td>
-    <td>ML at the Very Edge</td>
+    <td>
+    ML at the Very Edge
+    <hr />
+    Pre-reading questions:
+    <ul>
+      <li>How to decide between edge, local compute?</li>
+      <li>What is, and is not, different about edge compute capabilities?</li>
+      <li>How to manage whole ML systems (training, execution, updates)?</li>
+    </ul>
+    </td>
     <td>Gayathri</td>
     <td>
       <ul>
@@ -470,7 +487,15 @@ The project will have three milestones:
   </tr>
   <tr>
     <td>Feb&nbsp;26</td>
-    <td>Distributed Computing and Task Planning</td>
+    <td>
+    Distributed Computing and Task Planning
+    <hr />
+    Pre-reading questions:
+    <ul>
+      <li>What are the tradeoffs between centralized and decentralized compute models?</li>
+      <li>How to express heterogeneity of compute capability? How is the heterogeneity different from prior distributed systems?</li>
+    </ul>
+    </td>
     <td>Wenshan</td>
     <td>
       <ul>
@@ -487,7 +512,15 @@ The project will have three milestones:
   </tr>
   <tr>
     <td>Mar&nbsp;2</td>
-    <td>Trusting sensors and data</td>
+    <td>
+    Trusting sensors and data
+    <hr />
+    Pre-reading questions:
+    <ul>
+      <li>How would you express the trust/threat model of physically deployed sensing systems?</li>
+      <li>How do we balance pragmatism and security; in theory, in practice?</li>
+    </ul>
+    </td>
     <td>Ke Sun</td>
     <td>
       <ul>
@@ -498,7 +531,15 @@ The project will have three milestones:
   </tr>
   <tr>
     <td>Mar&nbsp;4</td>
-    <td>Blockchain &rarr; security, right?</td>
+    <td>
+    Blockchain &rarr; secure?
+    <hr />
+    Pre-reading questions:
+    <ul>
+      <li>What properties to blockchains actually provide?</li>
+      <li>How can we enforce or prove the state of the physical world?</li>
+    </ul>
+    </td>
     <td>Eric Weise</td>
     <td>
       <ul>
