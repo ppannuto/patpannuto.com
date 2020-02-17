@@ -128,9 +128,12 @@ you think best captures the essence of the paper.
 #### Submitting Reviews
 
 We will use the [HotCRP review system](https://ucsd-cse291-k00-w20.hotcrp.com)
-&ndash; the same tool used by many conferences to review papers. Reviews are
-due before the start of class. HotCRP will automatically cut off submissions
-at 10:15.  Enrolled students should already have accounts. If you need an
+&ndash; the same tool used by many conferences to review papers.
+<del>Reviews are due before the start of class. HotCRP will automatically cut off
+submissions at 10:15.</del><sup><a href="#kqs_review-deadline">&dagger;</a></sup>
+Reviews are due the day before class. HotCRP will automatically cut off
+submissions at 6:00am on the morning of class.
+Enrolled students should already have accounts. If you need an
 account or have other issues, please
 <a href="mailto:ppannuto@ucsd.edu?subject=CSE291-K00-W20%20HotCRP%20Issue">e-mail me</a>.
 
@@ -397,7 +400,7 @@ The project will have three milestones:
       <li>(some) Participating well and it's useful; (others) Want to participate more / more consistently; <strong>TODO: I will make more effort to actively account and ensure everyone speaks every day</strong></li>
       <li>Finding presentations from original authors helpful</li>
       <li>Finding and reading beyond paper (books, online articles) as background helpful</li>
-      <li>(some) Actually / reliably reading very valuable; (others) need to read more deeply / more in advance; read other classmates reviews in advance; <strong>TODO: Propose earlier review deadline</strong></li>
+      <li><a name="kqs_review-deadline"></a>(some) Actually / reliably reading very valuable; (others) need to read more deeply / more in advance; read other classmates reviews in advance; <strong>Done: After class vote, reviews are now due the day before class.</strong></li>
     </ul>
     <li>Project</li>
     <ul>
