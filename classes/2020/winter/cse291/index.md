@@ -464,7 +464,7 @@ The project will have three milestones:
   <tr>
     <td>Feb&nbsp;24</td>
     <td>
-    ML at the Very Edge
+    <a href="2020-02-24-cse291-ML-at-the-edge.pptx">ML at the Very Edge</a>
     <hr />
     Pre-reading questions:
     <ul>
