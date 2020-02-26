@@ -504,6 +504,11 @@ The project will have three milestones:
         <li><a href="/papers/brooks2018accessors.pdf">A Component Architecture for the Internet of Things</a></li>
         <!--Mate?-->
       </ul>
+      <hr />
+      For those wanting more...
+      <ul>
+        <li><a href="https://ptolemy.berkeley.edu/books/Systems/PtolemyII_DigitalV1_02.pdf">System Design, Modeling, and Simulation</a> (Good summary of models of computation)</li>
+      </ul>
     </td>
   </tr>
 
