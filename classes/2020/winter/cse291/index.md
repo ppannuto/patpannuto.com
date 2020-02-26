@@ -433,7 +433,7 @@ The project will have three milestones:
   <tr>
     <td>Feb&nbsp;19</td>
     <td>
-    What's an application, an OS, in an embedded context?
+    <a href="2020-02-19-cse291-embedded-OS.pptx">What's an application, an OS, in an embedded context?</a>
     <hr />
     Pre-reading questions:
     <ul>
