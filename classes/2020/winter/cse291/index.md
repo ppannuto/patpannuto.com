@@ -518,7 +518,7 @@ The project will have three milestones:
   <tr>
     <td>Mar&nbsp;2</td>
     <td>
-    Trusting sensors and data
+    <a href="2020-03-02-cse291-trust.pptx">Trusting sensors and data</a>
     <hr />
     Pre-reading questions:
     <ul>
