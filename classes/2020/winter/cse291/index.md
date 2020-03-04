@@ -537,7 +537,7 @@ The project will have three milestones:
   <tr>
     <td>Mar&nbsp;4</td>
     <td>
-    Blockchain &rarr; secure?
+    <a href="2020-03-04-cse291-blockchain.pptx">Blockchain &rarr; secure?</a>
     <hr />
     Pre-reading questions:
     <ul>
