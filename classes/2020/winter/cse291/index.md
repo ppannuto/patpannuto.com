@@ -559,7 +559,7 @@ The project will have three milestones:
   </tr>
 
   <tr class="table-info">
-    <td colspan="4">Week 10: Ethical Considerations & Societal Impact</td>
+    <td colspan="4">Week 10: <del>Ethical Considerations & Societal Impact</del> Remote Project Work</td>
     <!--
      - Steven Weber's stuff
      - Revisit Weiser vision with critical eye (write a critique?)
@@ -567,17 +567,44 @@ The project will have three milestones:
     -->
   </tr>
   <tr>
+    <td></td>
+    <td colspan="3">
+    <p>
+    In the face of the growing concerns around the Coronavirus, we have been
+    asked to explore various mechanisms to minimize in-person meetings. As the
+    mid-quarter feedback expressed interest in more peer feedback on projects,
+    we're going to try aligning these efforts.
+    </p>
+    <p>
+    I do want to still post some of the readings around the implications and
+    growth of IoT. We may be able to use some of the final exam time to talk
+    about these topics, depending what the world looks like in two weeks.
+    </p>
+    <ul>
+      <li><a href="https://firstmonday.org/ojs/index.php/fm/article/view/6936/5859">Overview of IoT from a policy perspective</a></li>
+      <li><a href="https://www.intel.com/content/www/us/en/policy/policy-iot-framework.html">One example of an IoT policy</a> &ndash; What does this cover? What does it not? Who does it see as stakeholders? Who is it aimed to protect?</li>
+      <li><a href="https://dl.acm.org/doi/10.1145/3274783.3274833">E-Eye: Hidden Electronics Recognition through mmWave Nonlinear Effects</a> &ndash; If we start to define policies, how might be develop technologies that can enforce them?
+      <li>Revisiting the Ubiquitous Computing &ndash; Re-read the first papers from Mark Weiser that lay out the vision for pervasive computing through an adversarial lens. If we shift computation to an unconscious service, how can we design systems that protect users from &ldquo;their own&rdquo; unconscious?</li>
+    </ul>
+    </td>
+  </tr>
+  <tr>
     <td>Mar&nbsp;9</td>
-    <td><i>TBA</i></td>
-    <td>Pannuto</td>
+    <td><i>Due by Midnight</i></td>
+    <td></td>
     <td>
+    <p>Submit an updated draft of your project report to HotCRP.</p>
+    <p>Reviews will be assigned at this time.</p>
     </td>
   </tr>
   <tr>
     <td>Mar&nbsp;11</td>
-    <td><i>TBA</i></td>
-    <td>Pannuto</td>
+    <td><i>Due by Midnight</i></td>
+    <td></td>
     <td>
+    Each person will be assigned to review two other project proposals, similar
+    to how we have reviewed papers from class. The goal is to provide
+    constructive feedback to your peers for their final reports.
     </td>
   </tr>
 
