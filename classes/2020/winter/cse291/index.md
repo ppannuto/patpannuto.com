@@ -616,7 +616,55 @@ The project will have three milestones:
 Instead of a final exam, we will have a "mini-conference" where each project
 will give a conference-style presentation on their research project.
 
+<del>
 The class was assigned a final exam timeslot of 8-11am, Friday, March 20th.
 We'll probably stick with Friday, March 20th as a date, but if it works for
 everyone's schedules, we can try to find a not-8am time slot for this as a
 group.
+</del>
+
+#### COVID-19 Updated Final Presentation Plans
+
+Each project will create a final presentation and prepare a video recording of
+the talk. You can use any technology that makes sense to prepare and host the
+recording; several folks have suggested [OBS](https://obsproject.com/) as a
+good presentation recording solution, please share others with the class if you
+know of them.  If you are okay with sharing your work publicly, I think
+[YouTube](https://youtube.com/) will be the easiest video sharing mechanism.
+You are of course welcome to simply create a local video file and share it with
+me by any other means as well (Dropbox, GDrive, etc).
+
+For some examples of well-made research presentation videos, I encourage you to
+watch some talks from [ASPLOS 2020](https://www.youtube.com/playlist?list=PLsLWHLZB96VeVp3IVzvSH58ttVz_Anr7H).
+
+Some guidelines for your presentation:
+
+ * Length:
+    * For 1-person teams, videos should target around 8:00 minutes in length (no shorter than 6:00, no longer than 12:00).
+    * For 2-person teams, videos should target around 10:00 minutes in length (no shorter than 8:00, no longer than 15:00).
+ * The video should include a demo component that highlights the system you have built in operation. Take some time with this (around 2:00)! Show off your hard work and all the cool things it does!
+ * Try to tell a story with your presentation. Here is one rough template (you do **not** have to follow this precisely, it is simply an example of how to organize such a presentation):
+    * Begin with an introduction that lays out the problem and *why* it is important [about 1:00]
+    * Then, succinctly explain *what* you actually built/did [about 0:30]
+        * _What is the hypothesis you are exploring in this work?_
+    * [Demo opportunity here]
+    * Next, look at some of the related work in this problem space, how does your solution differ from what came before? What ideas do you build on? [about 1:00]
+    * After that, look at *how* you designed your system. What tradeoffs did you have to consider in your design, what choices did you make in how to build your system and why did your make those choices? [about 2:00]
+    * Now, answer the question *does it work*. Talk about how you evaluated your system (and *why* that is a reasonable evaluation); compare this with prior systems if appropriate [about 2:30]
+    * [Demo opportunity here]
+    * Finally, what is the impact and result of this work? Tie back to your hypothesis. What questions might someone interested in this want to explore further? [about 1:00]
+    * [Demo opportunity here]
+
+For those projects who are willing, we'll post final papers and presentation
+videos here on the course website.
+
+We'll push the deadline a bit for this as well. I do still have a deadline on
+the other end to submit grades, so I can't go much later than this:
+
+ * Submit your final project writeup and video (link) to me via e-mail by Sunday, March 22 [AoE](https://time.is/Anywhere_on_Earth).
+
+Thanks again to one and all for wonderful discussions and a very fun class&mdash;I hope you had fun as well.
+An enormous thank you for your flexibility as we work through the end of this
+quarter as best we can.
+I'm looking forward to seeing everyone's videos, and catching you all on campus
+in the future when this has all settled down a bit.
