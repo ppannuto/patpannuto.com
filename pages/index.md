@@ -76,6 +76,7 @@ health monitoring](#gridwatch).
 
 #### <a name="teaching"></a>Teaching
 
+ - [CSE141 - A00: Introduction to Computer Architecture](/classes/2020/fall/cse141/)
  - [CSE291 - K00: Platforms and Systems to Bridge the Digital and Physical World](/classes/2020/winter/cse291/)
 
 A [history of my teaching prior to joining UCSD](/teaching.html) is also available.

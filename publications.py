@@ -1,6 +1,6 @@
 import datetime
 from pybtex.database.input import bibtex
-import os, sys, cgi, re
+import os, sys, html, re
 import jinja2 as jinja
 
 from sh import cp
@@ -138,7 +138,7 @@ def latex_to_html(latex):
 				cmd = ''
 				l = next(lg)
 				if l in ('!@#$%^&*()-/\\'):
-					h += cgi.escape(l)
+					h += html.escape(l)
 					continue
 				if l == ',':
 					#h += '&thinsp;'
