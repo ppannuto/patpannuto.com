@@ -112,6 +112,8 @@ for dirpath,dirnames,filenames in os.walk('static'):
 			if ext in static_extensions:
 				# These do not need to be compiled in any way
 				# Just copy them
-				cp('-u', spath, dpath)
+				#
+				# n.b. this assumes linux-like cp (gcp import)
+				cp('-u', '--reflink=auto', spath, dpath)
 			else:
 				logger.debug('Skipping file: ' + spath)
