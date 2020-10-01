@@ -35,17 +35,6 @@ Section B00 discussion is Tuesday from 14:00 to 14:50 US/Pacific, online.<br/>
 
 ---
 
-> Note: Much of the material for this course is available here and [on Canvas](https://canvas.ucsd.edu/courses/18862/) <small>(UCSD login required)</small>.
->
-> I generally aspire to make all of my course materials freely available.
-> Canvas sadly provides no good options to publicly disseminate course materials.
-> As part of remote learning, we have been asked to make use of Canvas as much as possible institution-wide such that there is a single point of information for all courses.
-> My compromise is to try to make everything available both here and on Canvas.
-> However, it is quite possible/probable that things may slip out of sync.
-> **If you are a current student, and there is a disagreement between this page and information on Canvas, the Canvas version is the authority.**
-
----
-
 ## Overview
 
 The course covers the basics of modern processor design and operation.
