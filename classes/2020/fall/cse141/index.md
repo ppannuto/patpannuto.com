@@ -22,16 +22,10 @@ CSE 141: Introduction to Computer Architecture
 </div>
 </div>
 
-## Section A00 – Fall 2020
-Meets M/W/F from 10:00 to 10:50 US/Pacific, online.<br/>
+
+<!--
 [Pat Pannuto](https://patpannuto.com) is the instructor and their office is [CSE 3202](https://cse.ucsd.edu/about/floormaps) (right in the corner).
-
-Pat's office hours are M/W from 14:00 to 14:50 US/Pacific, online.<br/>
-Other times available by appointment.
-
-Section A00 discussion is Wednesday from 11:00 to 11:50 US/Pacific, online.<br/>
-Section B00 discussion is Tuesday from 14:00 to 14:50 US/Pacific, online.<br/>
-<small>You may attend whichever discussion is more convenient for you, however, the lectures may move at slightly different paces, so attending the "home" discussion may be better when possible.</small>
+-->
 
 ---
 
@@ -43,6 +37,34 @@ Topics include instruction set architectures, computer system performance, machi
 This course is designed to run alongside CSE 141L.
 We expect that you are enrolled in both.
 
+---
+
+[TOC]
+
+---
+
+## Syllabus
+
+This syllabus applies to Section A00, taught by [Prof. Pat Pannuto](https://patpannuto.com).
+
+> ### DISCLAIMER
+>
+> Due to our unusual circumstances, the details in this syllabus may change (e.g. schedule, grading policy, assignments, etc.). We will update this syllabus in the event of changes as the course progresses.
+
+### Instructors
+
+ - <a href="https://patpannuto.com">Pat Pannuto</a> (Section A00)
+ - <a href="https://cseweb.ucsd.edu/~tullsen/">Dean Tullsen</a> (Section B00)
+
+#### TAs
+
+ - Kazem Taram - mtaram@eng.ucsd.edu
+ - Nitish Kulshrestha - nikulshr@eng.ucsd.edu
+ - Shanti Modi - shmodi@eng.ucsd.edu
+ - Sumiran Shubhi - sshubhi@eng.ucsd.edu
+
+
+<!--
 ### Prerequisites
 
 CSE 140 and 140L are required prerequisites for this course.
@@ -62,24 +84,29 @@ for (int i=0; i<256; i++) {
 
 printf("%d\n", sum);
 ```
+-->
 
----
+### Textbook
 
-## Syllabus
+`Computer Organization and Design MIPS Edition, The Hardware/Software Interface, Fifth Edition (Patterson & Hennessy)`
+<small>(ISBN-13: 978-0124077263, ISBN-10: 0124077269)</small>
 
-_DISCLAIMER: Due to our unusual circumstances, the details in this syllabus may change (e.g. schedule, grading policy, assignments, etc.). We will update this syllabus in the event of changes as the course progresses._
+The textbook is required for this course.
 
-### Instructors
+### Schedule
 
- - <a href="https://patpannuto.com">Pat Pannuto</a> (Section A00)
- - <a href="https://cseweb.ucsd.edu/~tullsen/">Dean Tullsen</a> (Section B00)
+Lectures are M/W/F from 10:00 to 10:50 US/Pacific, online.<br/>
 
-#### TAs
+Section A00 discussion is Wednesday from 11:00 to 11:50 US/Pacific, online.<br/>
+Section B00 discussion is Tuesday from 14:00 to 14:50 US/Pacific, online.<br/>
+<small>You may attend whichever discussion is more convenient for you, however, the lectures may move at slightly different paces, so attending the "home" discussion may be better when possible.</small>
 
- - Kazem Taram - mtaram@eng.ucsd.edu
- - Nitish Kulshrestha - nikulshr@eng.ucsd.edu
- - Shanti Modi - shmodi@eng.ucsd.edu
- - Sumiran Shubhi - sshubhi@eng.ucsd.edu
+<!--
+Pat's office hours are Mon 8:00 to 8:50 and Wed 13:00 to 13:50 US/Pacific, online.<br/>
+Other times available by appointment.
+-->
+
+Up-to-date office hours are available in Canvas.
 
 
 ### Grading
@@ -128,30 +155,45 @@ The window for regrades will be no more than one week after graded homework is r
 >
 > The goal of homework is to help you to understand better by working through problems on your own.
 > To that end, we will allow for late submission of homework at any point during the term (until the final exam).
-> Late homework will receive 50% points.
+> Late homework will receive 50% of earned points.
 > Late homework is not eligible for regrades and will be graded and returned at instructor convenience.
-> Late homework should take care to add extra details showing how you worked through problems and that your work is your own.
+> Late homework should take care to add extra details showing how you, personally worked through problems and that your work is your own.
+> Late homework that is "just answers" or otherwise does not clearly show your own work will recieve no credit.
 
 #### 30%: Midterm
 
 This course will have one midterm exam.
 
-We recognize that students may be attending class from all around the world. For this reason, we will offer the midterm exam as a <strong>ninety minute exam to be completed any time in a twelve hour window</strong>.
+> ##### _Tentative_ plans
+>
+> We anticipate the midterm will be given during the week of November 9th.
+>
+> We recognize that students may be attending class from all around the world.
+> For this reason, the current thinking is to offer the midterm as a ninety minute exam to be completed any time in a twelve hour window.
+>
+> We will update with final plans, dates, and times once we are able.
 
 #### 45%: Final Exam
 
-The registrar has assigned: `CSE 141 A00 and B00: Common Final, 12/12/20, 11:30 AM - 2:29 PM` as the final exam time slot for this course.
-
-However, we recognize that students may be attending class from all around the world. For this reason, we will offer the final exam as a <strong>two hour exam to be completed any time in a twelve hour window</strong>.
-
-> We recognize that Saturday can be a challenging day for some people to block off time, however, we also need to respect that folks have exams in other courses and the purpose of a harmonized exam schedule is to not conflict with those exams.
->
-> If you absolutely cannot make Saturday work, please contact Pat directly **before Thanksgiving**.
-
 The final exam will be cumulative over all of the course content.
 
+The registrar has assigned: `CSE 141 A00 and B00: Common Final, 12/12/20, 11:30 AM - 2:29 PM` as the final exam time slot for this course.
 
-#### Academic Integrity
+> ##### _Tentative_ plans
+>
+> Again, we recognize that students may be attending class from all around the world.
+> For this reason, the current thinking is to offer a two hour exam to be completed any time in a twelve hour window.
+>
+> We will update with final plans and times once we are able.
+
+##### The final exam _will be_ on Saturday
+
+We recognize that Saturday can be a challenging day for some people to block off time, however, we also need to respect that folks have exams in other courses and the purpose of a harmonized exam schedule is to not conflict with those exams.
+
+If you absolutely cannot make Saturday work, please contact Pat directly **before November 1**.
+
+
+### Academic Integrity
 
 Cheating WILL be taken seriously.
 It is not fair to honest students to take cheating lightly, nor is it fair to the cheater to let them go on thinking that is a reasonable alternative in life.
@@ -176,14 +218,14 @@ You are facing a permanent mark on your academic record and a certainty of havin
 > ##### Regret Policy
 >
 > Sometimes, in the heat of the moment, watching the clock tick down to a deadline, we make mistakes that we come to regret the next day.
-> This is a place of learning, and we would rather people own up to mistakes and learn from them rather than mete out punishments.
+> This is a place of learning, and we would prefer that people own up to mistakes and learn from them rather than mete out punishments.
 >
 > If you have committed an Academic Integrity violation, [you have a 24-hour window to self-report the violation using this form](https://docs.google.com/forms/d/e/1FAIpQLSex1VufqLAAgVeYqD6VtQ_rWr_bt8HbycyNDtNT11KygwIaoA/viewform).
 > Timely, self-reported violations will most likely result in an automatic zero on the reported assignment, but no further consequences.
 > Non-reported violations will face much more severe consequences.
 
 
-### Schedule
+### Agenda
 
 Reminder: You will get more out of lecture if you have completed the pre-class reading.
 We try to be clear about what is okay to skim and what will be helpful to read deeply.
@@ -195,7 +237,7 @@ They are **not** required in any way and their content will **not** be tested in
   <tr class="table-primary">
     <th>Date</th>
     <th>Slides</th>
-    <th>Pre-Class Assignment</th>
+    <th>Pre-Class Assignment <small><a href="CompOrgMIPSFifth_TOC.jpg">Fifth Ed. Table of Contents</a></small></th>
     <th>Bonus Material</th>
   </tr>
 
