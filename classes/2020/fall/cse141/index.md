@@ -259,7 +259,7 @@ They are **not** required in any way and their content will **not** be tested in
   </tr>
 
   <tr class="table-info">
-    <td colspan="4">Instruction Set Architectures</td>
+    <td colspan="4">Part I: Instruction Set Architecture</td>
   </tr>
   <tr>
     <td>Oct&nbsp;5</td>
@@ -281,7 +281,7 @@ They are **not** required in any way and their content will **not** be tested in
   </tr>
 
   <tr class="table-info">
-    <td colspan="4">Quantifying Performance</td>
+    <td colspan="4">Part II: Computer System Performance and Performance Metrics</td>
   </tr>
   <tr>
     <td>Oct&nbsp;12</td>
@@ -301,33 +301,36 @@ They are **not** required in any way and their content will **not** be tested in
   </tr>
 
   <tr class="table-info">
-    <td colspan="4">The Single-Cycle Computer, Pieces and Parts</td>
+    <td colspan="4">Part III: Computer Arithmetic and Number Systems</td>
   </tr>
+  <!--
   <tr>
     <td>Oct&nbsp;19</td>
-    <td><!--Introducing Functional Units and a basic ALU--></td>
+    <td>Introducing Functional Units and a basic ALU</td>
     <td></td>
     <td></td>
   </tr>
   <tr>
     <td>Oct&nbsp;21</td>
-    <td><!--Architectural considerations in ALU design--></td>
+    <td>Architectural considerations in ALU design</td>
     <td></td>
     <td></td>
   </tr>
   <tr>
     <td>Oct&nbsp;23</td>
-    <td><!--RTL--></td>
+    <td>RTL</td>
     <td></td>
     <td></td>
   </tr>
+  -->
 
   <tr class="table-info">
-    <td colspan="4">The Single-Cycle Computer, Putting it Together</td>
+    <td colspan="4">Part IV: CPU Architecture</td>
   </tr>
+  <!--
   <tr>
     <td>Oct&nbsp;26</td>
-    <td><!--Datapaths--></td>
+    <td>Datapaths</td>
     <td></td>
   </tr>
   <tr>
@@ -340,10 +343,12 @@ They are **not** required in any way and their content will **not** be tested in
     <td></td>
     <td></td>
   </tr>
+  -->
 
   <tr class="table-info">
-    <td colspan="4">Pipelining</td>
+    <td colspan="4">Part V: Pipelining</td>
   </tr>
+  <!--
   <tr>
     <td>Nov&nbsp;2</td>
     <td></a></td>
@@ -363,10 +368,12 @@ They are **not** required in any way and their content will **not** be tested in
     <td></td>
     <td></td>
   </tr>
+  -->
 
   <tr class="table-info">
-    <td colspan="4">Hazards</td>
+    <td colspan="4">Part VI: Superscalars</td>
   </tr>
+  <!--
   <tr>
     <td>Nov&nbsp;9</td>
     <td></a></td>
@@ -382,10 +389,12 @@ They are **not** required in any way and their content will **not** be tested in
     <td></td>
     <td></td>
   </tr>
+  -->
 
   <tr class="table-info">
-    <td colspan="4">Advanced Pipelining</td>
+    <td colspan="4">Part VII: The Memory/Cache Hierarchy</td>
   </tr>
+  <!--
   <tr>
     <td>Nov&nbsp;16</td>
     <td></a></td>
@@ -401,11 +410,13 @@ They are **not** required in any way and their content will **not** be tested in
     <td></td>
     <td></td>
   </tr>
+  -->
 
   <tr class="table-info">
-    <td colspan="4">Memory</td>
+    <td colspan="4">Part VIII: Multicores, Multithreading, and Multiprocessors</td>
   </tr>
   <tr>
+  <!--
     <td>Nov&nbsp;23</td>
     <td></a></td>
     <td></td>
@@ -438,9 +449,11 @@ They are **not** required in any way and their content will **not** be tested in
     <td></td>
     <td></td>
   </tr>
+  -->
 
+  <!--
   <tr class="table-info">
-    <td colspan="4">Multiprocessing</td>
+    <td colspan="4"></td>
   </tr>
   <tr>
     <td>Dec&nbsp;7</td>
@@ -458,10 +471,10 @@ They are **not** required in any way and their content will **not** be tested in
     <td></td>
   </tr>
 
-  <!-- CSE 141 A00 and B00: Common Final, 12/12/20, 11:30 AM - 2:29 PM -->
   <tr class="table-warning">
     <td colspan="4"><strong>Final Exam: December 12</strong></td>
   </tr>
+  -->
 
 
 </table>
