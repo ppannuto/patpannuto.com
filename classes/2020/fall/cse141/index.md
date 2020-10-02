@@ -253,7 +253,10 @@ They are **not** required in any way and their content will **not** be tested in
   </tr>
   <tr>
     <td>Oct&nbsp;2</td>
-    <td><a href="2020-10-02-cse141-intro.pptx">Introduction and Motivation</a></td>
+    <td>
+    <a href="2020-10-02-cse141-intro.pptx">Introduction and Motivation</a>
+    <a href="2020-10-02-cse141-intro.pdf">[pdf]</a>
+    </td>
     <td></td>
     <td></td>
   </tr>
