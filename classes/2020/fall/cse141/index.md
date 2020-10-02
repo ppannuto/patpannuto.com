@@ -93,6 +93,13 @@ printf("%d\n", sum);
 
 The textbook is required for this course.
 
+#### Other recommended reading
+
+ - Hennesy & Patterson, "Computer Architecture: A Quantitative Approach", Morgan Kaufmann
+    - A more advanced treatment of many of the same topics in the textbook, as well as a lot more breadth.
+ - Synthesis Lectures on Computer Architecture
+    -  This contains a number of truly outstanding (and very recent and up-to-date) books on computer architecture, any of which you can download free while in the UCSD domain. In particular, see the books on Processor Microarchitecture (most useful for this class), Performance Evaluation Methods, Memory System, and Multithreading Architectures.
+
 ### Schedule
 
 Lectures are M/W/F from 10:00 to 10:50 US/Pacific, online.<br/>
