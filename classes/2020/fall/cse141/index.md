@@ -211,7 +211,7 @@ The following is:
  - Receiving, providing, or soliciting assistance from another student during a test.
 
 Homework is not intended to be a grade-maker, but to prepare you for the tests, which are the grade-makers.
-Cheating on homework is just stupid.
+Cheating on homework just hurts you.
 If you are choosing between not turning in an assignment, or using somebody's else work, do yourself a favor and just don't turn it in.
 You are facing a permanent mark on your academic record and a certainty of having to explain it to any future employer or school that you apply to.
 
