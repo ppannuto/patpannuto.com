@@ -12,6 +12,7 @@ except ImportError:
 
 import jinja2 as jinja
 import markdown
+import titlecase
 
 import logger
 import publications
@@ -38,13 +39,15 @@ for md in os.listdir('pages'):
 	if md[-3:] == '.md':
 		md_to_html('pages', '/', md)
 
-def class_md_to_html(src_path, dst_path, md_file):
+def class_md_to_html(src_path, dst_path, md_file, meta):
 	page = os.path.splitext(md_file)[0]
 	with open('html/{}.html'.format(os.path.join(dst_path, page)), 'w') as o:
 		logger.info('Processing ' + md_file)
 		content = markdown.markdown(open(os.path.join(src_path, md_file)).read(),
 				extensions=['extra', 'toc'])
-		o.write(header_class_tmpl.render(content=content, title='CSE291 K00 - Winter 2020'))
+		title = '{} - {} {}'.format(meta['course'].upper(), meta['quarter'], meta['year'])
+		title = titlecase.titlecase(title)
+		o.write(header_class_tmpl.render(content=content, title=title))
 
 
 static_extensions = [
@@ -75,7 +78,12 @@ for year in os.listdir('classes'):
 				if filename[-3:] == '.md':
 					print('        Process', filename)
 					path = os.path.join('classes', year, quarter, course)
-					class_md_to_html(path, path, filename)
+					meta = {
+							'year': year,
+							'quarter': quarter,
+							'course': course,
+							}
+					class_md_to_html(path, path, filename, meta)
 
 				# Hacks on hacks on hacks
 				ext = os.path.splitext(filename)[1]
