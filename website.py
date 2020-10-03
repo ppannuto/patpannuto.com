@@ -12,7 +12,6 @@ except ImportError:
 
 import jinja2 as jinja
 import markdown
-import titlecase
 
 import logger
 import publications
@@ -45,8 +44,7 @@ def class_md_to_html(src_path, dst_path, md_file, meta):
 		logger.info('Processing ' + md_file)
 		content = markdown.markdown(open(os.path.join(src_path, md_file)).read(),
 				extensions=['extra', 'toc'])
-		title = '{} - {} {}'.format(meta['course'].upper(), meta['quarter'], meta['year'])
-		title = titlecase.titlecase(title)
+		title = '{} - {} {}'.format(meta['course'].upper(), meta['quarter'].title(), meta['year'])
 		o.write(header_class_tmpl.render(content=content, title=title))
 
 
