@@ -45,7 +45,7 @@ We expect that you are enrolled in both.
 
 ## Syllabus
 
-This syllabus applies to Section A00, taught by [Prof. Pat Pannuto](https://patpannuto.com).
+This syllabus applies to Section A, taught by [Prof. Pat Pannuto](https://patpannuto.com).
 
 > ### DISCLAIMER
 >
@@ -53,8 +53,8 @@ This syllabus applies to Section A00, taught by [Prof. Pat Pannuto](https://patp
 
 ### Instructors
 
- - <a href="https://patpannuto.com">Pat Pannuto</a> (Section A00)
- - <a href="https://cseweb.ucsd.edu/~tullsen/">Dean Tullsen</a> (Section B00)
+ - <a href="https://patpannuto.com">Pat Pannuto</a> (Section A)
+ - <a href="https://cseweb.ucsd.edu/~tullsen/">Dean Tullsen</a> (Section B)
 
 #### TAs
 
@@ -104,8 +104,8 @@ The textbook is required for this course.
 
 Lectures are M/W/F from 10:00 to 10:50 US/Pacific, online.<br/>
 
-Section A00 discussion is Wednesday from 11:00 to 11:50 US/Pacific, online.<br/>
-Section B00 discussion is Tuesday from 14:00 to 14:50 US/Pacific, online.<br/>
+Section A discussion is Wednesday from 11:00 to 11:50 US/Pacific, online.<br/>
+Section B discussion is Tuesday from 14:00 to 14:50 US/Pacific, online.<br/>
 <small>You may attend whichever discussion is more convenient for you, however, the lectures may move at slightly different paces, so attending the "home" discussion may be better when possible.</small>
 
 <!--
