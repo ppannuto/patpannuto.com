@@ -95,7 +95,7 @@ The textbook is required for this course.
 
 #### Other recommended reading
 
- - Hennesy & Patterson, "Computer Architecture: A Quantitative Approach", Morgan Kaufmann
+ - Hennessy & Patterson, "Computer Architecture: A Quantitative Approach", Morgan Kaufmann
     - A more advanced treatment of many of the same topics in the textbook, as well as a lot more breadth.
  - Synthesis Lectures on Computer Architecture
     -  This contains a number of truly outstanding (and very recent and up-to-date) books on computer architecture, any of which you can download free while in the UCSD domain. In particular, see the books on Processor Microarchitecture (most useful for this class), Performance Evaluation Methods, Memory System, and Multithreading Architectures.
@@ -165,7 +165,7 @@ The window for regrades will be no more than one week after graded homework is r
 > Late homework will receive 50% of earned points.
 > Late homework is not eligible for regrades and will be graded and returned at instructor convenience.
 > Late homework should take care to add extra details showing how you, personally worked through problems and that your work is your own.
-> Late homework that is "just answers" or otherwise does not clearly show your own work will recieve no credit.
+> Late homework that is "just answers" or otherwise does not clearly show your own work will receive no credit.
 
 #### 30%: Midterm
 
