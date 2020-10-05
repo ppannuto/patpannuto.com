@@ -57,22 +57,26 @@ static_extensions = [
 
 print('Process classes')
 for year in os.listdir('classes'):
+	if year.startswith('.'):
+		continue
 	print('  Process', year)
 	mkdir('-p', os.path.join('html', 'classes', year))
 
 	for quarter in os.listdir(os.path.join('classes', year)):
+		if quarter.startswith('.'):
+			continue
 		print('    Process', quarter)
 		mkdir('-p', os.path.join('html', 'classes', year, quarter))
 
 		for course in os.listdir(os.path.join('classes', year, quarter)):
+			if course.startswith('.'):
+				continue
 			print('      Process', course)
 			mkdir('-p', os.path.join('html', 'classes', year, quarter, course))
 
 			for filename in os.listdir(os.path.join('classes', year, quarter, course)):
-				# Skip hidden
-				if filename[0] == '.':
+				if filename.startswith('.'):
 					continue
-
 				if filename[-3:] == '.md':
 					print('        Process', filename)
 					path = os.path.join('classes', year, quarter, course)
