@@ -243,7 +243,7 @@ They are **not** required in any way and their content will **not** be tested in
 <table class="table table-bordered table-hover">
   <tr class="table-primary">
     <th>Date</th>
-    <th>Slides</th>
+    <th>Topic</th>
     <th>Pre-Class Assignment <small><a href="CompOrgMIPSFifth_TOC.jpg">Fifth Ed. Table of Contents</a></small></th>
     <th>Bonus Material</th>
   </tr>
@@ -262,11 +262,11 @@ They are **not** required in any way and their content will **not** be tested in
   </tr>
 
   <tr class="table-info">
-    <td colspan="4">Part I: Instruction Set Architecture</td>
+    <td colspan="4"><a href="cse141-fa20-ISA.pptx">Part I: Instruction Set Architecture</a></td>
   </tr>
   <tr>
     <td>Oct&nbsp;5</td>
-    <td>What computing looks like; intro to instructions</td>
+    <td>What computing looks like; intro to ISA design</td>
     <td>Skim 1.1, Read 1.2-1.3</td>
     <td></td>
   </tr>
