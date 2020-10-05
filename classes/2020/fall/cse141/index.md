@@ -262,7 +262,11 @@ They are **not** required in any way and their content will **not** be tested in
   </tr>
 
   <tr class="table-info">
-    <td colspan="4"><a href="cse141-fa20-ISA.pptx">Part I: Instruction Set Architecture</a></td>
+    <td colspan="3"><a href="cse141-fa20-ISA.pptx">Part I: Instruction Set Architecture</a></td>
+    <td><small>
+    <p><i>Where are we?</i></p>
+    <p><a href="/images/places/PointLomaTidePools.jpg">Point Loma Tide Pools</a></p>
+    </small></td>
   </tr>
   <tr>
     <td>Oct&nbsp;5</td>
