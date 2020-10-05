@@ -249,14 +249,14 @@ They are **not** required in any way and their content will **not** be tested in
   </tr>
 
   <tr class="table-info">
-    <td colspan="4">Welcome!</td>
+    <td colspan="4">
+    <a href="2020-10-02-cse141-intro.pptx">Part 0: Welcome!</a>
+    <a href="2020-10-02-cse141-intro.pdf">[pdf]</a>
+    </td>
   </tr>
   <tr>
     <td>Oct&nbsp;2</td>
-    <td>
-    <a href="2020-10-02-cse141-intro.pptx">Introduction and Motivation</a>
-    <a href="2020-10-02-cse141-intro.pdf">[pdf]</a>
-    </td>
+    <td>Introduction and Motivation </td>
     <td></td>
     <td></td>
   </tr>
