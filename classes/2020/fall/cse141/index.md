@@ -250,8 +250,10 @@ They are **not** required in any way and their content will **not** be tested in
 
   <tr class="table-info">
     <td colspan="4">
-    <a href="2020-10-02-cse141-intro.pptx">Part 0: Welcome!</a>
-    <a href="2020-10-02-cse141-intro.pdf">[pdf]</a>
+    <p><strong>Part 0: Welcome!</strong></p>
+    <ul>
+    <li>Slides as <a href="2020-10-02-cse141-intro.pptx">pptx</a> or <a href="2020-10-02-cse141-intro.pdf">pdf</a></li>
+    </ul>
     </td>
   </tr>
   <tr>
@@ -262,7 +264,16 @@ They are **not** required in any way and their content will **not** be tested in
   </tr>
 
   <tr class="table-info">
-    <td colspan="3"><a href="cse141-fa20-ISA.pptx">Part I: Instruction Set Architecture</a></td>
+    <td colspan="3">
+    <p><strong>Part I: Instruction Set Architecture</strong></p>
+    <p>
+    <ul>
+    <p>
+      <li>Slides as <a href="cse141-fa20-ISA.pptx">pptx</a> or <a href="cse141-fa20-ISA.pdf">pdf</a></li>
+      <li><a href="https://booksite.elsevier.com/9780124077263/downloads/COD_5e_Greencard.pdf">MIPS Green Card</a></li>
+    </ul>
+    </p>
+    </td>
     <td><small>
     <p><i>Where are we?</i></p>
     <p><a href="/images/places/PointLomaTidePools.jpg">Point Loma Tide Pools</a></p>
