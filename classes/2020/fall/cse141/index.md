@@ -296,7 +296,10 @@ They are **not** required in any way and their content will **not** be tested in
   </tr>
   <tr>
     <td>Oct&nbsp;7</td>
-    <td>ISA design and memory</td>
+    <td>
+    <p>ISA design, memory, basic op's</p>
+    <p><a href="cse141-fa20-ISA_2020-10-07.pdf">[Annotated Slides]</a></p>
+    </td>
     <td>Skim 2.1-2.2, Read 2.3-2.5, Skim 2.10</td>
   </tr>
   <tr>
