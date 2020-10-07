@@ -286,19 +286,23 @@ They are **not** required in any way and their content will **not** be tested in
     <p><a href="cse141-fa20-ISA_2020-10-05.pdf">[Annotated Slides]</a></p>
     </td>
     <td>Skim 1.1, Read 1.2-1.3</td>
-    <td></td>
+    <td rowspan="3">
+    <p>
+    <ul>
+    <li>Computers aren't associative? <a href="https://stackoverflow.com/questions/6430448/why-doesnt-gcc-optimize-aaaaaa-to-aaaaaa">When <tt>x*x*x != x*(x*x)</tt></li>
+    </ul>
+    </p>
+    </td>
   </tr>
   <tr>
     <td>Oct&nbsp;7</td>
     <td>ISA design and memory</td>
     <td>Skim 2.1-2.2, Read 2.3-2.5, Skim 2.10</td>
-    <td></td>
   </tr>
   <tr>
     <td>Oct&nbsp;9</td>
     <td>Control flow; RISC vs CISC</td>
     <td>Read 2.6-2.8, Skim 2.16-2.18, Read 2.19</td>
-    <td></td>
   </tr>
 
   <tr class="table-info">
