@@ -29,7 +29,7 @@ mkdir('-p', 'html')
 def md_to_html(src_path, dst_path, md_file):
 	page = os.path.splitext(md_file)[0]
 	with open('html/{}.html'.format(os.path.join(dst_path, page)), 'w') as o:
-		logger.info('Processing ' + md_file)
+		logger.info('Rendering ' + md_file)
 		content = markdown.markdown(open(os.path.join(src_path, md_file)).read(),
 				extensions=['extra', 'toc'])
 		o.write(header_tmpl.render(active_page=page, content=content))
@@ -41,7 +41,7 @@ for md in os.listdir('pages'):
 def class_md_to_html(src_path, dst_path, md_file, meta):
 	page = os.path.splitext(md_file)[0]
 	with open('html/{}.html'.format(os.path.join(dst_path, page)), 'w') as o:
-		logger.info('Processing ' + md_file)
+		logger.info('Rendering for class ' + md_file)
 		content = markdown.markdown(open(os.path.join(src_path, md_file)).read(),
 				extensions=['extra', 'toc'])
 		title = '{} - {} {}'.format(meta['course'].upper(), meta['quarter'].title(), meta['year'])
@@ -52,6 +52,7 @@ static_extensions = [
 		'.css', '.js', '.ico', '.ttf', '.eot', '.svg', '.woff',
 		'.png', '.jpg', '.pdf', '.pptx', '.doc', '.txt', '.gz',
 		'.tgz', '.otf', '.odp', '.webmanifest', '.xml', '.zip',
+		'.webm',
 		]
 
 
@@ -77,6 +78,8 @@ for year in os.listdir('classes'):
 			for filename in os.listdir(os.path.join('classes', year, quarter, course)):
 				if filename.startswith('.'):
 					continue
+				if filename.startswith('~'):
+					continue
 				if filename[-3:] == '.md':
 					print('        Process', filename)
 					path = os.path.join('classes', year, quarter, course)
@@ -97,6 +100,20 @@ for year in os.listdir('classes'):
 							os.path.join('classes', year, quarter, course, filename),
 							os.path.join('html', 'classes', year, quarter, course)
 							)
+
+			# Hacks on hacks on hacks on hacks
+			if os.path.isdir(os.path.join('classes', year, quarter, course, 'video')):
+				for filename in os.listdir(os.path.join('classes', year, quarter, course, 'video')):
+					mkdir('-p', os.path.join('html', 'classes', year, quarter, course, 'video'))
+					ext = os.path.splitext(filename)[1]
+					if ext in static_extensions:
+						# These do not need to be compiled in any way
+						# Just copy them
+						print('          Copy', filename)
+						cp('-u',
+								os.path.join('classes', year, quarter, course, 'video', filename),
+								os.path.join('html', 'classes', year, quarter, course, 'video')
+								)
 
 logger.info('Building publications database...')
 publications.generate_publications_page(pubs_groups, jinja_env)

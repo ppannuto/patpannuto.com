@@ -292,6 +292,7 @@ They are **not** required in any way and their content will **not** be tested in
     <p>
     <ul>
     <li>Computers aren't associative? <a href="https://stackoverflow.com/questions/6430448/why-doesnt-gcc-optimize-aaaaaa-to-aaaaaa">When <tt>x*x*x != x*(x*x)</tt></a></li>
+    <li>Video: <a href="video/ISA_branching.webm">Detailed walkthrough of branching</a></li>
     </ul>
     </p>
     </td>
