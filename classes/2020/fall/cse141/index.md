@@ -291,8 +291,10 @@ They are **not** required in any way and their content will **not** be tested in
     <td rowspan="3">
     <p>
     <ul>
-    <li>Computers aren't associative? <a href="https://stackoverflow.com/questions/6430448/why-doesnt-gcc-optimize-aaaaaa-to-aaaaaa">When <tt>x*x*x != x*(x*x)</tt></a></li>
     <li>Video: <a href="video/ISA_branching.webm">Detailed walkthrough of branching</a></li>
+    <hr />
+    <li>Computers aren't associative? <a href="https://stackoverflow.com/questions/6430448/why-doesnt-gcc-optimize-aaaaaa-to-aaaaaa">When <tt>x*x*x != x*(x*x)</tt></a></li>
+    <li><a href="https://www.xorpd.net/pages/xchg_rax/snip_00.html">x86 Assembly Puzzles</a> &ndash; <small>&ldquo;A book of 0x40 short assembly snippets, each built to teach you one concept about assembly, math or life in general.&rdquo;</small></li>
     </ul>
     </p>
     </td>
