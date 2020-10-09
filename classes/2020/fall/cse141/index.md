@@ -306,7 +306,10 @@ They are **not** required in any way and their content will **not** be tested in
   </tr>
   <tr>
     <td>Oct&nbsp;9</td>
-    <td>Control flow; RISC vs CISC</td>
+    <td>
+    <p>Control flow; RISC vs CISC</p>
+    <p><a href="cse141-fa20-ISA_2020-10-09.pdf">[Annotated Slides]</a></p>
+    </td>
     <td>Read 2.6-2.8, Skim 2.16-2.18, Read 2.19</td>
   </tr>
 
