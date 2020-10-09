@@ -148,13 +148,15 @@ However, if your raw score on a quiz is low, _come to discussion sections or off
 
 #### 20%: Homework
 
-These are longer form assignments, assigned roughly every other week.
-
+These are longer form assignments, designed to test your individual understanding.
 You are welcome discuss homework problems with other students or in groups, however, you must complete your final writeup alone.
 
 Homework submission will be via the Gradescope module in Canvas.
 Regrade requests will also be handled via Gradescope.
 The window for regrades will be no more than one week after graded homework is returned.
+
+Generally, homework will be released every Thursday and due the following Thursday, at midnight.
+We expect to release a homework assignment every week, with exceptions for the midterm week, final exam week, and possibly holidays, which should result in around 7-8 homework assignments over the quarter.
 
 > ##### Homework Late Policy
 >
