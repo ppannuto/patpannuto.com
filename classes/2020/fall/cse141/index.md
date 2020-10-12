@@ -251,8 +251,9 @@ They are **not** required in any way and their content will **not** be tested in
   </tr>
 
   <tr class="table-info">
-    <td colspan="4">
-    <p><strong>Part 0: Welcome!</strong></p>
+    <td><h4 id="part-0">Part 0</h4>
+    <td colspan="3">
+    <h4>Welcome!</h4>
     <ul>
     <li>Slides as <a href="2020-10-02-cse141-intro.pptx">pptx</a> or <a href="2020-10-02-cse141-intro.pdf">pdf</a></li>
     </ul>
@@ -266,8 +267,9 @@ They are **not** required in any way and their content will **not** be tested in
   </tr>
 
   <tr class="table-info">
-    <td colspan="3">
-    <p><strong>Part I: Instruction Set Architecture</strong></p>
+    <td><h4 id="part-i">Part I</h4>
+    <td colspan="2">
+    <h4>Instruction Set Architecture</h4>
     <p>
     <ul>
     <p>
@@ -317,8 +319,9 @@ They are **not** required in any way and their content will **not** be tested in
   </tr>
 
   <tr class="table-info">
-    <td colspan="3">
-    <p><strong>Part II: Computer System Performance and Performance Metrics</strong></p>
+    <td><h4 id="part-ii">Part II</h4>
+    <td colspan="2">
+    <h4>Computer System Performance and Performance Metrics</h4>
     <p>
     <ul>
     <p>
