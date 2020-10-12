@@ -317,7 +317,19 @@ They are **not** required in any way and their content will **not** be tested in
   </tr>
 
   <tr class="table-info">
-    <td colspan="4">Part II: Computer System Performance and Performance Metrics</td>
+    <td colspan="3">
+    <p><strong>Part II: Computer System Performance and Performance Metrics</strong></p>
+    <p>
+    <ul>
+    <p>
+      <li>Slides as <a href="cse141-fa20-Performance.pptx">pptx</a> or <a href="cse141-fa20-Performance.pdf">pdf</a></li>
+    </ul>
+    </p>
+    </td>
+    <td><small>
+    <p><i>Where are we?</i></p>
+    <p><a href="/images/places/CowlesMountain.jpg">Cowles Mountain</a></p>
+    </small></td>
   </tr>
   <tr>
     <td>Oct&nbsp;12</td>
