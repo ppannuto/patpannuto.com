@@ -346,6 +346,7 @@ They are **not** required in any way and their content will **not** be tested in
     <td></td>
   </tr>
 
+  <!--
   <tr class="table-info">
     <td><h4 id="part-iii">Part III</h4>
     <td colspan="2">
@@ -358,10 +359,20 @@ They are **not** required in any way and their content will **not** be tested in
   </tr>
   <tr>
     <td>Oct&nbsp;16</td>
-    <td></td>
-    <td></td>
+    <td>Execute units (ALUs), building blocks, and introducing datapaths</td>
     <td></td>
   </tr>
+  <tr>
+    <td>Oct&nbsp;19</td>
+    <td>Finishing datapaths; introducing control path</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Oct&nbsp;21</td>
+    <td>Control path; completing the machine</td>
+    <td></td>
+  </tr>
+  -->
 
   <!--
   <tr>
