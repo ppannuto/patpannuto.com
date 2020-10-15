@@ -340,14 +340,17 @@ They are **not** required in any way and their content will **not** be tested in
   </tr>
   <tr>
     <td>Oct&nbsp;14</td>
-    <td>Defining performance, time</td>
-    <td>Skim 1.5, Read 1.6, Skim 1.7-1.8</td>
+    <td>
+    <p>Defining performance, time; Amdahl's law</p>
+    <p><a href="cse141-fa20-Performance_2020-10-14.pdf">[Annotated Slides]</a></p>
+    </td>
+    <td>Skim 1.5, Read 1.6, Skim 1.7-1.8 <hr /> Skim 1.9, Read 1.10, Skim 2.13</td>
     <td></td>
   </tr>
   <tr>
     <td>Oct&nbsp;16</td>
-    <td>Improving performance, Amdahl's law</td>
-    <td>Skim 1.9, Read 1.10, Skim 2.13</td>
+    <td></td>
+    <td></td>
     <td></td>
   </tr>
 
