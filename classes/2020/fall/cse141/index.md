@@ -173,14 +173,13 @@ We expect to release a homework assignment every week, with exceptions for the m
 
 This course will have one midterm exam.
 
-> ##### _Tentative_ plans
->
-> We anticipate the midterm will be given during the week of November 9th.
->
-> We recognize that students may be attending class from all around the world.
-> For this reason, the current thinking is to offer the midterm as a ninety minute exam to be completed any time in a twelve hour window.
->
-> We will update with final plans, dates, and times once we are able.
+We recognize that students may be attending class from all around the world.
+For this reason, we plan to offer the midterm as a ninety minute exam to be
+completed during a twelve hour window.
+
+As the midterm is joint with section B, we will offer the midterm from 8am&ndash;8pm
+on Tuesday, November 10th. We will convert the class period on Monday, November
+9th to a review session open to both sections.
 
 #### 45%: Final Exam
 
@@ -431,6 +430,34 @@ They are **not** required in any way and their content will **not** be tested in
   </tr>
   -->
 
+  <!-- bgcolor disables highlight for this row -->
+  <td bgcolor="#FFFFFF" style="text-align: center;" colspan=4>&mldr;</td>
+
+  <tr class="table-warning">
+    <td colspan="4">
+    <h4 id="midterm">Midterm Exam</h4>
+    </td>
+  </tr>
+  <tr>
+    <td>Nov&nbsp;9</td>
+    <td>Exam Review</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
+    <p>Nov&nbsp;10</p>
+    <p><i>8am&ndash;8pm</i></p>
+    </td>
+    <td>Midterm Exam</td>
+    <td colspan="2">
+    <ul>
+    <li>Joint with Section B</li>
+    <li>Administered asychronously via Canvas</li>
+    <li>90-minute &ldquo;one-shot&rdquo; timed exam (timer starts when you do)</li>
+    </ul>
+    </td>
+  </tr>
+
   <!--
   <tr class="table-info">
     <td colspan="4">Part VI: Superscalars</td>
@@ -537,6 +564,35 @@ They are **not** required in any way and their content will **not** be tested in
   </tr>
   -->
 
+
+  <!-- bgcolor disables highlight for this row -->
+  <td bgcolor="#FFFFFF" style="text-align: center;" colspan=4>&mldr;</td>
+
+  <tr class="table-warning">
+    <td colspan="4">
+    <h4 id="midterm">Final Exam</h4>
+    </td>
+  </tr>
+  <tr>
+    <td>Dec&nbsp;11</td>
+    <td>Exam Review</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
+    <p>Dec&nbsp;12</p>
+    <!--
+    <p><i>8am&ndash;8pm</i></p>
+    -->
+    </td>
+    <td>Final Exam</td>
+    <td colspan="2">
+    <ul>
+    <li>Joint with Section B</li>
+    <li>Details TBA</li>
+    </ul>
+    </td>
+  </tr>
 
 </table>
 
