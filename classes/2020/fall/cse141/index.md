@@ -280,7 +280,7 @@ They are **not** required in any way and their content will **not** be tested in
     </td>
     <td><small>
     <p><i>Where are we?</i></p>
-    <p><a href="/images/places/PointLomaTidePools.jpg">Point Loma Tide Pools</a></p>
+    <p><a href="/images/places/PointLomaTidePools.jpg">Visiting Point Loma Tide Pools</a></p>
     </small></td>
   </tr>
   <tr>
@@ -324,14 +324,13 @@ They are **not** required in any way and their content will **not** be tested in
     <h4>Computer System Performance and Performance Metrics</h4>
     <p>
     <ul>
-    <p>
       <li>Slides as <a href="cse141-fa20-Performance.pptx">pptx</a> or <a href="cse141-fa20-Performance.pdf">pdf</a></li>
     </ul>
     </p>
     </td>
     <td><small>
     <p><i>Where are we?</i></p>
-    <p><a href="/images/places/CowlesMountain.jpg">Cowles Mountain</a></p>
+    <p><a href="/images/places/CowlesMountain.jpg">Summiting Cowles Mountain</a></p>
     </small></td>
   </tr>
   <tr>
@@ -347,6 +346,17 @@ They are **not** required in any way and their content will **not** be tested in
     <td>Skim 1.5, Read 1.6, Skim 1.7-1.8 <hr /> Skim 1.9, Read 1.10, Skim 2.13</td>
     <td></td>
   </tr>
+
+  <tr class="table-info">
+    <td><h4 id="part-iii">Part III</h4>
+    <td colspan="2">
+    <h4>The Single Cycle Machine</h4>
+    </td>
+    <td><small>
+    <p><i>Where are we?</i></p>
+    <p><a href="/images/places/Napali.jpg">Hiking a spine of the Nā Pali Coast</a></p>
+    </small></td>
+  </tr>
   <tr>
     <td>Oct&nbsp;16</td>
     <td></td>
@@ -354,9 +364,6 @@ They are **not** required in any way and their content will **not** be tested in
     <td></td>
   </tr>
 
-  <tr class="table-info">
-    <td colspan="4">Part III: Computer Arithmetic and Number Systems</td>
-  </tr>
   <!--
   <tr>
     <td>Oct&nbsp;19</td>
@@ -378,10 +385,10 @@ They are **not** required in any way and their content will **not** be tested in
   </tr>
   -->
 
+  <!--
   <tr class="table-info">
     <td colspan="4">Part IV: CPU Architecture</td>
   </tr>
-  <!--
   <tr>
     <td>Oct&nbsp;26</td>
     <td>Datapaths</td>
@@ -399,10 +406,10 @@ They are **not** required in any way and their content will **not** be tested in
   </tr>
   -->
 
+  <!--
   <tr class="table-info">
     <td colspan="4">Part V: Pipelining</td>
   </tr>
-  <!--
   <tr>
     <td>Nov&nbsp;2</td>
     <td></a></td>
@@ -424,10 +431,10 @@ They are **not** required in any way and their content will **not** be tested in
   </tr>
   -->
 
+  <!--
   <tr class="table-info">
     <td colspan="4">Part VI: Superscalars</td>
   </tr>
-  <!--
   <tr>
     <td>Nov&nbsp;9</td>
     <td></a></td>
@@ -445,10 +452,10 @@ They are **not** required in any way and their content will **not** be tested in
   </tr>
   -->
 
+  <!--
   <tr class="table-info">
     <td colspan="4">Part VII: The Memory/Cache Hierarchy</td>
   </tr>
-  <!--
   <tr>
     <td>Nov&nbsp;16</td>
     <td></a></td>
@@ -466,11 +473,11 @@ They are **not** required in any way and their content will **not** be tested in
   </tr>
   -->
 
+  <!--
   <tr class="table-info">
     <td colspan="4">Part VIII: Multicores, Multithreading, and Multiprocessors</td>
   </tr>
   <tr>
-  <!--
     <td>Nov&nbsp;23</td>
     <td></a></td>
     <td></td>
