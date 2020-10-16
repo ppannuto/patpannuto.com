@@ -356,7 +356,10 @@ They are **not** required in any way and their content will **not** be tested in
   </tr>
   <tr>
     <td>Oct&nbsp;16</td>
-    <td>Execute units (ALUs), building blocks, and introducing organization</td>
+    <td>
+    <p>Execute units (ALUs), building blocks, and introducing organization</p>
+    <p><a href="cse141-fa20-SingleCycleMachine_2020-10-16.pdf">[Annotated Slides]</a></p>
+    </td>
     <td>Skim 3.1, Read 3.2, Skim 3.3-3.4</td>
     <td rowspan="3">
     <ul>
