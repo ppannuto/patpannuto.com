@@ -338,7 +338,16 @@ They are **not** required in any way and their content will **not** be tested in
     <p><a href="cse141-fa20-Performance_2020-10-14.pdf">[Annotated Slides]</a></p>
     </td>
     <td>Skim 1.5, Read 1.6, Skim 1.7-1.8 <hr /> Skim 1.9, Read 1.10, Skim 2.13</td>
-    <td></td>
+    <td>
+    <ul>
+    <li>Blog series
+    (<a href="https://tratt.net/laurie/blog/entries/why_arent_more_users_more_happy_with_our_vms_part_1.html">part&nbsp;1</a>,
+    <a href="https://tratt.net/laurie/blog/entries/why_arent_more_users_more_happy_with_our_vms_part_2.html">part&nbsp;2</a>)
+    on how hard it is to <i>fairly</i> and accurately measure performance on real-world systems.
+    <small>Note: "VM" here refers to the <i>software</i> virtual machine that Python or Java or JavaScript run on.</small>
+    </li>
+    </ul>
+    </td>
   </tr>
 
   <tr class="table-info">
