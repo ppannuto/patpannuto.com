@@ -269,13 +269,10 @@ They are **not** required in any way and their content will **not** be tested in
     <td><h4 id="part-i">Part I</h4>
     <td colspan="2">
     <h4>Instruction Set Architecture</h4>
-    <p>
     <ul>
-    <p>
       <li>Slides as <a href="cse141-fa20-ISA.pptx">pptx</a> or <a href="cse141-fa20-ISA.pdf">pdf</a></li>
       <li><a href="https://booksite.elsevier.com/9780124077263/downloads/COD_5e_Greencard.pdf">MIPS Green Card</a></li>
     </ul>
-    </p>
     </td>
     <td><small>
     <p><i>Where are we?</i></p>
@@ -321,11 +318,9 @@ They are **not** required in any way and their content will **not** be tested in
     <td><h4 id="part-ii">Part II</h4>
     <td colspan="2">
     <h4>Computer System Performance and Performance Metrics</h4>
-    <p>
     <ul>
       <li>Slides as <a href="cse141-fa20-Performance.pptx">pptx</a> or <a href="cse141-fa20-Performance.pdf">pdf</a></li>
     </ul>
-    </p>
     </td>
     <td><small>
     <p><i>Where are we?</i></p>
@@ -346,11 +341,13 @@ They are **not** required in any way and their content will **not** be tested in
     <td></td>
   </tr>
 
-  <!--
   <tr class="table-info">
     <td><h4 id="part-iii">Part III</h4>
     <td colspan="2">
     <h4>The Single Cycle Machine</h4>
+    <ul>
+      <li>Slides as <a href="cse141-fa20-SingleCycleMachine.pptx">pptx</a> or <a href="cse141-fa20-SingleCycleMachine.pdf">pdf</a></li>
+    </ul>
     </td>
     <td><small>
     <p><i>Where are we?</i></p>
@@ -359,20 +356,24 @@ They are **not** required in any way and their content will **not** be tested in
   </tr>
   <tr>
     <td>Oct&nbsp;16</td>
-    <td>Execute units (ALUs), building blocks, and introducing datapaths</td>
-    <td></td>
+    <td>Execute units (ALUs), building blocks, and introducing organization</td>
+    <td>Skim 3.1, Read 3.2, Skim 3.3-3.4</td>
+    <td rowspan="3">
+    <ul>
+    <li>Read 3.7-3.9 for real-world designs; performance.</li>
+    </ul>
+    </td>
   </tr>
   <tr>
     <td>Oct&nbsp;19</td>
-    <td>Finishing datapaths; introducing control path</td>
-    <td></td>
+    <td>Datapaths and control paths</td>
+    <td>Read 4.1-4.3, Skim 4.4</td>
   </tr>
   <tr>
     <td>Oct&nbsp;21</td>
-    <td>Control path; completing the machine</td>
-    <td></td>
+    <td>Completing the machine; multicycle machines</td>
+    <td>Read 4.4 (read this time! It is long, and hard)</td>
   </tr>
-  -->
 
   <!--
   <tr>
