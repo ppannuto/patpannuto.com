@@ -378,7 +378,10 @@ They are **not** required in any way and their content will **not** be tested in
   </tr>
   <tr>
     <td>Oct&nbsp;19</td>
-    <td>Datapaths and control paths</td>
+    <td>
+    <p>Datapaths and control paths</p>
+    <p><a href="cse141-fa20-SingleCycleMachine_2020-10-18.pdf">[Annotated Slides]</a></p>
+    </td>
     <td>Read 4.1-4.3, Skim 4.4</td>
   </tr>
   <tr>
