@@ -390,75 +390,101 @@ They are **not** required in any way and their content will **not** be tested in
     <td>Read 4.4 (read this time! It is long, and hard)</td>
   </tr>
 
-  <!--
-  <tr>
-    <td>Oct&nbsp;19</td>
-    <td>Introducing Functional Units and a basic ALU</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Oct&nbsp;21</td>
-    <td>Architectural considerations in ALU design</td>
-    <td></td>
-    <td></td>
+  <tr class="table-info">
+    <td><h4 id="part-iv">Part IV</h4>
+    <td colspan="2">
+    <h4>Pipelines</h4>
+    <ul>
+      <li>Slides as <a href="cse141-fa20-Pipelines.pptx">pptx</a> or <a href="cse141-fa20-Pipelines.pdf">pdf</a></li>
+    </ul>
+    </td>
+    <td><small>
+    <p><i>Where are we?</i></p>
+    <p><a href="/images/places/SeoulGwanaksanSadang.jpg">Looking over Seoul from the Sadang trail</a></p>
+    </small></td>
   </tr>
   <tr>
     <td>Oct&nbsp;23</td>
-    <td>RTL</td>
-    <td></td>
-    <td></td>
-  </tr>
-  -->
-
-  <!--
-  <tr class="table-info">
-    <td colspan="4">Part IV: CPU Architecture</td>
+    <td>
+    <p>Introducing pipelines</p>
+    <!--<p><a href="cse141-fa20-Pipelines_2020-10-23.pdf">[Annotated Slides]</a></p>-->
+    </td>
+    <td>Read 4.5 until hazards (p272-277); Skim rest of 4.5</td>
+    <td rowspan="5">
+    <ul>
+    </ul>
+    </td>
   </tr>
   <tr>
     <td>Oct&nbsp;26</td>
-    <td>Datapaths</td>
-    <td></td>
+    <td>
+    <p>Control in pipelines; Intro hazards</p>
+    <!--<p><a href="cse141-fa20-Pipelines_2020-10-23.pdf">[Annotated Slides]</a></p>-->
+    </td>
+    <td>Read 4.6</td>
   </tr>
   <tr>
     <td>Oct&nbsp;28</td>
-    <td></td>
-    <td></td>
+    <td>
+    <p>Data Hazards; Stalls; Forwarding</p>
+    <!--<p><a href="cse141-fa20-Pipelines_2020-10-23.pdf">[Annotated Slides]</a></p>-->
+    </td>
+    <td>Read 4.5 hazards and data hazards (p277-281); Read 4.7</td>
   </tr>
   <tr>
     <td>Oct&nbsp;30</td>
-    <td></td>
-    <td></td>
-  </tr>
-  -->
-
-  <!--
-  <tr class="table-info">
-    <td colspan="4">Part V: Pipelining</td>
+    <td>
+    <p>Finish data hazards; Control hazards</p>
+    <!--<p><a href="cse141-fa20-Pipelines_2020-10-23.pdf">[Annotated Slides]</a></p>-->
+    </td>
+    <td>Read 4.5 control hazards onwards (p281-286); Read 4.8 until prediction (p316-320)</td>
   </tr>
   <tr>
     <td>Nov&nbsp;2</td>
-    <td></a></td>
-    <td></td>
+    <td>
+    <p>Branch predictors; wrapping up</p>
+    <!--<p><a href="cse141-fa20-Pipelines_2020-10-23.pdf">[Annotated Slides]</a></p>-->
+    </td>
+    <td>Read rest of 4.8 (p321-325)</td>
   </tr>
-  <tr>
-    <td>Nov&nbsp;3</td>
-    <td colspan="2"><i>Election Day</i></td>
+
+  <tr class="table-info">
+    <td><h4 id="part-v">Part V</h4>
+    <td colspan="2">
+    <h4>Advanced Pipelines</h4>
+    <ul>
+      <!--
+      <li>Slides as <a href="cse141-fa20-AdvancedPipelines.pptx">pptx</a> or <a href="cse141-fa20-AdvancedPipelines.pdf">pdf</a></li>
+      -->
+    </ul>
+    </td>
+    <td><small>
+    <!--
+    <p><i>Where are we?</i></p>
+    <p><a href="/images/places/SeoulGwanaksanSadang.jpg">Looking over Seoul from the Sadang trail</a></p>
+    -->
+    </small></td>
   </tr>
   <tr>
     <td>Nov&nbsp;4</td>
-    <td></td>
-    <td></td>
+    <td>
+    <p>Exceptions and interrupts</p>
+    <!--<p><a href="cse141-fa20-Pipelines_2020-10-23.pdf">[Annotated Slides]</a></p>-->
+    </td>
+    <td>Read 4.9</td>
   </tr>
   <tr>
     <td>Nov&nbsp;6</td>
-    <td></td>
-    <td></td>
+    <td>
+    <p>Advanced pipelines from the real world</p>
+    <!--
+    <p>(Slack day)</p>
+    <p>(finish pipelines if we are behind, or do more advanced pipeline work)</p>
+    -->
+    <!--<p><a href="cse141-fa20-Pipelines_2020-10-23.pdf">[Annotated Slides]</a></p>-->
+    </td>
+    <td>(No Reading; skim 4.10 if interested)</td>
   </tr>
-  -->
-
-  <!-- bgcolor disables highlight for this row -->
-  <td bgcolor="#FFFFFF" style="text-align: center;" colspan=4>&mldr;</td>
 
   <tr class="table-warning">
     <td colspan="4">
