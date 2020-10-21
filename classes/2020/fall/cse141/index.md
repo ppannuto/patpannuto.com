@@ -386,7 +386,10 @@ They are **not** required in any way and their content will **not** be tested in
   </tr>
   <tr>
     <td>Oct&nbsp;21</td>
-    <td>Completing the machine; multicycle machines</td>
+    <td>
+    <p>Completing the machine; multicycle machines</p>
+    <p><a href="cse141-fa20-SingleCycleMachine_2020-10-21.pdf">[Annotated Slides]</a></p>
+    </td>
     <td>Read 4.4 (read this time! It is long, and hard)</td>
   </tr>
 
