@@ -422,7 +422,7 @@ They are **not** required in any way and their content will **not** be tested in
     <td>Oct&nbsp;26</td>
     <td>
     <p>Control in pipelines; Intro hazards</p>
-    <!--<p><a href="cse141-fa20-Pipelines_2020-10-23.pdf">[Annotated Slides]</a></p>-->
+    <p><a href="cse141-fa20-Pipelines_2020-10-26.pdf">[Annotated Slides]</a></p>
     </td>
     <td>Read 4.6</td>
   </tr>
