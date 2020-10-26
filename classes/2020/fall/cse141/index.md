@@ -410,7 +410,7 @@ They are **not** required in any way and their content will **not** be tested in
     <td>Oct&nbsp;23</td>
     <td>
     <p>Introducing pipelines</p>
-    <!--<p><a href="cse141-fa20-Pipelines_2020-10-23.pdf">[Annotated Slides]</a></p>-->
+    <p><a href="cse141-fa20-Pipelines_2020-10-23.pdf">[Annotated Slides]</a></p>
     </td>
     <td>Read 4.5 until hazards (p272-277); Skim rest of 4.5</td>
     <td rowspan="5">
