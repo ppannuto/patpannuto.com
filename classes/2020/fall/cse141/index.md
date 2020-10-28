@@ -514,6 +514,11 @@ They are **not** required in any way and their content will **not** be tested in
     </td>
   </tr>
 
+  <tr>
+    <td>Nov&nbsp;11</td>
+    <td colspan="3"><i>Veterans Day</i></td>
+  </tr>
+
   <!--
   <tr class="table-info">
     <td colspan="4">Part VI: Superscalars</td>
