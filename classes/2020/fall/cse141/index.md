@@ -272,6 +272,7 @@ They are **not** required in any way and their content will **not** be tested in
     <ul>
       <li>Slides as <a href="cse141-fa20-ISA.pptx">pptx</a> or <a href="cse141-fa20-ISA.pdf">pdf</a></li>
       <li><a href="https://booksite.elsevier.com/9780124077263/downloads/COD_5e_Greencard.pdf">MIPS Green Card</a></li>
+      <li><a href="GreenCardOld.pdf">Simpler MIPS Reference</a></li>
     </ul>
     </td>
     <td><small>
