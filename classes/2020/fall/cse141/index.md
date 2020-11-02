@@ -447,9 +447,14 @@ They are **not** required in any way and their content will **not** be tested in
     <td>Nov&nbsp;2</td>
     <td>
     <p>Branch predictors; wrapping up</p>
-    <!--<p><a href="cse141-fa20-Pipelines_2020-10-23.pdf">[Annotated Slides]</a></p>-->
+    <p><a href="cse141-fa20-Pipelines_2020-11-02.pdf">[Annotated Slides]</a></p>
     </td>
     <td>Read rest of 4.8 (p321-325)</td>
+  </tr>
+  <tr>
+    <td>Nov&nbsp;4</td>
+    <td>Pipeline catch-up day</td>
+    <td>(reading is slightly ahead of lecture)</td>
   </tr>
 
   <tr class="table-info">
@@ -470,25 +475,25 @@ They are **not** required in any way and their content will **not** be tested in
     </small></td>
   </tr>
   <tr>
-    <td>Nov&nbsp;4</td>
+    <td>Nov&nbsp;6</td>
     <td>
     <p>Exceptions and interrupts</p>
     <!--<p><a href="cse141-fa20-Pipelines_2020-10-23.pdf">[Annotated Slides]</a></p>-->
     </td>
     <td>Read 4.9</td>
   </tr>
+    <!--
   <tr>
     <td>Nov&nbsp;6</td>
     <td>
     <p>Advanced pipelines from the real world</p>
-    <!--
     <p>(Slack day)</p>
     <p>(finish pipelines if we are behind, or do more advanced pipeline work)</p>
-    -->
-    <!--<p><a href="cse141-fa20-Pipelines_2020-10-23.pdf">[Annotated Slides]</a></p>-->
+    <p><a href="cse141-fa20-Pipelines_2020-10-23.pdf">[Annotated Slides]</a></p>
     </td>
     <td>(No Reading; skim 4.10 if interested)</td>
   </tr>
+    -->
 
   <tr class="table-warning">
     <td colspan="4">
