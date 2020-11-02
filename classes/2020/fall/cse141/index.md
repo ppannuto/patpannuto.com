@@ -439,7 +439,7 @@ They are **not** required in any way and their content will **not** be tested in
     <td>Oct&nbsp;30</td>
     <td>
     <p>Finish data hazards; Control hazards</p>
-    <!--<p><a href="cse141-fa20-Pipelines_2020-10-23.pdf">[Annotated Slides]</a></p>-->
+    <p><a href="cse141-fa20-Pipelines_2020-10-30.pdf">[Annotated Slides]</a></p>
     </td>
     <td>Read 4.5 control hazards onwards (p281-286); Read 4.8 until prediction (p316-320)</td>
   </tr>
