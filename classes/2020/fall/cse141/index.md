@@ -414,7 +414,7 @@ They are **not** required in any way and their content will **not** be tested in
     <p><a href="cse141-fa20-Pipelines_2020-10-23.pdf">[Annotated Slides]</a></p>
     </td>
     <td>Read 4.5 until hazards (p272-277); Skim rest of 4.5</td>
-    <td rowspan="5">
+    <td rowspan="7">
     <ul>
     </ul>
     </td>
@@ -453,47 +453,21 @@ They are **not** required in any way and their content will **not** be tested in
   </tr>
   <tr>
     <td>Nov&nbsp;4</td>
-    <td>Pipeline catch-up day</td>
+    <td>
+    <p>Pipeline catch-up day</p>
+    <p>(Actual: Control hazards; intro branch predictors)</p>
+    <p><a href="cse141-fa20-Pipelines_2020-11-04.pdf">[Annotated Slides]</a></p>
+    </td>
     <td>(reading is slightly ahead of lecture)</td>
   </tr>
-
-  <tr class="table-info">
-    <td><h4 id="part-v">Part V</h4>
-    <td colspan="2">
-    <h4>Advanced Pipelines</h4>
-    <ul>
-      <!--
-      <li>Slides as <a href="cse141-fa20-AdvancedPipelines.pptx">pptx</a> or <a href="cse141-fa20-AdvancedPipelines.pdf">pdf</a></li>
-      -->
-    </ul>
-    </td>
-    <td><small>
-    <!--
-    <p><i>Where are we?</i></p>
-    <p><a href="/images/places/SeoulGwanaksanSadang.jpg">Looking over Seoul from the Sadang trail</a></p>
-    -->
-    </small></td>
-  </tr>
   <tr>
     <td>Nov&nbsp;6</td>
     <td>
-    <p>Exceptions and interrupts</p>
-    <!--<p><a href="cse141-fa20-Pipelines_2020-10-23.pdf">[Annotated Slides]</a></p>-->
+    <p>Pipeline catch-up day</p>
+    <p>(Actual: Branch delay slots; branch predictors)</p>
     </td>
-    <td>Read 4.9</td>
+    <td>(reading is slightly ahead of lecture)</td>
   </tr>
-    <!--
-  <tr>
-    <td>Nov&nbsp;6</td>
-    <td>
-    <p>Advanced pipelines from the real world</p>
-    <p>(Slack day)</p>
-    <p>(finish pipelines if we are behind, or do more advanced pipeline work)</p>
-    <p><a href="cse141-fa20-Pipelines_2020-10-23.pdf">[Annotated Slides]</a></p>
-    </td>
-    <td>(No Reading; skim 4.10 if interested)</td>
-  </tr>
-    -->
 
   <tr class="table-warning">
     <td colspan="4">
@@ -524,6 +498,44 @@ They are **not** required in any way and their content will **not** be tested in
     <td>Nov&nbsp;11</td>
     <td colspan="3"><i>Veterans Day</i></td>
   </tr>
+
+  <tr class="table-info">
+    <td><h4 id="part-v">Part V</h4>
+    <td colspan="2">
+    <h4>Advanced Pipelines</h4>
+    <ul>
+      <!--
+      <li>Slides as <a href="cse141-fa20-AdvancedPipelines.pptx">pptx</a> or <a href="cse141-fa20-AdvancedPipelines.pdf">pdf</a></li>
+      -->
+    </ul>
+    </td>
+    <td><small>
+    <!--
+    <p><i>Where are we?</i></p>
+    <p><a href="/images/places/SeoulGwanaksanSadang.jpg">Looking over Seoul from the Sadang trail</a></p>
+    -->
+    </small></td>
+  </tr>
+  <tr>
+    <td>Nov&nbsp;13</td>
+    <td>
+    <p>Exceptions and interrupts</p>
+    <!--<p><a href="cse141-fa20-Pipelines_2020-10-23.pdf">[Annotated Slides]</a></p>-->
+    </td>
+    <td>Read 4.9</td>
+  </tr>
+    <!--
+  <tr>
+    <td>Nov&nbsp;6</td>
+    <td>
+    <p>Advanced pipelines from the real world</p>
+    <p>(Slack day)</p>
+    <p>(finish pipelines if we are behind, or do more advanced pipeline work)</p>
+    <p><a href="cse141-fa20-Pipelines_2020-10-23.pdf">[Annotated Slides]</a></p>
+    </td>
+    <td>(No Reading; skim 4.10 if interested)</td>
+  </tr>
+    -->
 
   <!--
   <tr class="table-info">
