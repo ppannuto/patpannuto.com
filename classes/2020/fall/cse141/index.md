@@ -465,6 +465,7 @@ They are **not** required in any way and their content will **not** be tested in
     <td>
     <p>Pipeline catch-up day</p>
     <p>(Actual: Branch delay slots; branch predictors)</p>
+    <p><a href="cse141-fa20-Pipelines_2020-11-06.pdf">[Annotated Slides]</a></p>
     </td>
     <td>(reading is slightly ahead of lecture)</td>
   </tr>
