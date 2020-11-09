@@ -475,12 +475,12 @@ They are **not** required in any way and their content will **not** be tested in
     <h4 id="midterm">Midterm Exam</h4>
     </td>
   </tr>
-  <tr>
+  <tr class="table-warning">
     <td>Nov&nbsp;9</td>
     <td>Exam Review</td>
-    <td></td>
+    <td colspan="2"><a href="CSE141_FA20_MidtermReview.pdf">&ldquo;Whiteboard&rdquo; Notes</td>
   </tr>
-  <tr>
+  <tr class="table-warning">
     <td>
     <p>Nov&nbsp;10</p>
     <p><i>8am&ndash;8pm</i></p>
@@ -498,6 +498,16 @@ They are **not** required in any way and their content will **not** be tested in
   <tr>
     <td>Nov&nbsp;11</td>
     <td colspan="3"><i>Veterans Day</i></td>
+  </tr>
+
+  <tr>
+    <td>Nov&nbsp;13</td>
+    <td>
+    <p>Pipeline catch-up day</p>
+    <p>(Actual: Advanced branch predictors)</p>
+    <!--<p><a href="cse141-fa20-Pipelines_2020-11-06.pdf">[Annotated Slides]</a></p>-->
+    </td>
+    <td>(reading is slightly ahead of lecture)</td>
   </tr>
 
   <tr class="table-info">
@@ -518,7 +528,7 @@ They are **not** required in any way and their content will **not** be tested in
     </small></td>
   </tr>
   <tr>
-    <td>Nov&nbsp;13</td>
+    <td>Nov&nbsp;16</td>
     <td>
     <p>Exceptions and interrupts</p>
     <!--<p><a href="cse141-fa20-Pipelines_2020-10-23.pdf">[Annotated Slides]</a></p>-->
