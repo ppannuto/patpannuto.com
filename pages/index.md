@@ -83,6 +83,22 @@ A [history of my teaching prior to joining UCSD](/teaching.html) is also availab
 
 <hr />
 
+#### <a name="students"></a>Graduate Students
+
+ - Dhananjay Jagtap (MS, ECE)
+ - Wenshan Luo (MS)
+ - [Gabriel Marcano](https://gabriel.marcanobrady.family/) (Sloan Fellow; PhD)
+ - [Alexander Yen](https://alexlwyen.com/) (PhD)
+
+#### Undergraduate Students
+
+ - Karen Gong
+ - Colin Lemarchand
+ - Anthony Quiroga
+ - Sonika Ram
+
+<hr />
+
 #### <a name="m3"></a> Michigan Micro Mote & MBus
 <div class="row" markdown="1">
 <div class="col-md-10" markdown="1">
