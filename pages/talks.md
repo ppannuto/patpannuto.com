@@ -12,11 +12,11 @@ but if something is missing that you are interested in, please reach out and I w
 ====
 
 <div class="row talk" markdown="1">
-<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
+<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12" markdown="1">
 [![Title Slide](/talks/pannuto19cpsbench_thumb.jpg "Planes, Trains, Apples, and Oranges: Reproducible Results and Fair Comparisons in Localization Research")](/talks/pannuto19cpsbench.pdf)
 #### _Invited Talk_
 </div>
-<div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
+<div class="col-lg-9 col-md-8 col-sm-7 col-xs-12" markdown="1">
 
 ### Planes, Trains, Apples, and Oranges: Reproducible Results and Fair Comparisons in Localization Research, at [CPS-IoTBench'19][cpsbench19]
 Localization remains a continually captivating research problem as so much of
@@ -47,10 +47,10 @@ and location traces and datasets.
 ====
 
 <div class="row talk" id="pannuto18slocalization" markdown="1">
-<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
+<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12" markdown="1">
 [![Title Slide](/talks/pannuto18slocalization_thumb.jpg "Slocalization: Sub-μW Ultra Wideband Backscatter Localization")](/talks/pannuto18slocalization.pdf)
 </div>
-<div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
+<div class="col-lg-9 col-md-8 col-sm-7 col-xs-12" markdown="1">
 
 ### Slocalization: Sub-μW Ultra Wideband Backscatter Localization, at [IPSN'18][ipsn18]
 After a lot of work in localization and tracking of motes, drones, and people,
@@ -84,11 +84,11 @@ minutes to realize sub-decimeter accuracy.
 ====
 
 <div class="row talk" id="pannuto16mbus-nzero" markdown="1">
-<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
+<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12" markdown="1">
 [![Title Slide](/talks/pannuto16mbus-nzero_thumb.jpg "MBus: A power-aware interconnect for ultra-low power micro-scale system design")](/talks/pannuto16mbus-nzero.pdf)
 #### _Invited Talk_
 </div>
-<div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
+<div class="col-lg-9 col-md-8 col-sm-7 col-xs-12" markdown="1">
 
 ### MBus: A power-aware interconnect for ultra-low power micro-scale system design, at [DARPA N-ZERO Program Review][nzero]
 The [DARPA N-ZERO program][nzero] is a really interesting initiative
@@ -122,11 +122,11 @@ Mote][michigan-micro-mote].
 
 
 <div class="row talk" id="pannuto16hotwireless" markdown="1">
-<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
+<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12" markdown="1">
 [![Title Slide](/talks/pannuto16hotwireless_thumb.jpg "Ultra-Wideband and Indoor Localization")](/talks/pannuto16hotwireless.pdf)
 #### _Invited Talk_
 </div>
-<div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
+<div class="col-lg-9 col-md-8 col-sm-7 col-xs-12" markdown="1">
 
 ### Ultra-Wideband and Indoor Localization, at [HotWireless'16][hotwireless16]
 [HotWireless](hotwireless16) is one of my favorite workshops, I feel like I
@@ -160,11 +160,11 @@ utilization of the channel impulse response.
 
 
 <div class="row talk" id="pannuto16nextmote" markdown="1">
-<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
+<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12" markdown="1">
 [![Title Slide](/talks/pannuto16nextmote_thumb.jpg "The Recent Past and Distant Future of Micro-Scale Embedded Systems")](/talks/pannuto16nextmote.pdf)
 #### _Keynote_
 </div>
-<div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
+<div class="col-lg-9 col-md-8 col-sm-7 col-xs-12" markdown="1">
 
 ### The Recent Past and Distant Future of [Micro-Scale] Embedded Systems, at [NextMote: Next Generation Platforms for the Cyber-Physical Internet][nextmote16]
 NextMote was a new workshop at [EWSN'16][ewsn16]. Inspired by the work we have
@@ -191,10 +191,10 @@ don't include CPUs?).
 
 
 <div class="row talk" id="pannuto16msResearchSummit" markdown="1">
-<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
+<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12" markdown="1">
 [![Title Slide](/talks/pannuto16msResearchSummit_thumb.jpg "PolyPoint and the First Steps Towards Ubiquitous Localization")](/talks/pannuto16msResearchSummit.pdf)
 </div>
-<div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
+<div class="col-lg-9 col-md-8 col-sm-7 col-xs-12" markdown="1">
 
 ### PolyPoint and the First Steps Towards Ubiquitous Localization, at the [Student Summit on Mobility, Systems, and Networking][MSsummit16]
 This event mirrored MSR&rsquo;s traditional faculty retreats, only targeted at
@@ -217,10 +217,10 @@ asked!).
 ====
 
 <div class="row talk" id="pannuto15mbus" markdown="1">
-<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
+<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12" markdown="1">
 [![Title Slide](/talks/pannuto15mbus_thumb.jpg "MBus: An Ultra-Low Power Interconnect for Next Generation Nanopower Systems")](/talks/pannuto15mbus.pdf)
 </div>
-<div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
+<div class="col-lg-9 col-md-8 col-sm-7 col-xs-12" markdown="1">
 
 ### MBus: An Ultra-Low Power Interconnect for Next Generation Nanopower Systems, [42nd International Symposium on Computer Architecture][isca15]
 This presentation introduces [MBus][mbus], the missing interconnect technology
@@ -246,7 +246,7 @@ project, visit [mbus.io][mbus].
 </div>
 
 <div class="row talk" id="pannuto15making-m3" markdown="1">
-<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
+<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12" markdown="1">
 [![Title Slide](/talks/pannuto15making-m3_thumb.jpg "Lessons from Five Years of Making Michigan Micro Motes")](/talks/pannuto15making-m3.pdf)
 </div>
 <div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
@@ -276,11 +276,11 @@ for MBus.
 </div>
 
 <div class="row talk" id="techchange15" markdown="1">
-<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
+<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12" markdown="1">
 [![Title Slide](/talks/techchange15_thumb.jpg "Sensor Systems and the Art of Effectively Deploying Sensor Networks")](/talks/techchange15.pdf)
 #### _Guest Speaker_
 </div>
-<div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
+<div class="col-lg-9 col-md-8 col-sm-7 col-xs-12" markdown="1">
 
 ### Sensor Systems and the Art of Effectively Deploying Sensor Networks, [TechChange TC111: Technology for Monitoring and Evaluation][tc111]
 
@@ -306,10 +306,10 @@ at the [Center for Effective Global Action (CEGA)](http://cega.berkeley.edu/).
 ====
 
 <div class="row talk" id="vlcs14" markdown="1">
-<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
+<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12" markdown="1">
 [![Title Slide](/talks/vlcs14_thumb.jpg "System Architecture Directions for a Software-Defined Lighting Infrastructure")](/talks/vlcs14.pdf)
 </div>
-<div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
+<div class="col-lg-9 col-md-8 col-sm-7 col-xs-12" markdown="1">
 
 ### System Architecture Directions for a Software-Defined Lighting Infrastructure, [1st ACM Workshop on Visible Light Communication Systems][vlcs14]
 
@@ -332,11 +332,11 @@ available.
 </div>
 
 <div class="row talk" id="stanford-IoT14" markdown="1">
-<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
+<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12" markdown="1">
 [![Title Slide](/talks/stanford-IoT14_thumb.jpg "Embedded System Design and the Internet of Things")](/talks/stanford-IoT14.pdf)
 #### _Invited Talk_
 </div>
-<div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
+<div class="col-lg-9 col-md-8 col-sm-7 col-xs-12" markdown="1">
 
 ### Embedded System Design and the Internet of Things, [Stanford Internet of Things Industrial Research Program](http://iot.stanford.edu/workshop14.html)
 
@@ -355,11 +355,11 @@ systems, all with an eye towards security.
 </div>
 
 <div class="row talk" id="dil14-pannuto" markdown="1">
-<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
+<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12" markdown="1">
 [![Title Slide](/talks/dil14-pannuto_thumb.jpg "Sensing Technologies for Data Collection and Monitoring")](/talks/dil14-pannuto.pdf)
 #### _Invited Talk_
 </div>
-<div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
+<div class="col-lg-9 col-md-8 col-sm-7 col-xs-12" markdown="1">
 
 ### Sensing Technologies for Data Collection and Monitoring, [State of the Science](http://dil.berkeley.edu/stateofthescience/)
 
@@ -383,10 +383,10 @@ the area and what kinds of interesting systems are coming down the pipe.
 ====
 
 <div class="row talk" id="terraswarm13-mbus-trenches" markdown="1">
-<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
+<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12" markdown="1">
 [![Title Slide](/talks/terraswarm13-mbus-trenches_thumb.jpg "Sensing Technologies for Data Collection and Monitoring")](/talks/terraswarm13-mbus-trenches.pdf)
 </div>
-<div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
+<div class="col-lg-9 col-md-8 col-sm-7 col-xs-12" markdown="1">
 
 ### MBus: Enabling the Next Generation of Sensors and Systems, [TerraSwarm Annual Meeting](http://www.terraswarm.org/conferences/13/annual/index.htm)
 
@@ -406,11 +406,11 @@ was focused heavily on [MBus](http://mbus.io/).
 ====
 
 <div class="row talk" id="intro_git" markdown="1">
-<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
+<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12" markdown="1">
 [![Title Slide](/talks/intro_git_thumb.jpg "Introduction to Git by Scott Chacon")](https://github.com/schacon/git-presentations/tree/master/basic_git_talk)
 #### _Invited Talk_
 </div>
-<div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
+<div class="col-lg-9 col-md-8 col-sm-7 col-xs-12" markdown="1">
 
 ### Introduction to Git, [Michigan Hackers](http://michiganhackers.org/)
 
@@ -434,7 +434,7 @@ Chacon, [available here](https://github.com/schacon/git-presentations).
 ====
 
 <div class="row talk" id="pannuto11plc" markdown="1">
-<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
+<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12" markdown="1">
 [![Title Slide](/talks/pannuto11plc_thumb.jpg "Exploring Powerline Networking for the Smart Building")](/talks/pannuto11plc.pdf)
 </div>
 <div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">

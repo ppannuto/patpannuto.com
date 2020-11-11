@@ -31,7 +31,7 @@ def md_to_html(src_path, dst_path, md_file):
 	with open('html/{}.html'.format(os.path.join(dst_path, page)), 'w') as o:
 		logger.info('Rendering ' + md_file)
 		content = markdown.markdown(open(os.path.join(src_path, md_file)).read(),
-				extensions=['extra', 'toc'])
+				extensions=['extra', 'toc', 'md_in_html'])
 		o.write(header_tmpl.render(active_page=page, content=content))
 
 for md in os.listdir('pages'):
@@ -43,7 +43,7 @@ def class_md_to_html(src_path, dst_path, md_file, meta):
 	with open('html/{}.html'.format(os.path.join(dst_path, page)), 'w') as o:
 		logger.info('Rendering for class ' + md_file)
 		content = markdown.markdown(open(os.path.join(src_path, md_file)).read(),
-				extensions=['extra', 'toc'])
+				extensions=['extra', 'toc', 'md_in_html'])
 		title = '{} - {} {}'.format(meta['course'].upper(), meta['quarter'].title(), meta['year'])
 		o.write(header_class_tmpl.render(content=content, title=title))
 

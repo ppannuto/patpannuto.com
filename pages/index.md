@@ -1,5 +1,5 @@
 <div class="row" markdown="1">
-<div class="col-md-8">
+<div class="col-md-8" markdown="1">
 
 # Pat Pannuto
 <div class="lead">
@@ -29,7 +29,7 @@ University of California, San Diego<br />
 </div><!-- first row -->
 
 <div class="row" markdown="1">
-<div class="col-md-12">
+<div class="col-md-12" markdown="1">
 
 I am interested in the boundary between the digital and physical world. My
 research aims to expand the reach of computational infrastructure to sense and
@@ -58,19 +58,19 @@ health monitoring](#gridwatch).
 
 #### Selected Honors & Awards
 
- - **[Rackham Graduate School Outstanding Graduate Student Instructor](http://www.rackham.umich.edu/faculty-staff/awards/student-funding/outstanding-graduate-student-instructor-awards#recipients)** (2017)
- - **[Richard & Eleanor Towner Prize for Outstanding Graduate Student Instructors](https://crlte.engin.umich.edu/grants-awards-certificate/towner-prize/towner-prize-winners/)** (2017)
- - **[Qualcomm Innovation Fellowship](https://www.qualcomm.com/invention/research/university-relations/innovation-fellowship)** Honorable Mention (½ fellow), with [Brad Campbell](http://www.cs.virginia.edu/~bjc8c/) (2013)
- - **[National Defense Science & Engineering Graduate Fellowship](https://ndseg.asee.org/)** Fellow (2013)
- - **[National Science Foundation Graduate Research Fellowship](https://www.nsfgrfp.org/)** Fellow (2013)
- - **[University of Michigan Department of Computer Science Fellowship](http://eecs.umich.edu/)** Fellow (2012)
- - **[CSE Undergraduate Instructor Award](http://www.eecs.umich.edu/eecs/events/GSI-awards-2012.html)** (2012)
-<br /><br />
- - **[IPSN'18](https://ipsn.acm.org/2018/)** Best Paper Finalist (2018)
- - **[TerraSwarm'17](https://www.terraswarm.org/conferences/17/annual/)** David Wessel Best Demo Award (2017)
- - **[_IEEE Micro_](https://www.computer.org/web/computingnow/micro)** Top Pick (2016)
- - **[INC12](http://incnano.org/)** Outstanding Poster Award (2016)
- - **[HotWireless'15](http://web.cse.ohio-state.edu/~chebo/HotWireless/)** Potential for Test of Time 2025 Award (2015)
+ - [Rackham Graduate School Outstanding Graduate Student Instructor](http://www.rackham.umich.edu/faculty-staff/awards/student-funding/outstanding-graduate-student-instructor-awards#recipients) (2017)
+ - [Richard & Eleanor Towner Prize for Outstanding Graduate Student Instructors](https://crlte.engin.umich.edu/grants-awards-certificate/towner-prize/towner-prize-winners/) (2017)
+ - [Qualcomm Innovation Fellowship](https://www.qualcomm.com/invention/research/university-relations/innovation-fellowship) Honorable Mention (½ fellow), with [Brad Campbell](http://www.cs.virginia.edu/~bjc8c/) (2013)
+ - [National Defense Science & Engineering Graduate Fellowship](https://ndseg.asee.org/) Fellow (2013)
+ - [National Science Foundation Graduate Research Fellowship](https://www.nsfgrfp.org/) Fellow (2013)
+ - [University of Michigan Department of Computer Science Fellowship](http://eecs.umich.edu/) Fellow (2012)
+ - [CSE Undergraduate Instructor Award](http://www.eecs.umich.edu/eecs/events/GSI-awards-2012.html) (2012)
+<br><br />
+ - [IPSN'18](https://ipsn.acm.org/2018/) Best Paper Finalist (2018)
+ - [TerraSwarm'17](https://www.terraswarm.org/conferences/17/annual/) David Wessel Best Demo Award (2017)
+ - [_IEEE Micro_](https://www.computer.org/web/computingnow/micro) Top Pick (2016)
+ - [INC12](http://incnano.org/) Outstanding Poster Award (2016)
+ - [HotWireless'15](http://web.cse.ohio-state.edu/~chebo/HotWireless/) Potential for Test of Time 2025 Award (2015)
 
 <hr />
 
@@ -85,7 +85,7 @@ A [history of my teaching prior to joining UCSD](/teaching.html) is also availab
 
 #### <a name="m3"></a> Michigan Micro Mote & MBus
 <div class="row" markdown="1">
-<div class="col-md-10">
+<div class="col-md-10" markdown="1">
 The Michigan Micro Mote, or M<sup>3</sup> project, aims to bring
 general-purpose computing and sensing to millimeter-scale devices.
  As part of this effort, we identified the system interconnect as a key
@@ -101,7 +101,7 @@ You can [see the exhibit online here][chm].
 
 [Cubeworks](http://cubeworks.us/) is commercializing the M<sup>3</sup> technology.
 </div>
-<div class="col-md-2">
+<div class="col-md-2" markdown="1">
 ![M3 node on a finger](/images/research/m3-finger-square.jpg){: .img-fluid }
 
 ![M3 node on edge of US nickel coin](/images/research/m3-nickel-square.jpg){: .img-fluid }
@@ -123,7 +123,7 @@ You can [see the exhibit online here][chm].
 
 #### <a name="tock"></a> The Tock Operating System
 <div class="row" markdown="1">
-<div class="col-md-10">
+<div class="col-md-10" markdown="1">
 Low-power microcontrollers lack some of the hardware features and memory
 resources that traditionally enable multiprogrammable systems.
 Accordingly, microcontroller-based operating systems have not provided
@@ -136,10 +136,10 @@ limited hardware-protection mechanisms as well as the type-safety features
 of the Rust programming language to provide a multiprogramming environment for
 microcontrollers.
 </div>
-<div class="col-md-2">
+<div class="col-md-2" markdown="1">
 ![Tock Logo](/images/research/tock-logo-square.png){: .img-fluid .d-none .d-md-block }
 </div>
-<div class="col-md-12">
+<div class="col-md-12" markdown="1">
 Tock isolates software faults, provides memory protection, and efficiently
 manages memory for dynamic application workloads written in any language. It
 achieves this while retaining the dependability requirements of long-running
@@ -174,7 +174,7 @@ applications:
 
 ##### <a name="slocalization"></a> Slocalization
 <div class="row" markdown="1">
-<div class="col-md-9">
+<div class="col-md-9" markdown="1">
 For most of modern history, massive effort has gone into the careful
 organization, sorting, and filing of information for later retrieval. With the
 rise of the Information Age, we have transitioned from filing information to
@@ -187,7 +187,7 @@ physical world, demonstrating a sub-microwatt tag that can be localized with
 decimeter accuracy in complex, indoor environments using ultra wideband
 backscatter.
 </div>
-<div class="col-md-3">
+<div class="col-md-3" markdown="1">
 ![Channel impulse response after repeated integrations](/images/research/sloc-cir.png){: .img-fluid }
 
 ![Frontside of tag hardware](/images/research/sloc-tag-front-500px.png){: .img-fluid }
@@ -214,12 +214,12 @@ range estimates) system atop a UWB ranging primitive.
 
 ##### <a name="harmonium"></a> [Harmonium][harmonia]
 <div class="row" markdown="1">
-<div class="col-md-9">
+<div class="col-md-9" markdown="1">
 Ultra wideband tracking (order 1-10 cm) with only narrowband components of
 lightweight (3 g), low power (75 mW or 3.9 mJ/fix), low cost (< $5 USD),
 fast-moving (up to 2.4 m/s) tags.
 </div>
-<div class="col-md-3">
+<div class="col-md-3" markdown="1">
 ![Harmonium tag mounted on a micro quadrotor](/images/research/harm-quad-with-tag.jpg){: .img-fluid }
 </div>
 </div>
@@ -232,7 +232,7 @@ fast-moving (up to 2.4 m/s) tags.
 
 ##### <a name="luxapose"></a> [Luxapose][luxapose]
 <div class="row" markdown="1">
-<div class="col-md-10">
+<div class="col-md-10" markdown="1">
 An exploration in using lighting infrastructure for astral navigation indoors.
 Luxapose spawned considerable follow-on work (with which I have no affiliation)
 that is really cool and looks at how to do this without requiring intelligent
@@ -240,7 +240,7 @@ LED lighting infrastructure, in particular check out
 [LiTell](http://xyzhang.ucsd.edu/papers/CZhang_MobiCom16_LiTell.pdf) and some of
 [Xinyu's other light-based localization work](http://xyzhang.ucsd.edu/publications.html).
 </div>
-<div class="col-md-2">
+<div class="col-md-2" markdown="1">
 ![Luxapose image processing snapshot](/images/research/vlc-centers.png){: .img-fluid }
 </div>
 </div>
@@ -250,7 +250,7 @@ LED lighting infrastructure, in particular check out
 
 ##### <a name="opo"></a> [Opo][opo]
 <div class="row" markdown="1">
-<div class="col-md-8">
+<div class="col-md-8" markdown="1">
 An exploration in _relative_ location, a low-power (126 J/day) wearable badge
 that provides high fidelity (centimeter-accurate, second-level granularity)
 human interaction information.
@@ -260,7 +260,7 @@ understanding the impact of interaction time and distance on the spread of flu
 in elementary school settings. The platform has since also been adapted to
 support handwashing studies in hospital settings.
 </div>
-<div class="col-md-4">
+<div class="col-md-4" markdown="1">
 ![Various configurations of people wearing Opo tags](/images/research/opo-quad.png){: .img-fluid }
 </div>
 </div>
@@ -320,7 +320,7 @@ monitors a study, automatically triggers incentives, and handles disbursements.
 
 #### <a name="signpost"></a> The Signpost City-Scale Sensing Project
 <div class="row" markdown="1">
-<div class="col-md-9">
+<div class="col-md-9" markdown="1">
 City-scale sensing holds the promise of enabling deeper understanding of our
 urban environments. However, a city-scale deployment requires physical
 installation, power management, and communications—all challenging tasks
@@ -330,7 +330,7 @@ and experimentation for city-scale applications.
 
 [github/lab11/signpost](https://github.com/lab11/signpost)
 </div>
-<div class="col-md-3">
+<div class="col-md-3" markdown="1">
 ![A deployed signpost in the wild](/images/research/signpost-closeup-square.jpg){: .img-fluid }
 </div>
 </div>
@@ -345,7 +345,7 @@ and experimentation for city-scale applications.
 
 
 <div class="row" markdown="1">
-<div class="col-lg-12 col-xs-12">
+<div class="col-lg-12 col-xs-12" markdown="1">
 
 ## <a name="misc"></a> Miscellaneous
 
