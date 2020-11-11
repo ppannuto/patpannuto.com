@@ -86,9 +86,9 @@ A [history of my teaching prior to joining UCSD](/teaching.html) is also availab
 #### <a name="students"></a>Graduate Students
 
  - Dhananjay Jagtap (MS, ECE)
- - Wenshan Luo (MS)
- - [Gabriel Marcano](https://gabriel.marcanobrady.family/) (Sloan Fellow; PhD)
- - [Alexander Yen](https://alexlwyen.com/) (PhD)
+ - Wenshan Luo (MS, CSE)
+ - [Gabriel Marcano](https://gabriel.marcanobrady.family/) (Sloan Fellow; PhD, CSE)
+ - [Alexander Yen](https://alexlwyen.com/) (PhD, CSE)
 
 #### Undergraduate Students
 
