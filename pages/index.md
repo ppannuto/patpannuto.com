@@ -83,6 +83,15 @@ A [history of my teaching prior to joining UCSD](/teaching.html) is also availab
 
 <hr />
 
+#### <a name="service"></a>Service
+
+ - 2021: [IPSN'21](https://ipsn.acm.org/2021/) TPC Member, CPS-IoTBench'21 Workshop Co-Chair
+ - 2020: [DATA'20](https://workshopdata.github.io/DATA2020/) Workshop Co-Chair, [ENSsys'20](http://www.enssys.org/2020/) TPC Member, [CPS-IoTBench'20](https://cpsbench20.ethz.ch/) TPC Member
+ - 2019: [DATA'19](https://workshopdata.github.io/DATA2019/) Workshop Co-Chair
+ - 2018: [DATA'18](https://workshopdata.github.io/DATA2018/) TPC Member
+
+<hr />
+
 #### <a name="students"></a>Graduate Students
 
  - Dhananjay Jagtap (MS, ECE)
