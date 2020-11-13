@@ -478,7 +478,7 @@ They are **not** required in any way and their content will **not** be tested in
   <tr class="table-warning">
     <td>Nov&nbsp;9</td>
     <td>Exam Review</td>
-    <td colspan="2"><a href="CSE141_FA20_MidtermReview.pdf">&ldquo;Whiteboard&rdquo; Notes</td>
+    <td colspan="2"><a href="CSE141_FA20_MidtermReview.pdf">&ldquo;Whiteboard&rdquo; Notes</a></td>
   </tr>
   <tr class="table-warning">
     <td>
@@ -503,9 +503,17 @@ They are **not** required in any way and their content will **not** be tested in
   <tr>
     <td>Nov&nbsp;13</td>
     <td>
-    <p>Pipeline catch-up day</p>
-    <p>(Actual: Advanced branch predictors)</p>
-    <!--<p><a href="cse141-fa20-Pipelines_2020-11-06.pdf">[Annotated Slides]</a></p>-->
+    <p>Actual: Advanced branch predictors</p>
+    <p><a href="cse141-fa20-Pipelines_2020-11-13.pdf">[Annotated Slides]</a></p>
+    </td>
+    <td>(reading is slightly ahead of lecture)</td>
+  </tr>
+
+  <tr>
+    <td>Nov&nbsp;16</td>
+    <td>
+    <p>Even more advanced branch predictors</p>
+    <!--<p><a href="cse141-fa20-Pipelines_2020-11-16.pdf">[Annotated Slides]</a></p>-->
     </td>
     <td>(reading is slightly ahead of lecture)</td>
   </tr>
