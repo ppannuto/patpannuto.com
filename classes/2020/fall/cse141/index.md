@@ -200,6 +200,30 @@ We recognize that Saturday can be a challenging day for some people to block off
 
 If you absolutely cannot make Saturday work, please contact Pat directly **before November 1**.
 
+#### Final Grades
+
+<small><em>Range notation [90,93) means 90 is included and 93 is not</em></small>
+
+<div class="table-responsive">
+<table class="table grade-table">
+  <tr>
+    <th>A+<br /><small>&gt;96.7</small></th>
+    <th>A<br /><small>[93,96.7)</small></th>
+    <th>A-<br /><small>[90,93)</small></th>
+    <th>B+<br /><small>[86.7,90)</small></th>
+    <th>B<br /><small>[83.3,86.7)</small></th>
+    <th>B-<br /><small>[80,83.3)</small></th>
+    <th>C+<br /><small>[76.7,80)</small></th>
+    <th>C<br /><small>[73.3,76.7)</small></th>
+    <th>C-<br /><small>[70,73.3)</small></th>
+    <th>D+<br /><small>[66.7,70)</small></th>
+    <th>D<br /><small>[63.3,66.7)</small></th>
+    <th>D-<br /><small>[60,63.3)</small></th>
+    <th>F<br /><small>[0,60)</small></th>
+  </tr>
+</table>
+</div>
+
 
 ### Academic Integrity
 
