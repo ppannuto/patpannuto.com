@@ -542,6 +542,15 @@ They are **not** required in any way and their content will **not** be tested in
     <td>(reading is slightly ahead of lecture)</td>
   </tr>
 
+  <tr>
+    <td>Nov&nbsp;18</td>
+    <td>
+    <p>Midterm Review &amp; Branch Predictor Examples</p>
+    <!--<p><a href="cse141-fa20-BranchPredictorAnimation.pdf">[Annotated Slides]</a></p>-->
+    </td>
+    <td>(no reading)</td>
+  </tr>
+
   <tr class="table-info">
     <td><h4 id="part-v">Part V</h4>
     <td colspan="2">
@@ -560,12 +569,20 @@ They are **not** required in any way and their content will **not** be tested in
     </small></td>
   </tr>
   <tr>
-    <td>Nov&nbsp;16</td>
+    <td>Nov&nbsp;20</td>
     <td>
     <p>Exceptions and interrupts</p>
     <!--<p><a href="cse141-fa20-Pipelines_2020-10-23.pdf">[Annotated Slides]</a></p>-->
     </td>
     <td>Read 4.9</td>
+  </tr>
+  <tr>
+    <td>Nov&nbsp;23</td>
+    <td>
+    <p>Pipelines in Modern Machines</p>
+    <!--<p><a href="cse141-fa20-Pipelines_2020-10-23.pdf">[Annotated Slides]</a></p>-->
+    </td>
+    <td>(No reading)</td>
   </tr>
     <!--
   <tr>
