@@ -556,16 +556,12 @@ They are **not** required in any way and their content will **not** be tested in
     <td colspan="2">
     <h4>Advanced Pipelines</h4>
     <ul>
-      <!--
       <li>Slides as <a href="cse141-fa20-AdvancedPipelines.pptx">pptx</a> or <a href="cse141-fa20-AdvancedPipelines.pdf">pdf</a></li>
-      -->
     </ul>
     </td>
     <td><small>
-    <!--
     <p><i>Where are we?</i></p>
-    <p><a href="/images/places/SeoulGwanaksanSadang.jpg">Looking over Seoul from the Sadang trail</a></p>
-    -->
+    <p><a href="/images/places/AzrouMonkey.jpg">Hanging with monkeys, hiking outside Azrou, Morocco</a></p>
     </small></td>
   </tr>
   <tr>
