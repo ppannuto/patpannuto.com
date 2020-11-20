@@ -568,7 +568,7 @@ They are **not** required in any way and their content will **not** be tested in
     <td>Nov&nbsp;20</td>
     <td>
     <p>Exceptions and interrupts</p>
-    <!--<p><a href="cse141-fa20-Pipelines_2020-10-23.pdf">[Annotated Slides]</a></p>-->
+    <p><a href="cse141-fa20-Pipelines_2020-11-20.pdf">[Annotated Slides]</a></p>
     </td>
     <td>Read 4.9</td>
   </tr>
