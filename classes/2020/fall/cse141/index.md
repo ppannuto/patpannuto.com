@@ -584,9 +584,9 @@ They are **not** required in any way and their content will **not** be tested in
     <td>Nov&nbsp;25</td>
     <td>
     <p>Pipelines in Modern Machines</p>
-    <!--<p><a href="cse141-fa20-AdvancedPipelines_2020-11-25.pdf">[Annotated Slides]</a></p>-->
+    <p><a href="cse141-fa20-AdvancedPipelines_2020-11-25.pdf">[Annotated Slides]</a></p>
     </td>
-    <td></td>
+    <td>(No reading)</td>
   </tr>
     <!--
   <tr>
