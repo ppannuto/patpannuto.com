@@ -588,128 +588,68 @@ They are **not** required in any way and their content will **not** be tested in
     </td>
     <td>(No reading)</td>
   </tr>
-    <!--
-  <tr>
-    <td>Nov&nbsp;6</td>
-    <td>
-    <p>Advanced pipelines from the real world</p>
-    <p>(Slack day)</p>
-    <p>(finish pipelines if we are behind, or do more advanced pipeline work)</p>
-    <p><a href="cse141-fa20-Pipelines_2020-10-23.pdf">[Annotated Slides]</a></p>
+
+  <tr class="table-info">
+    <td><h4 id="part-vi">Part VI</h4>
+    <td colspan="2">
+    <h4>Caches and Memory</h4>
+    <ul>
+      <li>Slides as <a href="cse141-fa20-MemoryAndCaches.pptx">pptx</a> or <a href="cse141-fa20-MemoryAndCaches.pdf">pdf</a></li>
+    </ul>
     </td>
-    <td>(No Reading; skim 4.10 if interested)</td>
-  </tr>
-    -->
-
-  <!--
-  <tr class="table-info">
-    <td colspan="4">Part VI: Superscalars</td>
+    <td><small>
+    <p><i>Where are we?</i></p>
+    <p><a href="/images/places/UGhanaLegon.jpg">The University of Ghana at Legon</a></p>
+    </small></td>
   </tr>
   <tr>
-    <td>Nov&nbsp;9</td>
-    <td></a></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Nov&nbsp;11</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Nov&nbsp;13</td>
-    <td></td>
-    <td></td>
-  </tr>
-  -->
-
-  <!--
-  <tr class="table-info">
-    <td colspan="4">Part VII: The Memory/Cache Hierarchy</td>
-  </tr>
-  <tr>
-    <td>Nov&nbsp;16</td>
-    <td></a></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Nov&nbsp;18</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Nov&nbsp;20</td>
-    <td></td>
-    <td></td>
-  </tr>
-  -->
-
-  <!--
-  <tr class="table-info">
-    <td colspan="4">Part VIII: Multicores, Multithreading, and Multiprocessors</td>
-  </tr>
-  <tr>
-    <td>Nov&nbsp;23</td>
-    <td></a></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Nov&nbsp;25</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Nov&nbsp;27-28</td>
-    <td colspan="2"><i>Holiday Break</i></td>
-  </tr>
-
-  <tr class="table-info">
-    <td colspan="4">Virtual Memory</td>
+    <td>Nov&nbsp;27</td>
+    <td colspan="3"><i>Thanksgiving Break</i></td>
   </tr>
   <tr>
     <td>Nov&nbsp;30</td>
-    <td></a></td>
-    <td></td>
+    <td>
+    <p>Introducting Caches</p>
+    <!--<p><a href="cse141-fa20-MemoryAndCaches-11-30.pdf">[Annotated Slides]</a></p>-->
+    </td>
+    <td>Read 5.1; Skim 5.2</td>
   </tr>
   <tr>
     <td>Dec&nbsp;2</td>
-    <td></td>
-    <td></td>
+    <td>
+    <p>Cache designs &amp; tradeoffs</p>
+    <!--<p><a href="cse141-fa20-MemoryAndCaches-11-30.pdf">[Annotated Slides]</a></p>-->
+    </td>
+    <td>Read 5.3</td>
   </tr>
   <tr>
     <td>Dec&nbsp;4</td>
-    <td></td>
-    <td></td>
-  </tr>
-  -->
-
-  <!--
-  <tr class="table-info">
-    <td colspan="4"></td>
+    <td>
+    <p>Cache performance</p>
+    <!--<p><a href="cse141-fa20-MemoryAndCaches-11-30.pdf">[Annotated Slides]</a></p>-->
+    </td>
+    <td>Read 5.4 (focus more on the first ~half)</td>
   </tr>
   <tr>
     <td>Dec&nbsp;7</td>
-    <td></a></td>
-    <td></td>
+    <td>
+    <p>Advanced Caches</p>
+    <!--<p><a href="cse141-fa20-MemoryAndCaches-11-30.pdf">[Annotated Slides]</a></p>-->
+    </td>
+    <td>Read 5.8 (reviews content through here); Skim 5.13 if you are interested</td>
   </tr>
   <tr>
     <td>Dec&nbsp;9</td>
-    <td></td>
-    <td></td>
+    <td>
+    <p>Virtual Memory</p>
+    <!--<p><a href="cse141-fa20-MemoryAndCaches-11-30.pdf">[Annotated Slides]</a></p>-->
+    </td>
+    <td>Read 5.7 (focus more on the first ~half)</td>
   </tr>
-  <tr>
-    <td>Dec&nbsp;11</td>
-    <td>Final Exam Review</td>
-    <td></td>
-  </tr>
-
-  <tr class="table-warning">
-    <td colspan="4"><strong>Final Exam: December 12</strong></td>
-  </tr>
-  -->
 
 
   <!-- bgcolor disables highlight for this row -->
-  <td bgcolor="#FFFFFF" style="text-align: center;" colspan=4>&mldr;</td>
+  <!--<td bgcolor="#FFFFFF" style="text-align: center;" colspan=4>&mldr;</td>-->
 
   <tr class="table-warning">
     <td colspan="4">
