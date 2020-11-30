@@ -609,8 +609,8 @@ They are **not** required in any way and their content will **not** be tested in
   <tr>
     <td>Nov&nbsp;30</td>
     <td>
-    <p>Introducting Caches</p>
-    <!--<p><a href="cse141-fa20-MemoryAndCaches-11-30.pdf">[Annotated Slides]</a></p>-->
+    <p>Introducing Caches</p>
+    <p><a href="cse141-fa20-MemoryAndCaches_2020-11-30.pdf">[Annotated Slides]</a></p>
     </td>
     <td>Read 5.1; Skim 5.2</td>
   </tr>
@@ -618,7 +618,7 @@ They are **not** required in any way and their content will **not** be tested in
     <td>Dec&nbsp;2</td>
     <td>
     <p>Cache designs &amp; tradeoffs</p>
-    <!--<p><a href="cse141-fa20-MemoryAndCaches-11-30.pdf">[Annotated Slides]</a></p>-->
+    <!--<p><a href="cse141-fa20-MemoryAndCaches_2020-11-30.pdf">[Annotated Slides]</a></p>-->
     </td>
     <td>Read 5.3</td>
   </tr>
@@ -626,7 +626,7 @@ They are **not** required in any way and their content will **not** be tested in
     <td>Dec&nbsp;4</td>
     <td>
     <p>Cache performance</p>
-    <!--<p><a href="cse141-fa20-MemoryAndCaches-11-30.pdf">[Annotated Slides]</a></p>-->
+    <!--<p><a href="cse141-fa20-MemoryAndCaches_2020-11-30.pdf">[Annotated Slides]</a></p>-->
     </td>
     <td>Read 5.4 (focus more on the first ~half)</td>
   </tr>
@@ -634,7 +634,7 @@ They are **not** required in any way and their content will **not** be tested in
     <td>Dec&nbsp;7</td>
     <td>
     <p>Advanced Caches</p>
-    <!--<p><a href="cse141-fa20-MemoryAndCaches-11-30.pdf">[Annotated Slides]</a></p>-->
+    <!--<p><a href="cse141-fa20-MemoryAndCaches_2020-11-30.pdf">[Annotated Slides]</a></p>-->
     </td>
     <td>Read 5.8 (reviews content through here); Skim 5.13 if you are interested</td>
   </tr>
@@ -642,7 +642,7 @@ They are **not** required in any way and their content will **not** be tested in
     <td>Dec&nbsp;9</td>
     <td>
     <p>Virtual Memory</p>
-    <!--<p><a href="cse141-fa20-MemoryAndCaches-11-30.pdf">[Annotated Slides]</a></p>-->
+    <!--<p><a href="cse141-fa20-MemoryAndCaches_2020-11-30.pdf">[Annotated Slides]</a></p>-->
     </td>
     <td>Read 5.7 (focus more on the first ~half)</td>
   </tr>
