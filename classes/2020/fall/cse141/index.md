@@ -187,18 +187,17 @@ The final exam will be cumulative over all of the course content.
 
 The registrar has assigned: `CSE 141 A00 and B00: Common Final, 12/12/20, 11:30 AM - 2:29 PM` as the final exam time slot for this course.
 
-> ##### _Tentative_ plans
+Again, we recognize that students may be attending class from all around the world.
+For this reason, we will offer the final as a three hour exam to be completed any time in a twelve hour window.
+
+We will offer the final from 8am&ndash;8pm on Saturday, December 12th.
+We will convert the class period on Friday, December 11th to a review session open to both sections.
+
+> ##### The final exam _will be_ on Saturday
 >
-> Again, we recognize that students may be attending class from all around the world.
-> For this reason, the current thinking is to offer a two hour exam to be completed any time in a twelve hour window.
+> We recognize that Saturday can be a challenging day for some people to block off time, however, we also need to respect that folks have exams in other courses and the purpose of a harmonized exam schedule is to not conflict with those exams.
 >
-> We will update with final plans and times once we are able.
-
-##### The final exam _will be_ on Saturday
-
-We recognize that Saturday can be a challenging day for some people to block off time, however, we also need to respect that folks have exams in other courses and the purpose of a harmonized exam schedule is to not conflict with those exams.
-
-If you absolutely cannot make Saturday work, please contact Pat directly **before November 1**.
+> If you absolutely cannot make Saturday work, please contact Pat directly **before November&nbsp;1**.
 
 #### Final Grades
 
@@ -656,23 +655,23 @@ They are **not** required in any way and their content will **not** be tested in
     <h4 id="midterm">Final Exam</h4>
     </td>
   </tr>
-  <tr>
+  <tr class="table-warning">
     <td>Dec&nbsp;11</td>
     <td>Exam Review</td>
     <td></td>
+    <td></td>
   </tr>
-  <tr>
+  <tr class="table-warning">
     <td>
     <p>Dec&nbsp;12</p>
-    <!--
     <p><i>8am&ndash;8pm</i></p>
-    -->
     </td>
     <td>Final Exam</td>
     <td colspan="2">
     <ul>
     <li>Joint with Section B</li>
-    <li>Details TBA</li>
+    <li>Administered asychronously via Canvas</li>
+    <li>180-minute &ldquo;one-shot&rdquo; timed exam (timer starts when you do)</li>
     </ul>
     </td>
   </tr>
