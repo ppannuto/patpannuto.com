@@ -618,7 +618,7 @@ They are **not** required in any way and their content will **not** be tested in
     <td>Dec&nbsp;2</td>
     <td>
     <p>Cache designs &amp; tradeoffs</p>
-    <!--<p><a href="cse141-fa20-MemoryAndCaches_2020-11-30.pdf">[Annotated Slides]</a></p>-->
+    <p><a href="cse141-fa20-MemoryAndCaches_2020-12-02.pdf">[Annotated Slides]</a></p>
     </td>
     <td>Read 5.3</td>
   </tr>
