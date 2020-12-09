@@ -633,7 +633,7 @@ They are **not** required in any way and their content will **not** be tested in
     <td>Dec&nbsp;7</td>
     <td>
     <p>Advanced Caches</p>
-    <!--<p><a href="cse141-fa20-MemoryAndCaches_2020-11-30.pdf">[Annotated Slides]</a></p>-->
+    <p><a href="cse141-fa20-MemoryAndCaches_2020-12-07.pdf">[Annotated Slides]</a></p>
     </td>
     <td>Read 5.8 (reviews content through here); Skim 5.13 if you are interested</td>
   </tr>
