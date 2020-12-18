@@ -215,9 +215,7 @@ We will convert the class period on Friday, December 11th to a review session op
     <th>C+<br /><small>[76.7,80)</small></th>
     <th>C<br /><small>[73.3,76.7)</small></th>
     <th>C-<br /><small>[70,73.3)</small></th>
-    <th>D+<br /><small>[66.7,70)</small></th>
-    <th>D<br /><small>[63.3,66.7)</small></th>
-    <th>D-<br /><small>[60,63.3)</small></th>
+    <th>D<br /><small>[60,70)</small></th>
     <th>F<br /><small>[0,60)</small></th>
   </tr>
 </table>
