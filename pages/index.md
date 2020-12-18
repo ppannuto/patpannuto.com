@@ -388,6 +388,8 @@ I am happy to share some of that advice and my application materials [here](/fel
 
 [Here are my application materials from the faculty market](/appkit). Hopefully they are helpful.
 
+[My dissertation (and sources to build it) is available here](/dissertation) – best of luck to all those working on theirs.
+
 One of my favorite parts of academia is the opportunity it has afforded me to travel the world.
 <a href="https://www.amcharts.com/visited_countries/#AT,BE,DK,FR,DE,IN,IT,NL,PT,ES,VA,CA,US,GH,MA,CN,KR">Here's all the countries I've made it to thus far</a>
 (also <a href="https://www.amcharts.com/visited_states/#US-AZ,US-CA,US-CT,US-DC,US-DE,US-FL,US-GA,US-HI,US-IL,US-IN,US-KS,US-KY,US-LA,US-MA,US-MD,US-ME,US-MI,US-MO,US-NJ,US-NV,US-NY,US-OH,US-OK,US-OR,US-PA,US-RI,US-TN,US-TX,US-UT,US-VA,US-WA,US-WI">US states I've spent any appreciable time in</a>).
