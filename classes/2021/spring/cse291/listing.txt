@@ -1,0 +1,25 @@
+Title:
+Special Topics in Embedded Systems & The Internet of Things
+
+Short Title (under 30 chars):
+Embedded Systems & The IoT
+
+Description:
+Researchers, policy makers, citizen scientists, and curious individuals have an innumerable array of questions about the world around them. How does physical proximity affect disease transmission? What changes would have the greatest impact on the carbon footprint of an urban environment? What is the historical air quality like for asthmatics in the neighborhoods where I am shopping for houses? This course is about the design and implementation of platforms and systems capable of capturing the data to answer such questions.
+
+Formally, this is the study of embedded systems and wireless sensor networks. These are computing systems that are deployed widely in the physical world, which creates unique constraints in their physical size, deployment, management, communication, energy availability, and operation. We will begin with a history of impactful deployments, then study each of the pieces in turn, both traditional sensor architectures and more exotic designs such as batteryless systems, backscatter communication, and how to do machine learning with less than 1 MB of memory.
+
+The course will also include a quarter-long project that will result in a draft of a conference-style paper. This course is timed to align with the traditional deadline for workshop papers at MobiCom (mid-June). For interested groups, there will be support available for turning the class project into a submission for potential publication.
+
+Required Knowledge:
+Enthusiasm to learn.
+
+Recommended Preparation for Those Without Required Knowledge:
+
+Link to Past Course: N/A
+
+Enforced Prerequisite: No
+
+Enrollment Limit: 30
+
+Instructor Managing Enrollment: No

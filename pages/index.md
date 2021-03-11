@@ -76,6 +76,7 @@ health monitoring](#gridwatch).
 
 #### <a name="teaching"></a>Teaching
 
+ - [CSE291 - A00: Special Topics in Embedded Systems & The Internet of Things](/classes/2021/spring/cse291/)
  - [CSE141 - A00: Introduction to Computer Architecture](/classes/2020/fall/cse141/)
  - [CSE291 - K00: Platforms and Systems to Bridge the Digital and Physical World](/classes/2020/winter/cse291/)
 
