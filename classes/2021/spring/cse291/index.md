@@ -55,8 +55,8 @@ which creates unique constraints in their physical size, deployment,
 management, communication, energy availability, and operation. We will begin
 with a history of impactful deployments, then study each of the pieces in
 turn, both traditional sensor architectures and more exotic designs such as
-batteryless systems, backscatter communication, and how to do machine learning
-with less than 1 MB of memory.
+energy harvesting systems, synchronous wirelss communication, and how to do
+machine learning with less than 1 MB of memory.
 
 ### Target Audience
 
