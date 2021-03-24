@@ -264,7 +264,7 @@ The project will have three milestones:
     <td>
       Read and review:
       <ul>
-        <li>TBD: One of the GreenOrbs papers</li>
+        <li><a href="https://dl.acm.org/doi/pdf/10.1145/3356250.3360023">WISDOM: Watering Intelligently at Scale with Distributed Optimization and Modeling</a></li>
         <li><a href="/papers/balaji2016brick.pdf">Brick: Towards a Unified Metadata Schema For Buildings</a></li>
       </ul>
       <hr />
@@ -272,6 +272,7 @@ The project will have three milestones:
       <ul>
         <li><a href="/papers/catlett2017aot.pdf">Array of Things: A Scientific Research Instrument in the Public Way</a></li>
         <li><a href="https://wp.nyu.edu/sonyc/">Sounds of New York City (SONYC)</a></li>
+        <li><a href="http://www.greenorbs.org/all/greenorbs.htm">GreenOrbs (1000+ node forest deployment)</a></li>
         <li><a href="/pubs/klugman19scale.pdf">Hardware, Apps, and Surveys at Scale: Insights from Measuring Grid Reliability in Accra, Ghana</a></li>
         <li><a href="/pubs/adkins18signpost.pdf">The Signpost Platform for City-Scale Sensing</a></li>
       </ul>
