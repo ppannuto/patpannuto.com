@@ -646,7 +646,7 @@ The project will have three milestones:
       <ul>
         <li><a href="https://lightcommands.com/20191104-Light-Commands.pdf">Light Commands: Laser-Based Audio Injection Attacks on Voice-Controllable Systems</a></li>
         <li><a href="/papers/hunt2017sevenproperties.pdf">The Seven Properties of Highly Secure Devices (Azure Sphere)</a></li>
-        <li>...</li>
+        <li><a href="https://acmccs.github.io/papers/p103-zhangAemb.pdf">DolphinAttack: Inaudible Voice Commands"</a></li>
       </ul>
       <!--
       Read and review:
@@ -677,7 +677,7 @@ The project will have three milestones:
         <li><a href="https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-antonakakis.pdf">Understanding the Mirai Botnet</a></li>
         <li><a href="/papers/anderson2019wave.pdf">WAVE: A Decentralized Authorization Framework with Transitive Delegation</a></li>
         <li><a href="/papers/helium2018.pdf">Helium: A Decentralized Wireless Network</a></li>
-        <li>...</li>
+        <li><a href="https://eprint.iacr.org/2016/1047.pdf">IoT Goes Nuclear: Creating a Zigbee Chain Reaction</a></li>
       </ul>
       <!--
       Read and review:
