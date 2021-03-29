@@ -448,7 +448,8 @@ The project will have three milestones:
       <ul>
         <li><a href="/papers/saifullah2016snow.pdf">SNOW: Sensor Network over White Spaces</a></li>
         <li><a href="https://lab11.eecs.umich.edu/content/pubs/ghena19lpwans.pdf">Challenge: Unlicensed LPWANs Are Not Yet the Path to Ubiquitous Connectivity</a></li>
-        <li><a href="http://cseweb.ucsd.edu/~schulman/docs/mobisys19-sparsdr.pdf">SparSDR: Sparsity-proportional Backhaul and Compute for SDRs</a></li>
+        <li><a href="http://cseweb.ucsd.edu/~nibhaska/papers/spectrumusage.pdf">Long-term Measurements of Spectrum Occupancy Characteristics</a></li>
+		<li><a href="http://cseweb.ucsd.edu/~schulman/docs/mobisys19-sparsdr.pdf">SparSDR: Sparsity-proportional Backhaul and Compute for SDRs</a></li>
       </ul>
       <!--
       Read and review:
