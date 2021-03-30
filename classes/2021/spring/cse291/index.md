@@ -568,6 +568,7 @@ The project will have three milestones:
       <ul>
         <li><a href="/papers/yao2017deepiot.pdf">DeepIoT: Compressing Deep Neural Network Structures for Sensing Systems with a Compressor-Critic Framework</a></li>
         <li><a href="/papers/radu2017wearableML.pdf">Multimodal Deep Learning for Activity and Context Recognition</a></li>
+        <li><a href="https://dl.acm.org/doi/10.1145/3372224.3419215">CLIO: Enabling automatic compilation of deep learning pipelines across IoT and Cloud</a></li>
       </ul>
       <!--
       Read and review:
