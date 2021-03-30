@@ -366,14 +366,6 @@ The project will have three milestones:
   </tr>
   <tr>
     <td>Apr&nbsp;20</td>
-    <td>Project Workshop Day</td>
-    <td>Pannuto</td>
-    <td>
-      Bring printed copies of revised project proposal drafts to class.
-    </td>
-  </tr>
-  <tr>
-    <td>Apr&nbsp;22</td>
     <td>
     <a href="#">Great Ideas in Traditional Communication</a>
     <hr />
@@ -401,6 +393,14 @@ The project will have three milestones:
       <ul>
       </ul>
       -->
+    </td>
+  </tr>
+  <tr>
+    <td>Apr&nbsp;22</td>
+    <td>Project Workshop Day</td>
+    <td>Pannuto</td>
+    <td>
+      Bring printed copies of revised project proposal drafts to class.
     </td>
   </tr>
 
