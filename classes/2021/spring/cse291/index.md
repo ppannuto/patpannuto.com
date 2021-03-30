@@ -448,7 +448,8 @@ The project will have three milestones:
       <ul>
         <li><a href="/papers/saifullah2016snow.pdf">SNOW: Sensor Network over White Spaces</a></li>
         <li><a href="https://lab11.eecs.umich.edu/content/pubs/ghena19lpwans.pdf">Challenge: Unlicensed LPWANs Are Not Yet the Path to Ubiquitous Connectivity</a></li>
-        <li><a href="http://cseweb.ucsd.edu/~schulman/docs/mobisys19-sparsdr.pdf">SparSDR: Sparsity-proportional Backhaul and Compute for SDRs</a></li>
+        <li><a href="http://cseweb.ucsd.edu/~nibhaska/papers/spectrumusage.pdf">Long-term Measurements of Spectrum Occupancy Characteristics</a></li>
+		<li><a href="http://cseweb.ucsd.edu/~schulman/docs/mobisys19-sparsdr.pdf">SparSDR: Sparsity-proportional Backhaul and Compute for SDRs</a></li>
       </ul>
       <!--
       Read and review:
@@ -646,7 +647,7 @@ The project will have three milestones:
       <ul>
         <li><a href="https://lightcommands.com/20191104-Light-Commands.pdf">Light Commands: Laser-Based Audio Injection Attacks on Voice-Controllable Systems</a></li>
         <li><a href="/papers/hunt2017sevenproperties.pdf">The Seven Properties of Highly Secure Devices (Azure Sphere)</a></li>
-        <li>...</li>
+        <li><a href="https://acmccs.github.io/papers/p103-zhangAemb.pdf">DolphinAttack: Inaudible Voice Commands"</a></li>
       </ul>
       <!--
       Read and review:
@@ -677,7 +678,7 @@ The project will have three milestones:
         <li><a href="https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-antonakakis.pdf">Understanding the Mirai Botnet</a></li>
         <li><a href="/papers/anderson2019wave.pdf">WAVE: A Decentralized Authorization Framework with Transitive Delegation</a></li>
         <li><a href="/papers/helium2018.pdf">Helium: A Decentralized Wireless Network</a></li>
-        <li>...</li>
+        <li><a href="https://eprint.iacr.org/2016/1047.pdf">IoT Goes Nuclear: Creating a Zigbee Chain Reaction</a></li>
       </ul>
       <!--
       Read and review:
