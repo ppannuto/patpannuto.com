@@ -199,7 +199,7 @@ The project will have three milestones:
   </tr>
   <tr>
     <td>Mar&nbsp;30</td>
-    <td><a href="2021-03-06-cse291-intro.pptx">Introduction</a></td>
+    <td><a href="2021-03-30-cse291-intro.pptx">Introduction</a></td>
     <td>Pannuto</td>
     <td></td>
   </tr>
