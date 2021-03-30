@@ -24,6 +24,8 @@ Topics in Embedded Systems & The Internet of Things
 ## CSE291 A00 - Spring 2021
 
 Meets Tu/Thr from 15:30 to 16:50 in WARR WEST (tent on the Warren mall!).<br/>
+&rarr; <a href="https://ucsd.zoom.us/j/98887760697">Zoom link for remote participants</a> (Note: Requires UCSD login).<br/>
+
 [Pat Pannuto](https://patpannuto.com) is the instructor, and their office is CSE 3202 (right in the corner).<br/>
 [Nishant Bhaskar](http://cseweb.ucsd.edu/~nibhaska/) is the TA for the course.
 
