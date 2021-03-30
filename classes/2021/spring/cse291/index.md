@@ -451,6 +451,7 @@ The project will have three milestones:
         <li><a href="/papers/saifullah2016snow.pdf">SNOW: Sensor Network over White Spaces</a></li>
         <li><a href="https://lab11.eecs.umich.edu/content/pubs/ghena19lpwans.pdf">Challenge: Unlicensed LPWANs Are Not Yet the Path to Ubiquitous Connectivity</a></li>
         <li><a href="http://cseweb.ucsd.edu/~nibhaska/papers/spectrumusage.pdf">Long-term Measurements of Spectrum Occupancy Characteristics</a></li>
+		<li><a href="http://conferences.sigcomm.org/imc/2010/papers/p151.pdf">On the Feasibility of Effective Opportunistic Spectrum Access</a></li>
 		<li><a href="http://cseweb.ucsd.edu/~schulman/docs/mobisys19-sparsdr.pdf">SparSDR: Sparsity-proportional Backhaul and Compute for SDRs</a></li>
       </ul>
       <!--
@@ -649,7 +650,7 @@ The project will have three milestones:
       <ul>
         <li><a href="https://lightcommands.com/20191104-Light-Commands.pdf">Light Commands: Laser-Based Audio Injection Attacks on Voice-Controllable Systems</a></li>
         <li><a href="/papers/hunt2017sevenproperties.pdf">The Seven Properties of Highly Secure Devices (Azure Sphere)</a></li>
-        <li><a href="https://acmccs.github.io/papers/p103-zhangAemb.pdf">DolphinAttack: Inaudible Voice Commands"</a></li>
+        <li><a href="https://acmccs.github.io/papers/p103-zhangAemb.pdf">DolphinAttack: Inaudible Voice Commands</a></li>
       </ul>
       <!--
       Read and review:
