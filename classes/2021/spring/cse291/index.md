@@ -584,6 +584,7 @@ The project will have three milestones:
   </tr>
   <tr>
     <td>May&nbsp;13</td>
+    <td colspan="3">Writing workshop. Details TBA.</td>
   </tr>
 
   <!--
