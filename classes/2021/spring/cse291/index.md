@@ -27,10 +27,12 @@ Meets Tu/Thr from 15:30 to 16:50 in WARR WEST (tent on the Warren mall!).<br/>
 &rarr; <a href="https://ucsd.zoom.us/j/98887760697">Zoom link for remote participants</a> (Note: Requires UCSD login).<br/>
 
 [Pat Pannuto](https://patpannuto.com) is the instructor, and their office is CSE 3202 (right in the corner).<br/>
+&rarr; Office hours: Fridays, 12-1:30, [via Zoom](https://ucsd.zoom.us/j/94436245244)
+
 [Nishant Bhaskar](http://cseweb.ucsd.edu/~nibhaska/) is the TA for the course.
 
-Office hours are TBA.<br/>
-Times always available by appointment, generally afternoons are preferred.
+
+Additional office hours available by appointment, generally afternoons are preferred.
 
 Quick Links:
 [Paper Reviews](#paper-reviews) |
@@ -762,3 +764,18 @@ Some guidelines for your presentation:
     * [Demo opportunity here]
 
 For those projects who are willing, we'll post final papers and presentations here on the course website.
+
+
+---
+
+
+<div class="row flex-nowrap">
+<div class="col-lg-2">
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />
+</div>
+<div class="col-lg-10">
+<p>
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. Copyright <a href="https://patpannuto.com/">Pat Pannuto</a>, 2021.
+</p>
+</div>
+</div>
