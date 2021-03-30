@@ -231,7 +231,7 @@ The project will have three milestones:
     Pre-reading questions:
     <ul>
       <li>What kinds of things are &ldquo;obvious today,&rdquo; but were new then?</li>
-      <li>Why do we (as researchers) bother doing deployments? (They're expensive, hard, require many-person hours...)</li>
+      <li>Why do we (as researchers) bother doing deployments? (They're expensive, hard, require many person-hours...)</li>
     </ul>
     </td>
     <td>Pannuto</td>
@@ -259,7 +259,7 @@ The project will have three milestones:
     Pre-reading questions:
     <ul>
       <li>Where do you place the line between what work &ldquo;belongs to&rdquo; research and industry?</li>
-      <li>Why do we (as researchers) bother doing big deployments? (They're even more expensive, hard, require many-person hours...)</li>
+      <li>Why do we (as researchers) bother doing big deployments? (They're even more expensive, hard, require many person-hours...)</li>
     </ul>
     </td>
     <td>Pannuto</td>
