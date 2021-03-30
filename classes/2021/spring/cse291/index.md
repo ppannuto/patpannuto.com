@@ -300,6 +300,7 @@ The project will have three milestones:
     <ul>
       <li>What's duty cycling? Why didn't we always do this?</li>
       <li>Why is there a gap between the power performance hardware is capable of and what it actually achieves?</li>
+      <li>How do we balance the lifetime of one device versus a system of devices? (Does it always matter if one node dies early?)</li>
     </ul>
     </td>
     <td><i>Your Name Here!</i></td>
@@ -308,8 +309,8 @@ The project will have three milestones:
     <ul>
       <li><a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.162.943&rep=rep1&type=pdf">Versatile Low Power Media Accessfor Wireless Sensor Networks (B-MAC)</a></li>
       <li><a href="/papers/cao2008virtualbattery.pdf">Virtual Battery: An Energy Reserve Abstraction for Embedded Sensor Networks</a></li>
-      <li>...</li>
-      <li>...</li>
+      <li><a href="https://dl.acm.org/doi/pdf/10.1145/1061318.1061322?casa_token=SmIx--SmjuMAAAAA:Poosuf4t_6Zyl2LjYsPqI_48iazYLgnG1SybsucceUDq2V49v_7gmxbLtefJTAVSHfVjd7oofk9H">TinyDB: An Acquisitional Query ProcessingSystem for Sensor Networks</a></li>
+      <!-- TODO: The original of "energy neutral" paper which is still escaping me <li>...</li> -->
     </ul>
     <!--
     Read and review:
@@ -341,7 +342,6 @@ The project will have three milestones:
       <li><a href="/papers/hester2015ufop.pdf">Tragedy of the Coulombs: Federating Energy Storage for Tiny, Intermittently-Powered Sensors</a></li>
       <li><a href="/papers/colin2018capybara.pdf">A Reconfigurable Energy Storage Architecture for Energy-harvesting Devices</a></li>
       <li><a href="/papers/jackson19capacity.pdf">Capacity over Capacitance for Reliable Energy Harvesting Sensors</a></li>
-      <li>Geoff's intermittent definition paper?</li>
     </ul>
     <!--
     Read and review:
