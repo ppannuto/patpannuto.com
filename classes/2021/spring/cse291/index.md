@@ -24,6 +24,8 @@ Topics in Embedded Systems & The Internet of Things
 ## CSE291 A00 - Spring 2021
 
 Meets Tu/Thr from 15:30 to 16:50 in WARR WEST (tent on the Warren mall!).<br/>
+&rarr; <a href="https://ucsd.zoom.us/j/98887760697">Zoom link for remote participants</a> (Note: Requires UCSD login).<br/>
+
 [Pat Pannuto](https://patpannuto.com) is the instructor, and their office is CSE 3202 (right in the corner).<br/>
 [Nishant Bhaskar](http://cseweb.ucsd.edu/~nibhaska/) is the TA for the course.
 
@@ -300,6 +302,7 @@ The project will have three milestones:
     <ul>
       <li>What's duty cycling? Why didn't we always do this?</li>
       <li>Why is there a gap between the power performance hardware is capable of and what it actually achieves?</li>
+      <li>How do we balance the lifetime of one device versus a system of devices? (Does it always matter if one node dies early?)</li>
     </ul>
     </td>
     <td><i>Your Name Here!</i></td>
@@ -308,8 +311,8 @@ The project will have three milestones:
     <ul>
       <li><a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.162.943&rep=rep1&type=pdf">Versatile Low Power Media Accessfor Wireless Sensor Networks (B-MAC)</a></li>
       <li><a href="/papers/cao2008virtualbattery.pdf">Virtual Battery: An Energy Reserve Abstraction for Embedded Sensor Networks</a></li>
-      <li>...</li>
-      <li>...</li>
+      <li><a href="https://dl.acm.org/doi/pdf/10.1145/1061318.1061322?casa_token=SmIx--SmjuMAAAAA:Poosuf4t_6Zyl2LjYsPqI_48iazYLgnG1SybsucceUDq2V49v_7gmxbLtefJTAVSHfVjd7oofk9H">TinyDB: An Acquisitional Query ProcessingSystem for Sensor Networks</a></li>
+      <!-- TODO: The original of "energy neutral" paper which is still escaping me <li>...</li> -->
     </ul>
     <!--
     Read and review:
@@ -341,7 +344,6 @@ The project will have three milestones:
       <li><a href="/papers/hester2015ufop.pdf">Tragedy of the Coulombs: Federating Energy Storage for Tiny, Intermittently-Powered Sensors</a></li>
       <li><a href="/papers/colin2018capybara.pdf">A Reconfigurable Energy Storage Architecture for Energy-harvesting Devices</a></li>
       <li><a href="/papers/jackson19capacity.pdf">Capacity over Capacitance for Reliable Energy Harvesting Sensors</a></li>
-      <li>Geoff's intermittent definition paper?</li>
     </ul>
     <!--
     Read and review:
@@ -366,14 +368,6 @@ The project will have three milestones:
   </tr>
   <tr>
     <td>Apr&nbsp;20</td>
-    <td>Project Workshop Day</td>
-    <td>Pannuto</td>
-    <td>
-      Bring printed copies of revised project proposal drafts to class.
-    </td>
-  </tr>
-  <tr>
-    <td>Apr&nbsp;22</td>
     <td>
     <a href="#">Great Ideas in Traditional Communication</a>
     <hr />
@@ -401,6 +395,14 @@ The project will have three milestones:
       <ul>
       </ul>
       -->
+    </td>
+  </tr>
+  <tr>
+    <td>Apr&nbsp;22</td>
+    <td>Project Workshop Day</td>
+    <td>Pannuto</td>
+    <td>
+      Bring printed copies of revised project proposal drafts to class.
     </td>
   </tr>
 
