@@ -563,7 +563,7 @@ The project will have three milestones:
       <li>How to manage whole ML systems (training, execution, updates)?</li>
     </ul>
     </td>
-    <td><i>Your Name Here!</i></td>
+    <td><i>Colin Barry</i></td>
     <td>
       <i>Presenter: Choose two for folks to read</i>
       <ul>
