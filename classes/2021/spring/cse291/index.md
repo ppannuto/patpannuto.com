@@ -205,7 +205,7 @@ The project will have three milestones:
   </tr>
   <tr>
     <td>Apr&nbsp;1</td>
-    <td><a href="#">Ubiquitous Computing</a></td>
+    <td><a href="2021-04-01-mweiser.pptx">Ubiquitous Computing</a></td>
     <td>Pannuto</td>
     <td>
       No paper reviews this week, just read and think about these:
