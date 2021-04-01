@@ -446,7 +446,7 @@ The project will have three milestones:
   <tr>
     <td>Apr&nbsp;29</td>
     <td>Spectrum</td>
-    <td><i>Your Name Here!</i></td>
+    <td><i>Raghav Subbaraman</i></td>
     <td>
       <i>Presenter: Choose two for folks to read</i>
       <ul>
