@@ -518,7 +518,7 @@ The project will have three milestones:
       <li>Why have prior embedded systems been single-task, what is changing?</li>
     </ul>
     </td>
-    <td><i>Your Name Here!</i></td>
+    <td><i>Olivia Weng</i></td>
     <td>
       <i>Presenter: Choose two for folks to read</i>
       <ul>
