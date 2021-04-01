@@ -486,7 +486,7 @@ The project will have three milestones:
         <li>...</li>
       </ul>
     </td>
-    <td><i>Your Name Here!</i></td>
+    <td><i>Shanti Modi</i></td>
     <td>
       <i>Presenter: Choose two for folks to read</i>
       <ul>
