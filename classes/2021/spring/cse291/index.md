@@ -570,6 +570,8 @@ The project will have three milestones:
         <li><a href="/papers/yao2017deepiot.pdf">DeepIoT: Compressing Deep Neural Network Structures for Sensing Systems with a Compressor-Critic Framework</a></li>
         <li><a href="/papers/radu2017wearableML.pdf">Multimodal Deep Learning for Activity and Context Recognition</a></li>
         <li><a href="https://dl.acm.org/doi/10.1145/3372224.3419215">CLIO: Enabling automatic compilation of deep learning pipelines across IoT and Cloud</a></li>
+        <li><a href="https://dl.acm.org/doi/10.1145/3332165.3347881">GesturePod: Enabling On-device Gesture-based Interaction for White Cane Users</a></li><!-- Recommendation from Josiah Hester -->
+        <li><a href="https://arxiv.org/pdf/2007.10319.pdf">MCUNet: Tiny Deep Learning on IoT Devices</a></li><!--Recommendation from Neal Jackson -->
       </ul>
       <!--
       Read and review:
