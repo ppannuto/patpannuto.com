@@ -339,7 +339,7 @@ The project will have three milestones:
       <li>What's the definition of intermittent computing?</li>
     </ul>
     </td>
-    <td><i>Your Name Here!</i></td>
+    <td><i>Jen Switzer</i></td>
     <td>
     <i>Presenter: Choose two for folks to read</i>
     <ul>
