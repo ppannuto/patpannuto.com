@@ -41,6 +41,8 @@ Quick Links:
 [Schedule](#schedule) |
 [Final Exam / Presentations](#final-exam--presentations)
 
+&rarr; [Click here for the UCSD Embedded Lunch Seminar](https://sites.google.com/eng.ucsd.edu/embeddedlunch/) (Thr 12:30-1:30) &ndash; All are welcome!
+
 ---
 
 ## Overview
@@ -151,6 +153,8 @@ hypothesis (note: a project with a negative result may still be a highly
 successful project!). The goal of the project is to learn how to propose a
 research idea, to then collect preliminary data to probe the viability of that
 idea, and finally to practice communicating this process in writing.
+
+[Here is a document with some project ideas to help seed your thinking](https://docs.google.com/document/d/15h5vPUihu9CUCWGk2JJQc-RQrHcaaIg2vlySRe1Hui8/edit).
 
 The project will have three milestones:
 
