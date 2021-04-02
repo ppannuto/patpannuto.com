@@ -423,7 +423,7 @@ The project will have three milestones:
         <li>What is different (or not!) about WSN nodes versus phones, laptops, etc? What impact does that have on their communication mechanisms?</li>
       </ul>
     </td>
-    <td><i>Your Name Here!</i></td>
+    <td><i>Alex Yen</i></td>
     <td>
       <i>Presenter: Choose two for folks to read</i>
       <ul>
