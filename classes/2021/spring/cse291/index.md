@@ -307,9 +307,12 @@ The project will have three milestones:
       <li>How do we balance the lifetime of one device versus a system of devices? (Does it always matter if one node dies early?)</li>
     </ul>
     </td>
-    <td><i>Your Name Here!</i></td>
     <td>
-    <i>Presenter: Choose two for folks to read</i>
+    Presenter 1: ... <br />
+    Presenter 2: ...
+    </td>
+    <td>
+    <i>Presenters: Choose two for folks to read</i>
     <ul>
       <li><a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.162.943&rep=rep1&type=pdf">Versatile Low Power Media Accessfor Wireless Sensor Networks (B-MAC)</a></li>
       <li><a href="/papers/cao2008virtualbattery.pdf">Virtual Battery: An Energy Reserve Abstraction for Embedded Sensor Networks</a></li>
@@ -339,9 +342,12 @@ The project will have three milestones:
       <li>What's the definition of intermittent computing?</li>
     </ul>
     </td>
-    <td><i>Jen Switzer</i></td>
     <td>
-    <i>Presenter: Choose two for folks to read</i>
+    Presenter 1: Jen Switzer <br />
+    Presenter 2: ...
+    </td>
+    <td>
+    <i>Presenters: Choose two for folks to read</i>
     <ul>
       <li><a href="/papers/hester2015ufop.pdf">Tragedy of the Coulombs: Federating Energy Storage for Tiny, Intermittently-Powered Sensors</a></li>
       <li><a href="/papers/colin2018capybara.pdf">A Reconfigurable Energy Storage Architecture for Energy-harvesting Devices</a></li>
@@ -379,9 +385,12 @@ The project will have three milestones:
       <li>What is different (or not!) about WSN nodes versus phones, laptops, etc? What impact does that have on their communication mechanisms?</li>
     </ul>
     </td>
-    <td><i>Your Name Here!</i></td>
     <td>
-      <i>Presenter: Choose two for folks to read</i>
+    Presenter 1: ... <br />
+    Presenter 2: ...
+    </td>
+    <td>
+      <i>Presenters: Choose two for folks to read</i>
       <ul>
         <li><a href="/papers/hui2008ipdead.pdf">IP is Dead, Long Live IP for Wireless Sensor Networks</a></li>
         <li><a href="http://coronet2010.stanford.edu/pubs/sing-08-00.pdf">BoX-MAC (Tech report 2008, sender-initiated MAC)</a></li>
@@ -423,9 +432,12 @@ The project will have three milestones:
         <li>What is different (or not!) about WSN nodes versus phones, laptops, etc? What impact does that have on their communication mechanisms?</li>
       </ul>
     </td>
-    <td><i>Alex Yen</i></td>
     <td>
-      <i>Presenter: Choose two for folks to read</i>
+    Presenter 1: Alex Yen <br />
+    Presenter 2: ...
+    </td>
+    <td>
+      <i>Presenters: Choose two for folks to read</i>
       <ul>
         <li><a href="http://dl.acm.org/citation.cfm?id=1869985">A-MAC (SenSys 2010, receiver-initiated MAC)</a> (more in <a href="http://dl.acm.org/citation.cfm?id=2240119">TOSN 2012 extended version</a>)</li>
         <li><a href="/papers/ferrari2011glossy.pdf">Efficient Network Flooding and Time Synchronization with Glossy</a></li>
@@ -446,9 +458,12 @@ The project will have three milestones:
   <tr>
     <td>Apr&nbsp;29</td>
     <td>Spectrum</td>
-    <td><i>Raghav Subbaraman</i></td>
     <td>
-      <i>Presenter: Choose two for folks to read</i>
+    Presenter 1: Raghav Subbaraman <br />
+    Presenter 2: ...
+    </td>
+    <td>
+      <i>Presenters: Choose two for folks to read</i>
       <ul>
         <li><a href="/papers/saifullah2016snow.pdf">SNOW: Sensor Network over White Spaces</a></li>
         <li><a href="https://lab11.eecs.umich.edu/content/pubs/ghena19lpwans.pdf">Challenge: Unlicensed LPWANs Are Not Yet the Path to Ubiquitous Connectivity</a></li>
@@ -486,9 +501,12 @@ The project will have three milestones:
         <li>...</li>
       </ul>
     </td>
-    <td><i>Shanti Modi</i></td>
     <td>
-      <i>Presenter: Choose two for folks to read</i>
+    Presenter 1: Shanti Modi <br />
+    Presenter 2: ...
+    </td>
+    <td>
+      <i>Presenters: Choose two for folks to read</i>
       <ul>
         <li><a href="/papers/dutta2008epic.pdf">A Building Block Approach to Sensornet Systems</a><!--Building block approach for prototype, pilot, and product--></li>
         <li><a href="/papers/kim2018postsoc.pdf">System Architecture Directions for Post-SoC/32-bit Networked Sensors</a></li>
@@ -518,9 +536,12 @@ The project will have three milestones:
       <li>Why have prior embedded systems been single-task, what is changing?</li>
     </ul>
     </td>
-    <td><i>Olivia Weng</i></td>
     <td>
-      <i>Presenter: Choose two for folks to read</i>
+    Presenter 1: Olivia Weng <br />
+    Presenter 2: ...
+    </td>
+    <td>
+      <i>Presenters: Choose two for folks to read</i>
       <ul>
         <li><a href="/pubs/levy17multiprogramming.pdf">Multiprogramming a 64kB Computer Safely and Efficiently</a></li>
         <li><a href="/papers/hardin2018appiso.pdf">Application Memory Isolation on Ultra-Low-Power MCUs</a></li>
@@ -563,9 +584,12 @@ The project will have three milestones:
       <li>How to manage whole ML systems (training, execution, updates)?</li>
     </ul>
     </td>
-    <td><i>Colin Barry</i></td>
     <td>
-      <i>Presenter: Choose two for folks to read</i>
+    Presenter 1: Colin Barry <br />
+    Presenter 2: ...
+    </td>
+    <td>
+      <i>Presenters: Choose two for folks to read</i>
       <ul>
         <li><a href="/papers/yao2017deepiot.pdf">DeepIoT: Compressing Deep Neural Network Structures for Sensing Systems with a Compressor-Critic Framework</a></li>
         <li><a href="/papers/radu2017wearableML.pdf">Multimodal Deep Learning for Activity and Context Recognition</a></li>
@@ -650,9 +674,12 @@ The project will have three milestones:
       <li>How can we enforce or prove the state of the physical world?</li>
     </ul>
     </td>
-    <td><i>Your Name Here!</i></td>
     <td>
-      <i>Presenter: Choose two for folks to read</i>
+    Presenter 1: ... <br />
+    Presenter 2: ...
+    </td>
+    <td>
+      <i>Presenters: Choose two for folks to read</i>
       <ul>
         <li><a href="https://lightcommands.com/20191104-Light-Commands.pdf">Light Commands: Laser-Based Audio Injection Attacks on Voice-Controllable Systems</a></li>
         <li><a href="/papers/hunt2017sevenproperties.pdf">The Seven Properties of Highly Secure Devices (Azure Sphere)</a></li>
@@ -680,9 +707,12 @@ The project will have three milestones:
       <li>What risks are similar, different between IoT devices and more traditional computers?</li>
     </ul>
     </td>
-    <td>Ronald Yu</td>
     <td>
-      <i>Presenter: Choose two for folks to read</i>
+    Presenter 1: Ronald Yu <br />
+    Presenter 2: ...
+    </td>
+    <td>
+      <i>Presenters: Choose two for folks to read</i>
       <ul>
         <li><a href="https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-antonakakis.pdf">Understanding the Mirai Botnet</a></li>
         <li><a href="/papers/anderson2019wave.pdf">WAVE: A Decentralized Authorization Framework with Transitive Delegation</a></li>
