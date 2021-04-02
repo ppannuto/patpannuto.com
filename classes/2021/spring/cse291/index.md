@@ -680,7 +680,7 @@ The project will have three milestones:
       <li>What risks are similar, different between IoT devices and more traditional computers?</li>
     </ul>
     </td>
-    <td><i>Your Name Here!</i></td>
+    <td>Ronald Yu</td>
     <td>
       <i>Presenter: Choose two for folks to read</i>
       <ul>
