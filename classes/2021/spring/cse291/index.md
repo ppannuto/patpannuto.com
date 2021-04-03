@@ -390,7 +390,7 @@ The project will have three milestones:
     </ul>
     </td>
     <td>
-    Presenter 1: ... <br />
+    Presenter 1: Bili Dong <br />
     Presenter 2: ...
     </td>
     <td>
