@@ -542,7 +542,7 @@ The project will have three milestones:
     </td>
     <td>
     Presenter 1: Olivia Weng <br />
-    Presenter 2: ...
+    Presenter 2: John Hwang
     </td>
     <td>
       <i>Presenters: Choose two for folks to read</i>
