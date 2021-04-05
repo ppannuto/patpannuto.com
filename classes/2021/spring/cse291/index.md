@@ -348,7 +348,7 @@ The project will have three milestones:
     </td>
     <td>
     Presenter 1: Jen Switzer <br />
-    Presenter 2: ...
+    Presenter 2: Dhananjay Jagtap 
     </td>
     <td>
     <i>Presenters: Choose two for folks to read</i>
