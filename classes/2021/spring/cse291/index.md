@@ -464,7 +464,7 @@ The project will have three milestones:
     <td>Spectrum</td>
     <td>
     Presenter 1: Raghav Subbaraman <br />
-    Presenter 2: ...
+    Presenter 2: Yeswanth Guddeti  <br />
     </td>
     <td>
       <i>Presenters: Choose two for folks to read</i>
