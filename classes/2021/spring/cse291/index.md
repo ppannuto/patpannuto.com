@@ -713,7 +713,7 @@ The project will have three milestones:
     </td>
     <td>
     Presenter 1: Ronald Yu <br />
-    Presenter 2: ...
+    Presenter 2: Xiaohan Fu
     </td>
     <td>
       <i>Presenters: Choose two for folks to read</i>
