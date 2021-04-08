@@ -260,7 +260,7 @@ The project will have three milestones:
   <tr>
     <td>Apr&nbsp;8</td>
     <td>
-    <a href="#"><strong>Scale</strong></a>
+    <a href="2021-04-08-cse291-scale.pptx"><strong>Scale</strong></a>
     <hr />
     Pre-reading questions:
     <ul>
