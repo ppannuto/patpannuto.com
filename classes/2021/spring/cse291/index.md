@@ -312,26 +312,21 @@ The project will have three milestones:
     </ul>
     </td>
     <td>
-    Presenter 1: Gabriel Marcano - Virtual Battery<br />
-    Presenter 2: ...
+    Gabriel Marcano - Virtual Battery<br /><br />
+    Pannuto - TinyDB
     </td>
     <td>
-    <i>Presenters: Choose two for folks to read</i>
-    <ul>
-      <li><a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.162.943&rep=rep1&type=pdf">Versatile Low Power Media Accessfor Wireless Sensor Networks (B-MAC)</a></li>
-      <li><a href="/papers/cao2008virtualbattery.pdf">Virtual Battery: An Energy Reserve Abstraction for Embedded Sensor Networks</a></li>
-      <li><a href="https://dl.acm.org/doi/pdf/10.1145/1061318.1061322?casa_token=SmIx--SmjuMAAAAA:Poosuf4t_6Zyl2LjYsPqI_48iazYLgnG1SybsucceUDq2V49v_7gmxbLtefJTAVSHfVjd7oofk9H">TinyDB: An Acquisitional Query ProcessingSystem for Sensor Networks</a></li>
-      <!-- TODO: The original of "energy neutral" paper which is still escaping me <li>...</li> -->
-    </ul>
-    <!--
     Read and review:
     <ul>
+      <li><a href="/papers/cao2008virtualbattery.pdf">Virtual Battery: An Energy Reserve Abstraction for Embedded Sensor Networks</a></li>
+      <li><a href="https://dl.acm.org/doi/pdf/10.1145/1061318.1061322?casa_token=SmIx--SmjuMAAAAA:Poosuf4t_6Zyl2LjYsPqI_48iazYLgnG1SybsucceUDq2V49v_7gmxbLtefJTAVSHfVjd7oofk9H">TinyDB: An Acquisitional Query ProcessingSystem for Sensor Networks</a></li>
     </ul>
     <hr />
     For those wanting more...
     <ul>
+      <li><a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.162.943&rep=rep1&type=pdf">Versatile Low Power Media Access for Wireless Sensor Networks (B-MAC)</a></li>
+      <!-- TODO: The original of "energy neutral" paper which is still escaping me <li>...</li> -->
     </ul>
-    -->
     </td>
   </tr>
   <tr>
