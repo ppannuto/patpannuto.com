@@ -351,6 +351,7 @@ The project will have three milestones:
       <li><a href="/papers/hester2015ufop.pdf">Tragedy of the Coulombs: Federating Energy Storage for Tiny, Intermittently-Powered Sensors</a></li>
       <li><a href="/papers/colin2018capybara.pdf">A Reconfigurable Energy Storage Architecture for Energy-harvesting Devices</a></li>
       <li><a href="/papers/jackson19capacity.pdf">Capacity over Capacitance for Reliable Energy Harvesting Sensors</a></li>
+      <li><a href="https://josiahhester.com/cv/files/gameboy_imwut_paper.pdf">Battery-Free Game Boy</a></li>
     </ul>
     <!--
     Read and review:
