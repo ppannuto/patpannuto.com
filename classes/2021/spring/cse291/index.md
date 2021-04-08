@@ -232,7 +232,7 @@ The project will have three milestones:
   <tr>
     <td>Apr&nbsp;6</td>
     <td>
-    <a href="#">Early Lessons</a>
+    <a href="2021-04-06-cse291-earlylessons.pptx">Early Lessons</a>
     <hr />
     Pre-reading questions:
     <ul>
