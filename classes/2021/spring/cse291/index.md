@@ -590,7 +590,7 @@ The project will have three milestones:
     </td>
     <td>
     Presenter 1: Colin Barry <br />
-    Presenter 2: ...
+    Presenter 2: Ronald Yu
     </td>
     <td>
       <i>Presenters: Choose two for folks to read</i>
@@ -712,8 +712,8 @@ The project will have three milestones:
     </ul>
     </td>
     <td>
-    Presenter 1: Ronald Yu <br />
-    Presenter 2: Xiaohan Fu (WAVE)
+    Presenter 1: Xiaohan Fu (WAVE) <br />
+    Presenter 2: ...
     </td>
     <td>
       <i>Presenters: Choose two for folks to read</i>
