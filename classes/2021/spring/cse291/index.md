@@ -319,7 +319,7 @@ The project will have three milestones:
     Read and review:
     <ul>
       <li><a href="/papers/cao2008virtualbattery.pdf">Virtual Battery: An Energy Reserve Abstraction for Embedded Sensor Networks</a></li>
-      <li><a href="https://dl.acm.org/doi/pdf/10.1145/1061318.1061322?casa_token=SmIx--SmjuMAAAAA:Poosuf4t_6Zyl2LjYsPqI_48iazYLgnG1SybsucceUDq2V49v_7gmxbLtefJTAVSHfVjd7oofk9H">TinyDB: An Acquisitional Query ProcessingSystem for Sensor Networks</a></li>
+      <li><a href="https://dsf.berkeley.edu/papers/tods05-tinydb.pdf">TinyDB: An Acquisitional Query ProcessingSystem for Sensor Networks</a></li>
     </ul>
     <hr />
     For those wanting more...
@@ -342,10 +342,11 @@ The project will have three milestones:
     </ul>
     </td>
     <td>
-    Presenter 1: Jen Switzer <br />
-    Presenter 2: Dhananjay Jagtap 
+    Jennifer - GameBoy <br /><br />
+   	Dhananjay - Capacitance
     </td>
     <td>
+	<!--
     <i>Presenters: Choose two for folks to read</i>
     <ul>
       <li><a href="/papers/hester2015ufop.pdf">Tragedy of the Coulombs: Federating Energy Storage for Tiny, Intermittently-Powered Sensors</a></li>
@@ -353,15 +354,18 @@ The project will have three milestones:
       <li><a href="/papers/jackson19capacity.pdf">Capacity over Capacitance for Reliable Energy Harvesting Sensors</a></li>
       <li><a href="https://josiahhester.com/cv/files/gameboy_imwut_paper.pdf">Battery-Free Game Boy</a></li>
     </ul>
-    <!--
+	-->
     Read and review:
     <ul>
+      	<li><a href="https://josiahhester.com/cv/files/gameboy_imwut_paper.pdf">Battery-Free Game Boy</a></li>
+		<li><a href="/papers/jackson19capacity.pdf">Capacity over Capacitance for Reliable Energy Harvesting Sensors</a></li>
     </ul>
     <hr />
     For those wanting more...
     <ul>
+      <li><a href="/papers/hester2015ufop.pdf">Tragedy of the Coulombs: Federating Energy Storage for Tiny, Intermittently-Powered Sensors</a></li>
+      <li><a href="/papers/colin2018capybara.pdf">A Reconfigurable Energy Storage Architecture for Energy-harvesting Devices</a></li>
     </ul>
-    -->
     </td>
   </tr>
   <tr class="table-warning">
