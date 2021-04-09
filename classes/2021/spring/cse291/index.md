@@ -27,10 +27,12 @@ Meets Tu/Thr from 15:30 to 16:50 in WARR WEST (tent on the Warren mall!).<br/>
 &rarr; <a href="https://ucsd.zoom.us/j/98887760697">Zoom link for remote participants</a> (Note: Requires UCSD login).<br/>
 
 [Pat Pannuto](https://patpannuto.com) is the instructor, and their office is CSE 3202 (right in the corner).<br/>
+&rarr; Office hours: Fridays, 12-1:30, [via Zoom](https://ucsd.zoom.us/j/94436245244)
+
 [Nishant Bhaskar](http://cseweb.ucsd.edu/~nibhaska/) is the TA for the course.
 
-Office hours are TBA.<br/>
-Times always available by appointment, generally afternoons are preferred.
+
+Additional office hours available by appointment, generally afternoons are preferred.
 
 Quick Links:
 [Paper Reviews](#paper-reviews) |
@@ -38,6 +40,8 @@ Quick Links:
 [Class Project](#class-project) |
 [Schedule](#schedule) |
 [Final Exam / Presentations](#final-exam--presentations)
+
+&rarr; [Click here for the UCSD Embedded Lunch Seminar](https://sites.google.com/eng.ucsd.edu/embeddedlunch/) (Thr 12:30-1:30) &ndash; All are welcome!
 
 ---
 
@@ -150,6 +154,8 @@ successful project!). The goal of the project is to learn how to propose a
 research idea, to then collect preliminary data to probe the viability of that
 idea, and finally to practice communicating this process in writing.
 
+[Here is a document with some project ideas to help seed your thinking](https://docs.google.com/document/d/15h5vPUihu9CUCWGk2JJQc-RQrHcaaIg2vlySRe1Hui8/edit).
+
 The project will have three milestones:
 
 <dl>
@@ -197,13 +203,13 @@ The project will have three milestones:
   </tr>
   <tr>
     <td>Mar&nbsp;30</td>
-    <td><a href="2021-03-06-cse291-intro.pptx">Introduction</a></td>
+    <td><a href="2021-03-30-cse291-intro.pptx">Introduction</a></td>
     <td>Pannuto</td>
     <td></td>
   </tr>
   <tr>
     <td>Apr&nbsp;1</td>
-    <td><a href="#">Ubiquitous Computing</a></td>
+    <td><a href="2021-04-01-mweiser.pptx">Ubiquitous Computing</a></td>
     <td>Pannuto</td>
     <td>
       No paper reviews this week, just read and think about these:
@@ -226,12 +232,12 @@ The project will have three milestones:
   <tr>
     <td>Apr&nbsp;6</td>
     <td>
-    <a href="#">Early Lessons</a>
+    <a href="2021-04-06-cse291-earlylessons.pptx">Early Lessons</a>
     <hr />
     Pre-reading questions:
     <ul>
       <li>What kinds of things are &ldquo;obvious today,&rdquo; but were new then?</li>
-      <li>Why do we (as researchers) bother doing deployments? (They're expensive, hard, require many-person hours...)</li>
+      <li>Why do we (as researchers) bother doing deployments? (They're expensive, hard, require many person-hours...)</li>
     </ul>
     </td>
     <td>Pannuto</td>
@@ -254,12 +260,12 @@ The project will have three milestones:
   <tr>
     <td>Apr&nbsp;8</td>
     <td>
-    <a href="#"><strong>Scale</strong></a>
+    <a href="2021-04-08-cse291-scale.pptx"><strong>Scale</strong></a>
     <hr />
     Pre-reading questions:
     <ul>
       <li>Where do you place the line between what work &ldquo;belongs to&rdquo; research and industry?</li>
-      <li>Why do we (as researchers) bother doing big deployments? (They're even more expensive, hard, require many-person hours...)</li>
+      <li>Why do we (as researchers) bother doing big deployments? (They're even more expensive, hard, require many person-hours...)</li>
     </ul>
     </td>
     <td>Pannuto</td>
@@ -305,24 +311,22 @@ The project will have three milestones:
       <li>How do we balance the lifetime of one device versus a system of devices? (Does it always matter if one node dies early?)</li>
     </ul>
     </td>
-    <td><i>Your Name Here!</i></td>
     <td>
-    <i>Presenter: Choose two for folks to read</i>
-    <ul>
-      <li><a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.162.943&rep=rep1&type=pdf">Versatile Low Power Media Accessfor Wireless Sensor Networks (B-MAC)</a></li>
-      <li><a href="/papers/cao2008virtualbattery.pdf">Virtual Battery: An Energy Reserve Abstraction for Embedded Sensor Networks</a></li>
-      <li><a href="https://dl.acm.org/doi/pdf/10.1145/1061318.1061322?casa_token=SmIx--SmjuMAAAAA:Poosuf4t_6Zyl2LjYsPqI_48iazYLgnG1SybsucceUDq2V49v_7gmxbLtefJTAVSHfVjd7oofk9H">TinyDB: An Acquisitional Query ProcessingSystem for Sensor Networks</a></li>
-      <!-- TODO: The original of "energy neutral" paper which is still escaping me <li>...</li> -->
-    </ul>
-    <!--
+    Gabriel Marcano - Virtual Battery<br /><br />
+    Pannuto - TinyDB
+    </td>
+    <td>
     Read and review:
     <ul>
+      <li><a href="/papers/cao2008virtualbattery.pdf">Virtual Battery: An Energy Reserve Abstraction for Embedded Sensor Networks</a></li>
+      <li><a href="https://dl.acm.org/doi/pdf/10.1145/1061318.1061322?casa_token=SmIx--SmjuMAAAAA:Poosuf4t_6Zyl2LjYsPqI_48iazYLgnG1SybsucceUDq2V49v_7gmxbLtefJTAVSHfVjd7oofk9H">TinyDB: An Acquisitional Query ProcessingSystem for Sensor Networks</a></li>
     </ul>
     <hr />
     For those wanting more...
     <ul>
+      <li><a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.162.943&rep=rep1&type=pdf">Versatile Low Power Media Access for Wireless Sensor Networks (B-MAC)</a></li>
+      <!-- TODO: The original of "energy neutral" paper which is still escaping me <li>...</li> -->
     </ul>
-    -->
     </td>
   </tr>
   <tr>
@@ -337,13 +341,17 @@ The project will have three milestones:
       <li>What's the definition of intermittent computing?</li>
     </ul>
     </td>
-    <td><i>Your Name Here!</i></td>
     <td>
-    <i>Presenter: Choose two for folks to read</i>
+    Presenter 1: Jen Switzer <br />
+    Presenter 2: Dhananjay Jagtap 
+    </td>
+    <td>
+    <i>Presenters: Choose two for folks to read</i>
     <ul>
       <li><a href="/papers/hester2015ufop.pdf">Tragedy of the Coulombs: Federating Energy Storage for Tiny, Intermittently-Powered Sensors</a></li>
       <li><a href="/papers/colin2018capybara.pdf">A Reconfigurable Energy Storage Architecture for Energy-harvesting Devices</a></li>
       <li><a href="/papers/jackson19capacity.pdf">Capacity over Capacitance for Reliable Energy Harvesting Sensors</a></li>
+      <li><a href="https://josiahhester.com/cv/files/gameboy_imwut_paper.pdf">Battery-Free Game Boy</a></li>
     </ul>
     <!--
     Read and review:
@@ -377,9 +385,12 @@ The project will have three milestones:
       <li>What is different (or not!) about WSN nodes versus phones, laptops, etc? What impact does that have on their communication mechanisms?</li>
     </ul>
     </td>
-    <td><i>Your Name Here!</i></td>
     <td>
-      <i>Presenter: Choose two for folks to read</i>
+    Presenter 1: Bili Dong <br />
+    Presenter 2: ...
+    </td>
+    <td>
+      <i>Presenters: Choose two for folks to read</i>
       <ul>
         <li><a href="/papers/hui2008ipdead.pdf">IP is Dead, Long Live IP for Wireless Sensor Networks</a></li>
         <li><a href="http://coronet2010.stanford.edu/pubs/sing-08-00.pdf">BoX-MAC (Tech report 2008, sender-initiated MAC)</a></li>
@@ -421,9 +432,12 @@ The project will have three milestones:
         <li>What is different (or not!) about WSN nodes versus phones, laptops, etc? What impact does that have on their communication mechanisms?</li>
       </ul>
     </td>
-    <td><i>Your Name Here!</i></td>
     <td>
-      <i>Presenter: Choose two for folks to read</i>
+    Presenter 1: Alex Yen <br />
+    Presenter 2: ...
+    </td>
+    <td>
+      <i>Presenters: Choose two for folks to read</i>
       <ul>
         <li><a href="http://dl.acm.org/citation.cfm?id=1869985">A-MAC (SenSys 2010, receiver-initiated MAC)</a> (more in <a href="http://dl.acm.org/citation.cfm?id=2240119">TOSN 2012 extended version</a>)</li>
         <li><a href="/papers/ferrari2011glossy.pdf">Efficient Network Flooding and Time Synchronization with Glossy</a></li>
@@ -444,9 +458,12 @@ The project will have three milestones:
   <tr>
     <td>Apr&nbsp;29</td>
     <td>Spectrum</td>
-    <td><i>Your Name Here!</i></td>
     <td>
-      <i>Presenter: Choose two for folks to read</i>
+    Presenter 1: Raghav Subbaraman <br />
+    Presenter 2: Yeswanth Guddeti (Unlicensed LPWANs) <br />
+    </td>
+    <td>
+      <i>Presenters: Choose two for folks to read</i>
       <ul>
         <li><a href="/papers/saifullah2016snow.pdf">SNOW: Sensor Network over White Spaces</a></li>
         <li><a href="https://lab11.eecs.umich.edu/content/pubs/ghena19lpwans.pdf">Challenge: Unlicensed LPWANs Are Not Yet the Path to Ubiquitous Connectivity</a></li>
@@ -484,9 +501,12 @@ The project will have three milestones:
         <li>...</li>
       </ul>
     </td>
-    <td><i>Your Name Here!</i></td>
     <td>
-      <i>Presenter: Choose two for folks to read</i>
+    Presenter 1: Shanti Modi <br />
+    Presenter 2: ...
+    </td>
+    <td>
+      <i>Presenters: Choose two for folks to read</i>
       <ul>
         <li><a href="/papers/dutta2008epic.pdf">A Building Block Approach to Sensornet Systems</a><!--Building block approach for prototype, pilot, and product--></li>
         <li><a href="/papers/kim2018postsoc.pdf">System Architecture Directions for Post-SoC/32-bit Networked Sensors</a></li>
@@ -516,9 +536,12 @@ The project will have three milestones:
       <li>Why have prior embedded systems been single-task, what is changing?</li>
     </ul>
     </td>
-    <td><i>Your Name Here!</i></td>
     <td>
-      <i>Presenter: Choose two for folks to read</i>
+    Presenter 1: Olivia Weng <br />
+    Presenter 2: John Hwang
+    </td>
+    <td>
+      <i>Presenters: Choose two for folks to read</i>
       <ul>
         <li><a href="/pubs/levy17multiprogramming.pdf">Multiprogramming a 64kB Computer Safely and Efficiently</a></li>
         <li><a href="/papers/hardin2018appiso.pdf">Application Memory Isolation on Ultra-Low-Power MCUs</a></li>
@@ -561,12 +584,18 @@ The project will have three milestones:
       <li>How to manage whole ML systems (training, execution, updates)?</li>
     </ul>
     </td>
-    <td><i>Your Name Here!</i></td>
     <td>
-      <i>Presenter: Choose two for folks to read</i>
+    Presenter 1: Colin Barry <br />
+    Presenter 2: Ronald Yu
+    </td>
+    <td>
+      <i>Presenters: Choose two for folks to read</i>
       <ul>
         <li><a href="/papers/yao2017deepiot.pdf">DeepIoT: Compressing Deep Neural Network Structures for Sensing Systems with a Compressor-Critic Framework</a></li>
         <li><a href="/papers/radu2017wearableML.pdf">Multimodal Deep Learning for Activity and Context Recognition</a></li>
+        <li><a href="https://dl.acm.org/doi/10.1145/3372224.3419215">CLIO: Enabling automatic compilation of deep learning pipelines across IoT and Cloud</a></li>
+        <li><a href="https://dl.acm.org/doi/10.1145/3332165.3347881">GesturePod: Enabling On-device Gesture-based Interaction for White Cane Users</a></li><!-- Recommendation from Josiah Hester -->
+        <li><a href="https://arxiv.org/pdf/2007.10319.pdf">MCUNet: Tiny Deep Learning on IoT Devices</a></li><!--Recommendation from Neal Jackson -->
       </ul>
       <!--
       Read and review:
@@ -585,6 +614,7 @@ The project will have three milestones:
   </tr>
   <tr>
     <td>May&nbsp;13</td>
+    <td colspan="3">Writing workshop. Details TBA.</td>
   </tr>
 
   <!--
@@ -644,9 +674,12 @@ The project will have three milestones:
       <li>How can we enforce or prove the state of the physical world?</li>
     </ul>
     </td>
-    <td><i>Your Name Here!</i></td>
     <td>
-      <i>Presenter: Choose two for folks to read</i>
+    Presenter 1: Huanlei Wu <br />
+    Presenter 2: ...
+    </td>
+    <td>
+      <i>Presenters: Choose two for folks to read</i>
       <ul>
         <li><a href="https://lightcommands.com/20191104-Light-Commands.pdf">Light Commands: Laser-Based Audio Injection Attacks on Voice-Controllable Systems</a></li>
         <li><a href="/papers/hunt2017sevenproperties.pdf">The Seven Properties of Highly Secure Devices (Azure Sphere)</a></li>
@@ -674,9 +707,12 @@ The project will have three milestones:
       <li>What risks are similar, different between IoT devices and more traditional computers?</li>
     </ul>
     </td>
-    <td><i>Your Name Here!</i></td>
     <td>
-      <i>Presenter: Choose two for folks to read</i>
+    Presenter 1: Xiaohan Fu (WAVE) <br />
+    Presenter 2: ...
+    </td>
+    <td>
+      <i>Presenters: Choose two for folks to read</i>
       <ul>
         <li><a href="https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-antonakakis.pdf">Understanding the Mirai Botnet</a></li>
         <li><a href="/papers/anderson2019wave.pdf">WAVE: A Decentralized Authorization Framework with Transitive Delegation</a></li>
@@ -762,3 +798,18 @@ Some guidelines for your presentation:
     * [Demo opportunity here]
 
 For those projects who are willing, we'll post final papers and presentations here on the course website.
+
+
+---
+
+
+<div class="row flex-nowrap">
+<div class="col-lg-2">
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />
+</div>
+<div class="col-lg-10">
+<p>
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. Copyright <a href="https://patpannuto.com/">Pat Pannuto</a>, 2021.
+</p>
+</div>
+</div>
