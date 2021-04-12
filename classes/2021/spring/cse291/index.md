@@ -319,7 +319,7 @@ The project will have three milestones:
     Read and review:
     <ul>
       <li><a href="/papers/cao2008virtualbattery.pdf">Virtual Battery: An Energy Reserve Abstraction for Embedded Sensor Networks</a></li>
-      <li><a href="https://dsf.berkeley.edu/papers/tods05-tinydb.pdf">TinyDB: An Acquisitional Query ProcessingSystem for Sensor Networks</a></li>
+      <li><a href="https://dsf.berkeley.edu/papers/tods05-tinydb.pdf">TinyDB: An Acquisitional Query Processing System for Sensor Networks</a></li>
     </ul>
     <hr />
     For those wanting more...
