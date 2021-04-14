@@ -342,7 +342,7 @@ The project will have three milestones:
     </ul>
     </td>
     <td>
-    Jennifer - GameBoy <br /><br />
+    Jennifer - GameBoy (Sections 6-7 are optional) <br /><br />
    	Dhananjay - Capacitance
     </td>
     <td>
