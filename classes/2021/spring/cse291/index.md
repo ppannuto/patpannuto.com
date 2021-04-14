@@ -390,26 +390,30 @@ The project will have three milestones:
     </ul>
     </td>
     <td>
-    Presenter 1: Bili Dong <br />
-    Presenter 2: ...
+    Bili Dong - Long Live IP<br /><br />
+    Pannuto - RI-MAC
     </td>
     <td>
+	  <!--
       <i>Presenters: Choose two for folks to read</i>
       <ul>
         <li><a href="/papers/hui2008ipdead.pdf">IP is Dead, Long Live IP for Wireless Sensor Networks</a></li>
         <li><a href="http://coronet2010.stanford.edu/pubs/sing-08-00.pdf">BoX-MAC (Tech report 2008, sender-initiated MAC)</a></li>
         <li><a href="http://soda.swedish-ict.se/5128/1/contikimac-report.pdf">ContikiMAC (Tech report 2011, sender-initiated MAC)</a></li>
-        <li><a href="http://dl.acm.org/citation.cfm?id=1460414">RI-MAC (SenSys 2008, receiver-initiated MAC)</a></li>
+        <li><a href="/papers/hui2008ipdead.pdf">IP is Dead, Long Live IP for Wireless Sensor Networks</a></li>
       </ul>
-      <!--
+	  -->
       Read and review:
       <ul>
+        <li><a href="/papers/hui2008ipdead.pdf">IP is Dead, Long Live IP for Wireless Sensor Networks</a></li>
+        <li><a href="https://www.cs.rice.edu/~dbj/pubs/sensys08-rimac.pdf">RI-MAC (SenSys 2008, receiver-initiated MAC)</a></li>
       </ul>
       <hr />
       For those wanting more...
       <ul>
+        <li><a href="http://coronet2010.stanford.edu/pubs/sing-08-00.pdf">BoX-MAC (Tech report 2008, sender-initiated MAC)</a></li>
+        <li><a href="http://soda.swedish-ict.se/5128/1/contikimac-report.pdf">ContikiMAC (Tech report 2011, sender-initiated MAC)</a></li>
       </ul>
-      -->
     </td>
   </tr>
   <tr>
