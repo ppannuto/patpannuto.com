@@ -441,10 +441,11 @@ The project will have three milestones:
       </ul>
     </td>
     <td>
-    Presenter 1: Alex Yen <br />
-    Presenter 2: ...
+    Alex - TunnelScatter <br /><br />
+    Nishant - IT Backscatter 
     </td>
     <td>
+	  <!--
       <i>Presenters: Choose two for folks to read</i>
       <ul>
         <li><a href="http://dl.acm.org/citation.cfm?id=1869985">A-MAC (SenSys 2010, receiver-initiated MAC)</a> (more in <a href="http://dl.acm.org/citation.cfm?id=2240119">TOSN 2012 extended version</a>)</li>
@@ -453,15 +454,19 @@ The project will have three milestones:
         <li><a href="/papers/iyer2016interscatter.pdf">Inter-Technology Backscatter: Towards Internet Connectivity for Implanted Devices</a></li>
         <li><a href="/papers/varshney2019tunnelscatter.pdf">TunnelScatter: Low Power Communication for SensorTags using Tunnel Diodes</a></li>
       </ul>
-      <!--
+	  -->
       Read and review:
       <ul>
+        <li><a href="/papers/varshney2019tunnelscatter.pdf">TunnelScatter: Low Power Communication for SensorTags using Tunnel Diodes</a></li>
+        <li><a href="/papers/iyer2016interscatter.pdf">Inter-Technology Backscatter: Towards Internet Connectivity for Implanted Devices</a></li>
       </ul>
       <hr />
       For those wanting more...
       <ul>
+        <li><a href="http://dl.acm.org/citation.cfm?id=1869985">A-MAC (SenSys 2010, receiver-initiated MAC)</a> (more in <a href="http://dl.acm.org/citation.cfm?id=2240119">TOSN 2012 extended version</a>)</li>
+        <li><a href="/papers/ferrari2011glossy.pdf">Efficient Network Flooding and Time Synchronization with Glossy</a></li>
+        <li><a href="/papers/ferrari2012lwb.pdf">Low-Power Wireless Bus</a></li>
       </ul>
-      -->
     </td>
   <tr>
     <td>Apr&nbsp;29</td>
