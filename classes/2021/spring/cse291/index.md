@@ -463,6 +463,9 @@ The project will have three milestones:
       <hr />
       For those wanting more...
       <ul>
+        <!-- NOTE TO FUTURE: Probably better to ensure one of the OG backscatter papers read first -->
+        <li><a href="https://www.pkusz.edu.cn/uploadfile/2013/0824/20130824113644809.pdf">Ambient Backscatter: Wireless Communication Out of Thin Air</a></li>
+        <li><a href="https://dl.acm.org/doi/pdf/10.1145/2619239.2626319">Wi-Fi Backscatter: Internet Connectivity for RF-Powered Devices</a></li>
         <li><a href="http://dl.acm.org/citation.cfm?id=1869985">A-MAC (SenSys 2010, receiver-initiated MAC)</a> (more in <a href="http://dl.acm.org/citation.cfm?id=2240119">TOSN 2012 extended version</a>)</li>
         <li><a href="/papers/ferrari2011glossy.pdf">Efficient Network Flooding and Time Synchronization with Glossy</a></li>
         <li><a href="/papers/ferrari2012lwb.pdf">Low-Power Wireless Bus</a></li>
