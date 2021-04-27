@@ -63,8 +63,10 @@ I did that went over well:
    Worth doing if you knew about it before interviewing there, probably not
    worth trying to hunt it down.
 
-[This is my talk as I gave it at UCSD (warn: 235 MB file)](/static/talks/Pannuto_JobTalk_Apr24_UCSD.pptx),
-which must have been good enough :).
+This is my talk as I gave it at UCSD:
+
+ - [Original PPTX, with embedded videos (warn: 235 MB file)](/talks/Pannuto_JobTalk_Apr24_UCSD.pptx)
+ - [PDF version (36 MB)](/talks/Pannuto_JobTalk_Apr24_UCSD.pdf)
 
 ---
 
