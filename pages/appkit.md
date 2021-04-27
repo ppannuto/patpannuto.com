@@ -38,3 +38,34 @@ A [zipfile of the complete kit is also available](/appkit18/pannuto_appkit.zip).
  * [Google Scholar](https://scholar.google.com/citations?user=4uuuczIAAAAJ&hl=en)
  * [dblp](http://dblp.org/pers/hd/p/Pannuto:Pat)
  * [ResearchGate](https://www.researchgate.net/profile/Pat_Pannuto)
+
+---
+
+## Job Talk
+
+N.b. I didn't post this publicly while I was on the market. Not for any
+particular reason, but the talk did slowly refine over the course of the
+interview season. I probably stopped making significant changes after
+interviewing at CMU, so roughly halfway through.
+
+With some time on both sides of the interviewing process now, I don't think
+there is huge benefit to sinking significant time into tailoring to schools,
+but it is nice to make some small touches. As some concrete examples of things
+I did that went over well:
+
+ - If you're going to talk about what you would like to teach, update the list
+   of topics to include course numbers from the school you're at; it takes just
+   a few minutes and the people who care about teaching will notice.
+ - If there's some _recent_ work related to (but not _too_ related – schools
+   generally don't want to hire what they already have, they're looking for
+   complimentary skillsets) your proposed work, dropping quick mentions of how
+   your proposed work would build on / use / etc others work grabs attention.
+   Worth doing if you knew about it before interviewing there, probably not
+   worth trying to hunt it down.
+
+[This is my talk as I gave it at UCSD (warn: 235 MB file)](/static/talks/Pannuto_JobTalk_Apr24_UCSD.pptx),
+which must have been good enough :).
+
+---
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work, and all materials listed on this page not expressly licensed, are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
