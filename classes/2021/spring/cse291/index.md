@@ -470,7 +470,15 @@ The project will have three milestones:
     </td>
   <tr>
     <td>Apr&nbsp;29</td>
-    <td>Spectrum</td>
+    <td>Spectrum
+	<hr />
+	Pre-reading questions:
+      <ul>
+        <li>How do devices communicate wirelessly? How do they utilize the spectrum?</li>
+        <li>What challenges arise when we want to connect thousands of embedded/IoT devices wirelessly?</li>
+	<li>Why is it important for us to understand how, when and who uses wireless spectrum?</li>
+      </ul>
+   </td>
     <td>
     Yeswanth - Unlicensed LPWANs <br /><br />
     Raghav - SparSDR 
