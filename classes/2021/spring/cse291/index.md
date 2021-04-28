@@ -568,10 +568,11 @@ The project will have three milestones:
     </ul>
     </td>
     <td>
-    Presenter 1: Olivia Weng <br />
-    Presenter 2: John Hwang
+    Olivia - TinyOS decade <br /><br />
+    John - ContikiOS
     </td>
     <td>
+	  <!--
       <i>Presenters: Choose two for folks to read</i>
       <ul>
         <li><a href="/pubs/levy17multiprogramming.pdf">Multiprogramming a 64kB Computer Safely and Efficiently</a></li>
@@ -582,15 +583,21 @@ The project will have three milestones:
         <li><a href="http://ieeexplore.ieee.org/abstract/document/1367266/">Contiki - A lightweight and flexible operating system for tiny networked sensors</a></li>
         <li><a href="https://dl.acm.org/doi/10.1145/635506.605407">Maté: A tiny virtual machine for sensor networks</a></li>
       </ul>
-      <!--
+	  -->
       Read and review:
       <ul>
+		<li><a href="https://www.usenix.org/system/files/conference/osdi12/osdi12-final-183.pdf">Experiences from a Decade of TinyOS Development</a></li>
+        <li><a href="http://www.dunkels.com/adam/dunkels04contiki.pdf">Contiki - A lightweight and flexible operating system for tiny networked sensors</a></li>
       </ul>
       <hr />
       For those wanting more...
       <ul>
+        <li><a href="/pubs/levy17multiprogramming.pdf">Multiprogramming a 64kB Computer Safely and Efficiently</a></li>
+        <li><a href="/papers/hardin2018appiso.pdf">Application Memory Isolation on Ultra-Low-Power MCUs</a></li>
+        <li><a href="https://people.eecs.berkeley.edu/~pister/290Q/Papers/levis06tinyos.pdf">TinyOS: An Operating Systemfor Sensor Networks</a></li>
+        <li><a href="https://cseweb.ucsd.edu/~schulman/class/cse291_f18/docs/cooprider_tinyos.pdf">Efficient Memory Safety for TinyOS</a></li>
+        <li><a href="https://dl.acm.org/doi/10.1145/635506.605407">Maté: A tiny virtual machine for sensor networks</a></li>
       </ul>
-      -->
     </td>
   </tr>
 
