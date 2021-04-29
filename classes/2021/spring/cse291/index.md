@@ -540,11 +540,11 @@ The project will have three milestones:
 	  <!--
       <i>Presenters: Choose two for folks to read</i>
       <ul>
-        <li><a href="/papers/dutta2008epic.pdf">A Building Block Approach to Sensornet Systems</a><!--Building block approach for prototype, pilot, and product--></li>
+        <li><a href="/papers/dutta2008epic.pdf">A Building Block Approach to Sensornet Systems</a></li>
         <li><a href="/papers/kim2018postsoc.pdf">System Architecture Directions for Post-SoC/32-bit Networked Sensors</a></li>
         <li><a href="/papers/campbell2014ehtoolkit.pdf">An Energy-Harvesting Sensor Architecture and Toolkit for Building Monitoring and Event Detection</a></li>
-        <li><a href="http://dl.acm.org/citation.cfm?id=1147744">Telos: enabling ultra-low power wireless research</a><!--Integrated approach (everything-on-board)--></li>
-        <li><a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7460722">System Design for a Synergistic, Low Power Mote/BLE Embedded Platform (Firestorm)</a><!--High performance and extensible--></li>
+        <li><a href="http://dl.acm.org/citation.cfm?id=1147744">Telos: enabling ultra-low power wireless research</a></li>
+        <li><a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7460722">System Design for a Synergistic, Low Power Mote/BLE Embedded Platform (Firestorm)</a></li>
       </ul>
 	  -->
       Read and review:
