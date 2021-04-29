@@ -533,27 +533,32 @@ The project will have three milestones:
       </ul>
     </td>
     <td>
-    Presenter 1: Shanti Modi <br />
-    Presenter 2: ...
+    Shanti - Firestorm <br /><br />
+    Nishant - Telos
     </td>
     <td>
+	  <!--
       <i>Presenters: Choose two for folks to read</i>
       <ul>
-        <li><a href="/papers/dutta2008epic.pdf">A Building Block Approach to Sensornet Systems</a><!--Building block approach for prototype, pilot, and product--></li>
+        <li><a href="/papers/dutta2008epic.pdf">A Building Block Approach to Sensornet Systems</a></li>
         <li><a href="/papers/kim2018postsoc.pdf">System Architecture Directions for Post-SoC/32-bit Networked Sensors</a></li>
         <li><a href="/papers/campbell2014ehtoolkit.pdf">An Energy-Harvesting Sensor Architecture and Toolkit for Building Monitoring and Event Detection</a></li>
-        <li><a href="http://dl.acm.org/citation.cfm?id=1147744">Telos: enabling ultra-low power wireless research</a><!--Integrated approach (everything-on-board)--></li>
-        <li><a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7460722">System Design for a Synergistic, Low Power Mote/BLE Embedded Platform (Firestorm)</a><!--High performance and extensible--></li>
+        <li><a href="http://dl.acm.org/citation.cfm?id=1147744">Telos: enabling ultra-low power wireless research</a></li>
+        <li><a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7460722">System Design for a Synergistic, Low Power Mote/BLE Embedded Platform (Firestorm)</a></li>
       </ul>
-      <!--
+	  -->
       Read and review:
       <ul>
+        <li><a href="https://www.cs.virginia.edu/~bjc8c/class/cs6501-f17/anderson16firestorm.pdf">System Design for a Synergistic, Low Power Mote/BLE Embedded Platform (Firestorm)</a><!--High performance and extensible--></li>
+        <li><a href="https://people.eecs.berkeley.edu/~culler/papers/spots05-telos.pdf">Telos: Enabling Ultra-low Power Wireless Research</a><!--Integrated approach (everything-on-board)--></li>
       </ul>
       <hr />
       For those wanting more...
       <ul>
+        <li><a href="/papers/dutta2008epic.pdf">A Building Block Approach to Sensornet Systems</a><!--Building block approach for prototype, pilot, and product--></li>
+        <li><a href="/papers/kim2018postsoc.pdf">System Architecture Directions for Post-SoC/32-bit Networked Sensors</a></li>
+        <li><a href="/papers/campbell2014ehtoolkit.pdf">An Energy-Harvesting Sensor Architecture and Toolkit for Building Monitoring and Event Detection</a></li>
       </ul>
-      -->
     </td>
   </tr>
   <tr>
@@ -568,10 +573,11 @@ The project will have three milestones:
     </ul>
     </td>
     <td>
-    Presenter 1: Olivia Weng <br />
-    Presenter 2: John Hwang
+    Olivia - TinyOS decade <br /><br />
+    John - ContikiOS
     </td>
     <td>
+	  <!--
       <i>Presenters: Choose two for folks to read</i>
       <ul>
         <li><a href="/pubs/levy17multiprogramming.pdf">Multiprogramming a 64kB Computer Safely and Efficiently</a></li>
@@ -582,15 +588,21 @@ The project will have three milestones:
         <li><a href="http://ieeexplore.ieee.org/abstract/document/1367266/">Contiki - A lightweight and flexible operating system for tiny networked sensors</a></li>
         <li><a href="https://dl.acm.org/doi/10.1145/635506.605407">Maté: A tiny virtual machine for sensor networks</a></li>
       </ul>
-      <!--
+	  -->
       Read and review:
       <ul>
+		<li><a href="https://www.usenix.org/system/files/conference/osdi12/osdi12-final-183.pdf">Experiences from a Decade of TinyOS Development</a></li>
+        <li><a href="http://www.dunkels.com/adam/dunkels04contiki.pdf">Contiki - A lightweight and flexible operating system for tiny networked sensors</a></li>
       </ul>
       <hr />
       For those wanting more...
       <ul>
+        <li><a href="/pubs/levy17multiprogramming.pdf">Multiprogramming a 64kB Computer Safely and Efficiently</a></li>
+        <li><a href="/papers/hardin2018appiso.pdf">Application Memory Isolation on Ultra-Low-Power MCUs</a></li>
+        <li><a href="https://people.eecs.berkeley.edu/~pister/290Q/Papers/levis06tinyos.pdf">TinyOS: An Operating Systemfor Sensor Networks</a></li>
+        <li><a href="https://cseweb.ucsd.edu/~schulman/class/cse291_f18/docs/cooprider_tinyos.pdf">Efficient Memory Safety for TinyOS</a></li>
+        <li><a href="https://dl.acm.org/doi/10.1145/635506.605407">Maté: A tiny virtual machine for sensor networks</a></li>
       </ul>
-      -->
     </td>
   </tr>
 
