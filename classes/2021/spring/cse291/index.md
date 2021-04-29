@@ -533,10 +533,11 @@ The project will have three milestones:
       </ul>
     </td>
     <td>
-    Presenter 1: Shanti Modi <br />
-    Presenter 2: ...
+    Shanti - Firestorm <br /><br />
+    Nishant - Telos
     </td>
     <td>
+	  <!--
       <i>Presenters: Choose two for folks to read</i>
       <ul>
         <li><a href="/papers/dutta2008epic.pdf">A Building Block Approach to Sensornet Systems</a><!--Building block approach for prototype, pilot, and product--></li>
@@ -545,15 +546,19 @@ The project will have three milestones:
         <li><a href="http://dl.acm.org/citation.cfm?id=1147744">Telos: enabling ultra-low power wireless research</a><!--Integrated approach (everything-on-board)--></li>
         <li><a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7460722">System Design for a Synergistic, Low Power Mote/BLE Embedded Platform (Firestorm)</a><!--High performance and extensible--></li>
       </ul>
-      <!--
+	  -->
       Read and review:
       <ul>
+        <li><a href="https://www.cs.virginia.edu/~bjc8c/class/cs6501-f17/anderson16firestorm.pdf">System Design for a Synergistic, Low Power Mote/BLE Embedded Platform (Firestorm)</a><!--High performance and extensible--></li>
+        <li><a href="https://people.eecs.berkeley.edu/~culler/papers/spots05-telos.pdf">Telos: Enabling Ultra-low Power Wireless Research</a><!--Integrated approach (everything-on-board)--></li>
       </ul>
       <hr />
       For those wanting more...
       <ul>
+        <li><a href="/papers/dutta2008epic.pdf">A Building Block Approach to Sensornet Systems</a><!--Building block approach for prototype, pilot, and product--></li>
+        <li><a href="/papers/kim2018postsoc.pdf">System Architecture Directions for Post-SoC/32-bit Networked Sensors</a></li>
+        <li><a href="/papers/campbell2014ehtoolkit.pdf">An Energy-Harvesting Sensor Architecture and Toolkit for Building Monitoring and Event Detection</a></li>
       </ul>
-      -->
     </td>
   </tr>
   <tr>
