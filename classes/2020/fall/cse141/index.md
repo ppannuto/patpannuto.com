@@ -1,3 +1,10 @@
+<div align="center" markdown="1">
+[Pat Pannuto](/)
+----------------
+</div>
+
+----
+
 CSE 141: Introduction to Computer Architecture
 =====================================
 

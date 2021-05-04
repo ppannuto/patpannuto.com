@@ -1,3 +1,10 @@
+<div align="center" markdown="1">
+[Pat Pannuto](/)
+----------------
+</div>
+
+----
+
 Platforms & Systems to Bridge the Digital & Physical World
 ==========================================================
 ## CSE291 K00 - Winter 2020
@@ -668,3 +675,17 @@ An enormous thank you for your flexibility as we work through the end of this
 quarter as best we can.
 I'm looking forward to seeing everyone's videos, and catching you all on campus
 in the future when this has all settled down a bit.
+
+---
+
+
+<div class="row flex-nowrap">
+<div class="col-lg-2">
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />
+</div>
+<div class="col-lg-10">
+<p>
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. Copyright <a href="https://patpannuto.com/">Pat Pannuto</a>, 2020.
+</p>
+</div>
+</div>

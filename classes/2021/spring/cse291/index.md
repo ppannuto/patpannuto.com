@@ -1,3 +1,10 @@
+<div align="center" markdown="1">
+[Pat Pannuto](/)
+----------------
+</div>
+
+----
+
 Topics in Embedded Systems & The Internet of Things
 ===================================================
 
