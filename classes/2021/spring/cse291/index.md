@@ -568,6 +568,34 @@ The project will have three milestones:
       </ul>
     </td>
   </tr>
+
+  <tr class="table-warning">
+    <td colspan="4">
+    <small>
+    <a name="kqs"></a><p><strong><a href="/teaching/KQS.pdf">Keep-Quit-Start</a> feedback</strong></p>
+    <ul>
+      <li>Papers, Reading, &amp; Reviews</li>
+      <ul>
+        <li><i>Highlights:</i> Good selection; interesting array of topics; reviews are very helpful to understanding when time is put into them</li>
+        <li>Background: Some topic areas require more background, advance framing. <strong>Action:</strong> Supplement pre-reqading Q's with background links where appropriate; refine discussion start (see leading below).</li>
+        <li>Consistency in self-effort: Not always good at getting reviews in on time (or done well on time). <strong>Action:</strong> (See leading below).
+      </ul>
+      <li>Discussions</li>
+      <ul>
+        <li><i>Highlights:</i> All very engaged; learn a lot from the discussion; consistently strengthen understanding
+        <li>Leading: Missing summary and context (ed: weakness of no slides); discussion topics less set. <strong>Action:</strong> Pending discussion in class: Leads no longer required to write reviews; instead, use time to write explicit 3~5 minute summary; post meta-review and discussion seeds to slack before class starts.</li>
+        <li>Hybrid: Mixed experience; much improved with new A/V setup; hard to consistently interact. <strong>Action:</strong> Pat &amp; Nishant will more actively watch Zoom, use hand raise or chat, and invite comments in middle as well as end.</li>
+        <li>Moderation: Ensure balance across speakers; promote less speaking folks more; consider cutting off less relevant tangents. <strong>Action:</strong> Discuss interaction techniques in class; explicit tracking by Pat for a bit.</li>
+      </ul>
+      <li>Project</li>
+      <ul>
+        <li><i>Highlights:</i> Workshop day very good; milestones are helpful.</li>
+      </ul>
+    </ul>
+    </small>
+    </td>
+  </tr>
+
   <tr>
     <td>May&nbsp;6</td>
     <td>
@@ -575,7 +603,7 @@ The project will have three milestones:
     <hr />
     Pre-reading questions:
     <ul>
-      <li>What are the requirements of multi-processing?</li>
+      <li>What are the requirements of multi-processing (or multi-app, and what's the difference)?</li>
       <li>Why have prior embedded systems been single-task, what is changing?</li>
     </ul>
     </td>
