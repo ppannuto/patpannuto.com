@@ -149,6 +149,35 @@ be.
 When not the lead, everyone else is expected to have read the papers and to
 actively participate in the class discussions.
 
+#### Discussion Lead
+
+Each paper has roughly 35 minutes of class time. For discussions, this should
+generally allow for a 5 minute introduction followed by 30 minutes of
+discussion.
+
+_[Updated May 4](#kqs):_ When you are leading discussion, you have three
+primary responsibilities:
+
+ 1. Prepare a summary presentation of the paper. This summary should be
+ reasonably polished / prepared in advance. The summary should recount
+ the major concepts introduced in the paper, give an overview of the core
+ technical details, and crisply identify any hypotheses presented in the
+ work, how they were evaluated, and any conclusions that can be drawn.
+
+ 2. Prepare and share a summary others' paper reviews. Try to first identify
+ any points of confusion or desired clarifications, so that we can start the
+ discussion by getting everyone up to speed. Then propose (at least) three
+ topics of discussion from the paper. Try to include (at least) one that looks
+ at the paper's strengths, one that looks at potential weaknesses, and one that
+ looks beyond the ideas directly discussed in the paper. **Share this summary
+ and discussion prompts in the class slack before the start of class.**
+
+ 3. Lead discussion! Start with your summary presentation, then any remaining
+ clarifications, and then the more open-ended discussion segment.
+
+_When you are discussion lead, you do **not** need to submit reviews for either
+your paper or the other paper (though you should still read it!)._
+
 ### Class Project
 
 This class will feature a quarter long project of your own choosing. Project
