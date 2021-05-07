@@ -692,27 +692,33 @@ The project will have three milestones:
     </ul>
     </td>
     <td>
-    Presenter 1: Colin Barry <br />
-    Presenter 2: Ronald Yu
+    Colin - TinyTL <br /><br />
+    Ronald - MCUNet
     </td>
     <td>
+	  <!--
       <i>Presenters: Choose two for folks to read</i>
       <ul>
         <li><a href="/papers/yao2017deepiot.pdf">DeepIoT: Compressing Deep Neural Network Structures for Sensing Systems with a Compressor-Critic Framework</a></li>
         <li><a href="/papers/radu2017wearableML.pdf">Multimodal Deep Learning for Activity and Context Recognition</a></li>
         <li><a href="https://dl.acm.org/doi/10.1145/3372224.3419215">CLIO: Enabling automatic compilation of deep learning pipelines across IoT and Cloud</a></li>
-        <li><a href="https://dl.acm.org/doi/10.1145/3332165.3347881">GesturePod: Enabling On-device Gesture-based Interaction for White Cane Users</a></li><!-- Recommendation from Josiah Hester -->
-        <li><a href="https://arxiv.org/pdf/2007.10319.pdf">MCUNet: Tiny Deep Learning on IoT Devices</a></li><!--Recommendation from Neal Jackson -->
+        <li><a href="https://dl.acm.org/doi/10.1145/3332165.3347881">GesturePod: Enabling On-device Gesture-based Interaction for White Cane Users</a></li>
+        <li><a href="https://arxiv.org/pdf/2007.10319.pdf">MCUNet: Tiny Deep Learning on IoT Devices</a></li>
       </ul>
-      <!--
+	  -->
       Read and review:
       <ul>
+        <li><a href="https://arxiv.org/pdf/2007.11622.pdf">TinyTL: Reduce Memory, Not Parameters for Efficient On-Device Learning</a></li>
+        <li><a href="https://arxiv.org/pdf/2007.10319.pdf">MCUNet: Tiny Deep Learning on IoT Devices</a></li>
       </ul>
       <hr />
       For those wanting more...
       <ul>
+        <li><a href="/papers/yao2017deepiot.pdf">DeepIoT: Compressing Deep Neural Network Structures for Sensing Systems with a Compressor-Critic Framework</a></li>
+        <li><a href="/papers/radu2017wearableML.pdf">Multimodal Deep Learning for Activity and Context Recognition</a></li>
+        <li><a href="https://dl.acm.org/doi/10.1145/3372224.3419215">CLIO: Enabling automatic compilation of deep learning pipelines across IoT and Cloud</a></li>
+        <li><a href="https://dl.acm.org/doi/10.1145/3332165.3347881">GesturePod: Enabling On-device Gesture-based Interaction for White Cane Users</a></li>
       </ul>
-      -->
     <!--
      Compute/Comm tradeoff bit...
      - Maybe one of Pengyu's (do any of his papers capture his oral argument about closing this gap?)
