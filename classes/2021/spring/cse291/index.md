@@ -797,7 +797,8 @@ The project will have three milestones:
         <li><a href="https://lightcommands.com/20191104-Light-Commands.pdf">Light Commands: Laser-Based Audio Injection Attacks on Voice-Controllable Systems</a></li>
         <li><a href="/papers/hunt2017sevenproperties.pdf">The Seven Properties of Highly Secure Devices (Azure Sphere)</a></li>
         <li><a href="https://acmccs.github.io/papers/p103-zhangAemb.pdf">DolphinAttack: Inaudible Voice Commands</a></li>
-      </ul>
+      	<li><a href="https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-michalevsky.pdf">Gyrophone:Recognizing Speech from Gyrophone Signals</a></li>
+	  </ul>
       <!--
       Read and review:
       <ul>
