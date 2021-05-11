@@ -762,13 +762,13 @@ The project will have three milestones:
   <tr>
     <td>May&nbsp;18</td>
     <td>Workshop Day</td>
-    <td>Custom Signup; TBD</td>
-    <td>Pick a workshop to attend; come to class prepared to give highlights of interesting ideas and conversations from the workshop.</td>
+    <td><a href="https://docs.google.com/spreadsheets/d/1O2P_eNIfDMwLDTZa76azMcwmT0qiGw3wrXZlj8CWnSE/">Signup Sheet</a></td>
+    <td>Pick a workshop to attend; come to class prepared to give highlights of interesting ideas and conversations from one session (or equivalent) of the workshop.</td>
   </tr>
   <tr>
     <td>May&nbsp;20</td>
     <td>Conference Day(s)</td>
-    <td>Custom Signup; TBD</td>
+    <td><a href="https://docs.google.com/spreadsheets/d/1O2P_eNIfDMwLDTZa76azMcwmT0qiGw3wrXZlj8CWnSE/">Signup Sheet</a></td>
     <td>Pick one session to attend; come to class prepared to give highlights of interesting ideas and conversations from the session.</td>
   </tr>
 
