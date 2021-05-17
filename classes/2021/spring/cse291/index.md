@@ -869,8 +869,8 @@ The project will have three milestones:
   </tr>
   <tr>
     <td>Jun&nbsp;3</td>
-    <td>Presentation on topic of class interest / or guest lecture</td>
-    <td>Pannuto</td>
+    <td>Smart Cities in the Real World</td>
+    <td><a href="https://quote.ucsd.edu/lirani/">Lilly Irani</a></td>
     <td>
     <p><i>Due by Midnight</i></p>
     <p>Each person will be assigned to review two other project papers, similar
