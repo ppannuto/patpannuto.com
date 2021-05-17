@@ -727,7 +727,20 @@ The project will have three milestones:
   </tr>
   <tr>
     <td>May&nbsp;13</td>
-    <td colspan="3">Writing workshop. Details TBA.</td>
+    <td>Writing workshop</td>
+    <td>Pannuto</td>
+    <td>
+    I strongly, strongly encourage you to check out the <a href="https://writinghub.ucsd.edu/">Writing Hub</a>, which is where these resources came from, and where there are many more resources, both for day-to-day and workshop-style events, available.
+    <ul>
+    <li><a href="writing_Reduction.pdf">Slides from writing workshop</a></li>
+    <li><a href="writing_ProcessGrid.pdf">Parts of the writing process</a></li>
+    </ul>
+    <hr />
+    For the second half, recall these are just opinions on just one type of technical writing:
+    <ul>
+    <li><a href="https://docs.google.com/presentation/d/1Gufsn6xE8-m15xOK-clAXA4l7TAXWlpWfXkwgVghO1M/">Mechanics of (technical) paper writing</a></li>
+    </ul>
+    </td>
   </tr>
 
   <!--
