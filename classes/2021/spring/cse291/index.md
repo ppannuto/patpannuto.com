@@ -801,10 +801,11 @@ The project will have three milestones:
     </ul>
     </td>
     <td>
-    Presenter 1: Huanlei Wu <br />
-    Presenter 2: ...
+    Huanlei - Dolphin Attack <br /><br />
+    Nishant - Pacemaker/ICD
     </td>
     <td>
+	  <!--
       <i>Presenters: Choose two for folks to read</i>
       <ul>
         <li><a href="https://lightcommands.com/20191104-Light-Commands.pdf">Light Commands: Laser-Based Audio Injection Attacks on Voice-Controllable Systems</a></li>
@@ -812,15 +813,19 @@ The project will have three milestones:
         <li><a href="https://acmccs.github.io/papers/p103-zhangAemb.pdf">DolphinAttack: Inaudible Voice Commands</a></li>
       	<li><a href="https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-michalevsky.pdf">Gyrophone:Recognizing Speech from Gyrophone Signals</a></li>
 	  </ul>
-      <!--
+	  -->
       Read and review:
       <ul>
-      </ul>
+        <li><a href="https://acmccs.github.io/papers/p103-zhangAemb.pdf">DolphinAttack: Inaudible Voice Commands</a></li>
+        <li><a href="https://www.secure-medicine.org/hubfs/public/publications/icd-study.pdf">Pacemakers and ICDs: Software Radio Attacks and Zero-Power Defenses</a></li>
+	  </ul>
       <hr />
       For those wanting more...
       <ul>
+        <li><a href="https://lightcommands.com/20191104-Light-Commands.pdf">Light Commands: Laser-Based Audio Injection Attacks on Voice-Controllable Systems</a></li>
+        <li><a href="/papers/hunt2017sevenproperties.pdf">The Seven Properties of Highly Secure Devices (Azure Sphere)</a></li>
+      	<li><a href="https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-michalevsky.pdf">Gyrophone:Recognizing Speech from Gyrophone Signals</a></li>
       </ul>
-      -->
     </td>
   </tr>
   <tr>
