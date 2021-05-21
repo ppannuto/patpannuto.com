@@ -840,10 +840,11 @@ The project will have three milestones:
     </ul>
     </td>
     <td>
-    Presenter 1: Xiaohan Fu (WAVE) <br />
-    Presenter 2: ...
+    Xiaohan - WAVE <br /><br />
+    Nishant - Automobile
     </td>
     <td>
+	  <!--
       <i>Presenters: Choose two for folks to read</i>
       <ul>
         <li><a href="https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-antonakakis.pdf">Understanding the Mirai Botnet</a></li>
@@ -851,15 +852,19 @@ The project will have three milestones:
         <li><a href="/papers/helium2018.pdf">Helium: A Decentralized Wireless Network</a></li>
         <li><a href="https://eprint.iacr.org/2016/1047.pdf">IoT Goes Nuclear: Creating a Zigbee Chain Reaction</a></li>
       </ul>
-      <!--
+      -->
       Read and review:
       <ul>
-      </ul>
+        <li><a href="/papers/anderson2019wave.pdf">WAVE: A Decentralized Authorization Framework with Transitive Delegation</a></li>
+      	<li><a href="http://www.autosec.org/pubs/cars-oakland2010.pdf">Experimental Security Analysis of a Modern Automobile</a></li>
+	  </ul>
       <hr />
       For those wanting more...
       <ul>
+        <li><a href="https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-antonakakis.pdf">Understanding the Mirai Botnet</a></li>
+        <li><a href="/papers/helium2018.pdf">Helium: A Decentralized Wireless Network</a></li>
+        <li><a href="https://eprint.iacr.org/2016/1047.pdf">IoT Goes Nuclear: Creating a Zigbee Chain Reaction</a></li>
       </ul>
-      -->
     </td>
   </tr>
   <!--
