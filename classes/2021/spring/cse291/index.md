@@ -901,6 +901,21 @@ The project will have three milestones:
     constructive feedback to your peers for their final reports.</p>
     </td>
   </tr>
+  <tr class="table-info">
+    <td colspan="4">Finals Week</td>
+  </tr>
+  <tr>
+    <td>
+    <p>Jun&nbsp;7</p>
+    <p><em>3&ndash;6 PM</em></p>
+    </td>
+    <td>Final Presentations</td>
+    <td>Pannuto</td>
+    <td>
+    <p>Submit final papers via HotCRP.</p>
+    <p>See presentation details belows.</p>
+    </td>
+  </tr>
 
 </table>
 
