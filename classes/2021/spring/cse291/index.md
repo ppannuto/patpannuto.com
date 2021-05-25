@@ -886,7 +886,7 @@ The project will have three milestones:
     <td>Pannuto</td>
     <td>
     <p><i>Due by Midnight</i></p>
-    <p>Submit a final draft of your project report to HotCRP.</p>
+    <p>Submit a draft of your final project report to HotCRP.</p>
     <p>Reviews will be assigned at this time.</p>
     </td>
   </tr>
