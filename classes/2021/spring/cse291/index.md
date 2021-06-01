@@ -980,7 +980,7 @@ should still be compelling and well-articulated (why was this something worth
 trying?).
 
 **Format?**
-> [I would have written a shorter letter, but I did not have the time](https://www.npr.org/sections/13.7/2014/02/03/270680304/this-could-have-been-shorter)
+> [I would have written a shorter letter, but I did not have the time.](https://www.npr.org/sections/13.7/2014/02/03/270680304/this-could-have-been-shorter)
 
 I am generally reticent to put a hard cap on things, as that just encourages space games.
 At the same time, submission venues do have limits, and learning to write succinctly is a very valuable skill.
