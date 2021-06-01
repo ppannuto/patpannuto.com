@@ -912,7 +912,7 @@ The project will have three milestones:
     <td>Pannuto</td>
     <td>
     <p>Submit final papers via HotCRP.</p>
-    <p>See presentation details belows.</p>
+    <p>See presentation details below.</p>
     </td>
   </tr>
 
