@@ -926,9 +926,10 @@ will give a conference-style presentation on their research project.
 
 <!--          FI   06/07/21   M   03:00 P  05:59 P                         -->
 
+#### Presentation Details
+
 We will use the final exam slot for presentations.
 The class has been assigned a final exam timeslot of 3-6pm, Monday, June 7th.
-
 
 Some guidelines for your presentation:
 
@@ -947,6 +948,50 @@ Some guidelines for your presentation:
     * [Demo opportunity here]
     * Finally, what is the impact and result of this work? Tie back to your hypothesis. What questions might someone interested in this want to explore further? [about 1:00]
     * [Demo opportunity here]
+
+
+#### Final Paper Details
+
+Final writeups are due on Monday, June 7th.
+Ideally, these would be submitted before your presentations, but we will leave
+the paper submission system open until midnight.
+
+A friendly reminder: It is easy to focus on experiments and results, but the
+primary goal of this writing exercise is to learn how to motivate, frame, and
+present your work in the broader corpus of scientific literature.
+
+The milestones are very much intended to build up this document. You have
+already written 1-2 pages of introduction and motivation as well as 1-2 pages
+of background and related work (both of which have feedback you should
+incorporate!). The final experimental push is just 1-2 pages on top of this.
+The final document is only one-third experimental results, do not let that take
+up too much more than one-third of your focus in writing.
+
+Finally, to be very clear: **Your project does not have to work.**
+Negative results are healthy and to be expected, particularly in projects that
+encourage probing the question of whether something is possible and whether it
+is an idea worth pursuing further.
+If you do have negative results, what is important is to articulate **why**.
+Did you find something fundamental about why your proposed idea will not work,
+or does it seem an engineering shortcoming (if so, what evidence do you have that
+future work could solve this)?
+Note here that even for negative results, the **motivation** for the work
+should still be compelling and well-articulated (why was this something worth
+trying?).
+
+**Format?**
+> [I would have written a shorter letter, but I did not have the time](https://www.npr.org/sections/13.7/2014/02/03/270680304/this-could-have-been-shorter)
+
+I am generally reticent to put a hard cap on things, as that just encourages space games.
+At the same time, submission venues do have limits, and learning to write succinctly is a very valuable skill.
+Target 5-6 pages, do not go over 7.
+References don't count towards the limit.
+If you find you are using 7 pages, it should be figures pushing you towards the limit, not text.
+
+For format, please use [`sigconf` from `acmart`](https://www.acm.org/publications/proceedings-template).
+
+
+#### Coda
 
 For those projects who are willing, we'll post final papers and presentations here on the course website.
 
