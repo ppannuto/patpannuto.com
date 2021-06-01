@@ -882,8 +882,7 @@ The project will have three milestones:
   </tr>
   <tr>
     <td>Jun&nbsp;1</td>
-    <td>Presentation on topic of class interest / or guest lecture</td>
-    <td>Pannuto</td>
+    <td colspan="2">In-person class is cancelled. You&rsquo;re encouraged to check out <a href="https://sigops.org/s/conferences/hotos/2021/">Dhanajay and Nishant's presentation at HotOS</a>, which starts just before the normal during class period (and to participate in the discussion there!). Otherwise, please use the time to improve your projects and writeups.</td>
     <td>
     <p><i>Due by Midnight</i></p>
     <p>Submit a draft of your final project report to HotCRP.</p>
