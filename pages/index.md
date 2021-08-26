@@ -95,17 +95,21 @@ A [history of my teaching prior to joining UCSD](/teaching.html) is also availab
 
 #### <a name="students"></a>Graduate Students
 
- - Dhananjay Jagtap (MS, ECE)
- - Wenshan Luo (MS, CSE)
+ - Wenshan Luo (PhD, CSE)
  - [Gabriel Marcano](https://gabriel.marcanobrady.family/) (Sloan Fellow; PhD, CSE)
+ - [Jennifer Switzer](https://jennifer-switzer.com/) (Co-Advised with [Ryan Kastner](http://kastner.ucsd.edu/); PhD, CSE)
  - [Alex Yen](https://alexlwyen.com/) (PhD, CSE)
 
 #### Undergraduate Students
 
- - Karen Gong
- - Colin Lemarchand
  - Anthony Quiroga
- - Sonika Ram
+
+#### Alumni
+ - Dhananjay Jagtap (MS, ECE) &rarr; Apple
+ - Karen Gong (BS, CSE)
+ - Colin Lemarchand (BS, CSE)
+ - Sonika Ram (BS, CSE)
+
 
 <hr />
 
