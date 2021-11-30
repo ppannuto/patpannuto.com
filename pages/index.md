@@ -56,6 +56,16 @@ health monitoring](#gridwatch).
 
 <hr />
 
+#### News
+
+ - [Dhananjay][dhananjay] wins Best Presentation (Second Prize) at [ENSsys'20](http://www.enssys.org/2020/) – congratulations!
+ - [Alex][alexy] wins Best Presentation (Runner-Up) at [CPS-IoTBench'21](https://www.iotbench.ethz.ch/cps-iotbench-2021/) – congratulations!
+
+<!-- TODO: this would be cool if it pulled top N
+#### Recent Publications
+A complete list is available on my [publications page](/publications.html).
+-->
+
 #### Selected Honors & Awards
 
  - [Rackham Graduate School Outstanding Graduate Student Instructor](http://www.rackham.umich.edu/faculty-staff/awards/student-funding/outstanding-graduate-student-instructor-awards#recipients) (2017)
@@ -86,7 +96,8 @@ A [history of my teaching prior to joining UCSD](/teaching.html) is also availab
 
 #### <a name="service"></a>Service
 
- - 2021: [IPSN'21](https://ipsn.acm.org/2021/) TPC Member, CPS-IoTBench'21 Workshop Co-Chair
+ - 2022: [MobiCom'22](https://www.sigmobile.org/mobicom/2022/) TPC Member (Summer &amp; Winter), [IPSN'22](https://ipsn.acm.org/2022/) TPC Member, [CPS-IoTBench'21](https://www.iotbench.ethz.ch/cps-iotbench-2021/) Workshop Co-Chair<!--, [ENSsys@ASPLOS'22](http://www.enssys.org/2021/) General Chair-->
+ - 2021: [IPSN'21](https://ipsn.acm.org/2021/) TPC Member, [CPS-IoTBench'21](https://www.iotbench.ethz.ch/cps-iotbench-2021/) Workshop Co-Chair, [ENSsys@SenSys'21](http://www.enssys.org/2021/) General Chair
  - 2020: [DATA'20](https://workshopdata.github.io/DATA2020/) Workshop Co-Chair, [ENSsys'20](http://www.enssys.org/2020/) TPC Member, [CPS-IoTBench'20](https://cpsbench20.ethz.ch/) TPC Member
  - 2019: [DATA'19](https://workshopdata.github.io/DATA2019/) Workshop Co-Chair
  - 2018: [DATA'18](https://workshopdata.github.io/DATA2018/) TPC Member
@@ -95,60 +106,23 @@ A [history of my teaching prior to joining UCSD](/teaching.html) is also availab
 
 #### <a name="students"></a>Graduate Students
 
- - Wenshan Luo (PhD, CSE)
- - [Gabriel Marcano](https://gabriel.marcanobrady.family/) (Sloan Fellow; PhD, CSE)
- - [Jennifer Switzer](https://jennifer-switzer.com/) (Co-Advised with [Ryan Kastner](http://kastner.ucsd.edu/); PhD, CSE)
- - [Alex Yen](https://alexlwyen.com/) (PhD, CSE)
+ - [Wenshan Luo][wenshan] (PhD, CSE)
+ - [Gabriel Marcano][gabriel] (Sloan Fellow; PhD, CSE)
+ - [Jennifer Switzer][jennifer] (Co-Advised with [Ryan Kastner](http://kastner.ucsd.edu/); PhD, CSE)
+ - [Alex Yen][alexy] (PhD, CSE)
 
 #### Undergraduate Students
 
  - Anthony Quiroga
 
 #### Alumni
- - Dhananjay Jagtap (MS, ECE) &rarr; Apple
+ - [Dhananjay Jagtap][dhananjay] (MS, ECE) &rarr; Apple
  - Karen Gong (BS, CSE)
  - Colin Lemarchand (BS, CSE)
  - Sonika Ram (BS, CSE)
 
 
 <hr />
-
-#### <a name="m3"></a> Michigan Micro Mote & MBus
-<div class="row" markdown="1">
-<div class="col-md-10" markdown="1">
-The Michigan Micro Mote, or M<sup>3</sup> project, aims to bring
-general-purpose computing and sensing to millimeter-scale devices.
- As part of this effort, we identified the system interconnect as a key
-impediment to further scaling the energy and area of embedded computing.
-To address this, I led the design of [MBus, a new chip-to-chip
-interconnect](http://mbus.io) optimized for energy-conscious designs.
-
-The Michigan Micro Mote is on display in World's Smallest Computer exhibit the
-lobby of the Computer History Musuem in Mountain View.
-You can [see the exhibit online here][chm].
-
-[chm]: https://computerhistory.org/blog/the-worlds-smallest-computer/
-
-[Cubeworks](http://cubeworks.us/) is commercializing the M<sup>3</sup> technology.
-</div>
-<div class="col-md-2" markdown="1">
-![M3 node on a finger](/images/research/m3-finger-square.jpg){: .img-fluid }
-
-![M3 node on edge of US nickel coin](/images/research/m3-nickel-square.jpg){: .img-fluid }
-</div>
-</div>
-<small>
-{
-[JSTS'16](/pubs/lee16mbus.pdf) |
-**[Micro Top Picks '16](/pubs/pannuto16mbus-top-picks.pdf)** |
-**[ISCA'15](/pubs/pannuto15mbus.pdf)** |
-**[WARP'15](/pubs/pannuto15making-m3.pdf)** |
-[CICC'14](/pubs/kuo14mbus.pdf) |
-[VLSI'14](/pubs/blaauw14iot.pdf) |
-[VLSI'14](/pubs/kim14motion.pdf) |
-[JSSC'13](/pubs/lee13modular.pdf)
-}
-</small>
 
 
 #### <a name="tock"></a> The Tock Operating System
@@ -303,7 +277,24 @@ support handwashing studies in hospital settings.
 [opo]: http://lab11.eecs.umich.edu/projects/opo/ "Opo: A Wearable Sensor for Capturing High-Fidelity Face-to-Face Interactions"
 
 
+
+
+<hr />
+
+
+<div class="row" markdown="1">
+<div class="col-lg-12 col-xs-12" markdown="1">
+
+## <a name="projects-old"></a> Older Projects
+
+Some of these are still (very!) active and I am simply no longer affiliated,
+while others have been retired, but I thought all this work was pretty cool,
+so I'm not quite willing to delete it from my website yet :).
+
+
 #### <a name="gridwatch"></a> GridWatch and The Open INcentive Kit
+
+##### [Check out nLine, which is commercializing this work!](https://nline.io/)
 
 The power grid is one of humanity's most significant engineering undertakings,
 and it is essential in developed and developing nations alike. Yet, most grids
@@ -347,6 +338,44 @@ monitors a study, automatically triggers incentives, and handles disbursements.
 [mccghana]: https://www.mcc.gov/where-we-work/program/ghana-power-compact
 [oink]: https://openincentivekit.com
 
+#### <a name="m3"></a> Michigan Micro Mote & MBus
+<div class="row" markdown="1">
+<div class="col-md-10" markdown="1">
+The Michigan Micro Mote, or M<sup>3</sup> project, aims to bring
+general-purpose computing and sensing to millimeter-scale devices.
+ As part of this effort, we identified the system interconnect as a key
+impediment to further scaling the energy and area of embedded computing.
+To address this, I led the design of [MBus, a new chip-to-chip
+interconnect](http://mbus.io) optimized for energy-conscious designs.
+
+The Michigan Micro Mote is on display in World's Smallest Computer exhibit the
+lobby of the Computer History Museum in Mountain View.
+You can [see the exhibit online here][chm].
+
+[chm]: https://computerhistory.org/blog/the-worlds-smallest-computer/
+
+[Cubeworks](http://cubeworks.us/) is commercializing the M<sup>3</sup> technology.
+</div>
+<div class="col-md-2" markdown="1">
+![M3 node on a finger](/images/research/m3-finger-square.jpg){: .img-fluid }
+
+![M3 node on edge of US nickel coin](/images/research/m3-nickel-square.jpg){: .img-fluid }
+</div>
+</div>
+<small>
+{
+[DATE'19](/pubs/oh2019IoT2.pdf) |
+[JSTS'16](/pubs/lee16mbus.pdf) |
+**[Micro Top Picks '16](/pubs/pannuto16mbus-top-picks.pdf)** |
+**[ISCA'15](/pubs/pannuto15mbus.pdf)** |
+**[WARP'15](/pubs/pannuto15making-m3.pdf)** |
+[CICC'14](/pubs/kuo14mbus.pdf) |
+[VLSI'14](/pubs/blaauw14iot.pdf) |
+[VLSI'14](/pubs/kim14motion.pdf) |
+[JSSC'13](/pubs/lee13modular.pdf)
+}
+</small>
+
 
 #### <a name="signpost"></a> The Signpost City-Scale Sensing Project
 <div class="row" markdown="1">
@@ -371,11 +400,10 @@ and experimentation for city-scale applications.
 </small>
 
 
+
 <hr />
 
 
-<div class="row" markdown="1">
-<div class="col-lg-12 col-xs-12" markdown="1">
 
 ## <a name="misc"></a> Miscellaneous
 
@@ -425,3 +453,9 @@ through both the [TerraSwarm][terraswarm] program (part of [STARnet][starnet]) a
 
 </div>
 </div>
+
+[dhananjay]: https://www.linkedin.com/in/dhananjay-jagtap-033a31146
+[wenshan]: https://wsluo.github.io/
+[gabriel]: https://gabriel.marcanobrady.family/
+[jennifer]: https://jennifer-switzer.com/
+[alexy]: https://alexlwyen.com/
