@@ -421,6 +421,8 @@ I am happy to share some of that advice and my application materials [here](/fel
 
 [Here are my application materials from the faculty market](/appkit). Hopefully they are helpful.
 
+ - [Here are thoughts (now with updates from Branden Ghena) on video interviews](https://docs.google.com/document/d/1tHs-DHV_PxAkCarNVevWQViHL4SySBd_O3o81DthePQ/). There are many great guides ([Wes Weimer's Job & Interview guide probably the best](https://csguides.github.io/grad-job-guide/)) for the process as a whole, but a bit less written on video pre-interviews as they're newer. Hope this helps; but mind the age of these thoughts as time marches on.
+
 [My dissertation (and sources to build it) is available here](/dissertation) – best of luck to all those working on theirs.
 
 One of my favorite parts of academia is the opportunity it has afforded me to travel the world.
