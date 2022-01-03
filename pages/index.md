@@ -58,8 +58,8 @@ health monitoring](#gridwatch).
 
 #### News
 
- - [Dhananjay][dhananjay] wins Best Presentation (Second Prize) at [ENSsys'20](http://www.enssys.org/2020/) – congratulations!
  - [Alex][alexy] wins Best Presentation (Runner-Up) at [CPS-IoTBench'21](https://www.iotbench.ethz.ch/cps-iotbench-2021/) – congratulations!
+ - [Dhananjay][dhananjay] wins Best Presentation (Second Prize) at [ENSsys'20](http://www.enssys.org/2020/) – congratulations!
 
 <!-- TODO: this would be cool if it pulled top N
 #### Recent Publications
@@ -98,7 +98,7 @@ A [history of my teaching prior to joining UCSD](/teaching.html) is also availab
 
 #### <a name="service"></a>Service
 
- - 2022: [MobiCom'22](https://www.sigmobile.org/mobicom/2022/) TPC Member (Summer &amp; Winter), [IPSN'22](https://ipsn.acm.org/2022/) TPC Member, [CPS-IoTBench'21](https://www.iotbench.ethz.ch/cps-iotbench-2021/) Workshop Co-Chair<!--, [ENSsys@ASPLOS'22](http://www.enssys.org/2021/) General Chair-->
+ - 2022: [MobiCom'22](https://www.sigmobile.org/mobicom/2022/) TPC Member (Summer &amp; Winter), [IPSN'22](https://ipsn.acm.org/2022/) TPC Member, [ISCAS'22](https://www.iscas2022.org/) Reviewer, [CPS-IoTBench'21](https://www.iotbench.ethz.ch/cps-iotbench-2021/) Workshop Co-Chair, [ENSsys@ASPLOS'22](http://www.enssys.org/2021/) General Chair
  - 2021: [IPSN'21](https://ipsn.acm.org/2021/) TPC Member, [CPS-IoTBench'21](https://www.iotbench.ethz.ch/cps-iotbench-2021/) Workshop Co-Chair, [ENSsys@SenSys'21](http://www.enssys.org/2021/) General Chair
  - 2020: [DATA'20](https://workshopdata.github.io/DATA2020/) Workshop Co-Chair, [ENSsys'20](http://www.enssys.org/2020/) TPC Member, [CPS-IoTBench'20](https://cpsbench20.ethz.ch/) TPC Member
  - 2019: [DATA'19](https://workshopdata.github.io/DATA2019/) Workshop Co-Chair
@@ -125,6 +125,82 @@ A [history of my teaching prior to joining UCSD](/teaching.html) is also availab
 
 
 <hr />
+
+#### <a name="scavenging"></a> Energy Scavenging
+
+<small>
+{
+[HotOs'21](/pubs/jagtap2021centuryinfra.pdf) |
+[ENSsys'20](/pubs/jagtap2020reliable.pdf)
+}
+</small>
+
+##### Soil MFCs
+
+<small>
+{
+[LP-IoT'21](/pubs/marcano2021einkbiobattery.pdf) |
+[Sensors Letters'20](/pubs/josephson2020farmingelectrons.pdf)
+}
+</small>
+
+##### Corrosion Batteries
+
+<div class="row" markdown="1">
+<div class="col-md-7" markdown="1">
+Infrastructure must constantly combat corrosion.
+The monitoring and maintenance of corrosion protection (or the consequences of
+its unchecked failure) is often one of the leading costs of infrastructure
+upkeep.
+Galvanic cathodic protection is a common corrosion control technique that is
+employed in applications from home appliances to boats to bridges.
+At its core, galvanic cathodic protection is simply an electrochemical
+cell—that is, a battery.
+This presents an opportunity to treat corrosion protection as an in-situ power
+source that by definition will last as long as the protection system itself.
+
+We show how to use infrastructure as a power source for wireless sensing devices.
+Our system takes advantage of newly available LPWAN technologies that allow for effortless
+wide-area coverage.
+We demonstrate the viability and efficacy of the system on one of the most
+common galvanic cathodic protection systems, home hot water heaters.
+We show that this technique can be a powerful new asset for corrosion
+monitoring and for deploying wireless sensor networks broadly.
+</div>
+<div class="col-md-5 caption" markdown="1">
+![Cathodic Protection Wells on UCSD Campus](/images/research/cp-test-points.jpg){: .img-fluid .d-none .d-md-block }
+While many cathodic protection systems are physically inaccessible (e.g. buried
+underground), deployments include frequent test points to enable inspection and
+maintenance.
+Today, these test points receive only infrequent, costly, manual sampling.
+</div>
+</div>
+
+<small>
+{
+[IPSN'21](/pubs/jagtap2021cathodicprotection.pdf)
+}
+</small>
+
+
+
+#### <a name="socitrack"></a> Social Interaction Tracking
+
+<small>
+{
+[Behavior Research Methods'21](/pubs/salo2021tottagmethods.pdf) |
+[MobiCom'20](/pubs/biri2020socitrack.pdf)
+}
+</small>
+
+
+#### <a name="infra"></a> Infrastructure
+
+<small>
+{
+[IMC'21](/pubs/jagtapyen2021helium.pdf)
+}
+</small>
 
 
 #### <a name="tock"></a> The Tock Operating System
@@ -164,6 +240,113 @@ security module, which is built on top of Tock.
 [SOSP'17](/pubs/levy17multiprogramming.pdf) |
 [APSys'17](/pubs/levy17rustkernel.pdf) |
 [PLOS'15](/pubs/levy15ownership.pdf)
+}
+</small>
+
+
+#### <a name="repro"></a> Reproducibility, Robustness, & Rigor
+
+<small>
+{
+[CPS-IoTBench'21](/pubs/yen2021repro.pdf)
+}
+</small>
+
+
+<hr />
+
+
+<div class="row" markdown="1">
+<div class="col-lg-12 col-xs-12" markdown="1">
+
+## <a name="projects-old"></a> Older Projects
+
+Some of these are still (very!) active and I am simply no longer affiliated,
+while others have been retired, but I thought all this work was pretty cool,
+so I'm not quite willing to delete it from my website yet :).
+
+
+#### <a name="gridwatch"></a> GridWatch and The Open INcentive Kit
+
+##### [Check out nLine, which is commercializing this work!](https://nline.io/)
+
+The power grid is one of humanity's most significant engineering undertakings,
+and it is essential in developed and developing nations alike. Yet, most grids
+have remarkably little introspection into their operation. GridWatch is
+inspired by a simple observation, a smartphone stops charging for one of two
+reasons: (1) The user unplugged it, (2) The power went out.
+Given that we can filter the first case with the phone's accelerometer, can a
+critical mass of smartphones act as low-fidelity, high-coverage,
+fine-granularity grid monitor that runs independent of local utilities?
+Following the promise shown by this initial inspiration, GridWatch has grown to
+include a rich suite of power sensing technologies, which includes [custom
+hardware][powerwatch] for high-fidelity measurements and ground truth and most
+recently ideas for [non-contact voltage monitoring][fancythat] from project
+collaborators.
+
+Today, GridWatch has micro deployments in the United States, Venezuela,
+Nigeria, and India. The primary deployment, branded DumsorWatch, in Accra,
+Ghana serves as one of the principle measurement and evaluation arms for the
+$498 million [Ghana Power Compact][mccghana] and has several hundred sensors
+deployed and several thousand app-based participants.
+
+Born out of the complex, wide-area study demanded by DumsorWatch,
+the [Open INcentive Kit][oink] (OINK) is a new platform for running and
+managing incentive-based studies. With OINK, experimenters set up a series of
+rules that express when and how study participants should be incentivized. OINK
+monitors a study, automatically triggers incentives, and handles disbursements.
+
+<small>
+{
+[COMPASS'19](/pubs/klugman19scale.pdf) |
+[GetMobile'19](/pubs/klugman19oldtricks.pdf) |
+[ICTD'19](/pubs/klugman19oink.pdf) |
+[MobiCom'18](/pubs/klugman18liberation.pdf) |
+[HotMobile'14](/pubs/klugman14gridwatch.pdf)
+}
+</small>
+
+[gridwatch]: http://lab11.eecs.umich.edu/projects/gridwatch/ "GridWatch: Mapping Blackouts with Smart Phones"
+[fancythat]: https://dl.acm.org/citation.cfm?id=3209864
+[powerwatch]: https://github.com/lab11/PlugWatch/tree/master/powerwatch
+[mccghana]: https://www.mcc.gov/where-we-work/program/ghana-power-compact
+[oink]: https://openincentivekit.com
+
+#### <a name="m3"></a> Michigan Micro Mote & MBus
+<div class="row" markdown="1">
+<div class="col-md-10" markdown="1">
+The Michigan Micro Mote, or M<sup>3</sup> project, aims to bring
+general-purpose computing and sensing to millimeter-scale devices.
+ As part of this effort, we identified the system interconnect as a key
+impediment to further scaling the energy and area of embedded computing.
+To address this, I led the design of [MBus, a new chip-to-chip
+interconnect](http://mbus.io) optimized for energy-conscious designs.
+
+The Michigan Micro Mote is on display in World's Smallest Computer exhibit the
+lobby of the Computer History Museum in Mountain View.
+You can [see the exhibit online here][chm].
+
+[chm]: https://computerhistory.org/blog/the-worlds-smallest-computer/
+
+[Cubeworks](http://cubeworks.us/) is commercializing the M<sup>3</sup> technology.
+</div>
+<div class="col-md-2" markdown="1">
+![M3 node on a finger](/images/research/m3-finger-square.jpg){: .img-fluid }
+
+![M3 node on edge of US nickel coin](/images/research/m3-nickel-square.jpg){: .img-fluid }
+</div>
+</div>
+<small>
+{
+[DATE'19](/pubs/oh2019IoT2.pdf) |
+[JSTS'16](/pubs/lee16mbus.pdf) |
+**[Micro Top Picks '16](/pubs/pannuto16mbus-top-picks.pdf)** |
+**[ISCA'15](/pubs/pannuto15mbus.pdf)** |
+**[WARP'15](/pubs/pannuto15making-m3.pdf)** |
+[CICC'14](/pubs/kuo14mbus.pdf) |
+[VLSI'14](/pubs/blaauw14iot.pdf) |
+[VLSI'14](/pubs/kim14motion.pdf) |
+[JSSC'13](/pubs/lee13modular.pdf)
 }
 </small>
 
@@ -279,106 +462,6 @@ support handwashing studies in hospital settings.
 [opo]: http://lab11.eecs.umich.edu/projects/opo/ "Opo: A Wearable Sensor for Capturing High-Fidelity Face-to-Face Interactions"
 
 
-
-
-<hr />
-
-
-<div class="row" markdown="1">
-<div class="col-lg-12 col-xs-12" markdown="1">
-
-## <a name="projects-old"></a> Older Projects
-
-Some of these are still (very!) active and I am simply no longer affiliated,
-while others have been retired, but I thought all this work was pretty cool,
-so I'm not quite willing to delete it from my website yet :).
-
-
-#### <a name="gridwatch"></a> GridWatch and The Open INcentive Kit
-
-##### [Check out nLine, which is commercializing this work!](https://nline.io/)
-
-The power grid is one of humanity's most significant engineering undertakings,
-and it is essential in developed and developing nations alike. Yet, most grids
-have remarkably little introspection into their operation. GridWatch is
-inspired by a simple observation, a smartphone stops charging for one of two
-reasons: (1) The user unplugged it, (2) The power went out.
-Given that we can filter the first case with the phone's accelerometer, can a
-critical mass of smartphones act as low-fidelity, high-coverage,
-fine-granularity grid monitor that runs independent of local utilities?
-Following the promise shown by this initial inspiration, GridWatch has grown to
-include a rich suite of power sensing technologies, which includes [custom
-hardware][powerwatch] for high-fidelity measurements and ground truth and most
-recently ideas for [non-contact voltage monitoring][fancythat] from project
-collaborators.
-
-Today, GridWatch has micro deployments in the United States, Venezuela,
-Nigeria, and India. The primary deployment, branded DumsorWatch, in Accra,
-Ghana serves as one of the principle measurement and evaluation arms for the
-$498 million [Ghana Power Compact][mccghana] and has several hundred sensors
-deployed and several thousand app-based participants.
-
-Born out of the complex, wide-area study demanded by DumsorWatch,
-the [Open INcentive Kit][oink] (OINK) is a new platform for running and
-managing incentive-based studies. With OINK, experimenters set up a series of
-rules that express when and how study participants should be incentivized. OINK
-monitors a study, automatically triggers incentives, and handles disbursements.
-
-<small>
-{
-[COMPASS'19](/pubs/klugman19scale.pdf) |
-[GetMobile'19](/pubs/klugman19oldtricks.pdf) |
-[ICTD'19](/pubs/klugman19oink.pdf) |
-[MobiCom'18](/pubs/klugman18liberation.pdf) |
-[HotMobile'14](/pubs/klugman14gridwatch.pdf)
-}
-</small>
-
-[gridwatch]: http://lab11.eecs.umich.edu/projects/gridwatch/ "GridWatch: Mapping Blackouts with Smart Phones"
-[fancythat]: https://dl.acm.org/citation.cfm?id=3209864
-[powerwatch]: https://github.com/lab11/PlugWatch/tree/master/powerwatch
-[mccghana]: https://www.mcc.gov/where-we-work/program/ghana-power-compact
-[oink]: https://openincentivekit.com
-
-#### <a name="m3"></a> Michigan Micro Mote & MBus
-<div class="row" markdown="1">
-<div class="col-md-10" markdown="1">
-The Michigan Micro Mote, or M<sup>3</sup> project, aims to bring
-general-purpose computing and sensing to millimeter-scale devices.
- As part of this effort, we identified the system interconnect as a key
-impediment to further scaling the energy and area of embedded computing.
-To address this, I led the design of [MBus, a new chip-to-chip
-interconnect](http://mbus.io) optimized for energy-conscious designs.
-
-The Michigan Micro Mote is on display in World's Smallest Computer exhibit the
-lobby of the Computer History Museum in Mountain View.
-You can [see the exhibit online here][chm].
-
-[chm]: https://computerhistory.org/blog/the-worlds-smallest-computer/
-
-[Cubeworks](http://cubeworks.us/) is commercializing the M<sup>3</sup> technology.
-</div>
-<div class="col-md-2" markdown="1">
-![M3 node on a finger](/images/research/m3-finger-square.jpg){: .img-fluid }
-
-![M3 node on edge of US nickel coin](/images/research/m3-nickel-square.jpg){: .img-fluid }
-</div>
-</div>
-<small>
-{
-[DATE'19](/pubs/oh2019IoT2.pdf) |
-[JSTS'16](/pubs/lee16mbus.pdf) |
-**[Micro Top Picks '16](/pubs/pannuto16mbus-top-picks.pdf)** |
-**[ISCA'15](/pubs/pannuto15mbus.pdf)** |
-**[WARP'15](/pubs/pannuto15making-m3.pdf)** |
-[CICC'14](/pubs/kuo14mbus.pdf) |
-[VLSI'14](/pubs/blaauw14iot.pdf) |
-[VLSI'14](/pubs/kim14motion.pdf) |
-[JSSC'13](/pubs/lee13modular.pdf)
-}
-</small>
-
-
 #### <a name="signpost"></a> The Signpost City-Scale Sensing Project
 <div class="row" markdown="1">
 <div class="col-md-9" markdown="1">
@@ -462,4 +545,4 @@ through both the [TerraSwarm][terraswarm] program (part of [STARnet][starnet]) a
 [wenshan]: https://wsluo.github.io/
 [gabriel]: https://gabriel.marcanobrady.family/
 [jennifer]: https://jennifer-switzer.com/
-[alexy]: https://alexlwyen.com/
+[alexy]: https://www.alexlwyen.com/

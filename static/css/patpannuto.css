@@ -22,6 +22,11 @@ a {color: #004499;}
 	border-radius: 10%;
 }
 
+.caption {
+	text-align: justify;
+	font-variant-caps: small-caps;
+}
+
 .bib_title {
 	font-weight: bold;
 }
