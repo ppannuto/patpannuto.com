@@ -220,7 +220,7 @@ in lecture.
   </tr>
 
   <tr>
-    <td>Week 1</td>
+    <td>Week 1<br/><i>Jan 3-9</i></td>
     <td>
       <ul>
         <li>M: <a href="WI22_cse141L-intro.pptx">Welcome, Logistics, &amp; Basics</a></li>
@@ -236,63 +236,73 @@ in lecture.
   </tr>
 
   <tr>
-    <td>Week 2</td>
+    <td>Week 2<br/><i>Jan 10-16</i></td>
     <td>Microprocessor Architecture</td>
     <td>Microprocessor Types</td>
   </tr>
 
   <tr>
-    <td>Week 3</td>
-    <td>Microprocessor Implementation</td>
+    <td>Week 3<br/><i>Jan 17-23</i></td>
+    <td>
+    Microprocessor Implementation
+    <ul>
+      <li><i>Jan 17: No class, university holiday.</i></li>
+    </ul>
+    </td>
     <td>Assembly Language</td>
   </tr>
 
   <tr>
-    <td>Week 4</td>
+    <td>Week 4<br/><i>Jan 24-30</i></td>
     <td>SystemVerilog</td>
-    <td>Lab 1 DUE</td>
+    <td>Lab 1 DUE<br />Deadline 12:00pm US/Pacific Jan 26</td>
   </tr>
 
   <tr>
-    <td>Week 5</td>
+    <td>Week 5<br/><i>Jan 31-Feb 6</i></td>
     <td>SystemVerilog Verification</td>
     <td>SystemVerilog</td>
   </tr>
 
   <tr>
-    <td>Week 6</td>
+    <td>Week 6<br/><i>Feb 7-13</i></td>
     <td>Debugging</td>
-    <td>Lab 2 DUE</td>
+    <td>Lab 2 DUE<br />Deadline 12:00pm US/Pacific Feb 9</td>
   </tr>
 
   <tr>
-    <td>Week 7</td>
+    <td>Week 7<br/><i>Feb 14-20</i></td>
     <td>Debugging</td>
     <td></td>
   </tr>
 
   <tr>
-    <td>Week 8</td>
-    <td>General Help</td>
-    <td>Lab 3 DUE</td>
+    <td>Week 8<br/><i>Feb 21-27</i></td>
+    <td>
+    General Help
+    <ul>
+      <li><i>Feb 21: No class, university holiday.</i></li>
+    </ul>
+    </td>
+    <td>Lab 3 DUE<br />Deadline 12:00pm US/Pacific Feb 23</td>
   </tr>
 
   <tr>
-    <td>Week 9</td>
+    <td>Week 9<br/><i>Feb 28-Mar 6</i></td>
     <td>Open Discussions / Q&amp;A</td>
     <td></td>
   </tr>
 
   <tr>
-    <td>Week 10</td>
+    <td>Week 10<br/><i>Mar 7-13</i></td>
     <td>[No Lecture] Good luck on projects!</td>
     <td></td>
   </tr>
 
   <tr>
-    <td>Week 11</td>
+    <td>Week 11<br/><i>Mar 14-16</i></td>
     <td></td>
-    <td>Final Report DUE</td>
+    <td>Final Report DUE<br />Deadline 2:30pm US/Pacific March 16</td>
   </tr>
 
 </table>
