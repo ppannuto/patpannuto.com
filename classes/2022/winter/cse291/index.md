@@ -43,14 +43,14 @@ Office hours available by appointment (please email / chat after class).
 ## Overview
 
 Internet of Things (IoT) devices are often battery-powered, or sometimes even
-enegery-harvesting and battery-free. For most applications, 80% or more of
+energy-harvesting and battery-free. For most applications, 80% or more of
 power goes to communication, sending data between the IoT device and the
 internet at large. These two realities mean that many IoT devices use custom
 communication technologies, or common ones in different ways (e.g. why does my
 Fitbit scale make my home WiFi go literally 100x slower when it's on?).
 
 This class will focus on how an IoT system designer should choose and use the
-wide array of wireless technologies. Specificially, we will look at WiFi,
+wide array of wireless technologies. Specifically, we will look at WiFi,
 Classic Bluetooth, Bluetooth Low Energy, IEEE 802.15.4, 2g/3g/4g cellular,
 LTE-M, NB-IoT, LoRa, SigFox, and some time with more esoteric choices, such
 as Visible Light Communication (VLC), Infrared Communication (IR), Ultrasonic,
@@ -103,7 +103,7 @@ Winter Quarter ends             Saturday, March 19
     <td colspan="4">Week 1: Introduction, Motivation, and Background</td>
   </tr>
   <tr>
-    <td>Jan&nbsp;3</td>
+    <td>Jan&nbsp;3<br/><a href="WI22_cse291-intro.pptx">[slides]</a></td>
     <td>
     <ul>
       <li>What's IoT?</li>
@@ -180,14 +180,16 @@ Winter Quarter ends             Saturday, March 19
 
 The intent of the project / report is to offer an open-ended opportunity to dig
 deeper into a wireless technology of your choosing.
-The format is deliberitely under-specified here.
+The format is deliberately under-specified here.
 You are welcome to implement something interesting, write a short paper, make a
 presentation, create a BLE-inspired interpretive dance, make an oil painting of
 your local spectrum utilization (seriously)—be creative!
+Read some about [Maker Culture](https://en.wikipedia.org/wiki/Maker_culture)
+and _make_ something (wireless, please).
 
 At this stage, you all have been doing this school thing for a while, and I trust
 you to create something appropriate for a small-to-medium end-of-term project.
-Group projects are acceptible, however, please do scale the project appropriately
+Group projects are acceptable, however, please do scale the project appropriately
 with the size of the group (bigger group, bigger project).
 You are welcome to discuss proposals with me if you wish.
 
@@ -206,10 +208,7 @@ will present their work.
 Logistics of this is lightly TBA until we have an understanding of how many
 groups will be presenting, and which modalities will be required.
 
-
-#### Coda
-
-For those projects who are willing, we'll post final papers and presentations here on the course website.
+We'll use the final exam slot–Monday, March 14 from 3-6pm–for the "conference."
 
 
 ---
