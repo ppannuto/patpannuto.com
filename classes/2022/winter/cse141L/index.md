@@ -59,6 +59,22 @@ By the end of this course, students will be able to:
 6. Work in a team, building a large, complex system using design principles that apply to both software and hardware.
 7. Help your classmates and exercise your creativity.
 
+
+### Prerequisites
+
+ - **CSE141 is a strongly enforced co-requisite.** You _must_ either be
+   concurrently enrolled in CSE141 or have previously taken CSE141. It is
+   expected that students take CSE141 and CSE141L in the same term.
+ - CSE140/140L (Required). This course assumes knowledges of circuits and
+   primitives such as registers and gates, synchronous and combinational logic,
+   state machines, and structures such as muxes and adders. We also assume some
+   familiarity with tools (Quartus, ModelSim, and Verilog generally) from 140/140L.
+ - CSE110 (Strongly Recommended). 110 gives critical experience in the design,
+   _planning_, and implementation of a large-scale project. It is strongly
+   encouraged for students to take 110 first, as this course is also a large
+   project, but more of the planning and breakdown of work is your own
+   responsibility in 141L.
+
 ---
 
 [TOC]
