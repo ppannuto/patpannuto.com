@@ -103,7 +103,7 @@ Winter Quarter ends             Saturday, March 19
     <td colspan="4">Week 1: Introduction, Motivation, and Background</td>
   </tr>
   <tr>
-    <td>Jan&nbsp;3<br/><a href="WI22_cse291-intro.pptx">[slides]</a></td>
+    <td>Jan&nbsp;3<br/><a href="WI22_cse291-01-intro.pptx">[slides]</a></td>
     <td>
     <ul>
       <li>What's IoT?</li>
