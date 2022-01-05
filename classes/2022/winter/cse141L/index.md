@@ -72,7 +72,7 @@ By the end of this course, students will be able to:
  - CSE110 (Strongly Recommended). 110 gives critical experience in the design,
    _planning_, and implementation of a large-scale project. It is strongly
    encouraged for students to take 110 first, as this course is also a large
-   project, but more of the planning and breakdown of work is your own
+   project but more of the planning and breakdown of work is your own
    responsibility in 141L.
 
 ---
