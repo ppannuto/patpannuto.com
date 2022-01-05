@@ -162,7 +162,7 @@ Students shall work in teams of one to three members each.
 Each group will work over the course of the quarter to design and implement
 a custom processor.
 
-There are four lab reports, due at the starts of weeks 4, 6, and 8, plus the final report.
+There are four reports, due at the starts of weeks 4, 6, and 8, plus the final report.
 Reports shall be submitted on [Gradescope][gradescope].
 
 There is no final exam for this course. The complete processor and its final
@@ -171,7 +171,7 @@ This quarter, that is 2:30pm US/Pacific on Wednesday, March 16.
 
 #### Logistics
 
-Submit lab reports on [Gradescope][gradescope].
+Submit reports on [Gradescope][gradescope].
 
 We will use [Piazza][piazza] for Q&A.
 
@@ -191,7 +191,7 @@ logic.
 
 #### Milestones
 
-There are intermediate deadlines (Labs 1, 2, and 3).
+There are intermediate deadlines (Milestones 1, 2, and 3).
 The primary goal of these is to help you ensure that you are on track.
 They will be evaluated by course staff, but this is primarily for feedback to
 you for your benefit; generally these will not directly impact your final
@@ -246,7 +246,7 @@ in lecture.
     <td>
       <ul>
         <li>W: SystemVerilog Tutorials</li>
-        <li>W: Lab 1 Released</li>
+        <li>W: Processor Specification Released</li>
       </ul>
     </td>
   </tr>
@@ -271,7 +271,7 @@ in lecture.
   <tr>
     <td>Week 4<br/><i>Jan 24-30</i></td>
     <td>SystemVerilog</td>
-    <td>Lab 1 DUE<br />Deadline 12:00pm US/Pacific Jan 26</td>
+    <td>Milestone 1 DUE<br />Deadline 12:00pm US/Pacific Jan 26</td>
   </tr>
 
   <tr>
@@ -283,7 +283,7 @@ in lecture.
   <tr>
     <td>Week 6<br/><i>Feb 7-13</i></td>
     <td>Debugging</td>
-    <td>Lab 2 DUE<br />Deadline 12:00pm US/Pacific Feb 9</td>
+    <td>Milestone 2 DUE<br />Deadline 12:00pm US/Pacific Feb 9</td>
   </tr>
 
   <tr>
@@ -300,7 +300,7 @@ in lecture.
       <li><i>Feb 21: No class, university holiday.</i></li>
     </ul>
     </td>
-    <td>Lab 3 DUE<br />Deadline 12:00pm US/Pacific Feb 23</td>
+    <td>Milestone 3 DUE<br />Deadline 12:00pm US/Pacific Feb 23</td>
   </tr>
 
   <tr>
