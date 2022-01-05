@@ -113,7 +113,7 @@ Winter Quarter ends             Saturday, March 19
     <td></td>
   </tr>
   <tr>
-    <td>Jan&nbsp;5</td>
+    <td>Jan&nbsp;5<br/><a href="WI22_cse291-02-networking.pptx">[slides]</a></td>
     <td>
     <ul>
       <li>Fundamentals of Networking</li>
