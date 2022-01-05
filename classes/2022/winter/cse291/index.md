@@ -220,7 +220,7 @@ We'll use the final exam slot–Monday, March 14 from 3-6pm–for the "conferenc
 </div>
 <div class="col-lg-10">
 <p>
-This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. Copyright <a href="https://patpannuto.com/">Pat Pannuto</a>, 2021.
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. Copyright <a href="https://patpannuto.com/">Pat Pannuto</a>, 2022.
 </p>
 </div>
 </div>
