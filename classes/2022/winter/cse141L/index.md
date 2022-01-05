@@ -240,12 +240,12 @@ in lecture.
     <td>
       <ul>
         <li>M: <a href="WI22_cse141L-intro.pptx">Welcome, Logistics, &amp; Basics</a></li>
-        <li>W: SystemVerilog</li>
+        <li>W: <a href="WI22_cse141L-SystemVerilog_I.pptx">SystemVerilog</a></li>
       </ul>
     </td>
     <td>
       <ul>
-        <li>W: SystemVerilog Tutorials</li>
+        <!-- <li>W: SystemVerilog Tutorials</li> -->
         <li>W: Processor Specification Released</li>
       </ul>
     </td>
