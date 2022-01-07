@@ -50,9 +50,9 @@ def class_md_to_html(src_path, dst_path, md_file, meta):
 
 static_extensions = [
 		'.css', '.js', '.ico', '.ttf', '.eot', '.svg', '.woff',
-		'.png', '.jpg', '.pdf', '.pptx', '.doc', '.txt', '.gz',
-		'.tgz', '.otf', '.odp', '.webmanifest', '.xml', '.zip',
-		'.webm',
+		'.png', '.jpg', '.pdf', '.pptx', '.doc', '.docx', '.txt',
+		'.gz', '.tgz', '.otf', '.odp', '.webmanifest', '.xml',
+		'.zip', '.webm',
 		]
 
 
