@@ -133,6 +133,7 @@ Winter Quarter ends             Saturday, March 19
     <ul>
       <li>Wireshark local network</li>
       <li>Identify and report on (a) traffic you made and can find, (b) traffic you didn't know you were making, (c) something you can't identify.</li>
+      <li><a href="WI22_Lab1_Wireshark.docx">Lab Worksheet [docx]</a></li>
     </ul>
     </td>
   </tr>
