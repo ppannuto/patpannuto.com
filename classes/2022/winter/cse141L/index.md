@@ -246,15 +246,19 @@ in lecture.
     <td>
       <ul>
         <!-- <li>W: SystemVerilog Tutorials</li> -->
-        <li>W: Processor Specification Released</li>
+        <li>F: Processor Specification Released</li>
       </ul>
     </td>
   </tr>
 
   <tr>
     <td>Week 2<br/><i>Jan 10-16</i></td>
-    <td>Microprocessor Architecture</td>
+    <td><a href="WI22_cse141L-ISA.pptx">Microprocessor Architecture &amp; ISAs</a></td>
     <td>Microprocessor Types</td>
+    <!-- Demos? Quartus RTL Viewer? -->
+    <!-- Demos? In-class example of basic_proc? -->
+    <!-- Demos? Timing diagrams? -->
+    <!-- Demos? Transcripts / diagnostic printouts from ModelSim -->
   </tr>
 
   <tr>
