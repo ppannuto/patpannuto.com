@@ -148,7 +148,12 @@ Winter Quarter ends             Saturday, March 19
       <li>Yesterday's Cellular is Today's Again</li>
     </ul>
     </td>
-    <td></td>
+    <td>
+    <b>Optional</b> Reading
+    <ul>
+      <li><a href="https://patpannuto.com/pubs/jagtap2021centuryinfra.pdf">Century-Scale Smart Infrastructure; HotOS'21</a> &mdash; Some thoughts on sunset issues in wireless technologies, how they will affect the IoT, and what we might do about it.</li>
+    </ul>
+    </td>
   </tr>
   <tr>
   <!-- OKAY. Fuck Covid, delete it all, and we will reimagine labs in realtime I guess. -->
