@@ -199,7 +199,7 @@ You are welcome to implement something interesting, write a short paper, make a
 presentation, create a BLE-inspired interpretive dance, make an oil painting of
 your local spectrum utilization (seriously)—be creative!
 Read some about [Maker Culture](https://en.wikipedia.org/wiki/Maker_culture)
-and _make_ something (wireless, please).
+and _make_ something (wireless or wireless-adjacent, please).
 
 At this stage, you all have been doing this school thing for a while, and I trust
 you to create something appropriate for a small-to-medium end-of-term project.
