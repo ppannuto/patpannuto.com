@@ -138,6 +138,19 @@ Winter Quarter ends             Saturday, March 19
     </td>
   </tr>
 
+  <tr class="table-info">
+    <td colspan="4">Long-Range Technologies</td>
+  </tr>
+  <tr>
+    <td>Jan&nbsp;10<br/><a href="WI22_cse291-03-og-cell.pptx">[slides]</a></td>
+    <td>
+    <ul>
+      <li>Yesterday's Cellular is Today's Again</li>
+    </ul>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
   <!-- OKAY. Fuck Covid, delete it all, and we will reimagine labs in realtime I guess. -->
 
 <!--
