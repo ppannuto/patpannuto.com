@@ -258,6 +258,9 @@ in lecture.
       <ul>
         <li>M: <a href="WI22_cse141L-03-ISA.pptx">Microprocessor Architecture &amp; ISAs</a></li>
         <li>W: <a href="WI22_cse141L-04-Early-Design.pptx">Early Design</a></li>
+        <ul>
+          <li><a href="WI22_cse141L-04-Notesheet.pdf">Notesheet</a></li>
+        </ul>
       </ul>
     </td>
     <td>Microprocessor Types</td>
