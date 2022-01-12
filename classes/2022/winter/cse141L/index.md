@@ -239,8 +239,8 @@ in lecture.
     <td>Week 1<br/><i>Jan 3-9</i></td>
     <td>
       <ul>
-        <li>M: <a href="WI22_cse141L-intro.pptx">Welcome, Logistics, &amp; Basics</a></li>
-        <li>W: <a href="WI22_cse141L-SystemVerilog_I.pptx">SystemVerilog</a></li>
+        <li>M: <a href="WI22_cse141L-01-intro.pptx">Welcome, Logistics, &amp; Basics</a></li>
+        <li>W: <a href="WI22_cse141L-02-SystemVerilog_I.pptx">SystemVerilog</a></li>
       </ul>
     </td>
     <td>
@@ -253,7 +253,12 @@ in lecture.
 
   <tr>
     <td>Week 2<br/><i>Jan 10-16</i></td>
-    <td><a href="WI22_cse141L-ISA.pptx">Microprocessor Architecture &amp; ISAs</a></td>
+    <td>
+      <ul>
+        <li>M: <a href="WI22_cse141L-03-ISA.pptx">Microprocessor Architecture &amp; ISAs</a></li>
+        <li>W: <a href="WI22_cse141L-04-Early-Design.pptx">Early Design</a></li>
+      </ul>
+    </td>
     <td>Microprocessor Types</td>
     <!-- Demos? Quartus RTL Viewer? -->
     <!-- Demos? In-class example of basic_proc? -->
