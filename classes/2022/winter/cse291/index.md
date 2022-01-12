@@ -156,6 +156,32 @@ Winter Quarter ends             Saturday, March 19
     </td>
   </tr>
   <tr>
+    <td>Jan&nbsp;12<br/><a href="WI22_cse291-04-moreGs-cell.pptx">[slides]</a></td>
+    <td>
+    <ul>
+      <li>Cellular: More G More Better?</li>
+    </ul>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <!--
+  <tr>
+    <td>Jan&nbsp;14</td>
+    <td>
+    <ul>
+      <li>A Global Perspective of a Global Network</li>
+    </ul>
+    </td>
+    <td>
+    <ul>
+      <li>Research global cellular cost and performance.</li>
+      <li><a href="WI22_Lab2_CellGlobalPerspective.docx">Lab Worksheet [docx]</a></li>
+    </ul>
+    </td>
+  </tr>
+  -->
+
   <!-- OKAY. Fuck Covid, delete it all, and we will reimagine labs in realtime I guess. -->
 
 <!--
