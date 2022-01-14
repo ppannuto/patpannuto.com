@@ -165,7 +165,6 @@ Winter Quarter ends             Saturday, March 19
     <td>
     </td>
   </tr>
-  <!--
   <tr>
     <td>Jan&nbsp;14</td>
     <td>
@@ -175,12 +174,11 @@ Winter Quarter ends             Saturday, March 19
     </td>
     <td>
     <ul>
-      <li>Research global cellular cost and performance.</li>
+      <li>Estimate cellular cost and performance for an IoT deployment.</li>
       <li><a href="WI22_Lab2_CellGlobalPerspective.docx">Lab Worksheet [docx]</a></li>
     </ul>
     </td>
   </tr>
-  -->
 
   <!-- OKAY. Fuck Covid, delete it all, and we will reimagine labs in realtime I guess. -->
 
