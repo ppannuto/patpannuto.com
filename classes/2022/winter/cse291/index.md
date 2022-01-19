@@ -179,6 +179,16 @@ Winter Quarter ends             Saturday, March 19
     </ul>
     </td>
   </tr>
+  <tr>
+    <td>Jan&nbsp;19<br/><a href="WI22_cse291-05-cell-for-IoT.pptx">[slides]</a></td>
+    <td>
+    <ul>
+      <li>Cellular for IoT &amp; Intro to LPWANs</li>
+    </ul>
+    </td>
+    <td>
+    </td>
+  </tr>
 
   <!-- OKAY. Fuck Covid, delete it all, and we will reimagine labs in realtime I guess. -->
 
