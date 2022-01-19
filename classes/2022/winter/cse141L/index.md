@@ -276,6 +276,7 @@ in lecture.
     Microprocessor Implementation
     <ul>
       <li><i>Jan 17: No class, university holiday.</i></li>
+      <li>W: <a href="WI22_cse141L-05-Implementing.pptx">Implementation [demos]</a></li>
     </ul>
     </td>
     <td>Assembly Language</td>
