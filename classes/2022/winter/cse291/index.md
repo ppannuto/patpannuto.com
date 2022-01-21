@@ -189,6 +189,21 @@ Winter Quarter ends             Saturday, March 19
     <td>
     </td>
   </tr>
+  <tr>
+    <td>Jan&nbsp;21</td>
+    <td>
+    <ul>
+      <li>Device Design Decisions<li>
+    </ul>
+    </td>
+    <td>
+    <ul>
+      <li>Radio technology and device lifetime</li>
+      <li>Find a cellular radio and figure out how much energy it will need.</li>
+      <li><a href="WI22_Lab3_CellIoTPower.docx">Lab Worksheet [docx]</a></li>
+    </ul>
+    </td>
+  </tr>
 
   <!-- OKAY. Fuck Covid, delete it all, and we will reimagine labs in realtime I guess. -->
 
