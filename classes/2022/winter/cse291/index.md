@@ -193,7 +193,7 @@ Winter Quarter ends             Saturday, March 19
     <td>Jan&nbsp;21</td>
     <td>
     <ul>
-      <li>Device Design Decisions<li>
+      <li>Device Design Decisions</li>
     </ul>
     </td>
     <td>
