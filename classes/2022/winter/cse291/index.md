@@ -133,7 +133,7 @@ Winter Quarter ends             Saturday, March 19
     <ul>
       <li>Wireshark local network</li>
       <li>Identify and report on (a) traffic you made and can find, (b) traffic you didn't know you were making, (c) something you can't identify.</li>
-      <li><a href="WI22_Lab1_Wireshark.docx">Lab Worksheet [docx]</a></li>
+      <li><a href="WI22_Lab1_Wireshark.docx">Lab Worksheet [docx]</a> <a href="WI22_Lab1_Wireshark.pdf">[pdf]</a></li>
     </ul>
     </td>
   </tr>
@@ -175,7 +175,7 @@ Winter Quarter ends             Saturday, March 19
     <td>
     <ul>
       <li>Estimate cellular cost and performance for an IoT deployment.</li>
-      <li><a href="WI22_Lab2_CellGlobalPerspective.docx">Lab Worksheet [docx]</a></li>
+      <li><a href="WI22_Lab2_CellGlobalPerspective.docx">Lab Worksheet [docx]</a> <a href="WI22_Lab2_CellGlobalPerspective.pdf">[pdf]</a></li>
     </ul>
     </td>
   </tr>
@@ -200,7 +200,7 @@ Winter Quarter ends             Saturday, March 19
     <ul>
       <li>Radio technology and device lifetime</li>
       <li>Find a cellular radio and figure out how much energy it will need.</li>
-      <li><a href="WI22_Lab3_CellIoTPower.docx">Lab Worksheet [docx]</a></li>
+      <li><a href="WI22_Lab3_CellIoTPower.docx">Lab Worksheet [docx]</a> <a href="WI22_Lab3_CellIoTPower.pdf">[pdf]</a></li>
     </ul>
     </td>
   </tr>
