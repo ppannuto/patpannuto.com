@@ -284,7 +284,7 @@ in lecture.
 
   <tr>
     <td>Week 4<br/><i>Jan 24-30</i></td>
-    <td>SystemVerilog</td>
+    <td>SystemVerilog <a href="WI22_cse141L-06-SystemVerilog_II.pptx">[slides]</a></td>
     <td>Milestone 1 DUE<br />Deadline 12:00pm US/Pacific Jan 26</td>
   </tr>
 
