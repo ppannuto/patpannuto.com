@@ -35,7 +35,7 @@ CSE 141L: Introduction to Computer Architecture (Lab)
 Meets M/W from 12:00 to 12:50 in CENTR 115.<br/>
 
 [Pat Pannuto](https://patpannuto.com) is the instructor, and their office is CSE 3202 (right in the corner).<br/>
-Office hours Wednesday 3-4pm ([via Zoom](https://ucsd.zoom.us/j/94468743855) or
+Office hours Wednesday 3:30-4:20pm ([via Zoom](https://ucsd.zoom.us/j/94468743855) or
 in-person), or always available by appointment (please email / chat after class).
 
 ---
