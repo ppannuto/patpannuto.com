@@ -216,6 +216,19 @@ Winter Quarter ends             Saturday, March 19
     <td>
     </td>
   </tr>
+  <tr>
+    <td>Jan&nbsp;28</td>
+    <td>
+    <ul>
+      <li>Holistic LPWAN Design</li>
+    </ul>
+    </td>
+    <td>
+    <ul>
+      <li><a href="WI22_Lab4_LPWAN-Full-Circle.docx">Lab Worksheet [docx]</a> <a href="WI22_Lab4_LPWAN-Full-Circle.pdf">[pdf]</a></li>
+    </ul>
+    </td>
+  </tr>
 
   <!-- OKAY. Fuck Covid, delete it all, and we will reimagine labs in realtime I guess. -->
 
