@@ -285,6 +285,14 @@ in lecture.
   <tr>
     <td>Week 4<br/><i>Jan 24-30</i></td>
     <td>SystemVerilog <a href="WI22_cse141L-06-SystemVerilog_II.pptx">[slides]</a></td>
+    <!--
+      WI22 Acutal
+        M: All slides
+        W: Demo code
+          -- /2 clock divider [show how posedge div's clock]
+          -- walk through ALU tb
+          -- All in Questa
+    -->
     <td>Milestone 1 DUE<br />Deadline 12:00pm US/Pacific Jan 26</td>
   </tr>
 
