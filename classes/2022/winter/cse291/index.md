@@ -230,6 +230,20 @@ Winter Quarter ends             Saturday, March 19
     </td>
   </tr>
 
+  <tr class="table-info">
+    <td colspan="4">RF in the Small: PANs and WANs</td>
+  </tr>
+  <tr>
+    <td>Jan&nbsp;31<br/><a href="WI22_cse291-08-BLE.pptx">[slides]</a></td>
+    <td>
+    <ul>
+      <li>Bluetooth Low Energy</li>
+    </ul>
+    </td>
+    <td>
+    </td>
+  </tr>
+
   <!-- OKAY. Fuck Covid, delete it all, and we will reimagine labs in realtime I guess. -->
 
 <!--
