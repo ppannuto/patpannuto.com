@@ -298,7 +298,7 @@ in lecture.
 
   <tr>
     <td>Week 5<br/><i>Jan 31-Feb 6</i></td>
-    <td>SystemVerilog Verification</td>
+    <td>SystemVerilog Verification <a href="WI22_cse141L-07-Verification.pptx">[slides]</a></td>
     <td>SystemVerilog</td>
   </tr>
 
