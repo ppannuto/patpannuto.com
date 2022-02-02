@@ -241,6 +241,7 @@ Winter Quarter ends             Saturday, March 19
     </ul>
     </td>
     <td>
+    Yes, <a href="https://www.snopes.com/fact-check/bluetooth-etymology/">Bluetooth really is named after a Viking king, and the symbol is his initials</a>.
     </td>
   </tr>
   <tr>
