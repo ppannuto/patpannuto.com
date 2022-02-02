@@ -299,6 +299,14 @@ in lecture.
   <tr>
     <td>Week 5<br/><i>Jan 31-Feb 6</i></td>
     <td>SystemVerilog Verification <a href="WI22_cse141L-07-Verification.pptx">[slides]</a></td>
+    <!--
+      WI22 Acutal
+        M: All slides
+        W: Demo code
+          -- Build up a ProgCtr testbench
+          -- Use this to show 'detailed timing diagrams; diagnostic output'
+          -- Maybe: Discuss simulation vs synthesis
+    -->
     <td>SystemVerilog</td>
   </tr>
 
