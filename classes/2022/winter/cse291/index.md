@@ -243,6 +243,28 @@ Winter Quarter ends             Saturday, March 19
     <td>
     </td>
   </tr>
+  <tr>
+    <td>Feb&nbsp;2<br/><a href="WI22_cse291-09-BLE-adv.pptx">[slides]</a></td>
+    <td>
+    <ul>
+      <li>BLE &amp; Advertisement-based Networking?</li>
+    </ul>
+    </td>
+    <td>
+    Papers referenced for those interested in more details:
+    <small>
+    <ul>
+      <li>Martin, Jeremy, et al. <i>Handoff all your privacy–a review of apple’s bluetooth low energy continuity protocol.</i> PETS, 2019</li>
+      <li>DeBruin, Samuel, et al. <i>Powerblade: A low-profile, true-power, plug-through energy meter.</i>SenSys, 2015.</li>
+      <li>Schrader, Raphael, et al. <i>Advertising power consumption of bluetooth low energy systems.</i> IDAACS-SWS, 2016.</li>
+      <li>Jeon, Wha Sook, et al. <i>Performance analysis of neighbor discovery process in bluetooth low-energy networks.</i> IEEE TVT, 2016.</li>
+      <li>Perez-Diaz de Cerio, David, et al. <i>Analytical and experimental performance evaluation of BLE neighbor discovery process including non-idealities of real chipsets.</i> Sensors, 2017.</li>
+      <li>Ghena, Branden. <i>Investigating Low Energy Wireless Networks for the Internet of Things.</i> PhD Thesis, 2020.</li>
+      <li>Kravets, Robin, et al. <i>Beacon trains: Blazing a trail through dense BLE environments.</i> Workshop on Challenged Networks, 2016.</li>
+    </ul>
+    </small>
+    </td>
+  </tr>
 
   <!-- OKAY. Fuck Covid, delete it all, and we will reimagine labs in realtime I guess. -->
 
