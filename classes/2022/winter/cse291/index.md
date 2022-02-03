@@ -214,6 +214,16 @@ Winter Quarter ends             Saturday, March 19
     </ul>
     </td>
     <td>
+    Papers referenced for those interested in more details:
+    <small>
+    <ul>
+      <li>Abusayeed Saifullah, et al. <i>SNOW: Sensor Network over White Spaces.</i> SenSys, 2016.</li>
+      <li>Xianjin Xia, et al. <i>FTrack: Parallel decoding for LoRa transmissions.</i> SenSys, 2017.</li>
+      <li>Shuai Tong, et al. <i>Combating packet collisions using non-stationary signal scaling in LPWANs.</i> MobiSys, 2020.</li>
+      <li>Shuai Tong, et al. <i>CoLoRa: Enabling multipacket reception in LoRa.</i> INFOCOM, 2020.</li>
+      <li>Muhammad Osama Shahid, et al. <i>Concurrent interference cancellation: Decoding multi-packet collisions in LoRa.</i>, SIGCOMM, 2021.</li>
+    </ul>
+    </small>
     </td>
   </tr>
   <tr>
