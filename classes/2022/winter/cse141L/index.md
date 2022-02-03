@@ -312,7 +312,11 @@ in lecture.
 
   <tr>
     <td>Week 6<br/><i>Feb 7-13</i></td>
-    <td>Debugging</td>
+    <td>
+    <ul>
+    <li>M: Synthesis vs Simulation <a href="WI22_cse141L-08-SynthesisAndTiming.pptx">[slides]</a></li>
+    <li>W: Alternative tools</li>
+    </td>
     <td>Milestone 2 DUE<br />Deadline 12:00pm US/Pacific Feb 9</td>
   </tr>
 
