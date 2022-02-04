@@ -283,7 +283,7 @@ Winter Quarter ends             Saturday, March 19
     </td>
     <td>
     <ul>
-      <li><a href="WI22_Lab5_IntroBLE.docx">Lab Worksheet [docx]</a> <a href="WI22_Lab5_IntroBLE.docx">[pdf]</a></li>
+      <li><a href="WI22_Lab5_IntroBLE.docx">Lab Worksheet [docx]</a> <a href="WI22_Lab5_IntroBLE.pdf">[pdf]</a></li>
     </ul>
     </td>
   </tr>
