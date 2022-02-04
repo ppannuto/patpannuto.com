@@ -276,6 +276,17 @@ Winter Quarter ends             Saturday, March 19
     </small>
     </td>
   </tr>
+  <tr class="table-warning">
+    <td>Feb&nbsp;4</td>
+    <td>
+    Real-World BLE
+    </td>
+    <td>
+    <ul>
+      <li><a href="WI22_Lab5_IntroBLE.docx">Lab Worksheet [docx]</a> <a href="WI22_Lab5_IntroBLE.docx">[pdf]</a></li>
+    </ul>
+    </td>
+  </tr>
 
   <!-- OKAY. Fuck Covid, delete it all, and we will reimagine labs in realtime I guess. -->
 
