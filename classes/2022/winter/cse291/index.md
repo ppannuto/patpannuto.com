@@ -96,7 +96,7 @@ Winter Quarter ends             Saturday, March 19
   <tr class="table-primary">
     <th>Date</th>
     <th>Topic</th>
-    <th>Assignment?</th>
+    <th>Assignment / Additional Materials</th>
   </tr>
 
   <tr class="table-info">
@@ -122,7 +122,7 @@ Winter Quarter ends             Saturday, March 19
     </td>
     <td></td>
   </tr>
-  <tr>
+  <tr class="table-info">
     <td>Jan&nbsp;7</td>
     <td>
     <ul>
@@ -144,8 +144,10 @@ Winter Quarter ends             Saturday, March 19
   <tr>
     <td>Jan&nbsp;10<br/><a href="WI22_cse291-03-og-cell.pptx">[slides]</a></td>
     <td>
+    Mobile Networking Origins
     <ul>
-      <li>Yesterday's Cellular is Today's Again</li>
+      <li>Fundamentals of ceullar technology</li>
+      <li>Relevance of &ldquo;old&rdquo; cell technology to today&rsquo;s IoT</li>
     </ul>
     </td>
     <td>
@@ -158,19 +160,18 @@ Winter Quarter ends             Saturday, March 19
   <tr>
     <td>Jan&nbsp;12<br/><a href="WI22_cse291-04-moreGs-cell.pptx">[slides]</a></td>
     <td>
+    Evolution of Cellular
     <ul>
-      <li>Cellular: More G More Better?</li>
+      <li>3G, 4G, and 5G</li>
     </ul>
     </td>
     <td>
     </td>
   </tr>
-  <tr>
+  <tr class="table-warning">
     <td>Jan&nbsp;14</td>
     <td>
-    <ul>
-      <li>A Global Perspective of a Global Network</li>
-    </ul>
+    Emprical, Global Perspective of Cellular
     </td>
     <td>
     <ul>
@@ -182,19 +183,19 @@ Winter Quarter ends             Saturday, March 19
   <tr>
     <td>Jan&nbsp;19<br/><a href="WI22_cse291-05-cell-for-IoT.pptx">[slides]</a></td>
     <td>
+    Upcoming Cellular IoT Technologies
     <ul>
-      <li>Cellular for IoT &amp; Intro to LPWANs</li>
+      <li>LTE Cat-M</li>
+      <li>NB-IoT</li>
     </ul>
     </td>
     <td>
     </td>
   </tr>
-  <tr>
+  <tr class="table-warning">
     <td>Jan&nbsp;21</td>
     <td>
-    <ul>
-      <li>Device Design Decisions</li>
-    </ul>
+    Design Decisions I
     </td>
     <td>
     <ul>
@@ -207,6 +208,7 @@ Winter Quarter ends             Saturday, March 19
   <tr>
     <td>Jan&nbsp;24 &amp; 26<br/><a href="WI22_cse291-06_07-LPWANs.pptx">[slides]</a></td>
     <td>
+    LPWANs
     <ul>
       <li>LPWAN Design</li>
       <li>Unlicensed LPWANs</li>
@@ -226,12 +228,10 @@ Winter Quarter ends             Saturday, March 19
     </small>
     </td>
   </tr>
-  <tr>
+  <tr class="table-warning">
     <td>Jan&nbsp;28</td>
     <td>
-    <ul>
-      <li>Holistic LPWAN Design</li>
-    </ul>
+    Design Decisions II
     </td>
     <td>
     <ul>
@@ -246,9 +246,7 @@ Winter Quarter ends             Saturday, March 19
   <tr>
     <td>Jan&nbsp;31<br/><a href="WI22_cse291-08-BLE.pptx">[slides]</a></td>
     <td>
-    <ul>
-      <li>Bluetooth Low Energy</li>
-    </ul>
+    Bluetooth Low Energy
     </td>
     <td>
     Yes, <a href="https://www.snopes.com/fact-check/bluetooth-etymology/">Bluetooth really is named after a Viking king, and the symbol is his initials</a>.
@@ -257,8 +255,10 @@ Winter Quarter ends             Saturday, March 19
   <tr>
     <td>Feb&nbsp;2<br/><a href="WI22_cse291-09-BLE-adv.pptx">[slides]</a></td>
     <td>
+    BLE Advertisements
     <ul>
-      <li>BLE &amp; Advertisement-based Networking?</li>
+      <li>Advertisement Detail</li>
+      <li>Advertisement-based Networking?</li>
     </ul>
     </td>
     <td>
