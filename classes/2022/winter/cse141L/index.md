@@ -315,7 +315,7 @@ in lecture.
     <td>
     <ul>
     <li>M: Synthesis vs Simulation <a href="WI22_cse141L-08-SynthesisAndTiming.pptx">[slides]</a></li>
-    <li>W: Alternative tools</li>
+    <li>W: Alternative tools <a href="WI22_cse141L-09-AlternativeTools.pptx">[slides]</a></li>
     </td>
     <td>Milestone 2 DUE<br />Deadline 12:00pm US/Pacific Feb 9</td>
   </tr>
