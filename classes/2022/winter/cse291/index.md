@@ -287,6 +287,13 @@ Winter Quarter ends             Saturday, March 19
     </ul>
     </td>
   </tr>
+  <tr>
+    <td>Feb&nbsp;7<br/><a href="WI22_cse291-10-BLE-conn.pptx">[slides]</a></td>
+    <td>
+    BLE Connections
+    </td>
+    <td></td>
+  </tr>
 
   <!-- OKAY. Fuck Covid, delete it all, and we will reimagine labs in realtime I guess. -->
 
