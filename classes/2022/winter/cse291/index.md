@@ -294,6 +294,14 @@ Winter Quarter ends             Saturday, March 19
     </td>
     <td></td>
   </tr>
+  <tr>
+    <td>Feb&nbsp;9<br/><a href="WI22_cse291-11-ieee802154.pptx">[slides]</a><a href="WI22_cse291-11-ieee802154.pdf">[pdf]</a></td>
+    <td>
+    [Project Check-in]<br />
+    Intro to 802.15.4
+    </td>
+    <td></td>
+  </tr>
 
   <!-- OKAY. Fuck Covid, delete it all, and we will reimagine labs in realtime I guess. -->
 
