@@ -240,8 +240,8 @@ in lecture.
     <td>Week 1<br/><i>Jan 3-9</i></td>
     <td>
       <ul>
-        <li>M: <a href="WI22_cse141L-01-intro.pptx">Welcome, Logistics, &amp; Basics</a></li>
-        <li>W: <a href="WI22_cse141L-02-SystemVerilog_I.pptx">SystemVerilog</a></li>
+        <li>M: Welcome, Logistics, &amp; Basics <a href="WI22_cse141L-01-intro.pptx">[slides]</a><a href="WI22_cse141L-01-intro.pdf">[pdf]</a></li>
+        <li>W: SystemVerilog <a href="WI22_cse141L-02-SystemVerilog_I.pptx">[slides]</a><a href="WI22_cse141L-02-SystemVerilog_I.pdf">[pdf]</a></li>
       </ul>
     </td>
     <td>
@@ -256,8 +256,8 @@ in lecture.
     <td>Week 2<br/><i>Jan 10-16</i></td>
     <td>
       <ul>
-        <li>M: <a href="WI22_cse141L-03-ISA.pptx">Microprocessor Architecture &amp; ISAs</a></li>
-        <li>W: <a href="WI22_cse141L-04-Early-Design.pptx">Early Design</a></li>
+        <li>M: Microprocessor Architecture &amp; ISAs <a href="WI22_cse141L-03-ISA.pptx">[slides]</a><a href="WI22_cse141L-03-ISA.pdf">[pdf]</a></li>
+        <li>W: Early Design <a href="WI22_cse141L-04-Early-Design.pptx">[slides]</a><a href="WI22_cse141L-04-Early-Design.pptx">[pdf]</a></li>
         <ul>
           <li><a href="WI22_cse141L-04-Notesheet.pdf">Notesheet</a></li>
         </ul>
@@ -276,7 +276,7 @@ in lecture.
     Microprocessor Implementation
     <ul>
       <li><i>Jan 17: No class, university holiday.</i></li>
-      <li>W: <a href="WI22_cse141L-05-Implementing.pptx">Implementation [demos]</a></li>
+      <li>W: Implementation (demos) <a href="WI22_cse141L-05-Implementing.pptx">[slides]</a><a href="WI22_cse141L-05-Implementing.pdf">[pdf]</a></li>
     </ul>
     </td>
     <td>Assembly Language</td>
@@ -284,7 +284,7 @@ in lecture.
 
   <tr>
     <td>Week 4<br/><i>Jan 24-30</i></td>
-    <td>SystemVerilog <a href="WI22_cse141L-06-SystemVerilog_II.pptx">[slides]</a></td>
+    <td>SystemVerilog <a href="WI22_cse141L-06-SystemVerilog_II.pptx">[slides]</a><a href="WI22_cse141L-06-SystemVerilog_II.pdf">[pdf]</a></td>
     <!--
       WI22 Acutal
         M: All slides
@@ -298,7 +298,7 @@ in lecture.
 
   <tr>
     <td>Week 5<br/><i>Jan 31-Feb 6</i></td>
-    <td>SystemVerilog Verification <a href="WI22_cse141L-07-Verification.pptx">[slides]</a></td>
+    <td>SystemVerilog Verification <a href="WI22_cse141L-07-Verification.pptx">[slides]</a><a href="WI22_cse141L-07-Verification.pdf">[pdf]</a></td>
     <!--
       WI22 Acutal
         M: All slides
@@ -314,8 +314,8 @@ in lecture.
     <td>Week 6<br/><i>Feb 7-13</i></td>
     <td>
     <ul>
-    <li>M: Synthesis vs Simulation <a href="WI22_cse141L-08-SynthesisAndTiming.pptx">[slides]</a></li>
-    <li>W: Alternative tools <a href="WI22_cse141L-09-AlternativeTools.pptx">[slides]</a></li>
+    <li>M: Synthesis vs Simulation <a href="WI22_cse141L-08-SynthesisAndTiming.pptx">[slides]</a><a href="WI22_cse141L-08-SynthesisAndTiming.pdf">[pdf]</a></li>
+    <li>W: Alternative tools <a href="WI22_cse141L-09-AlternativeTools.pptx">[slides]</a><a href="WI22_cse141L-09-AlternativeTools.pdf">[pdf]</a></li>
     </td>
     <td>Milestone 2 DUE<br />Deadline 12:00pm US/Pacific Feb 9</td>
   </tr>
