@@ -103,7 +103,7 @@ Winter Quarter ends             Saturday, March 19
     <td colspan="4">Week 1: Introduction, Motivation, and Background</td>
   </tr>
   <tr>
-    <td>Jan&nbsp;3<br/><a href="WI22_cse291-01-intro.pptx">[slides]</a></td>
+    <td>Jan&nbsp;3<br/><a href="WI22_cse291-01-intro.pptx">[slides]</a><a href="WI22_cse291-01-intro.pdf">[pdf]</a></td>
     <td>
     <ul>
       <li>What's IoT?</li>
@@ -113,7 +113,7 @@ Winter Quarter ends             Saturday, March 19
     <td></td>
   </tr>
   <tr>
-    <td>Jan&nbsp;5<br/><a href="WI22_cse291-02-networking.pptx">[slides]</a></td>
+    <td>Jan&nbsp;5<br/><a href="WI22_cse291-02-networking.pptx">[slides]</a><a href="WI22_cse291-02-networking.pdf">[pdf]</a></td>
     <td>
     <ul>
       <li>Fundamentals of Networking</li>
@@ -142,7 +142,7 @@ Winter Quarter ends             Saturday, March 19
     <td colspan="4">Long-Range Technologies</td>
   </tr>
   <tr>
-    <td>Jan&nbsp;10<br/><a href="WI22_cse291-03-og-cell.pptx">[slides]</a></td>
+    <td>Jan&nbsp;10<br/><a href="WI22_cse291-03-og-cell.pptx">[slides]</a><a href="WI22_cse291-03-og-cell.pdf">[pdf]</a></td>
     <td>
     Mobile Networking Origins
     <ul>
@@ -158,7 +158,7 @@ Winter Quarter ends             Saturday, March 19
     </td>
   </tr>
   <tr>
-    <td>Jan&nbsp;12<br/><a href="WI22_cse291-04-moreGs-cell.pptx">[slides]</a></td>
+    <td>Jan&nbsp;12<br/><a href="WI22_cse291-04-moreGs-cell.pptx">[slides]</a><a href="WI22_cse291-04-moreGs-cell.pdf">[pdf]</a></td>
     <td>
     Evolution of Cellular
     <ul>
@@ -181,7 +181,7 @@ Winter Quarter ends             Saturday, March 19
     </td>
   </tr>
   <tr>
-    <td>Jan&nbsp;19<br/><a href="WI22_cse291-05-cell-for-IoT.pptx">[slides]</a></td>
+    <td>Jan&nbsp;19<br/><a href="WI22_cse291-05-cell-for-IoT.pptx">[slides]</a><a href="WI22_cse291-05-cell-for-IoT.pdf">[pdf]</a></td>
     <td>
     Upcoming Cellular IoT Technologies
     <ul>
@@ -206,7 +206,7 @@ Winter Quarter ends             Saturday, March 19
     </td>
   </tr>
   <tr>
-    <td>Jan&nbsp;24 &amp; 26<br/><a href="WI22_cse291-06_07-LPWANs.pptx">[slides]</a></td>
+    <td>Jan&nbsp;24 &amp; 26<br/><a href="WI22_cse291-06_07-LPWANs.pptx">[slides]</a><a href="WI22_cse291-06_07-LPWANs.pdf">[pdf]</a></td>
     <td>
     LPWANs
     <ul>
@@ -244,7 +244,7 @@ Winter Quarter ends             Saturday, March 19
     <td colspan="4">RF in the Small: PANs and WANs</td>
   </tr>
   <tr>
-    <td>Jan&nbsp;31<br/><a href="WI22_cse291-08-BLE.pptx">[slides]</a></td>
+    <td>Jan&nbsp;31<br/><a href="WI22_cse291-08-BLE.pptx">[slides]</a><a href="WI22_cse291-08-BLE.pdf">[pdf]</a></td>
     <td>
     Bluetooth Low Energy
     </td>
@@ -253,7 +253,7 @@ Winter Quarter ends             Saturday, March 19
     </td>
   </tr>
   <tr>
-    <td>Feb&nbsp;2<br/><a href="WI22_cse291-09-BLE-adv.pptx">[slides]</a></td>
+    <td>Feb&nbsp;2<br/><a href="WI22_cse291-09-BLE-adv.pptx">[slides]</a><a href="WI22_cse291-09-BLE-adv.pdf">[pdf]</a></td>
     <td>
     BLE Advertisements
     <ul>
@@ -288,7 +288,7 @@ Winter Quarter ends             Saturday, March 19
     </td>
   </tr>
   <tr>
-    <td>Feb&nbsp;7<br/><a href="WI22_cse291-10-BLE-conn.pptx">[slides]</a></td>
+    <td>Feb&nbsp;7<br/><a href="WI22_cse291-10-BLE-conn.pptx">[slides]</a><a href="WI22_cse291-10-BLE-conn.pdf">[pdf]</a></td>
     <td>
     BLE Connections
     </td>
