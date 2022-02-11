@@ -122,7 +122,7 @@ Winter Quarter ends             Saturday, March 19
     </td>
     <td></td>
   </tr>
-  <tr class="table-info">
+  <tr class="table-warning">
     <td>Jan&nbsp;7</td>
     <td>
     <ul>
