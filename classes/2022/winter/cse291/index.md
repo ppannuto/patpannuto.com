@@ -302,6 +302,17 @@ Winter Quarter ends             Saturday, March 19
     </td>
     <td></td>
   </tr>
+  <tr class="table-warning">
+    <td>Feb&nbsp;11</td>
+    <td>
+    BLE Connections
+    </td>
+    <td>
+    <ul>
+      <li><a href="WI22_Lab6_BLEConnections.docx">Lab Worksheet [docx]</a> <a href="WI22_Lab6_BLEConnections.pdf">[pdf]</a></li>
+    </ul>
+    </td>
+  </tr>
 
   <!-- OKAY. Fuck Covid, delete it all, and we will reimagine labs in realtime I guess. -->
 
