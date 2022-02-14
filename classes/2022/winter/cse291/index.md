@@ -313,6 +313,21 @@ Winter Quarter ends             Saturday, March 19
     </ul>
     </td>
   </tr>
+  <tr>
+    <td>Feb&nbsp;14<br/><a href="WI22_cse291-12-ieee802154_Thread.pptx">[slides]</a><a href="WI22_cse291-12-ieee802154_Thread.pdf">[pdf]</a></td>
+    <td>
+    Finish 802.15.4<br />
+    Intro to Thread
+    </td>
+    <td>
+    Papers referenced for those interested in more details:
+    <small>
+    <ul>
+      <li>Hui, Jonathan W., et al. <a href="https://patpannuto.com/papers/hui2008ipdead.pdf"><i>IP is Dead, Long Live IP for Wireless Sensor Networks.</i></a> SenSys, 2008</li>
+    </ul>
+    </small>
+    </td>
+  </tr>
 
   <!-- OKAY. Fuck Covid, delete it all, and we will reimagine labs in realtime I guess. -->
 
