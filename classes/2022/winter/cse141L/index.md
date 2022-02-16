@@ -333,12 +333,18 @@ in lecture.
     <td></td>
   </tr>
 
+  <tr class="table-warning">
+    <td colspan="3">
+    <i>Note:</i> To allow for free and open discussion, lectures after this point <strong>will not</strong> be recorded.
+    </td>
+  </tr>
+
   <tr>
     <td>Week 8<br/><i>Feb 21-27</i></td>
     <td>
-    General Help
     <ul>
       <li><i>Feb 21: No class, university holiday.</i></li>
+      <li>W: General Help</li>
     </ul>
     </td>
     <td>Milestone 3 DUE<br />Deadline 12:00pm US/Pacific Feb 23</td>
