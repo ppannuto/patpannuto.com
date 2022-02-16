@@ -328,6 +328,22 @@ Winter Quarter ends             Saturday, March 19
     </small>
     </td>
   </tr>
+  <tr>
+    <td>Feb&nbsp;16<br/><a href="WI22_cse291-13-Thread.pptx">[slides]</a><a href="WI22_cse291-13-Thread.pdf">[pdf]</a></td>
+    <td>
+    Thread
+    </td>
+    <td>
+    Additional Resources:
+    <small>
+    <ul>
+      <li>Geoff Mulligan and the 6LoWPAN WG. <a href="https://dl.acm.org/doi/10.1145/1278972.1278992"><i>The 6LoWPAN architecture.</i></a> EmNets, 2007.</li>
+      <li>Thread Group. <a href="https://www.threadgroup.org/Portals/0/documents/support/6LoWPANUsage_632_2.pdf"><i>Thread Usage of 6LoWPAN.</i></a> White Paper, 2015.</li>
+      <li>Thread Group. <a href="https://www.threadgroup.org/Portals/0/documents/support/Thread%20Network%20Fundamentals_v3.pdf"><i>Thread Network Fundamentals.</i></a> White Paper, 2020.</li>
+    </ul>
+    </small>
+    </td>
+  </tr>
 
   <!-- OKAY. Fuck Covid, delete it all, and we will reimagine labs in realtime I guess. -->
 
