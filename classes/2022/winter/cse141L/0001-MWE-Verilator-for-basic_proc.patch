@@ -1,0 +1,183 @@
+From: Pat Pannuto <pat.pannuto@gmail.com>
+
+---
+ basic_proc/Makefile             | 11 +++-
+ basic_proc/TopLevel.sv          | 32 +++++++++++
+ basic_proc/verilator/sim_cc.cpp | 97 +++++++++++++++++++++++++++++++++
+ 3 files changed, 138 insertions(+), 2 deletions(-)
+ create mode 100644 basic_proc/verilator/sim_cc.cpp
+
+diff --git a/basic_proc/Makefile b/basic_proc/Makefile
+index a1728c5..c75c087 100644
+--- a/basic_proc/Makefile
++++ b/basic_proc/Makefile
+@@ -39,6 +39,13 @@ gtkwave:
+ gtkwave-regmem:
+ 	$(gtkwave) icarus/basic_proc.vcd gtkwave/RegMem.gtkw &
+ 
+-.PHONY:	verilator
+-verilator:
++.PHONY:	verilator-lint
++verilator-lint:
+ 	verilator -cc Definitions.sv TopLevel.sv --top TopLevel
++
++.PHONY:	verilator-cc
++verilator-cc:
++	verilator --cc --exe --build verilator/sim_cc.cpp Definitions.sv TopLevel.sv --top TopLevel
++	@pushd obj_dir && echo && echo "*** Begin Verilation ***" && echo && ./VTopLevel
++
++
+diff --git a/basic_proc/TopLevel.sv b/basic_proc/TopLevel.sv
+index 45d30b8..defaa5b 100644
+--- a/basic_proc/TopLevel.sv
++++ b/basic_proc/TopLevel.sv
+@@ -80,11 +80,43 @@ logic[15:0] CycleCount; // Count the total number of clock cycles.
+ ////////////////////////////////////////////////////////////////////////////////
+ // Fetch = Program Counter + Instruction ROM
+ 
++
++// Some examples of what DPI and Verilator might enable
++//
++// Here, we replace the fixed Inst ROM with runtime programmable memory
++`ifdef VERILATOR
++import "DPI-C" function int add (input int a, input int b);
++
++initial begin
++   $display("Basic DPI: %x + %x = %x", 1, 2, add(1,2));
++end
++
++import "DPI-C" function int getInstAtAddr (input int DPI_Addr);
++export "DPI-C" task writeInstOut;
++
++// Easier to convert here than in CPP
++int DPI_Addr = {22'b0, PC1_ProgCtr_out};
++
++int DPI_Inst;
++task writeInstOut;
++  DPI_Inst = getInstAtAddr(DPI_Addr);
++endtask
++
++assign IR1_InstOut_out = DPI_Inst[8:0];
++
++//export "DPI-C" function getCurrentPC;
++
++//function void getCurrentPC(output int Address)
++//  Address = PC1_ProgCtr_out;
++//endfunction
++
++`else
+ // instruction ROM -- holds the machine code pointed to by program counter
+ InstROM #(.W(9)) IR1(
+   .InstAddress (PC1_ProgCtr_out),
+   .InstOut     (IR1_InstOut_out)
+ );
++`endif
+ 
+ // this is the program counter module
+ ProgCtr PC1 (
+diff --git a/basic_proc/verilator/sim_cc.cpp b/basic_proc/verilator/sim_cc.cpp
+new file mode 100644
+index 0000000..ed45c61
+--- /dev/null
++++ b/basic_proc/verilator/sim_cc.cpp
+@@ -0,0 +1,97 @@
++#include <cassert>
++#include <iostream>
++
++#include "VTopLevel.h"
++#include "verilated.h"
++
++#include "svdpi.h"
++#include "VTopLevel__Dpi.h"
++
++// Simple example based heavily off https://verilator.org/guide/latest/connecting.html
++
++VTopLevel *top;
++
++vluint64_t main_time = 0;       // Current simulation time
++
++double sc_time_stamp() {
++    return main_time;
++}
++
++int getInstAtAddr(int Addr) {
++    std::cout << main_time << ": Request for Inst at Addr: " << Addr << std::endl;
++    switch (Addr) {
++        case 0:
++            return 0x0c8; // 0_1100_1000
++        case 1:
++            return 0x0dc; // 0_1101_1100
++        case 2:
++            return 0x00b; // 0_0000_1011
++        case 3:
++            return 0x188; // 1_1000_1000
++        default:
++            return 0x1ff; // HALT
++    }
++}
++
++int add(int a, int b) { return a+b; }
++
++int main(int argc, char** argv, char** env) {
++    VerilatedContext* contextp = new VerilatedContext;
++    contextp->commandArgs(argc, argv);
++
++    top = new VTopLevel{contextp};
++
++    // Set initial inputs
++    top->Reset = 1;
++    top->Start = 0;
++    top->Clk = 0;
++
++    // Define 'context' for DPI
++    svSetScope(svGetScopeFromName("TOP.TopLevel"));
++
++    while (!contextp->gotFinish()) {
++        if (main_time > 10) {
++            top->Reset = 0;
++            top->Start = 1;
++        }
++        if (main_time > 20) {
++            top->Start = 0;
++        }
++
++        // Balanced clock with 10ns period
++        if ((main_time % 10) == 1) {
++            // std::cout << main_time << ": posedge" << std::endl;
++            top->Clk = 1;
++        }
++        if ((main_time % 10) == 6) {
++            top->Clk = 0;
++        }
++
++        // At some point, we need to let our verilated InstROM run.
++        // After the falling edge of clock is a decent time.
++        if ((main_time % 10) == 7) {
++            top->writeInstOut();
++        }
++
++        // Evaluate timestep
++        top->eval();
++
++        if (top->Ack) {
++            std::cout << "Got ACK, ending." << std::endl;
++            break;
++        }
++
++        // Increment time
++        main_time++;
++
++        // Save ourselves from runaway simulation
++        assert(main_time < 100);
++    }
++
++    // Cleanup.
++    top->final();
++
++    delete top;
++    delete contextp;
++    return 0;
++}
+-- 
+2.35.0
+

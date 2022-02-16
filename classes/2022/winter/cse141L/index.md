@@ -322,7 +322,14 @@ in lecture.
 
   <tr>
     <td>Week 7<br/><i>Feb 14-20</i></td>
-    <td>Debugging</td>
+    <td>
+    Debugging
+    <ul>
+      <li>M: Timing; General Help</li>
+      <li>W: General Help; Intro Verilator</li>
+      <ul><li><a href="0001-MWE-Verilator-for-basic_proc.patch">Code from Class</a></li></ul>
+    </ul>
+    </td>
     <td></td>
   </tr>
 

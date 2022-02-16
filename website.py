@@ -52,7 +52,7 @@ static_extensions = [
 		'.css', '.js', '.ico', '.ttf', '.eot', '.svg', '.woff',
 		'.png', '.jpg', '.pdf', '.pptx', '.doc', '.docx', '.txt',
 		'.gz', '.tgz', '.otf', '.odp', '.webmanifest', '.xml',
-		'.zip', '.webm',
+		'.zip', '.webm', '.patch',
 		]
 
 
