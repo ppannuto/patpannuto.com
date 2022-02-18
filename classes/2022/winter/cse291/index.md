@@ -344,6 +344,24 @@ Winter Quarter ends             Saturday, March 19
     </small>
     </td>
   </tr>
+  <tr class="table-warning">
+    <td>Feb&nbsp;18</td>
+    <td>
+    Trying out Thread
+    </td>
+    <td>
+    <p>
+    For today, we are going to try to follow the <a href="https://openthread.io/codelabs/openthread-hardware#0">official OpenThread lab</a>.
+    </p>
+    <p><small>
+    Work in groups of (at least) three to see if you can get a Thread network running across your devices.
+    It's quite possible that we will end up with one large Thread network at the end of the lab, that
+    would be a success too :).
+    Nothing to write-up or turn in today, but do want to have Thread basics working so that we can use
+    your Thread network(s) to communicate higher-level application data next week.
+    </small></p>
+    </td>
+  </tr>
 
   <!-- OKAY. Fuck Covid, delete it all, and we will reimagine labs in realtime I guess. -->
 
