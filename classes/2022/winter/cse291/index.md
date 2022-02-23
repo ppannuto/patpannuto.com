@@ -181,6 +181,10 @@ Winter Quarter ends             Saturday, March 19
     </td>
   </tr>
   <tr>
+    <td>Jan&nbsp;17</td>
+    <td colspan="2"><i>No class, MLK Holiday</i></td>
+  </tr>
+  <tr>
     <td>Jan&nbsp;19<br/><a href="WI22_cse291-05-cell-for-IoT.pptx">[slides]</a><a href="WI22_cse291-05-cell-for-IoT.pdf">[pdf]</a></td>
     <td>
     Upcoming Cellular IoT Technologies
@@ -362,6 +366,75 @@ Winter Quarter ends             Saturday, March 19
     </small></p>
     </td>
   </tr>
+  <tr>
+    <td>Feb&nbsp;21</td>
+    <td colspan="2"><i>No class, Presidents' Day Holiday</i></td>
+  </tr>
+  <tr>
+    <td>Feb&nbsp;23<br/><a href="WI22_cse291-14-Zigbee_Routing_Flooding.pptx">[slides]</a><a href="WI22_cse291-14-Zigbee_Routing_Flooding.pdf">[pdf]</a></td>
+    <td>
+    Zigbee<br/>
+    Mesh Routing<br/>
+    Mesh Flooding
+    </td>
+    <td>
+    <!--
+    Additional Resources:
+    <small>
+    </small>
+    -->
+    </td>
+  </tr>
+  <tr class="table-warning">
+    <td>Feb&nbsp;25</td>
+    <td>
+    Introducing CoAP
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td>Feb&nbsp;28</td>
+    <td>WiFi [PHY]</td>
+  </tr>
+  <tr>
+    <td>Mar&nbsp;2</td>
+    <td>WiFi [MAC]</td>
+  </tr>
+  <tr class="table-warning">
+    <td>Mar&nbsp;4</td>
+    <td>
+    <small>TBD: LoRa redux if HW works out, o/w more PAN</small>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td>Mar&nbsp;7</td>
+    <td>Boutique RF: Backscatter, Wakeup Radios</td>
+  </tr>
+  <tr>
+    <td>Mar&nbsp;9</td>
+    <td>VLC, IR, Ultrasonic</td>
+  </tr>
+  <tr class="table-warning">
+    <td>Mar&nbsp;11</td>
+    <td colspan="2"><i>No lab, finish your class projects!</i></td>
+  </tr>
+  <tr class="table-success">
+    <td colspan="4">Finals Week</td>
+  </tr>
+  <tr>
+    <td>
+    <p>Mar&nbsp;14</p>
+    <p><em>3&ndash;6&nbsp;PM</em></p>
+    </td>
+    <td>Final Presentations</td>
+    <td>
+    <p>See presentation details below.</p>
+    </td>
+  </tr>
+  -->
 
   <!-- OKAY. Fuck Covid, delete it all, and we will reimagine labs in realtime I guess. -->
 
@@ -371,33 +444,16 @@ Winter Quarter ends             Saturday, March 19
 	M/W					F
 1	Networking Fundamentals; topolgies	wireshark something
 2	2g/3g/4g				Pick a country, cell phone plan
-3	LoRa, SigFox, etc			Helium chat
-4	LTE-M / NB-IoT				[HW?]
-5	BLE					adv to phone
-6	15.4 [trad]				class mesh
-7	15.4 [concurr]				demo any concurr [too hard?]
-8	VLC, IR, Ultrasonic			find / record IR in real world
-9	Boutique RF [wakeup radio?]		[Maybe just project time?]
-10	TBA					[None: Project]
+3	[Holiday] / LTE-M, NB-IoT		Revise for LP-cell
+4	LoRa, SigFox, etc			Revise for LP-ISM [next time: Helium chat]
+5	BLE / BLE Adv   			Basic BLE + sniffing
+6	BLE Conn / 15.4 [trad]			BLE Connections
+7	15.4 [trad] / Thread			OpenThread demo
+8	[Holiday] / Zigbee,Routing,Flooding	CoAP on OT
+9	WiFi [phy] / WiFi [mac]	        	_Maybe: revisit LoRa w/ HW?_, o/w more 15.4
+10	VLC, IR, Ultrasonic, Boutique RF	[No class; project time]
 -->
 
-  <!--
-  <tr class="table-info">
-    <td colspan="4">Finals Week</td>
-  </tr>
-  <tr>
-    <td>
-    <p>Jun&nbsp;7</p>
-    <p><em>3&ndash;6 PM</em></p>
-    </td>
-    <td>Final Presentations</td>
-    <td>Pannuto</td>
-    <td>
-    <p>Submit final papers via HotCRP.</p>
-    <p>See presentation details below.</p>
-    </td>
-  </tr>
-  -->
 
 </table>
 
