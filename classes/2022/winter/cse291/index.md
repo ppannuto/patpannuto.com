@@ -378,11 +378,14 @@ Winter Quarter ends             Saturday, March 19
     Mesh Flooding
     </td>
     <td>
-    <!--
     Additional Resources:
     <small>
+    <ul>
+      <li>Kim, Hyung-Sin, et al. <a href="https://rise.cs.berkeley.edu/wp-content/uploads/2019/06/KIM_LAYOUT.pdf"><i>Thread/OpenThread: A Compromise in Low-Power Wireless Multihop Network Architecture for the Internet of Things.</i></a> IEEE Communications 2019.</li>
+      <li>Dutta, Prabal, et al. <a href="https://web.eecs.umich.edu/~prabal/pubs/papers/dutta12amac.pdf"><i>A-MAC: A Versatile and Efficient Receiver-Initiated Link Layer for Low-Power Wireless.</i></a> TOSN 2012.</li>
+      <li>Ferrai, Federico, et al. <a href="https://ieeexplore.ieee.org/abstract/document/5779066"><i>Efficient network flooding and time synchronization with Glossy.</i></a> IPSN 2011.</li>
+      <li>Ferrai, Federico, et al. <a href="https://dl.acm.org/doi/abs/10.1145/2426656.2426658"><i>Low-power wireless bus.</i></a> SenSys 2012.</li>
     </small>
-    -->
     </td>
   </tr>
   <tr class="table-warning">
