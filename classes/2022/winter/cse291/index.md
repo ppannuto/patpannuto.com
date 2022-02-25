@@ -391,9 +391,12 @@ Winter Quarter ends             Saturday, March 19
   <tr class="table-warning">
     <td>Feb&nbsp;25</td>
     <td>
-    Introducing CoAP
+    CoAP and End-to-End Operation
     </td>
     <td>
+    <ul>
+      <li><a href="WI22_Lab8_BigHappyThreadFamily.docx">Lab Worksheet [docx]</a> <a href="WI22_Lab8_BigHappyThreadFamily.pdf">[pdf]</a></li>
+    </ul>
     </td>
   </tr>
   <tr>
