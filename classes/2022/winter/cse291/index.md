@@ -440,7 +440,6 @@ Winter Quarter ends             Saturday, March 19
     <p>See presentation details below.</p>
     </td>
   </tr>
-  -->
 
   <!-- OKAY. Fuck Covid, delete it all, and we will reimagine labs in realtime I guess. -->
 
