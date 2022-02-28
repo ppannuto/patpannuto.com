@@ -400,7 +400,7 @@ Winter Quarter ends             Saturday, March 19
     </td>
   </tr>
   <tr>
-    <td>Feb&nbsp;28</td>
+    <td>Feb&nbsp;28<br/><a href="WI22_cse291-15-PrettyPHYForAWiFi.pptx">[slides]</a><a href="WI22_cse291-15-PrettyPHYForAWiFi.pdf">[pdf]</a></td>
     <td>WiFi [PHY]</td>
   </tr>
   <tr>
