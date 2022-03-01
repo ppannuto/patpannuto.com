@@ -496,7 +496,8 @@ Logistics of this is lightly TBA until we have an understanding of how many
 groups will be presenting, and which modalities will be required.
 
 We'll use the final exam slot–Monday, March 14 from 3-6pm–for the "conference."
-
+We've been assigned the same location as class, REVELLE NORTH tent, so we'll
+be in a familiar location :).
 
 ---
 
