@@ -404,7 +404,7 @@ Winter Quarter ends             Saturday, March 19
     <td>WiFi [PHY]</td>
   </tr>
   <tr>
-    <td>Mar&nbsp;2</td>
+    <td>Mar&nbsp;2<br/><a href="WI22_cse291-16-WiFiReturnOfTheMAC.pptx">[slides]</a><a href="WI22_cse291-16-WiFiReturnOfTheMAC.pdf">[pdf]</a></td>
     <td>WiFi [MAC]</td>
   </tr>
   <tr class="table-warning">
