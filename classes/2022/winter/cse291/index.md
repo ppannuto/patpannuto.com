@@ -410,14 +410,26 @@ Winter Quarter ends             Saturday, March 19
   <tr class="table-warning">
     <td>Mar&nbsp;4</td>
     <td>
-    <small>TBD: LoRa redux if HW works out, o/w more PAN</small>
+    <small><del>Cancelled due to weather.</del></small>
     </td>
     <td>
     </td>
   </tr>
   <tr>
-    <td>Mar&nbsp;7</td>
+    <td>Mar&nbsp;7<br/><a href="WI22_cse291-17-WeirderRFStuff.pptx">[slides]</a><a href="WI22_cse291-17-WeirderRFStuff.pdf">[pdf]</a></td>
     <td>Boutique RF: Backscatter, Wakeup Radios</td>
+    <td>
+    Additional Resources:
+    <small>
+    <ul>
+      <li>Buettner, Michael et al. <a href="https://dl.acm.org/doi/abs/10.1145/1460412.1460468"><i>RFID Sensor Networks with the Intel WISP.</i></a> SenSys 2008.</li>
+      <li>Zhang, Hong et al. <a href="https://web.cs.umass.edu/publication/details.php?id=2114"><i>Moo: A Batteryless Computational RFID and Sensing Platform.</i></a> UMass Tech Report, 2011.</li>
+      <li>Van Huynh, Nguyen et al. <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8368232"><i>Ambient Backscatter Communications: A Contemporary Survey.</i></a> IEEE Communications Surveys &amp; Tutorials 2018.</li>
+      <li>Liu, Vincent et al. <a href="https://dl.acm.org/doi/abs/10.1145/2534169.2486015"><i>Ambient Backscatter: Wireless Communication out of Thin Air.</i></a> SIGCOMM 2013.</li>
+      <li>Iyer, Vikram et al. <a href="https://dl.acm.org/doi/abs/10.1145/2934872.2934894"><i>Inter-Technology Backscatter: Towards Internet Connectivity for Implanted Devices.</i></a> SIGCOMM 2016.</li>
+      <li>Pannuto, Pat et al. <a href="https://ieeexplore.ieee.org/abstract/document/8480075"><i>Slocalization: Sub-µW Ultra Wideband Backscatter Localization.</i></a> IPSN 2018.</li>
+    </small>
+    </td>
   </tr>
   <tr>
     <td>Mar&nbsp;9</td>
