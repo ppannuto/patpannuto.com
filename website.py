@@ -2,7 +2,7 @@
 # vim: set noet ts=4 sts=4 sw=4:
 
 import sys,os
-from sh import mkdir
+from sh import convert, mkdir
 
 # Yay OS X vs Linux
 try:
@@ -15,6 +15,8 @@ import markdown
 
 import logger
 import publications
+
+from ImgToPictureTreeprocessor import ImgToPictureExtension
 
 jinja_env = jinja.Environment(loader=jinja.FileSystemLoader('templates'))
 
@@ -31,7 +33,8 @@ def md_to_html(src_path, dst_path, md_file):
 	with open('html/{}.html'.format(os.path.join(dst_path, page)), 'w') as o:
 		logger.info('Rendering ' + md_file)
 		content = markdown.markdown(open(os.path.join(src_path, md_file)).read(),
-				extensions=['extra', 'toc', 'md_in_html'])
+				extensions=['extra', 'toc', 'md_in_html',
+					ImgToPictureExtension()])
 		o.write(header_tmpl.render(active_page=page, content=content))
 
 for md in os.listdir('pages'):
@@ -47,12 +50,47 @@ def class_md_to_html(src_path, dst_path, md_file, meta):
 		title = '{} - {} {}'.format(meta['course'].upper(), meta['quarter'].title(), meta['year'])
 		o.write(header_class_tmpl.render(content=content, title=title))
 
+def gen_web_images(spath, dpath):
+	# First, see what of this we can skip
+	# This abuses exceptions a bit for control flow; w/e it's a script
+	sstat = os.stat(spath)
+
+	# Copy original image
+	try:
+		dstat = os.stat(dpath)
+		if sstat.st_mtime > dstat.st_mtime:
+			# Copy original, it's newer
+			raise FileNotFoundError
+	except FileNotFoundError:
+		cp('-u', '--reflink=auto', spath, dpath)
+
+	# Create web-optimized versions
+	basename = os.path.splitext(dpath)[0]
+	try:
+		avsat = os.stat(basename + '.avif')
+		if sstat.st_mtime > avsat.st_mtime:
+			logger.debug('Updated img will need AVIF' + spath)
+			raise FileNotFoundError
+	except FileNotFoundError:
+		logger.debug('Creating AVIF for ' + spath)
+		convert(spath, basename + '.avif')
+	try:
+		wmsat = os.stat(basename + '.webp')
+		if sstat.st_mtime > wmsat.st_mtime:
+			logger.info('Updated img will need WebP' + spath)
+			raise FileNotFoundError
+	except FileNotFoundError:
+		logger.debug('Creating WebP for ' + spath)
+		convert(spath, basename + '.webp')
 
 static_extensions = [
 		'.css', '.js', '.ico', '.ttf', '.eot', '.svg', '.woff',
-		'.png', '.jpg', '.pdf', '.pptx', '.doc', '.docx', '.txt',
+		'.pdf', '.pptx', '.doc', '.docx', '.txt',
 		'.gz', '.tgz', '.otf', '.odp', '.webmanifest', '.xml',
 		'.zip', '.webm', '.patch',
+		]
+image_extensions = [
+		'.png', '.jpg',
 		]
 
 
@@ -142,5 +180,7 @@ for dirpath,dirnames,filenames in os.walk('static'):
 				#
 				# n.b. this assumes linux-like cp (gcp import)
 				cp('-u', '--reflink=auto', spath, dpath)
+			if ext in image_extensions:
+				gen_web_images(spath, dpath)
 			else:
 				logger.debug('Skipping file: ' + spath)
