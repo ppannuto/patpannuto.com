@@ -165,15 +165,9 @@ if __name__ == '__main__':
 				if os.path.isdir(os.path.join('classes', year, quarter, course, 'video')):
 					for filename in os.listdir(os.path.join('classes', year, quarter, course, 'video')):
 						mkdir('-p', os.path.join('html', 'classes', year, quarter, course, 'video'))
-						ext = os.path.splitext(filename)[1]
-						if ext in static_extensions:
-							# These do not need to be compiled in any way
-							# Just copy them
-							print('          Copy', filename)
-							cp('-u',
-									os.path.join('classes', year, quarter, course, 'video', filename),
-									os.path.join('html', 'classes', year, quarter, course, 'video')
-									)
+						spath = os.path.join('classes', year, quarter, course, 'video', filename)
+						dpath = os.path.join('html', spath)
+						handle_static_file(spath, dpath)
 
 	logger.info('Building publications database...')
 	publications.generate_publications_page(pubs_groups, jinja_env)
