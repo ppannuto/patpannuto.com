@@ -1,6 +1,7 @@
 # vim: set noet ts=4 sts=4 sw=4:
 import colorlog
 import logging
+import os
 import sys
 
 formatter = colorlog.ColoredFormatter(
@@ -20,13 +21,17 @@ formatter = colorlog.ColoredFormatter(
 l = logging.getLogger()
 
 stream = logging.StreamHandler()
-stream.setLevel(logging.INFO)
-#Temporarily disable due to
-#  https://github.com/borntyping/python-colorlog/issues/36
-#stream.setFormatter(formatter)
+if os.environ.get('CI'):
+	stream.setLevel(logging.DEBUG)
+else:
+	stream.setLevel(logging.INFO)
+stream.setFormatter(formatter)
 
 l = logging.getLogger()
-l.setLevel(logging.INFO)
+if os.environ.get('CI'):
+	l.setLevel(logging.DEBUG)
+else:
+	l.setLevel(logging.INFO)
 l.addHandler(stream)
 
 sh_logger = logging.getLogger('sh')
