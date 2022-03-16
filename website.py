@@ -196,9 +196,9 @@ if __name__ == '__main__':
 	logger.info("Waiting for any outstanding tasks to complete...")
 	# Get any errors from jobs (makes join redudant but :shrug:)
 	while WORKER_JOBS:
-		j = WORKER_JOBS.pop()
+		j = WORKER_JOBS.pop(0)
 		if not j.ready():
-			logger.debug("Waiting for {} jobs".format(len(WORKER_JOBS)))
+			logger.info("...waiting for {} jobs".format(len(WORKER_JOBS)))
 		j.get()
 	WORKER_POOL.close()
 	WORKER_POOL.join()
