@@ -53,7 +53,7 @@ def gen_web_images(spath, dpath):
 	try:
 		avstat = os.stat(basename + '.avif')
 		if sstat.st_mtime > avstat.st_mtime:
-			logger.debug('Updated img will need AVIF' + spath)
+			logger.debug('Updated img will need AVIF ' + spath)
 			raise FileNotFoundError
 	except FileNotFoundError:
 		logger.debug('Creating AVIF for ' + spath)
@@ -61,7 +61,7 @@ def gen_web_images(spath, dpath):
 	try:
 		wmsat = os.stat(basename + '.webp')
 		if sstat.st_mtime > wmsat.st_mtime:
-			logger.info('Updated img will need WebP' + spath)
+			logger.info('Updated img will need WebP ' + spath)
 			raise FileNotFoundError
 	except FileNotFoundError:
 		logger.debug('Creating WebP for ' + spath)
@@ -123,23 +123,23 @@ if __name__ == '__main__':
 		if md[-3:] == '.md':
 			md_to_html('pages', '/', md)
 
-	print('Process classes')
+	logger.info('Process classes')
 	for year in os.listdir('classes'):
 		if year.startswith('.'):
 			continue
-		print('  Process', year)
+		logger.info('  Process ' + year)
 		mkdir('-p', os.path.join('html', 'classes', year))
 
 		for quarter in os.listdir(os.path.join('classes', year)):
 			if quarter.startswith('.'):
 				continue
-			print('    Process', quarter)
+			logger.info('    Process ' + quarter)
 			mkdir('-p', os.path.join('html', 'classes', year, quarter))
 
 			for course in os.listdir(os.path.join('classes', year, quarter)):
 				if course.startswith('.'):
 					continue
-				print('      Process', course)
+				logger.info('      Process ' + course)
 				mkdir('-p', os.path.join('html', 'classes', year, quarter, course))
 
 				for filename in os.listdir(os.path.join('classes', year, quarter, course)):
@@ -148,7 +148,7 @@ if __name__ == '__main__':
 					if filename.startswith('~'):
 						continue
 					if filename[-3:] == '.md':
-						print('        Process', filename)
+						logger.info('        Process ' + filename)
 						path = os.path.join('classes', year, quarter, course)
 						meta = {
 								'year': year,
