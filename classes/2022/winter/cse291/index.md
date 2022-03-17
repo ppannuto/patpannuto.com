@@ -10,22 +10,22 @@ Wireless and Communication in the Internet of Things
 
 <div class="row flex-nowrap no-gutters">
 <div class="col-lg-2 col-xs-4">
-<img src="/images/research/m3-finger-square.jpg" alt="M3 sensor on a finger" />
+<img class="img-fluid" src="/images/research/m3-finger-square.jpg" alt="M3 sensor on a finger" />
 </div>
 <div class="col-lg-2 col-xs-4">
-<img src="/images/research/vlc-centers.png" alt="Luxapose image processing pipeline" />
+<img class="img-fluid" src="/images/research/vlc-centers.png" alt="Luxapose image processing pipeline" />
 </div>
 <div class="col-lg-2 col-xs-4">
-<img src="/images/research/signpost-closeup-square.jpg" alt="Signpost platform deployed outside" />
+<img class="img-fluid" src="/images/research/signpost-closeup-square.jpg" alt="Signpost platform deployed outside" />
 </div>
 <div class="col-lg-2 d-none d-sm-block">
-<img src="/images/research/tottag-overlay.png" alt="TotTag ranging platform" />
+<img class="img-fluid" src="/images/research/tottag-overlay.png" alt="TotTag ranging platform" />
 </div>
 <div class="col-lg-2 d-none d-sm-block">
-<img src="/images/research/opo-tie.png" alt="Opo interaction tracker clipped to a tie" />
+<img class="img-fluid" src="/images/research/opo-tie.png" alt="Opo interaction tracker clipped to a tie" />
 </div>
 <div class="col-lg-2 d-none d-sm-block">
-<img src="/images/research/powerblade.jpg" alt="Powerblade power meter on a plug" />
+<img class="img-fluid" src="/images/research/powerblade.jpg" alt="Powerblade power meter on a plug" />
 </div>
 </div>
 
