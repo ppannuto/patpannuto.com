@@ -3,13 +3,13 @@
 $(".pub_bibtex").click(function() {
 	var a_id = $(this).attr("id");
 	var div_id = a_id.replace('XXXatag_', '');
-	$('#'+div_id).slideToggle( "slow" );
+	$('#'+div_id).toggle();
 });
 
 $(".pub_abstract").click(function() {
 	var a_id = $(this).attr("id");
 	var div_id = a_id.replace('XXXatag_', '');
-	$('#'+div_id).slideToggle( "slow" );
+	$('#'+div_id).toggle();
 });
 
 $(".pub_abstract_raw").click(function() {
@@ -50,7 +50,7 @@ $('.pub_prepub').each(function() {
 
 	if (pub_date > now) {
 		var showhide = function() {
-			$('#'+id.replace( /(:|\.|\[|\])/g, "\\$1" )).slideToggle("slow");
+			$('#'+id.replace( /(:|\.|\[|\])/g, "\\$1" )).toggle();
 		};
 
 		var title = $('#' + root.replace("-prepub", "-title"));
