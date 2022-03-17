@@ -37,6 +37,9 @@ l.addHandler(stream)
 sh_logger = logging.getLogger('sh')
 sh_logger.setLevel(logging.WARN)
 
+markdown_logger = logging.getLogger('MARKDOWN')
+markdown_logger.setLevel(logging.INFO)
+
 def debug (s):
 	l.debug(s)
 
