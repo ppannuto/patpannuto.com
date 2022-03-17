@@ -30,12 +30,8 @@ def class_md_to_html(src_path, dst_path, md_file, meta):
 		title = '{} - {} {}'.format(meta['course'].upper(), meta['quarter'].title(), meta['year'])
 		o.write(header_class_tmpl.render(content=content, title=title))
 
+# Process worker fn
 def _gen_web_image(spath, dpaths):
-	sstat = os.stat(spath)
-	if sstat.st_size < 1024:
-		# A file less than 1K is probably unsmudged
-		logger.debug('Unsmudging ' + spath)
-		git('lfs', 'pull', '--include={}'.format(spath))
 	for dpath in dpaths:
 		convert(spath, dpath)
 
