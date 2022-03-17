@@ -2,7 +2,7 @@
 # vim: set noet ts=4 sts=4 sw=4:
 
 import sys,os
-from sh import convert, mkdir
+from sh import convert, git, mkdir
 
 # Yay OS X vs Linux
 try:
@@ -30,9 +30,14 @@ def class_md_to_html(src_path, dst_path, md_file, meta):
 		title = '{} - {} {}'.format(meta['course'].upper(), meta['quarter'].title(), meta['year'])
 		o.write(header_class_tmpl.render(content=content, title=title))
 
-# Necessary because sh.OProc object not pickleable
-def sh_fn_wrapper(fn, args):
-	assert fn(*args).exit_code == 0
+def _gen_web_image(spath, dpaths):
+	sstat = os.stat(spath)
+	if sstat.st_size < 1024:
+		# A file less than 1K is probably unsmudged
+		logger.debug('Unsmudging ' + spath)
+		git('lfs', 'pull', '--include={}'.format(spath))
+	for dpath in dpaths:
+		convert(spath, dpath)
 
 def gen_web_images(spath, dpath):
 	# First, see what of this we can skip
@@ -50,6 +55,7 @@ def gen_web_images(spath, dpath):
 
 	# Create web-optimized versions
 	basename = os.path.splitext(dpath)[0]
+	dpaths = list()
 	try:
 		avstat = os.stat(basename + '.avif')
 		if sstat.st_mtime > avstat.st_mtime:
@@ -57,7 +63,7 @@ def gen_web_images(spath, dpath):
 			raise FileNotFoundError
 	except FileNotFoundError:
 		logger.debug('Creating AVIF for ' + spath)
-		WORKER_JOBS.append(WORKER_POOL.apply_async(sh_fn_wrapper, (convert, (spath, basename + '.avif'))))
+		dpaths.append(basename + '.avif')
 	try:
 		wmsat = os.stat(basename + '.webp')
 		if sstat.st_mtime > wmsat.st_mtime:
@@ -65,7 +71,9 @@ def gen_web_images(spath, dpath):
 			raise FileNotFoundError
 	except FileNotFoundError:
 		logger.debug('Creating WebP for ' + spath)
-		WORKER_JOBS.append(WORKER_POOL.apply_async(sh_fn_wrapper, (convert, (spath, basename + '.webp'))))
+		dpaths.append(basename + '.webp')
+	if dpaths:
+		WORKER_JOBS.append(WORKER_POOL.apply_async(_gen_web_image, (spath, dpaths)))
 
 static_extensions = [
 		'.css', '.js', '.ico', '.ttf', '.eot', '.svg', '.woff',
