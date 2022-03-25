@@ -257,7 +257,7 @@ in lecture.
     <td>
       <ul>
         <li>M: Microprocessor Architecture &amp; ISAs <a href="WI22_cse141L-03-ISA.pptx">[slides]</a><a href="WI22_cse141L-03-ISA.pdf">[pdf]</a></li>
-        <li>W: Early Design <a href="WI22_cse141L-04-Early-Design.pptx">[slides]</a><a href="WI22_cse141L-04-Early-Design.pptx">[pdf]</a></li>
+        <li>W: Early Design <a href="WI22_cse141L-04-Early-Design.pptx">[slides]</a><a href="WI22_cse141L-04-Early-Design.pdf">[pdf]</a></li>
         <ul>
           <li><a href="WI22_cse141L-04-Notesheet.pdf">Notesheet</a></li>
         </ul>
