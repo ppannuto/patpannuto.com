@@ -6,6 +6,17 @@ body {
 /* Override bootstrap link color to be a little darker */
 a {color: #004499;}
 
+/* Override bootstrap's newer quote to do the recessed look */
+blockquote{
+  font-size: 90%;
+  width: 95%;
+  padding: .5em;
+  position: relative;
+  background: #EDEDED;
+  border-left: 8px solid #CCC;
+}
+blockquote p:last-child { margin-bottom: 0; }
+
 .round {
 	border-radius: 50%;
 	overflow: hidden;
