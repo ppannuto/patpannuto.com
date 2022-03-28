@@ -34,7 +34,7 @@ CSE 141: Introduction to Computer Architecture
 ## Overview
 
 The course covers the basics of modern processor design and operation.
-Topics include instruction set architectures, computer system performance, machine organization, pipelining, branch prediction, memory-hierarchy design, and an introduction to multiprocessor considerations (and possibly security considerations as well).
+Topics include instruction set architectures, computer system performance, machine organization, pipelining, branch prediction, memory-hierarchy design, and an introduction to multiprocessor considerations (and possibly security considerations and/or introduction to low-power design as well).
 
 This course is designed to run alongside CSE 141L.
 We expect that you are enrolled in both.
@@ -133,11 +133,11 @@ These in-lecture polls will not be graded for correctness, simply for participat
 > You do not need to contact anyone, simply do the quiz and we will replace up to four participation zero's with quiz completions at the end of the term.
 > _For exceptional situations that require more than four make-ups, please contact Professor Pannuto directly._
 >
-> _These quizzes are primarily for you, to help you stay on track and to check your own understanding._
-> Therefore, we **will not grade them for correctness**.
+> These quizzes are primarily for you, to help you stay on track and to check your own understanding.
+> Therefore, we **will not grade them for correctness** (Canvas sometimes insists on giving you a score; you can safely ignore it).
 > The quiz must be completed by midnight (campus time) the following week.
 > If you complete the quiz, you will earn full points.
-> However, if your raw score on a quiz is low, _come to discussion sections or office hours and get help!_
+> However, if your raw score on a quiz is low, _come to discussion sections and office hours and get help!_
 >
 > Persons who did attend lecture and would just like some extra practice are welcome to complete the quizzes as well.
 
@@ -182,7 +182,7 @@ I believe in mastery learning. My goal is to teach you the material in 141
 and for everyone to learn it. I am most successful if everyone in class
 _earns_ an `A`. This class will not be curved.
 <small>I reserve the right to curve sub-components, in particular exams.
-The last time I taught this course, I curved the Midterm up very slightly,
+The last time I taught this course, I curved the Midterm up very slightly
 and did not curve the final.</small>
 
 <div class="table-responsive">
@@ -216,6 +216,7 @@ It is not fair to honest students to take cheating lightly, nor is it fair to th
 The following is not considered cheating:
 
  - Discussing homework in groups (with the writeup done separately, later).
+ - Discussing additional, unassigned problems (e.g. nearby numbers in the back-of-chapter problem lists) in any way, shape, or form.
 
 The following is:
 
@@ -229,8 +230,8 @@ If you are choosing between not turning in an assignment, or using somebody's el
 You are facing a permanent mark on your academic record and a certainty of having to explain it to any future employer or school that you apply to.
 
 If you are caught cheating on any assignment, you will first be flagged with an
-`X` course grade, which means you are no longer permitted to withdraw from the course
-for any reason.
+`X` course grade, which prevents you from withdrawing from the course for any
+reason.
 Any assignment you are caught cheating on will receive a score of negative 100%.
 This includes exams.
 (Notice: it is not possible to pass the course if you are caught
@@ -249,17 +250,68 @@ This is considered solicitation for business and is strictly prohibited by Unive
 ## Resources for Students
 
 ### Getting Help
-***[Where should students go for help?  What kind of help is available?***
+First, try to make sure you help yourself by staying up to date with course material. Nearly half the grade is participation and homeworks, which are not meant to be tricky, simply to give you practice and confidence with the material.
+We also encourage forming study groups to discuss 141 material.
+In addition to our homework assigments, there are quite a few good problems at
+the end of each chapter of the course textbook. Trying extra / similar-looking
+problems (especially with your study group) is perfectly acceptable, and you
+may discuss extra problems you work on with no limitations.
 
-The IDEA Engineering Student Center, located just off the lobby of Jacobs Hall, is a hub for student engagement, academic enrichment, personal/professional development, leadership, community involvement, and a respectful learning environment for all.  The Center offers a variety of programs, listed in the IDEA Center Facebook page at http://www.facebook.com/ucsdidea/ (you are welcome to Like this page!) and the Center web site at http://idea.ucsd.edu/.  The IDEA Center programs support both undergraduate students and graduate students.
+**Discussion section** is an opportunity for additional explanation and guided
+practice with material from each week. Professor Pannuto did not go to any
+discussions in their first two years of college becuase discussions were
+&ldquo;not required&rdquo; and no one ever really explained what they were or
+why they were helpful. Professor Pannuto got dragged to a discussion section
+for a theory and cryptography course by a friend to whom they are forever
+grateful at the end of sophomore year, realized how insanely helpful
+discussions were, and had significantly better grades thereafter.
+
+**Office hours** are the perfect place for one-on-one support and asking specific
+questions. Office hours are most useful after you have worked on the problem for
+a little while yourself (I usually say that you should struggle with a problem
+for fifteen full minutes, but not more than fifteen minutes before seeking help).
+You are not interrupting course staff (TAs _or_ the professors) when you come to
+office hours. It is _literally_ our job to be available to help you during those
+times. Office hours are also not restricted to content from 141. Folks have asked
+about research / grad school in CS, how to get jobs in computer architecture,
+what other classes to take if they like (or hate!) this stuff, the best coffee
+shops for working accessible by light rail, tips for developing fruit-bearing
+trees in San Diego, or anything else that you would like to know about.
+
+**The IDEA Engineering Student Center**, located just off the lobby of Jacobs
+Hall, is a hub for student engagement, academic enrichment,
+personal/professional development, leadership, community involvement, and a
+respectful learning environment for all.  The Center offers a variety of
+programs, listed in the IDEA Center Facebook page at
+http://www.facebook.com/ucsdidea/ and the Center web site at
+http://idea.ucsd.edu/.  The IDEA Center programs support both undergraduate
+students and graduate students.
 
 ### Diversity and Inclusion
-We are committed to fostering a learning environment for this course that supports a diversity of thoughts, perspectives and experiences, and respects your identities (including race, ethnicity, heritage, gender, sex, class, sexuality, religion, ability, age, educational background, etc.).  Our goal is to create a diverse and inclusive learning environment where all students feel comfortable and can thrive.
+We are committed to fostering a learning environment for this course that
+supports a diversity of thoughts, perspectives and experiences, and respects
+your identities (including race, ethnicity, heritage, gender, sex, class,
+sexuality, religion, ability, age, educational background, etc.).  Our goal is
+to create a diverse and inclusive learning environment where all students feel
+comfortable and can thrive.
 
-Our instructional staff will make a concerted effort to be welcoming and inclusive to the wide diversity of students in this course.  If there is a way we can make you feel more included please let one of the course staff know, either in person, via email/discussion board, or even in a note under the door.  Our learning about diverse perspectives and identities is an ongoing process, and we welcome your perspectives and input.
+Our instructional staff will make a concerted effort to be welcoming and
+inclusive to the wide diversity of students in this course.  If there is a way
+we can make you feel more included please let one of the course staff know,
+either in person, via email/discussion board, or even in a note under the door.
+Our learning about diverse perspectives and identities is an ongoing process,
+and we welcome your perspectives and input.
 
-We also expect that you, as a student in this course, will honor and respect your classmates, abiding by the UCSD Principles of Community (https://ucsd.edu/about/principles.html).  Please understand that others’ backgrounds, perspectives and experiences may be different than your own, and help us to build an environment where everyone is respected and feels comfortable.
-If you experience any sort of harassment or discrimination, please contact the instructor as soon as possible.   If you prefer to speak with someone outside of the course, please contact the Office of Prevention of Harassment and Discrimination: https://ophd.ucsd.edu/
+We also expect that you, as a student in this course, will honor and respect
+your classmates, abiding by the
+[UCSD Principles of Community](https://ucsd.edu/about/principles.html).
+Please understand that others’ backgrounds, perspectives and experiences may be
+different than your own, and help us to build an environment where everyone is
+respected and feels comfortable.
+If you experience any sort of harassment or discrimination, please contact the
+instructor as soon as possible.   If you prefer to speak with someone outside
+of the course, please contact the
+[Office of Prevention of Harassment and Discrimination](https://ophd.ucsd.edu/).
 
 
 ### Students with Disabilities
@@ -267,7 +319,7 @@ We aim to create an environment in which all students can succeed in this course
 
 ### Basic Needs/Food Insecurities
 If you are experiencing any basic needs insecurities (food, housing, financial resources), there are resources available on campus to help, including The Hub and the Triton Food Pantry.
-Please visit http://thehub.ucsd.edu/ for more information.
+Please visit [thehub.ucsd.edu](/http://thehub.ucsd.edu/) for more information.
 
 
 
@@ -291,92 +343,84 @@ They are **not** required in any way and their content will **not** be tested in
     <td><h4 id="part-0">Part 0</h4>
     <td colspan="3">
     <h4>Welcome!</h4>
+    <!--
     <ul>
     <li>Slides as <a href="2020-10-02-cse141-intro.pptx">pptx</a> or <a href="2020-10-02-cse141-intro.pdf">pdf</a></li>
     </ul>
+    -->
     </td>
   </tr>
   <tr>
-    <td>Oct&nbsp;2</td>
-    <td>Introduction and Motivation </td>
+    <td>Mar&nbsp;29</td>
+    <td>
+    <p>Introduction and Motivation</p>
+    <p>What computing looks like</p>
+    </td>
     <td></td>
     <td></td>
   </tr>
 
   <tr class="table-info">
     <td><h4 id="part-i">Part I</h4>
-    <td colspan="2">
+    <td colspan="3">
     <h4>Instruction Set Architecture</h4>
     <ul>
-      <li>Slides as <a href="cse141-fa20-ISA.pptx">pptx</a> or <a href="cse141-fa20-ISA.pdf">pdf</a></li>
+      <!--
+      <li>Slides as <a href="cse141-sp22-ISA.pptx">pptx</a> or <a href="cse141-sp22-ISA.pdf">pdf</a></li>
+      -->
       <li><a href="https://booksite.elsevier.com/9780124077263/downloads/COD_5e_Greencard.pdf">MIPS Green Card</a></li>
       <li><a href="GreenCardOld.pdf">Simpler MIPS Reference</a></li>
     </ul>
     </td>
-    <td><small>
-    <p><i>Where are we?</i></p>
-    <p><a href="/images/places/PointLomaTidePools.jpg">Visiting Point Loma Tide Pools</a></p>
-    </small></td>
   </tr>
   <tr>
-    <td>Oct&nbsp;5</td>
+    <td>Mar&nbsp;31</td>
     <td>
-    <p>What computing looks like; intro to ISA design</p>
-    <p><a href="cse141-fa20-ISA_2020-10-05.pdf">[Annotated Slides]</a></p>
+    <p>ISA design</p>
     </td>
-    <td>Skim 1.1, Read 1.2-1.3</td>
-    <td rowspan="3">
-    <p>
-    <ul>
-    <li>Video: <a href="video/ISA_branching.webm">Detailed walkthrough of branching</a></li>
+    <td>
+    <p>Skim 1.1, Read 1.2-1.3</p>
     <hr />
+    <p>Skim 2.1-2.2, Read 2.3-2.5, Skim 2.10</p>
+    </td>
+    <td rowspan="2">
+    <ul>
     <li>Computers aren't associative? <a href="https://stackoverflow.com/questions/6430448/why-doesnt-gcc-optimize-aaaaaa-to-aaaaaa">When <tt>x*x*x != x*(x*x)</tt></a></li>
     <li><a href="https://www.xorpd.net/pages/xchg_rax/snip_00.html">x86 Assembly Puzzles</a> &ndash; <small>&ldquo;A book of 0x40 short assembly snippets, each built to teach you one concept about assembly, math or life in general.&rdquo;</small></li>
     </ul>
-    </p>
     </td>
   </tr>
   <tr>
-    <td>Oct&nbsp;7</td>
+    <td>Apr&nbsp;5</td>
     <td>
-    <p>ISA design, memory, basic op's</p>
-    <p><a href="cse141-fa20-ISA_2020-10-07.pdf">[Annotated Slides]</a></p>
-    </td>
-    <td>Skim 2.1-2.2, Read 2.3-2.5, Skim 2.10</td>
-  </tr>
-  <tr>
-    <td>Oct&nbsp;9</td>
-    <td>
-    <p>Control flow; RISC vs CISC</p>
-    <p><a href="cse141-fa20-ISA_2020-10-09.pdf">[Annotated Slides]</a></p>
+    <p>Memory, basic op's</p>
+    <p>Control flow</p>
+    <p>RISC vs CISC</p>
     </td>
     <td>Read 2.6-2.8, Skim 2.16-2.18, Read 2.19</td>
   </tr>
 
   <tr class="table-info">
     <td><h4 id="part-ii">Part II</h4>
-    <td colspan="2">
+    <td colspan="3">
     <h4>Computer System Performance and Performance Metrics</h4>
+    <!--
     <ul>
       <li>Slides as <a href="cse141-fa20-Performance.pptx">pptx</a> or <a href="cse141-fa20-Performance.pdf">pdf</a></li>
     </ul>
+    -->
     </td>
-    <td><small>
-    <p><i>Where are we?</i></p>
-    <p><a href="/images/places/CowlesMountain.jpg">Summiting Cowles Mountain</a></p>
-    </small></td>
   </tr>
   <tr>
-    <td>Oct&nbsp;12</td>
-    <td colspan="3"><i>Indigenous Peoples' Day</i></td>
-  </tr>
-  <tr>
-    <td>Oct&nbsp;14</td>
+    <td>Apr&nbsp;7</td>
     <td>
     <p>Defining performance, time; Amdahl's law</p>
-    <p><a href="cse141-fa20-Performance_2020-10-14.pdf">[Annotated Slides]</a></p>
     </td>
-    <td>Skim 1.5, Read 1.6, Skim 1.7-1.8 <hr /> Skim 1.9, Read 1.10, Skim 2.13</td>
+    <td>
+    <p>Skim 1.5, Read 1.6, Skim 1.7-1.8</p>
+    <hr />
+    <p>Skim 1.9, Read 1.10, Skim 2.13</p>
+    </td>
     <td>
     <ul>
     <li>Blog series
@@ -391,276 +435,201 @@ They are **not** required in any way and their content will **not** be tested in
 
   <tr class="table-info">
     <td><h4 id="part-iii">Part III</h4>
-    <td colspan="2">
+    <td colspan="3">
     <h4>The Single Cycle Machine</h4>
+    <!--
     <ul>
       <li>Slides as <a href="cse141-fa20-SingleCycleMachine.pptx">pptx</a> or <a href="cse141-fa20-SingleCycleMachine.pdf">pdf</a></li>
     </ul>
+    -->
     </td>
-    <td><small>
-    <p><i>Where are we?</i></p>
-    <p><a href="/images/places/Napali.jpg">Hiking a spine of the Nā Pali Coast</a></p>
-    </small></td>
   </tr>
   <tr>
-    <td>Oct&nbsp;16</td>
+    <td>Apr&nbsp;12</td>
     <td>
     <p>Execute units (ALUs), building blocks, and introducing organization</p>
-    <p><a href="cse141-fa20-SingleCycleMachine_2020-10-16.pdf">[Annotated Slides]</a></p>
+    <p>Datapaths</p>
     </td>
-    <td>Skim 3.1, Read 3.2, Skim 3.3-3.4</td>
-    <td rowspan="3">
+    <td>
+    <p>Skim 3.1, Read 3.2, Skim 3.3-3.4</p>
+    <hr />
+    <p><i>Try to get through:</i> Read 4.1-4.3, Skim 4.4</p>
+    </td>
+    <td rowspan="2">
     <ul>
     <li>Read 3.7-3.9 for real-world designs; performance.</li>
     </ul>
     </td>
   </tr>
   <tr>
-    <td>Oct&nbsp;19</td>
+    <td>Apr&nbsp;14</td>
     <td>
     <p>Datapaths and control paths</p>
-    <p><a href="cse141-fa20-SingleCycleMachine_2020-10-19.pdf">[Annotated Slides]</a></p>
-    </td>
-    <td>Read 4.1-4.3, Skim 4.4</td>
-  </tr>
-  <tr>
-    <td>Oct&nbsp;21</td>
-    <td>
     <p>Completing the machine; multicycle machines</p>
-    <p><a href="cse141-fa20-SingleCycleMachine_2020-10-21.pdf">[Annotated Slides]</a></p>
     </td>
-    <td>Read 4.4 (read this time! It is long, and hard)</td>
+    <td>
+    <p><i>If you didn&rsquo;t before:</i> Read 4.1-4.3, Skim 4.4</p>
+    <hr />
+    <p><b>Read 4.4</b> (read this time! It is long and hard, but important!)</p>
+    </td>
   </tr>
 
   <tr class="table-info">
     <td><h4 id="part-iv">Part IV</h4>
-    <td colspan="2">
+    <td colspan="3">
     <h4>Pipelines</h4>
+    <!--
     <ul>
       <li>Slides as <a href="cse141-fa20-Pipelines.pptx">pptx</a> or <a href="cse141-fa20-Pipelines.pdf">pdf</a></li>
     </ul>
+    -->
     </td>
-    <td><small>
-    <p><i>Where are we?</i></p>
-    <p><a href="/images/places/SeoulGwanaksanSadang.jpg">Looking over Seoul from the Sadang trail</a></p>
-    </small></td>
   </tr>
   <tr>
-    <td>Oct&nbsp;23</td>
+    <td>Apr&nbsp;19</td>
     <td>
     <p>Introducing pipelines</p>
-    <p><a href="cse141-fa20-Pipelines_2020-10-23.pdf">[Annotated Slides]</a></p>
+    <p>Control in pipelines</p>
     </td>
     <td>Read 4.5 until hazards (p272-277); Skim rest of 4.5</td>
-    <td rowspan="7">
+    <td rowspan="5">
     <ul>
     </ul>
     </td>
   </tr>
   <tr>
-    <td>Oct&nbsp;26</td>
+    <td>Apr&nbsp;21</td>
     <td>
-    <p>Control in pipelines; Intro hazards</p>
-    <p><a href="cse141-fa20-Pipelines_2020-10-26.pdf">[Annotated Slides]</a></p>
-    </td>
-    <td>Read 4.6</td>
-  </tr>
-  <tr>
-    <td>Oct&nbsp;28</td>
-    <td>
+    <p>Hazards</p>
     <p>Data Hazards; Stalls; Forwarding</p>
-    <p><a href="cse141-fa20-Pipelines_2020-10-28.pdf">[Annotated Slides]</a></p>
     </td>
-    <td>Read 4.5 hazards and data hazards (p277-281); Read 4.7</td>
-  </tr>
-  <tr>
-    <td>Oct&nbsp;30</td>
     <td>
-    <p>Finish data hazards; Control hazards</p>
-    <p><a href="cse141-fa20-Pipelines_2020-10-30.pdf">[Annotated Slides]</a></p>
+    <p>Read 4.5 hazards and data hazards (p277-281); Read 4.7</p>
+    <hr />
+    <p>Read 4.6</p>
     </td>
-    <td>Read 4.5 control hazards onwards (p281-286); Read 4.8 until prediction (p316-320)</td>
   </tr>
   <tr>
-    <td>Nov&nbsp;2</td>
+    <td>Apr&nbsp;26</td>
     <td>
-    <p>Branch predictors; wrapping up</p>
-    <p><a href="cse141-fa20-Pipelines_2020-11-02.pdf">[Annotated Slides]</a></p>
+    <p>(probably): Finish forwarding</p>
+    <p>Control hazards</p>
     </td>
-    <td>Read rest of 4.8 (p321-325)</td>
-  </tr>
-  <tr>
-    <td>Nov&nbsp;4</td>
     <td>
-    <p>Pipeline catch-up day</p>
-    <p>(Actual: Control hazards; intro branch predictors)</p>
-    <p><a href="cse141-fa20-Pipelines_2020-11-04.pdf">[Annotated Slides]</a></p>
+    <p>Read 4.5 control hazards onwards (p281-286); Read 4.8 until prediction (p316-320)</p>
     </td>
-    <td>(reading is slightly ahead of lecture)</td>
   </tr>
   <tr>
-    <td>Nov&nbsp;6</td>
+    <td>Apr&nbsp;28</td>
+    <td>
+    <p>Branch predictors</p>
+    </td>
+    <td>
+    <p>Read rest of 4.8 (p321-325)</p>
+    </td>
+  </tr>
+  <tr>
+    <td>May&nbsp;3</td>
     <td>
     <p>Pipeline catch-up day</p>
-    <p>(Actual: Branch delay slots; branch predictors)</p>
-    <p><a href="cse141-fa20-Pipelines_2020-11-06.pdf">[Annotated Slides]</a></p>
+    <p>Exam Review</p>
     </td>
-    <td>(reading is slightly ahead of lecture)</td>
+    <td>None (reading likely slightly ahead of lecture)</td>
   </tr>
-
   <tr class="table-warning">
     <td colspan="4">
     <h4 id="midterm">Midterm Exam</h4>
     </td>
   </tr>
   <tr class="table-warning">
-    <td>Nov&nbsp;9</td>
-    <td>Exam Review</td>
-    <td colspan="2"><a href="CSE141_FA20_MidtermReview.pdf">&ldquo;Whiteboard&rdquo; Notes</a></td>
-  </tr>
-  <tr class="table-warning">
-    <td>
-    <p>Nov&nbsp;10</p>
-    <p><i>8am&ndash;8pm</i></p>
-    </td>
-    <td>Midterm Exam</td>
+    <td>May&nbsp;5</td>
+    <td>Midterm exam</td>
     <td colspan="2">
     <ul>
-    <li>Joint with Section B</li>
-    <li>Administered asychronously via Canvas</li>
-    <li>90-minute &ldquo;one-shot&rdquo; timed exam (timer starts when you do)</li>
+    <li>In-class exam</li>
+    <li>80-minute timed exam</li>
     </ul>
     </td>
-  </tr>
-
-  <tr>
-    <td>Nov&nbsp;11</td>
-    <td colspan="3"><i>Veterans Day</i></td>
-  </tr>
-
-  <tr>
-    <td>Nov&nbsp;13</td>
-    <td>
-    <p>Actual: Advanced branch predictors</p>
-    <p><a href="cse141-fa20-Pipelines_2020-11-13.pdf">[Annotated Slides]</a></p>
-    </td>
-    <td>(reading is slightly ahead of lecture)</td>
-  </tr>
-
-  <tr>
-    <td>Nov&nbsp;16</td>
-    <td>
-    <p>Even more advanced branch predictors</p>
-    <p><a href="cse141-fa20-Pipelines_2020-11-16.pdf">[Annotated Slides]</a></p>
-    </td>
-    <td>(reading is slightly ahead of lecture)</td>
-  </tr>
-
-  <tr>
-    <td>Nov&nbsp;18</td>
-    <td>
-    <p>Midterm Review &amp; Branch Predictor Examples</p>
-    <!--<p><a href="cse141-fa20-BranchPredictorAnimation.pdf">[Annotated Slides]</a></p>-->
-    </td>
-    <td>(no reading)</td>
   </tr>
 
   <tr class="table-info">
     <td><h4 id="part-v">Part V</h4>
-    <td colspan="2">
+    <td colspan="3">
     <h4>Advanced Pipelines</h4>
+    <!--
     <ul>
       <li>Slides as <a href="cse141-fa20-AdvancedPipelines.pptx">pptx</a> or <a href="cse141-fa20-AdvancedPipelines.pdf">pdf</a></li>
     </ul>
+    -->
     </td>
-    <td><small>
-    <p><i>Where are we?</i></p>
-    <p><a href="/images/places/AzrouMonkey.jpg">Hanging with monkeys, hiking outside Azrou, Morocco</a></p>
-    </small></td>
   </tr>
   <tr>
-    <td>Nov&nbsp;20</td>
+    <td>May&nbsp;10</td>
+    <td>
+    <p>Advanced branch predictors</p>
+    </td>
+    <td>None</td>
+  </tr>
+
+  <tr>
+    <td>May&nbsp;12</td>
+    <td>
+    <p>Midterm Review</p>
+    <p>Even more advanced branch predictors &amp; Branch Predictor Examples</p>
+    </td>
+    <td>None</td>
+  </tr>
+
+  <tr>
+    <td>May&nbsp;17</td>
     <td>
     <p>Exceptions and interrupts</p>
-    <p><a href="cse141-fa20-AdvancedPipelines_2020-11-20.pdf">[Annotated Slides]</a></p>
+    <p><i>If time:</i> Pipelines in Modern Machines</p>
     </td>
     <td>Read 4.9</td>
-  </tr>
-  <tr>
-    <td>Nov&nbsp;23</td>
-    <td>
-    <p>Pipelines in Modern Machines</p>
-    <p><a href="cse141-fa20-AdvancedPipelines_2020-11-23.pdf">[Annotated Slides]</a></p>
-    </td>
-    <td>(No reading)</td>
-  </tr>
-  <tr>
-    <td>Nov&nbsp;25</td>
-    <td>
-    <p>Pipelines in Modern Machines</p>
-    <p><a href="cse141-fa20-AdvancedPipelines_2020-11-25.pdf">[Annotated Slides]</a></p>
-    </td>
-    <td>(No reading)</td>
   </tr>
 
   <tr class="table-info">
     <td><h4 id="part-vi">Part VI</h4>
-    <td colspan="2">
+    <td colspan="3">
     <h4>Caches and Memory</h4>
+    <!--
     <ul>
       <li>Slides as <a href="cse141-fa20-MemoryAndCaches.pptx">pptx</a> or <a href="cse141-fa20-MemoryAndCaches.pdf">pdf</a></li>
     </ul>
+    -->
     </td>
-    <td><small>
-    <p><i>Where are we?</i></p>
-    <p><a href="/images/places/UGhanaLegon.jpg">The University of Ghana at Legon</a></p>
-    </small></td>
   </tr>
   <tr>
-    <td>Nov&nbsp;27</td>
-    <td colspan="3"><i>Thanksgiving Break</i></td>
-  </tr>
-  <tr>
-    <td>Nov&nbsp;30</td>
+    <td>May&nbsp;19</td>
     <td>
     <p>Introducing Caches</p>
-    <p><a href="cse141-fa20-MemoryAndCaches_2020-11-30.pdf">[Annotated Slides]</a></p>
-    </td>
-    <td>Read 5.1; Skim 5.2</td>
-  </tr>
-  <tr>
-    <td>Dec&nbsp;2</td>
-    <td>
     <p>Cache designs &amp; tradeoffs</p>
-    <p><a href="cse141-fa20-MemoryAndCaches_2020-12-02.pdf">[Annotated Slides]</a></p>
     </td>
-    <td>Read 5.3</td>
+    <td>
+    <p>Read 5.1; Skim 5.2</p>
+    <hr />
+    <p>Read 5.3</p>
+    </td>
   </tr>
   <tr>
-    <td>Dec&nbsp;4</td>
+    <td>May&nbsp;24</td>
     <td>
     <p>Cache performance</p>
-    <p><a href="cse141-fa20-MemoryAndCaches_2020-12-04.pdf">[Annotated Slides]</a></p>
-    </td>
-    <td>Read 5.4 (focus more on the first ~half)</td>
-  </tr>
-  <tr>
-    <td>Dec&nbsp;7</td>
-    <td>
     <p>Advanced Caches</p>
-    <p><a href="cse141-fa20-MemoryAndCaches_2020-12-07.pdf">[Annotated Slides]</a></p>
     </td>
-    <td>Read 5.8 (reviews content through here); Skim 5.13 if you are interested</td>
+    <td>
+    <p>Read 5.4 (focus more on the first ~half)</p>
+    <p>Read 5.8 (reviews content through here); Skim 5.13 if you are interested</p>
+    </td>
   </tr>
   <tr>
-    <td>Dec&nbsp;9</td>
+    <td>May&nbsp;26</td>
     <td>
     <p>Virtual Memory</p>
-    <p><a href="cse141-fa20-MemoryAndCaches_2020-12-09.pdf">[Annotated Slides]</a></p>
     </td>
     <td>Read 5.7 (focus more on the first ~half)</td>
   </tr>
-
 
   <!-- bgcolor disables highlight for this row -->
   <!--<td bgcolor="#FFFFFF" style="text-align: center;" colspan=4>&mldr;</td>-->
@@ -671,22 +640,20 @@ They are **not** required in any way and their content will **not** be tested in
     </td>
   </tr>
   <tr class="table-warning">
-    <td>Dec&nbsp;11</td>
+    <td>May&nbsp;31</td>
     <td>Exam Review</td>
     <td></td>
     <td></td>
   </tr>
   <tr class="table-warning">
     <td>
-    <p>Dec&nbsp;12</p>
-    <p><i>8am&ndash;8pm</i></p>
+    <p>Jun&nbsp;2</p>
     </td>
     <td>Final Exam</td>
     <td colspan="2">
     <ul>
-    <li>Joint with Section B</li>
-    <li>Administered asychronously via Canvas</li>
-    <li>180-minute &ldquo;one-shot&rdquo; timed exam (timer starts when you do)</li>
+    <li>In-class exam.</li>
+    <li>80-minute timed exam</li>
     </ul>
     </td>
   </tr>
