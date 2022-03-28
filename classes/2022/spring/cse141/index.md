@@ -351,7 +351,10 @@ They are **not** required in any way and their content will **not** be tested in
     </td>
   </tr>
   <tr>
-    <td>Mar&nbsp;29</td>
+    <td>
+    <p>Mar&nbsp;29</p>
+    <p><small><i>Week 1</i></small></p>
+    </td>
     <td>
     <p>Introduction and Motivation</p>
     <p>What computing looks like</p>
@@ -374,7 +377,10 @@ They are **not** required in any way and their content will **not** be tested in
     </td>
   </tr>
   <tr>
-    <td>Mar&nbsp;31</td>
+    <td>
+    <p>Mar&nbsp;31</p>
+    <p><small><i>Week 1</i></small></p>
+    </td>
     <td>
     <p>ISA design</p>
     </td>
@@ -391,7 +397,10 @@ They are **not** required in any way and their content will **not** be tested in
     </td>
   </tr>
   <tr>
-    <td>Apr&nbsp;5</td>
+    <td>
+    <p>Apr&nbsp;5</p>
+    <p><small><i>Week 2</i></small></p>
+    </td>
     <td>
     <p>Memory, basic op's</p>
     <p>Control flow</p>
@@ -412,7 +421,10 @@ They are **not** required in any way and their content will **not** be tested in
     </td>
   </tr>
   <tr>
-    <td>Apr&nbsp;7</td>
+    <td>
+    <p>Apr&nbsp;7</p>
+    <p><small><i>Week 2</i></small></p>
+    </td>
     <td>
     <p>Defining performance, time; Amdahl's law</p>
     </td>
@@ -445,7 +457,10 @@ They are **not** required in any way and their content will **not** be tested in
     </td>
   </tr>
   <tr>
-    <td>Apr&nbsp;12</td>
+    <td>
+    <p>Apr&nbsp;12</p>
+    <p><small><i>Week 3</i></small></p>
+    </td>
     <td>
     <p>Execute units (ALUs), building blocks, and introducing organization</p>
     <p>Datapaths</p>
@@ -462,7 +477,10 @@ They are **not** required in any way and their content will **not** be tested in
     </td>
   </tr>
   <tr>
-    <td>Apr&nbsp;14</td>
+    <td>
+    <p>Apr&nbsp;14</p>
+    <p><small><i>Week 3</i></small></p>
+    </td>
     <td>
     <p>Datapaths and control paths</p>
     <p>Completing the machine; multicycle machines</p>
@@ -486,7 +504,10 @@ They are **not** required in any way and their content will **not** be tested in
     </td>
   </tr>
   <tr>
-    <td>Apr&nbsp;19</td>
+    <td>
+    <p>Apr&nbsp;19</p>
+    <p><small><i>Week 4</i></small></p>
+    </td>
     <td>
     <p>Introducing pipelines</p>
     <p>Control in pipelines</p>
@@ -498,7 +519,10 @@ They are **not** required in any way and their content will **not** be tested in
     </td>
   </tr>
   <tr>
-    <td>Apr&nbsp;21</td>
+    <td>
+    <p>Apr&nbsp;21</p>
+    <p><small><i>Week 4</i></small></p>
+    </td>
     <td>
     <p>Hazards</p>
     <p>Data Hazards; Stalls; Forwarding</p>
@@ -510,7 +534,10 @@ They are **not** required in any way and their content will **not** be tested in
     </td>
   </tr>
   <tr>
-    <td>Apr&nbsp;26</td>
+    <td>
+    <p>Apr&nbsp;26</p>
+    <p><small><i>Week 5</i></small></p>
+    </td>
     <td>
     <p>(probably): Finish forwarding</p>
     <p>Control hazards</p>
@@ -520,7 +547,10 @@ They are **not** required in any way and their content will **not** be tested in
     </td>
   </tr>
   <tr>
-    <td>Apr&nbsp;28</td>
+    <td>
+    <p>Apr&nbsp;28</p>
+    <p><small><i>Week 5</i></small></p>
+    </td>
     <td>
     <p>Branch predictors</p>
     </td>
@@ -529,7 +559,10 @@ They are **not** required in any way and their content will **not** be tested in
     </td>
   </tr>
   <tr>
-    <td>May&nbsp;3</td>
+    <td>
+    <p>May&nbsp;3</p>
+    <p><small><i>Week 6</i></small></p>
+    </td>
     <td>
     <p>Pipeline catch-up day</p>
     <p>Exam Review</p>
@@ -542,7 +575,10 @@ They are **not** required in any way and their content will **not** be tested in
     </td>
   </tr>
   <tr class="table-warning">
-    <td>May&nbsp;5</td>
+    <td>
+    <p>May&nbsp;5</p>
+    <p><small><i>Week 6</i></small></p>
+    </td>
     <td>Midterm exam</td>
     <td colspan="2">
     <ul>
@@ -564,7 +600,10 @@ They are **not** required in any way and their content will **not** be tested in
     </td>
   </tr>
   <tr>
-    <td>May&nbsp;10</td>
+    <td>
+    <p>May&nbsp;10</p>
+    <p><small><i>Week 7</i></small></p>
+    </td>
     <td>
     <p>Advanced branch predictors</p>
     </td>
@@ -572,7 +611,10 @@ They are **not** required in any way and their content will **not** be tested in
   </tr>
 
   <tr>
-    <td>May&nbsp;12</td>
+    <td>
+    <p>May&nbsp;12</p>
+    <p><small><i>Week 7</i></small></p>
+    </td>
     <td>
     <p>Midterm Review</p>
     <p>Even more advanced branch predictors &amp; Branch Predictor Examples</p>
@@ -581,7 +623,10 @@ They are **not** required in any way and their content will **not** be tested in
   </tr>
 
   <tr>
-    <td>May&nbsp;17</td>
+    <td>
+    <p>May&nbsp;17</p>
+    <p><small><i>Week 8</i></small></p>
+    </td>
     <td>
     <p>Exceptions and interrupts</p>
     <p><i>If time:</i> Pipelines in Modern Machines</p>
@@ -601,7 +646,10 @@ They are **not** required in any way and their content will **not** be tested in
     </td>
   </tr>
   <tr>
-    <td>May&nbsp;19</td>
+    <td>
+    <p>May&nbsp;19</p>
+    <p><small><i>Week 8</i></small></p>
+    </td>
     <td>
     <p>Introducing Caches</p>
     <p>Cache designs &amp; tradeoffs</p>
@@ -613,7 +661,10 @@ They are **not** required in any way and their content will **not** be tested in
     </td>
   </tr>
   <tr>
-    <td>May&nbsp;24</td>
+    <td>
+    <p>May&nbsp;24</p>
+    <p><small><i>Week 9</i></small></p>
+    </td>
     <td>
     <p>Cache performance</p>
     <p>Advanced Caches</p>
@@ -624,7 +675,10 @@ They are **not** required in any way and their content will **not** be tested in
     </td>
   </tr>
   <tr>
-    <td>May&nbsp;26</td>
+    <td>
+    <p>May&nbsp;26</p>
+    <p><small><i>Week 9</i></small></p>
+    </td>
     <td>
     <p>Virtual Memory</p>
     </td>
@@ -640,7 +694,10 @@ They are **not** required in any way and their content will **not** be tested in
     </td>
   </tr>
   <tr class="table-warning">
-    <td>May&nbsp;31</td>
+    <td>
+    <p>May&nbsp;31</p>
+    <p><small><i>Week 10</i></small></p>
+    </td>
     <td>Exam Review</td>
     <td></td>
     <td></td>
@@ -648,6 +705,7 @@ They are **not** required in any way and their content will **not** be tested in
   <tr class="table-warning">
     <td>
     <p>Jun&nbsp;2</p>
+    <p><small><i>Week 10</i></small></p>
     </td>
     <td>Final Exam</td>
     <td colspan="2">
