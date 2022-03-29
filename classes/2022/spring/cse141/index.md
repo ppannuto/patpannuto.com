@@ -104,8 +104,9 @@ The textbook is required for this course.
 
 ### Schedule
 
-Lectures are Tue/Thr from 15:30 to 16:50 US/Pacific, in P416 WEST (the tents between Mandeville Ln and the Library Walk).<br/>
+Lectures are Tue/Thr from 15:30 to 16:50 US/Pacific, in P416 WEST (the tents between Mandeville Ln and the Library Walk).
 
+Discussion is Wed from 18:00 to 18:50 US/Pacific, in P416 EAST (the tents between Mandeville Ln and the Library Walk).
 
 #### Office Hours
 
