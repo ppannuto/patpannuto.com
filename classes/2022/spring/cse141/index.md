@@ -344,11 +344,9 @@ They are **not** required in any way and their content will **not** be tested in
     <td><h4 id="part-0">Part 0</h4>
     <td colspan="3">
     <h4>Welcome!</h4>
-    <!--
     <ul>
-    <li>Slides as <a href="2020-10-02-cse141-intro.pptx">pptx</a> or <a href="2020-10-02-cse141-intro.pdf">pdf</a></li>
+    <li>Slides as <a href="cse141-sp22-00-Introduction.pptx">pptx</a> or <a href="cse141-sp22-00-Introduction.pdf">pdf</a></li>
     </ul>
-    -->
     </td>
   </tr>
   <tr>
