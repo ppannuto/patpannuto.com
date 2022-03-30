@@ -137,7 +137,7 @@ These in-lecture polls will not be graded for correctness, simply for participat
 >
 > These quizzes are primarily for you, to help you stay on track and to check your own understanding.
 > Therefore, we **will not grade them for correctness** (Canvas sometimes insists on giving you a score; you can safely ignore it).
-> The quiz must be completed by midnight (campus time) the following week.
+> The quiz must be completed by 3:30PM US/Pacific (i.e. before class) the following week.
 > If you complete the quiz, you will earn full points.
 > However, if your raw score on a quiz is low, _come to discussion sections and office hours and get help!_
 >
