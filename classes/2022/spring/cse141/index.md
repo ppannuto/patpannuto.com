@@ -132,6 +132,7 @@ These in-lecture polls will not be graded for correctness, simply for participat
 > often going to need to miss a few lectures.
 > If you are unable to attend class for any reason, you can complete that classes mini-quiz as a make-up **up to four times during the quarter**.
 > You do not need to contact anyone, simply do the quiz and we will replace up to four participation zero's with quiz completions at the end of the term.
+> (Note: These must "match", i.e. if you have a zero for participation on April 5, then only the April 5 quiz can replace it.)
 > _For exceptional situations that require more than four make-ups, please contact Professor Pannuto directly._
 >
 > These quizzes are primarily for you, to help you stay on track and to check your own understanding.
