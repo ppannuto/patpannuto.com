@@ -368,9 +368,7 @@ They are **not** required in any way and their content will **not** be tested in
     <td colspan="3">
     <h4>Instruction Set Architecture</h4>
     <ul>
-      <!--
-      <li>Slides as <a href="cse141-sp22-ISA.pptx">pptx</a> or <a href="cse141-sp22-ISA.pdf">pdf</a></li>
-      -->
+      <li>Slides as <a href="cse141-sp22-01-ISA.pptx">pptx</a> or <a href="cse141-sp22-01-ISA.pdf">pdf</a></li>
       <li><a href="https://booksite.elsevier.com/9780124077263/downloads/COD_5e_Greencard.pdf">MIPS Green Card</a></li>
       <li><a href="GreenCardOld.pdf">Simpler MIPS Reference</a></li>
     </ul>
