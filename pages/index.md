@@ -58,6 +58,7 @@ health monitoring](#gridwatch).
 
 #### News
 
+ - 2022-03: [Hudson's][hayers] [paper on threat models for embedded systems](/pubs/ayers2022tieredtrust.pdf) accepted at [EUROSEC'22](https://concordia-h2020.eu/eurosec-2022/).
  - 2022-01: [Gabe's][gabriel] [paper characterizing simple MFCs](/pubs/marcano2022iscasMFCs.pdf) accepted at [ISCAS'22](https://www.iscas2022.org/).
  - 2021-09: [Virginia's][virginiaSalo] [paper describing SociTrack's usage in developmental psychology applications](pubs/salo2021tottagmethods.pdf) published in [Behavior Research Methods](https://www.springer.com/journal/13428).
  - 2021-08: [Dhananjay][dhananjay] and [Alex's][alexy] [paper measuring the Helium Network](/pubs/jagtapyen2021helium.pdf) accepted at [IMC'21](https://conferences.sigcomm.org/imc/2021/).
@@ -561,3 +562,4 @@ through both the [TerraSwarm][terraswarm] program (part of [STARnet][starnet]) a
 [nealjack]: https://nealsjackson.com/
 [nishant]: https://cseweb.ucsd.edu/~nibhaska/
 [virginiaSalo]: https://www.vanderbilt.edu/psychological_sciences/bio/virginia-salo
+[hayers]: https://sing.stanford.edu/site/users/46

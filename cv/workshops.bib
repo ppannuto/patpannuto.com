@@ -1,3 +1,24 @@
+@inproceedings{ayers2022tieredtrust,
+  keywords={workshop},
+  author = {Ayers, Hudson and Dutta, Prabal and Levis, Philip and Levy, Amit and \textbf{Pannuto}, \textbf{Pat} and Van~Why, Johnathan and Watson, Jean-Luc},
+  title = {Tiered Trust for Useful Embedded Systems Security},
+  year = {2022},
+  isbn = {9781450392556},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3517208.3523752},
+  doi = {10.1145/3517208.3523752},
+  abstract = {
+    Traditional embedded systems rely on custom C code deployed in a monolithic firmware image. In these systems, all code must be trusted completely, as any code can directly modify memory or hardware registers. More recently, some embedded OSes have improved security by separating userspace applications from the kernel, using strong hardware isolation in the form of a memory protection unit (MPU). Unfortunately, this design requires either a large trusted computing base (TCB) containing all OS services, or moving many OS services into userspace. The large TCB approach offers no protection against seemingly-correct backdoored code, discouraging the use of kernel code produced by others and complicating security audits. OS services in userspace come at a cost to usability and efficiency. We posit that a model enabling two tiers of trust for kernel code is better suited to modern embedded software practices. In this paper, we present the threat model of the Tock Operating System, which is based on this idea. We compare this threat model to existing security approaches, and show how it provides useful guarantees to different stakeholders.
+  },
+  booktitle = {Proceedings of the 15th European Workshop on Systems Security},
+  pages = {15–21},
+  numpages = {7},
+  location = {Rennes, France},
+  series = {EuroSec '22},
+  conference-url = {https://concordia-h2020.eu/eurosec-2022/},
+}
+
 @inproceedings{marcano2021einkbiobattery,
   keywords={workshop},
   author = {Marcano, Gabriel and \textbf{Pannuto}, \textbf{Pat}},
