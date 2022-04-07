@@ -411,11 +411,9 @@ They are **not** required in any way and their content will **not** be tested in
     <td><h4 id="part-ii">Part II</h4>
     <td colspan="3">
     <h4>Computer System Performance and Performance Metrics</h4>
-    <!--
     <ul>
-      <li>Slides as <a href="cse141-fa20-Performance.pptx">pptx</a> or <a href="cse141-fa20-Performance.pdf">pdf</a></li>
+      <li>Slides as <a href="cse141-sp22-02-Performance.pptx">pptx</a> or <a href="cse141-sp22-02-Performance.pdf">pdf</a></li>
     </ul>
-    -->
     </td>
   </tr>
   <tr>
