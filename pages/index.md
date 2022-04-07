@@ -58,6 +58,7 @@ health monitoring](#gridwatch).
 
 #### News
 
+ - 2022-01: [Gabe's][gabriel] [paper characterizing simple MFCs](/pubs/marcano2022iscasMFCs.pdf) accepted at [ISCAS'22](https://www.iscas2022.org/).
  - 2021-09: [Virginia's][virginiaSalo] [paper describing SociTrack's usage in developmental psychology applications](pubs/salo2021tottagmethods.pdf) published in [Behavior Research Methods](https://www.springer.com/journal/13428).
  - 2021-08: [Dhananjay][dhananjay] and [Alex's][alexy] [paper measuring the Helium Network](/pubs/jagtapyen2021helium.pdf) accepted at [IMC'21](https://conferences.sigcomm.org/imc/2021/).
  - 2021-07: [Gabe's][gabriel] [paper investigating conventional energy harvesters with soil-based MFCs](/pubs/marcano2021einkbiobattery.pdf) accepted at [LP-IoT'21](https://www.witechlab.com/lpiot2021/#).
