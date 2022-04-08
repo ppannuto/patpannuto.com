@@ -58,20 +58,21 @@ health monitoring](#gridwatch).
 
 #### News
 
- - 2022-04: [Alex][alexy] awarded **[National Science Foundation Graduate Research Fellowship (NSF GRFP)](https://www.nsfgrfp.org/)** – Congratulations Alex!
- - 2022-03: [Hudson's][hayers] [paper on threat models for embedded systems](/pubs/ayers2022tieredtrust.pdf) accepted at [EUROSEC'22](https://concordia-h2020.eu/eurosec-2022/).
- - 2022-01: [Gabe's][gabriel] [paper characterizing simple MFCs](/pubs/marcano2022iscasMFCs.pdf) accepted at [ISCAS'22](https://www.iscas2022.org/).
- - 2021-09: [Virginia's][virginiaSalo] [paper describing SociTrack's usage in developmental psychology applications](pubs/salo2021tottagmethods.pdf) published in [Behavior Research Methods](https://www.springer.com/journal/13428).
- - 2021-08: [Dhananjay][dhananjay] and [Alex's][alexy] [paper measuring the Helium Network](/pubs/jagtapyen2021helium.pdf) accepted at [IMC'21](https://conferences.sigcomm.org/imc/2021/).
- - 2021-07: [Gabe's][gabriel] [paper investigating conventional energy harvesters with soil-based MFCs](/pubs/marcano2021einkbiobattery.pdf) accepted at [LP-IoT'21](https://www.witechlab.com/lpiot2021/#).
+ - 2022-04: [Alex][alexy] awarded **[National Science Foundation Graduate Research Fellowship (NSF&nbsp;GRFP)](https://www.nsfgrfp.org/)** – Congratulations Alex!
+ - 2022-03: [Hudson's][hayers] paper on [threat models for embedded systems](/pubs/ayers2022tieredtrust.pdf) accepted at [EUROSEC'22](https://concordia-h2020.eu/eurosec-2022/).
+ - 2022-01: [Gabe's][gabriel] paper [characterizing simple MFCs](/pubs/marcano2022iscasMFCs.pdf) accepted at [ISCAS'22](https://www.iscas2022.org/).
+ - 2021-09: [Virginia's][virginiaSalo] paper describing [SociTrack's usage in developmental psychology applications](pubs/salo2021tottagmethods.pdf) published in [Behavior Research Methods](https://www.springer.com/journal/13428).
+ - 2021-08: [Dhananjay][dhananjay] and [Alex's][alexy] paper [measuring the Helium Network](/pubs/jagtapyen2021helium.pdf) accepted at [IMC'21](https://conferences.sigcomm.org/imc/2021/).
+ - 2021-07: [Gabe's][gabriel] paper investigating [conventional energy harvesters with soil-based MFCs](/pubs/marcano2021einkbiobattery.pdf) accepted at [LP-IoT'21](https://www.witechlab.com/lpiot2021/#).
  - 2021-05: [Alex][alexy] wins **Best Presentation (Runner-Up)** at [CPS-IoTBench'21](https://www.iotbench.ethz.ch/cps-iotbench-2021/) – congratulations!
- - 2021-04: [Dhananjay][dhananjay] and [Nishant's][nishant] [paper on the design of long-lived intelligent infrastructure](/pubs/jagtap2021centuryinfra.pdf) accepted at [HotOS'21](https://sigops.org/s/conferences/hotos/2021/).
- - 2021-03: [Alex's][alexy] [paper on reproducibility for CPS &amp; IoT](/pubs/yen2021repro.pdf) accepted at [CPS-IoTBench'21](https://www.iotbench.ethz.ch/cps-iotbench-2021/).
- - 2021-01: [Dhananjay's][dhananjay] [paper describing energy harvesting from cathodic protection systems](/pubs/jagtap2021cathodicprotection.pdf) accepted at [IPSN'21](https://ipsn.acm.org/2021/).
- - 2020-12: [Colleen][cojoseph], [Neal][nealjack], and my [paper on materials for soil MFC design](/pubs/josephson2020farmingelectrons.pdf) published in [IEEE Sensors Letters](https://ieee-sensors.org/sensors-letters/).
+ - 2021-04: [Dhananjay][dhananjay] and [Nishant's][nishant] paper on [the design of long-lived intelligent infrastructure](/pubs/jagtap2021centuryinfra.pdf) accepted at [HotOS'21](https://sigops.org/s/conferences/hotos/2021/).
+ - 2021-03: [Alex's][alexy] paper on [reproducibility for CPS &amp; IoT](/pubs/yen2021repro.pdf) accepted at [CPS-IoTBench'21](https://www.iotbench.ethz.ch/cps-iotbench-2021/).
+ - 2021-01: [Dhananjay's][dhananjay] paper describing [energy harvesting from cathodic protection systems](/pubs/jagtap2021cathodicprotection.pdf) accepted at [IPSN'21](https://ipsn.acm.org/2021/).
+ - 2020-12: [Colleen][cojoseph], [Neal][nealjack], and my paper on [materials for soil MFC design](/pubs/josephson2020farmingelectrons.pdf) published in [IEEE Sensors Letters](https://ieee-sensors.org/sensors-letters/).
  - 2020-11: [Dhananjay][dhananjay] wins **Best Presentation (Second Prize)** at [ENSsys'20](http://www.enssys.org/2020/) – congratulations!
- - 2020-10: [Dhananjay's][dhananjay] [paper describing &ldquo;reliable&rdquo; energy harvesting](/pubs/jagtap2020reliable.pdf) accepted at [ENSsys'20](http://www.enssys.org/2020/).
- - 2020-06: Andreas's [paper describing our social interaction tracking platform (SociTrack)](/pubs/biri2020socitrack.pdf) accepted at [MobiCom'20](https://sigmobile.org/mobicom/2020/).
+ - 2020-11: I gave the [keynote](/talks.html#2020) at [ENSsys'20](http://www.ensys.org/2020/).
+ - 2020-10: [Dhananjay's][dhananjay] paper describing [&ldquo;reliable&rdquo; energy harvesting](/pubs/jagtap2020reliable.pdf) accepted at [ENSsys'20](http://www.enssys.org/2020/).
+ - 2020-06: Andreas's paper describing our [social interaction tracking platform (SociTrack)](/pubs/biri2020socitrack.pdf) accepted at [MobiCom'20](https://sigmobile.org/mobicom/2020/).
 
 <!-- TODO: this would be cool if it pulled top N
 #### Recent Publications

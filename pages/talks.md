@@ -8,6 +8,33 @@ but if something is missing that you are interested in, please reach out and I w
 
 ---
 
+2020
+====
+
+<div class="row talk" markdown="1">
+<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12" markdown="1">
+[![Title Slide](/talks/2020-11-16-ENSsysKeynote_thumb.jpg "Towards a Taxonomy of Energy Scavenging Applications, Architectures, and Execution Models")](/talks/2020-11-16-ENSsysKeynote.pdf)
+#### _Keynote_
+</div>
+<div class="col-lg-9 col-md-8 col-sm-7 col-xs-12" markdown="1">
+
+### Towards a Taxonomy of Energy Scavenging Applications, Architectures, and Execution Models, at [ENSsys'20][enssys20]
+As energy scavenging systems become more popular, we are developing a growing
+diversity of energy income sources, energy storage and management techniques,
+energy usage policies, and expectations of systems that all operate in a
+(possibly) non-deterministic manner. This talk looks back over the last decade
+of platform development to see if we can start to identify common trends among
+these platforms and to start a conversation around structuring principles,
+expectations, and capabilities of energy scavenging systems.
+
+[enssys20]: http://www.ensys.org/2020/
+
+<a href="/talks/2020-11-16-ENSsysKeynote.pptx">[pptx]</a>
+<a href="/talks/2020-11-16-ENSsysKeynote.pdf">[pdf]</a>
+
+</div>
+</div>
+
 2019
 ====
 
