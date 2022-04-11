@@ -445,11 +445,9 @@ They are **not** required in any way and their content will **not** be tested in
     <td><h4 id="part-iii">Part III</h4>
     <td colspan="3">
     <h4>The Single Cycle Machine</h4>
-    <!--
     <ul>
-      <li>Slides as <a href="cse141-fa20-SingleCycleMachine.pptx">pptx</a> or <a href="cse141-fa20-SingleCycleMachine.pdf">pdf</a></li>
+      <li>Slides as <a href="cse141-sp22-03-SingleCycleMachine.pptx">pptx</a> or <a href="cse141-sp22-03-SingleCycleMachine.pdf">pdf</a></li>
     </ul>
-    -->
     </td>
   </tr>
   <tr>
