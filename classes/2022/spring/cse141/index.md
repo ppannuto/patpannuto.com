@@ -502,6 +502,9 @@ They are **not** required in any way and their content will **not** be tested in
     </td>
     <td>
     <p>Introducing pipelines</p>
+    <p>Pipeline datapath</p>
+    <hr />
+    <p><small><i>n.b. Ended here; Slide 38</i></small></p>
     <p>Control in pipelines</p>
     </td>
     <td>Read 4.5 until hazards (p272-277); Skim rest of 4.5</td>
