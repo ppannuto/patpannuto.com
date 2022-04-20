@@ -206,6 +206,17 @@ and did not curve the final.</small>
 </div>
 <small><em>Range notation [90,93) means 90 is included and 93 is not</em></small>
 
+##### Extra Credit? Grade Bumps?
+
+There will be no extra credit in this class. I will not &ldquo;bump&rdquo;
+grades up that are &ldquo;close&rdquo; to a cutoff (becuase, then someone
+else is close to the new &ldquo;bump cutoff,&rdquo; drawing new arbitrary
+lines will always be unfair to someone).
+
+##### CAPEs Incentive
+
+If, at the end of the term, the CAPE response rate is >=90.0%, we will
+drop everyone's lowest homework grade.
 
 ### Academic Integrity
 
