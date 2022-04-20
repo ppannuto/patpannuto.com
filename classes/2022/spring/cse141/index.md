@@ -131,6 +131,13 @@ Lectures are Tue/Thr from 15:30 to 16:50 US/Pacific, in P416 WEST (the tents bet
 
 Discussion is Wed from 18:00 to 18:50 US/Pacific, in P416 EAST (the tents between Mandeville Ln and the Library Walk).
 
+#### (A?)Sychronous?, Remote?, Recordings?
+
+This course is designed for synchronous, in-person instruction.
+That said, life happens, so we will make _best-effort_ attempts to stream the
+lectures via Zoom and will make these recordings available in Canvas.
+Please be sure to review the [Participation](#15-participation-peer-instruction) section in detail as well.
+
 #### Office Hours
 
 Up-to-date office hours are available in Canvas.
