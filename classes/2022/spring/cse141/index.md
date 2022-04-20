@@ -70,6 +70,15 @@ At the end of the CSE&nbsp;141 series, students should be able to:
 
 [Pat Pannuto](https://patpannuto.com) is the instructor and their office is [CSE 3202](https://cse.ucsd.edu/about/floormaps) (right in the corner).
 
+##### What should you call me?
+Most students call me Professor or Professor Pannuto or Dr. Pannuto.
+I also answer happily to &ldquo;Prof[essor] P.&rdquo;
+
+##### What should I call you?
+I should call you by your preferred name, with the correct pronunciation and any honorific or pronouns you choose.
+Please correct me (in the chat if there is one, out loud in class or in Zoom, or via email/Piazza after the fact – however you are most comfortable) if I ever make a mistake.
+
+
 #### TAs
 
  - Adithya Anand – ananand@ucsd.edu
