@@ -378,6 +378,8 @@ They are **not** required in any way and their content will **not** be tested in
     <td>
     <p>Mar&nbsp;31</p>
     <p><small><i>Week 1</i></small></p>
+    <hr />
+    <p><small><strong>HW 1 Assigned</strong></small></p>
     </td>
     <td>
     <p>ISA design</p>
@@ -420,6 +422,9 @@ They are **not** required in any way and their content will **not** be tested in
     <td>
     <p>Apr&nbsp;7</p>
     <p><small><i>Week 2</i></small></p>
+    <hr />
+    <p><small><strong>3:30pm&ndash; HW 1 Due</strong></small></p>
+    <p><small><strong>HW 2 Assigned</strong></small></p>
     </td>
     <td>
     <p>Defining performance, time; Amdahl's law</p>
@@ -474,6 +479,9 @@ They are **not** required in any way and their content will **not** be tested in
     <td>
     <p>Apr&nbsp;14</p>
     <p><small><i>Week 3</i></small></p>
+    <hr />
+    <p><small><strong>3:30pm&ndash; HW 2 Due</strong></small></p>
+    <p><small><strong>HW 3 Assigned</strong></small></p>
     </td>
     <td>
     <p>Datapaths and control paths</p>
@@ -517,6 +525,9 @@ They are **not** required in any way and their content will **not** be tested in
     <td>
     <p>Apr&nbsp;21</p>
     <p><small><i>Week 4</i></small></p>
+    <hr />
+    <p><small><strong>3:30pm&ndash; HW 3 Due</strong></small></p>
+    <p><small><strong>HW 4 Assigned</strong></small></p>
     </td>
     <td>
     <p>Hazards</p>
@@ -545,6 +556,9 @@ They are **not** required in any way and their content will **not** be tested in
     <td>
     <p>Apr&nbsp;28</p>
     <p><small><i>Week 5</i></small></p>
+    <hr />
+    <p><small><strong>3:30pm&ndash; HW 4 Due</strong></small></p>
+    <p><small><strong>HW 5 (½&nbsp;length) Assigned</strong></small></p>
     </td>
     <td>
     <p>Branch predictors</p>
@@ -557,6 +571,8 @@ They are **not** required in any way and their content will **not** be tested in
     <td>
     <p>May&nbsp;3</p>
     <p><small><i>Week 6</i></small></p>
+    <hr />
+    <p><small><strong>3:30pm&ndash; HW 5 Due</strong></small></p>
     </td>
     <td>
     <p>Pipeline catch-up day</p>
@@ -609,6 +625,8 @@ They are **not** required in any way and their content will **not** be tested in
     <td>
     <p>May&nbsp;12</p>
     <p><small><i>Week 7</i></small></p>
+    <hr />
+    <p><small><strong>HW 6 Assigned</strong></small></p>
     </td>
     <td>
     <p>Midterm Review</p>
@@ -644,6 +662,9 @@ They are **not** required in any way and their content will **not** be tested in
     <td>
     <p>May&nbsp;19</p>
     <p><small><i>Week 8</i></small></p>
+    <hr />
+    <p><small><strong>3:30pm&ndash; HW 6 Due</strong></small></p>
+    <p><small><strong>HW 7 Assigned</strong></small></p>
     </td>
     <td>
     <p>Introducing Caches</p>
@@ -673,6 +694,9 @@ They are **not** required in any way and their content will **not** be tested in
     <td>
     <p>May&nbsp;26</p>
     <p><small><i>Week 9</i></small></p>
+    <hr />
+    <p><small><strong>3:30pm&ndash; HW 7 Due</strong></small></p>
+    <p><small><strong>HW 8 (½&nbsp;length) Assigned</strong></small></p>
     </td>
     <td>
     <p>Virtual Memory</p>
@@ -692,6 +716,8 @@ They are **not** required in any way and their content will **not** be tested in
     <td>
     <p>May&nbsp;31</p>
     <p><small><i>Week 10</i></small></p>
+    <hr />
+    <p><small><strong>3:30pm&ndash; HW 8 Due</strong></small></p>
     </td>
     <td>Exam Review</td>
     <td></td>
