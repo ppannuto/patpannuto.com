@@ -69,6 +69,8 @@ At the end of the CSE&nbsp;141 series, students should be able to:
 ### Course Staff
 
 [Pat Pannuto](https://patpannuto.com) is the instructor and their office is [CSE 3202](https://cse.ucsd.edu/about/floormaps) (right in the corner).
+Their email is [ppannuto@ucsd.edu](mailto:ppannuto@ucsd.edu?Subject=CSE141:);
+please remember to include `CSE141` in the subject line for class issues.
 
 ##### What should you call me?
 Most students call me Professor or Professor Pannuto or Dr. Pannuto.
