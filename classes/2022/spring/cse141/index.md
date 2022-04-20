@@ -594,6 +594,13 @@ They are **not** required in any way and their content will **not** be tested in
   <tr class="table-warning">
     <td colspan="4">
     <h4 id="midterm">Midterm Exam</h4>
+    <p>The midterm covers all material taught up through the
+    end of week 5. &ldquo;If you have seen the topic on a HW,
+    it is fair game for the midterm.&rdquo;</p>
+    <p>A friendly reminder that the readings are <i>required</i>
+    for this class, and the midterm may include (a few, small)
+    questions from the assigned reading that were not explicitly
+    covered or emphasized in lecture.</p>
     </td>
   </tr>
   <tr class="table-warning">
@@ -721,6 +728,13 @@ They are **not** required in any way and their content will **not** be tested in
   <tr class="table-warning">
     <td colspan="4">
     <h4 id="midterm">Final Exam</h4>
+    <p>The final is comprehensive and covers all material taught
+    any time this quarter. &ldquo;If you have seen the topic on any HW,
+    it is fair game for the final.&rdquo;</p>
+    <p>A friendly reminder that the readings are <i>required</i>
+    for this class, and the exam may include (a few, small)
+    questions from the assigned reading that were not explicitly
+    covered or emphasized in lecture.</p>
     </td>
   </tr>
   <tr class="table-warning">
