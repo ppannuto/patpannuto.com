@@ -42,6 +42,18 @@ We expect that you are enrolled in both.
 > If you cannot enroll in both because of scheduling, waitlists, etc, it is more important to complete CSE 141 first.
 > You can succeed in CSE 141 without the partner lab, you very likely cannot succeed in 141L without having the 141 material.
 
+### Learning Goals of 141+141L
+
+At the end of the CSE&nbsp;141 series, students should be able to:
+
+1. Make or support ISA design decisions with respect to the types of operations, the ways to impact control flow, and the number (and types) of operands.
+2. Apply the Performance Equation and Amdahl's Law to evaluate processor designs.
+3. Design single-cycle and pipelined processors.
+4. Determine cache performance given a particular cache design and an address stream.
+5. Evaluate and optimize program performance on a particular architecture and memory hierarchy.
+6. Describe the role of Virtual Memory and evaluate memory designs (including the Translation Lookaside Buffer and its corresponding caches).
+7. Explain the performance benefits of pipelining, superscalar, and out-of-order execution.
+
 ---
 
 [TOC]
@@ -57,6 +69,17 @@ We expect that you are enrolled in both.
 ### Course Staff
 
 [Pat Pannuto](https://patpannuto.com) is the instructor and their office is [CSE 3202](https://cse.ucsd.edu/about/floormaps) (right in the corner).
+Their email is [ppannuto@ucsd.edu](mailto:ppannuto@ucsd.edu?Subject=CSE141:);
+please remember to include `CSE141` in the subject line for class issues.
+
+##### What should you call me?
+Most students call me Professor or Professor Pannuto or Dr. Pannuto.
+I also answer happily to &ldquo;Prof[essor] P.&rdquo;
+
+##### What should I call you?
+I should call you by your preferred name, with the correct pronunciation and any honorific or pronouns you choose.
+Please correct me (in the chat if there is one, out loud in class or in Zoom, or via email/Piazza after the fact – however you are most comfortable) if I ever make a mistake.
+
 
 #### TAs
 
@@ -107,6 +130,13 @@ The textbook is required for this course.
 Lectures are Tue/Thr from 15:30 to 16:50 US/Pacific, in P416 WEST (the tents between Mandeville Ln and the Library Walk).
 
 Discussion is Wed from 18:00 to 18:50 US/Pacific, in P416 EAST (the tents between Mandeville Ln and the Library Walk).
+
+#### (A?)Sychronous?, Remote?, Recordings?
+
+This course is designed for synchronous, in-person instruction.
+That said, life happens, so we will make _best-effort_ attempts to stream the
+lectures via Zoom and will make these recordings available in Canvas.
+Please be sure to review the [Participation](#15-participation-peer-instruction) section in detail as well.
 
 #### Office Hours
 
@@ -178,6 +208,30 @@ This course will have one midterm exam.
 
 The final exam will be cumulative over all of the course content.
 
+##### Midterm, Final Format
+Exams will be pen/pencil-only. You may not have a notesheet,
+calculator<sup>&dagger;</sup>, or any other additional resources.
+We will provide a (possibly slightly modified) copy of the MIPS Green
+Card with exams.
+
+Most of the exam questions will be very similar to the homework assignments,
+namely questions with large areas for open-ended free response. Some questions
+may include (possibly slightly modified) copies of processor diagrams similar
+to these shown in lecture and in homework.
+In addition, there may be some &ldquo;fill-in-the-blank&rdquo;, multiple
+choice, and True/False questions.
+
+For purposes of ensuring academic integrity and in accordance with
+[UCSD](https://students.ucsd.edu/_files/student-conduct/Standards%20of%20Conduct.pdf) and
+[UCoP](https://www.ucop.edu/student-equity-affairs/policies/pacaos.html) policies,
+we may video record the examination area for the duration of the exam process.
+
+
+<small><sup>&dagger;</sup>Some questions may require basic arithmetic.
+You may leave the answer to any free-response question in fraction form.
+A calculator will not be necessary for the satisfactory completion of any problem.
+</small>
+
 #### Final Grades
 
 I believe in mastery learning. My goal is to teach you the material in 141
@@ -206,6 +260,17 @@ and did not curve the final.</small>
 </div>
 <small><em>Range notation [90,93) means 90 is included and 93 is not</em></small>
 
+##### Extra Credit? Grade Bumps?
+
+There will be no extra credit in this class. I will not &ldquo;bump&rdquo;
+grades up that are &ldquo;close&rdquo; to a cutoff (becuase, then someone
+else is close to the new &ldquo;bump cutoff,&rdquo; drawing new arbitrary
+lines will always be unfair to someone).
+
+##### CAPEs Incentive
+
+If, at the end of the term, the CAPE response rate is >=90.0%, we will
+drop everyone's lowest homework grade.
 
 ### Academic Integrity
 
@@ -378,6 +443,8 @@ They are **not** required in any way and their content will **not** be tested in
     <td>
     <p>Mar&nbsp;31</p>
     <p><small><i>Week 1</i></small></p>
+    <hr />
+    <p><small><strong>HW 1 Assigned</strong></small></p>
     </td>
     <td>
     <p>ISA design</p>
@@ -420,6 +487,9 @@ They are **not** required in any way and their content will **not** be tested in
     <td>
     <p>Apr&nbsp;7</p>
     <p><small><i>Week 2</i></small></p>
+    <hr />
+    <p><small><strong>3:30pm&ndash; HW 1 Due</strong></small></p>
+    <p><small><strong>HW 2 Assigned</strong></small></p>
     </td>
     <td>
     <p>Defining performance, time; Amdahl's law</p>
@@ -474,6 +544,9 @@ They are **not** required in any way and their content will **not** be tested in
     <td>
     <p>Apr&nbsp;14</p>
     <p><small><i>Week 3</i></small></p>
+    <hr />
+    <p><small><strong>3:30pm&ndash; HW 2 Due</strong></small></p>
+    <p><small><strong>HW 3 Assigned</strong></small></p>
     </td>
     <td>
     <p>Datapaths and control paths</p>
@@ -517,6 +590,9 @@ They are **not** required in any way and their content will **not** be tested in
     <td>
     <p>Apr&nbsp;21</p>
     <p><small><i>Week 4</i></small></p>
+    <hr />
+    <p><small><strong>3:30pm&ndash; HW 3 Due</strong></small></p>
+    <p><small><strong>HW 4 Assigned</strong></small></p>
     </td>
     <td>
     <p>Hazards</p>
@@ -545,6 +621,9 @@ They are **not** required in any way and their content will **not** be tested in
     <td>
     <p>Apr&nbsp;28</p>
     <p><small><i>Week 5</i></small></p>
+    <hr />
+    <p><small><strong>3:30pm&ndash; HW 4 Due</strong></small></p>
+    <p><small><strong>HW 5 (½&nbsp;length) Assigned</strong></small></p>
     </td>
     <td>
     <p>Branch predictors</p>
@@ -557,6 +636,8 @@ They are **not** required in any way and their content will **not** be tested in
     <td>
     <p>May&nbsp;3</p>
     <p><small><i>Week 6</i></small></p>
+    <hr />
+    <p><small><strong>3:30pm&ndash; HW 5 Due</strong></small></p>
     </td>
     <td>
     <p>Pipeline catch-up day</p>
@@ -567,6 +648,13 @@ They are **not** required in any way and their content will **not** be tested in
   <tr class="table-warning">
     <td colspan="4">
     <h4 id="midterm">Midterm Exam</h4>
+    <p>The midterm covers all material taught up through the
+    end of week 5. &ldquo;If you have seen the topic on a HW,
+    it is fair game for the midterm.&rdquo;</p>
+    <p>A friendly reminder that the readings are <i>required</i>
+    for this class, and the midterm may include (a few, small)
+    questions from the assigned reading that were not explicitly
+    covered or emphasized in lecture.</p>
     </td>
   </tr>
   <tr class="table-warning">
@@ -609,6 +697,8 @@ They are **not** required in any way and their content will **not** be tested in
     <td>
     <p>May&nbsp;12</p>
     <p><small><i>Week 7</i></small></p>
+    <hr />
+    <p><small><strong>HW 6 Assigned</strong></small></p>
     </td>
     <td>
     <p>Midterm Review</p>
@@ -644,6 +734,9 @@ They are **not** required in any way and their content will **not** be tested in
     <td>
     <p>May&nbsp;19</p>
     <p><small><i>Week 8</i></small></p>
+    <hr />
+    <p><small><strong>3:30pm&ndash; HW 6 Due</strong></small></p>
+    <p><small><strong>HW 7 Assigned</strong></small></p>
     </td>
     <td>
     <p>Introducing Caches</p>
@@ -673,6 +766,9 @@ They are **not** required in any way and their content will **not** be tested in
     <td>
     <p>May&nbsp;26</p>
     <p><small><i>Week 9</i></small></p>
+    <hr />
+    <p><small><strong>3:30pm&ndash; HW 7 Due</strong></small></p>
+    <p><small><strong>HW 8 (½&nbsp;length) Assigned</strong></small></p>
     </td>
     <td>
     <p>Virtual Memory</p>
@@ -686,12 +782,21 @@ They are **not** required in any way and their content will **not** be tested in
   <tr class="table-warning">
     <td colspan="4">
     <h4 id="midterm">Final Exam</h4>
+    <p>The final is comprehensive and covers all material taught
+    any time this quarter. &ldquo;If you have seen the topic on any HW,
+    it is fair game for the final.&rdquo;</p>
+    <p>A friendly reminder that the readings are <i>required</i>
+    for this class, and the exam may include (a few, small)
+    questions from the assigned reading that were not explicitly
+    covered or emphasized in lecture.</p>
     </td>
   </tr>
   <tr class="table-warning">
     <td>
     <p>May&nbsp;31</p>
     <p><small><i>Week 10</i></small></p>
+    <hr />
+    <p><small><strong>3:30pm&ndash; HW 8 Due</strong></small></p>
     </td>
     <td>Exam Review</td>
     <td></td>
