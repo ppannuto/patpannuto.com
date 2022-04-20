@@ -178,6 +178,30 @@ This course will have one midterm exam.
 
 The final exam will be cumulative over all of the course content.
 
+##### Midterm, Final Format
+Exams will be pen/pencil-only. You may not have a notesheet,
+calculator<sup>&dagger;</sup>, or any other additional resources.
+We will provide a (possibly slightly modified) copy of the MIPS Green
+Card with exams.
+
+Most of the exam questions will be very similar to the homework assignments,
+namely questions with large areas for open-ended free response. Some questions
+may include (possibly slightly modified) copies of processor diagrams similar
+to these shown in lecture and in homework.
+In addition, there may be some &ldquo;fill-in-the-blank&rdquo;, multiple
+choice, and True/False questions.
+
+For purposes of ensuring academic integrity and in accordance with
+[UCSD](https://students.ucsd.edu/_files/student-conduct/Standards%20of%20Conduct.pdf) and
+[UCoP](https://www.ucop.edu/student-equity-affairs/policies/pacaos.html) policies,
+we may video record the examination area for the duration of the exam process.
+
+
+<small><sup>&dagger;</sup>Some questions may require basic arithmetic.
+You may leave the answer to any free-response question in fraction form.
+A calculator will not be necessary for the satisfactory completion of any problem.
+</small>
+
 #### Final Grades
 
 I believe in mastery learning. My goal is to teach you the material in 141
