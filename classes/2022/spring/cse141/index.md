@@ -42,6 +42,18 @@ We expect that you are enrolled in both.
 > If you cannot enroll in both because of scheduling, waitlists, etc, it is more important to complete CSE 141 first.
 > You can succeed in CSE 141 without the partner lab, you very likely cannot succeed in 141L without having the 141 material.
 
+### Learning Goals of 141+141L
+
+At the end of the CSE&nbsp;141 series, students should be able to:
+
+1. Make or support ISA design decisions with respect to the types of operations, the ways to impact control flow, and the number (and types) of operands.
+2. Apply the Performance Equation and Amdahl's Law to evaluate processor designs.
+3. Design single-cycle and pipelined processors.
+4. Determine cache performance given a particular cache design and an address stream.
+5. Evaluate and optimize program performance on a particular architecture and memory hierarchy.
+6. Describe the role of Virtual Memory and evaluate memory designs (including the Translation Lookaside Buffer and its corresponding caches).
+7. Explain the performance benefits of pipelining, superscalar, and out-of-order execution.
+
 ---
 
 [TOC]
