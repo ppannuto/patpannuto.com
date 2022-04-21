@@ -436,6 +436,7 @@ They are **not** required in any way and their content will **not** be tested in
       <li>Slides as <a href="cse141-sp22-01-ISA.pptx">pptx</a> or <a href="cse141-sp22-01-ISA.pdf">pdf</a></li>
       <li><a href="https://booksite.elsevier.com/9780124077263/downloads/COD_5e_Greencard.pdf">MIPS Green Card</a></li>
       <li><a href="GreenCardOld.pdf">Simpler MIPS Reference</a></li>
+      <li><a href="https://docs.google.com/presentation/d/1yoWfRcZp73UlupLV7cG4Edz1Yk3GrrdUh3xz0uRzMm4/edit?usp=sharing">Discussion Session 1 Slides</a></li>
     </ul>
     </td>
   </tr>
@@ -480,6 +481,7 @@ They are **not** required in any way and their content will **not** be tested in
     <h4>Computer System Performance and Performance Metrics</h4>
     <ul>
       <li>Slides as <a href="cse141-sp22-02-Performance.pptx">pptx</a> or <a href="cse141-sp22-02-Performance.pdf">pdf</a></li>
+      <li><a href="https://docs.google.com/presentation/d/1UXhRWBP6FGygqdLw037gqaWMe2pYu3Uo5-uIz_43GmY/edit?usp=sharing">Discussion Session 2 Slides</a></li>
     </ul>
     </td>
   </tr>
@@ -517,6 +519,7 @@ They are **not** required in any way and their content will **not** be tested in
     <h4>The Single Cycle Machine</h4>
     <ul>
       <li>Slides as <a href="cse141-sp22-03-SingleCycleMachine.pptx">pptx</a> or <a href="cse141-sp22-03-SingleCycleMachine.pdf">pdf</a></li>
+      <li><a href="https://docs.google.com/presentation/d/1uSiLZ5-VFFybqoiRVWnzeFr-SBbADkI8Lh7XidvL18o/edit?usp=sharing">Discussion Session 3 Slides</a></li>
     </ul>
     </td>
   </tr>
