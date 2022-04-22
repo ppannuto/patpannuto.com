@@ -206,3 +206,5 @@ if __name__ == '__main__':
 		j.get()
 	WORKER_POOL.close()
 	WORKER_POOL.join()
+
+	logger.info("Done!")
