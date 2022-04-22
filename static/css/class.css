@@ -14,13 +14,20 @@ a {color: #004499;}
 .h4, h4 {font-size: 1.15rem;}
 .h5, h5 {font-size: 1.08rem;}
 
-/* Don't let img's overflow layout space */
-img {width: 100%;}
-
 /* Grey-indent blockquotes */
 blockquote {
 	background: #f9f9f9;
 	border-left: 10px solid #ccc;
 	margin: 1.5em 10px;
 	padding: 0.5em 10px;
+}
+
+/* Don't let img's overflow layout space */
+img {
+	width: 100%;
+}
+
+/* Make video thumbnails look nice */
+img.thumbnail {
+	border-style: solid;
 }

@@ -459,6 +459,18 @@ They are **not** required in any way and their content will **not** be tested in
     <ul>
     <li>Computers aren't associative? <a href="https://stackoverflow.com/questions/6430448/why-doesnt-gcc-optimize-aaaaaa-to-aaaaaa">When <tt>x*x*x != x*(x*x)</tt></a></li>
     <li><a href="https://www.xorpd.net/pages/xchg_rax/snip_00.html">x86 Assembly Puzzles</a> &ndash; <small>&ldquo;A book of 0x40 short assembly snippets, each built to teach you one concept about assembly, math or life in general.&rdquo;</small></li>
+    <hr />
+    <center><b>Topic Videos</b></center>
+    <li>Branching with <tt>slt</tt> <i><small>(FA'20&nbsp;Video)</small></i></li>
+      <a href="../../../2020/fall/cse141/video/ISA_branching.webm">
+      <!-- one battle at a time
+        <picture>
+          <source srcset="../../../2020/fall/cse141/video/ISA_branching_thumb.avif" type="image/avif"></source>
+          <source srcset="../../../2020/fall/cse141/video/ISA_branching_thumb.webp" type="image/webp"></source>
+        </picture>
+      -->
+          <img alt="Still of video with worked example" src="../../../2020/fall/cse141/video/ISA_branching_thumb.png" title="Video Thumbnail" class="thumbnail" />
+      </a>
     </ul>
     </td>
   </tr>
@@ -586,6 +598,18 @@ They are **not** required in any way and their content will **not** be tested in
     <td>Read 4.5 until hazards (p272-277); Skim rest of 4.5</td>
     <td rowspan="5">
     <ul>
+    <hr />
+    <center><b>Topic Videos</b></center>
+    <li>Stalls and Forwards</li>
+      <a href="video/StallsAndForwards.webm">
+      <!-- one battle at a time
+      <picture>
+        <source srcset="video/StallsAndForwards_thumb.avif" type="image/avif"></source>
+        <source srcset="video/StallsAndForwards_thumb.webp" type="image/webp"></source>
+      </picture>
+      -->
+        <img alt="Still of video end with answer 1 bubble and 5 stalls" src="video/StallsAndForwards_thumb.png" title="Final Result Screenshot" class="thumbnail" />
+    </a>
     </ul>
     </td>
   </tr>
