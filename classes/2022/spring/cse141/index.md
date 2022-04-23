@@ -624,6 +624,7 @@ They are **not** required in any way and their content will **not** be tested in
     <td>
     <p>Hazards</p>
     <p>Data Hazards; Stalls; Forwarding</p>
+    <p><small><i>n.b. Ended middle of last forwarding problems; Slide&nbsp;103</i></small></p>
     </td>
     <td>
     <p>Read 4.5 hazards and data hazards (p277-281); Read 4.7</p>
