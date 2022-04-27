@@ -640,6 +640,8 @@ They are **not** required in any way and their content will **not** be tested in
     <td>
     <p>(probably): Finish forwarding</p>
     <p>Control hazards</p>
+    <p>Simple fixes (stalls; never taken; delay slots)</p>
+    <p><small><i>n.b. Ended just before modern predictors; Slide&nbsp;136</i></small></p>
     </td>
     <td>
     <p>Read 4.5 control hazards onwards (p281-286); Read 4.8 until prediction (p316-320)</p>
