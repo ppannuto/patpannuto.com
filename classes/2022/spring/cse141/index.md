@@ -705,11 +705,9 @@ They are **not** required in any way and their content will **not** be tested in
     <td><h4 id="part-v">Part V</h4>
     <td colspan="3">
     <h4>Advanced Pipelines</h4>
-    <!--
     <ul>
-      <li>Slides as <a href="cse141-fa20-AdvancedPipelines.pptx">pptx</a> or <a href="cse141-fa20-AdvancedPipelines.pdf">pdf</a></li>
+      <li>Slides as <a href="cse141-sp22-05-AdvancedPipelines.pptx">pptx</a> or <a href="cse141-sp22-05-AdvancedPipelines.pdf">pdf</a></li>
     </ul>
-    -->
     </td>
   </tr>
   <tr>
