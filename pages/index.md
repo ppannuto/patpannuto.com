@@ -102,8 +102,11 @@ A complete list is available on my [publications page](/publications.html).
  - `[SP22]` [CSE141: Introduction to Computer Architecture](/classes/2022/spring/cse141/)
  - `[WI22]` [CSE291 (13): Wireless and Communication in the Internet of Things](/classes/2022/winter/cse291/)
  - `[WI22]` [CSE141L - Introduction to Computer Architecture Lab](/classes/2022/winter/cse141L/)
+ - `[FA21]` [CSE290: Embedded Systems Seminar](https://sites.google.com/eng.ucsd.edu/embeddedlunch/)
  - `[SP21]` [CSE291 - A00: Special Topics in Embedded Systems & The Internet of Things](/classes/2021/spring/cse291/)
+ - `[WI21]` [CSE290: Embedded Systems Seminar](https://sites.google.com/eng.ucsd.edu/embeddedlunch/)
  - `[FA20]` [CSE141 - A00: Introduction to Computer Architecture](/classes/2020/fall/cse141/)
+ - `[FA20]` [CSE290: Embedded Systems Seminar](https://sites.google.com/eng.ucsd.edu/embeddedlunch/)
  - `[WI20]` [CSE291 - K00: Platforms and Systems to Bridge the Digital and Physical World](/classes/2020/winter/cse291/)
 
 A [history of my teaching prior to joining UCSD](/teaching.html) is also available.
