@@ -751,11 +751,9 @@ They are **not** required in any way and their content will **not** be tested in
     <td><h4 id="part-vi">Part VI</h4>
     <td colspan="3">
     <h4>Caches and Memory</h4>
-    <!--
     <ul>
-      <li>Slides as <a href="cse141-fa20-MemoryAndCaches.pptx">pptx</a> or <a href="cse141-fa20-MemoryAndCaches.pdf">pdf</a></li>
+      <li>Slides as <a href="cse141-sp22-06-MemoryAndCaches.pptx">pptx</a> or <a href="cse141-sp22-06-MemoryAndCaches.pdf">pdf</a></li>
     </ul>
-    -->
     </td>
   </tr>
   <tr>
