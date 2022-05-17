@@ -729,8 +729,9 @@ They are **not** required in any way and their content will **not** be tested in
     <p><small><strong>HW 6 Assigned</strong></small></p>
     </td>
     <td>
-    <p>Midterm Review</p>
-    <p>Even more advanced branch predictors &amp; Branch Predictor Examples</p>
+    <p>Even more advanced branch predictors</p>
+    <p>Exceptions and interrupts</p>
+    <p>Pipelines in Modern Machines</p>
     </td>
     <td>None</td>
   </tr>
@@ -741,8 +742,8 @@ They are **not** required in any way and their content will **not** be tested in
     <p><small><i>Week 8</i></small></p>
     </td>
     <td>
-    <p>Exceptions and interrupts</p>
-    <p><i>If time:</i> Pipelines in Modern Machines</p>
+    <p>Midterm Review</p>
+    <p><i>If time:</i> Intro Caches</p>
     </td>
     <td>Read 4.9</td>
   </tr>
@@ -798,6 +799,7 @@ They are **not** required in any way and their content will **not** be tested in
     </td>
     <td>
     <p>Virtual Memory</p>
+    <p><i>If time:</i> Branch Predictors are Caches!</p>
     </td>
     <td>Read 5.7 (focus more on the first ~half)</td>
   </tr>
