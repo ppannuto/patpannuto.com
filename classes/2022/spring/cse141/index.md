@@ -695,8 +695,8 @@ They are **not** required in any way and their content will **not** be tested in
     <td>Midterm exam</td>
     <td colspan="2">
     <ul>
-    <li>In-class exam</li>
-    <li>80-minute timed exam</li>
+    <li>In-class exam.</li>
+    <li>80-minute timed exam.</li>
     </ul>
     </td>
   </tr>
@@ -839,7 +839,7 @@ They are **not** required in any way and their content will **not** be tested in
     <td colspan="2">
     <ul>
     <li>In-class exam.</li>
-    <li>80-minute timed exam</li>
+    <li>80-minute timed exam.</li>
     </ul>
     </td>
   </tr>
