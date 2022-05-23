@@ -774,6 +774,11 @@ They are **not** required in any way and their content will **not** be tested in
     <hr />
     <p>Read 5.3</p>
     </td>
+    <td rowspan="3">
+    <ul>
+    <li><a href="http://igoro.com/archive/gallery-of-processor-cache-effects/">Gallery of Processor Cache Effects</a> &ndash; examples of real world code and the effect of cache size on performance (notice the huge jumps!).</li>
+    </ul>
+    </td>
   </tr>
   <tr>
     <td>
