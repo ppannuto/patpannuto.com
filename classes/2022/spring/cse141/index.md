@@ -269,8 +269,9 @@ lines will always be unfair to someone).
 
 ##### CAPEs Incentive
 
-If, at the end of the term, the CAPE response rate is >=90.0%, we will
-drop everyone's lowest homework grade.
+If, at the end of the term, the
+[CAPE response rate](https://cape.ucsd.edu/responses/current.aspx)
+is >=90.0%, we will drop everyone's lowest homework grade.
 
 ### Academic Integrity
 
