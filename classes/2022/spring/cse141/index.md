@@ -581,6 +581,8 @@ They are **not** required in any way and their content will **not** be tested in
     <h4>Pipelines</h4>
     <ul>
       <li>Slides as <a href="cse141-sp22-04-Pipelines.pptx">pptx</a> or <a href="cse141-sp22-04-Pipelines.pdf">pdf</a></li>
+      <li><a href="https://docs.google.com/presentation/d/15oMW_jqnMiSCDc_OrAD3U5z9jNEXnaBe0XIQ3FWAsjo/edit?usp=sharing">Discussion Session 4 Slides</a></li>
+      <li><a href="https://docs.google.com/presentation/d/1OMf9xzt23MCkU5_t4FvrgDA1KAmMt2yqQyYzYG8otlA/edit?usp=sharing">Discussion Session 5 Slides</a></li>
     </ul>
     </td>
   </tr>
@@ -708,6 +710,7 @@ They are **not** required in any way and their content will **not** be tested in
     <h4>Advanced Pipelines</h4>
     <ul>
       <li>Slides as <a href="cse141-sp22-05-AdvancedPipelines.pptx">pptx</a> or <a href="cse141-sp22-05-AdvancedPipelines.pdf">pdf</a></li>
+      <li><a href="https://docs.google.com/presentation/d/1Pvy9fueaeXAU6CTN5d9t4YEX-suRjol234wIwMZkglg/edit">Discussion Session 6 Slides</a></li>
     </ul>
     </td>
   </tr>
@@ -755,6 +758,7 @@ They are **not** required in any way and their content will **not** be tested in
     <h4>Caches and Memory</h4>
     <ul>
       <li>Slides as <a href="cse141-sp22-06-MemoryAndCaches.pptx">pptx</a> or <a href="cse141-sp22-06-MemoryAndCaches.pdf">pdf</a></li>
+      <li><a href="https://docs.google.com/presentation/d/1QuI819H2fa3i69cHyAMwy_jH3fXhfNLUxKd4Vjc6Hn4/edit?usp=sharing">Discussion Session 7 Slides</a></li>
     </ul>
     </td>
   </tr>
