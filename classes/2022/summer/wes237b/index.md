@@ -66,7 +66,7 @@ Please correct me (in the chat if there is one, out loud in class or in Zoom, or
             - Slides
     - Lab: PYNQ, OpenCV, and basic DCTs
     - Assignment: Matrix math, 2D DCTs, and profiling
-
+        - [Lab 2, Assignment 2](assignment2/)
 <!--
  - **Saturday, August 6** &ndash; Third Class
     - Lecture:
