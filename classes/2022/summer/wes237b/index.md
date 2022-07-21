@@ -58,9 +58,39 @@ Please correct me (in the chat if there is one, out loud in class or in Zoom, or
         - [Assignment Starter Code](wes237b-a1-huffman.zip)
 
  - **Saturday, July 23** &ndash; Second Class
+    - Lecture:
+        - Performance, Optimizations, µArch, and the Memory Hierachy
+            - Slides [pptx](wes237b-su22-02-Performance_Optimization_Jpg.pptx)
+        - _Break_
+        - Lab Preview: Intro to DCT
+            - Slides
+    - Lab: PYNQ, OpenCV, and basic DCTs
+    - Assignment: Matrix math, 2D DCTs, and profiling
+
+<!--
  - **Saturday, August 6** &ndash; Third Class
+    - Lecture:
+        - ` 9:00-10:15` Compiler optimizations, SIMD, GPU implementations
+        - `10:15-10:30` _Break_
+        - `10:30-11:30` Student Presentation
+        - `11:30-11:40` _Break_
+        - `11:40-12:00` Pre-lab: Sobel filters, ARM NEON, PYNQ vs. Jetson
+    - Lab:
+        - Optimizations in practice [`-f-tree-opt`, perf]
+    - Assignment:
+        - Implementing a Sobel filter
+        - Benchmarking vs. the OpenCV Sobel implementation
+
  - **Saturday, August 20** &ndash; Fourth Class
+    - Lecture:
+    - Lab:
+    - Assignment:
+
  - **Saturday, September 3** &ndash; Fifth & Final Class
+    - Lecture:
+    - Lab:
+    - Assignment:
+-->
 
 ### Grading
 
