@@ -75,6 +75,7 @@ static_extensions = [
 		'.css', '.js', '.ico', '.ttf', '.eot', '.svg', '.woff',
 		'.pdf', '.pptx', '.doc', '.docx', '.txt',
 		'.gz', '.tgz', '.otf', '.odp', '.webmanifest', '.xml',
+		'.h', '.c', '.cpp', '.cxx',
 		'.zip', '.webm', '.patch',
 		]
 image_extensions = [
@@ -172,6 +173,28 @@ if __name__ == '__main__':
 						spath = os.path.join('classes', year, quarter, course, 'video', filename)
 						dpath = os.path.join('html', spath)
 						handle_static_file(spath, dpath)
+
+				# Hacks on hacks on hacks on hacks on hacks on hacks
+				if os.path.isdir(os.path.join('classes', year, quarter, course, 'assignment2')):
+					for filename in os.listdir(os.path.join('classes', year, quarter, course, 'assignment2')):
+						mkdir('-p', os.path.join('html', 'classes', year, quarter, course, 'assignment2'))
+						if filename.startswith('.'):
+							continue
+						if filename.startswith('~'):
+							continue
+						if filename[-3:] == '.md':
+							logger.info('        Process ' + filename)
+							path = os.path.join('classes', year, quarter, course, 'assignment2')
+							meta = {
+									'year': year,
+									'quarter': quarter,
+									'course': course,
+									}
+							class_md_to_html(path, path, filename, meta)
+						else:
+							spath = os.path.join('classes', year, quarter, course, 'assignment2', filename)
+							dpath = os.path.join('html', spath)
+							handle_static_file(spath, dpath)
 
 	logger.info('Building publications database...')
 	publications.generate_publications_page(pubs_groups, jinja_env)
