@@ -62,8 +62,8 @@ Please correct me (in the chat if there is one, out loud in class or in Zoom, or
         - Performance, Optimizations, µArch, and the Memory Hierachy
             - Slides [pptx](wes237b-su22-02-Performance_Optimization_Jpg.pptx)
         - _Break_
-        - Lab Preview: Intro to DCT
-            - Slides
+        - Lab Preview: Quie intro to DCT, MM, BMM
+            - Slides [pdf](wes237b-su22-02-LabPrimer.pdf)
     - Lab: PYNQ, OpenCV, and basic DCTs
     - Assignment: Matrix math, 2D DCTs, and profiling
         - [Lab 2, Assignment 2](assignment2/)
