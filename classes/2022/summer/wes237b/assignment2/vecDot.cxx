@@ -1,4 +1,4 @@
-#include "vecMul.h"
+#include "vecDot.h"
 
 float dot_product(Eigen::VectorXf vec1, Eigen::VectorXf vec2, uint32_t length) {
 	// Note: This function does not use Eigen; it simply uses the Eigen
