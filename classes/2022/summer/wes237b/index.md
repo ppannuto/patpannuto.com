@@ -98,7 +98,7 @@ Please correct me (in the chat if there is one, out loud in class or in Zoom, or
 
  - **Student group research and participation: 30%**
     - Class participation: 10%
-    - Group research and presentation (signup: ): 20% 
+    - Group research and presentation (signup: https://docs.google.com/spreadsheets/d/1QPzLh9vVuuy8PDCHZhj1w48fA8xVvfOBb1-CYDEFhr4/edit?usp=sharing): 20% 
  - **Assignments : 70%**
     - Assignment 1: 10%
     - Assignments 2 to 5: 15% each
