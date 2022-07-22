@@ -43,18 +43,19 @@ If you really have to modify another file, do minimal modifications and explain
 them in your report.
 
 
-<!--
-Work Submission
+### Work Submission
 
-IMPORTANT: Follow the instructions exactly, and double check your repository, folder, and file names. You may lose points if you do not follow the exact instructions. If you have a doubt or a question, please ask the TAs, preferably on Piazza.
+IMPORTANT: Follow the instructions exactly, and double check your repository, folder, and file names. You may lose points if you do not follow the exact instructions. If you have a doubt or a question, please ask the TAs, preferably on Canvas.
 
-    Each team must have a bitbucket repository, Please make sure your repository follows our policies.
+    Each team must have a Bitbucket or GitHub repository, Please make sure your repository follows our policies.
     All of your codes related to assignment 1 must be placed in a folder called Assignment_1 in your repository’s source directory
     You have to submit these:
-        A short report named Report.pdf with brief answers to Part 1.1, 1.2, 1.3 and 2.5. This should be at the root of the assignment folder.
-        Your Python script from Part 1.4 name convert.py. This should be at the root of the assignment folder.
-        The modified iir_filter_ffd file from Part 1.5. This should be at the root of the assignment folder.
-        The completed template folder from Part 2. Place the entire folder inside the assignment folder, but remove any generated binary (CODEC, or any files under objs). We must be able to compile and run your code.
+        A short report named Report.pdf with brief answers to
+            * Describe your encoding scheme
+            * Describe any changes you made to the starter code outside of huffman.cpp
+            * How to compile/run your code?
+            * Sample output
+            * How to Part 1.1, 1.2, 1.3 and 2.5. This should be at the root of the assignment folder.
+        This should be at the root of the assignment folder.
 
 Do not submit other files than those listed, unless you have a good reason, and explain so in your report.
--->
