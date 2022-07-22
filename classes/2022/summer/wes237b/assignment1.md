@@ -53,10 +53,10 @@ You have to submit these:
 
 A short report named Report.pdf with brief answers to
 
-    * Describe your encoding scheme
-    * Describe any changes you made to the starter code outside of huffman.cpp
-    * How to compile/run your code?
-    * Sample output
+ * Describe your encoding scheme
+ * Describe any changes you made to the starter code outside of huffman.cpp
+ * How to compile/run your code?
+ * Sample output
 
 This should be at the root of the assignment folder.
 
