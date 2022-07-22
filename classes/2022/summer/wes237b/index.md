@@ -1,12 +1,10 @@
-<div align="center" markdown="1">
-[Pat Pannuto](/)
-----------------
+<div align="center">
+<h1><a href="/">Pat Pannuto</a></h1>
 </div>
 
 ---
 
-WES 237B: Introductions to Embedded Systems Design
-==================================================
+<h2>WES 237B: Introductions to Embedded Systems Design</h2>
 
 <!--
 ## Overview
@@ -35,9 +33,14 @@ I should call you by your preferred name, with the correct pronunciation and any
 Please correct me (in the chat if there is one, out loud in class or in Zoom, or via email/chat after the fact – however you are most comfortable) if I make a mistake.
 
 
-#### TAs
+#### TA & Office Hours
 
  - Chris Crutchfield - ccrutchf@eng.ucsd.edu
+
+**Office Hours:** Tuesday nights (7-8 PM) and every other Saturday (off-weeks; 10AM-Noon), via Zoom (link in Canvas).
+
+
+---
 
 
 ### _Tentative_ Syllabus
@@ -49,24 +52,27 @@ Please correct me (in the chat if there is one, out loud in class or in Zoom, or
 
 ### Calendar
 
- - **Saturday, July 9** &ndash; First Class
-    - Lecture: Introduction to 237B, embedded hardware platforms, a short software primer, and performance measures
-        - Slides [pptx](wes237b-su22-01-Intro_HWandHuffman.pptx)
-    - Lab: Introduction to the Jetson TX2 platform
-    - Assignment: Refreshing C, Huffman compression **(Due: July 24)**
-        - [Lab 1, Assignment 1](assignment1.html)
-        - [Assignment Starter Code](wes237b-a1-huffman.zip)
+#### **Saturday, July 9** &ndash; First Class
 
- - **Saturday, July 23** &ndash; Second Class
-    - Lecture:
-        - Performance, Optimizations, µArch, and the Memory Hierachy
-            - Slides [pptx](wes237b-su22-02-Performance_Optimization_Jpg.pptx)
-        - _Break_
-        - Lab Preview: Quie intro to DCT, MM, BMM
-            - Slides [pdf](wes237b-su22-02-LabPrimer.pdf)
-    - Lab: PYNQ, OpenCV, and basic DCTs
-    - Assignment: Matrix math, 2D DCTs, and profiling
-        - [Lab 2, Assignment 2](assignment2/)
+ - Lecture: Introduction to 237B, embedded hardware platforms, a short software primer, and performance measures
+     - Slides [pptx](wes237b-su22-01-Intro_HWandHuffman.pptx)
+ - Lab: Introduction to the Jetson TX2 platform
+ - Assignment: Refreshing C, Huffman compression **(Due: July 24)**
+     - [Lab 1, Assignment 1](assignment1.html)
+     - [Assignment Starter Code](wes237b-a1-huffman.zip)
+
+#### **Saturday, July 23** &ndash; Second Class
+
+ - Lecture:
+     - Performance, Optimizations, µArch, and the Memory Hierachy
+         - Slides [pptx](wes237b-su22-02-Performance_Optimization_Jpg.pptx)
+     - _Break_
+     - Lab Preview: Quie intro to DCT, MM, BMM
+         - Slides [pdf](wes237b-su22-02-LabPrimer.pdf)
+ - Lab: PYNQ, OpenCV, and basic DCTs
+ - Assignment: Matrix math, 2D DCTs, and profiling
+     - [Lab 2, Assignment 2](assignment2/)
+
 <!--
  - **Saturday, August 6** &ndash; Third Class
     - Lecture:
@@ -92,17 +98,35 @@ Please correct me (in the chat if there is one, out loud in class or in Zoom, or
     - Assignment:
 -->
 
+
+---
+
+
 ### Grading
 
  - **Student group research and participation: 30%**
     - Class participation: 10%
     - Group research and presentation: 20% 
- - **Assignments : 70%**
+ - **Assignments: 70%**
     - Assignment 1: 10%
     - Assignments 2 to 5: 15% each
 
-Assignments are for groups of 2. Group presentations are for different group of 2 — network!
+Assignments are for groups of 2. Group presentations are for different groups of 2 — network!
 
-<small>No-show (without notice); late: -5% / occurance. (Need to get explicitly permission
-each occasion; preferably in advance, but we know life happens.)</small>
+#### Late Policy
+
+Within one week of original deadline: 10% penalty.
+
+Within two weeks of original deadline: 30% penaly.
+
+Submissions are not accepted more than two weeks past the original deadline.
+(For exceptional situations, please email Pat, and we'll work something out.)
+
+#### Attendance
+
+Attendance is required for this course. We also recognize that life happens, so please
+just be sure to let us know.
+
+No-show (without notice); late: -5% / occurance. (Need to get explicitly permission
+each occasion; preferably in advance, but we know life happens.)
 
