@@ -55,7 +55,6 @@ IMPORTANT: Follow the instructions exactly, and double check your repository, fo
             * Describe any changes you made to the starter code outside of huffman.cpp
             * How to compile/run your code?
             * Sample output
-            * How to Part 1.1, 1.2, 1.3 and 2.5. This should be at the root of the assignment folder.
         This should be at the root of the assignment folder.
 
 Do not submit other files than those listed, unless you have a good reason, and explain so in your report.
