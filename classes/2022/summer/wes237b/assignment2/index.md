@@ -4,6 +4,8 @@ _Now we're really implementing things..._
 
 [TOC]
 
+---
+
 ## Part 1: Welcome to PYNQ
 
 This is the first in-lab component.
