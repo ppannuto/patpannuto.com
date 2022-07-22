@@ -24,8 +24,7 @@ implementations of interesting numerical types and matrix-like objects.
 
 - Download the newest stable release from [the Eigen website][eigen] (3.4.0 as-of this writing).
 - Copy this over to your PYNQ (i.e., `scp eigen-3.4.0.zip xilinx@192.168.2.99:`).
-- On the PYNQ, unzip and move the `Eigen/` folder to the board's include directory
-    - **CHRIS TODO: Update to actual include directory path**
+- On the PYNQ, unzip and move the `Eigen/` folder to the board's include directory (`/usr/include`).
 
 
 ### Create a working directory for this lab
