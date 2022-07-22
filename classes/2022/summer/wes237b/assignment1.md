@@ -47,14 +47,14 @@ them in your report.
 
 IMPORTANT: Follow the instructions exactly, and double check your repository, folder, and file names. You may lose points if you do not follow the exact instructions. If you have a doubt or a question, please ask the TAs, preferably on Canvas.
 
-    Each team must have a Bitbucket or GitHub repository, Please make sure your repository follows our policies.
-    All of your codes related to assignment 1 must be placed in a folder called Assignment_1 in your repository’s source directory
-    You have to submit these:
-        A short report named Report.pdf with brief answers to
-            * Describe your encoding scheme
-            * Describe any changes you made to the starter code outside of huffman.cpp
-            * How to compile/run your code?
-            * Sample output
-        This should be at the root of the assignment folder.
+Each team must have a Bitbucket or GitHub repository, Please make sure your repository follows our policies.
+All of your codes related to assignment 1 must be placed in a folder called Assignment_1 in your repository’s source directory
+You have to submit these:
+    A short report named Report.pdf with brief answers to
+        * Describe your encoding scheme
+        * Describe any changes you made to the starter code outside of huffman.cpp
+        * How to compile/run your code?
+        * Sample output
+    This should be at the root of the assignment folder.
 
 Do not submit other files than those listed, unless you have a good reason, and explain so in your report.
