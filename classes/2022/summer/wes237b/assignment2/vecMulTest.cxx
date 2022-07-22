@@ -1,6 +1,7 @@
 #include <cmath>
 
-#include "vecMul.h"
+#include "vecMulTest.h"
+#include "vecDot.h"
 
 bool test_dot(Eigen::VectorXf vec1, Eigen::VectorXf vec2, uint32_t length) {
 	float eigen_result = vec1.dot(vec2);
