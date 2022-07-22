@@ -61,6 +61,16 @@ Please correct me (in the chat if there is one, out loud in class or in Zoom, or
      - [Lab 1, Assignment 1](assignment1.html)
      - [Assignment Starter Code](wes237b-a1-huffman.zip)
 
+> ##### **Tuesday, July 12** &ndash; Office Hours
+>  - Office Hours: 7-8pm
+>  - Zoom: https://ucsd.zoom.us/j/96458655520
+> ##### **Thursday, July 14** &ndash; Office Hours
+>  - Office Hours: 7-9pm
+>  - Zoom: https://ucsd.zoom.us/j/96458655520
+> ##### **Tuesday, July 19** &ndash; Office Hours
+>  - Office Hours: 7-8pm
+>  - Zoom: https://ucsd.zoom.us/j/96458655520
+
 #### **Saturday, July 23** &ndash; Second Class
 
  - Lecture:
@@ -72,6 +82,16 @@ Please correct me (in the chat if there is one, out loud in class or in Zoom, or
  - Lab: PYNQ, OpenCV, and basic DCTs
  - Assignment: Matrix math, 2D DCTs, and profiling
      - [Lab 2, Assignment 2](assignment2/)
+
+> ##### **Tuesday, July 26** &ndash; Office Hours
+>  - Office Hours: 7-8pm
+>  - Zoom: https://ucsd.zoom.us/j/96458655520
+> ##### **Saturday, July 30** &ndash; Office Hours
+>  - Office Hours: 10am-12pm
+>  - Zoom: https://ucsd.zoom.us/j/96458655520
+> ##### **Tuesday, August 2** &ndash; Office Hours
+>  - Office Hours: 7-8pm
+>  - Zoom: https://ucsd.zoom.us/j/96458655520
 
 <!--
  - **Saturday, August 6** &ndash; Third Class
@@ -87,10 +107,30 @@ Please correct me (in the chat if there is one, out loud in class or in Zoom, or
         - Implementing a Sobel filter
         - Benchmarking vs. the OpenCV Sobel implementation
 
+ - **Tuesday, August 9** &ndash; Office Hours
+    - Office Hours: 7-8pm
+    - Zoom: https://ucsd.zoom.us/j/96458655520
+ - **Saturday, August 13** &ndash;
+    - Office Hours: 10am-12pm
+    - Zoom: https://ucsd.zoom.us/j/96458655520
+ - **Tuesday, August 16** &ndash; Office Hours
+    - Office Hours: 7-8pm
+    - Zoom: https://ucsd.zoom.us/j/96458655520
+
  - **Saturday, August 20** &ndash; Fourth Class
     - Lecture:
     - Lab:
     - Assignment:
+
+ - **Tuesday, August 23** &ndash; Office Hours
+    - Office Hours: 7-8pm
+    - Zoom: https://ucsd.zoom.us/j/96458655520
+ - **Saturday, August 27** &ndash;
+    - Office Hours: 10am-12pm
+    - Zoom: https://ucsd.zoom.us/j/96458655520
+ - **Tuesday, August 30** &ndash; Office Hours
+    - Office Hours: 7-8pm
+    - Zoom: https://ucsd.zoom.us/j/96458655520
 
  - **Saturday, September 3** &ndash; Fifth & Final Class
     - Lecture:
@@ -106,8 +146,9 @@ Please correct me (in the chat if there is one, out loud in class or in Zoom, or
 
  - **Student group research and participation: 30%**
     - Class participation: 10%
-    - Group research and presentation: 20% 
- - **Assignments: 70%**
+    - Group research and presentation: 20%
+        - Signup: https://docs.google.com/spreadsheets/d/1QPzLh9vVuuy8PDCHZhj1w48fA8xVvfOBb1-CYDEFhr4/edit?usp=sharing
+ - **Assignments : 70%**
     - Assignment 1: 10%
     - Assignments 2 to 5: 15% each
 
