@@ -64,7 +64,7 @@ Look over these files quickly to sure you are comfortable with what they're doin
 In your project directory, run:
 
 ```
-g++ -Iinclude src/vecMulTest.cxx src/vecDot.cxx src/vecMain.cxx -o vectest -llapack -lblas -L/usr/lib/libarmadillo.so.9
+g++ -Iinclude src/vecMulTest.cxx src/vecDot.cxx src/vecMain.cxx -o vectest -llapack -lblas
 ```
 
 > _What are all those flags?_
