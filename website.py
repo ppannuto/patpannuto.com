@@ -75,7 +75,7 @@ static_extensions = [
 		'.css', '.js', '.ico', '.ttf', '.eot', '.svg', '.woff',
 		'.pdf', '.pptx', '.doc', '.docx', '.txt',
 		'.gz', '.tgz', '.otf', '.odp', '.webmanifest', '.xml',
-		'.h', '.c', '.cpp', '.cxx',
+		'.h', '.c', '.cpp', '.cxx', '.mk',
 		'.zip', '.webm', '.patch',
 		]
 image_extensions = [
