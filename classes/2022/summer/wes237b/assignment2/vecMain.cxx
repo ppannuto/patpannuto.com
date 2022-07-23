@@ -8,14 +8,18 @@
 #include "vecDot.h"
 #include "vecMulTest.h"
 
-// using Eigen::VectorXd;
-using namespace Eigen;
+//using namespace Eigen;
+
+using namespace std;
+
+using Eigen::MatrixXd;
+using Eigen::VectorXd;
 
 int main(int argc, const char* argv[]) {
-	matrixxd m = matrixxd::random(3,3);
+	MatrixXd m = MatrixXd::Random(3,3);
 	m = (m * 10);
 	cout << "m: " << endl << m << endl;
-	vectorxd v(3);
+	VectorXd v(3);
 	v << 1, 2, 3 ;
 	cout << "m*v: " << endl << m*v << endl;
 
