@@ -55,6 +55,7 @@ Copy the following files into your project:
 - [`include/vecMulTest.h`](vecMulTest.h)
 - [`src/vecDot.cxx`](vecDot.cxx)
 - [`src/vecMulTest.cxx`](vecMulTest.cxx)
+- [`src/vecMain.cxx`](vecMain.cxx)
 
 Look over these files quickly to sure you are comfortable with what they're doing.
 
@@ -63,14 +64,14 @@ Look over these files quickly to sure you are comfortable with what they're doin
 In your project directory, run:
 
 ```
-g++ -Iinclude src/vecMulTest.cxx src/vecDot.cxx src/main.cxx -o vectest -llapack -lblas -larmadillo
+g++ -Iinclude src/vecMulTest.cxx src/vecDot.cxx src/vecMain.cxx -o vectest -llapack -lblas
 ```
 
 > _What are all those flags?_
 >
 > `-Iinclude` This tells the compiler where to look for our .h files. This is relative to where `g++` is invoked. Sometimes external libraries provide a different include directory, and you'll need to add them. We can have multiple include directories by adding another `-I..`
 >
-> `src/vecMulTest.cxx src/vecDot.cxx src/main.cxx` These are our source files.
+> `src/vecMulTest.cxx src/vecDot.cxx src/vecMain.cxx` These are our source files.
 >
 > `-o vectest` Specifies what is our output file. In this case, we end up with an executable file called vectest. We can run the executable using `./vectest`.
 >
