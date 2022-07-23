@@ -96,7 +96,9 @@ rm vectest
 
 Copy the following files into your project:
 
-- [`Makefile.mk`](Makefile.mk)
+- [`Makefile`](Makefile.mk)
+
+> Note, this might download as `Makefile.mk`, if so, rename it to just `Makefile`
 
 Now, to build, just run `make`.
 
