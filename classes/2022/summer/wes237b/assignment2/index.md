@@ -106,8 +106,12 @@ Now, to build, just run `make`.
 
 Add new files, `vecCross.h` and `vecCross.cxx`, that implement a cross product method.
 Then add tests to the existing test program that compares your cross product result
-to the Eigen library cross product implementation (note: now you must check the equality
-of matrices).
+to the Eigen library cross product implementation.
+
+You only need to support multiplying 3-element vectors in your implementation.
+[Here is a quick refresher on cross products](https://www.khanacademy.org/math/multivariable-calculus/thinking-about-multivariable-function/x786f2022:vectors-and-matrices/a/cross-products-mvc).
+The goal is just to get a little comfortable with manipulating data in Eigen, and
+what the library is doing for you under the hood.
 
 _Optimization:_ In embedded systems, it's often better with larger data
 operations to pre-allocate a result object and give the function a pointer to
