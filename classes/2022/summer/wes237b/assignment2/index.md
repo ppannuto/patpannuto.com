@@ -360,5 +360,16 @@ In addition, create zipfiles with your code from each part of this lab.
 All code should compile if we simply run `make`.
 
 
+---
+
+## Additional Resources
+
+ - [Excellent video explaining how DCT is used in JPEG](https://www.youtube.com/watch?v=Q2aEzeMDHMA).
+ - [More details on JPEG compression as a whole](https://www.youtube.com/watch?v=aFbGqXFT0Nw).
+ - [A good textbook chapter on DCTs](http://people.missouristate.edu/jrebaza/assets/10compression.pdf).
+
+
+
+
 [eigen]: http://eigen.tuxfamily.org/index.php?title=Main_Page
 [openCVdct]: https://docs.opencv.org/4.x/d2/de8/group__core__array.html#ga85aad4d668c01fbd64825f589e3696d4

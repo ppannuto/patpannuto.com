@@ -61,3 +61,11 @@ A short report named Report.pdf with brief answers to
 This should be at the root of the assignment folder.
 
 Do not submit other files than those listed, unless you have a good reason, and explain so in your report.
+
+
+---
+
+## Additional Resources
+
+ - [Good explainer of how to build a Huffman tree](https://www.youtube.com/watch?v=iiGZ947Tcck)
+ - [Decoding Huffman-encoded data (in JPEG)](https://youtu.be/aFbGqXFT0Nw?t=669)
