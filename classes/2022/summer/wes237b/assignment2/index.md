@@ -214,6 +214,14 @@ We'll start with some starter code:
 Read through this, understand what it's doing and what it's missing.
 
 Fill in the missing pieces.
+> Some hints:
+>
+>   - Look at how `result_ptr` indexes into the matrix
+>   - `M_PI` is available to you for π
+>   - You'll need two `cos(...)`'s
+>
+> If you're having trouble, most of the solution is in the commented portion
+> later in the file, you'll just have to change how it indexes.
 
 In `main.cxx`, add a call to the new naive DCT and compare it to the OpenCV DCT.
 The transforms should look the same.
