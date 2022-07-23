@@ -75,7 +75,7 @@ g++ -Iinclude src/vecMulTest.cxx src/vecDot.cxx src/vecMain.cxx -o vectest -llap
 >
 > `-o vectest` Specifies what is our output file. In this case, we end up with an executable file called vectest. We can run the executable using `./vectest`.
 >
-> `-llapack -lblas -L/usr/lib/libarmadillo.so.9` These are library flags.
+> `-llapack -lblas` These are library flags.
 > For each external library we wish to use, we need to specify a link flag to the compiler.
 > Note that the lowercase `-l` says to look for a library with that name.
 > There are built-in paths to look for libraries (e.g. `/usr/lib`).

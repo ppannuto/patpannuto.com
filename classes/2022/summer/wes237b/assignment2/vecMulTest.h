@@ -3,7 +3,7 @@
 
 #include <Eigen/Core>
 /**
- * Test our custom dot product function against armadillo's built in function
+ * Test our custom dot product function against Eigen's built in function
  * @param xin First vector
  * @param yin Second vector
  * @param length Length of the vectors
