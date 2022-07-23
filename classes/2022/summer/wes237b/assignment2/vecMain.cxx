@@ -1,20 +1,26 @@
 #include <iostream>
 #include <stdlib.h>
 
+#include <eigen3/Eigen/Dense>
+// Or possibly just
+// #include <Eigen/Dense>
+
 #include "vecDot.h"
 #include "vecMulTest.h"
 
-using namespace arma;
-using namespace std;
+// using Eigen::VectorXd;
+using namespace Eigen;
 
 int main(int argc, const char* argv[]) {
-	// Set random number generator
-	arma_rng::set_seed_random();
-	uint32_t length = 10;
+	matrixxd m = matrixxd::random(3,3);
+	m = (m * 10);
+	cout << "m: " << endl << m << endl;
+	vectorxd v(3);
+	v << 1, 2, 3 ;
+	cout << "m*v: " << endl << m*v << endl;
 
-	// Generate two random vectors to length
-	vec x = randu<vec>(length);
-	vec y = randu<vec>(length);
+	/*
+		TODO-- Connect!
 
 	// Test the methods
 	if (test_dot(x, y, length)) {
@@ -25,4 +31,5 @@ int main(int argc, const char* argv[]) {
 		printf("Test failed\n");
 		return 1;
 	}
+	*/
 }
