@@ -113,10 +113,9 @@ You only need to support multiplying 3-element vectors in your implementation.
 The goal is just to get a little comfortable with manipulating data in Eigen, and
 what the library is doing for you under the hood.
 
-_Optimization:_ In embedded systems, it's often better with larger data
-operations to pre-allocate a result object and give the function a pointer to
-an object to fill rather than returning the object from the function.
-Try this for your cross product function.
+> _Optional Optimization:_ In embedded systems, it's often better with larger data operations to pre-allocate a result object and give the function a pointer to an object to fill rather than returning the object from the function.
+>
+> Try implementing this for your cross product function if you are interested (if not now, passing pointers will come up later either way).
 
 ### Part 1: Report Deliverables
 
