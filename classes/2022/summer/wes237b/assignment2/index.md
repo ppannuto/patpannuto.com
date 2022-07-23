@@ -156,7 +156,14 @@ Let's start with:
 Copy the `Makefile` from Part 1 into this project folder.
 _What do you need to update for this to build?_
 
-Pick an interesting image to test with and make sure this first part is working.
+This program requires an argument, try running `./dct 1`. An error!
+It needs a source image to work with. We'll also need a helper notebook
+to display the results:
+
+- [image.tif](image.tif)
+- [displayImages.ipynb](displayImages.ipynb)
+
+You should now be able to view the result of OpenCV's DCT.
 
 
 ### Let's not torture ourselves (yet?)
