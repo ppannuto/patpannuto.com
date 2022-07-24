@@ -111,7 +111,9 @@ to the Eigen library cross product implementation.
 You only need to support multiplying 3-element vectors in your implementation.
 [Here is a quick refresher on cross products](https://www.khanacademy.org/math/multivariable-calculus/thinking-about-multivariable-function/x786f2022:vectors-and-matrices/a/cross-products-mvc).
 The goal is just to get a little comfortable with manipulating data in Eigen, and
-what the library is doing for you under the hood.
+what the library is doing for you under the hood. If you're having trouble
+getting stuff working, try working through some of the
+[Eigen matrix and vector arithmetic tutorial][eigenTut].
 
 > _Optional Optimization:_ In embedded systems, it's often better with larger data operations to pre-allocate a result object and give the function a pointer to an object to fill rather than returning the object from the function.
 >
@@ -393,4 +395,5 @@ All code should compile if we simply run `make`.
 
 
 [eigen]: http://eigen.tuxfamily.org/index.php?title=Main_Page
+[eigenTut]: https://eigen.tuxfamily.org/dox/group__TutorialMatrixArithmetic.html
 [openCVdct]: https://docs.opencv.org/4.x/d2/de8/group__core__array.html#ga85aad4d668c01fbd64825f589e3696d4
