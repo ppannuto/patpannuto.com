@@ -390,6 +390,7 @@ All code should compile if we simply run `make`.
  - [Excellent video explaining how DCT is used in JPEG](https://www.youtube.com/watch?v=Q2aEzeMDHMA).
  - [More details on JPEG compression as a whole](https://www.youtube.com/watch?v=aFbGqXFT0Nw).
  - [A good textbook chapter on DCTs](http://people.missouristate.edu/jrebaza/assets/10compression.pdf).
+ - [A complete lecture on lossy image compression / DCT](https://youtu.be/sckLJpjH5p8?t=52)
 
 
 
