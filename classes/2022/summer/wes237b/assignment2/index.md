@@ -364,7 +364,7 @@ Command-line arguments or simply `#ifdef`s are fine.
 
 ### Part 4: Report Deliverables
 
-1. For each algorithm (Naive, Separable, Matrix Multiplication, Block Matrix Multiplication) with and without LUTs, use `perf` to report on the cycle count, cache misses, and L1 cache.
+1. For each algorithm (Naive and Separable with and without LUTs; Matrix Multiplication, Block Matrix Multiplication), use `perf` to report on the cycle count, cache misses, and L1 cache.
     - Extra Credit: Report on at least 2 additional metrics from `perf`.
       Explain what these metrics measure and why they are the same/different for each algorithm.
 
