@@ -196,6 +196,29 @@ if __name__ == '__main__':
 							dpath = os.path.join('html', spath)
 							handle_static_file(spath, dpath)
 
+				# Hacks on hacks on hacks on hacks on hacks on hacks on hacks
+				# :(:(
+				if os.path.isdir(os.path.join('classes', year, quarter, course, 'assignment3')):
+					for filename in os.listdir(os.path.join('classes', year, quarter, course, 'assignment3')):
+						mkdir('-p', os.path.join('html', 'classes', year, quarter, course, 'assignment3'))
+						if filename.startswith('.'):
+							continue
+						if filename.startswith('~'):
+							continue
+						if filename[-3:] == '.md':
+							logger.info('        Process ' + filename)
+							path = os.path.join('classes', year, quarter, course, 'assignment3')
+							meta = {
+									'year': year,
+									'quarter': quarter,
+									'course': course,
+									}
+							class_md_to_html(path, path, filename, meta)
+						else:
+							spath = os.path.join('classes', year, quarter, course, 'assignment3', filename)
+							dpath = os.path.join('html', spath)
+							handle_static_file(spath, dpath)
+
 	logger.info('Building publications database...')
 	publications.generate_publications_page(pubs_groups, jinja_env)
 

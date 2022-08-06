@@ -93,30 +93,28 @@ Please correct me (in the chat if there is one, out loud in class or in Zoom, or
 >  - Office Hours: 7-8pm
 >  - Zoom: https://ucsd.zoom.us/j/96458655520
 
+#### **Saturday, August 6** &ndash; Third Class
+
+ - Lecture:
+     - ` 9:00-10:45` Caches, Compiler optimizations
+     - `10:45-11:00` _Break_
+     - `11:00-11:50` Student Presentation
+     - `11:50-12:00` _Break / Slack_
+ - Lab: ARM NEON, PYNQ vs. Jetson, optimizations in practice, `gprof`
+ - Assignment: Implementing a Sobel filter, benchmarking Sobel implementations
+     - [Lab 3, Assignment 3](assignment3/)
+
+> ##### **Tuesday, August 9** &ndash; Office Hours
+>  - Office Hours: 7-8pm
+>  - Zoom: https://ucsd.zoom.us/j/96458655520
+> ##### **Saturday, August 13** &ndash; Office Hours
+>  - Office Hours: 10am-12pm
+>  - Zoom: https://ucsd.zoom.us/j/96458655520
+> ##### **Tuesday, August 16** &ndash; Office Hours
+>  - Office Hours: 7-8pm
+>  - Zoom: https://ucsd.zoom.us/j/96458655520
+
 <!--
- - **Saturday, August 6** &ndash; Third Class
-    - Lecture:
-        - ` 9:00-10:15` Compiler optimizations, SIMD, GPU implementations
-        - `10:15-10:30` _Break_
-        - `10:30-11:30` Student Presentation
-        - `11:30-11:40` _Break_
-        - `11:40-12:00` Pre-lab: Sobel filters, ARM NEON, PYNQ vs. Jetson
-    - Lab:
-        - Optimizations in practice [`-f-tree-opt`, perf]
-    - Assignment:
-        - Implementing a Sobel filter
-        - Benchmarking vs. the OpenCV Sobel implementation
-
- - **Tuesday, August 9** &ndash; Office Hours
-    - Office Hours: 7-8pm
-    - Zoom: https://ucsd.zoom.us/j/96458655520
- - **Saturday, August 13** &ndash;
-    - Office Hours: 10am-12pm
-    - Zoom: https://ucsd.zoom.us/j/96458655520
- - **Tuesday, August 16** &ndash; Office Hours
-    - Office Hours: 7-8pm
-    - Zoom: https://ucsd.zoom.us/j/96458655520
-
  - **Saturday, August 20** &ndash; Fourth Class
     - Lecture:
     - Lab:
@@ -152,7 +150,8 @@ Please correct me (in the chat if there is one, out loud in class or in Zoom, or
     - Assignment 1: 10%
     - Assignments 2 to 5: 15% each
 
-Assignments are for groups of 2. Group presentations are for different groups of 2 — network!
+Assignments are for groups of up-to 2.
+Group presentations are for different groups of 2 — network!
 
 #### Late Policy
 
