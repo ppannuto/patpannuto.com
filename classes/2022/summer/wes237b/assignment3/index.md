@@ -21,16 +21,17 @@ across the two platforms.
 
 > Note: Jupyter might already be set up from prior users of the board.
 
-`ssh` into your jetson and do the following:
+`ssh` into your jetson by `ssh -L 8888:localhost:8888 wes-237b@192.168.55.1` and do the following:
 
  1. Install Jupyter
      1. `sudo apt-get update`
      1. `sudo apt-get install python3-pip`
+     1. `pip3 install --upgrade pip`
      1. `pip3 install jupyter`
      1. `pip3 install jupyterlab`
      1. `pip3 install notebook`
  1. Set up your Jupyter install
-     1. `~/.local/bin/jupyter-notebook--generate-config`
+     1. `~/.local/bin/jupyter-notebook --generate-config`
      1. Place `jupyter_notebook_config.py` in `~/.jupyter/` directory
  1. Create a working directory
      1. `cd ~/Desktop`
@@ -38,7 +39,7 @@ across the two platforms.
      3. `cd jupyter`
  1. Start jupyter notebook
      1. `~/.local/bin/jupyter-notebook`
- 1. On your personal machine open a web browser and navigate to `<JETSON_IP>:9090`
+ 1. Navigate to the URL with the token specified in the terminal.  This should be in the form of `http://localhost:8888/?token=<token>`.
 
 #### Install `perf`
 
@@ -46,16 +47,13 @@ across the two platforms.
 
 If it isn't, you should be able to just do:
 
- 1. `cd /usr/src/linux-headers-*-tegra/tools/perf`
- 1. `sudo make`
+ 1. `wget https://developer.nvidia.com/embedded/l4t/r32_release_v7.1/sources/t186/public_sources.tbz2` This may need to be updated depending on the release of Jetpack installed on your board.
+ 1. `tar -xjf public_sources.tbz2`
+ 1. `tar -xjf Linux_for_Tegra/source/public/kernel_src.tbz2`
+ 1. `cd kernel/kernel-4.9/tools/perf`
+ 1. `make`
  1. `sudo make install`
-
-If that folder (e.g. `usr/src/linux-headers-4.4.38-tegra/tools/perf`) doesn't
-exist, you'll have to fetch the kernel sources.
-Here's [an nVidia support forum post](https://forums.developer.nvidia.com/t/perf-tool-on-nx/220179)
-explaining how to do it, or here's a
-[script that theoretically will just do it for you](https://github.com/yoffy/jetson-nano-kernel/blob/master/download-kernel.sh).
-Make sure the download URL matches the jetpack on your board.
+ 1. `perf --version` You may need to disconnect `ssh` and reconnect.
 
 
 ### Background and Resources
