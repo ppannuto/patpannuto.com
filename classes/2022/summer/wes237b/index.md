@@ -97,6 +97,7 @@ Please correct me (in the chat if there is one, out loud in class or in Zoom, or
 
  - Lecture:
      - ` 9:00-10:45` Caches, Compiler optimizations
+         - Slides [pptx](wes237b-su22-03-Cache_CompilerOptimizations.pptx)
      - `10:45-11:00` _Break_
      - `11:00-11:50` Student Presentation
          - HeteroCL ([homepage][heterocl-home], [paper][heterocl-pdf]) - [Presentation Slides (pptx)][heterocl-pptx]
