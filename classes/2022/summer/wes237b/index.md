@@ -99,6 +99,7 @@ Please correct me (in the chat if there is one, out loud in class or in Zoom, or
      - ` 9:00-10:45` Caches, Compiler optimizations
      - `10:45-11:00` _Break_
      - `11:00-11:50` Student Presentation
+         - HeteroCL ([homepage][heterocl-home], [paper][heterocl-pdf]) - [Presentation Slides (pptx)][heterocl-pptx]
      - `11:50-12:00` _Break / Slack_
  - Lab: ARM NEON, PYNQ vs. Jetson, optimizations in practice, `gprof`
  - Assignment: Implementing a Sobel filter, benchmarking Sobel implementations
@@ -170,3 +171,7 @@ just be sure to let us know.
 No-show (without notice); late: -5% / occurance. (Need to get explicitly permission
 each occasion; preferably in advance, but we know life happens.)
 
+
+[heterocl-home]: https://heterocl.csl.cornell.edu/
+[heterocl-pdf]: https://www.csl.cornell.edu/~zhiruz/pdfs/heterocl-fpga2019.pdf
+[heterocl-pptx]: wes237b-su22-StudentPresentation-HeteroCL.pptx
