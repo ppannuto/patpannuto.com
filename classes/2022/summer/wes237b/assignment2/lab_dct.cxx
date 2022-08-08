@@ -90,7 +90,7 @@ Mat lab_dct_opt(Mat input){
 				value += result_row.at<float>(j,k) * cos(M_PI/((float)HEIGHT)*(j+1./2.)*(float)i);
 			}
 
-			result.at<float>(i, k) = value*sf(k)*scale;
+			result.at<float>(i, k) = value*sf(i)*scale;
 		}
 	}
 
