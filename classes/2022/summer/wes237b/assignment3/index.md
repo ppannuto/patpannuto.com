@@ -78,6 +78,10 @@ Download and complete [`neon.c`](neon.c)
 
 Make sure that you can compile and run the NEON code on both platforms.
 
+If you're having difficulty figuring out the right functions to call,
+here is my [neon_final.c](neon_final.c). Do try to figure things out on
+your own for a bit first, however.
+
 _There is no deliverable for this section._
 
 ### Implementing an FIR filter
