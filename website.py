@@ -2,7 +2,10 @@
 # vim: set noet ts=4 sts=4 sw=4:
 
 import sys,os
-from sh import convert, git, mkdir
+
+import sh
+from sh import convert, mkdir, pushd
+from sh.contrib import git
 
 # Yay OS X vs Linux
 try:
@@ -21,13 +24,11 @@ def md_to_html(src_path, dst_path, md_file):
 					ImgToPictureExtension()])
 		o.write(header_tmpl.render(active_page=page, content=content))
 
-def class_md_to_html(src_path, dst_path, md_file, meta):
-	page = os.path.splitext(md_file)[0]
-	with open('html/{}.html'.format(os.path.join(dst_path, page)), 'w') as o:
-		logger.info('Rendering for class ' + md_file)
-		content = markdown.markdown(open(os.path.join(src_path, md_file)).read(),
-				extensions=['extra', 'toc', 'md_in_html'])
-		title = '{} - {} {}'.format(meta['course'].upper(), meta['quarter'].title(), meta['year'])
+def class_md_to_html(src_md, dst_html, meta):
+	with open(dst_html, 'w') as o:
+		logger.info('Rendering {}'.format(dst_html))
+		content = markdown.markdown(open(src_md).read(), extensions=['extra', 'toc', 'md_in_html'])
+		title = '{}'.format(meta['folder'])
 		o.write(header_class_tmpl.render(content=content, title=title))
 
 # Process worker fn
@@ -36,6 +37,11 @@ def _gen_web_image(spath, dpaths):
 		convert(spath, dpath)
 
 def gen_web_images(spath, dpath):
+	# Operate on absolute paths in case caller is in different dir
+	# than the spawned pool process
+	spath = os.path.abspath(spath)
+	dpath = os.path.abspath(dpath)
+
 	# First, see what of this we can skip
 	# This abuses exceptions a bit for control flow; w/e it's a script
 	sstat = os.stat(spath)
@@ -98,6 +104,65 @@ def handle_static_file(spath, dpath):
 		logger.debug('Skipping file (ext >>{}<<): {}'.format(ext, spath))
 
 
+class DirectoryWalker:
+	def __init__(self):
+		self.root = os.getcwd()
+		self.htmlroot = os.path.join(self.root, 'html')
+		self.path = []
+
+	def process(self, folder):
+		self.recurse(folder)
+
+	def html_dir(self):
+		return os.path.join(self.htmlroot, *self.path)
+
+	def recurse(self, folder):
+		self.path.append(folder)
+		logger.debug('RECURSE path: {}'.format(self.path))
+
+		if len(self.path) > 10:
+			raise
+
+		with pushd(folder):
+			for dirent in os.scandir():
+				# Should we render content found in this folder?
+				if os.path.exists('_RENDER'):
+					# Defer making output folder to avoid empty ones
+					do_render = True
+					mkdir('-p', self.html_dir())
+				else:
+					do_render = False
+
+				if dirent.is_dir():
+					if dirent.name == 'nopublish':
+						continue
+					self.recurse(dirent.name)
+				elif dirent.is_file():
+					# Ignore .gitignore'd stuff
+					try:
+						git('check-ignore', '-q', dirent.name)
+						logger.debug('gitignored: {}'.format(dirent.name))
+						continue
+					except sh.ErrorReturnCode_1:
+						pass
+
+					if do_render:
+						# Maybe: invert for a-zA-Z0-9 ?
+						if dirent.name[0] in ('.', '~', '_'):
+							continue
+						if dirent.name[-3:] == '.md':
+							meta = {
+									'folder': folder,
+									}
+							dpath = os.path.join(self.html_dir(), dirent.name[:-3] + '.html')
+							class_md_to_html(dirent.name, dpath, meta)
+						else:
+							dpath = os.path.join(self.html_dir(), dirent.name)
+							handle_static_file(dirent.path, dpath)
+
+		self.path.pop()
+
+
 # Prevent recursion in multiprocess case
 if __name__ == '__main__':
 	import jinja2 as jinja
@@ -123,101 +188,21 @@ if __name__ == '__main__':
 	pubs_groups   = publications.init(jinja_env)
 
 	mkdir('-p', 'html')
+	try:
+		# https://help.dropbox.com/files-folders/restore-delete/ignored-files
+		# xattr -w com.dropbox.ignored 1 /Users/yourname/Dropbox\ \(Personal\)/YourFileName.pdf
+		from sh import xattr
+		xattr('-w', 'com.dropbox.ignored', '1', 'html/')
+	except:
+		logger.debug('Not on Mac; not ignoring for Dropbox')
+		pass
 
 	for md in os.listdir('pages'):
 		if md[-3:] == '.md':
 			md_to_html('pages', '/', md)
 
 	logger.info('Process classes')
-	for year in os.listdir('classes'):
-		if year.startswith('.'):
-			continue
-		logger.info('  Process ' + year)
-		mkdir('-p', os.path.join('html', 'classes', year))
-
-		for quarter in os.listdir(os.path.join('classes', year)):
-			if quarter.startswith('.'):
-				continue
-			logger.info('    Process ' + quarter)
-			mkdir('-p', os.path.join('html', 'classes', year, quarter))
-
-			for course in os.listdir(os.path.join('classes', year, quarter)):
-				if course.startswith('.'):
-					continue
-				logger.info('      Process ' + course)
-				mkdir('-p', os.path.join('html', 'classes', year, quarter, course))
-
-				for filename in os.listdir(os.path.join('classes', year, quarter, course)):
-					if filename.startswith('.'):
-						continue
-					if filename.startswith('~'):
-						continue
-					if filename[-3:] == '.md':
-						logger.info('        Process ' + filename)
-						path = os.path.join('classes', year, quarter, course)
-						meta = {
-								'year': year,
-								'quarter': quarter,
-								'course': course,
-								}
-						class_md_to_html(path, path, filename, meta)
-					else:
-						spath = os.path.join('classes', year, quarter, course, filename)
-						dpath = os.path.join('html', spath)
-						handle_static_file(spath, dpath)
-
-				# Hacks on hacks on hacks on hacks
-				if os.path.isdir(os.path.join('classes', year, quarter, course, 'video')):
-					for filename in os.listdir(os.path.join('classes', year, quarter, course, 'video')):
-						mkdir('-p', os.path.join('html', 'classes', year, quarter, course, 'video'))
-						spath = os.path.join('classes', year, quarter, course, 'video', filename)
-						dpath = os.path.join('html', spath)
-						handle_static_file(spath, dpath)
-
-				# Hacks on hacks on hacks on hacks on hacks on hacks
-				if os.path.isdir(os.path.join('classes', year, quarter, course, 'assignment2')):
-					for filename in os.listdir(os.path.join('classes', year, quarter, course, 'assignment2')):
-						mkdir('-p', os.path.join('html', 'classes', year, quarter, course, 'assignment2'))
-						if filename.startswith('.'):
-							continue
-						if filename.startswith('~'):
-							continue
-						if filename[-3:] == '.md':
-							logger.info('        Process ' + filename)
-							path = os.path.join('classes', year, quarter, course, 'assignment2')
-							meta = {
-									'year': year,
-									'quarter': quarter,
-									'course': course,
-									}
-							class_md_to_html(path, path, filename, meta)
-						else:
-							spath = os.path.join('classes', year, quarter, course, 'assignment2', filename)
-							dpath = os.path.join('html', spath)
-							handle_static_file(spath, dpath)
-
-				# Hacks on hacks on hacks on hacks on hacks on hacks on hacks
-				# :(:(
-				if os.path.isdir(os.path.join('classes', year, quarter, course, 'assignment3')):
-					for filename in os.listdir(os.path.join('classes', year, quarter, course, 'assignment3')):
-						mkdir('-p', os.path.join('html', 'classes', year, quarter, course, 'assignment3'))
-						if filename.startswith('.'):
-							continue
-						if filename.startswith('~'):
-							continue
-						if filename[-3:] == '.md':
-							logger.info('        Process ' + filename)
-							path = os.path.join('classes', year, quarter, course, 'assignment3')
-							meta = {
-									'year': year,
-									'quarter': quarter,
-									'course': course,
-									}
-							class_md_to_html(path, path, filename, meta)
-						else:
-							spath = os.path.join('classes', year, quarter, course, 'assignment3', filename)
-							dpath = os.path.join('html', spath)
-							handle_static_file(spath, dpath)
+	DirectoryWalker().process('classes')
 
 	logger.info('Building publications database...')
 	publications.generate_publications_page(pubs_groups, jinja_env)
