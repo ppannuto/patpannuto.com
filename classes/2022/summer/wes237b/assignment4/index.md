@@ -177,6 +177,8 @@ The changes/additions here are the actual algorithm implementation on the GPU an
 2. Add a wrapper function to call your kernel function under `//===================GPUHostFunctions===================`.
    This function will be called from `main()` and needs to define the grid and block and to launch the kernel function.
 
+**Hint:** Having trouble with indicies? Check out the [nVidia CUDA basics slides][nvidia-basics], in particular the "Combining Threads and Blocks" section (starts on PDF-page 37).
+
 
 ##### Setup memory and get things going
 
@@ -321,12 +323,13 @@ Prepare a report document with answers for each of the `Report Deliverables` abo
 _TODO: Chris, please fill in._
 
 
-<!--
 
 ---
 
 ## Additional Resources
--->
+
+ - [CUDA Basics Presentation][nvidia-basics] from nVidia.
 
 
 [slides]: wes237b-su22-LAB-04-GPUAccel.pdf
+[nvidia-basics]: https://www.nvidia.com/docs/IO/116711/sc11-cuda-c-basics.pdf

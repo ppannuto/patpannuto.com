@@ -117,22 +117,32 @@ Please correct me (in the chat if there is one, out loud in class or in Zoom, or
 >  - Office Hours: 7-8pm
 >  - Zoom: https://ucsd.zoom.us/j/96458655520
 
+
+
+#### **Saturday, August 20** &ndash; Fourth Class
+
+ - Lecture:
+     - `9:00-10:45` SIMD, CUDA, CUDA memory & performance
+         - Slides [pptx](wes237b-su22-04-SIMD_CUDA.pptx)
+     - `10:45-11:00` _Break_
+     - `11:00-11:50` Student Presentation
+     - `11:50-12:00` _Break / Slack_
+ - Lab: CUDA basics, GPU-accelerated image processing with CUDA
+ - Assignment: Sobel and BMM with CUDA
+     - [Lab 4, Assignment 4](assignment4/)
+
+> ##### Tuesday, August 23 &ndash; Office Hours
+>  - Office Hours: 7-8pm
+>  - Zoom: https://ucsd.zoom.us/j/96458655520
+> ##### Saturday, August 27 &ndash; Office Hours
+>  - Office Hours: 10am-12pm
+>  - Zoom: https://ucsd.zoom.us/j/96458655520
+> ##### Tuesday, August 30 &ndash; Office Hours
+>  - Office Hours: 7-8pm
+>  - Zoom: https://ucsd.zoom.us/j/96458655520
+
+
 <!--
- - **Saturday, August 20** &ndash; Fourth Class
-    - Lecture:
-    - Lab:
-    - Assignment:
-
- - **Tuesday, August 23** &ndash; Office Hours
-    - Office Hours: 7-8pm
-    - Zoom: https://ucsd.zoom.us/j/96458655520
- - **Saturday, August 27** &ndash;
-    - Office Hours: 10am-12pm
-    - Zoom: https://ucsd.zoom.us/j/96458655520
- - **Tuesday, August 30** &ndash; Office Hours
-    - Office Hours: 7-8pm
-    - Zoom: https://ucsd.zoom.us/j/96458655520
-
  - **Saturday, September 3** &ndash; Fifth & Final Class
     - Lecture:
     - Lab:
