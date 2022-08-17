@@ -301,48 +301,133 @@ This class will not be curved.
 </div>
 <small><em>Range notation [90,93) means 90 is included and 93 is not</em></small>
 
-<!--
-Final grade _estimator*_.
 
-<table>
+
+<table class="final-grade-table">
+<caption>
+Final grade <i>estimator</i>.
+<small>Disclaimer: I wrote this in an afternoon in ugly javascript.
+I use Excel to compute actual final grades.</small>
+</caption>
 <tr>
-<td>Category</td>
-<td>Earned %</td>
-<td>Nominal Max</td>
-<td>Final %</td>
-<td>Final Grade</td>
+<th></th>
+<th>Earned %</th>
+<th>Nominal Max</th>
+<th>Final %</th>
+<th>Final Grade</th>
 </tr>
-<tr>
-<td>Minute Quizzes</td>
-<td>18%</td>
-<td>15%</td>
-<td>16.5%</td>
-<td rowspan="2">A+</td>
+<tr class="final-grade-row">
+<th>Minute Quizzes</th>
+<td><input type="number" value="18" /></td>
+<td>10</td>
+<td></td>
+<td rowspan="2" id="final-grade-percent"></td>
 </tr>
-<tr>
-<td>Homework</td>
-<td>20%</td>
-<td>15%</td>
-<td>17.5%</td>
+<tr class="final-grade-row">
+<th>Homework</th>
+<td><input type="number" value="15" /></td>
+<td>10</td>
+<td></td>
 </tr>
-<tr>
-<td>Pre-Labs</td>
-<td>24%</td>
-<td>20%</td>
-<td>22%</td>
-<td rowspan="2">A+</td>
+<tr class="final-grade-row">
+<th>Pre-Labs</th>
+<td><input type="number" value="24" /></td>
+<td>20</td>
+<td></td>
+<td rowspan="2" id="final-grade-letter"></td>
 </tr>
-<tr>
-<td>Labs</td>
-<td>45%</td>
-<td>40%</td>
-<td>42.5%</td>
+<tr class="final-grade-row">
+<th>Labs</th>
+<td><input type="number" value="48" /></td>
+<td>40</td>
+<td></td>
+</tr>
+<tr class="final-grade-row">
+<th>Final Project</th>
+<td><input type="number" value="15" /></td>
+<td>15</td>
+<td></td>
 </tr>
 </table>
 
-<small>*Disclaimer: I wrote this in an afternoon in ugly javascript.
-I use Excel to compute actual final grades.</small>
--->
+<script>
+function computeGrades() {
+  const rows = document.getElementsByClassName('final-grade-row');
+  let total = 0;
+
+  for (const row of rows) {
+    console.assert(row.children.length >= 4, row);
+    // row.children[0] = th = category
+    const earned = Number(row.children[1].children[0].value);
+    const nom_max = Number(row.children[2].innerText);
+    const finalp = row.children[3];
+
+    let final;
+
+    if (earned <= nom_max) {
+      final = earned;
+    } else {
+      let overage = earned - nom_max;
+      final = nom_max + (overage/2);
+    }
+
+    console.log(earned, nom_max, final);
+
+    finalp.innerText = final;
+
+    total += final;
+  }
+
+  const totalp = document.getElementById('final-grade-percent');
+  const totall = document.getElementById('final-grade-letter');
+
+  totalp.innerText = total.toFixed(1);
+
+  let total_rounded = Number(total.toFixed(1));
+
+  if (total_rounded >= 96.7) {
+    totall.innerText = "A+";
+  } else if (total_rounded >= 93) {
+    totall.innerText = "A";
+  } else if (total_rounded >= 90) {
+    totall.innerText = "A-";
+  } else if (total_rounded >= 86.7) {
+    totall.innerText = "B+";
+  } else if (total_rounded >= 83.3) {
+    totall.innerText = "B";
+  } else if (total_rounded >= 80) {
+    totall.innerText = "B-";
+  } else if (total_rounded >= 76.7) {
+    totall.innerText = "C+";
+  } else if (total_rounded >= 73.3) {
+    totall.innerText = "C";
+  } else if (total_rounded >= 70) {
+    totall.innerText = "C-";
+  } else if (total_rounded >= 60) {
+    totall.innerText = "D";
+  } else {
+    totall.innerText = "F";
+  }
+}
+
+// Any input change, recompute
+const rows = document.getElementsByClassName('final-grade-row');
+
+for (const row of rows) {
+  const input = row.children[1].children[0];
+  // Only if input exists (i.e. skip title row, which won't have this child)
+  if (input) {
+    input.addEventListener("input", computeGrades);
+  } else {
+    console.log('no listener for', row, input);
+  }
+}
+
+// And do once on load with example grades
+computeGrades();
+</script>
+
+
 
 ##### CAPEs Incentive
 

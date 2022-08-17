@@ -31,3 +31,11 @@ img {
 img.thumbnail {
 	border-style: solid;
 }
+
+.final-grade-table {
+	border-collapse: initial;
+	padding: 10px;
+	border: 1px solid;
+	width: 100%;
+	text-align: center;
+}
