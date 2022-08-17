@@ -54,14 +54,14 @@ Office hours, location TBA.
 
 Internet of Things (IoT) devices are often battery-powered, or sometimes even
 energy-harvesting and battery-free. For most applications, 80% or more of
-power goes to communication, sending data between the IoT device and the
+power goes to communication, i.e.\ sending data between the IoT device and the
 internet at large. These two realities mean that many IoT devices use custom
 communication technologies, or common ones in different ways (e.g. why does my
 Fitbit scale make my home WiFi go literally 100x slower when it's on?).
 
 This class will focus on how an IoT system designer should choose and use the
 wide array of wireless technologies. Specifically, we will look at WiFi,
-Classic Bluetooth, Bluetooth Low Energy, IEEE 802.15.4, 2g/3g/4g cellular,
+Classic Bluetooth, Bluetooth Low Energy, IEEE 802.15.4, 2g/3g/4g/5g cellular,
 LTE-M, NB-IoT, LoRa, SigFox, and some time with more esoteric choices, such
 as Visible Light Communication (VLC), Infrared Communication (IR), Ultrasonic,
 and boutique RF such as wake-up radios and backscatter. Persons finishing this
@@ -88,15 +88,18 @@ to get things done.
 
 At the end of this class, students should be able to:
 
+1. Understand tradeoffs in wireless protocol design and how those tradeoffs influence suitability for application goals.
 1. Make or support communication technology design decisions with respect to application requirements, device capabilities, and infrastructure requirements.
 1. Explain the basic operating principles and performance of:
     - Bluetooth Low Energy
     - 802.15.4 and Thread
+    - WiFi
     - LoRa
     - Basic Cellular Data
-1. Explain what "star", "mesh", and "cell" mean in wireless networking, and how topology influences system design and performance.
+1. Explain what "{B,P,L,W}AN", "star", "mesh", and "cell" mean in wireless networking, and how topology influences system design and performance.
 1. Estimate performance—in throughput, latency, energy use, and reliability—given technical information on a wireless technology.
 1. Demonstrate basic self-sufficiency in the compilation, loading, and testing of previously-unseen software on previously-unseen hardware platforms.
+    - TODO: Course design Q: How to satisfy this goal with group labs? Maybe pre-lab / homework can help here?
 
 
 ---
@@ -141,7 +144,13 @@ Please correct me (in the chat if there is one, out loud in class or in Zoom, or
 
 ### Prerequisites
 
-CSE 101 and 110 (or equivalent) are required prerequisites for this course.
+`CSE 101: Design and Analysis of Algorithms` and `CSE 110: Software Engineering`
+(or equivalents) are required prerequisites for this course.
+
+> Transitively, `CSE 30: Computer Organization and Systems Programming` (or
+> equivalent) is thus also required.
+> **We expect that you are comfortable with C code.**
+
 We expect that you are comfortable with the basics of software engineering,
 i.e.,
 modular design,
@@ -152,6 +161,10 @@ build systems,
 version control,
 debuggers,
 and **TODO: More?**.
+
+`CSE 123: Computer Networks` is not a prerequisite of this course. However, if
+you are able to take 123 in advance of this course or concurrently, it is
+helpful.
 
 
 ### Textbook & Other Resources
@@ -510,6 +523,15 @@ F'22 First Draft Schedule
 
 ^ no WiFi Lab, small Wifi HW?
 ^ what other HW?
+
+- HW: Background knowledge check HW?
+
+$branden$ It would be really nice to have a basic 15.4 example that you could build on top of yourself.
+For example, it's easy to make an app where you provide a raw buffer of bytes as the advertisement payload. So figuring out what those bytes are can be the challenge.
+It would similarly be great to have a base 15.4 example that just sent/received raw bytes.
+Although maybe Zephyr itself has some?
+https://docs.zephyrproject.org/latest/connectivity/networking/api/ieee802154.html
+
 
 
 W'22 Schedule as reference:
