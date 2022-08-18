@@ -70,7 +70,7 @@ health monitoring](#gridwatch).
  - 2021-01: [Dhananjay's][dhananjay] paper describing [energy harvesting from cathodic protection systems](/pubs/jagtap2021cathodicprotection.pdf) accepted at [IPSN'21](https://ipsn.acm.org/2021/).
  - 2020-12: [Colleen][cojoseph], [Neal][nealjack], and my paper on [materials for soil MFC design](/pubs/josephson2020farmingelectrons.pdf) published in [IEEE Sensors Letters](https://ieee-sensors.org/sensors-letters/).
  - 2020-11: [Dhananjay][dhananjay] wins **Best Presentation (Second Prize)** at [ENSsys'20](http://www.enssys.org/2020/) – congratulations!
- - 2020-11: I gave the [keynote](/talks.html#2020) at [ENSsys'20](http://www.ensys.org/2020/).
+ - 2020-11: I gave the [keynote](/talks.html#2020) at [ENSsys'20](http://www.enssys.org/2020/).
  - 2020-10: [Dhananjay's][dhananjay] paper describing [&ldquo;reliable&rdquo; energy harvesting](/pubs/jagtap2020reliable.pdf) accepted at [ENSsys'20](http://www.enssys.org/2020/).
  - 2020-06: Andreas's paper describing our [social interaction tracking platform (SociTrack)](/pubs/biri2020socitrack.pdf) accepted at [MobiCom'20](https://sigmobile.org/mobicom/2020/).
 
