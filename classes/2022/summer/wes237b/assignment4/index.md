@@ -19,7 +19,15 @@ If you prefer, you can use ssh display tunneling or VNC to work on the Jetson:
 <details markdown="1">
   <summary>SSH Display Tunneling</summary>
 
-_Chris: Please fill in._
+Ensure that your host machine has an X server installed.  For Windows, you can use [vcxsrv](https://sourceforge.net/projects/vcxsrv/).  For macOS [XQuartz](https://www.xquartz.org/).  On most Linux Distributions, you likely already have an X server.
+
+On your host machine, execute the following to enable X-fowarding:
+
+    $ ssh -XY wes-237b@192.168.55.1
+
+If you are using PUTTY instead, ensure that you have enabled X-forwarding under your SSH options.
+
+An alternative option on Windows is to use [MobaXterm](https://mobaxterm.mobatek.net/), which allows you to graphically configure both the X server and the SSH connection.
 
 </details>
 
@@ -320,9 +328,27 @@ We will illustrate what happens inside each thread with the example below:
 
 Prepare a report document with answers for each of the `Report Deliverables` above.
 
-_TODO: Chris, please fill in._
+### Lab
+#### Part 1
+1. Explain in plain English what example 1 does.
+2. Explain the difference between example 1 and example 2.  What is significant about it?
+3. Provide a copy of your `myKernel()` implementation from your matrix multiplication.
+4. Explain the difference between the two `lw` implementations.
 
+#### Part 2
+1. Submit all of your final code for Part 2.
+2. For each algorithm (greyscale, inversion, blur), which implementation has the best performance? Make a quantitative case.
 
+### Assignment
+#### Part 1
+Report the approximate execution times for OpenCV Sobel, CPU Sobel, and GPU Sobel, for different sizes.
+
+You can use square sizes from 512 to 4096 (note: your code should still work for non-square sizes).
+
+Note that for smaller sizes, the FPS will be limited by the camera FPS, and beyond 1024, the images will not display. If you wish, you can completely disable the display (comment out "imshow" in main.cpp) for all sizes to get a more stable result for the GPU.
+
+#### Part 2
+Your final source code and the performance measures requested above.
 
 ---
 
