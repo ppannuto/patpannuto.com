@@ -126,6 +126,7 @@ Please correct me (in the chat if there is one, out loud in class or in Zoom, or
          - Slides [pptx](wes237b-su22-04-SIMD_CUDA.pptx)
      - `10:45-11:00` _Break_
      - `11:00-11:50` Student Presentation
+         - SIMD Camera ([SCAMP Homepage][simdcam-home]) - [Presentation Slides (pptx)][simdcam-pptx]
      - `11:50-12:00` _Break / Slack_
  - Lab: CUDA basics, GPU-accelerated image processing with CUDA
  - Assignment: Sobel and BMM with CUDA
@@ -187,3 +188,5 @@ each occasion; preferably in advance, but we know life happens.)
 [heterocl-home]: https://heterocl.csl.cornell.edu/
 [heterocl-pdf]: https://www.csl.cornell.edu/~zhiruz/pdfs/heterocl-fpga2019.pdf
 [heterocl-pptx]: wes237b-su22-StudentPresentation-HeteroCL.pptx
+[simdcam-home]: https://personalpages.manchester.ac.uk/staff/p.dudek/scamp/default.htm
+[simdcam-pptx]: wes237b-su22-StudentPresentation-SIMDCamera.pptx
