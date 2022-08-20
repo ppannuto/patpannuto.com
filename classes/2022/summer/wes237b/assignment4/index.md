@@ -29,6 +29,16 @@ If you are using PUTTY instead, ensure that you have enabled X-forwarding under 
 
 An alternative option on Windows is to use [MobaXterm](https://mobaxterm.mobatek.net/), which allows you to graphically configure both the X server and the SSH connection.
 
+To test your X-forwarding, you can run `gedit`.
+
+It is additionally possible to use X-forwarding in Visual Studio Code.  To do so edit `~/.ssh/config` and update your entry for the Jetson to match the following, then restart Visual Studio Code.
+
+  Host 192.168.55.1
+    HostName 192.168.55.1
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    User wes-237b
+
 </details>
 
 <details markdown="1">
