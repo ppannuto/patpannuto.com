@@ -163,6 +163,26 @@ Please correct me (in the chat if there is one, out loud in class or in Zoom, or
  - **Assignments : 70%**
     - Assignment 1: 10%
     - Assignments 2 to 5: 15% each
+        - Generally: 5% lab portion, 5% working final code, 5% writeup
+
+<div class="table-responsive">
+<table class="table grade-table">
+  <tr>
+    <th>A+<br /><small>&gt;96.7</small></th>
+    <th>A<br /><small>[93,96.7)</small></th>
+    <th>A-<br /><small>[90,93)</small></th>
+    <th>B+<br /><small>[86.7,90)</small></th>
+    <th>B<br /><small>[83.3,86.7)</small></th>
+    <th>B-<br /><small>[80,83.3)</small></th>
+    <th>C+<br /><small>[76.7,80)</small></th>
+    <th>C<br /><small>[73.3,76.7)</small></th>
+    <th>C-<br /><small>[70,73.3)</small></th>
+    <th>D<br /><small>[60,70)</small></th>
+    <th>F<br /><small>[0,60)</small></th>
+  </tr>
+</table>
+</div>
+<small><em>Range notation [90,93) means 90 is included and 93 is not</em></small>
 
 Assignments are for groups of up-to 2.
 Group presentations are for different groups of 2 — network!
