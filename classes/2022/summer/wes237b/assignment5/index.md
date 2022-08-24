@@ -1,12 +1,98 @@
 <h1>Assignment 5 - Due date: Sep 18, 2022</h1>
 
 <!-- n.b. Grades Due Sep 21 -->
+<h3><a href="#revised-deadlines" style="color:red"><strong>Warning: Limited Late Submission Deadline</strong></a></h3>
 
 _Let's learn some stuff with these machines._
 
 [TOC]
 
 ---
+
+## Pre-Lab / Motivation
+
+As some quick inspiration, let's check out what machine learning can do and how
+easy modern frameworks make things. We'll use tensorflow to do some digit
+recognition on the MNIST dataset.
+
+**Note: This section should be turnkey. It should not take more than ten minutes.**
+
+### Setup: Install Tensorflow
+
+First, we'll need to get TensorFlow on the Jetson:
+
+**TODO: Chris, please verify this still works**
+
+    $ sudo apt-get install libhdf5-serial-dev hdf5-tools libhdf5-dev zlib1g-dev zip libjpeg8-dev liblapack-dev libblas-dev gfortran
+    $ sudo apt-get install python3-pip
+    $ sudo pip3 install -U pip
+    $ sudo pip3 install -U pip testresources setuptools numpy==1.16.1 future==0.17.1 mock==3.0.5 h5py==2.9.0 keras_preprocessing==1.0.5 keras_applications==1.0.8 gast==0.2.2 futures protobuf pybind11
+
+    $ sudo pip3 install --pre --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v44 tensorflow==2.3.1+nv20.12
+
+Now, download an example implementation:
+
+ - Tensorflow MNIST example: [`tf_mnist_example.py`](tf_mnist_example.py)
+
+You should be able to simply run this example:
+
+    $ python3 tf_mnist_example.py
+
+Note, you will need network access when this first runs as it will download the mnist dataset.
+
+<details markdown="1">
+<summary>[Click to show] Example output on my (desktop) machine:</summary>
+
+    Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/mnist.npz
+    11490434/11490434 [==============================] - 1s 0us/step
+    2022-08-12 16:06:49.795378: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+    To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+    predictions:
+     [[-0.03353167 -0.5992441   0.2775088   0.14995925  0.17868416  0.01251442
+       0.4154998   0.60322917 -0.10094208  0.58693767]]
+    loss:
+     2.4931512
+    Epoch 1/5
+    1875/1875 [==============================] - 2s 1ms/step - loss: 0.2945 - accuracy: 0.9155
+    Epoch 2/5
+    1875/1875 [==============================] - 2s 994us/step - loss: 0.1467 - accuracy: 0.9561
+    Epoch 3/5
+    1875/1875 [==============================] - 2s 1ms/step - loss: 0.1081 - accuracy: 0.9675
+    Epoch 4/5
+    1875/1875 [==============================] - 2s 1ms/step - loss: 0.0891 - accuracy: 0.9728
+    Epoch 5/5
+    1875/1875 [==============================] - 2s 1ms/step - loss: 0.0748 - accuracy: 0.9766
+    evaluation:
+    
+    313/313 - 0s - loss: 0.0766 - accuracy: 0.9772 - 329ms/epoch - 1ms/step
+    probabilities:
+     tf.Tensor(
+    [[6.53528831e-09 2.37911912e-08 4.16913781e-06 1.98437585e-04
+      7.76625916e-11 7.91134312e-07 3.66218117e-14 9.99787271e-01
+      7.81279994e-07 8.51235291e-06]
+     [3.38839108e-08 8.20917267e-05 9.99850750e-01 6.63965839e-05
+      3.00753109e-15 2.05818758e-08 8.88171758e-09 1.48753731e-13
+      7.58559167e-07 5.27852256e-15]
+     [3.27495087e-07 9.98672843e-01 4.06497478e-04 4.13860362e-05
+      7.93615618e-05 2.90710591e-06 1.48753126e-04 4.13178146e-04
+      2.34751133e-04 1.46073873e-07]
+     [9.99955297e-01 1.89552551e-09 6.28136468e-06 6.67276296e-08
+      2.16106105e-06 1.12490295e-06 2.45637898e-06 1.76818630e-05
+      3.60193830e-08 1.50214664e-05]
+     [3.01178479e-05 2.94772473e-08 1.41985929e-05 1.06495186e-07
+      9.93193209e-01 7.19620357e-06 2.56260387e-06 1.51762669e-03
+      1.54244553e-05 5.21953963e-03]], shape=(5, 10), dtype=float32)
+</details>
+
+<br />
+
+Take a quick peek inside the <tt>tf_mnist_example.py</tt> file and see if you can get a
+sense of what it's doing.
+
+For the rest of lab, we're going to implement a (tiny corner) of what tensorflow
+does for you.
+
+
 
 ## Lab: Learning a Circuit
 
@@ -292,6 +378,8 @@ You'll need two layers.
 
 ### Deliverables
 
+_TODO: Chris, fill in details based on what's been useful in grading thus far?_
+
  - Final code
 
  - Some kind of performance / accuracy ask
@@ -300,75 +388,48 @@ You'll need two layers.
 
 ---
 
+## Assignment
 
-## Assignment:
+Our final assignment is open-ended. We would like for you to go explore a
+little bit and try to build something fun of your own interest (that uses a
+GPU, of course!)
 
-### Setup: Install Tensorflow
+We have _two_ choices, and you are welcome to do whichever you prefer.
 
-First, we'll need to get TensorFlow on the Jetson:
 
-**TODO: Chris, please verify this still works**
+### Option A: Jetson AI Certification
 
-    $ sudo apt-get install libhdf5-serial-dev hdf5-tools libhdf5-dev zlib1g-dev zip libjpeg8-dev liblapack-dev libblas-dev gfortran
-    $ sudo apt-get install python3-pip
-    $ sudo pip3 install -U pip
-    $ sudo pip3 install -U pip testresources setuptools numpy==1.16.1 future==0.17.1 mock==3.0.5 h5py==2.9.0 keras_preprocessing==1.0.5 keras_applications==1.0.8 gast==0.2.2 futures protobuf pybind11
+nVidia will certify you as a "Jetson AI Specialist" if you complete a small,
+original project using the Jeston. This might be a fun additional certification
+to add to your collection if it is something you are interested in.
 
-    $ sudo pip3 install --pre --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v44 tensorflow==2.3.1+nv20.12
+[The details of the program are here.](https://developer.nvidia.com/embedded/learn/jetson-ai-certification-programs)
 
-To verify everything is working, download:
+For this option, you must submit to us the same materials you will submit to
+nVidia for certification (see the "Hands-On, Project-Based Assessment" section
+at the bottom of the page).
 
- - Tensorflow mnist example: [`tf_mnist_example.py`](tf_mnist_example.py)
+You won't get your response from nVidia until after the end of the term, so
+don't worry about that; we will grade your project independently.
 
-You should be able to simply run this example:
 
-    $ python3 tf_mnist_example.py
+### Option B: Research Replication
 
-Note, you will need network access when this first runs as it will download the mnist dataset.
+Modern machine learning research is rapidly improving its artifact
+dissemination and documentation practices since the rise in attention to the
+"ML replication crisis". As a result, most interesting new papers have datasets
+and processing pipelines available in public repositories.
 
-<details markdown="1">
-<summary>Example output on my machine:</summary>
+For this option, pick a recent (say, within the last 10 years) paper and
+perform a replication study. That is, you should run their experiments on your
+hardware and compare the results. Unless they happened to run on the same TX2
+hardware, the absolute performance will likely be different, but the relative
+performance and trends should largely hold.
 
-    Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/mnist.npz
-    11490434/11490434 [==============================] - 1s 0us/step
-    2022-08-12 16:06:49.795378: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
-    To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
-    predictions:
-     [[-0.03353167 -0.5992441   0.2775088   0.14995925  0.17868416  0.01251442
-       0.4154998   0.60322917 -0.10094208  0.58693767]]
-    loss:
-     2.4931512
-    Epoch 1/5
-    1875/1875 [==============================] - 2s 1ms/step - loss: 0.2945 - accuracy: 0.9155
-    Epoch 2/5
-    1875/1875 [==============================] - 2s 994us/step - loss: 0.1467 - accuracy: 0.9561
-    Epoch 3/5
-    1875/1875 [==============================] - 2s 1ms/step - loss: 0.1081 - accuracy: 0.9675
-    Epoch 4/5
-    1875/1875 [==============================] - 2s 1ms/step - loss: 0.0891 - accuracy: 0.9728
-    Epoch 5/5
-    1875/1875 [==============================] - 2s 1ms/step - loss: 0.0748 - accuracy: 0.9766
-    evaluation:
-    
-    313/313 - 0s - loss: 0.0766 - accuracy: 0.9772 - 329ms/epoch - 1ms/step
-    probabilities:
-     tf.Tensor(
-    [[6.53528831e-09 2.37911912e-08 4.16913781e-06 1.98437585e-04
-      7.76625916e-11 7.91134312e-07 3.66218117e-14 9.99787271e-01
-      7.81279994e-07 8.51235291e-06]
-     [3.38839108e-08 8.20917267e-05 9.99850750e-01 6.63965839e-05
-      3.00753109e-15 2.05818758e-08 8.88171758e-09 1.48753731e-13
-      7.58559167e-07 5.27852256e-15]
-     [3.27495087e-07 9.98672843e-01 4.06497478e-04 4.13860362e-05
-      7.93615618e-05 2.90710591e-06 1.48753126e-04 4.13178146e-04
-      2.34751133e-04 1.46073873e-07]
-     [9.99955297e-01 1.89552551e-09 6.28136468e-06 6.67276296e-08
-      2.16106105e-06 1.12490295e-06 2.45637898e-06 1.76818630e-05
-      3.60193830e-08 1.50214664e-05]
-     [3.01178479e-05 2.94772473e-08 1.41985929e-05 1.06495186e-07
-      9.93193209e-01 7.19620357e-06 2.56260387e-06 1.51762669e-03
-      1.54244553e-05 5.21953963e-03]], shape=(5, 10), dtype=float32)
-</details>
+In your writeup, explain briefly the goal of the study that you chose to
+reproduce, as well as any obstacles you had to overcome to get their artifact
+running in your environment. Discuss how your results compare to the original
+results and try to explain when things diverge.
 
 
 ---
@@ -379,6 +440,18 @@ Prepare a report document with answers for each of the `Report Deliverables` abo
 
 _TODO: Chris, please fill in._
 
+
+### Revised Deadlines
+
+> **WARNING: Limited late submission window!!**
+
+Final grades are due to the registrar by end-of-business on September 21.
+
+We can accept late submissions up through start-of-business on September 21 _if
+you message us before the original deadline to let us know when you will submit._
+
+As an incentive, if you submit before start-of-business on Friday, September 16,
+we will add a bonus 3% to your grade.
 
 
 <!--
