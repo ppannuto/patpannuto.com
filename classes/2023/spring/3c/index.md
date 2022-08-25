@@ -29,7 +29,10 @@ Office hours TBA.
 
 At the end of this class, students should be able to:
 
-1. 
+1. Critical analyze positions and policies on matters which intersect identity, cultural context, and computing.
+2. Establish connections between historical antecedents and contemporary concerns.
+3. Succinctly explain core tenets of identity and culture in the computing context to both technical and non-technical audiences.
+4. Synthesize values and intentions into actualized technical artifacts.
 
 
 ---
