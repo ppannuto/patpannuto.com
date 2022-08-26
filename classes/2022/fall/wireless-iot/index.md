@@ -572,6 +572,7 @@ Please visit [thehub.ucsd.edu](/http://thehub.ucsd.edu/) for more information.
 
 ### Schedule
 
+<!--
 <pre>
 
 Major Landmarks:
@@ -634,7 +635,307 @@ W'22 Schedule as reference:
 10      VLC, IR, Ultrasonic, Boutique RF        [No class; project time]
 
 </pre>
+-->
 
+
+<style>
+td.class-week {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  vertical-align: middle;
+}
+
+.visuallyhidden {
+  visibility: hidden;
+}
+</style>
+
+
+<!-- https://alphagov.github.io/table-editor/generic-tables.html -->
+<table class="source-tableeditor table table-hover">
+<tbody>
+<tr>
+<th>Subject</th>
+<th colspan="5">When</th>
+<th>Where</th>
+<th>What</th>
+</tr>
+<tr>
+<td rowspan="4">Intro</td>
+<td class="class-week">Week&nbsp;0</td>
+<td>Fri</td>
+<td>Sep 23</td>
+<td></td>
+<td><strong>Assigned:</strong> Pre-Lab 1</td>
+<td>2154</td>
+<td>Welcome &amp; Intro</td>
+</tr>
+<tr>
+<td rowspan="3" class="class-week">Week&nbsp;1</td>
+<td>Mon</td>
+<td>Sep 26</td>
+<td></td>
+<td></td>
+<td>2154</td>
+<td>Networking Basics</td>
+</tr>
+<tr>
+<td>Wed</td>
+<td>Sep 28</td>
+<td></td>
+<td></td>
+<td>2154</td>
+<td>Wireless basics; PHY concepts, why learn; topolgies, etc</td>
+</tr>
+<tr>
+<td>Fri</td>
+<td>Sep 30</td>
+<td><strong>Due: </strong>Pre-Lab 1<br /><br /></td>
+<td><strong>Assigned:</strong> Post-Lab 1</td>
+<td>3219</td>
+<td>LAB: Wireshark?</td>
+</tr>
+<tr>
+<td rowspan="6">Bluetooth</td>
+<td rowspan="3" class="class-week">Week&nbsp;2</td>
+<td>Mon</td>
+<td>Oct 3</td>
+<td></td>
+<td><strong>Assigned: </strong>Pre-Lab 2</td>
+<td>2154</td>
+<td>Bluetooth PHY/MAC, BLE</td>
+</tr>
+<tr>
+<td>Wed</td>
+<td>Oct 5</td>
+<td></td>
+<td></td>
+<td>2154</td>
+<td>BLE, BLE adv's</td>
+</tr>
+<tr>
+<td>Fri</td>
+<td>Oct 7</td>
+<td><strong>Due: </strong>Pre-Lab 2</td>
+<td><strong>&nbsp;</strong></td>
+<td>3219</td>
+<td>LAB: BLE Adv's</td>
+</tr>
+<tr>
+<td rowspan="3" class="class-week">Week&nbsp;3</td>
+<td>Mon</td>
+<td>Oct 10</td>
+<td><strong></strong></td>
+<td></td>
+<td>2154</td>
+<td>BLE Conn's</td>
+</tr>
+<tr>
+<td>Wed</td>
+<td>Oct 12</td>
+<td></td>
+<td></td>
+<td>2154</td>
+<td>Wrap BLE, 15.4 [trad]</td>
+</tr>
+<tr>
+<td>Fri</td>
+<td>Oct 14 <span class="visuallyhidden">!P</span></td>
+<td></td>
+<td><strong>Assigned:</strong> Post-Lab 2</td>
+<td>3219</td>
+<td>LAB: BLE Conn's</td>
+</tr>
+<tr>
+<td rowspan="6">802.15.4</td>
+<td rowspan="3" class="class-week">Week&nbsp;4</td>
+<td>Mon</td>
+<td>Oct 17</td>
+<td><strong></strong></td>
+<td><strong>Assigned: </strong>Pre-Lab 3</td>
+<td>2154</td>
+<td>15.4, Thread</td>
+</tr>
+<tr>
+<td>Wed</td>
+<td>Oct 19</td>
+<td></td>
+<td></td>
+<td>2154</td>
+<td>15.4, Thread</td>
+</tr>
+<tr>
+<td>Fri</td>
+<td>Oct 21</td>
+<td><strong>Due: </strong>Pre-Lab 3</td>
+<td><strong>&nbsp;</strong></td>
+<td>3219</td>
+<td>LAB: 15.4 Raw Conn's?</td>
+</tr>
+<tr>
+<td rowspan="3" class="class-week">Week&nbsp;5</td>
+<td>Mon</td>
+<td>Oct 24</td>
+<td></td>
+<td></td>
+<td>2154</td>
+<td>Zigbee, Routing</td>
+</tr>
+<tr>
+<td>Wed</td>
+<td>Oct 26</td>
+<td></td>
+<td></td>
+<td>2154</td>
+<td>CoAP, MQTT, etc</td>
+</tr>
+<tr>
+<td>Fri</td>
+<td>Oct 28 <span class="visuallyhidden">!P</span></td>
+<td><strong></strong></td>
+<td><strong>Assigned: </strong>Post-Lab 3</td>
+<td>3219</td>
+<td>LAB: 15.4 Thread? CoAP MQTT?</td>
+</tr>
+<tr>
+<td rowspan="6">WiFi</td>
+<td rowspan="3" class="class-week">Week&nbsp;6</td>
+<td>Mon</td>
+<td>Oct 31</td>
+<td><strong></strong></td>
+<td><strong>Assigned: </strong>Pre-Lab 4</td>
+<td>2154</td>
+<td>WiFi (phy)</td>
+</tr>
+<tr>
+<td>Wed</td>
+<td>Nov 2</td>
+<td></td>
+<td></td>
+<td>2154</td>
+<td>WiFi (mac)</td>
+</tr>
+<tr>
+<td>Fri</td>
+<td>Nov 4</td>
+<td></td>
+<td></td>
+<td>2154</td>
+<td>?? more WiFi ?? Energy Analysis / Performance ??</td>
+</tr>
+<tr>
+<td rowspan="3" class="class-week">Week&nbsp;7</td>
+<td>Mon</td>
+<td>Nov 7 <span class="visuallyhidden">!P</span></td>
+<td><strong>Due: </strong>Pre-Lab 4</td>
+<td><strong>&nbsp;</strong></td>
+<td>3219</td>
+<td>LAB: WiFi (??)</td>
+</tr>
+<tr>
+<td>Wed</td>
+<td>Nov 9 <span class="visuallyhidden">?P</span></td>
+<td><strong></strong></td>
+<td><strong>Assigned: </strong>Post-Lab 4</td>
+<td>3219</td>
+<td>LAB: WiFi (??)</td>
+</tr>
+<tr>
+<td>Fri</td>
+<td>Nov 11</td>
+<td></td>
+<td></td>
+<td colspan="2">~holiday~</td>
+</tr>
+<tr>
+<td rowspan="4">LP-WANs</td>
+<td rowspan="3" class="class-week">Week&nbsp;8</td>
+<td>Mon</td>
+<td>Nov 14</td>
+<td><strong></strong></td>
+<td><strong>Assigned: </strong>Pre-Lab 5</td>
+<td>2154</td>
+<td>Wide-Area Intro</td>
+</tr>
+<tr>
+<td>Wed</td>
+<td>Nov 16</td>
+<td></td>
+<td></td>
+<td>2154</td>
+<td>LoRa, SigFox, etc</td>
+</tr>
+<tr>
+<td>Fri</td>
+<td>Nov 18</td>
+<td><strong>Due: </strong>Pre-Lab 5</td>
+<td><strong>&nbsp;</strong></td>
+<td>3219</td>
+<td>LAB: LoRa (Basic LoRa?)</td>
+</tr>
+<tr>
+<td rowspan="3" class="class-week">Week&nbsp;9</td>
+<td>Mon</td>
+<td>Nov 21</td>
+<td><strong></strong></td>
+<td><strong>Assigned: </strong>Post-Lab 5</td>
+<td>3219</td>
+<td>LAB: LoRa (chat app?)</td>
+</tr>
+<tr>
+<td rowspan="4">Cellular</td>
+<td>Wed</td>
+<td>Nov 23</td>
+<td><strong></strong></td>
+<td><strong>Assigned: </strong>HW-Cell</td>
+<td>2154</td>
+<td>Intro cell, 2g [expect low attendance]</td>
+</tr>
+<tr>
+<td>Fri</td>
+<td>Nov 25</td>
+<td></td>
+<td></td>
+<td colspan="2">~holiday~</td>
+</tr>
+<tr>
+<td rowspan="3" class="class-week">Week&nbsp;10</td>
+<td>Mon</td>
+<td>Nov 28</td>
+<td><strong></strong></td>
+<td></td>
+<td>2154</td>
+<td>3g/4g/5g</td>
+</tr>
+<tr>
+<td>Wed</td>
+<td>Nov 30</td>
+<td></td>
+<td></td>
+<td>2154</td>
+<td>Cell Wrap-Up</td>
+</tr>
+<tr>
+<td>Grab Bag</td>
+<td>Fri</td>
+<td>Dec 1</td>
+<td><strong>Due: </strong>HW-Cell</td>
+<td><strong>&nbsp;</strong></td>
+<td>2154</td>
+<td>Misc: werider RF, non-RF stuff</td>
+</tr>
+<tr>
+<td></td>
+<td class="class-week">Week&nbsp;11</td>
+<td>EXAM TBD</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
 Old full table:
 <details>
