@@ -667,6 +667,10 @@ td.class-subject {
 .assigned {
   font-weight: bolder;
 }
+
+.lab {
+  background-color: aliceblue;
+}
 </style>
 
 
@@ -730,9 +734,9 @@ td.class-subject {
 <td>Sep 30</td>
 <td><span class="due">Due: </span>Pre-Lab 1<br /><br /></td>
 <td><span class="assigned">Assigned:</span> Post-Lab 1</td>
-<td>3219</td>
-<td>
-<strong>Lab: Wireshark</strong>
+<td class="lab">3219</td>
+<td class="lab">
+<strong>Lab: Wireshark</strong><br />
 <em>Outcomes&ndash;</em> After this lab you should understand:
 <ul>
 <li>What is &ldquo;sniffing&rdquo; and how to do it?</li>
@@ -765,8 +769,8 @@ td.class-subject {
 <td>Oct 7</td>
 <td><span class="due">Due: </span>Pre-Lab 2</td>
 <td><strong>&nbsp;</strong></td>
-<td>3219</td>
-<td>LAB: BLE Adv's</td>
+<td class="lab">3219</td>
+<td class="lab">LAB: BLE Adv's</td>
 </tr>
 <tr>
 <td rowspan="3" class="class-week">Week&nbsp;3</td>
@@ -790,8 +794,8 @@ td.class-subject {
 <td>Oct 14 <span class="visuallyhidden">!P</span></td>
 <td></td>
 <td><strong>Assigned:</strong> Post-Lab 2</td>
-<td>3219</td>
-<td>LAB: BLE Conn's</td>
+<td class="lab">3219</td>
+<td class="lab">LAB: BLE Conn's</td>
 </tr>
 <tr>
 <td rowspan="6" class="class-subject">802.15.4</td>
@@ -816,8 +820,8 @@ td.class-subject {
 <td>Oct 21</td>
 <td><strong>Due: </strong>Pre-Lab 3</td>
 <td><strong>&nbsp;</strong></td>
-<td>3219</td>
-<td>LAB: 15.4 Raw Conn's?</td>
+<td class="lab">3219</td>
+<td class="lab">LAB: 15.4 Raw Conn's?</td>
 </tr>
 <tr>
 <td rowspan="3" class="class-week">Week&nbsp;5</td>
@@ -841,8 +845,8 @@ td.class-subject {
 <td>Oct 28 <span class="visuallyhidden">!P</span></td>
 <td><strong></strong></td>
 <td><strong>Assigned: </strong>Post-Lab 3</td>
-<td>3219</td>
-<td>LAB: 15.4 Thread? CoAP MQTT?</td>
+<td class="lab">3219</td>
+<td class="lab">LAB: 15.4 Thread? CoAP MQTT?</td>
 </tr>
 <tr>
 <td rowspan="6" class="class-subject">WiFi</td>
@@ -876,16 +880,16 @@ td.class-subject {
 <td>Nov 7 <span class="visuallyhidden">!P</span></td>
 <td><strong>Due: </strong>Pre-Lab 4</td>
 <td><strong>&nbsp;</strong></td>
-<td>3219</td>
-<td>LAB: WiFi (??)</td>
+<td class="lab">3219</td>
+<td class="lab">LAB: WiFi (??)</td>
 </tr>
 <tr>
 <td>Wed</td>
 <td>Nov 9 <span class="visuallyhidden">?P</span></td>
 <td><strong></strong></td>
 <td><strong>Assigned: </strong>Post-Lab 4</td>
-<td>3219</td>
-<td>LAB: WiFi (??)</td>
+<td class="lab">3219</td>
+<td class="lab">LAB: WiFi (??)</td>
 </tr>
 <tr>
 <td>Fri</td>
@@ -917,8 +921,8 @@ td.class-subject {
 <td>Nov 18</td>
 <td><strong>Due: </strong>Pre-Lab 5</td>
 <td><strong>&nbsp;</strong></td>
-<td>3219</td>
-<td>LAB: LoRa (Basic LoRa?)</td>
+<td class="lab">3219</td>
+<td class="lab">LAB: LoRa (Basic LoRa?)</td>
 </tr>
 <tr>
 <td rowspan="3" class="class-week">Week&nbsp;9</td>
@@ -926,8 +930,8 @@ td.class-subject {
 <td>Nov 21</td>
 <td><strong></strong></td>
 <td><strong>Assigned: </strong>Post-Lab 5</td>
-<td>3219</td>
-<td>LAB: LoRa (chat app?)</td>
+<td class="lab">3219</td>
+<td class="lab">LAB: LoRa (chat app?)</td>
 </tr>
 <tr>
 <td rowspan="4" class="class-subject">Cellular</td>
