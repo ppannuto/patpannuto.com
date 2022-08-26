@@ -643,10 +643,29 @@ td.class-week {
   writing-mode: vertical-lr;
   transform: rotate(180deg);
   vertical-align: middle;
+  padding: 3px;
+}
+
+td.class-subject {
+  font-weight: bolder;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  vertical-align: middle;
+  border-style: dotted;
+  padding: 3px;
 }
 
 .visuallyhidden {
   visibility: hidden;
+}
+
+.due {
+  color: red;
+  font-weight: bolder;
+}
+
+.assigned {
+  font-weight: bolder;
 }
 </style>
 
@@ -655,20 +674,27 @@ td.class-week {
 <table class="source-tableeditor table table-hover">
 <tbody>
 <tr>
-<th>Subject</th>
-<th colspan="5">When</th>
+<th>&nbsp;&nbsp;<!--Subject--></th>
+<th>&nbsp;&nbsp;<!--Week--></th>
+<th colspan="4">When</th>
 <th>Where</th>
 <th>What</th>
 </tr>
 <tr>
-<td rowspan="4">Intro</td>
+<td rowspan="4" class="class-subject">Introduction &amp; Networking Basics</td>
 <td class="class-week">Week&nbsp;0</td>
 <td>Fri</td>
 <td>Sep 23</td>
 <td></td>
 <td><strong>Assigned:</strong> Pre-Lab 1</td>
 <td>2154</td>
-<td>Welcome &amp; Intro</td>
+<td>
+<strong>Welcome &amp; Intro</strong>
+<ul>
+<li>Course overview</li>
+<li>Introduction the IoT</li>
+<li>Introduction to wireless communication</li>
+</td>
 </tr>
 <tr>
 <td rowspan="3" class="class-week">Week&nbsp;1</td>
@@ -677,7 +703,14 @@ td.class-week {
 <td></td>
 <td></td>
 <td>2154</td>
-<td>Networking Basics</td>
+<td>
+<strong>Networking Basics</strong>
+<ul>
+<li>OSI layer model</li>
+<li>IP and routing basics</li>
+<li>Data link layer</li>
+</ul>
+</td>
 </tr>
 <tr>
 <td>Wed</td>
@@ -685,23 +718,37 @@ td.class-week {
 <td></td>
 <td></td>
 <td>2154</td>
-<td>Wireless basics; PHY concepts, why learn; topolgies, etc</td>
+<td>
+<strong>Wireless basics</strong>
+<ul>
+<li>PHY layer</li>
+<li>How PHY impacts Data impacts Network...</li>
+<li>Medium Access Control</li>
 </tr>
 <tr>
 <td>Fri</td>
 <td>Sep 30</td>
-<td><strong>Due: </strong>Pre-Lab 1<br /><br /></td>
-<td><strong>Assigned:</strong> Post-Lab 1</td>
+<td><span class="due">Due: </span>Pre-Lab 1<br /><br /></td>
+<td><span class="assigned">Assigned:</span> Post-Lab 1</td>
 <td>3219</td>
-<td>LAB: Wireshark?</td>
+<td>
+<strong>Lab: Wireshark</strong>
+<em>Outcomes&ndash;</em> After this lab you should understand:
+<ul>
+<li>What is &ldquo;sniffing&rdquo; and how to do it?</li>
+<li>How to find specific traffic you generate?</li>
+<li>How to identify layers in a captured packet?</li>
+<li>How to infer information about unknown traffic?</li>
+</ul>
+</td>
 </tr>
 <tr>
-<td rowspan="6">Bluetooth</td>
+<td rowspan="6" class="class-subject">Bluetooth</td>
 <td rowspan="3" class="class-week">Week&nbsp;2</td>
 <td>Mon</td>
 <td>Oct 3</td>
 <td></td>
-<td><strong>Assigned: </strong>Pre-Lab 2</td>
+<td><span class="assigned">Assigned: </span>Pre-Lab 2</td>
 <td>2154</td>
 <td>Bluetooth PHY/MAC, BLE</td>
 </tr>
@@ -716,7 +763,7 @@ td.class-week {
 <tr>
 <td>Fri</td>
 <td>Oct 7</td>
-<td><strong>Due: </strong>Pre-Lab 2</td>
+<td><span class="due">Due: </span>Pre-Lab 2</td>
 <td><strong>&nbsp;</strong></td>
 <td>3219</td>
 <td>LAB: BLE Adv's</td>
@@ -747,7 +794,7 @@ td.class-week {
 <td>LAB: BLE Conn's</td>
 </tr>
 <tr>
-<td rowspan="6">802.15.4</td>
+<td rowspan="6" class="class-subject">802.15.4</td>
 <td rowspan="3" class="class-week">Week&nbsp;4</td>
 <td>Mon</td>
 <td>Oct 17</td>
@@ -798,7 +845,7 @@ td.class-week {
 <td>LAB: 15.4 Thread? CoAP MQTT?</td>
 </tr>
 <tr>
-<td rowspan="6">WiFi</td>
+<td rowspan="6" class="class-subject">WiFi</td>
 <td rowspan="3" class="class-week">Week&nbsp;6</td>
 <td>Mon</td>
 <td>Oct 31</td>
@@ -848,7 +895,7 @@ td.class-week {
 <td colspan="2">~holiday~</td>
 </tr>
 <tr>
-<td rowspan="4">LP-WANs</td>
+<td rowspan="4" class="class-subject">LP-WANs</td>
 <td rowspan="3" class="class-week">Week&nbsp;8</td>
 <td>Mon</td>
 <td>Nov 14</td>
@@ -883,7 +930,7 @@ td.class-week {
 <td>LAB: LoRa (chat app?)</td>
 </tr>
 <tr>
-<td rowspan="4">Cellular</td>
+<td rowspan="4" class="class-subject">Cellular</td>
 <td>Wed</td>
 <td>Nov 23</td>
 <td><strong></strong></td>
@@ -916,7 +963,7 @@ td.class-week {
 <td>Cell Wrap-Up</td>
 </tr>
 <tr>
-<td>Grab Bag</td>
+<td class="class-subject">Grab Bag</td>
 <td>Fri</td>
 <td>Dec 1</td>
 <td><strong>Due: </strong>HW-Cell</td>
