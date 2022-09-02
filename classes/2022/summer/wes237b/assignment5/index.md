@@ -21,8 +21,6 @@ recognition on the MNIST dataset.
 
 First, we'll need to get TensorFlow on the Jetson:
 
-**TODO: Chris, please verify this still works**
-
     $ sudo apt-get install libhdf5-serial-dev hdf5-tools libhdf5-dev zlib1g-dev zip libjpeg8-dev liblapack-dev libblas-dev gfortran
     $ sudo apt-get install python3-pip
     $ sudo pip3 install -U pip
@@ -376,15 +374,20 @@ You'll need two layers.
 -->
 
 
-### Deliverables
+### Training
 
-_TODO: Chris, fill in details based on what's been useful in grading thus far?_
+Once you have everything implemented and the network architecutre created.  It's time to run training.
+
+In `dataset.cu` comment out `XNOR_GATE` to create the AND gate dataset and uncomment it to create the XNOR dataset.
+
+
+### Deliverables
 
  - Final code
 
- - Some kind of performance / accuracy ask
+ - Accuracy of your network and the results of the `time` command.
 
- - `XNOR_GATE`
+ - `XNOR_GATE` and `AND_GATE` results.
 
 ---
 
@@ -438,7 +441,31 @@ results and try to explain when things diverge.
 
 Prepare a report document with answers for each of the `Report Deliverables` above.
 
-_TODO: Chris, please fill in._
+### Lab (Neural Network)
+
+ - Final code
+
+ - Accuracy of your network and the results of the `time` command.
+
+ - `XNOR_GATE` and `AND_GATE` results.
+
+### Assignment
+#### Option 1
+For the Jetson AI Certification, we will be evaluating the same criteria that NVIDIA will be reviewing.  The requirements are produced below for your convience.
+
+ - AI - The project uses deep learning, machine learning, and/or computer vision in a meaningful way, and demonstrates a fundamental understanding of creating applications with AI. Factors include the effectiveness, technical complexity, and performance of your AI solution on Jetson.
+
+ - Impact / Originality - The concept of your project is novel and applies AI to solve or address challenges or issues faced by yourself or society. Also, our ideas and work are either original or derivative in a significant way.
+
+ - Reproducibility - Any plans, code, and resources needed for someone else to build and use the project are included in the repository and are easy to follow.
+
+ - Presentation and Documentation - The video effectively demonstrates and explains various aspects of the project, and there exists a clear, complete readme in the repository that documents any steps needed to build/run the project along with diagrams and images. Note that educators should have an oral presentation component to their video to highlight their teaching abilities.
+
+#### Option 2
+
+ - Citation of the original paper you are basing your reproduction study on.  Why did you choose it?
+
+ - In your writeup, explain briefly the goal of the study that you chose to reproduce, as well as any obstacles you had to overcome to get their artifact running in your environment. Discuss how your results compare to the original results and try to explain when things diverge.
 
 
 ### Revised Deadlines
