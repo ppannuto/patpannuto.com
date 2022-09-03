@@ -379,7 +379,7 @@ You'll need two layers. Here's the whole network:
 
 And you're done!
 
-<details>
+<details markdown="1">
 <summary>Something not working?</summary>
 Here's a complete zip of the fininshed lab: [`lab5_solutions.zip`](lab5_solutions.zip)
 </details>
