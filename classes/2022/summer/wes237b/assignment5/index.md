@@ -373,9 +373,6 @@ You'll need two layers. Here's the whole network:
     LinearLayer ll1 = LinearLayer("linear_1", Shape(2, 2));
     nn.addLayer(&ll1);
     nn.addLayer(new SigmoidActivation("sigmoid_1"));
-    LinearLayer ll1 = LinearLayer("linear_1", Shape(2, 2));
-    nn.addLayer(&ll1);
-    nn.addLayer(new SigmoidActivation("sigmoid_1"));
     LinearLayer ll2 = LinearLayer("linear_2", Shape(2, 1));
     nn.addLayer(&ll2);
     nn.addLayer(new SigmoidActivation("sigmoid_2"));
