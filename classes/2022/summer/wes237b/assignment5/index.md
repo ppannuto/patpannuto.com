@@ -377,6 +377,12 @@ You'll need two layers. Here's the whole network:
     nn.addLayer(&ll2);
     nn.addLayer(new SigmoidActivation("sigmoid_2"));
 
+And you're done!
+
+<details>
+<summary>Something not working?</summary>
+Here's a complete zip of the fininshed lab: [`lab5_solutions.zip`](lab5_solutions.zip)
+</details>
 
 ### Training
 
