@@ -151,7 +151,7 @@ Please correct me (in the chat if there is one, out loud in class or in Zoom, or
      - `11:00-11:50` Student Presentation
      - `11:50-12:00` _Break / Slack_
  - Lab: Learning simple circuits
- - Assignment: ...
+ - Assignment: Machine learning
      - [Lab 5, Assignment 5](assignment5/)
 
 > ##### Tuesday, August 23 &ndash; Office Hours
