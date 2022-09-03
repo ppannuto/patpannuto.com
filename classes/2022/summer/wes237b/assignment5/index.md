@@ -161,8 +161,10 @@ Then add that (mind the hint in the source!) to the single, shared, global total
 
 The derivative is simpler as it's element-wise, with a result in each `eA[index]`.
 
-<!-- solution
+<details>
+<summary>Solution</summary>
 
+<pre>
 __global__ void meanSquaredErrorCost(float* predictions, float* target, const int size, float* cost)
 {
 	int index = blockIdx.x * blockDim.x + threadIdx.x;
@@ -183,8 +185,9 @@ __global__ void dMeanSquaredErrorCost(float* predictions, float* target, float* 
 		eA[index] = 2.0f * (predictions[index] - target[index]);
 	}
 }
+</pre>
 
--->
+</details>
 
 
 #### `sigmoid_activation.cu`
@@ -196,8 +199,10 @@ The structure of these methods will look a lot like your MSE methods (though, wh
 The forward path is quite direct, you simply need to compute the `sigmoid` (this function is given already) for each `input`.
 Back-propagation requires a bit more work, but can still be a one-liner.
 
-<!-- solution
+<details>
+<summary>Solution</summary>
 
+<pre>
 __global__ void sigmoidActivationForward(float* input, float* output, const int input_rows, const int input_cols)
 {
 	int index = blockIdx.x * blockDim.x + threadIdx.x;
@@ -217,8 +222,9 @@ __global__ void sigmoidActivationBackprop(float* input, float* errorFromLayerBel
 		errorToLayerAbove[index] = errorFromLayerBelow[index] * sigmoid(input[index]) * (1.0f - sigmoid(input[index]));
 	}
 }
+</pre>
 
--->
+</details>
 
 
 #### `linear_layer.cu`
@@ -239,8 +245,10 @@ Start by computing the forward path:
 - You'll also need to guard computation based on dimensions.
 - Finally, you'll need one loop.
 
-<!-- solution
+<details>
+<summary>Solution</summary>
 
+<pre>
 __global__ void linearLayerForward(float *W, float* input, float* output, float* b,
 									const int W_rows, const int W_cols,
 									const int input_rows, const int input_cols) 
@@ -264,13 +272,14 @@ __global__ void linearLayerForward(float *W, float* input, float* output, float*
 		output[row * output_cols + col] = output_value + b[row];
 	}
 }
-
--->
+</pre>
+</details>
 
 Next, implement backprop – this will look a lot like the forward path.
 
-<!--
-
+<details>
+<summary>Solution</summary>
+<pre>
 __global__ void linearLayerBackprop(float *W, float* eB, float* eA,
 									const int W_rows, const int W_cols,
 									const int eB_rows, const int eB_cols) 
@@ -293,13 +302,15 @@ __global__ void linearLayerBackprop(float *W, float* eB, float* eA,
 		eA[row * eA_cols + col] = eA_value;
 	}
 }
-
--->
+</pre>
+</details>
 
 Up next is weight updates. Again, the control flow looks pretty similar.
 
-<!--
 
+<details>
+<summary>Solution</summary>
+<pre>
 __global__ void linearLayerUpdateWeights(float *eB, float* input, float* W,
 									const int eB_rows, const int eB_cols,
 									const int input_rows, const int input_cols, float learning_rate)
@@ -323,14 +334,16 @@ __global__ void linearLayerUpdateWeights(float *eB, float* input, float* W,
 		W[row * W_cols + col] = W[row * W_cols + col] - learning_rate * (dW_value / input_rows);
 	}
 }
-
--->
+</pre>
+</details>
 
 Last thing to do is update biases.
 This one looks a little different, and our old friend `atomicAdd` will probably need to make an appearance.
 
-<!--
 
+<details>
+<summary>Solution</summary>
+<pre>
 __global__ void linearLayerUpdateBias(float *eB, float* b,
 									const int eB_rows, const int eB_cols,
 									const int b_rows, float learning_rate)
@@ -344,8 +357,9 @@ __global__ void linearLayerUpdateBias(float *eB, float* b,
 		atomicAdd(&b[row], -learning_rate * (eB[row * eB_cols + col] / eB_cols));
 	}
 }
+</pre>
+</details>
 
--->
 
 #### `main.cu`
 
@@ -353,25 +367,18 @@ Once everything is implemented, we need to hook it all together!
 
 We'll put together a pretty simple network, two linear layers each with our simple sigmoid activation function.
 
-It's useful to keep references to the linear layers, as we can print their values to debug things:
+It's useful to keep references to the linear layers, as we can print their values to debug things.
+You'll need two layers. Here's the whole network:
 
     LinearLayer ll1 = LinearLayer("linear_1", Shape(2, 2));
     nn.addLayer(&ll1);
     nn.addLayer(new SigmoidActivation("sigmoid_1"));
-
-You'll need two layers.
-
-<!-- solution
-
-    //TODO: build your network structure
-	LinearLayer ll1 = LinearLayer("linear_1", Shape(2, 2));
-	nn.addLayer(&ll1);
-	nn.addLayer(new SigmoidActivation("sigmoid_1"));
-	LinearLayer ll2 = LinearLayer("linear_2", Shape(2, 1));
-	nn.addLayer(&ll2);
-	nn.addLayer(new SigmoidActivation("sigmoid_2"));
-
--->
+    LinearLayer ll1 = LinearLayer("linear_1", Shape(2, 2));
+    nn.addLayer(&ll1);
+    nn.addLayer(new SigmoidActivation("sigmoid_1"));
+    LinearLayer ll2 = LinearLayer("linear_2", Shape(2, 1));
+    nn.addLayer(&ll2);
+    nn.addLayer(new SigmoidActivation("sigmoid_2"));
 
 
 ### Training
@@ -397,7 +404,7 @@ Our final assignment is open-ended. We would like for you to go explore a
 little bit and try to build something fun of your own interest (that uses a
 GPU, of course!)
 
-We have _two_ choices, and you are welcome to do whichever you prefer.
+We have two choices, and you are welcome to do whichever you prefer.
 
 
 ### Option A: Jetson AI Certification
