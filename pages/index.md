@@ -61,7 +61,12 @@ health monitoring](#gridwatch).
  - 2022-04: [Alex][alexy] awarded **[National Science Foundation Graduate Research Fellowship (NSF&nbsp;GRFP)](https://www.nsfgrfp.org/)** – Congratulations Alex!
  - 2022-03: [Hudson's][hayers] paper on [threat models for embedded systems](/pubs/ayers2022tieredtrust.pdf) accepted at [EUROSEC'22](https://concordia-h2020.eu/eurosec-2022/).
  - 2022-01: [Gabe's][gabriel] paper [characterizing simple MFCs](/pubs/marcano2022iscasMFCs.pdf) accepted at [ISCAS'22](https://www.iscas2022.org/).
- - 2021-09: [Virginia's][virginiaSalo] paper describing [SociTrack's usage in developmental psychology applications](pubs/salo2021tottagmethods.pdf) published in [Behavior Research Methods](https://www.springer.com/journal/13428).
+ - 2021-09: [Virginia's][virginiaSalo] paper describing [SociTrack's usage in developmental psychology applications](pubs/salo2022tottagmethods.pdf) published in [Behavior Research Methods](https://www.springer.com/journal/13428).
+
+<!-- Let's mark 1y as reasonable cut-off? Would be cool to automate this someday... -->
+<details markdown="1">
+<summary>Further back in time...</summary>
+
  - 2021-08: [Dhananjay][dhananjay] and [Alex's][alexy] paper [measuring the Helium Network](/pubs/jagtapyen2021helium.pdf) accepted at [IMC'21](https://conferences.sigcomm.org/imc/2021/).
  - 2021-07: [Gabe's][gabriel] paper investigating [conventional energy harvesters with soil-based MFCs](/pubs/marcano2021einkbiobattery.pdf) accepted at [LP-IoT'21](https://www.witechlab.com/lpiot2021/#).
  - 2021-05: [Alex][alexy] wins **Best Presentation (Runner-Up)** at [CPS-IoTBench'21](https://www.iotbench.ethz.ch/cps-iotbench-2021/) – congratulations!
@@ -70,9 +75,11 @@ health monitoring](#gridwatch).
  - 2021-01: [Dhananjay's][dhananjay] paper describing [energy harvesting from cathodic protection systems](/pubs/jagtap2021cathodicprotection.pdf) accepted at [IPSN'21](https://ipsn.acm.org/2021/).
  - 2020-12: [Colleen][cojoseph], [Neal][nealjack], and my paper on [materials for soil MFC design](/pubs/josephson2020farmingelectrons.pdf) published in [IEEE Sensors Letters](https://ieee-sensors.org/sensors-letters/).
  - 2020-11: [Dhananjay][dhananjay] wins **Best Presentation (Second Prize)** at [ENSsys'20](http://www.enssys.org/2020/) – congratulations!
- - 2020-11: I gave the [keynote](/talks.html#2020) at [ENSsys'20](http://www.ensys.org/2020/).
+ - 2020-11: I gave the [keynote](/talks.html#2020) at [ENSsys'20](http://www.enssys.org/2020/).
  - 2020-10: [Dhananjay's][dhananjay] paper describing [&ldquo;reliable&rdquo; energy harvesting](/pubs/jagtap2020reliable.pdf) accepted at [ENSsys'20](http://www.enssys.org/2020/).
  - 2020-06: Andreas's paper describing our [social interaction tracking platform (SociTrack)](/pubs/biri2020socitrack.pdf) accepted at [MobiCom'20](https://sigmobile.org/mobicom/2020/).
+
+</details>
 
 <!-- TODO: this would be cool if it pulled top N
 #### Recent Publications
@@ -121,11 +128,41 @@ A [history of my teaching prior to joining UCSD](/teaching.html) is also availab
 
 #### <a name="service"></a>Service
 
- - 2022: [MobiCom'22](https://www.sigmobile.org/mobicom/2022/) TPC Member (Summer &amp; Winter &ndash; **Outstanding PC Member Award**), [IPSN'22](https://ipsn.acm.org/2022/) TPC Member, [ISCAS'22](https://www.iscas2022.org/) Reviewer, [CPS-IoTBench'22](https://www.iotbench.ethz.ch/cps-iotbench-2022/) Workshop Co-Chair, <del>[ENSsys@ASPLOS'22](http://www.enssys.org/2021/) General Chair</del> <i>Workshop cancelled due to Omicron</i>, [SenSys'22](https://sensys.acm.org/2022/) Workshop/Tutorial Co-Chair
- - 2021: [IPSN'21](https://ipsn.acm.org/2021/) TPC Member, [CPS-IoTBench'21](https://www.iotbench.ethz.ch/cps-iotbench-2021/) Workshop Co-Chair, [ENSsys@SenSys'21](http://www.enssys.org/2021/) General Chair, [DATA'21](https://data-workshop.github.io/DATA2021/) Steering Committee Member
- - 2020: [DATA'20](https://workshopdata.github.io/DATA2020/) Workshop Co-Chair, [ENSsys'20](http://www.enssys.org/2020/) TPC Member, [CPS-IoTBench'20](https://cpsbench20.ethz.ch/) TPC Member
- - 2019: [DATA'19](https://workshopdata.github.io/DATA2019/) Workshop Co-Chair
- - 2018: [DATA'18](https://workshopdata.github.io/DATA2018/) TPC Member
+ - AY 2023-2024:
+     - [MobiCom'23](https://www.sigmobile.org/mobicom/2023/) TPC Member (Summer &amp; Winter)
+ - AY 2022-2023:
+     - [MobiCom'22](https://www.sigmobile.org/mobicom/2022/) TPC Member (Summer &amp; Winter &ndash; **Outstanding PC Member Award**)
+     - [LP-IoT'22](https://sites.google.com/uw.edu/lp-iot-2022/) TPC Member
+     - [SenSys'22](https://sensys.acm.org/2022/) Workshop/Tutorial Co-Chair
+     - [HotMobile'23](http://www.hotmobile.org/2023/) TPC Member
+     - [IPSN'23](https://ipsn.acm.org/2023/) TPC Member
+ - AY 2021-2022:
+     - [ENSsys@SenSys'21](http://www.enssys.org/2021/) General Chair
+     - [DATA'21](https://data-workshop.github.io/DATA2021/) Steering Committee Member
+     - [NDSEG'22](https://ndseg.sysplus.com/) Subject Matter Expert (Reviewer)
+     - <del>[ENSsys@ASPLOS'22](http://www.enssys.org/2021/) General Chair</del> <i>Workshop cancelled due to Omicron</i>
+     - [LP-IoT'21](https://www.witechlab.com/lpiot2021/index.html) TPC Member
+     - [IPSN'22](https://ipsn.acm.org/2022/) TPC Member
+     - [ISCAS'22](https://www.iscas2022.org/) Reviewer
+     - [CPS-IoTBench'22](https://www.iotbench.ethz.ch/cps-iotbench-2022/) Workshop Co-Chair
+
+<details markdown="1">
+<summary>Further back in time...</summary>
+
+ - AY 2020-2021:
+     - [DATA'20](https://workshopdata.github.io/DATA2020/) Workshop Co-Chair
+     - [ENSsys'20](http://www.enssys.org/2020/) TPC Member
+     - [IPSN'21](https://ipsn.acm.org/2021/) TPC Member
+     - [IPSN'21 PhD Forum](https://ipsn.acm.org/2021/phdforum.html?v=22) Panelist, Reviewer
+     - [CPS-IoTBench'21](https://www.iotbench.ethz.ch/cps-iotbench-2021/) Workshop Co-Chair
+ - AY 2019-2020:
+     - [DATA'19](https://workshopdata.github.io/DATA2019/) Workshop Co-Chair
+     - [CPS-IoTBench'20](https://cpsbench20.ethz.ch/) TPC Member
+ - AY 2018-2019:
+     - [DATA'18](https://workshopdata.github.io/DATA2018/) TPC Member
+
+</details>
+
 
 <hr />
 
@@ -211,7 +248,7 @@ Today, these test points receive only infrequent, costly, manual sampling.
 
 <small>
 {
-[Behavior Research Methods'21](/pubs/salo2021tottagmethods.pdf) |
+[Behavior Research Methods'21](/pubs/salo2022tottagmethods.pdf) |
 [MobiCom'20](/pubs/biri2020socitrack.pdf)
 }
 </small>

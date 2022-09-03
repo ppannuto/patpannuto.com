@@ -17,6 +17,11 @@ blockquote{
 }
 blockquote p:last-child { margin-bottom: 0; }
 
+/* Match <p> end style */
+summary {
+	margin-bottom: 16px;
+}
+
 .round {
 	border-radius: 50%;
 	overflow: hidden;

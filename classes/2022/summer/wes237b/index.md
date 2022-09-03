@@ -117,27 +117,54 @@ Please correct me (in the chat if there is one, out loud in class or in Zoom, or
 >  - Office Hours: 7-8pm
 >  - Zoom: https://ucsd.zoom.us/j/96458655520
 
-<!--
- - **Saturday, August 20** &ndash; Fourth Class
-    - Lecture:
-    - Lab:
-    - Assignment:
 
- - **Tuesday, August 23** &ndash; Office Hours
-    - Office Hours: 7-8pm
-    - Zoom: https://ucsd.zoom.us/j/96458655520
- - **Saturday, August 27** &ndash;
-    - Office Hours: 10am-12pm
-    - Zoom: https://ucsd.zoom.us/j/96458655520
- - **Tuesday, August 30** &ndash; Office Hours
-    - Office Hours: 7-8pm
-    - Zoom: https://ucsd.zoom.us/j/96458655520
 
- - **Saturday, September 3** &ndash; Fifth & Final Class
-    - Lecture:
-    - Lab:
-    - Assignment:
--->
+#### **Saturday, August 20** &ndash; Fourth Class
+
+ - Lecture:
+     - `9:00-10:45` SIMD, CUDA, CUDA memory & performance
+         - Slides [pptx](wes237b-su22-04-SIMD_CUDA.pptx)
+     - `10:45-11:00` _Break_
+     - `11:00-11:50` Student Presentation
+         - SIMD Camera ([SCAMP Homepage][simdcam-home]) - [Presentation Slides (pptx)][simdcam-pptx]
+     - `11:50-12:00` _Break / Slack_
+ - Lab: CUDA basics, GPU-accelerated image processing with CUDA
+ - Assignment: Sobel and BMM with CUDA
+     - [Lab 4, Assignment 4](assignment4/)
+
+> ##### Tuesday, August 23 &ndash; Office Hours
+>  - Office Hours: 7-8pm
+>  - Zoom: https://ucsd.zoom.us/j/96458655520
+> ##### Saturday, August 27 &ndash; Office Hours
+>  - Office Hours: 10am-12pm
+>  - Zoom: https://ucsd.zoom.us/j/96458655520
+> ##### Tuesday, August 30 &ndash; Office Hours
+>  - Office Hours: 7-8pm
+>  - Zoom: https://ucsd.zoom.us/j/96458655520
+
+
+#### **Saturday, September 3** &ndash; Fifth & Final Class
+
+ - Lecture:
+     - `9:00-10:45` Parallel & Streaming Programming Patterns, Deep Learning (Lite)
+         - Slides [pptx](wes237b-su22-05-ParallelPatterns_DeepLearning.pptx)
+     - `10:45-11:00` _Break_
+     - `11:00-11:50` Student Presentation
+         - Deep Learning and Inference on the Edge - [Presentation Slides (gdoc)][dl-slides]
+     - `11:50-12:00` _Break / Slack_
+ - Lab: Learning simple circuits
+ - Assignment: Machine learning, how to make it and how to use it
+     - [Lab 5, Assignment 5](assignment5/)
+
+> ##### Tuesday, August 23 &ndash; Office Hours
+>  - Office Hours: 7-8pm
+>  - Zoom: https://ucsd.zoom.us/j/96458655520
+> ##### Saturday, August 27 &ndash; Office Hours
+>  - Office Hours: 10am-12pm
+>  - Zoom: https://ucsd.zoom.us/j/96458655520
+> ##### Tuesday, August 30 &ndash; Office Hours
+>  - Office Hours: 7-8pm
+>  - Zoom: https://ucsd.zoom.us/j/96458655520
 
 
 ---
@@ -152,6 +179,26 @@ Please correct me (in the chat if there is one, out loud in class or in Zoom, or
  - **Assignments : 70%**
     - Assignment 1: 10%
     - Assignments 2 to 5: 15% each
+        - Generally: 5% lab portion, 5% working final code, 5% writeup
+
+<div class="table-responsive">
+<table class="table grade-table">
+  <tr>
+    <th>A+<br /><small>&gt;96.7</small></th>
+    <th>A<br /><small>[93,96.7)</small></th>
+    <th>A-<br /><small>[90,93)</small></th>
+    <th>B+<br /><small>[86.7,90)</small></th>
+    <th>B<br /><small>[83.3,86.7)</small></th>
+    <th>B-<br /><small>[80,83.3)</small></th>
+    <th>C+<br /><small>[76.7,80)</small></th>
+    <th>C<br /><small>[73.3,76.7)</small></th>
+    <th>C-<br /><small>[70,73.3)</small></th>
+    <th>D<br /><small>[60,70)</small></th>
+    <th>F<br /><small>[0,60)</small></th>
+  </tr>
+</table>
+</div>
+<small><em>Range notation [90,93) means 90 is included and 93 is not</em></small>
 
 Assignments are for groups of up-to 2.
 Group presentations are for different groups of 2 — network!
@@ -177,3 +224,6 @@ each occasion; preferably in advance, but we know life happens.)
 [heterocl-home]: https://heterocl.csl.cornell.edu/
 [heterocl-pdf]: https://www.csl.cornell.edu/~zhiruz/pdfs/heterocl-fpga2019.pdf
 [heterocl-pptx]: wes237b-su22-StudentPresentation-HeteroCL.pptx
+[simdcam-home]: https://personalpages.manchester.ac.uk/staff/p.dudek/scamp/default.htm
+[simdcam-pptx]: wes237b-su22-StudentPresentation-SIMDCamera.pptx
+[dl-slides]: https://docs.google.com/presentation/d/1EGagmnl2ZUucVQv7ix5sOLIqqJGB1Z7ewlfndpF4oMk/edit#slide=id.p

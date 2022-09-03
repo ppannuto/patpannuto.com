@@ -81,7 +81,7 @@ static_extensions = [
 		'.css', '.js', '.ico', '.ttf', '.eot', '.svg', '.woff',
 		'.pdf', '.pptx', '.doc', '.docx', '.txt',
 		'.gz', '.tgz', '.otf', '.odp', '.webmanifest', '.xml',
-		'.h', '.c', '.cpp', '.cxx', '.mk', '.ipynb',
+		'.h', '.c', '.cpp', '.cxx', '.mk', '.ipynb', '.py',
 		'.zip', '.webm', '.patch',
 		]
 image_extensions = [
@@ -133,19 +133,19 @@ class DirectoryWalker:
 				else:
 					do_render = False
 
+				# Anything .gitignore'd we can move past immediately
+				try:
+					git('check-ignore', '-q', dirent.name)
+					logger.debug('gitignored: {}'.format(dirent.name))
+					continue
+				except sh.ErrorReturnCode_1:
+					pass
+
 				if dirent.is_dir():
-					if dirent.name == 'nopublish':
-						continue
+					# sanity check the .gitignore bits
+					assert dirent.name != 'nopublish'
 					self.recurse(dirent.name)
 				elif dirent.is_file():
-					# Ignore .gitignore'd stuff
-					try:
-						git('check-ignore', '-q', dirent.name)
-						logger.debug('gitignored: {}'.format(dirent.name))
-						continue
-					except sh.ErrorReturnCode_1:
-						pass
-
 					if do_render:
 						# Maybe: invert for a-zA-Z0-9 ?
 						if dirent.name[0] in ('.', '~', '_'):

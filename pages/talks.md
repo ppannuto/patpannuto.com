@@ -27,7 +27,7 @@ of platform development to see if we can start to identify common trends among
 these platforms and to start a conversation around structuring principles,
 expectations, and capabilities of energy scavenging systems.
 
-[enssys20]: http://www.ensys.org/2020/
+[enssys20]: http://www.enssys.org/2020/
 
 <a href="/talks/2020-11-16-ENSsysKeynote.pptx">[pptx]</a>
 <a href="/talks/2020-11-16-ENSsysKeynote.pdf">[pdf]</a>
