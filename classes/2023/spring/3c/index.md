@@ -29,10 +29,33 @@ Office hours TBA.
 
 At the end of this class, students should be able to:
 
-1. Critical analyze positions and policies on matters which intersect identity, cultural context, and computing.
-2. Establish connections between historical antecedents and contemporary concerns.
+1. Demonstrate proficiency in critical lens analysis.
+2. Exhibit contextual competency with these lenses:
+    - **TODO:** This is brainstorm list; to be pared down, refined, etc
+    - Design Justice
+    - Queer Theory
+    - Intersectionality
+    - Racial Capitalism
+    - Surveillance Capitalism
+    - Participatory Design (workers have say in what they build -- labor/union lens?)
+    - Economic class
+    - Feminist
+    - Pedagogy of the Oppressed
+    - Cultural Values
+    - Pluriversal
+    - Disability / ableism (vis/invis?)
+    - Just Transitions
+    - Post-Colonial Computing
+2. Establish connections between historical policies, political decisions, and social relationships and how these shape the design of technology and systems today.
+3. Critically analyze positions and policies on matters which intersect identity, cultural context, and computing.
+4. Design and develop achievable action plans that reduce immediate harm and promote structural change in real-world contexts.
+
+
+<!--
 3. Succinctly explain core tenets of identity and culture in the computing context to both technical and non-technical audiences.
-4. Synthesize values and intentions into actualized technical artifacts.
+
+values and intentions into actualized technical artifacts.
+-->
 
 
 ---
