@@ -88,19 +88,46 @@ to get things done.
 
 At the end of this class, students should be able to:
 
-1. Understand tradeoffs in wireless protocol design and how those tradeoffs influence suitability for application goals.
-1. Make or support communication technology design decisions with respect to application requirements, device capabilities, and infrastructure requirements.
-1. Explain the basic operating principles and performance of:
+<tt markdown="1">
+
+> https://www.celt.iastate.edu/instructional-strategies/effective-teaching-practices/revised-blooms-taxonomy/
+>
+> |               |  K1: | Factual     |  K2: | Conceptual     | K3: | Procedural     | K4: | Metacognitive
+> |---------------|------|-------------|------|----------------|-----|----------------|-----|--------------
+> |B1: Remember   |      | List        |      | Recognize      |     | Recall         |     | Identify
+> |B2: Understand |      | Summarize   |      | Classify       |     | Clarify        |     | Predict
+> |B3: Apply      |      | Respond     |      | Provide        |     | Carry Out      |     | Use
+> |B4: Analyze    |      | Select      |      | Differentiate  |     | Integrate      |     | Deconstruct
+> |B5: Evaluate   |      | Check       |      | Determine      |     | Judge          |     | Reflect
+> |B6: Create     |      | Generate    |      | Assemble       |     | Design         |     | Create
+
+</tt>
+
+1. **B4: K2,K4** Analyze a new wireless technology or protocol to extract key technical features and limitations.
+    - Specifically: infrastructure requirements, energy use, processing and timing demands, latency, throughput, goodput, and how network scale and density affects each of these factors.
+1. **B4-5: K1,K2** Assess how physical-world constraints of an application scenario map to the capabilities of communication technologies.
+    - Specifically: deployment area, device density, energy availability, spectrum access, and form factor.
+1. **B2: K1** Explain the basic operating principles and performance most-used technologies in mobile computing:
     - Bluetooth Low Energy
     - 802.15.4 and Thread
     - WiFi
     - LoRa
     - Basic Cellular Data
+1. **B2-3: K1** Explain what "{B,P,L,W}AN", "star", "mesh", and "cell" mean in wireless networking, and how topology influences system design and performance.
+1. **B3? 'unseen'?: K3** Demonstrate basic self-sufficiency in the compilation, loading, and testing of previously-unseen software on previously-unseen hardware platforms.
+1. **B6: K3** Design a system architecture and estimate its performance given an application scenario.
+
+<!-- OLD
+1. Make or support communication technology design decisions with respect to application requirements, device capabilities, and infrastructure requirements.
 1. Explain what "{B,P,L,W}AN", "star", "mesh", and "cell" mean in wireless networking, and how topology influences system design and performance.
 1. Estimate performance—in throughput, latency, energy use, and reliability—given technical information on a wireless technology.
 1. Demonstrate basic self-sufficiency in the compilation, loading, and testing of previously-unseen software on previously-unseen hardware platforms.
     - TODO: Course design Q: How to satisfy this goal with group labs? Maybe pre-lab / homework can help here?
 
+
+1. Understand tradeoffs in wireless protocol design and how those tradeoffs influence suitability for application goals.
+1. Extract and distill application requirements and deployment constraints that inform the design and selection of wireless communication.
+-->
 
 ---
 
