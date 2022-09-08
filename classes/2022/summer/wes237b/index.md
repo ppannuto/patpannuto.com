@@ -143,12 +143,28 @@ Please correct me (in the chat if there is one, out loud in class or in Zoom, or
 >  - Zoom: https://ucsd.zoom.us/j/96458655520
 
 
-<!--
- - **Saturday, September 3** &ndash; Fifth & Final Class
-    - Lecture:
-    - Lab:
-    - Assignment:
--->
+#### **Saturday, September 3** &ndash; Fifth & Final Class
+
+ - Lecture:
+     - `9:00-10:45` Parallel & Streaming Programming Patterns, Deep Learning (Lite)
+         - Slides [pptx](wes237b-su22-05-ParallelPatterns_DeepLearning.pptx)
+     - `10:45-11:00` _Break_
+     - `11:00-11:50` Student Presentation
+         - Deep Learning and Inference on the Edge - Presentation Slides [(gdoc)][dl-slides] [(pdf)][dl-pdf]
+     - `11:50-12:00` _Break / Slack_
+ - Lab: Learning simple circuits
+ - Assignment: Machine learning, how to make it and how to use it
+     - [Lab 5, Assignment 5](assignment5/)
+
+> ##### Tuesday, August 23 &ndash; Office Hours
+>  - Office Hours: 7-8pm
+>  - Zoom: https://ucsd.zoom.us/j/96458655520
+> ##### Saturday, August 27 &ndash; Office Hours
+>  - Office Hours: 10am-12pm
+>  - Zoom: https://ucsd.zoom.us/j/96458655520
+> ##### Tuesday, August 30 &ndash; Office Hours
+>  - Office Hours: 7-8pm
+>  - Zoom: https://ucsd.zoom.us/j/96458655520
 
 
 ---
@@ -210,3 +226,5 @@ each occasion; preferably in advance, but we know life happens.)
 [heterocl-pptx]: wes237b-su22-StudentPresentation-HeteroCL.pptx
 [simdcam-home]: https://personalpages.manchester.ac.uk/staff/p.dudek/scamp/default.htm
 [simdcam-pptx]: wes237b-su22-StudentPresentation-SIMDCamera.pptx
+[dl-slides]: https://docs.google.com/presentation/d/1EGagmnl2ZUucVQv7ix5sOLIqqJGB1Z7ewlfndpF4oMk/edit#slide=id.p
+[dl-pdf]: wes237b-su22-StudentPresentation-DeepLearningAndInferenceOnEdge.pdf
