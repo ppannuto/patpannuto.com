@@ -76,6 +76,41 @@ W'22 Schedule as reference:
 </pre>
 -->
 
+<script>
+/* There is an 11-year-old (!) bug in Webkit where they don't support
+ * vertical languages in tables. That's some remarkable hostility to
+ * i18n support right there. Just hide the topic column on webkit :/
+ *
+ * https://bugs.webkit.org/show_bug.cgi?id=65917
+ */
+
+document.addEventListener("DOMContentLoaded", function(e) {
+  // Get the user-agent string
+  let userAgentString = navigator.userAgent;
+  // Detect Chrome
+  let chromeAgent = userAgentString.indexOf("Chrome") > -1;
+  // Detect Safari
+  let safariAgent = userAgentString.indexOf("Safari") > -1;
+  // Discard Safari since it also matches Chrome
+  if ((chromeAgent) && (safariAgent)) safariAgent = false;
+
+  if (safariAgent) {
+    console.log("Someone tell Apple to fix i18n bugs");
+    let subjs = document.getElementsByClassName("class-subject");
+    let subjsStatic = Array.prototype.slice.call(subjs, 0);
+    for (let subj of subjsStatic) {
+      //subj.style.visibility = "hidden";
+      subj.remove();
+    }
+    let weeks = document.getElementsByClassName("class-week");
+    let weeksStatic = Array.prototype.slice.call(weeks, 0);
+    for (let week of weeksStatic) {
+      //week.style.visibility = "hidden";
+      week.remove();
+    }
+  }
+});
+</script>
 
 <style>
 td.class-week {
@@ -129,8 +164,8 @@ td.class-subject {
 <table class="source-tableeditor table table-hover">
 <tbody>
 <tr>
-<th>&nbsp;&nbsp;<!--Subject--></th>
-<th>&nbsp;&nbsp;<!--Week--></th>
+<th class="class-subject">&nbsp;&nbsp;<!--Subject--></th>
+<th class="class-week">&nbsp;&nbsp;<!--Week--></th>
 <th colspan="3">When</th>
 <th>Where</th>
 <th>What</th>
