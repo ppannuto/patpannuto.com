@@ -451,9 +451,11 @@ about.
 Hall, is a hub for student engagement, academic enrichment,
 personal/professional development, leadership, community involvement, and a
 respectful learning environment for all.  The Center offers a variety of
-programs, listed in the IDEA Center Facebook page at
-http://www.facebook.com/ucsdidea/ and the Center web site at
-http://idea.ucsd.edu/.  The IDEA Center programs support both undergraduate
+programs, listed in the
+[IDEA Center Facebook page](https://www.facebook.com/ucsdidea/)
+and
+[the Center web site](https://jacobsschool.ucsd.edu/idea/).
+The IDEA Center programs support both undergraduate
 students and graduate students.
 
 ### Diversity and Inclusion
