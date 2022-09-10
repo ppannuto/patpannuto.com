@@ -1,15 +1,13 @@
-<div align="center">
+<div style="text-align:center">
 
 <h1>Wireless and Communication in the Internet of Things</h1>
 
-<tt>
-<h2>
+<h2 style="font-family:monospace">
 <a href="index.html">Home</a> |
 Syllabus |
 <a href="agenda.html">Agenda</a> |
 <a href="labs.html">Labs</a>
 </h2>
-</tt>
 
 </div>
 

@@ -1,15 +1,13 @@
-<div align="center">
+<div style="text-align:center">
 
 <h1>Wireless and Communication in the Internet of Things</h1>
 
-<tt>
-<h2>
+<h2 style="font-family:monospace">
 <a href="index.html">Home</a> |
 <a href="syllabus.html">Syllabus</a> |
 Agenda |
 <a href="labs.html">Labs</a>
 </h2>
-</tt>
 
 </div>
 
@@ -152,6 +150,7 @@ td.class-subject {
 <li>Course overview</li>
 <li>Introduction the IoT</li>
 <li>Introduction to wireless communication</li>
+</ul>
 </td>
 </tr>
 <tr>
@@ -198,6 +197,7 @@ Still Active:
 <li>PHY layer</li>
 <li>How PHY impacts Data impacts Network...</li>
 <li>Medium Access Control</li>
+</ul>
 </tr>
 <tr>
 <td>F</td>

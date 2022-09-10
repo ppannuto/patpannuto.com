@@ -1,15 +1,13 @@
-<div align="center">
+<div style="text-align:center">
 
 <h1>Wireless and Communication in the Internet of Things</h1>
 
-<tt>
-<h2>
+<h2 style="font-family:monospace">
 Home |
 <a href="syllabus.html">Syllabus</a> |
 <a href="agenda.html">Agenda</a> |
 <a href="labs.html">Labs</a> |
 </h2>
-</tt>
 
 </div>
 
@@ -38,7 +36,7 @@ Home |
 </div>
 </p>
 
-<div align="center" markdown="1">
+<div style="text-align:center" markdown="1">
 ## CSE190(C00) / CSE291(C00) - Fall 2022
 </div>
 
