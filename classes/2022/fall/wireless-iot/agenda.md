@@ -230,7 +230,7 @@ Still Active:
 <strong>Wireless basics</strong>
 <ul>
 <li>PHY layer</li>
-<li>How PHY impacts Data impacts Network...</li>
+<li>How PHY impacts Data impacts Network impacts...</li>
 <li>Medium Access Control</li>
 </ul>
 </tr>
@@ -300,7 +300,16 @@ Still Active:
 <span class="due">Due: </span>Pre-Lab&nbsp;2
 </td>
 <td class="lab">3219</td>
-<td class="lab">LAB: BLE Adv's</td>
+<td class="lab">
+<strong>Lab: BLE Advertisements</strong><br />
+<em>Outcomes&ndash;</em> After this lab you should understand:
+<ul>
+<li>How to generate and control contents of advertisement packets?</li>
+<li>How to deconstruct a captured advertisement packet?</li>
+<li>How the capabilities of different BLE sniffers vary, and the significance of those limitations?</li>
+<li>How much BLE traffic is in your environment, and how to figure out what (some of it at least..) is?</li>
+</ul>
+</td>
 </tr>
 <tr>
 <td rowspan="3" class="class-week odd">Week&nbsp;3</td>
@@ -322,7 +331,15 @@ Still Active:
 <td>Oct 14 <span class="visuallyhidden">!P</span></td>
 <td><strong>Assigned:</strong> Post-Lab&nbsp;2</td>
 <td class="lab">3219</td>
-<td class="lab">LAB: BLE Conn's</td>
+<td class="lab">
+<strong>Lab: BLE Connections</strong><br />
+<em>Outcomes&ndash;</em> After this lab you should understand:
+<ul>
+<li>What are GATT Profiles and how do they &ldquo;define&rdquo; devices?</li>
+<li>What does pairing actually do, and what differs between various paring modes?</li>
+<li>Why is sniffing connections harder than advertisements?</li>
+</ul>
+</td>
 </tr>
 <tr>
 <td rowspan="6" class="class-subject">802.15.4</td>
