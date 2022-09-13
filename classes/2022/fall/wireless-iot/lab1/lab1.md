@@ -12,6 +12,8 @@ This should hopefully be a fun bit of poking around with what your computer is a
 
 ## PreLab
 
+First, make a copy of the [PreLab Report Document][prelab1] to fill in as you work.
+
 ### A. Install Wireshark
 
 We will use Wireshark, [available here](https://www.wireshark.org/).
