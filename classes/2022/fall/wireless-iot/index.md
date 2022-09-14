@@ -122,7 +122,7 @@ At the end of this class, students should be able to:
     - WiFi
     - LoRa
     - Basic Cellular Data
-1. <span class="prep" markdown="1">**B2-3: K1**</span> Explain what "{B,P,L,W}AN", "star", "mesh", and "cell" mean in wireless networking, and how topology influences system design and performance.
+1. <span class="prep" markdown="1">**B2-3: K1**</span> Explain what "{B,P,L,W,R}AN", "star", "mesh", and "cell" mean in wireless networking, and how topology influences system design and performance.
 1. <span class="prep" markdown="1">**B3? 'unseen'?: K3**</span> Demonstrate basic self-sufficiency in the compilation, loading, and testing of previously-unseen software on previously-unseen hardware platforms.
 1. <span class="prep" markdown="1">**B6: K3**</span> Design a system architecture and estimate its performance given an application scenario.
 
