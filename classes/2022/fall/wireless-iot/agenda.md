@@ -549,7 +549,7 @@ Still Active:
 <td>W</td>
 <td>Nov 23</td>
 <td>
-<strong>Assigned: </strong>HW-Cell
+<strong>Assigned: </strong>Homework&nbsp;2
 <br/>
 <br/>
 <span class="in-flight">
@@ -570,7 +570,7 @@ Still Active:
 Still Active:
 <ul>
 <li>Post-Lab&nbsp;5</li>
-<li>HW-Cell</li>
+<li>Homework&nbsp;2</li>
 </ul>
 </span>
 </td>
@@ -587,7 +587,7 @@ Still Active:
 <span class="in-flight">
 Still Active:
 <ul>
-<li>HW-Cell</li>
+<li>Homework&nbsp;2</li>
 </ul>
 </span>
 </td>
@@ -598,7 +598,10 @@ Still Active:
 <td>W</td>
 <td>Nov 30</td>
 <td>
-<span class="due">Due: </span>HW-Cell
+<span class="due">Due: </span>Homework&nbsp;2
+<br/>
+<br/>
+<strong>Assigned: </strong>Final Design Project
 </td>
 <td>2154</td>
 <td>Cell Wrap-Up</td>
@@ -608,7 +611,12 @@ Still Active:
 <td>F</td>
 <td>Dec 1</td>
 <td>
-<strong>Assigned: </strong>Final Design Project
+<span class="in-flight">
+Still Active:
+<ul>
+<li>Final Design Project</li>
+</ul>
+</span>
 </td>
 <td>2154</td>
 <td>Misc: werider RF, non-RF stuff</td>
@@ -616,7 +624,36 @@ Still Active:
 <tr>
 <td class="class-subject">Final</td>
 <td class="class-week odd">Week&nbsp;11</td>
-<td colspan="5"><i>Final Exam Week – Details TBA</i></td>
+<td colspan="2"><i>Final Exam Week</i></td>
+<td colspan="3">
+<span class="due">Due: </span>Final Design Project
+<ul>
+<li>Preferred Deadline: 14:30 US/Pacific (2:30PM) on Monday, Dec 5</li>
+<li><span class="due">Hard Deadline:</span> <strong>20:00 US/Pacific (8PM) on Wednesday, Dec 7</strong></li>
+</ul>
+
+<p>
+The registrar has assigned this course a final exam period of Monday, December 5 from 11:30-14:30.
+We will not have an in-person final, rather we encourage you to use this time to complete your
+final design project.
+</p>
+
+<p>
+As we recognize that everyone has a unique and different exam schedule, we
+will allow you through Wednesday evening to submit with no late penalty.
+</p>
+
+<p>
+These deadlines aim to balance flexibility for you and sufficient time to grade
+for us.
+</p>
+
+<p>
+No late submissions will be accepted after the Hard Deadline.
+</p>
+<!-- FI 	12/05/2022 	M 	11:30a-2:29p 	TBA 	TBA 	-->
+<br/><br/>
+</td>
 </tr>
 </tbody>
 </table>

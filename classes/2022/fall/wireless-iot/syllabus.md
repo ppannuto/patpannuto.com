@@ -73,8 +73,7 @@ physical (in-memory) representation of data structures,
 code compilation,
 build systems,
 version control,
-debuggers,
-and **TODO: More?**.
+and debuggers.
 
 `CSE 123: Computer Networks` is not a prerequisite of this course. However, if
 you are able to take 123 in advance of this course or concurrently, it is
@@ -83,12 +82,17 @@ helpful.
 
 ### Textbook & Other Resources
 
-**TODO:**
+There is no textbook for this course.
 
-No textbook Req'd
+For background and more depth in embedded system design and operation, we recommend
+[Lee & Seshia's Introduction to Embedded Systems](https://ptolemy.berkeley.edu/books/leeseshia/).
 
-List of useful resources? (Seshia-Lee book? Tock book?)
+For debugging and lab support,
+[stack overflow](https://stackoverflow.com/),
+[electronics stack exchange](https://electronics.stackexchange.com/),
+and vendor forums (e.g. [Nordic DevZone](https://devzone.nordicsemi.com/)) are good resources.
 
+For specific topics, additional resources are linked in the course slides.
 
 
 ### Schedule
@@ -123,7 +127,7 @@ Activities, assignments, and grading are designed to help with this.
 
 _You get out of class what you put into it._
 
-#### 10%: Minute-Quizzes
+#### 5%: Minute-Quizzes
 
 Lecture will begin with a "minute-quiz."
 These will be (very) short and will cover material from the prior lecture, or possibly pre-lab, lab, post-lab, homework or other assignment.
@@ -131,30 +135,13 @@ You should not need to study or worry about these – if you were there and payi
 
 Correct quizzes earn 1%/ea, incorrect quizzes earn 0.5%/ea, and missing quizzes are 0%.
 Excluding the first day of class, and considering holidays, there are **19** lectures.
-Anything earned over 10% counts as half.
-E.g., someone who answers all 19 correctly will score 14.5% in this section.
-This creates a natural, built-in makeup policy that allows you to miss up to nine lectures without penalty.
+Anything earned over 5% counts as half.
+E.g., someone who answers all 19 correctly will earn 12% in this section.
+
+This creates a natural, built-in makeup policy that allows you to miss _many_ quizzes/questions without penalty.
 For this reason, there is no makeup opportunity for missed quizzes.
 
 Quizzes are released at 13:00 and collected at 13:02. No late quizzes are accepted.
-
-
-#### 10%: Homework
-
- - Maybe 2 hw's at 5% ea?
-    - cellular data worksheets?
-
-
-> ##### Homework Late Policy
->
-> _Homework ever is better than homework never._
->
-> The goal of homework is to help you to understand better by working through problems on your own.
-> To that end, we will allow for late submission of homework at any point until end of business on the last regular instruction day of the term (17:00, US/Pacific, December 2nd).
-> Late homework will receive 50% of earned points.
-> Late homework is not eligible for regrades and will be graded and returned at instructor convenience.
-> Late homework should take care to add extra details showing how you, personally worked through problems and that your work is your own.
-> Late homework that is "just answers" or otherwise does not clearly show your own work will receive no credit.
 
 
 #### 55%: Labs
@@ -164,26 +151,7 @@ Labs are where you will apply the concepts learned in lecture.
 There are five total labs in this course.
 The first lab is one session in week 1, while the remaining labs all have two in-class lab days.
 
-##### Pre-Labs
-Pre-labs are absolutely essential to your success during the lab session.
-You *must* have completed your pre-lab *before* the start of the lab session to make good use of the lab time.
-
-For this reason, your pre-labs are due by the start of lab.
-There are no exceptions, and there is no late policy here.
-If you have not completed the pre-lab by the start of the lab session you will receive no credit for that pre-lab
-(even though you will probably have to do the pre-lab work, during lab..., before you can actually start on the lab).
-
-
-##### Post-Labs and Lab Reports
-You will need to complete a lab report for each of the labs.
-Some labs include post-lab analysis questions or extra experimentation you may have to perform.
-
-Lab reports are generally due one week after the final in-class session for that lab.
-**TODO: Late penalty / procedure?**
-
-##### Summary of Labs
-
-<tt markdown="1">
+<tt markdown="1" style="font-size: smaller;">
 
  - (&nbsp;5%): Lab 1 – Wireshark
  - (10%): Lab 2 – Bluetooth
@@ -193,13 +161,56 @@ Lab reports are generally due one week after the final in-class session for that
 
 </tt>
 
+##### Pre-Labs
+Pre-labs are absolutely essential to your success during the lab session.
+You *must* have completed your pre-lab *before* the start of the lab session to make good use of the lab time.
+
+For this reason, your pre-labs are due by the start of lab.
+There are no exceptions, and there is no late/makeup policy for pre-labs.
+If you have not completed the pre-lab by the start of the lab session you will receive no credit for that pre-lab
+(even though you will probably have to do the pre-lab work, during lab..., before you can actually start on the lab).
+
+
+##### Post-Lab Reports
+You will need to complete a post-lab report for each of the labs.
+
+The report is a mixture of documentation of your in-lab activity as well as
+post-lab analysis questions or extra experimentation you may have to perform.
+
+Lab reports are generally due at **20:00 US/Pacific (8 PM)** one week after the
+final in-class session for that lab.
+
+Late reports will lose 10% every 24 hours. After 10 days, a missing report
+will automatically recieve a zero.
+
+#### 10%: Homework
+There are only two homework assignments in this course, one at the beginning
+of the term (before the first lab) and one at the end of the term (after the
+last lab).
+
+Generally, lab reports include homework-like questions and activites. These
+homeworks cover topics that do not have associated labs.
+
+<tt markdown="1" style="font-size: smaller;">
+
+ - (&nbsp;5%): HW1 – Background & Refresher
+ - (10%): HW2 – Cell
+
+</tt>
+
+Late homeworks will lose 10% every 24 hours. After 10 days, a missing homework
+will automatically recieve a zero.
+
 
 #### 20% Final Exam (Design Assignment)
 
-Take-home 'final', it's an end-to-end pencil-and-paper design task.
-Not so far removed from the homeworks, but an exercise of:
+<!-- FI 	12/05/2022 	M 	11:30a-2:29p 	TBA 	TBA 	-->
+
+Take-home 'final', this is an end-to-end pencil-and-paper design task.
+
+Loosely, this will be an exercise of:
 "You're an engineer at startup X, who's building Y, with requirements
-1,2,3,4. What do you design and why."
+1,2,3,4. What do you design and **why**."
 
 
 #### Final Grades
@@ -245,34 +256,26 @@ I use Excel to compute actual final grades.</small>
 <tr class="final-grade-row">
 <th>Minute Quizzes</th>
 <td><input type="number" value="19" /></td>
-<td>10</td>
+<td>5</td>
 <td></td>
 <td rowspan="2" id="final-grade-percent"></td>
 </tr>
 <tr class="final-grade-row">
 <th>Homework</th>
 <td><input type="number" value="15" /></td>
-<td>10</td>
+<td>15</td>
 <td></td>
 </tr>
-<!--
-<tr class="final-grade-row">
-<th>Pre-Labs</th>
-<td><input type="number" value="24" /></td>
-<td>20</td>
-<td></td>
-</tr>
--->
 <tr class="final-grade-row">
 <th>Labs</th>
-<td><input type="number" value="55" /></td>
+<td><input type="number" value="60" /></td>
 <td>55</td>
 <td></td>
 <td rowspan="2" id="final-grade-letter"></td>
 </tr>
 <tr class="final-grade-row">
 <th>Final Project</th>
-<td><input type="number" value="20" /></td>
+<td><input type="number" value="25" /></td>
 <td>20</td>
 <td></td>
 </tr>
