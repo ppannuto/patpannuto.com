@@ -95,6 +95,7 @@ to get things done.
 
 At the end of this class, students should be able to:
 
+<div class="prep" markdown="1">
 <tt markdown="1">
 
 > https://www.celt.iastate.edu/instructional-strategies/effective-teaching-practices/revised-blooms-taxonomy/
@@ -109,20 +110,21 @@ At the end of this class, students should be able to:
 > |B6: Create     |      | Generate    |      | Assemble       |     | Design         |     | Create
 
 </tt>
+</div>
 
-1. **B4: K2,K4** Analyze a new wireless technology or protocol to extract key technical features and limitations.
+1. <span class="prep" markdown="1">**B4: K2,K4**</span> Analyze a new wireless technology or protocol to extract key technical features and limitations.
     - Specifically: infrastructure requirements, energy use, processing and timing demands, latency, throughput, goodput, and how network scale and density affects each of these factors.
-1. **B4-5: K1,K2** Assess how physical-world constraints of an application scenario map to the capabilities of communication technologies.
+1. <span class="prep" markdown="1">**B4-5: K1,K2**</span> Assess how physical-world constraints of an application scenario map to the capabilities of communication technologies.
     - Specifically: deployment area, device density, energy availability, spectrum access, and form factor.
-1. **B2: K1** Explain the basic operating principles and performance most-used technologies in mobile computing:
+1. <span class="prep" markdown="1">**B2: K1**</span> Explain the basic operating principles and performance most-used technologies in mobile computing:
     - Bluetooth Low Energy
     - 802.15.4 and Thread
     - WiFi
     - LoRa
     - Basic Cellular Data
-1. **B2-3: K1** Explain what "{B,P,L,W}AN", "star", "mesh", and "cell" mean in wireless networking, and how topology influences system design and performance.
-1. **B3? 'unseen'?: K3** Demonstrate basic self-sufficiency in the compilation, loading, and testing of previously-unseen software on previously-unseen hardware platforms.
-1. **B6: K3** Design a system architecture and estimate its performance given an application scenario.
+1. <span class="prep" markdown="1">**B2-3: K1**</span> Explain what "{B,P,L,W}AN", "star", "mesh", and "cell" mean in wireless networking, and how topology influences system design and performance.
+1. <span class="prep" markdown="1">**B3? 'unseen'?: K3**</span> Demonstrate basic self-sufficiency in the compilation, loading, and testing of previously-unseen software on previously-unseen hardware platforms.
+1. <span class="prep" markdown="1">**B6: K3**</span> Design a system architecture and estimate its performance given an application scenario.
 
 <!-- OLD
 1. Make or support communication technology design decisions with respect to application requirements, device capabilities, and infrastructure requirements.

@@ -32,6 +32,11 @@ img.thumbnail {
 	border-style: solid;
 }
 
+/* Have a non-comment way to keep stuff around */
+.prep {
+	display: none;
+}
+
 .final-grade-table {
 	border-collapse: initial;
 	padding: 10px;
