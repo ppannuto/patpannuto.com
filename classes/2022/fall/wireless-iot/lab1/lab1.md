@@ -97,7 +97,7 @@ Don't try to do these during the lab session or you will fall behind.
 ### B: [10 min] Insecure Chat
 
 For this section, we will use the [netcat (`nc`) utility](https://en.wikipedia.org/wiki/Netcat).
-This is probably already built-in to your machine.
+If using MacOS or Linux, this is probably already built-in to your machine. If using Windows, you can get the `ncat` tool by installing the [nmap package](https://nmap.org/download.html#windows). 
 
 1. Ensure all of your group's machines are on the same wireless network.
 
