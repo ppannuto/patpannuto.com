@@ -127,7 +127,7 @@ Activities, assignments, and grading are designed to help with this.
 
 _You get out of class what you put into it._
 
-#### 5%: Minute-Quizzes
+#### 10%: Minute-Quizzes
 
 Lecture will begin with a "minute-quiz."
 These will be (very) short and will cover material from the prior lecture, or possibly pre-lab, lab, post-lab, homework or other assignment.
@@ -135,18 +135,18 @@ You should not need to study or worry about these – if you were there and payi
 
 Correct quizzes earn 1%/ea, incorrect quizzes earn 0.5%/ea, and missing quizzes are 0%.
 Excluding the first day of class, and considering holidays, there are 19 lectures.
-Anything earned over 5% counts as half.
+Anything earned over 10% counts as half.
 
 This creates a natural, built-in makeup policy that allows you to miss _many_ quizzes/questions without penalty.
 For this reason, there is no makeup opportunity for missed quizzes.
 
 Depending on the needs of the day, some lectures may skip the minute quiz.
-There will be a minimum of 10 minute quizzes during the quarter.
+There will be a minimum of 12 minute quizzes during the quarter.
 
 Quizzes are released at 13:00 and collected at 13:02. No late quizzes are accepted.
 
 
-#### 55%: Labs
+#### 45%: Labs
 Lab activities make up the bulk of the work for this course.
 Labs are where you will apply the concepts learned in lecture.
 
@@ -185,7 +185,7 @@ final in-class session for that lab.
 Late reports will lose 10% every 24 hours. After 10 days, a missing report
 will automatically recieve a zero.
 
-#### 10%: Homework
+#### 15%: Homework
 There are only two homework assignments in this course, one at the beginning
 of the term (before the first lab) and one at the end of the term (after the
 last lab).
@@ -204,7 +204,7 @@ Late homeworks will lose 10% every 24 hours. After 10 days, a missing homework
 will automatically recieve a zero.
 
 
-#### 20% Final Exam (Design Assignment)
+#### 30% Final Exam (Design Assignment)
 
 <!-- FI 	12/05/2022 	M 	11:30a-2:29p 	TBA 	TBA 	-->
 
@@ -241,6 +241,8 @@ This class will not be curved.
 <small><em>Range notation [90,93) means 90 is included and 93 is not</em></small>
 
 
+<!--
+Hide this for now; really needs to break it out per-assignment
 
 <table class="final-grade-table">
 <caption>
@@ -257,8 +259,8 @@ I use Excel to compute actual final grades.</small>
 </tr>
 <tr class="final-grade-row">
 <th>Minute Quizzes</th>
-<td><input type="number" value="19" /></td>
-<td>5</td>
+<td><input type="number" value="12" /></td>
+<td>10</td>
 <td></td>
 <td rowspan="2" id="final-grade-percent"></td>
 </tr>
@@ -270,15 +272,15 @@ I use Excel to compute actual final grades.</small>
 </tr>
 <tr class="final-grade-row">
 <th>Labs</th>
-<td><input type="number" value="60" /></td>
-<td>55</td>
+<td><input type="number" value="50" /></td>
+<td>45</td>
 <td></td>
 <td rowspan="2" id="final-grade-letter"></td>
 </tr>
 <tr class="final-grade-row">
 <th>Final Project</th>
-<td><input type="number" value="25" /></td>
-<td>20</td>
+<td><input type="number" value="35" /></td>
+<td>30</td>
 <td></td>
 </tr>
 </table>
@@ -360,6 +362,7 @@ for (const row of rows) {
 computeGrades();
 </script>
 
+-->
 
 
 ##### CAPEs Incentive
@@ -373,51 +376,19 @@ TA evaluation response rate
 is >=90.0%, we will add (an additional) 1% to everyone's final grade.
 
 
+
+<!-- Hide until decide
+
 ### Academic Integrity
 
 **TODO: Think about what the goal is to say here; group-heavy work...**
 
-Old text from 141:
-<details markdown="1">
-In this course we expect students to adhere to the [UC San Diego Integrity of Scholarship Policy](https://senate.ucsd.edu/Operating-Procedures/Senate-Manual/Appendices/2).
-This means that you will complete your work honestly, with integrity, and support an environment of integrity within the class.
-
-Cheating WILL be taken seriously.
-It is not fair to honest students to take cheating lightly, nor is it fair to the cheater to let them go on thinking that is a reasonable alternative in life.
-
-The following is not considered cheating:
-
- - Discussing homework in groups (with the writeup done separately, later).
- - Discussing additional, unassigned problems (e.g. nearby numbers in the back-of-chapter problem lists) in any way, shape, or form.
-
-The following is:
-
- - Discussing homework with someone who has already completed the problem, or looking at their completed write-up.
- - Using homework solutions from the web, previous versions of the class, or anywhere else.
- - Receiving, providing, or soliciting assistance from another student during a test.
-
-Homework is not intended to be a grade-maker, but to prepare you for the tests, which are the grade-makers.
-Cheating on homework just hurts you.
-If you are choosing between not turning in an assignment, or using somebody's else work, do yourself a favor and just don't turn it in.
-You are facing a permanent mark on your academic record and a certainty of having to explain it to any future employer or school that you apply to.
-
-If you are caught cheating on any assignment, you will first be flagged with an
-`X` course grade, which prevents you from withdrawing from the course for any
-reason.
-Any assignment you are caught cheating on will receive a score of negative 100%.
-This includes exams.
-(Notice: it is not possible to pass the course if you are caught
-cheating on an exam.)
-You will receive no notice that you have been caught cheating until after this course
-is complete.
-You will be referred to the Academic Integrity Office, who will contact you after
-the end of the quarter to discuss next steps.
-There is no flexibility in this policy.
 
 ### Outside Tutoring
 Individuals are not permitted to approach students to offer services of any kind in exchange for pay, including tutoring services.
 This is considered solicitation for business and is strictly prohibited by University policy.
-</details>
+
+-->
 
 ---
 
