@@ -383,7 +383,7 @@ Still Active:
 <span class="due">Due: </span>Pre-Lab&nbsp;3
 </td>
 <td class="lab">3219</td>
-<td class="lab">LAB: 15.4 Raw Conn's?</td>
+<td class="lab">Lab: 15.4 <!--Raw Conn's?--></td>
 </tr>
 <tr>
 <td rowspan="3" class="class-week odd">Week&nbsp;5</td>
@@ -405,7 +405,7 @@ Still Active:
 <td>Oct 28 <span class="visuallyhidden">!P</span></td>
 <td><strong>Assigned: </strong>Post-Lab&nbsp;3</td>
 <td class="lab">3219</td>
-<td class="lab">LAB: 15.4 Thread? CoAP MQTT?</td>
+<td class="lab">Lab: 15.4 <!--Thread? CoAP MQTT?--></td>
 </tr>
 <tr>
 <td rowspan="6" class="class-subject">WiFi</td>
@@ -456,7 +456,7 @@ Still Active:
 </span>
 </td>
 <td>2154</td>
-<td>?? more WiFi ?? Energy Analysis / Performance ??</td>
+<td>Advanced WiFi<!--?? more WiFi ?? Energy Analysis / Performance ??--></td>
 </tr>
 <tr>
 <td rowspan="3" class="class-week odd">Week&nbsp;7</td>
@@ -466,14 +466,14 @@ Still Active:
 <span class="due">Due: </span>Pre-Lab&nbsp;4
 </td>
 <td class="lab">3219</td>
-<td class="lab">LAB: WiFi (??)</td>
+<td class="lab">Lab: WiFi</td>
 </tr>
 <tr>
 <td>W</td>
 <td>Nov 9 <span class="visuallyhidden">?P</span></td>
 <td><strong>Assigned: </strong>Post-Lab&nbsp;4</td>
 <td class="lab">3219</td>
-<td class="lab">LAB: WiFi (??)</td>
+<td class="lab">Lab: WiFi</td>
 </tr>
 <tr>
 <td>F</td>
@@ -532,7 +532,7 @@ Still Active:
 <span class="due">Due: </span>Pre-Lab&nbsp;5
 </td>
 <td class="lab">3219</td>
-<td class="lab">LAB: LoRa (Basic LoRa?)</td>
+<td class="lab">Lab: LoRa <!--(Basic LoRa?)--></td>
 </tr>
 <tr>
 <td rowspan="3" class="class-week odd">Week&nbsp;9</td>
@@ -542,7 +542,7 @@ Still Active:
 <strong>Assigned: </strong>Post-Lab 5
 </td>
 <td class="lab">3219</td>
-<td class="lab">LAB: LoRa (chat app?)</td>
+<td class="lab">Lab: LoRa <!--(chat app?)--></td>
 </tr>
 <tr>
 <td rowspan="4" class="class-subject">Cellular</td>
@@ -560,7 +560,7 @@ Still Active:
 </span>
 </td>
 <td>2154</td>
-<td>Intro cell, 2g [expect low attendance]</td>
+<td>Intro cell, 2g <!--[expect low attendance]--></td>
 </tr>
 <tr>
 <td>F</td>
@@ -601,7 +601,7 @@ Still Active:
 <span class="due">Due: </span>Homework&nbsp;2
 <br/>
 <br/>
-<strong>Assigned: </strong>Final Design Project
+<!--<strong>Assigned: </strong>Final Design Project-->
 </td>
 <td>2154</td>
 <td>Cell Wrap-Up</td>
@@ -611,16 +611,19 @@ Still Active:
 <td>F</td>
 <td>Dec 1</td>
 <td>
+<!--
 <span class="in-flight">
 Still Active:
 <ul>
 <li>Final Design Project</li>
 </ul>
 </span>
+-->
 </td>
 <td>2154</td>
 <td>Misc: werider RF, non-RF stuff</td>
 </tr>
+<!--
 <tr>
 <td class="class-subject">Final</td>
 <td class="class-week odd">Week&nbsp;11</td>
@@ -651,12 +654,14 @@ for us.
 <p>
 No late submissions will be accepted after the Hard Deadline.
 </p>
-<!-- FI 	12/05/2022 	M 	11:30a-2:29p 	TBA 	TBA 	-->
 <br/><br/>
 </td>
 </tr>
+-->
 </tbody>
 </table>
+
+<!-- FI 	12/05/2022 	M 	11:30a-2:29p 	TBA 	TBA 	-->
 
 
 <!--
