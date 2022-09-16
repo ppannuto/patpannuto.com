@@ -42,18 +42,6 @@ _I have active VMs on this machine, can you tell?_
 **PreLab Q3:** What's all this other stuff?
 
 
-
-### C. Have a "unix-like" Environment Available
-
-If you have a Linux-based laptop of a Mac, you do not need to do anything here.
-
-If you have a Windows-based machine, please set up the
-[Windows Subsystem for Linux (WSL)](https://docs.microsoft.com/en-us/windows/wsl/install).
-We recommend Ubuntu, but any environment should suffice.
-
-__There is no deliverable for this section.__
-
-
 ---
 
 
@@ -97,9 +85,10 @@ Don't try to do these during the lab session or you will fall behind.
 ### B: [10 min] Insecure Chat
 
 For this section, we will use the [netcat (`nc`) utility](https://en.wikipedia.org/wiki/Netcat).
-If using MacOS or Linux, this is probably already built-in to your machine. If using Windows, you can get the `ncat` tool by installing the [nmap package](https://nmap.org/download.html#windows). 
+If using MacOS or Linux, this is probably already built-in to your machine and can be run from a terminal window. 
+If using Windows, you can get the `ncat` tool by installing the [nmap package](https://nmap.org/download.html#windows). To run `ncat` you will need to run Command Prompt as adminstrator.
 
-1. Ensure all of your group's machines are on the same wireless network.
+1. Ensure all of your group's machines are on the same wireless network. You can either connect to the test network `WxIoT-XXX` or get public IP addresses for your machine by connecting to UCSD VPN. 
 
 1. One one machine, set up a “listen” (`nc -l [PORT]`) endpoint.
 
