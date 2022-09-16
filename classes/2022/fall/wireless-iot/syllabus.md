@@ -134,12 +134,14 @@ These will be (very) short and will cover material from the prior lecture, or po
 You should not need to study or worry about these – if you were there and paying attention, you'll be prepared.
 
 Correct quizzes earn 1%/ea, incorrect quizzes earn 0.5%/ea, and missing quizzes are 0%.
-Excluding the first day of class, and considering holidays, there are **19** lectures.
+Excluding the first day of class, and considering holidays, there are 19 lectures.
 Anything earned over 5% counts as half.
-E.g., someone who answers all 19 correctly will earn 12% in this section.
 
 This creates a natural, built-in makeup policy that allows you to miss _many_ quizzes/questions without penalty.
 For this reason, there is no makeup opportunity for missed quizzes.
+
+Depending on the needs of the day, some lectures may skip the minute quiz.
+There will be a minimum of 10 minute quizzes during the quarter.
 
 Quizzes are released at 13:00 and collected at 13:02. No late quizzes are accepted.
 
