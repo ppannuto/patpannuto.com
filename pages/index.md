@@ -106,6 +106,7 @@ A complete list is available on my [publications page](/publications.html).
 
 #### <a name="teaching"></a>Teaching
 
+ - `[FA22]` [CSE190/CSE291 – Wireless and Communication in the Internet of Things](/classes/2022/fall/wireless-iot/)
  - `[SU22]` [WES237B: Introductions to Embedded Systems Design](/classes/2022/summer/wes237b/)
  - `[SP22]` [CSE141: Introduction to Computer Architecture](/classes/2022/spring/cse141/)
  - `[WI22]` [CSE291 (13): Wireless and Communication in the Internet of Things](/classes/2022/winter/cse291/)
