@@ -181,6 +181,8 @@ td.class-subject {
 <td>2154</td>
 <td>
 <strong>Welcome &amp; Intro</strong>
+<a href="lectures/FA22_WxIoT-01-intro.pptx">[pptx]</a>
+<a href="lectures/FA22_WxIoT-01-intro.pdf">[pdf]</a>
 <ul>
 <li>Course overview</li>
 <li>Introduction the IoT</li>
