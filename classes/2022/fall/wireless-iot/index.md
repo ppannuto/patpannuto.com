@@ -116,7 +116,7 @@ At the end of this class, students should be able to:
     - Specifically: infrastructure requirements, energy use, processing and timing demands, latency, throughput, goodput, and how network scale and density affects each of these factors.
 1. <span class="prep" markdown="1">**B4-5: K1,K2**</span> Assess how physical-world constraints of an application scenario map to the capabilities of communication technologies.
     - Specifically: deployment area, device density, energy availability, spectrum access, and form factor.
-1. <span class="prep" markdown="1">**B2: K1**</span> Explain the basic operating principles and performance most-used technologies in mobile computing:
+1. <span class="prep" markdown="1">**B2: K1**</span> Explain the basic operating principles and performance of most-used technologies in mobile computing:
     - Bluetooth Low Energy
     - 802.15.4 and Thread
     - WiFi
