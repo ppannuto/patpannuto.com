@@ -208,6 +208,8 @@ Still Active:
 <td>2154</td>
 <td>
 <strong>Networking Basics</strong>
+<a href="lectures/FA22_WxIoT-02-networking.pptx">[pptx]</a>
+<a href="lectures/FA22_WxIoT-02-networking.pdf">[pdf]</a>
 <ul>
 <li>OSI layer model</li>
 <li>IP and routing basics</li>
