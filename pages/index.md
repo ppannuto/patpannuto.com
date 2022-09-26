@@ -605,7 +605,7 @@ through both the [TerraSwarm][terraswarm] program (part of [STARnet][starnet]) a
 [dhananjay]: https://www.linkedin.com/in/dhananjay-jagtap-033a31146
 [wenshan]: https://wsluo.github.io/
 [gabriel]: https://gabriel.marcanobrady.family/
-[jennifer]: https://jennifer-switzer.com/
+[jennifer]: https://www.jenniferswitzer.com/
 [alexy]: https://www.alexlwyen.com/
 [cojoseph]: https://people.ucsc.edu/~cojoseph/
 [nealjack]: https://nealsjackson.com/
