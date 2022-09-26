@@ -177,6 +177,8 @@ td.class-subject {
 <td>Sep 23</td>
 <td>
 <strong>Assigned:</strong> Homework&nbsp;1
+<a href="homework/FA22_WxIoT-HW1.docx">[docx]</a>
+<a href="homework/FA22_WxIoT-HW1.pdf">[pdf]</a>
 </td>
 <td>2154</td>
 <td>
