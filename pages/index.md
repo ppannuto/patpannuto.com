@@ -106,6 +106,7 @@ A complete list is available on my [publications page](/publications.html).
 
 #### <a name="teaching"></a>Teaching
 
+ - `[FA22]` [CSE190/CSE291 – Wireless and Communication in the Internet of Things](/classes/2022/fall/wireless-iot/)
  - `[SU22]` [WES237B: Introductions to Embedded Systems Design](/classes/2022/summer/wes237b/)
  - `[SP22]` [CSE141: Introduction to Computer Architecture](/classes/2022/spring/cse141/)
  - `[WI22]` [CSE291 (13): Wireless and Communication in the Internet of Things](/classes/2022/winter/cse291/)
@@ -604,7 +605,7 @@ through both the [TerraSwarm][terraswarm] program (part of [STARnet][starnet]) a
 [dhananjay]: https://www.linkedin.com/in/dhananjay-jagtap-033a31146
 [wenshan]: https://wsluo.github.io/
 [gabriel]: https://gabriel.marcanobrady.family/
-[jennifer]: https://jennifer-switzer.com/
+[jennifer]: https://www.jenniferswitzer.com/
 [alexy]: https://www.alexlwyen.com/
 [cojoseph]: https://people.ucsc.edu/~cojoseph/
 [nealjack]: https://nealsjackson.com/
