@@ -210,8 +210,8 @@ Still Active:
 <td>2154</td>
 <td>
 <strong>Networking Basics</strong>
-<a href="lectures/FA22_WxIoT-02-networking.pptx">[pptx]</a>
-<a href="lectures/FA22_WxIoT-02-networking.pdf">[pdf]</a>
+<a href="lectures/FA22_WxIoT-02_03-networking_wireless.pptx">[pptx]</a>
+<a href="lectures/FA22_WxIoT-02_03-networking_wireless.pdf">[pdf]</a>
 <ul>
 <li>OSI layer model</li>
 <li>IP and routing basics</li>
@@ -234,6 +234,8 @@ Still Active:
 <td>2154</td>
 <td>
 <strong>Wireless basics</strong>
+<a href="lectures/FA22_WxIoT-02_03-networking_wireless.pptx">[pptx]</a>
+<a href="lectures/FA22_WxIoT-02_03-networking_wireless.pdf">[pdf]</a>
 <ul>
 <li>PHY layer</li>
 <li>How PHY impacts Data impacts Network impacts...</li>
