@@ -118,9 +118,9 @@ If using Windows, you can get the `ncat` tool by installing the [nmap package](h
 Computers discover WiFi routers using a variety of _probe packets_.
 These probe packets contain information such as the name of the WiFi network (SSID), signal strength information, security capabilities, etc.
 
-1. Start a new capture watching the WiFi interface on one of your machines.
+1. Start a new capture watching the WiFi interface on one of your machines. Since Wireshark doesn't have a direct mechanism to change the capture frequency (channel), we will need to do an indirect capture. On your Mac OS, you should be able to find a tool called `Wireless Diagnostics`. Once you open the tool go to `Window -> Sniffer` Here you should see an option to set the `Channel` and `Channel Width`. Choose `Channel` as `5`, leave width unchanged and press `Start`. The tool will run a wireless capture till you press `Stop`. The capture output pcap file can be found in `/var/tmp/`. This pcap file can be directly opened in Wireshark and analyzed. 
 
-1. We are running a test network in lab, named something like `WxIoT-XXX`.
+1. We are running a test network in lab, named something like `WxIoT-fa22`.
    _Without connecting to it_, can you find it?
 
 1. Let this run for about thirty seconds, then stop and save the capture.
