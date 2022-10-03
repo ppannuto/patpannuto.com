@@ -7,7 +7,7 @@ The purpose of today’s lab is to get you to introduce you to our development e
 ### Hardware Tools
 We will be using the [nrf52840DK](https://www.nordicsemi.com/Products/Development-hardware/nrf52840-dk) and the [nrf52840 Dongle](https://www.nordicsemi.com/Products/Development-hardware/nrf52840-dongle) development kits
 
-![nrf52840DK](MFG_NRF52840-DK.jpg) | ![nrf52840 Dongle](nrf52840dongle.png)
+![nrf52840DK](MFG_NRF52840-DK.jpg){ width=60%,height:30px } ![nrf52840 Dongle](nrf52840dongle.png)
 
 ### Software development environment
 
