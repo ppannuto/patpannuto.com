@@ -282,7 +282,24 @@ Still Active:
 </span>
 </td>
 <td>2154</td>
-<td>Bluetooth PHY/MAC, BLE</td>
+<td>
+<strong>Bluetooth/BLE, PHY, MAC</strong>
+<a href="lectures/FA22_WxIoT-04-BLE.pptx">[pptx]</a>
+<a href="lectures/FA22_WxIoT-04-BLE.pdf">[pdf]</a>
+<ul>
+<li>BLE Background</li>
+<li>BLE Layers</li>
+<ul>
+<li>Physical Layer</li>
+<li>Link Layer</li>
+</ul>
+<li>BLE Roles</li>
+<ul>
+<li>Advertising</li>
+<li>Scanning</li>
+</ul>
+</ul>
+</td>
 </tr>
 <tr>
 <td>W</td>
