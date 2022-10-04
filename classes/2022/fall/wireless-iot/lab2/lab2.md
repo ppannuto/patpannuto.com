@@ -76,6 +76,6 @@ Once you are finished, submit your report via Gradescope.
 
 
 [prelab2]: https://docs.google.com/document/d/1GwASNkFf3NoTHxEESIj67JKY-2ZoKp1NOc31knZwKck/
-[postlab2]: https://docs.google.com/document/d/1CePm0s07Tmdg0lKCjiWVnsKrav0tng1kbLPH6wSlebY/
+[postlab2]: https://docs.google.com/document/d/1TYY20_l-u9JvsW6Q8QEX1loZm4BFpQMLVlvIyxBv8t4/
 [wiresharkSaveDirections]: https://www.wireshark.org/docs/wsug_html_chunked/ChIOSaveSection.html
 [politeWifi]: http://web.cs.ucla.edu/~omid/Papers/Hotnets20b.pdf
