@@ -51,7 +51,7 @@ Labs are in 3219&nbsp;CSE.
 [Office hours](syllabus.html#getting-help) are Wednesdays, 15:00-15:50.
 
 [Nishant Bhaskar](https://cseweb.ucsd.edu/~nibhaska/) is the TA.
-Office hours, location TBA.
+[Office hours](syllabus.html#getting-help) are Tuesdays and Thursdays, 9:00-11:00 in CSE 3219.
 
 &rarr; [Click here for the UCSD Embedded Seminar](https://sites.google.com/eng.ucsd.edu/embeddedlunch/) (Thr 12:30-1:30) &ndash; All are welcome!
 
