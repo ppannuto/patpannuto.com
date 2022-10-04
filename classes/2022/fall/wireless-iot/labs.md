@@ -56,7 +56,7 @@ We recommend making a copy of the each prelab and postlab document to do your wo
 - [Lab 1: Playing with your local network](lab1/lab1.html)
     - [PreLab][prelab1] _Due:_ Friday, Sep 30 by start of lab.
     - [PostLab][postlab1] _Due:_ Friday, Oct 7 by 17:00 US/Pacific.
-- Lab 2: BLE
+- [Lab 2: Introduction to development tools and Bluetooth LE](lab2/lab2.html)
     - [PreLab][prelab2] _Due:_ Friday, Oct 7 by start of lab.
     - [PostLab][postlab2] _Due:_ Friday, Oct 14 by 17:00 US/Pacific.
 
