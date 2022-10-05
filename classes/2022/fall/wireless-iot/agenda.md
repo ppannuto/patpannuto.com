@@ -314,7 +314,18 @@ Still Active:
 </span>
 </td>
 <td>2154</td>
-<td>BLE, BLE adv's</td>
+<td>
+<strong>BLE, BLE adv's</strong>
+<a href="lectures/FA22_WxIoT-05-BLE-adv.pptx">[pptx]</a>
+<a href="lectures/FA22_WxIoT-05-BLE-adv.pdf">[pdf]</a>
+<ul>
+<li>Communicating with Advertisements</li>
+<ul>
+<li>Advertisement Use Cases</li>
+<li>Energy Use</li>
+<li>Packet Collisions</li>
+</ul>
+</td>
 </tr>
 <tr>
 <td>F</td>
