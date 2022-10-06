@@ -4,10 +4,28 @@
 
 The purpose of today’s lab is to get you to introduce you to our development environment and tools for the first part of the course, and also get you started with BLE advertisements. 
 
-### Hardware Tools
-We will be using the [nrf52840DK](https://www.nordicsemi.com/Products/Development-hardware/nrf52840-dk) and the [nrf52840 Dongle](https://www.nordicsemi.com/Products/Development-hardware/nrf52840-dongle) development kits
 
+<p>
+<div class="row flex-nowrap no-gutters">
+<div class="col-lg-6 col-xs-12">
+<h3>Hardware Tools</h3>
+We will be using the
+<a href"https://www.nordicsemi.com/Products/Development-hardware/nrf52840-dk">nrf52840DK</a>
+development kits and the
+<a href="https://www.nordicsemi.com/Products/Development-hardware/nrf52840-dongle">nrf52840 Dongle</a>.
+</div>
+<div class="col-lg-3 col-xs-6">
+<img class="img-fluid" src="MFG_NRF52840-DK.jpg" alt="Picture of nrf52840dk" />
+</div>
+<div class="col-lg-3 col-xs-6">
+<img class="img-fluid" src="nrf52840dongle.png" alt="Picture of nrf52840 dongle" />
+</div>
+</div>
+</p>
+
+<!--
 [<img src="MFG_NRF52840-DK.jpg" alt="nrf52840DK" title="nrf52840DK" width="300"/>](MFG_NRF52840-DK.jpg) [<img src="nrf52840dongle.png" alt="nrf52840 Dongle" title="nrf52840 Dongle" width="200"/>](nrf52840dongle.png)
+-->
 <!---![nrf52840DK](MFG_NRF52840-DK.jpg) ![nrf52840 Dongle](nrf52840dongle.png)--->
 
 ### Software development environment
