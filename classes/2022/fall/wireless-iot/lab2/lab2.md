@@ -66,7 +66,7 @@ To create and build an example project, go through the [tutorials](https://nrfco
 In particular, look at the tutorials on `Creating an Application`,`Building an An Application` and `Debugging an Application`.
 There is also a Youtube playlist of [video tutorials](https://youtube.com/playlist?list=PLx\_tBuQ\_KSqEt7NK-H7Lu78lT2OijwIMl); videos 2-5 are helpful.
 
-**PreLab Q1:** Build and flash the `hello world` code example. This can be found in examples under `zephyr/samples/basic/blinky`. Record a small video showing the blinking LED.
+**PreLab Q1:** Build and flash the `blinky` code example. This can be found in examples under `zephyr/samples/basic/blinky`. Record a small video showing the blinking LED.
 
 ---
 
