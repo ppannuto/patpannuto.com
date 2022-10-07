@@ -76,6 +76,24 @@ To be able to actually capture BLE traffic in the vicinity, we will be using the
 This application provides a firmware image to be installed on the nrf52840 dongle, and a custom Wireshark plugin that allows you to view the captured packets on Wireshark.
 To install follow the instructions provided [here](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fug_sniffer_ble%2FUG%2Fsniffer_ble%2Finstalling_sniffer.html)
 
+> **What's `extcap`?**
+>
+> We are setting up wireshark to use an _ext_ternal _cap_ture device (your dongle).
+> That requires a few pieces, which those instructions walk you through.
+>
+>  - First, you need a physical radio which is configured to sniff packets.
+>  - Then, you need some interface software that runs on your computer and
+>  talks to the radio (this is the `nrf_sniffer_ble` program – it doesn't
+>  actually sniff, it just sets up a serial tunnel to record packets being
+>  streamed off by the firmware loaded on the dongle).
+>  - Finally, wireshark needs to know what kind of packets are being sniffed
+>  and how to decode them. That's what the 'profile' is.
+>
+> _Heads Up (for Windows folks):_ The default extcap folder on windows is a
+> temporary folder. If you suddenly can't find the capture interface and it
+> used to be there, check if you need to re-copy the `extcap` files and set
+> it up again.
+
 **Prelab Q2:** After successful installation, test out if everything works. Just do a small capture of 10-12 BLE advertisement records and post a screenshot
 
 ## In-Lab
