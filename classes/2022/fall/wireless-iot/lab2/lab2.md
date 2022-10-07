@@ -82,6 +82,18 @@ To install follow the instructions provided [here](https://infocenter.nordicsemi
 
 First, make a copy of the [PostLab Report Document][postlab2] to fill in as you work.
 
+### A. Scanning and inspecting BLE devices
+You should be able to perform this step using just the nRF BLE sniffer dongle and Wireshark.
+We will have a BLE scanner app running in the lab, so there should be sufficient SCAN_REQ packets in the air. 
+
+However, if you aren't able to obtain any SCAN_REQ packets in your capture, you can install a BLE scanner app on your phone and that should do the trick.
+A good app for this is the [nRF Connect for Mobile](https://www.nordicsemi.com/Products/Development-tools/nrf-connect-for-mobile)
+
+### B. Setting up and observing an iBeacon
+For this step, we will be working with the example `zephyr/samples/bluetooth/ibeacon`.
+Flash the example onto your nrf52840DK board, and then observe the advertisement beacons using your nrf dongle + Wireshark.
+
+
 ---
 
 
