@@ -93,7 +93,7 @@ A good app for this is the [nRF Connect for Mobile](https://www.nordicsemi.com/P
 For this step, we will be working with the example `zephyr/samples/bluetooth/ibeacon`.
 Flash the example onto your nrf52840DK board, and then observe the advertisement beacons using your nrf dongle + Wireshark.
 
-
+>__Note__ : Here is a useful link to understand the structure of iBeacon packets: [Understanding the different types of BLE Beacons](https://os.mbed.com/blog/entry/BLE-Beacons-URIBeacon-AltBeacons-iBeacon/)
 ---
 
 
