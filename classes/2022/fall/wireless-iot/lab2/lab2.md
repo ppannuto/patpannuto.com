@@ -1,6 +1,6 @@
 # [CSE190/291 – Wireless & The IoT](../labs.html)
 
-## Lab 1: Introduction to development tools and Bluetooth LE
+## Lab 2: Introduction to development tools and Bluetooth LE
 
 The purpose of today’s lab is to get you to introduce you to our development environment and tools for the first part of the course, and also get you started with BLE advertisements. 
 
