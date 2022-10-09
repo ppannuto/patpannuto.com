@@ -353,14 +353,28 @@ Still Active:
 <td>Oct 10</td>
 <td></td>
 <td>2154</td>
-<td>BLE Conn's</td>
+<td>
+<strong>BLE Connections</strong>
+<a href="lectures/FA22_WxIoT-06-BLE-connections.pptx">[pptx]</a>
+<a href="lectures/FA22_WxIoT-06-BLE-connections.pdf">[pdf]</a>
+<ul>
+<li>Connection PHY and Link Layer</li>
+<li>Connections as Networks</li>
+<li>GATT</li>
+<li>BLE 5</li>
+</ul>
+</td>
 </tr>
 <tr>
 <td>W</td>
 <td>Oct 12</td>
 <td></td>
 <td>2154</td>
-<td>Wrap BLE, 15.4 [trad]</td>
+<td>
+<strong>Wrapup BLE</strong><br/>
+<br/>
+(Start 15.4 if leftover time)
+</td>
 </tr>
 <tr>
 <td>F</td>
