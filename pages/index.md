@@ -58,6 +58,7 @@ health monitoring](#gridwatch).
 
 #### News
 
+ - 2022-11: [Alex's][alexy] paper [EffiSenseSee: Towards Classifying Light Bulb Types and Energy Efficiency with Camera-Based Sensing][yen2022effiSenseSee] published at [BuildSys'22](https://buildsys.acm.org/2022/).
  - 2022-09: Our [article on energy harvesting from Soil Microbial Fuel Cells][josephson2022getmobile] was published in GetMobile.
  - 2022-04: [Alex][alexy] awarded **[National Science Foundation Graduate Research Fellowship (NSF&nbsp;GRFP)](https://www.nsfgrfp.org/)** – Congratulations Alex!
  - 2022-03: [Hudson's][hayers] paper on [threat models for embedded systems](/pubs/ayers2022tieredtrust.pdf) accepted at [EUROSEC'22](https://concordia-h2020.eu/eurosec-2022/).
@@ -615,3 +616,4 @@ through both the [TerraSwarm][terraswarm] program (part of [STARnet][starnet]) a
 [hayers]: https://sing.stanford.edu/site/users/46
 
 [josephson2022getmobile]: pubs/josephson2022getmobile.pdf
+[yen2022effiSenseSee]: pubs/yen2022effiSenseSee.pdf
