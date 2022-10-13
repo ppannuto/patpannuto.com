@@ -58,6 +58,7 @@ health monitoring](#gridwatch).
 
 #### News
 
+ - 2022-09: Our [article on energy harvesting from Soil Microbial Fuel Cells][josephson2022getmobile] was published in GetMobile.
  - 2022-04: [Alex][alexy] awarded **[National Science Foundation Graduate Research Fellowship (NSF&nbsp;GRFP)](https://www.nsfgrfp.org/)** – Congratulations Alex!
  - 2022-03: [Hudson's][hayers] paper on [threat models for embedded systems](/pubs/ayers2022tieredtrust.pdf) accepted at [EUROSEC'22](https://concordia-h2020.eu/eurosec-2022/).
  - 2022-01: [Gabe's][gabriel] paper [characterizing simple MFCs](/pubs/marcano2022iscasMFCs.pdf) accepted at [ISCAS'22](https://www.iscas2022.org/).
@@ -612,3 +613,5 @@ through both the [TerraSwarm][terraswarm] program (part of [STARnet][starnet]) a
 [nishant]: https://cseweb.ucsd.edu/~nibhaska/
 [virginiaSalo]: https://www.vanderbilt.edu/psychological_sciences/bio/virginia-salo
 [hayers]: https://sing.stanford.edu/site/users/46
+
+[josephson2022getmobile]: pubs/josephson2022getmobile.pdf
