@@ -137,6 +137,7 @@ A [history of my teaching prior to joining UCSD](/teaching.html) is also availab
      - [MobiCom'22](https://www.sigmobile.org/mobicom/2022/) TPC Member (Summer &amp; Winter &ndash; **Outstanding PC Member Award**)
      - [LP-IoT'22](https://sites.google.com/uw.edu/lp-iot-2022/) TPC Member
      - [SenSys'22](https://sensys.acm.org/2022/) Workshop/Tutorial Co-Chair
+     - [SenSys/BuildSys'22 Joint PhD Forum](https://sensys.acm.org/2022/dc/) Panelist, Speaker
      - [HotMobile'23](http://www.hotmobile.org/2023/) TPC Member
      - [IPSN'23](https://ipsn.acm.org/2023/) TPC Member
  - AY 2021-2022:
