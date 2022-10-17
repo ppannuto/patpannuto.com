@@ -407,7 +407,16 @@ Still Active:
 </span>
 </td>
 <td>2154</td>
-<td>15.4, Thread</td>
+<td>
+<strong>IEEE 802.15.4</strong>
+<a href="lectures/FA22_WxIoT-08-ieee802154.pptx">[pptx]</a>
+<a href="lectures/FA22_WxIoT-08-ieee802154.pdf">[pdf]</a>
+<ul>
+<li>Overview</li>
+<li>Physical Layer</li>
+<li>(Maybe): Link Layer</li>
+</ul>
+</td>
 </tr>
 <tr>
 <td>W</td>
@@ -422,7 +431,16 @@ Still Active:
 </span>
 </td>
 <td>2154</td>
-<td>15.4, Thread</td>
+<td>
+<strong>IEEE 802.15.4</strong>
+<a href="lectures/FA22_WxIoT-08-ieee802154.pptx">[pptx]</a>
+<a href="lectures/FA22_WxIoT-08-ieee802154.pdf">[pdf]</a>
+<ul>
+<li>Link Layer</li>
+<li>Packet Structure</li>
+<li>(Maybe): Intro Thread</li>
+</ul>
+</td>
 </tr>
 <tr>
 <td>F</td>
