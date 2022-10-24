@@ -459,7 +459,20 @@ Still Active:
 <td>Oct 24</td>
 <td></td>
 <td>2154</td>
-<td>Zigbee, Routing</td>
+<td>
+<strong>Thread</strong>
+<a href="lectures/FA22_WxIoT-10-Thread.pptx">[pptx]</a>
+<a href="lectures/FA22_WxIoT-10-Thread.pdf">[pdf]</a>
+<ul>
+<li>Mesh Refresher</li>
+<li>Thread</li>
+<ul>
+<li>Overview</li>
+<li>Addressing</li>
+<li>Runtime Behavior</li>
+</ul>
+</ul>
+</td>
 </tr>
 <tr>
 <td>W</td>
