@@ -479,7 +479,33 @@ Still Active:
 <td>Oct 26</td>
 <td></td>
 <td>2154</td>
-<td>CoAP, MQTT, etc</td>
+<td>
+<ul>
+<li>(Finish Thread)</li>
+<ul>
+<li>Last bit of Addressing</li>
+<li>Runtime Behavior</li>
+</ul>
+</ul>
+<strong>Routing</strong>
+<a href="lectures/FA22_WxIoT-11-RoutingFlooding_BonusZigbee.pptx">[pptx]</a>
+<a href="lectures/FA22_WxIoT-11-RoutingFlooding_BonusZigbee.pdf">[pdf]</a>
+<ul>
+<li>WSN Routing</li>
+<ul>
+<li>Simple Routing</li>
+<li>Mesh Routing</li>
+<li>Efficient Flooding (Synchronous Transmissions)</li>
+</ul>
+<li>Bonus Slides on Zigbee (Not Presented)</li>
+<ul>
+<li>Overview</li>
+<li>PHY/MAC</li>
+<li>Application Layer</li>
+<li>Interoperability</li>
+</ul>
+</ul>
+</td>
 </tr>
 <tr>
 <td>F</td>
