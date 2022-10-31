@@ -531,7 +531,23 @@ Still Active:
 </span>
 </td>
 <td>2154</td>
-<td>WiFi (phy)</td>
+<td>
+<strong>WiFi (PHY)</strong>
+<a href="lectures/FA22_WxIoT-12-PrettyPHYForAWiFi.pptx">[pptx]</a>
+<a href="lectures/FA22_WxIoT-12-PrettyPHYForAWiFi.pdf">[pdf]</a>
+<ul>
+<li>WiFi Overview</li>
+<li>WiFi PHY</li>
+<ul>
+<li>802.11/802.11b</li>
+<li>802.11a/802.11g</li>
+<li>802.11n/802.11ac</li>
+<li>“WiFi 6” (ax)</li>
+<li>“WiFi 7” (be?)</li>
+<li>Read-World WiFi</li>
+</ul>
+</ul>
+</td>
 </tr>
 <tr>
 <td>W</td>
