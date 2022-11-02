@@ -562,7 +562,25 @@ Still Active:
 </span>
 </td>
 <td>2154</td>
-<td>WiFi (mac)</td>
+<td>
+<ul>
+<li>(finish):</li>
+<ul>
+<li>“WiFi 6” (ax)</li>
+<li>“WiFi 7” (be?)</li>
+<li>Read-World WiFi</li>
+</ul>
+</ul>
+<strong>WiFi (MAC)</strong>
+<a href="lectures/FA22_WxIoT-13-WiFiReturnOfTheMAC.pptx">[pptx]</a>
+<a href="lectures/FA22_WxIoT-13-WiFiReturnOfTheMAC.pdf">[pdf]</a>
+<ul>
+<li>802.11 Access Control</li>
+<li>802.11 Frame Format</li>
+<li>802.11e Improvements</li>
+<li>Microcontrollers &amp; WiFi</li>
+</ul>
+</td>
 </tr>
 <tr>
 <td>F</td>
