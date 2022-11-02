@@ -62,8 +62,8 @@ We recommend making a copy of the each prelab and postlab document to do your wo
 - [Lab 3: 802.15.4, 6LoWPAN, and Thread][lab3-manual]
     - _There is no PreLab for this lab._
     - [PostLab][lab3-postlab]
-- [Lab 4: Working with WiFi] [lab4-manual]
-    - [PreLab] [lab4-prelab]
+- [Lab 4: Working with WiFi][lab4-manual]
+    - [PreLab][lab4-prelab]
 
 
 [prelab1]: https://docs.google.com/document/d/1C9w9rrGac0Vdf0zN1_VMs1bQ4JD2F1WXLCKaRAAOVCo/
