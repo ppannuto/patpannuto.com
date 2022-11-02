@@ -63,7 +63,7 @@ We recommend making a copy of the each prelab and postlab document to do your wo
     - _There is no PreLab for this lab._
     - [PostLab][lab3-postlab]
 - [Lab 4: Working with WiFi][lab4-manual]
-    - [PreLab][lab4-prelab]
+    - [PreLab][lab4-prelab] _Due:_ Monday, Nov 7 by 13:00 US/Pacific.
 
 
 [prelab1]: https://docs.google.com/document/d/1C9w9rrGac0Vdf0zN1_VMs1bQ4JD2F1WXLCKaRAAOVCo/
