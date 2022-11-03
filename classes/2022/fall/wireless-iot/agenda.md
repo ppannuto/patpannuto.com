@@ -597,7 +597,23 @@ Still Active:
 </span>
 </td>
 <td>2154</td>
-<td>Advanced WiFi<!--?? more WiFi ?? Energy Analysis / Performance ??--></td>
+<td>
+<!--
+Advanced WiFi
+more WiFi ?? Energy Analysis / Performance -->
+<strong>(Catchup Day)</strong>
+<ul>
+<li>Finish WiFi</li>
+<ul>
+<li>802.11e Improvements</li>
+<li>Microcontrollers &amp; WiFi</li>
+</ul>
+<li>(Back to Week 5...)</li>
+<ul>
+<li>Synchronous Transmissions</li>
+</ul>
+</ul>
+</td>
 </tr>
 <tr>
 <td rowspan="3" class="class-week odd">Week&nbsp;7</td>
