@@ -646,14 +646,26 @@ Still Active:
 <td colspan="2">~holiday~</td>
 </tr>
 <tr>
-<td rowspan="4" class="class-subject">LP-WANs</td>
+<td colspan="7" class="table-warning">
+<h3>November 14: Syllabus Update</h3>
+<p>Due to the ongoing labor action on campus, we will not be
+hosting synchronous class sessions this week. I have re-arranged
+the material a bit to first present cellular (which has no lab
+component). The deadline for Post-Lab 4 is extended by one week
+(so far), and HW2 will be assigned this week in lieu of Pre-Lab 5.</p>
+<p>Slides and recordings from the WI22 edition of this course for
+these lectures are available on Canvas.</p>
+<p>I have also put in a tentative plan for week 9 of covering the
+lecture material for LPWANs. I will update week 10 plans as things
+progress and we have more information.</p>
+</td>
+</tr>
+<tr>
+<td rowspan="3" class="class-subject">Cellular</td>
 <td rowspan="3" class="class-week even">Week&nbsp;8</td>
 <td>M</td>
 <td>Nov 14</td>
 <td>
-<strong>Assigned: </strong>Pre-Lab&nbsp;5
-<br/>
-<br/>
 <span class="in-flight">
 Still Active:
 <ul>
@@ -661,80 +673,116 @@ Still Active:
 </ul>
 </span>
 </td>
-<td>2154</td>
-<td>Wide-Area Intro</td>
+<td>(canvas)</td>
+<td>
+<strong>Mobile Networking Origins</strong>
+<ul>
+<li>Fundamentals of ceullar technology</li>
+<li>Relevance of &ldquo;old&rdquo; cell technology to today&rsquo;s IoT</li>
+</ul>
+</td>
 </tr>
 <tr>
 <td>W</td>
 <td>Nov 16</td>
 <td>
+<strong>Assigned: </strong>Homework&nbsp;2
+<br/>
 <span class="in-flight">
 Still Active:
 <ul>
-<!-- Give slightly extra Lab 4 writeup time b/c holiday -->
 <li>Post-Lab&nbsp;4</li>
-<li>Pre-Lab&nbsp;5</li>
 </ul>
 </span>
 </td>
-<td>2154</td>
-<td>LoRa, SigFox, etc</td>
+<td>(canvas)</td>
+<td>
+<strong>Evolution of Cellular</strong>
+<ul><li>3G, 4G, and 5G</li></ul>
+</td>
 </tr>
 <tr>
 <td>F</td>
 <td>Nov 18</td>
 <td>
-<span class="due">Due: </span>Post-Lab&nbsp;4
-<br/>
-<span class="due">Due: </span>Pre-Lab&nbsp;5
-</td>
-<td class="lab">3219</td>
-<td class="lab">Lab: LoRa <!--(Basic LoRa?)--></td>
-</tr>
-<tr>
-<td rowspan="3" class="class-week odd">Week&nbsp;9</td>
-<td>M</td>
-<td>Nov 21</td>
-<td>
-<strong>Assigned: </strong>Post-Lab 5
-</td>
-<td class="lab">3219</td>
-<td class="lab">Lab: LoRa <!--(chat app?)--></td>
-</tr>
-<tr>
-<td rowspan="4" class="class-subject">Cellular</td>
-<td>W</td>
-<td>Nov 23</td>
-<td>
-<strong>Assigned: </strong>Homework&nbsp;2
-<br/>
-<br/>
 <span class="in-flight">
 Still Active:
 <ul>
-<li>Post-Lab&nbsp;5</li>
-</ul>
-</span>
-</td>
-<td>2154</td>
-<td>Intro cell, 2g <!--[expect low attendance]--></td>
-</tr>
-<tr>
-<td>F</td>
-<td>Nov 25</td>
-<td>
-<span class="in-flight">
-Still Active:
-<ul>
-<li>Post-Lab&nbsp;5</li>
+<li>Post-Lab&nbsp;4</li>
 <li>Homework&nbsp;2</li>
 </ul>
 </span>
 </td>
-<td colspan="2">~holiday~</td>
+<td>(canvas)</td>
+<td>
+<strong>Upcoming Cellular IoT Technologies</strong>
+<ul>
+<li>LTE Cat-M</li>
+<li>NB-IoT</li>
+</ul>
+</td>
 </tr>
 <tr>
+<td rowspan="3" class="class-subject">LP-WANs</td>
+<td rowspan="3" class="class-week odd">Week&nbsp;9</td>
+<td>M</td>
+<td>Nov 21</td>
+<td>
+<span class="in-flight">
+Still Active:
+<ul>
+<li>Post-Lab&nbsp;4</li>
+<li>Homework&nbsp;2</li>
+</ul>
+</span>
+</td>
+<td rowspan="2"><i>TBD</i></td>
+<td rowspan="2">
+<strong>LPWANs</strong>
+<ul>
+<li>LPWAN Design</li>
+<li>Unlicensed LPWANs</li>
+<li>LPWAN Challenges</li>
+</ul>
+</tr>
+<tr>
+<td>W</td>
+<td>Nov 23</td>
+<td>
+<span class="due">Due: </span>Homework&nbsp;2
+<br/>
+<span class="in-flight">
+Still Active:
+<ul>
+<li>Post-Lab&nbsp;4</li>
+</ul>
+</span>
+</td>
+</tr>
+<tr>
+<td>F</td>
+<td>Nov 25</td>
+<td colspan="3" style="text-align: center;">~holiday~</td>
+</tr>
+<tr>
+<td rowspan="3" class="class-subject">TBD</td>
 <td rowspan="3" class="class-week even">Week&nbsp;10</td>
+<td>M</td>
+<td>Nov 28</td>
+<td colspan="3" rowspan="3">
+<i>TBD</i>
+</td>
+</tr>
+<tr>
+<td>W</td>
+<td>Nov 30</td>
+</tr>
+<tr>
+<td>F</td>
+<td>Dec 2</td>
+</tr>
+
+<!--
 <td>M</td>
 <td>Nov 28</td>
 <td>
@@ -755,31 +803,31 @@ Still Active:
 <td>W</td>
 <td>Nov 30</td>
 <td>
-<span class="due">Due: </span>Homework&nbsp;2
 <br/>
 <br/>
-<!--<strong>Assigned: </strong>Final Design Project-->
+<strong>Assigned: </strong>Final Design Project
 </td>
 <td>2154</td>
 <td>Cell Wrap-Up</td>
 </tr>
 <tr>
-<td class="class-subject">Grab Bag</td>
 <td>F</td>
 <td>Dec 1</td>
 <td>
-<!--
 <span class="in-flight">
 Still Active:
 <ul>
 <li>Final Design Project</li>
 </ul>
 </span>
--->
 </td>
 <td>2154</td>
 <td>Misc: werider RF, non-RF stuff</td>
 </tr>
+-->
+
+
+
 <!--
 <tr>
 <td class="class-subject">Final</td>
