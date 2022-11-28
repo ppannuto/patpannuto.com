@@ -736,7 +736,7 @@ Still Active:
 </ul>
 </span>
 </td>
-<td rowspan="2"><i>TBD</i></td>
+<td rowspan="2"><i>(canvas)</i></td>
 <td rowspan="2">
 <strong>LPWANs</strong>
 <ul>
@@ -765,22 +765,106 @@ Still Active:
 <td colspan="3" style="text-align: center;">~holiday~</td>
 </tr>
 <tr>
-<td rowspan="3" class="class-subject">TBD</td>
+<td rowspan="3" class="class-subject">LP-WAN Lab</td>
 <td rowspan="3" class="class-week even">Week&nbsp;10</td>
 <td>M</td>
 <td>Nov 28</td>
-<td colspan="3" rowspan="3">
-<i>TBD</i>
+<td>
+<strong>Assigned: </strong>Lab&nbsp;5
+<br/>
+<span class="in-flight">
+Still Active:
+<ul>
+<li>Post-Lab&nbsp;4</li>
+</ul>
+</span>
+</td>
+<td rowspan="3"><i>3219 optional</i></td>
+<td rowspan="3" colspan="2">
+<strong>Lab 5 &amp; Wrap-Up</strong>
+<p>
+The primary mission for the week is Lab 5, which
+investigates LoRa in real world settings with a
+real-world wireless provider (Helium).
+</p>
+<p>
+The lab is designed to enable full remote work if
+that is your preference this week. Prof. P plans to be
+hanging around the lab during class hours and their
+office hours on Wednesday afternoon.
+</p>
+<p>
+On Friday, Prof. P will be streaming a dissertation
+defense on the design of low-power, energy-harvesting
+systems from 12:30-14:00 in the lab. Those who are
+interested are welcome to come hear the presentation
+and to chat about the material afterward. Folks can
+also attend virtually via
+<a href="https://us06web.zoom.us/j/84001101140?pwd=YzhtKzFVVUY2NDdlTld1Q0NOQUxvdz09">Zoom</a>.
+</p>
+<details>
+<summary>Defense Presentation Details</summary>
+<p><i>A Case for Application Driven Design of Energy Harvesting Sensor Systems</i>, by Neal Jackson.</p>
+<p>With enough power, any problem becomes tractable. Since the inception of wireless sensor networks, researchers have continuously searched for ways to do more with less. Integrated circuits and MEMS sensors have continued to shrink in size, cost, and active and quiescent  power. However, the energy density of non-rechargeable batteries and the efficiency of energy harvesting have plateaued, constraining the power and energy available to wireless sensors. Batteryless sensors reject non-rechargeable batteries (and their finite lifetimes) and subsist entirely on harvested energy from the environment. While these devices have indeterminate lifetimes, their operation is intrinsically tied to their energy income, which may be inconsistent and unpredictable.</p>
+<p>Many researchers in the wireless sensor community are convinced that batteryless sensors are the future. However, industry largely continues to build battery-powered sensors. This represents a rift in design understanding between those who value reliability and those who consider it a secondary concern to lifetime. In this talk, I will explore the design space of wireless sensors in the context of the requirements of real applications and the myriad of combinations of energy harvesting, rechargeable, and non-rechargeable energy storage. This talk takes a deep dive into the effect of component selection and sizing on energy harvesting efficacy, particularly of energy storage capacity.</p>
+</details>
 </td>
 </tr>
 <tr>
 <td>W</td>
 <td>Nov 30</td>
+<td>
+<strong>Assigned: </strong>Final Design Assignment
+<br/>
+<span class="in-flight">
+Still Active:
+<ul>
+<li>Post-Lab&nbsp;4</li>
+<li>Post-Lab&nbsp;5</li>
+</ul>
+</span>
+</td>
 </tr>
 <tr>
 <td>F</td>
 <td>Dec 2</td>
+<td>
+<span class="due">Due: </span>Post-Lab&nbsp;4
+<br/>
+<span class="in-flight">
+Still Active:
+<ul>
+<li>Post-Lab&nbsp;5</li>
+<li>Final Design Assignment</li>
+</ul>
+</span>
+</td>
 </tr>
+<tr>
+<td class="class-subject">Finals</td>
+<td class="class-week odd">Week&nbsp;11</td>
+<td></td>
+<td></td>
+<td colspan="2">
+<span class="due">Due: </span>Post-Lab&nbsp;5
+<br/>
+<span class="due">Due: </span>Final Design Assignment
+</td>
+<td>
+<p>There is no in-person final exam for this class.
+There is a take-home final design assignment, which you
+received in the middle of Week 10. It is due by
+<strong>22:00 US/Pacific on Wednesday, December 7</strong>.
+Lab&nbsp;5 is also due at this time, though hopefully you
+finished it during Week 10.</p>
+<p>It was a pleasure having everyone in class, I sincerely
+hope you enjoyed the course. I'm sorry for the somewhat
+anticlimactic end this year.</p>
+<p>My door is always open, hope to see folks again sometime.</p>
+<p>&ndash;Prof. P.</p>
+</td>
+</tr>
+
 
 <!--
 <td>M</td>
