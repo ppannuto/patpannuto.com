@@ -1,0 +1,64 @@
+[fellowships]
+display = "Fellowships"
+
+[fellowships.qif]
+year=2013
+display="Qualcomm Innovation Fellowship"
+display-extra="(Honorable Mention), joint with Bradford Campbell"
+money="$50,000"
+
+[fellowships.ndseg]
+year=2013
+display="National Defense Science & Engineering Graduate Fellowship (NDSEG)"
+money="$95,000 plus tuition"
+
+[fellowships.grfp]
+year=2013
+display="National Science Foundation Graduate Research Fellowship (NSF GRFP)"
+money="$90,000 plus tuition"
+
+[fellowships.umichdept]
+year=2012
+display="University of Michigan Department of Computer Science First-Year Fellowship"
+
+
+
+[publications]
+display="Publication Awards"
+
+[publications.ipsn2018]
+year=2018
+display="Best Paper Finalist, The 17th ACM/IEEE International Conference on Information Processing in Sensor Networks"
+
+[publications.terraswarm2017]
+year=2017
+display="David Wessel Best Demo Award, TerraSwarm Annual Review"
+
+[publications.micro2016]
+year=2016
+display="IEEE Micro Top Pick in Computer Architecture"
+
+[publications.inc2016]
+year=2016
+display="Outstanding Poster Award, Twelfth International Nanotechnology Conference on Communication and Cooperation"
+
+[publications.hotwireless2015]
+year=2015
+display="Potential for Test of Time 2025 Award, The 2nd ACM Workshop on Hot Topics in Wireless"
+
+
+
+[teaching]
+display="Teaching Honors"
+
+[teaching.rackham2017]
+year=2017
+display="University of Michigan Rackham Graduate School Outstanding Graduate Student Instructor"
+
+[teaching.umcoe2017]
+year=2017
+display="University of Michigan College of Engineering Richard & Eleanor Towner Prize for Outstanding Graduate Student Instructors"
+
+[teaching.eecs2012]
+year=2012
+display="Best Undergraduate Instructor, University of Michigan, EECS"
