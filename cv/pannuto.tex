@@ -49,10 +49,19 @@
 % Don't typset URLs in tt font
 \urlstyle{sf}
 
-\addbibresource{journals.bib}
-\addbibresource{conferences.bib}
-\addbibresource{workshops.bib}
-\addbibresource{posterdemo.bib}
+
+
+% Assign labels based on source file
+% https://mirrors.concertpass.com/tex-archive/macros/latex/contrib/biblatex/doc/biblatex.pdf
+% §3.8.1 Bibliograpy Commands :: Resources
+
+\addbibresource[label=CATbook]{books.bib}
+\addbibresource[label=CATjournal]{journals.bib}
+\addbibresource[label=CATconference]{conferences.bib}
+\addbibresource[label=CATworkshop]{workshops.bib}
+\addbibresource[label=CATposterdemo]{posterdemo.bib}
+
+
 
 % Longtable adds more padding than tabular by default, change to match tabular's no-padding
 \setlength{\LTpre}{0pt}
@@ -608,18 +617,42 @@
 \end{tabularx}
 
 
+
+
+% Create "refsections" for each type; label controls active suite of refs
+% https://mirrors.concertpass.com/tex-archive/macros/latex/contrib/biblatex/doc/biblatex.pdf
+% §3.8.10 Bibliograpy Commands :: Reference Contexts
+
 % multibib style labels with biblatex, from
 % http://tex.stackexchange.com/questions/29780/
 \nameusesave
 \nameuse{false}
+
+\newrefsection[CATbook]
+\newrefcontext[labelprefix={B}]
+\nocite{*}
+\printbibliography[heading=subbibliography,title={\Large Books \& Book Chapters}]
+
+\newrefsection[CATjournal]
 \newrefcontext[labelprefix={J}]
-\printbibliography[keyword=journal,heading=subbibliography,title={\Large Journal Publications}]
+\nocite{*}
+\printbibliography[heading=subbibliography,title={\Large Journal Publications}]
+
+\newrefsection[CATconference]
 \newrefcontext[labelprefix={C}]
-\printbibliography[keyword=conf,heading=subbibliography,title={\Large Conference Publications}]
+\nocite{*}
+\printbibliography[heading=subbibliography,title={\Large Conference Publications}]
+
+\newrefsection[CATworkshop]
 \newrefcontext[labelprefix={W}]
-\printbibliography[keyword=workshop,heading=subbibliography,title={\Large Workshop Publications}]
+\nocite{*}
+\printbibliography[heading=subbibliography,title={\Large Workshop Publications}]
+
+\newrefsection[CATposterdemo]
 \newrefcontext[labelprefix={PD}]
-\printbibliography[keyword=posterdemo,heading=subbibliography,title={\Large Posters and Demos}]
+\nocite{*}
+\printbibliography[heading=subbibliography,title={\Large Posters and Demos}]
+
 \nameuserestore
 
 

@@ -8,8 +8,9 @@ from sh import mkdir
 
 import logger
 
-BIB_FILES = ['conferences', 'journals', 'workshops', 'posterdemo']
-WORK_TYPES = {'conferences': 'paper',
+BIB_FILES = ['books', 'conferences', 'journals', 'workshops', 'posterdemo']
+WORK_TYPES = {'books':       'paper',
+              'conferences': 'paper',
               'journals':    'paper',
               'workshops':   'paper',
               'posterdemo':  'paper'}
@@ -50,7 +51,6 @@ def hiddens_add_bibtex(hiddens, bibkey, entry, raw_authors):
 		if f in (
 				'abstract',
 				'no-abstract',
-				'keywords',
 				'badge',
 				'to-appear',
 				'type',
@@ -492,10 +492,12 @@ class Publications ():
 			title=t.title()
 			if title == 'Posterdemo':
 				title = 'Posters and Demos'
-			if title in ('Conferences', 'Journals', 'Workshops'):
+			if title in ('Books', 'Conferences', 'Journals', 'Workshops'):
 				checked = True
 			else:
 				checked = False
+			if title == 'Books':
+				title = 'Books & Book Chapters'
 			filters['type'] += self.checkbox_tmpl.render(checked=checked,
 				classes='type_chk', value=t.lower(),
 				text=title)
