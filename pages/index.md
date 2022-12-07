@@ -60,7 +60,7 @@ health monitoring](#gridwatch).
 
  - 2022-11: [Alex's][alexy] paper [EffiSenseSee: Towards Classifying Light Bulb Types and Energy Efficiency with Camera-Based Sensing][yen2022effiSenseSee] published at [BuildSys'22](https://buildsys.acm.org/2022/).
  - 2022-09: Our [article on energy harvesting from Soil Microbial Fuel Cells][josephson2022getmobile] was published in GetMobile.
- - 2022-04: [Alex][alexy] awarded **[National Science Foundation Graduate Research Fellowship (NSF&nbsp;GRFP)](https://www.nsfgrfp.org/)** – Congratulations Alex!
+ - 2022-04: **[Alex][alexy] awarded [National Science Foundation Graduate Research Fellowship (NSF&nbsp;GRFP)](https://www.nsfgrfp.org/)** – Congratulations Alex!
  - 2022-03: [Hudson's][hayers] paper on [threat models for embedded systems](/pubs/ayers2022tieredtrust.pdf) accepted at [EUROSEC'22](https://concordia-h2020.eu/eurosec-2022/).
  - 2022-01: [Gabe's][gabriel] paper [characterizing simple MFCs](/pubs/marcano2022iscasMFCs.pdf) accepted at [ISCAS'22](https://www.iscas2022.org/).
  - 2021-09: [Virginia's][virginiaSalo] paper describing [SociTrack's usage in developmental psychology applications](pubs/salo2022tottagmethods.pdf) published in [Behavior Research Methods](https://www.springer.com/journal/13428).
