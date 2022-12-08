@@ -1,6 +1,9 @@
 all: pannuto.pdf
 
-pannuto.pdf: pannuto.tex books.bib conferences.bib workshops.bib journals.bib posterdemo.bib biblatex.cfg
+GENS := gen/awards.tex gen/teaching.tex gen/service.tex gen/advising.tex
+BIBS := books.bib conferences.bib workshops.bib journals.bib posterdemo.bib
+
+pannuto.pdf: pannuto.tex $(GENS) $(BIBS) biblatex.cfg
 	pdflatex pannuto.tex
 	biber pannuto
 	pdflatex pannuto.tex
@@ -10,7 +13,6 @@ pannuto.pdf: pannuto.tex books.bib conferences.bib workshops.bib journals.bib po
 gen/%.tex: %.toml latex_gen.py
 	./latex_gen.py
 
-pannuto.tex: gen/awards.tex gen/teaching.tex gen/service.tex
 
 clean:
 	rm -f *.aux *.log *.pdf *.bbl *.blg *.out

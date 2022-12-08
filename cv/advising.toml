@@ -1,0 +1,17 @@
+display="Advising and Mentoring"
+
+[andreas-biri]
+name = "Andreas Biri"
+url = "https://n.ethz.ch/~abiri/"
+degree = "M.Sc."
+next = "Ph.D. program at ETH Zürich"
+thesis = "TotTernary: A wearable platform for social interaction tracking"
+start = 2018
+end = 2018
+
+[noah-nuechterlein]
+name = "Noah Nuechterlein"
+context = "Undergraduate Independent Study: Applied computer vision"
+start = 2014
+end = 2014
+

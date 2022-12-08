@@ -50,6 +50,7 @@ with open('gen/awards.tex', 'w') as o:
 
         o.write(r'\end{tabular}' + '\n')
         o.write(r'\renewcommand{\arraystretch}{1.0}' + '\n')
+del awards
 
 
 with open('teaching.toml', 'rb') as f:
@@ -109,6 +110,7 @@ with open('gen/teaching.tex', 'w') as o:
 
     o.write(r'\end{tabular}' + '\n')
     o.write(r'\renewcommand{\arraystretch}{1.0}' + '\n')
+del teaching
 
 
 with open('service.toml', 'rb') as f:
@@ -170,3 +172,67 @@ with open('gen/service.tex', 'w') as o:
         o.write(r'\end{longtable}' + '\n')
 
     o.write(r'\renewcommand{\arraystretch}{1.0}' + '\n')
+del service
+
+
+# n.b. at some point: advising ~same as service; at least for now
+with open('advising.toml', 'rb') as f:
+    advising = tomllib.load(f)
+
+with open('gen/advising.tex', 'w') as o:
+
+    o.write('\n' + '%' + '-'*60 + '%' + '\n')
+    o.write(       '%' + '-'*60 + '%' + '\n')
+    o.write(r'\section*{' + advising['display'] + '}' + '\n\n')
+    del advising['display']
+
+    o.write(r'\renewcommand{\arraystretch}{0.5}' + '\n')
+
+    o.write(r'\begin{longtable}{>{\bf}p{2.1cm} l}' + '\n')
+
+    rows = []
+
+    for mentee in advising:
+        mentee = advising[mentee]
+        r = ''
+
+        # Year column
+        r += '  '
+        if 'end' in mentee:
+            if mentee['start'] == mentee['end']:
+                r += '{:14s}'.format(str(mentee['start']))
+            else:
+                r += '{:4s}--{:8s}'.format(str(mentee['start']), str(mentee['end']))
+        else:
+            r += '{:4s}--{:8s}'.format(str(mentee['start']), 'present')
+
+        # Details column
+        r += r'& \makecell{' + '\n'
+        r += '    '
+        if 'url' in mentee:
+            r += r'\href{' + mentee['url'] + '}{' + mentee['name'] + '}'
+        else:
+            r += mentee['name']
+
+        if 'degree' in mentee:
+            r += ' (' + mentee['degree'] + ')'
+
+        if 'context' in mentee:
+            r += ' (' + escape_latex(mentee['context']) + ')'
+
+        if 'next' in mentee:
+            r += r' $\rightarrow$ ' + escape_latex(mentee['next'])
+
+        if 'thesis' in mentee:
+            r += r'\\' + '\n    ' + r'Thesis: \emph{' + escape_latex(mentee['thesis']) + '}'
+
+        r += r'} \\' + '\n'
+
+        rows.append(r)
+
+    table_body = (r'  \\' + '\n\n').join(rows)
+    o.write(table_body)
+
+    o.write(r'\end{longtable}' + '\n')
+    o.write(r'\renewcommand{\arraystretch}{1.0}' + '\n')
+del advising
