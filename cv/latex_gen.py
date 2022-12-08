@@ -111,3 +111,62 @@ with open('gen/teaching.tex', 'w') as o:
     o.write(r'\renewcommand{\arraystretch}{1.0}' + '\n')
 
 
+with open('service.toml', 'rb') as f:
+    service = tomllib.load(f)
+
+with open('gen/service.tex', 'w') as o:
+
+    o.write('\n' + '%' + '-'*60 + '%' + '\n')
+    o.write(       '%' + '-'*60 + '%' + '\n')
+    o.write(r'\section*{' + service['display'] + '}' + '\n\n')
+    del service['display']
+
+    o.write(r'\renewcommand{\arraystretch}{0.5}' + '\n')
+
+    for context in service:
+        # Skip this for now, old CV did
+        if context == 'internal':
+            continue
+        # In future, maybe a subsection here?
+
+        context = service[context]
+
+        # Open table for this service context
+        o.write(r'\begin{longtable}{>{\bf}p{2.1cm} l}' + '\n')
+
+        rows = []
+
+        for activity in context:
+            activity = context[activity]
+
+            r = ''
+
+            # Year column
+            r += '  '
+            if 'year' in activity:
+                assert 'start' not in activity
+                r += '{:14s}'.format(str(activity['year']))
+            else:
+                if 'end' in activity:
+                    r += '{:4s}--{:8s}'.format(str(activity['start']), str(activity['end']))
+                else:
+                    r += '{:4s}--{:8s}'.format(str(activity['start']), 'present')
+
+            # Activity column
+            r += r'& \makecell{'
+            r += escape_latex(activity['thing'])
+
+            if 'role' in activity:
+                r += ' -- '
+                r += escape_latex(activity['role'])
+
+            r += r'} \\' + '\n'
+
+            rows.append(r)
+
+        table_body = (r'  \\' + '\n\n').join(rows)
+        o.write(table_body)
+
+        o.write(r'\end{longtable}' + '\n')
+
+    o.write(r'\renewcommand{\arraystretch}{1.0}' + '\n')

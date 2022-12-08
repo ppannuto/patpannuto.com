@@ -10,7 +10,7 @@ pannuto.pdf: pannuto.tex books.bib conferences.bib workshops.bib journals.bib po
 gen/%.tex: %.toml latex_gen.py
 	./latex_gen.py
 
-pannuto.tex: gen/awards.tex gen/teaching.tex
+pannuto.tex: gen/awards.tex gen/teaching.tex gen/service.tex
 
 clean:
 	rm -f *.aux *.log *.pdf *.bbl *.blg *.out

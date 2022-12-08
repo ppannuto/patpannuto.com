@@ -1,0 +1,68 @@
+display="Professional Service"
+
+[internal]
+
+[internal.umcsegrep]
+start=2015
+end=2016
+thing="Computer Science Engineering Student Faculty Representative"
+
+[internal.umcsegpres]
+start=2013
+end=2015
+thing="Computer Science Engineering Graduate Student Body President"
+
+
+[external]
+
+[external.ipsn2021]
+year=2021
+thing="The 20th International Conference on Information Processing in Sensor Networks (IPSN)"
+role="TPC Member"
+
+[external.enssys2020]
+year=2020
+thing="8th International Workshop on Energy Harvesting & Energy-Neutral Sensing Systems (ENSsys)"
+role="TPC Member"
+
+[external.cpsiot2020]
+year=2020
+thing="The 3rd Workshop on Benchmarking Cyber-Physical Systems and Internet of Things (CPS-IoTBench 2020)"
+role="TPC Member"
+
+[external.data2019]
+year=2019
+thing="ACM Workshop on Data Acquisition to Analysis (DATA 19)"
+role="General Chair & PC Chair"
+
+[external.tnet]
+start=2019
+thing="IEEE/ACM Transactions on Networking (TNET)"
+role="Recurring reviewer"
+
+[external.data2018]
+year=2018
+thing="ACM Workshop on Data Acquisition to Analysis (DATA 18)"
+role="TPC Member"
+
+[external.tmc]
+start=2014
+end=2016
+thing="IEEE Transactions on Mobile Computing (TMC)"
+role="Recurring reviewer"
+
+[external.div2015]
+year=2015
+thing="USAID Development Innovation Ventures (DIV)"
+role="Reviewer"
+
+[external.vlcs2014]
+year=2014
+thing="ACM Workshop on Visible Light Communication Systems"
+role="Demo Co-Chair"
+
+[external.tcasII]
+start=2013
+end=2014
+thing="IEEE Transactions on Circuits and Systems II (TCAS-II)"
+role="Recurring reviewer"
