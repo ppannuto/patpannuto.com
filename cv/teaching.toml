@@ -1,0 +1,69 @@
+display="Teaching Experience"
+
+
+[ucsd.141]
+term = ["2020 Fall"]
+role = "Primary Instructor"
+dept = "CSE"
+number = "141"
+title = "Introduction to Computer Architecture"
+
+[ucsd.290]
+term = ["2020 Fall"]
+role = "Primary Instructor"
+dept = "CSE"
+number = "290"
+title = "Seminar on Topics in Embedded Systems"
+url = "https://sites.google.com/eng.ucsd.edu/embeddedlunch/"
+
+[ucsd.291]
+term = ["2020 Winter"]
+role = "Primary Instructor"
+dept = "CSE"
+number = "291"
+title = "Platforms & Systems to Bridge the Digital & Physical World"
+
+[um.398]
+term = ["2016 Fall", "2016 Winter"]
+role = "Primary Instructor"
+dept = "EECS"
+number = "398"
+title = "Computing for Computer Scientists"
+extra-md = """
+A new class designed and built from scratch.
+This class attempts to address the experience gap that exists across the spectrum of incoming Computer Science students.
+While driven by tools (shells, build systems, debuggers, version control), it explores how and why computer scientists interface with computers differently in their day-to-day activities, how to apply principles learned in courses to everyday activities, and ultimately how to be a more efficient user of computing resources.
+
+This course has been adopted as part of the permanent curriculum at the University of Michigan as EECS 201: Computing Pragmatics, an advised co-requisite for first-year EECS majors.
+
+[https://c4cs.github.io](https://c4cs.github.io)
+
+_In 2017, I was awarded the Rackham Graduate School Outstanding Graduate Student Instructor and the College of Engineering Richard & Eleanor Towner Prize for Outstanding Graduate Student Instructors for this course._"""
+
+[um.373grad]
+term = ["2015 Fall", "2015 Winter"]
+role = "Graduate Teaching Assistant"
+dept = "EECS"
+number = "373"
+title = "Design of Microprocessor Based Systems"
+
+[um.470]
+term = ["2012 Winter", "2012 Fall"]
+role = "Undergraduate Teaching Assistant"
+dept = "EECS"
+number = "470"
+title = "Computer Architecture"
+
+[um.482]
+term = ["2012 Winter", "2011 Fall", "2011 Winter", "2010 Fall"]
+role = "Undergraduate Teaching Assistant"
+dept = "EECS"
+number = "482"
+title = "Introduction to Operating Systems"
+
+[um.373ugrad]
+term = ["2011 Fall", "2011 Winter"]
+role = "Undergraduate Teaching Assistant"
+dept = "EECS"
+number = "373"
+title = "Design of Microprocessor Based Systems"
