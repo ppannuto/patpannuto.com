@@ -170,22 +170,97 @@ A [history of my teaching prior to joining UCSD](/teaching.html) is also availab
 
 <hr />
 
+### <a name="advisees"></a>Advisees
+
 #### <a name="students"></a>Graduate Students
 
- - [Wenshan Luo][wenshan] (PhD, CSE)
- - [Gabriel Marcano][gabriel] (Sloan Fellow; PhD, CSE)
- - [Jennifer Switzer][jennifer] (Co-Advised with [Ryan Kastner](http://kastner.ucsd.edu/); PhD, CSE)
- - [Alex Yen][alexy] (PhD, CSE)
+<table markdown="1" class="webcv">
+
+<tr markdown="1">
+<td>2020–present</td>
+<td markdown="1">[Wenshan Luo][wenshan] (PhD, CSE)</td>
+</tr>
+
+<tr markdown="1">
+<td>2020–present</td>
+<td markdown="1">[Gabriel Marcano][gabriel] (Sloan Fellow; PhD, CSE)</td>
+</tr>
+
+<tr markdown="1">
+<td>2020–present</td>
+<td markdown="1">[Jennifer Switzer][jennifer] (Co-Advised with [Ryan Kastner](http://kastner.ucsd.edu/); PhD, CSE)</td>
+</tr>
+
+<tr markdown="1">
+<td>2020–present</td>
+<td markdown="1">[Alex Yen][alexy] (PhD, CSE)</td>
+</tr>
+
+<tr style="border-bottom: 1px dashed grey">
+<td></td>
+<td></td>
+</tr>
+
+<tr markdown="1">
+<td>2020–2021</td>
+<td markdown="1">[Dhananjay Jagtap][dhananjay] (MS, ECE) &rarr; Apple</td>
+</tr>
+
+</table>
 
 #### Undergraduate Students
 
- - Anthony Quiroga
+<table markdown="1" class="webcv">
 
-#### Alumni
- - [Dhananjay Jagtap][dhananjay] (MS, ECE) &rarr; Apple
+<tr markdown="1">
+<td>2021–present</td>
+<td markdown="1">Anthony Quiroga</td>
+</tr>
+
+</table>
+
+
+
+#### Research Opportunity Programs
+
+<div markdown="1" style="padding-left: 10px">
+
+##### [ENLACE](http://resilientmaterials.ucsd.edu/ENLACE)
+
+###### Summer 2022 Cohort, advised by [Jennifer Switzer][jennifer]
+ - Belinda Andrea Ramírez Espíndola
+ - Daniella Rivera
+ - Leslie Pérez Solis
+
+###### Summer 2022 Cohort, advised by [Alex Yen][alexy]
+ - Kaila Marie Rosing
+ - Regina García Garza
+
+##### [Early Research Scholars Program (ERSP)](https://ersp.eng.ucsd.edu/)
+
+###### AY 2022–2023 Cohort, advised by [Gabriel Marcano][gabriel]
+ - Kristin Ebuengan
+ - Melody Gill
+ - Sophia Gomez
+
+###### AY 2022–2023 Cohort (joint with [Ryan Kastner](http://kastner.ucsd.edu/)), advised by [Jennifer Switzer][jennifer]
+ - Christian Lee
+ - Edward Jin
+ - Lillian Ho
+
+###### AY 2020–2021 Cohort
  - Karen Gong (BS, CSE)
  - Colin Lemarchand (BS, CSE)
+ - Anthony Quiroga (BS, CSE) &rarr; TRELS
  - Sonika Ram (BS, CSE)
+
+##### [Triton Research & Experiential Learning Scholars (TRELS)](https://ugresearch.ucsd.edu/programs/trels/index.html)
+
+###### Summer 2021
+ - Anthony Quiroga (BS, CSE) &rarr; Independent Research
+
+
+</div>
 
 
 <hr />

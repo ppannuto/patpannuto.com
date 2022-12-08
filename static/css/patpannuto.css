@@ -56,6 +56,10 @@ summary {
 	color: red;
 }
 
+.webcv td {
+	padding-left: 10px;
+}
+
 .talk img {
 	width: 100%;
 	padding: 2px;
