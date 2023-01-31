@@ -177,6 +177,11 @@ A [history of my teaching prior to joining UCSD](/teaching.html) is also availab
 <table markdown="1" class="webcv">
 
 <tr markdown="1">
+<td>2023–present</td>
+<td markdown="1">[Alex Bellon][balex] (PhD, CSE)</td>
+</tr>
+
+<tr markdown="1">
 <td>2020–present</td>
 <td markdown="1">[Wenshan Luo][wenshan] (PhD, CSE)</td>
 </tr>
@@ -690,6 +695,7 @@ through both the [TerraSwarm][terraswarm] program (part of [STARnet][starnet]) a
 [nishant]: https://cseweb.ucsd.edu/~nibhaska/
 [virginiaSalo]: https://www.vanderbilt.edu/psychological_sciences/bio/virginia-salo
 [hayers]: https://sing.stanford.edu/site/users/46
+[balex]: https://www.sysnet.ucsd.edu/~abellon/
 
 [josephson2022getmobile]: pubs/josephson2022getmobile.pdf
 [yen2022effiSenseSee]: pubs/yen2022effiSenseSee.pdf
