@@ -10,7 +10,7 @@ University of California, San Diego<br />
 <a href="mailto:ppannuto@ucsd.edu">ppannuto@ucsd.edu</a> |
 <a href="https://www.google.com/maps/place/Computer+Science+and+Engineering+Building/@32.8818009,-117.2338248,19.71z/data=!4m5!3m4!1s0x80dc06c3409a5d5f:0xa7dc3be7597d4d47!8m2!3d32.8818006!4d-117.2335236">3202 CSE</a> |
 <a href="tel:+18588222924">+1&#8239;858&#8239;822&#8239;2924</a> |
-<a href="https://calendar.google.com/calendar/embed?src=ppannuto%40eng.ucsd.edu">Calendar</a>
+<a href="https://calendar.google.com/calendar/embed?src=ppannuto%40ucsd.edu&ctz=America%2FLos_Angeles">Calendar</a>
 </small>
 </div>
 
