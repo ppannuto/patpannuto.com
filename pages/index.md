@@ -88,6 +88,8 @@ health monitoring](#gridwatch).
 A complete list is available on my [publications page](/publications.html).
 -->
 
+
+<!-- These are all getting a bit dated; drop for now
 #### Selected Honors & Awards
 
  - [Rackham Graduate School Outstanding Graduate Student Instructor](http://www.rackham.umich.edu/faculty-staff/awards/student-funding/outstanding-graduate-student-instructor-awards#recipients) (2017)
@@ -103,6 +105,7 @@ A complete list is available on my [publications page](/publications.html).
  - [_IEEE Micro_](https://www.computer.org/web/computingnow/micro) Top Pick (2016)
  - [INC12](http://incnano.org/) Outstanding Poster Award (2016)
  - [HotWireless'15](http://web.cse.ohio-state.edu/~chebo/HotWireless/) Potential for Test of Time 2025 Award (2015)
+-->
 
 <hr />
 
@@ -120,14 +123,10 @@ A complete list is available on my [publications page](/publications.html).
  - `[FA20]` [CSE141 - A00: Introduction to Computer Architecture](/classes/2020/fall/cse141/)
  - `[WI20]` [CSE291 - K00: Platforms and Systems to Bridge the Digital and Physical World](/classes/2020/winter/cse291/)
 
-I also co-founded the UCSD Embedded Systems Seminar, which now runs every quarter.
-These are the ones I am instructor of record for:
-
- - `[WI23]` [CSE290: Embedded Systems Seminar](https://sites.google.com/eng.ucsd.edu/embeddedlunch/)
- - `[WI22]` [CSE290: Embedded Systems Seminar](https://sites.google.com/eng.ucsd.edu/embeddedlunch/)
- - `[FA21]` [CSE290: Embedded Systems Seminar](https://sites.google.com/eng.ucsd.edu/embeddedlunch/)
- - `[WI21]` [CSE290: Embedded Systems Seminar](https://sites.google.com/eng.ucsd.edu/embeddedlunch/)
- - `[FA20]` [CSE290: Embedded Systems Seminar](https://sites.google.com/eng.ucsd.edu/embeddedlunch/)
+I also co-founded the
+[UCSD Embedded Systems Seminar](https://sites.google.com/eng.ucsd.edu/embeddedlunch/),
+which now runs every quarter.
+I am instructor of record for the seminar in `[WI23]`, `[WI22]`, `[FA21]`, `[WI21]`, and `[FA20]`.
 
 A [history of my teaching prior to joining UCSD](/teaching.html) is also available.
 
