@@ -58,17 +58,20 @@ health monitoring](#gridwatch).
 
 #### News
 
+ - 2023-03: [Jen's][jennifer] paper [repurposing smartphones as servers](switzer2023junkyardcloud.pdf) published at [ASPLOS'23](https://asplos-conference.org/2023/).
+ - 2023-02: [Alex's][balex] paper demonstrating [data muling over the Apple Find My network](/pubs/bellon2023tagalong.pdf) published at [HotMobile'23](http://www.hotmobile.org/2023/).
+ - 2023-01: [Introduction to Development Engineering](https://link.springer.com/book/10.1007/978-3-030-86065-3) textbook published (contrib: Chapter 6).
  - 2022-11: [Alex's][alexy] paper [EffiSenseSee: Towards Classifying Light Bulb Types and Energy Efficiency with Camera-Based Sensing][yen2022effiSenseSee] published at [BuildSys'22](https://buildsys.acm.org/2022/).
  - 2022-09: Our [article on energy harvesting from Soil Microbial Fuel Cells][josephson2022getmobile] was published in GetMobile.
  - 2022-04: **[Alex][alexy] awarded [National Science Foundation Graduate Research Fellowship (NSF&nbsp;GRFP)](https://www.nsfgrfp.org/)** – Congratulations Alex!
  - 2022-03: [Hudson's][hayers] paper on [threat models for embedded systems](/pubs/ayers2022tieredtrust.pdf) accepted at [EUROSEC'22](https://concordia-h2020.eu/eurosec-2022/).
- - 2022-01: [Gabe's][gabriel] paper [characterizing simple MFCs](/pubs/marcano2022iscasMFCs.pdf) accepted at [ISCAS'22](https://www.iscas2022.org/).
- - 2021-09: [Virginia's][virginiaSalo] paper describing [SociTrack's usage in developmental psychology applications](pubs/salo2022tottagmethods.pdf) published in [Behavior Research Methods](https://www.springer.com/journal/13428).
 
 <!-- Let's mark 1y as reasonable cut-off? Would be cool to automate this someday... -->
 <details markdown="1">
 <summary>Further back in time...</summary>
 
+ - 2022-01: [Gabe's][gabriel] paper [characterizing simple MFCs](/pubs/marcano2022iscasMFCs.pdf) accepted at [ISCAS'22](https://www.iscas2022.org/).
+ - 2021-09: [Virginia's][virginiaSalo] paper describing [SociTrack's usage in developmental psychology applications](pubs/salo2022tottagmethods.pdf) published in [Behavior Research Methods](https://www.springer.com/journal/13428).
  - 2021-08: [Dhananjay][dhananjay] and [Alex's][alexy] paper [measuring the Helium Network](/pubs/jagtapyen2021helium.pdf) accepted at [IMC'21](https://conferences.sigcomm.org/imc/2021/).
  - 2021-07: [Gabe's][gabriel] paper investigating [conventional energy harvesters with soil-based MFCs](/pubs/marcano2021einkbiobattery.pdf) accepted at [LP-IoT'21](https://www.witechlab.com/lpiot2021/#).
  - 2021-05: [Alex][alexy] wins **Best Presentation (Runner-Up)** at [CPS-IoTBench'21](https://www.iotbench.ethz.ch/cps-iotbench-2021/) – congratulations!
