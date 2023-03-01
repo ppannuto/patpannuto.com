@@ -277,6 +277,13 @@ A [history of my teaching prior to joining UCSD](/teaching.html) is also availab
 
 <hr />
 
+#### <a name="sustainability"></a> Sustainable Computing
+<div class="paper-list" markdown="1">
+{
+[ASPLOS'23](/pubs/switzer2023junkyardcloud.pdf)
+}
+</div>
+
 #### <a name="scavenging"></a> Energy Scavenging
 <div class="paper-list" markdown="1">
 {
