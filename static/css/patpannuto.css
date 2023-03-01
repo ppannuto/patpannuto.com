@@ -80,3 +80,8 @@ summary {
 	border-left: 0 solid #ffa;
 }
 
+.paper-list {
+	font-size: 80%;
+	font-weight: 400;
+	margin-top: -8px;
+}

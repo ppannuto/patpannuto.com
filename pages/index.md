@@ -275,24 +275,27 @@ A [history of my teaching prior to joining UCSD](/teaching.html) is also availab
 <hr />
 
 #### <a name="scavenging"></a> Energy Scavenging
-
-<small>
+<div class="paper-list" markdown="1">
 {
 [HotOs'21](/pubs/jagtap2021centuryinfra.pdf) |
 [ENSsys'20](/pubs/jagtap2020reliable.pdf)
 }
-</small>
+</div>
 
 ##### Soil MFCs
-
-<small>
+<div class="paper-list" markdown="1">
 {
 [LP-IoT'21](/pubs/marcano2021einkbiobattery.pdf) |
 [Sensors Letters'20](/pubs/josephson2020farmingelectrons.pdf)
 }
-</small>
+</div>
 
 ##### Corrosion Batteries
+<div class="paper-list" markdown="1">
+{
+[IPSN'21](/pubs/jagtap2021cathodicprotection.pdf)
+}
+</div>
 
 <div class="row" markdown="1">
 <div class="col-md-7" markdown="1">
@@ -324,34 +327,34 @@ Today, these test points receive only infrequent, costly, manual sampling.
 </div>
 </div>
 
-<small>
-{
-[IPSN'21](/pubs/jagtap2021cathodicprotection.pdf)
-}
-</small>
 
 
 
 #### <a name="socitrack"></a> Social Interaction Tracking
-
-<small>
+<div class="paper-list" markdown="1">
 {
 [Behavior Research Methods'21](/pubs/salo2022tottagmethods.pdf) |
 [MobiCom'20](/pubs/biri2020socitrack.pdf)
 }
-</small>
+</div>
 
 
 #### <a name="infra"></a> Infrastructure
-
-<small>
+<div class="paper-list" markdown="1">
 {
 [IMC'21](/pubs/jagtapyen2021helium.pdf)
 }
-</small>
+</div>
 
 
 #### <a name="tock"></a> The Tock Operating System
+<div class="paper-list" markdown="1">
+{
+[SOSP'17](/pubs/levy17multiprogramming.pdf) |
+[APSys'17](/pubs/levy17rustkernel.pdf) |
+[PLOS'15](/pubs/levy15ownership.pdf)
+}
+</div>
 <div class="row" markdown="1">
 <div class="col-md-10" markdown="1">
 Low-power microcontrollers lack some of the hardware features and memory
@@ -383,22 +386,14 @@ security module, which is built on top of Tock.
 [www.tockos.org](https://www.tockos.org/)
 </div>
 </div>
-<small>
-{
-[SOSP'17](/pubs/levy17multiprogramming.pdf) |
-[APSys'17](/pubs/levy17rustkernel.pdf) |
-[PLOS'15](/pubs/levy15ownership.pdf)
-}
-</small>
 
 
 #### <a name="repro"></a> Reproducibility, Robustness, & Rigor
-
-<small>
+<div class="paper-list" markdown="1">
 {
 [CPS-IoTBench'21](/pubs/yen2021repro.pdf)
 }
-</small>
+</div>
 
 
 <hr />
@@ -415,6 +410,15 @@ so I'm not quite willing to delete it from my website yet :).
 
 
 #### <a name="gridwatch"></a> GridWatch and The Open INcentive Kit
+<div class="paper-list" markdown="1">
+{
+[COMPASS'19](/pubs/klugman19scale.pdf) |
+[GetMobile'19](/pubs/klugman19oldtricks.pdf) |
+[ICTD'19](/pubs/klugman19oink.pdf) |
+[MobiCom'18](/pubs/klugman18liberation.pdf) |
+[HotMobile'14](/pubs/klugman14gridwatch.pdf)
+}
+</div>
 
 ##### [Check out nLine, which is commercializing this work!](https://nline.io/)
 
@@ -444,23 +448,27 @@ managing incentive-based studies. With OINK, experimenters set up a series of
 rules that express when and how study participants should be incentivized. OINK
 monitors a study, automatically triggers incentives, and handles disbursements.
 
-<small>
-{
-[COMPASS'19](/pubs/klugman19scale.pdf) |
-[GetMobile'19](/pubs/klugman19oldtricks.pdf) |
-[ICTD'19](/pubs/klugman19oink.pdf) |
-[MobiCom'18](/pubs/klugman18liberation.pdf) |
-[HotMobile'14](/pubs/klugman14gridwatch.pdf)
-}
-</small>
-
 [gridwatch]: http://lab11.eecs.umich.edu/projects/gridwatch/ "GridWatch: Mapping Blackouts with Smart Phones"
 [fancythat]: https://dl.acm.org/citation.cfm?id=3209864
 [powerwatch]: https://github.com/lab11/PlugWatch/tree/master/powerwatch
 [mccghana]: https://www.mcc.gov/where-we-work/program/ghana-power-compact
 [oink]: https://openincentivekit.com
 
+
 #### <a name="m3"></a> Michigan Micro Mote & MBus
+<div class="paper-list" markdown="1">
+{
+[DATE'19](/pubs/oh2019IoT2.pdf) |
+[JSTS'16](/pubs/lee16mbus.pdf) |
+**[Micro Top Picks '16](/pubs/pannuto16mbus-top-picks.pdf)** |
+**[ISCA'15](/pubs/pannuto15mbus.pdf)** |
+**[WARP'15](/pubs/pannuto15making-m3.pdf)** |
+[CICC'14](/pubs/kuo14mbus.pdf) |
+[VLSI'14](/pubs/blaauw14iot.pdf) |
+[VLSI'14](/pubs/kim14motion.pdf) |
+[JSSC'13](/pubs/lee13modular.pdf)
+}
+</div>
 <div class="row" markdown="1">
 <div class="col-md-10" markdown="1">
 The Michigan Micro Mote, or M<sup>3</sup> project, aims to bring
@@ -484,19 +492,6 @@ You can [see the exhibit online here][chm].
 ![M3 node on edge of US nickel coin](/images/research/m3-nickel-square.jpg){: .img-fluid }
 </div>
 </div>
-<small>
-{
-[DATE'19](/pubs/oh2019IoT2.pdf) |
-[JSTS'16](/pubs/lee16mbus.pdf) |
-**[Micro Top Picks '16](/pubs/pannuto16mbus-top-picks.pdf)** |
-**[ISCA'15](/pubs/pannuto15mbus.pdf)** |
-**[WARP'15](/pubs/pannuto15making-m3.pdf)** |
-[CICC'14](/pubs/kuo14mbus.pdf) |
-[VLSI'14](/pubs/blaauw14iot.pdf) |
-[VLSI'14](/pubs/kim14motion.pdf) |
-[JSSC'13](/pubs/lee13modular.pdf)
-}
-</small>
 
 
 #### <a name="localization"></a> Localization
@@ -510,6 +505,11 @@ I have worked on several localization efforts, tackling different
 applications:
 
 ##### <a name="slocalization"></a> Slocalization
+<div class="paper-list" markdown="1">
+{
+**[IPSN'18](/pubs/pannuto18slocalization.pdf)**
+}
+</div>
 <div class="row" markdown="1">
 <div class="col-md-9" markdown="1">
 For most of modern history, massive effort has gone into the careful
@@ -532,11 +532,14 @@ backscatter.
 ![Backside of tag hardware](/images/research/sloc-tag-back-500px.png){: .img-fluid }
 </div>
 </div>
-<small>{
-**[IPSN'18](/pubs/pannuto18slocalization.pdf)** }
-</small>
 
 ##### <a name="surepoint"></a> SurePoint
+<div class="paper-list" markdown="1">
+{
+[SenSys'16](/pubs/kempke16surepoint.pdf) |
+[HotWireless'15](/pubs/kempke15polypoint.pdf)
+}
+</div>
 In late 2013, DecaWave released the first (and as of 2019 still only)
 commercially available ultra wideband transceiver. While ultra wideband
 provides the potential for extremely accurate range estimates, in practice
@@ -544,12 +547,17 @@ single range estimates can exhibit variation well over a meter.  SurePoint
 explores what's required to build a scalable, high-fidelity, and
 high-reliability (29 cm 50th percentile, 77 cm 99th percentile accuracy of raw
 range estimates) system atop a UWB ranging primitive.
-<br /><small>{
-[SenSys'16](/pubs/kempke16surepoint.pdf) |
-[HotWireless'15](/pubs/kempke15polypoint.pdf) }
-</small>
+<br />
 
 ##### <a name="harmonium"></a> [Harmonium][harmonia]
+<div class="paper-list" markdown="1">
+{
+**[TOSN'18](/pubs/pannuto18harmonium.pdf)** |
+[IPSN'16](/pubs/kempke16harmonium.pdf) |
+[MC<sup>2</sup>R'15](/pubs/kempke15harmonia.pdf) |
+[HotWireless'14](/pubs/kempke14harmonia.pdf)
+}
+</div>
 <div class="row" markdown="1">
 <div class="col-md-9" markdown="1">
 Ultra wideband tracking (order 1-10 cm) with only narrowband components of
@@ -560,14 +568,13 @@ fast-moving (up to 2.4 m/s) tags.
 ![Harmonium tag mounted on a micro quadrotor](/images/research/harm-quad-with-tag.jpg){: .img-fluid }
 </div>
 </div>
-<small>{
-**[TOSN'18](/pubs/pannuto18harmonium.pdf)** |
-[IPSN'16](/pubs/kempke16harmonium.pdf) |
-[MC<sup>2</sup>R'15](/pubs/kempke15harmonia.pdf) |
-[HotWireless'14](/pubs/kempke14harmonia.pdf) }
-</small>
 
 ##### <a name="luxapose"></a> [Luxapose][luxapose]
+<div class="paper-list" markdown="1">
+{
+[MobiCom'14](/pubs/kuo14luxapose.pdf)
+}
+</div>
 <div class="row" markdown="1">
 <div class="col-md-10" markdown="1">
 An exploration in using lighting infrastructure for astral navigation indoors.
@@ -581,11 +588,13 @@ LED lighting infrastructure, in particular check out
 ![Luxapose image processing snapshot](/images/research/vlc-centers.png){: .img-fluid }
 </div>
 </div>
-<small>{
-[MobiCom'14](/pubs/kuo14luxapose.pdf) }
-</small>
 
 ##### <a name="opo"></a> [Opo][opo]
+<div class="paper-list" markdown="1">
+{
+[SenSys'14](/pubs/huang14opo.pdf)
+}
+</div>
 <div class="row" markdown="1">
 <div class="col-md-8" markdown="1">
 An exploration in _relative_ location, a low-power (126 J/day) wearable badge
@@ -601,9 +610,6 @@ support handwashing studies in hospital settings.
 ![Various configurations of people wearing Opo tags](/images/research/opo-quad.png){: .img-fluid }
 </div>
 </div>
-<small>{
-[SenSys'14](/pubs/huang14opo.pdf) }
-</small>
 
 [luxapose]: http://lab11.eecs.umich.edu/projects/vlc_localization/ "Luxapose: Indoor Positioning with Mobile Phones and Visible Light"
 [harmonia]: http://lab11.eecs.umich.edu/projects/harmonia/ "Harmonia: Wideband Spreading for Accurate Indoor RF Localization"
@@ -611,6 +617,11 @@ support handwashing studies in hospital settings.
 
 
 #### <a name="signpost"></a> The Signpost City-Scale Sensing Project
+<div class="paper-list" markdown="1">
+{
+[IPSN'18](/pubs/adkins18signpost.pdf)
+}
+</div>
 <div class="row" markdown="1">
 <div class="col-md-9" markdown="1">
 City-scale sensing holds the promise of enabling deeper understanding of our
@@ -626,11 +637,6 @@ and experimentation for city-scale applications.
 ![A deployed signpost in the wild](/images/research/signpost-closeup-square.jpg){: .img-fluid }
 </div>
 </div>
-<small>
-{
-[IPSN'18](/pubs/adkins18signpost.pdf)
-}
-</small>
 
 
 
