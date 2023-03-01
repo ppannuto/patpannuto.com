@@ -202,7 +202,7 @@ A [history of my teaching prior to joining UCSD](/teaching.html) is also availab
 
 <tr markdown="1">
 <td>2020–present</td>
-<td markdown="1">[Alex Yen][alexy] (PhD, CSE)</td>
+<td markdown="1">[Alex Yen][alexy] (NSF GRFP Fellow; PhD, CSE)</td>
 </tr>
 
 <tr style="border-bottom: 1px dashed grey">
