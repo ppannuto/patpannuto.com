@@ -201,8 +201,9 @@ if __name__ == '__main__':
 		if md[-3:] == '.md':
 			md_to_html('pages', '/', md)
 
-	logger.info('Process classes')
-	DirectoryWalker().process('classes')
+	if 'NOCLASS' not in os.environ:
+		logger.info('Process classes')
+		DirectoryWalker().process('classes')
 
 	logger.info('Building publications database...')
 	publications.generate_publications_page(pubs_groups, jinja_env)
