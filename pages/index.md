@@ -114,7 +114,7 @@ A complete list is available on my [publications page](/publications.html).
 
 #### <a name="teaching"></a>Teaching
 
- - `[SP23]` CSE291 – Critical Analysis in Computing
+ - `[SP23]` [CSE291 – Critical Analysis in Computing](https://sites.google.com/eng.ucsd.edu/sp23-cse291-critical-computing/)
  - `[WI23]` [WES269 – Wireless and Communication in the Internet of Things](https://sites.google.com/eng.ucsd.edu/wi23-wes269/)
  - `[WI23]` [CSE240A – Principles in Computer Architecture](https://sites.google.com/eng.ucsd.edu/wi23-cse240a/)
  - `[FA22]` [CSE190/CSE291 – Wireless and Communication in the Internet of Things](/classes/2022/fall/wireless-iot/)
