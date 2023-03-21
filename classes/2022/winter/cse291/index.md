@@ -432,8 +432,8 @@ Winter Quarter ends             Saturday, March 19
     </td>
   </tr>
   <tr>
-    <td>Mar&nbsp;9</td>
-    <td>VLC, IR, Ultrasonic</td>
+    <td>Mar&nbsp;9<br/><a href="WI22_cse291-18-NonRFStuff.pptx">[slides]</a><a href="WI22_cse291-18-NonRFStuff.pdf">[pdf]</a></td>
+    <td>Non-RF Stuff: VLC, IR, Ultrasonic</td>
   </tr>
   <tr class="table-warning">
     <td>Mar&nbsp;11</td>
