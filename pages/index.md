@@ -58,7 +58,7 @@ health monitoring](#gridwatch).
 
 #### News
 
- - 2023-03: **[Jen's][jennifer] paper [repurposing smartphones as servers](switzer2023junkyardcloud.pdf) honored with a Distinguished Paper Award at [ASPLOS'23](https://asplos-conference.org/2023/)** – Congratulations Jen!
+ - 2023-03: **[Jen's][jennifer] paper [repurposing smartphones as servers](pubs/switzer2023junkyardcloud.pdf) honored with a Distinguished Paper Award at [ASPLOS'23](https://asplos-conference.org/2023/)** – Congratulations Jen!
  - 2023-02: [Alex B's][balex] paper demonstrating [data muling over the Apple Find My network](/pubs/bellon2023tagalong.pdf) published at [HotMobile'23](http://www.hotmobile.org/2023/).
  - 2023-01: [Introduction to Development Engineering](https://link.springer.com/book/10.1007/978-3-030-86065-3) textbook published (contrib: Chapter 6).
  - 2022-11: [Alex Y's][alexy] paper [EffiSenseSee: Towards Classifying Light Bulb Types and Energy Efficiency with Camera-Based Sensing][yen2022effiSenseSee] published at [BuildSys'22](https://buildsys.acm.org/2022/).
