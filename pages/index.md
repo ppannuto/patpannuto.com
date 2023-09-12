@@ -696,6 +696,14 @@ My graduate studies were also generously supported by the [Semiconductor Researc
 through both the [TerraSwarm][terraswarm] program (part of [STARnet][starnet]) and the
 [CONIX][conix] center (part of [JUMP][jump]).
 
+---
+
+These are some references I've found useful, as much links for myself as anything—
+
+ - **PCB Design**
+    - [TI's PCB Guidelines For Reduced EMI](https://www.ti.com/lit/an/szza009/szza009.pdf)
+    - [Lab11 PCB Guideline](https://github.com/lab11/wiki/blob/master/tactics/pcb.md)
+
 [terraswarm]: https://ptolemy.berkeley.edu/projects/terraswarm/
 [conix]: https://conix.io/
 [src]: https://www.src.org
