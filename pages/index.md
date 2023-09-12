@@ -201,6 +201,16 @@ A [history of my teaching prior to joining UCSD](/teaching.html) is also availab
 </tr>
 
 <tr markdown="1">
+<td>2023–present</td>
+<td markdown="1">[Tyler Potyondy][tpotyondy] (MS, CSE)</td>
+</tr>
+
+<tr markdown="1">
+<td>2022–present</td>
+<td markdown="1">[Anthony Quiroga][aquiroga] (MS, CSE)</td>
+</tr>
+
+<tr markdown="1">
 <td>2020–present</td>
 <td markdown="1">[Jennifer Switzer][jennifer] (Co-Advised with [Ryan Kastner](http://kastner.ucsd.edu/); PhD, CSE)</td>
 </tr>
@@ -227,8 +237,13 @@ A [history of my teaching prior to joining UCSD](/teaching.html) is also availab
 <table markdown="1" class="webcv">
 
 <tr markdown="1">
-<td>2021–present</td>
-<td markdown="1">Anthony Quiroga</td>
+<td>2023–present</td>
+<td markdown="1">[Jacob Liu][jacob-liu]</td>
+</tr>
+
+<tr markdown="1">
+<td>2021–2022</td>
+<td markdown="1">Anthony Quiroga (BS, CSE) &rarr; UCSD MS</td>
 </tr>
 
 </table>
@@ -726,6 +741,9 @@ These are some references I've found useful, as much links for myself as anythin
 [virginiaSalo]: https://www.vanderbilt.edu/psychological_sciences/bio/virginia-salo
 [hayers]: https://sing.stanford.edu/site/users/46
 [balex]: https://www.sysnet.ucsd.edu/~abellon/
+[tpotyondy]: https://www.linkedin.com/in/tyler-potyondy-88553b124
+[jacob-liu]: https://www.linkedin.com/in/jacob-liu-731100129
+[aquiroga]: https://www.linkedin.com/in/anthony-quiroga-bab181235
 
 [josephson2022getmobile]: pubs/josephson2022getmobile.pdf
 [yen2022effiSenseSee]: pubs/yen2022effiSenseSee.pdf
