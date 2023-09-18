@@ -211,6 +211,11 @@ A [history of my teaching prior to joining UCSD](/teaching.html) is also availab
 </tr>
 
 <tr markdown="1">
+<td>2023–present</td>
+<td markdown="1">[Alexander Redding][aredding] (Co-Advised with [Ryan Kastner](http://kastner.ucsd.edu/); PhD, CSE)</td>
+</tr>
+
+<tr markdown="1">
 <td>2020–present</td>
 <td markdown="1">[Jennifer Switzer][jennifer] (Co-Advised with [Ryan Kastner](http://kastner.ucsd.edu/); PhD, CSE)</td>
 </tr>
@@ -744,6 +749,7 @@ These are some references I've found useful, as much links for myself as anythin
 [tpotyondy]: https://www.linkedin.com/in/tyler-potyondy-88553b124
 [jacob-liu]: https://www.linkedin.com/in/jacob-liu-731100129
 [aquiroga]: https://www.linkedin.com/in/anthony-quiroga-bab181235
+[aredding]: https://alexanderredding.com/
 
 [josephson2022getmobile]: pubs/josephson2022getmobile.pdf
 [yen2022effiSenseSee]: pubs/yen2022effiSenseSee.pdf
