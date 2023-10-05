@@ -130,7 +130,7 @@ A complete list is available on my [publications page](/publications.html).
  - `[WI20]` [CSE291 - K00: Platforms and Systems to Bridge the Digital and Physical World](/classes/2020/winter/cse291/)
 
 I also co-founded the
-[UCSD Embedded Systems Seminar](https://sites.google.com/eng.ucsd.edu/embeddedlunch/),
+[UCSD Embedded Systems Seminar](https://sites.google.com/ucsd.edu/emsyslunch/),
 which now runs every quarter.
 I am instructor of record for the seminar in `[FA23]`, `[WI23]`, `[WI22]`, `[FA21]`, `[WI21]`, and `[FA20]`.
 
