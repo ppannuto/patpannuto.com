@@ -58,6 +58,7 @@ health monitoring](#gridwatch).
 
 #### News
 
+ - 2023-10: **[Jen][jennifer] awarded a [Google PhD Fellowship](https://research.google/outreach/phd-fellowship/recipients/)** – Congratulations Jen!
  - 2023-10: [Alexander's][aredding] paper [EmbHD: A Library for Hyperdimensional Computing Research on MCU-Class Devices](/pubs/redding2023embHD.pdf) published at [NET4us 2023](https://grc.webs.upv.es/events/net4us2023/).
  - 2023-03: **[Jen's][jennifer] paper [repurposing smartphones as servers](pubs/switzer2023junkyardcloud.pdf) honored with a Distinguished Paper Award at [ASPLOS'23](https://asplos-conference.org/2023/)** – Congratulations Jen!
  - 2023-02: [Alex B's][balex] paper demonstrating [data muling over the Apple Find My network](/pubs/bellon2023tagalong.pdf) published at [HotMobile'23](http://www.hotmobile.org/2023/).
