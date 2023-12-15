@@ -6,7 +6,7 @@
 	{% endif %}
 	<span class="bib_title">
 		{% if 'to-appear' in pub %}
-		<span class="label label-info">To Appear</span> {{ pub['title-html'] }}
+			<span class="label label-info"><i>To Appear:</i></span> {{ pub['title-html'] }}
 		{% else %}
 		<a id="{{ bibkey }}-title" href="{{ paths['pdf'] }}">{{ pub['title-html'] }}</a>
 		{% endif %}
