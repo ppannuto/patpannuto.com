@@ -189,7 +189,7 @@ A [history of my teaching prior to joining UCSD](/teaching.html) is also availab
 
 <tr markdown="1">
 <td>2023–present</td>
-<td markdown="1">[Alex Bellon][balex] (PhD, CSE)</td>
+<td markdown="1">[Alex Bellon][balex] (San Diego Fellow; Co-Advised with [Deian Stefan](https://cseweb.ucsd.edu/~dstefan/); PhD, CSE)</td>
 </tr>
 
 <tr markdown="1">
