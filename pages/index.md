@@ -118,9 +118,9 @@ A complete list is available on my [publications page](/publications.html).
 
  - `[FA23]` CSE141 – Introduction to Computer Architecture
  - `[SU23]` [WES237B – Introductions to Embedded Systems Design](https://sites.google.com/ucsd.edu/su23-wes237b-introembedded/)
- - `[SP23]` [CSE291 – Critical Analysis in Computing](https://sites.google.com/eng.ucsd.edu/sp23-cse291-critical-computing/)
- - `[WI23]` [WES269 – Wireless and Communication in the Internet of Things](https://sites.google.com/eng.ucsd.edu/wi23-wes269/)
- - `[WI23]` [CSE240A – Principles in Computer Architecture](https://sites.google.com/eng.ucsd.edu/wi23-cse240a/)
+ - `[SP23]` [CSE291 – Critical Analysis in Computing](https://sites.google.com/ucsd.edu/sp23-cse291-critical-computing/)
+ - `[WI23]` [WES269 – Wireless and Communication in the Internet of Things](https://sites.google.com/ucsd.edu/wi23-wes269/)
+ - `[WI23]` [CSE240A – Principles in Computer Architecture](https://sites.google.com/ucsd.edu/wi23-cse240a/)
  - `[FA22]` [CSE190/CSE291 – Wireless and Communication in the Internet of Things](/classes/2022/fall/wireless-iot/)
  - `[SU22]` [WES237B – Introductions to Embedded Systems Design](/classes/2022/summer/wes237b/)
  - `[SP22]` [CSE141 – Introduction to Computer Architecture](/classes/2022/spring/cse141/)
@@ -272,7 +272,7 @@ A [history of my teaching prior to joining UCSD](/teaching.html) is also availab
  - Kaila Marie Rosing
  - Regina García Garza
 
-##### [Early Research Scholars Program (ERSP)](https://ersp.eng.ucsd.edu/)
+##### [Early Research Scholars Program (ERSP)](https://ersp.ucsd.edu/)
 
 ###### AY 2022–2023 Cohort, advised by [Gabriel Marcano][gabriel]
  - Kristin Ebuengan
