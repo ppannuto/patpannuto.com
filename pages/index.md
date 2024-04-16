@@ -241,11 +241,11 @@ A [history of my teaching prior to joining UCSD](/teaching.html) is also availab
 <td markdown="1">[Dhananjay Jagtap][dhananjay] (MS, ECE) &rarr; Apple</td>
 </tr>
 
-<table markdown="1" class="webcv">
+</table>
 
 #### Rotation Students
 
-<table markdown="1">
+<table markdown="1" class="webcv">
 
 <tr markdown="1">
 <td>Spring 2024</td>
