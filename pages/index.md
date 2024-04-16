@@ -143,7 +143,6 @@ A [history of my teaching prior to joining UCSD](/teaching.html) is also availab
 
  - AY 2023-2024:
      - [MobiCom'23](https://www.sigmobile.org/mobicom/2023/) TPC Member (Summer &amp; Winter)
-     - [HotMobile'24](http://www.hotmobile.org/) General Chair
  - AY 2022-2023:
      - [MobiCom'22](https://www.sigmobile.org/mobicom/2022/) TPC Member (Summer &amp; Winter &ndash; **Outstanding PC Member Award**)
      - [LP-IoT'22](https://sites.google.com/uw.edu/lp-iot-2022/) TPC Member
@@ -242,7 +241,11 @@ A [history of my teaching prior to joining UCSD](/teaching.html) is also availab
 <td markdown="1">[Dhananjay Jagtap][dhananjay] (MS, ECE) &rarr; Apple</td>
 </tr>
 
+<table markdown="1" class="webcv">
+
 #### Rotation Students
+
+<table markdown="1">
 
 <tr markdown="1">
 <td>Spring 2024</td>
