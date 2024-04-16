@@ -61,15 +61,15 @@ health monitoring](#gridwatch).
  - 2023-10: **[Jen][jennifer] awarded a [Google PhD Fellowship](https://research.google/outreach/phd-fellowship/recipients/)** – Congratulations Jen!
  - 2023-10: [Alexander's][aredding] paper [EmbHD: A Library for Hyperdimensional Computing Research on MCU-Class Devices](/pubs/redding2023embHD.pdf) published at [NET4us 2023](https://grc.webs.upv.es/events/net4us2023/).
  - 2023-03: **[Jen's][jennifer] paper [repurposing smartphones as servers](pubs/switzer2023junkyardcloud.pdf) honored with a Distinguished Paper Award at [ASPLOS'23](https://asplos-conference.org/2023/)** – Congratulations Jen!
- - 2023-02: [Alex B's][balex] paper demonstrating [data muling over the Apple Find My network](/pubs/bellon2023tagalong.pdf) published at [HotMobile'23](http://www.hotmobile.org/2023/).
- - 2023-01: [Introduction to Development Engineering](https://link.springer.com/book/10.1007/978-3-030-86065-3) textbook published (contrib: Chapter 6).
- - 2022-11: [Alex Y's][alexy] paper [EffiSenseSee: Towards Classifying Light Bulb Types and Energy Efficiency with Camera-Based Sensing][yen2022effiSenseSee] published at [BuildSys'22](https://buildsys.acm.org/2022/).
- - 2022-09: Our [article on energy harvesting from Soil Microbial Fuel Cells][josephson2022getmobile] was published in GetMobile.
 
 <!-- Let's mark 1y as reasonable cut-off? Would be cool to automate this someday... -->
 <details markdown="1">
 <summary>Further back in time...</summary>
 
+ - 2023-02: [Alex B's][balex] paper demonstrating [data muling over the Apple Find My network](/pubs/bellon2023tagalong.pdf) published at [HotMobile'23](http://www.hotmobile.org/2023/).
+ - 2023-01: [Introduction to Development Engineering](https://link.springer.com/book/10.1007/978-3-030-86065-3) textbook published (contrib: Chapter 6).
+ - 2022-11: [Alex Y's][alexy] paper [EffiSenseSee: Towards Classifying Light Bulb Types and Energy Efficiency with Camera-Based Sensing][yen2022effiSenseSee] published at [BuildSys'22](https://buildsys.acm.org/2022/).
+ - 2022-09: Our [article on energy harvesting from Soil Microbial Fuel Cells][josephson2022getmobile] was published in GetMobile.
  - 2022-04: **[Alex Y][alexy] awarded [National Science Foundation Graduate Research Fellowship (NSF&nbsp;GRFP)](https://www.nsfgrfp.org/)** – Congratulations Alex!
  - 2022-03: [Hudson's][hayers] paper on [threat models for embedded systems](/pubs/ayers2022tieredtrust.pdf) accepted at [EUROSEC'22](https://concordia-h2020.eu/eurosec-2022/).
  - 2022-01: [Gabe's][gabriel] paper [characterizing simple MFCs](/pubs/marcano2022iscasMFCs.pdf) accepted at [ISCAS'22](https://www.iscas2022.org/).
@@ -193,6 +193,11 @@ A [history of my teaching prior to joining UCSD](/teaching.html) is also availab
 </tr>
 
 <tr markdown="1">
+<td>2024–present</td>
+<td markdown="1">[Edward Burns][edward-burns] (MS, ECE)</td>
+</tr>
+
+<tr markdown="1">
 <td>2020–present</td>
 <td markdown="1">[Wenshan Luo][wenshan] (PhD, CSE)</td>
 </tr>
@@ -237,6 +242,18 @@ A [history of my teaching prior to joining UCSD](/teaching.html) is also availab
 <td markdown="1">[Dhananjay Jagtap][dhananjay] (MS, ECE) &rarr; Apple</td>
 </tr>
 
+#### Rotation Students
+
+<tr markdown="1">
+<td>Spring 2024</td>
+<td markdown="1">[Janet Vorobyeva][janet-vorobyeva] (PhD, CSE)</td>
+</tr>
+
+<tr markdown="1">
+<td>Spring 2024</td>
+<td markdown="1">[Danial Zuberi][danial-zuberi] (PhD, CSE)</td>
+</tr>
+
 </table>
 
 #### Undergraduate Students
@@ -252,6 +269,17 @@ A [history of my teaching prior to joining UCSD](/teaching.html) is also availab
 <td>2021–2022</td>
 <td markdown="1">Anthony Quiroga (BS, CSE) &rarr; UCSD MS</td>
 </tr>
+
+<tr markdown="1">
+<td>2023–present</td>
+<td markdown="1">[Samir Rashid][samir-rashid] (BS, CSE)</td>
+</tr>
+
+<tr markdown="1">
+<td>2024–present</td>
+<td markdown="1">[Anthony Tarbinian][anthony-tarbinian] (BS, CSE)</td>
+</tr>
+
 
 </table>
 
@@ -752,6 +780,11 @@ These are some references I've found useful, as much links for myself as anythin
 [jacob-liu]: https://www.linkedin.com/in/jacob-liu-731100129
 [aquiroga]: https://www.linkedin.com/in/anthony-quiroga-bab181235
 [aredding]: https://alexanderredding.com/
+[edward-burns]: #
+[samir-rashid]: https://godsped.com/
+[anthony-tarbinian]: https://atarbinian.com/
+[janet-vorobyeva]: https://jvorob.github.io/
+[danial-zuberi]: https://dzuberi.github.io/
 
 [josephson2022getmobile]: pubs/josephson2022getmobile.pdf
 [yen2022effiSenseSee]: pubs/yen2022effiSenseSee.pdf
