@@ -51,6 +51,10 @@ display="Potential for Test of Time 2025 Award, The 2nd ACM Workshop on Hot Topi
 [teaching]
 display="Teaching Honors"
 
+[teaching.ucsdcse2023]
+year=2023
+display="Outstanding Graduate Student Mentoring, Department of Computer Science and Engineering, University of California, San Diego"
+
 [teaching.rackham2017]
 year=2017
 display="University of Michigan Rackham Graduate School Outstanding Graduate Student Instructor"
