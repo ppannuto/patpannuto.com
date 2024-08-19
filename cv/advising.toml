@@ -1,6 +1,97 @@
 display="Advising and Mentoring"
 
-[andreas-biri]
+[phd]
+display = "PhD Students"
+
+[phd.alex-bellon]
+name = "Alex Bellon"
+url = "https://www.sysnet.ucsd.edu/~abellon/"
+degree = "Ph.D."
+start = 2023
+coadv = "Deian Stefan"
+
+[phd.wenshan-luo]
+name = "Wenshan Luo"
+url = "https://wsluo.github.io/"
+degree = "Ph.D."
+start = 2020
+
+[phd.gabriel-marcano]
+name = "Gabriel Marcano"
+url = "https://gabriel.marcanobrady.family/"
+degree = "Ph.D."
+start = 2020
+
+[phd.tyler-potyondy]
+name = "Tyler Potyondy"
+url = "https://www.linkedin.com/in/tyler-potyondy-88553b124"
+degree = "Ph.D."
+start = 2024
+
+[phd.alexander-redding]
+name = "Alexander Redding"
+url = "https://alexanderredding.com/"
+degree = "Ph.D."
+start = 2023
+coadv = "Ryan Kastner"
+
+[phd.jennifer-switzer]
+name = "Jennifer Switzer"
+url = "https://jennifer-switzer.com/"
+degree = "Ph.D."
+start = 2020
+coadv = "Ryan Kastner"
+
+[phd.stephen-taylor]
+name = "Stephen Taylor"
+url = "https://www.linkedin.com/in/stephen-g-taylor"
+degree = "Ph.D."
+start = 2024
+
+[phd.alex-yen]
+name = "Alex Yen"
+url = "https://www.alexlwyen.com/"
+degree = "Ph.D."
+start = 2020
+
+
+
+[ms]
+display = "MS Students"
+
+[ms.edward-burns]
+name = "Edward Burns"
+start = 2024
+degree = "M.Eng."
+discipline = "ECE"
+
+[ms.tyler-potyondy]
+name = "Tyler Potyondy"
+url = "https://www.linkedin.com/in/tyler-potyondy-88553b124"
+degree = "M.Eng."
+next = "Ph.D. program at UC San Diego"
+thesis = "Interface Design and Resource Policies for Networking in Embedded Operating Systems"
+start = 2023
+end = 2023
+
+[ms.anthony-quiroga]
+name = "Anthony Quiroga"
+url = "https://www.linkedin.com/in/anthony-quiroga-bab181235"
+degree = "M.Eng."
+thesis = "The Design and Implementation of a Stereo Camera and Image Processing Pipeline to Resolve the Real World Position of Lighting in the Built Environment"
+start = 2022
+end = 2024
+
+[ms.dhananjay-jagtap]
+name = "Dhananjay Jagtap"
+url = "https://www.linkedin.com/in/dhananjay-jagtap-033a31146"
+degree = "M.Eng."
+discipline = "ECE"
+next = "Apple"
+start = 2020
+end = 2021
+
+[ms.andreas-biri]
 name = "Andreas Biri"
 url = "https://n.ethz.ch/~abiri/"
 degree = "M.Sc."
@@ -9,7 +100,36 @@ thesis = "TotTernary: A wearable platform for social interaction tracking"
 start = 2018
 end = 2018
 
-[noah-nuechterlein]
+[ugrad]
+display = "Undergraduate Students"
+
+[ugrad.samir-rashid]
+name = "Samir Rashid"
+url = "https://godsped.com/"
+context = "Secure Embedded Operating Systems"
+start = 2023
+
+[ugrad.anthony-tarbinian]
+name = "Anthony Tarbinian"
+url = "https://atarbinian.com/"
+context = "Secure Embedded Operating Systems"
+start = 2024
+
+[ugrad.jacob-liu]
+name = "Jacob Liu"
+url = "https://www.linkedin.com/in/jacob-liu-731100129"
+context = "Undergraduate Independent Study: Upcycling discarded smartphones"
+start = 2023
+
+[ugrad.anthony-quiroga]
+name = "Anthony Quiroga"
+context = "Undergraduate Independent Study: Hardware CI design for embedded systems"
+degree = "B.Eng."
+next = "MS program at UC San Diego"
+start = 2021
+end = 2022
+
+[ugrad.noah-nuechterlein]
 name = "Noah Nuechterlein"
 context = "Undergraduate Independent Study: Applied computer vision"
 start = 2014

@@ -185,9 +185,17 @@ with open('gen/service.tex', 'w') as o:
 del service
 
 
+
+
+
+
+
 # n.b. at some point: advising ~same as service; at least for now
 with open('advising.toml', 'rb') as f:
     advising = tomllib.load(f)
+
+with open('advising-rops.toml', 'rb') as f:
+    rops = tomllib.load(f)
 
 with open('gen/advising.tex', 'w') as o:
 
@@ -196,53 +204,93 @@ with open('gen/advising.tex', 'w') as o:
     o.write(r'\section*{' + advising['display'] + '}' + '\n\n')
     del advising['display']
 
-    o.write(r'\renewcommand{\arraystretch}{0.5}' + '\n')
+    for rank in advising:
+        rank = advising[rank]
+        o.write('\n' + '%' + '-'*60 + '%' + '\n')
+        o.write(r'\subsection*{' + escape_latex(rank['display']) + '}\n')
+        o.write(r'\renewcommand{\arraystretch}{0.5}' + '\n')
+        o.write(r'\begin{longtable}{>{\bf}p{2.1cm} l}' + '\n')
 
-    o.write(r'\begin{longtable}{>{\bf}p{2.1cm} l}' + '\n')
+        rows = []
 
-    rows = []
+        for mentee in rank:
+            mentee = rank[mentee]
+            if not isinstance(mentee, dict):
+                continue
 
-    for mentee in advising:
-        mentee = advising[mentee]
-        r = ''
+            r = ''
 
-        # Year column
-        r += '  '
-        if 'end' in mentee:
-            if mentee['start'] == mentee['end']:
-                r += '{:14s}'.format(str(mentee['start']))
+            # Year column
+            r += '  '
+            if 'end' in mentee:
+                if mentee['start'] == mentee['end']:
+                    r += '{:14s}'.format(str(mentee['start']))
+                else:
+                    r += '{:4s}--{:8s}'.format(str(mentee['start']), str(mentee['end']))
             else:
-                r += '{:4s}--{:8s}'.format(str(mentee['start']), str(mentee['end']))
-        else:
-            r += '{:4s}--{:8s}'.format(str(mentee['start']), 'present')
+                r += '{:4s}--{:8s}'.format(str(mentee['start']), 'present')
 
-        # Details column
-        r += r'& \makecell{' + '\n'
-        r += '    '
-        if 'url' in mentee:
-            r += r'\href{' + mentee['url'] + '}{' + mentee['name'] + '}'
-        else:
-            r += mentee['name']
+            # Details column
+            r += r'& \makecell{' + '\n'
+            r += '    '
+            if 'url' in mentee:
+                r += r'\href{' + mentee['url'] + '}{' + mentee['name'] + '}'
+            else:
+                r += mentee['name']
 
-        if 'degree' in mentee:
-            r += ' (' + mentee['degree'] + ')'
+            if 'degree' in mentee:
+                if 'discipline' in mentee:
+                    r += ' (' + mentee['degree'] + ', ' + mentee['discipline'] + ')'
+                else:
+                    r += ' (' + mentee['degree'] + ', CSE)'
 
-        if 'context' in mentee:
-            r += ' (' + escape_latex(mentee['context']) + ')'
+            if 'coadv' in mentee:
+                r += ' [Co-Advised by ' + mentee['coadv'] + ']'
 
-        if 'next' in mentee:
-            r += r' $\rightarrow$ ' + escape_latex(mentee['next'])
+            if 'context' in mentee:
+                r += ' (' + escape_latex(mentee['context']) + ')'
 
-        if 'thesis' in mentee:
-            r += r'\\' + '\n    ' + r'Thesis: \emph{' + escape_latex(mentee['thesis']) + '}'
+            if 'next' in mentee:
+                r += r' $\rightarrow$ ' + escape_latex(mentee['next'])
 
-        r += r'} \\' + '\n'
+            if 'thesis' in mentee:
+                r += r'\\' + '\n    ' + r'Thesis: \emph{' + escape_latex(mentee['thesis']) + '}'
 
-        rows.append(r)
+            r += r'} \\' + '\n'
 
-    table_body = (r'  \\' + '\n\n').join(rows)
-    o.write(table_body)
+            rows.append(r)
 
-    o.write(r'\end{longtable}' + '\n')
-    o.write(r'\renewcommand{\arraystretch}{1.0}' + '\n')
+        table_body = (r'  \\' + '\n\n').join(rows)
+        o.write(table_body)
+
+        o.write(r'\end{longtable}' + '\n')
+        o.write(r'\renewcommand{\arraystretch}{1.0}' + '\n')
+
+    o.write(r'\subsection*{' + escape_latex(rops['display']) + '}\n')
+    for rop in rops:
+        rop = rops[rop]
+        if not isinstance(rop, dict):
+            continue
+
+        o.write('\n' + '%' + '-'*40 + '%' + '\n')
+        o.write(r'\subsubsection*{' + escape_latex(rop['display']) + '}\n')
+        o.write(r'\url{' + rop['url'] + '}\n')
+
+        o.write(r'\begin{itemize}' + '\n')
+        for cohort in rop:
+            cohort = rop[cohort]
+            if not isinstance(cohort, dict):
+                continue
+
+            if "mentor" in cohort:
+                o.write(r'\item[]{' + escape_latex(cohort['display']) + ', advised by ' + cohort['mentor'] + '}\n')
+            else:
+                o.write(r'\item[]{' + escape_latex(cohort['display']) + '}\n')
+            o.write(r'\begin{itemize}' + '\n')
+            for mentee in cohort['mentees']:
+                o.write(r'\item ' + mentee + '\n')
+            o.write(r'\end{itemize}' + '\n')
+        o.write(r'\end{itemize}' + '\n')
+
 del advising
+del rops
