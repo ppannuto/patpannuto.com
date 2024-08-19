@@ -18,7 +18,7 @@ with open('gen/awards.tex', 'w') as o:
     for section in awards:
         section = awards[section]
         o.write('\n' + '%' + '-'*60 + '%' + '\n')
-        o.write(r'\subsection*{' + section['display'] + '}\n')
+        o.write(r'\subsection*{' + escape_latex(section['display']) + '}\n')
         o.write(r'\renewcommand{\arraystretch}{0.5}' + '\n')
         o.write(r'\begin{tabular}{>{\bf}p{1cm} l}' + '\n')
 
@@ -33,6 +33,16 @@ with open('gen/awards.tex', 'w') as o:
             r += str(entry['year'])
             r += ' & '
             r += r'\makecell{'
+
+            if 'honoree' in entry:
+                r += '\\textbf{Honoree: ' + escape_latex(entry['honoree']) + '}'
+                r += '}'
+                r += r' \\' + '\n'
+                rows.append(r)
+
+                r = ''
+                r += ' & '
+                r += r'\makecell{'
 
             r += escape_latex(entry['display'])
             if 'display-extra' in entry:

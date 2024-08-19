@@ -1,5 +1,37 @@
 [fellowships]
-display = "Fellowships"
+display = "Fellowships & Scholarships"
+
+[fellowships.bellon_qif]
+honoree="Alex Bellon"
+year="2024"
+display="Qualcomm Innovation Fellowship"
+display-extra="joint with Tess Despres"
+money="$50,000"
+
+[fellowships.switzer_google]
+honoree="Jennifer Switzer"
+year="2023"
+display="Google PhD Fellowship"
+#money="$35,000 annually, plus tuition"
+money="$105,000 plus tuition"
+
+[fellowships.yen_grfp]
+honoree="Alex Yen"
+year="2022"
+display="National Science Foundation Graduate Research Fellowship (NSF GRFP)"
+money="$111,000 plus tuition"
+
+[fellowships.quiroga_trels]
+honoree="Anthony Quiroga"
+year="2021"
+display="UC San Diego Triton Research & Experiential Learning Scholars (TRELS) Summar Scholarship"
+money="$5,000"
+
+[fellowships.marcano_sloan]
+honoree="Gabriel Marcano"
+year=2020
+display="Sloan Scholar"
+money="$40,000"
 
 [fellowships.qif]
 year=2013
@@ -24,7 +56,21 @@ display="University of Michigan Department of Computer Science First-Year Fellow
 
 
 [publications]
-display="Publication Awards"
+display="Publication & Presentation Awards"
+
+[publications.asplos2023]
+year="2023"
+display="Distinguished Paper Award, Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 2"
+
+[publications.yen_cpsiotbench]
+honoree="Alex Yen"
+year="2021"
+display="Best Presentation (Runner-Up), The 4th Workshop on Benchmarking Cyber-Physical Systems and Internet of Things (CPS-IoTBench)"
+
+[publications.jagtap_enssys]
+honoree="Dhananjay Jagtap"
+year="2020"
+display="Best Presentation (Second Prize), The 8th International Workshop on Energy Harvesting & Energy-Neutral Sensing Systems"
 
 [publications.ipsn2018]
 year=2018
@@ -49,7 +95,7 @@ display="Potential for Test of Time 2025 Award, The 2nd ACM Workshop on Hot Topi
 
 
 [teaching]
-display="Teaching Honors"
+display="Teaching & Mentoring Honors"
 
 [teaching.ucsdcse2023]
 year=2023
