@@ -15,6 +15,87 @@ thing="Computer Science Engineering Graduate Student Body President"
 
 [external]
 
+[external.mobicom2023]
+year=2023
+thing="The 29th Annual International Conference on Mobile Computing and Networking"
+role="TPC Member"
+
+[external.mobicom2022]
+year=2022
+thing="The 28th Annual International Conference on Mobile Computing and Networking"
+role="TPC Member"
+extra="Outstanding PC Member Award"
+
+[external.lpiot2022]
+year=2022
+thing="The 2nd ACM International Workshop on No Power and Low Power Internet of Things"
+role="TPC Member"
+
+[external.sensys2022workshops]
+year=2022
+thing="The 20th ACM Conference on Embedded Networked Sensor Systems (SenSys 2022)"
+role="Workshop/Tutorial Co-Chair"
+
+[external.sensys2022phdforum]
+year=2022
+thing="SenSys'22/BuildSys'22 Joint PhD Forum"
+role="Panelist, Speaker"
+
+[external.hotmobile2023]
+year=2023
+thing="The 24th International Workshop on Mobile Computing Systems and Applications"
+role="TPC Member"
+
+[external.ipsn2023]
+year=2023
+thing="The 22nd International Conference on Information Processing in Sensor Networks (IPSN)"
+role="TPC Member"
+
+[external.ndseg2022]
+year=2022
+thing="NDSEG Subject Matter Expert"
+role="Reviewer"
+
+[external.ipsn2022]
+year=2022
+thing="The 21st International Conference on Information Processing in Sensor Networks (IPSN)"
+role="TPC Member"
+
+[external.iscas2022]
+year=2022
+thing="IEEE International Symposium on Circuits and Systems (ISCAS)"
+role="Reviewer"
+
+[external.cpsiot2022]
+year=2022
+thing="The 5th Workshop on Benchmarking Cyber-Physical Systems and Internet of Things (CPS-IoTBench 2022)"
+role="Workshop Co-Chair"
+
+[external.sensys2021]
+year=2021
+thing="9th International Workshop on Energy Harvesting & Energy-Neutral Sensing Systems"
+role="General Chair"
+
+[external.data2021]
+year=2021
+thing="ACM Workshop on Data Acquisition to Analysis (DATA 21)"
+role="Steering Committee Member"
+
+[external.lpiot2021]
+year=2021
+thing="The 1st ACM International Workshop on No Power and Low Power Internet of Things"
+role="TPC Member"
+
+[external.cpsiot2021]
+year=2021
+thing="The 4th Workshop on Benchmarking Cyber-Physical Systems and Internet of Things (CPS-IoTBench 2021)"
+role="Workshop Co-Chair"
+
+[external.ipsn2021phdforum]
+year=2021
+thing="PhD Forum at The 20th International Conference on Information Processing in Sensor Networks (IPSN)"
+role="Panelist, Reviewer"
+
 [external.ipsn2021]
 year=2021
 thing="The 20th International Conference on Information Processing in Sensor Networks (IPSN)"
@@ -37,6 +118,7 @@ role="General Chair & PC Chair"
 
 [external.tnet]
 start=2019
+end=2021
 thing="IEEE/ACM Transactions on Networking (TNET)"
 role="Recurring reviewer"
 

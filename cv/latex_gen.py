@@ -172,6 +172,11 @@ with open('gen/service.tex', 'w') as o:
                 r += ' -- '
                 r += escape_latex(activity['role'])
 
+            r += '.'
+
+            if 'extra' in activity:
+                r += r' \textbf{\color{BrickRed}' + escape_latex(activity['extra']) + '.}'
+
             r += r'} \\' + '\n'
 
             rows.append(r)
