@@ -1,8 +1,42 @@
 display="Teaching Experience"
 
+[ucsd.sp23-291]
+term = ["2023 Spring"]
+role = "Primary Instructor"
+dept = "CSE"
+number = "291"
+title = "Critical Analysis in Computing"
+
+[ucsd.240a]
+term = ["2023 Winter"]
+role = "Primary Instructor"
+dept = "CSE"
+number = "240A"
+title = "Principles in Computer Architecture"
+
+[ucsd.wes237b]
+term = ["2022 Summer", "2023 Summer"]
+role = "Primary Instructor"
+dept = "WES"
+number = "237B"
+title = "Introductions to Embedded Systems Design"
+
+[ucsd.wxiot]
+term = ["2022 Winter", "2022 Fall", "2023 Winter"]
+role = "Primary Instructor"
+dept = "CSE/WES"
+number = "{122/190/222C/291}/269"
+title = "Wireless and Communication in the Internet of Things"
+
+[ucsd.141l]
+term = ["2022 Winter"]
+role = "Primary Instructor"
+dept = "CSE"
+number = "141L"
+title = "Introduction to Computer Architecture Lab"
 
 [ucsd.141]
-term = ["2020 Fall"]
+term = ["2020 Fall", "2022 Spring", "2023 Fall"]
 role = "Primary Instructor"
 dept = "CSE"
 number = "141"
@@ -16,7 +50,7 @@ number = "290"
 title = "Seminar on Topics in Embedded Systems"
 url = "https://sites.google.com/eng.ucsd.edu/embeddedlunch/"
 
-[ucsd.291]
+[ucsd.wi20-291]
 term = ["2020 Winter"]
 role = "Primary Instructor"
 dept = "CSE"
