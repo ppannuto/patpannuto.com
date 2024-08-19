@@ -6,6 +6,21 @@ role = "Primary Instructor"
 dept = "CSE"
 number = "291"
 title = "Critical Analysis in Computing"
+extra-md = """
+This course is the product of our cohort's participation in the
+[Cultural Competence in Computing (3C) Fellowship Program](https://identity.cs.duke.edu/fellows.html).
+
+This course aims to introduce computer scientists and engineers to the
+principles of critical analysis and to teach them how to apply critical
+analysis to current and emerging technologies.
+The intended audience of this course is graduate or senior students who have
+deep technical knowledge, but more limited experience reasoning about human and
+societal factors. This course aims to be a bridge, presenting an accelerated
+introduction to contemporary social science and critical analysis in a manner
+familiar to engineering scholars.
+
+Course website: [sites.google.com/ucsd.edu/sp23-cse291-critical-computing/](https://sites.google.com/ucsd.edu/sp23-cse291-critical-computing/)"""
+
 
 [ucsd.240a]
 term = ["2023 Winter"]
@@ -27,6 +42,22 @@ role = "Primary Instructor"
 dept = "CSE/WES"
 number = "{122/190/222C/291}/269"
 title = "Wireless and Communication in the Internet of Things"
+extra-md = """
+This course is the subject of
+[our 2024 SIGCSE paper](https://dl.acm.org/doi/10.1145/3626252.3630848).
+
+This class focuses on how a system designer should choose and use the wide
+array of wireless technologies. Specifically, we look at WiFi, Classic
+Bluetooth, Bluetooth Low Energy, IEEE 802.15.4, 2g/3g/4g/5g cellular, LTE-M,
+NB-IoT, LoRa, SigFox, and some time with more esoteric choices, such as Visible
+Light Communication (VLC), Infrared Communication (IR), Ultrasonic, and
+boutique RF such as wake-up radios and backscatter. Persons finishing this
+course should be well-suited for work in real-world IoT systems upon
+completion.
+
+Materials for lectures, labs, and projects are open and available for quarter
+system, semester system, and professional masters versions of this course.
+"""
 
 [ucsd.141l]
 term = ["2022 Winter"]

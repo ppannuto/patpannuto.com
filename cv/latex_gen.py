@@ -106,9 +106,9 @@ with open('gen/teaching.tex', 'w') as o:
 
             # Extra notes?
             if 'extra-md' in course:
-                r += r'\\[.5em]'
+                r += r'\\[.5em]\footnotesize '
                 md = pandoc.read(course['extra-md'])
-                r += pandoc.write(md, format='latex').replace('\n\n', '\n' + r'\\[0.5em]')
+                r += pandoc.write(md, format='latex').replace('\n\n', '\n' + r'\\[0.5em]\footnotesize ')
 
             # Close makecell
             r += r'  } \\'
