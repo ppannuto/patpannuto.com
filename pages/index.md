@@ -116,6 +116,9 @@ A complete list is available on my [publications page](/publications.html).
 
 #### <a name="teaching"></a>Teaching
 
+ - `[SP25]` CSE141 – Introduction to Computer Architecture
+ - `[WI25]` WES269 – Wireless and Communication in the Internet of Things
+ - `[WI25]` CSE122 / CSE222C – Wireless Networks
  - `[FA23]` CSE141 – Introduction to Computer Architecture
  - `[SU23]` [WES237B – Introductions to Embedded Systems Design](https://sites.google.com/ucsd.edu/su23-wes237b-introembedded/)
  - `[SP23]` [CSE291 – Critical Analysis in Computing](https://sites.google.com/ucsd.edu/sp23-cse291-critical-computing/)
@@ -133,7 +136,7 @@ A complete list is available on my [publications page](/publications.html).
 I also co-founded the
 [UCSD Embedded Systems Seminar](https://sites.google.com/ucsd.edu/emsyslunch/),
 which now runs every quarter.
-I am instructor of record for the seminar in `[FA23]`, `[WI23]`, `[WI22]`, `[FA21]`, `[WI21]`, and `[FA20]`.
+I am instructor of record for the seminar in `[SP25]`, `[FA23]`, `[WI23]`, `[WI22]`, `[FA21]`, `[WI21]`, and `[FA20]`.
 
 A [history of my teaching prior to joining UCSD](/teaching.html) is also available.
 
@@ -141,6 +144,9 @@ A [history of my teaching prior to joining UCSD](/teaching.html) is also availab
 
 #### <a name="service"></a>Service
 
+ - AY 2024-2025:
+     - [SenSys'24](https://sensys.acm.org/2024/) TPC Member
+     - [MobiCom'24](https://www.sigmobile.org/mobicom/2024/) TPC Member (Winter)
  - AY 2023-2024:
      - [MobiCom'23](https://www.sigmobile.org/mobicom/2023/) TPC Member (Summer &amp; Winter)
  - AY 2022-2023:
@@ -150,6 +156,10 @@ A [history of my teaching prior to joining UCSD](/teaching.html) is also availab
      - [SenSys/BuildSys'22 Joint PhD Forum](https://sensys.acm.org/2022/dc/) Panelist, Speaker
      - [HotMobile'23](http://www.hotmobile.org/2023/) TPC Member
      - [IPSN'23](https://ipsn.acm.org/2023/) TPC Member
+
+<details markdown="1">
+<summary>Further back in time...</summary>
+
  - AY 2021-2022:
      - [ENSsys@SenSys'21](http://www.enssys.org/2021/) General Chair
      - [DATA'21](https://data-workshop.github.io/DATA2021/) Steering Committee Member
@@ -159,10 +169,6 @@ A [history of my teaching prior to joining UCSD](/teaching.html) is also availab
      - [IPSN'22](https://ipsn.acm.org/2022/) TPC Member
      - [ISCAS'22](https://www.iscas2022.org/) Reviewer
      - [CPS-IoTBench'22](https://www.iotbench.ethz.ch/cps-iotbench-2022/) Workshop Co-Chair
-
-<details markdown="1">
-<summary>Further back in time...</summary>
-
  - AY 2020-2021:
      - [DATA'20](https://workshopdata.github.io/DATA2020/) Workshop Co-Chair
      - [ENSsys'20](http://www.enssys.org/2020/) TPC Member
@@ -224,6 +230,16 @@ A [history of my teaching prior to joining UCSD](/teaching.html) is also availab
 <tr markdown="1">
 <td>2020–present</td>
 <td markdown="1">[Jennifer Switzer][jennifer] (Co-Advised with [Ryan Kastner](http://kastner.ucsd.edu/); PhD, CSE)</td>
+</tr>
+
+<tr markdown="1">
+<td>2024–present</td>
+<td markdown="1">[Stephen Taylor][stephen] (PhD, CSE)</td>
+</tr>
+
+<tr markdown="1">
+<td>2024–present</td>
+<td markdown="1">[Keerthivasan Vijayakumar][keerthivasan] (Co-Advised with [Rajesh Gupta](http://mesl.ucsd.edu/gupta/); PhD, ECE)</td>
 </tr>
 
 <tr markdown="1">
@@ -788,6 +804,8 @@ These are some references I've found useful, as much links for myself as anythin
 [anthony-tarbinian]: https://atarbinian.com/
 [janet-vorobyeva]: https://jvorob.github.io/
 [danial-zuberi]: https://dzuberi.github.io/
+[keerthivasan]: https://www.linkedin.com/in/vkvasan6
+[stephen]: https://www.linkedin.com/in/stephen-g-taylor
 
 [josephson2022getmobile]: pubs/josephson2022getmobile.pdf
 [yen2022effiSenseSee]: pubs/yen2022effiSenseSee.pdf
