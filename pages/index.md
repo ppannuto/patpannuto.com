@@ -193,18 +193,8 @@ A [history of my teaching prior to joining UCSD](/teaching.html) is also availab
 <table markdown="1" class="webcv">
 
 <tr markdown="1">
-<td>2023–present</td>
-<td markdown="1">[Alex Bellon][balex] (San Diego Fellow; Co-Advised with [Deian Stefan](https://cseweb.ucsd.edu/~dstefan/); PhD, CSE)</td>
-</tr>
-
-<tr markdown="1">
-<td>2024–present</td>
-<td markdown="1">[Edward Burns][edward-burns] (MS, ECE)</td>
-</tr>
-
-<tr markdown="1">
 <td>2020–present</td>
-<td markdown="1">[Wenshan Luo][wenshan] (PhD, CSE)</td>
+<td markdown="1">[Wenshan Luo][wenshan] (MS &#x2714;; PhD, CSE)</td>
 </tr>
 
 <tr markdown="1">
@@ -213,13 +203,27 @@ A [history of my teaching prior to joining UCSD](/teaching.html) is also availab
 </tr>
 
 <tr markdown="1">
-<td>2023–present</td>
-<td markdown="1">[Tyler Potyondy][tpotyondy] (MS, CSE)</td>
+<td>2020–present</td>
+<td markdown="1">[Jennifer Switzer][jennifer] (Co-Advised with [Ryan Kastner](http://kastner.ucsd.edu/); PhD, CSE)</td>
 </tr>
 
 <tr markdown="1">
-<td>2022–present</td>
-<td markdown="1">[Anthony Quiroga][aquiroga] (MS, CSE)</td>
+<td>2020–present</td>
+<td markdown="1">[Alex Yen][alexy] (NSF GRFP Fellow; PhD, CSE)</td>
+</tr>
+
+<tr>
+<td colspan="2" style="padding-top: 5px;"></td>
+</tr>
+
+<tr markdown="1">
+<td>2023–present</td>
+<td markdown="1">[Alex Bellon][balex] (San Diego Fellow; Co-Advised with [Deian Stefan](https://cseweb.ucsd.edu/~dstefan/); PhD, CSE)</td>
+</tr>
+
+<tr markdown="1">
+<td>2023–present</td>
+<td markdown="1">[Tyler Potyondy][tpotyondy] (MS [thesis][potyondy-ms-thesis] &#x2714;; PhD, CSE)</td>
 </tr>
 
 <tr markdown="1">
@@ -227,9 +231,13 @@ A [history of my teaching prior to joining UCSD](/teaching.html) is also availab
 <td markdown="1">[Alexander Redding][aredding] (Co-Advised with [Ryan Kastner](http://kastner.ucsd.edu/); PhD, CSE)</td>
 </tr>
 
+<tr>
+<td colspan="2" style="padding-top: 5px;"></td>
+</tr>
+
 <tr markdown="1">
-<td>2020–present</td>
-<td markdown="1">[Jennifer Switzer][jennifer] (Co-Advised with [Ryan Kastner](http://kastner.ucsd.edu/); PhD, CSE)</td>
+<td>2024–present</td>
+<td markdown="1">[Raymond Dueñas][ray] (Cal-Bridge Scholar; Co-Advised with [Ryan Kastner](http://kastner.ucsd.edu/); PhD, CSE)</td>
 </tr>
 
 <tr markdown="1">
@@ -242,14 +250,48 @@ A [history of my teaching prior to joining UCSD](/teaching.html) is also availab
 <td markdown="1">[Keerthivasan Vijayakumar][keerthivasan] (Co-Advised with [Rajesh Gupta](http://mesl.ucsd.edu/gupta/); PhD, ECE)</td>
 </tr>
 
+<!-- TBD... co- with Dean?
 <tr markdown="1">
-<td>2020–present</td>
-<td markdown="1">[Alex Yen][alexy] (NSF GRFP Fellow; PhD, CSE)</td>
+<td>2024–present</td>
+<td markdown="1">[Janet Vorobyeva][janet-vorobyeva] (PhD, CSE)</td>
 </tr>
+-->
 
 <tr style="border-bottom: 1px dashed grey">
 <td></td>
 <td></td>
+</tr>
+
+<tr markdown="1">
+<td>2022–present</td>
+<td markdown="1">[Anthony Quiroga][aquiroga] (ERSP &#x2714;; TRELS &#x2714;; BS &#x2714;; MS [thesis][quiroga-ms-thesis] &#x2714;, CSE)</td>
+</tr>
+
+<tr>
+<td colspan="2" style="padding-top: 5px;"></td>
+</tr>
+
+<tr markdown="1">
+<td>2023–present</td>
+<td markdown="1">[Samir Rashid][samir-rashid] (BS &#x2714;; MS, CSE)</td>
+</tr>
+
+<tr>
+<td colspan="2" style="padding-top: 5px;"></td>
+</tr>
+
+<tr markdown="1">
+<td>2024–present</td>
+<td markdown="1">[Anthony Tarbinian][anthony-tarbinian] (BS &#x2714;; MS, CSE)</td>
+</tr>
+
+<tr markdown="1">
+<td>2024–present</td>
+<td markdown="1">[Edward Burns][edward-burns] (MS, ECE)</td>
+</tr>
+
+<tr style="border-bottom: 1px dashed grey">
+<td colspan="2"></td>
 </tr>
 
 <tr markdown="1">
@@ -259,14 +301,11 @@ A [history of my teaching prior to joining UCSD](/teaching.html) is also availab
 
 </table>
 
+<!--
+
 #### Rotation Students
 
 <table markdown="1" class="webcv">
-
-<tr markdown="1">
-<td>Spring 2024</td>
-<td markdown="1">[Janet Vorobyeva][janet-vorobyeva] (PhD, CSE)</td>
-</tr>
 
 <tr markdown="1">
 <td>Spring 2024</td>
@@ -274,6 +313,8 @@ A [history of my teaching prior to joining UCSD](/teaching.html) is also availab
 </tr>
 
 </table>
+
+-->
 
 #### Undergraduate Students
 
@@ -284,20 +325,17 @@ A [history of my teaching prior to joining UCSD](/teaching.html) is also availab
 <td markdown="1">[Jacob Liu][jacob-liu]</td>
 </tr>
 
+<tr style="border-bottom: 1px dashed grey">
+<td colspan="2"></td>
+</tr>
+
+
+<!--
 <tr markdown="1">
 <td>2021–2022</td>
 <td markdown="1">Anthony Quiroga (BS, CSE) &rarr; UCSD MS</td>
 </tr>
-
-<tr markdown="1">
-<td>2023–present</td>
-<td markdown="1">[Samir Rashid][samir-rashid] (BS, CSE)</td>
-</tr>
-
-<tr markdown="1">
-<td>2024–present</td>
-<td markdown="1">[Anthony Tarbinian][anthony-tarbinian] (BS, CSE)</td>
-</tr>
+-->
 
 
 </table>
@@ -796,8 +834,10 @@ These are some references I've found useful, as much links for myself as anythin
 [hayers]: https://sing.stanford.edu/site/users/46
 [balex]: https://www.sysnet.ucsd.edu/~abellon/
 [tpotyondy]: https://www.linkedin.com/in/tyler-potyondy-88553b124
+[potyondy-ms-thesis]: https://escholarship.org/uc/item/8n68229c
 [jacob-liu]: https://www.linkedin.com/in/jacob-liu-731100129
 [aquiroga]: https://www.linkedin.com/in/anthony-quiroga-bab181235
+[quiroga-ms-thesis]: https://escholarship.org/uc/item/53090485
 [aredding]: https://alexanderredding.com/
 [edward-burns]: #
 [samir-rashid]: https://godsped.com/
@@ -806,6 +846,7 @@ These are some references I've found useful, as much links for myself as anythin
 [danial-zuberi]: https://dzuberi.github.io/
 [keerthivasan]: https://www.linkedin.com/in/vkvasan6
 [stephen]: https://www.linkedin.com/in/stephen-g-taylor
+[ray]: https://raymondduenas.com/
 
 [josephson2022getmobile]: pubs/josephson2022getmobile.pdf
 [yen2022effiSenseSee]: pubs/yen2022effiSenseSee.pdf
