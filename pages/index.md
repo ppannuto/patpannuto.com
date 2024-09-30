@@ -58,6 +58,8 @@ health monitoring](#gridwatch).
 
 #### News
 
+ - 2024-10: **[Alex][balex] awarded a [Qualcomm Innovation Fellowship](https://www.qualcomm.com/research/university-relations/innovation-fellowship)** – Congratulations Alex!
+ - 2024-06: We're hosting [Tock World 7](https://world.tockos.org/tockworld7/) at UCSD this year, come join us!
  - 2023-10: **[Jen][jennifer] awarded a [Google PhD Fellowship](https://research.google/outreach/phd-fellowship/recipients/)** – Congratulations Jen!
  - 2023-10: [Alexander's][aredding] paper [EmbHD: A Library for Hyperdimensional Computing Research on MCU-Class Devices](/pubs/redding2023embHD.pdf) published at [NET4us 2023](https://grc.webs.upv.es/events/net4us2023/).
  - 2023-03: **[Jen's][jennifer] paper [repurposing smartphones as servers](pubs/switzer2023junkyardcloud.pdf) honored with a Distinguished Paper Award at [ASPLOS'23](https://asplos-conference.org/2023/)** – Congratulations Jen!
@@ -149,6 +151,7 @@ A [history of my teaching prior to joining UCSD](/teaching.html) is also availab
      - [MobiCom'24](https://www.sigmobile.org/mobicom/2024/) TPC Member (Winter)
  - AY 2023-2024:
      - [MobiCom'23](https://www.sigmobile.org/mobicom/2023/) TPC Member (Summer &amp; Winter)
+     - [TockWorld 7](https://world.tockos.org/tockworld7/) General Chair
  - AY 2022-2023:
      - [MobiCom'22](https://www.sigmobile.org/mobicom/2022/) TPC Member (Summer &amp; Winter &ndash; **Outstanding PC Member Award**)
      - [LP-IoT'22](https://sites.google.com/uw.edu/lp-iot-2022/) TPC Member
