@@ -363,9 +363,9 @@ A [history of my teaching prior to joining UCSD](/teaching.html) is also availab
 ##### [Early Research Scholars Program (ERSP)](https://ersp.ucsd.edu/)
 
 ###### AY 2024-2025 Cohort, advised by [Wenshan Luo][wenshan]
- - Yuan-Kai Yang <!-- yuy080@ucsd.edu -->
- - Jonathan Ty <!-- j1ty@ucsd.edu -->
  - Momina Habibi <!-- mohabibi@ucsd.edu -->
+ - Jonathan Ty <!-- j1ty@ucsd.edu -->
+ - Yuan-Kai (Kevin) Yang <!-- yuy080@ucsd.edu -->
 
 ###### AY 2022–2023 Cohort, advised by [Gabriel Marcano][gabriel]
  - Kristin Ebuengan
