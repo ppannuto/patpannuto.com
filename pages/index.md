@@ -253,12 +253,10 @@ A [history of my teaching prior to joining UCSD](/teaching.html) is also availab
 <td markdown="1">[Keerthivasan Vijayakumar][keerthivasan] (Co-Advised with [Rajesh Gupta](http://mesl.ucsd.edu/gupta/); PhD, ECE)</td>
 </tr>
 
-<!-- TBD... co- with Dean?
 <tr markdown="1">
 <td>2024–present</td>
 <td markdown="1">[Janet Vorobyeva][janet-vorobyeva] (PhD, CSE)</td>
 </tr>
--->
 
 <tr style="border-bottom: 1px dashed grey">
 <td></td>
@@ -288,9 +286,16 @@ A [history of my teaching prior to joining UCSD](/teaching.html) is also availab
 <td markdown="1">[Anthony Tarbinian][anthony-tarbinian] (BS &#x2714;; MS, CSE)</td>
 </tr>
 
+<!--
 <tr markdown="1">
 <td>2024–present</td>
 <td markdown="1">[Edward Burns][edward-burns] (MS, ECE)</td>
+</tr>
+-->
+
+<tr markdown="1">
+<td>2025–present</td>
+<td markdown="1">[Ajay Ramesh][ajay-ramesh] (MS, ECE)</td>
 </tr>
 
 <tr style="border-bottom: 1px dashed grey">
@@ -855,6 +860,7 @@ These are some references I've found useful, as much links for myself as anythin
 [keerthivasan]: https://www.linkedin.com/in/vkvasan6
 [stephen]: https://www.linkedin.com/in/stephen-g-taylor
 [ray]: https://raymondduenas.com/
+[ajay-ramesh]: https://aj-rr.github.io/
 
 [josephson2022getmobile]: pubs/josephson2022getmobile.pdf
 [yen2022effiSenseSee]: pubs/yen2022effiSenseSee.pdf
