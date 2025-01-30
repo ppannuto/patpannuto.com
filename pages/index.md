@@ -58,6 +58,7 @@ health monitoring](#gridwatch).
 
 #### News
 
+ - 2024-12: **[Tyler][tpotyondy], [Samir][samir-rashid], and [Anthony][anthony-tarbinian]'s paper on [the security of embedded operating systems](pubs/potyondy2024tabularasa.pdf) won a Best Paper Award** – Congratulations Tyler, Samir, Anthony, and Leon!
  - 2024-10: **[Alex][balex] awarded a [Qualcomm Innovation Fellowship](https://www.qualcomm.com/research/university-relations/innovation-fellowship)** – Congratulations Alex!
  - 2024-06: We're hosting [Tock World 7](https://world.tockos.org/tockworld7/) at UCSD this year, come join us!
  - 2023-10: **[Jen][jennifer] awarded a [Google PhD Fellowship](https://research.google/outreach/phd-fellowship/recipients/)** – Congratulations Jen!
