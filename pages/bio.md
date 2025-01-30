@@ -35,3 +35,37 @@ awards from the CSE Department, the
 College of Engineering, and the Rackham Graduate School at the University of
 Michigan.
 You can find more information at [patpannuto.com](https://patpannuto.com).
+
+
+---
+
+Headshot(s)
+-----------
+
+<style>
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+</style>
+
+<table>
+<tr>
+<th>Crop to Square</th>
+<th>Full Size</th>
+<th>Hi-Res Original</th>
+<th>Line Art</th>
+<th>Line Art (no background)</th>
+</tr>
+<tr>
+<td><img src="/images/pannuto-headshot-square.jpg" /></td>
+<td><img src="/images/pannuto-headshot.jpg" /></td>
+<td><img src="/images/pannuto-headshot-hires.jpg" /></td>
+<td><img src="/images/pannuto-line.png" /></td>
+<td><img src="/images/pannuto-line-nobg.png" /></td>
+</tr>
+</table>
