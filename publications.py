@@ -64,7 +64,7 @@ def hiddens_add_bibtex(hiddens, bibkey, entry, raw_authors):
 			with_bf = raw_authors[bibkey]
 			# First, strip any \textbf directives (highlighting my name)
 			while True:
-				match = re.search('\\\\textbf{(\S+)}', with_bf)
+				match = re.search(r'\\textbf{(\S+)}', with_bf)
 				if match is None:
 					break
 				with_bf = with_bf.replace(match.group(0), match.group(1))
