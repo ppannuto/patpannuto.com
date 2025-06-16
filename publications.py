@@ -180,6 +180,8 @@ def latex_to_html(latex):
 					h += '&mu;W'
 				elif cmd == 'iic':
 					h += 'I<sup>2</sup>C'
+				elif cmd == 'dots':
+					h += '&hellip;'
 				else:
 					logger.error("(scope \\\\) Unknown latex command >" + cmd + '<')
 					raise NotImplementedError
