@@ -1,3 +1,37 @@
+@inproceedings{schuermann2025omniglot,
+ author = {Schuermann, Leon and Troubes, Jack and Potyondy, Tyler and \textbf{Pannuto}, \textbf{Pat} and Milano, Mae and Levy, Amit},
+ title = {Building Bridges: Safe Interactions with Foreign Languages through Omniglot},
+ booktitle = {Proceedings of the 19th USENIX Symposium on Operating Systems Design and Implementation},
+ series = {OSDI'25},
+ year = {2025},
+ month = {07},
+ location = {Boston, MA, USA},
+ publisher = {USENIX},
+ conference-url={\url{https://www.usenix.org/conference/osdi25/}},
+ abstract = {Memory- and type-safe languages promise to eliminate
+entire classes of systems vulnerabilities by construction. In
+practice, though, even clean-slate systems often need to incorporate
+libraries written in other languages with fewer safety
+guarantees. Because these interactions threaten the soundness
+of safe languages, they can reintroduce the exact vulnerabilities
+that safe languages prevent in the first place.
+
+This paper presents Omniglot: the first framework to efficiently
+uphold safety and soundness of Rust in the presence
+of unmodified and untrusted foreign libraries. Omniglot facilitates
+interactions with foreign code by integrating with a
+memory isolation primitive and validation infrastructure, and
+avoids expensive operations such as copying or serialization.
+
+We implement Omniglot for two systems: we use it to integrate
+kernel components in a highly-constrained embedded operating
+system kernel, as well as to interface with conventional
+Linux userspace libraries. Omniglot performs comparably
+to approaches that deliver weaker guarantees and significantly
+better than those with similar safety guarantees.
+ },
+}
+
 @inproceedings{nasir2024wxiot,
   author = {Nasir, Nabeel and Govinda Rajan, Viswajith and \textbf{Pannuto}, \textbf{Pat} and Ghena, Branden and Campbell, Bradford},
   title = {Experiences Teaching a Wireless for the Internet of Things Course Cooperatively at Multiple Universities},
