@@ -23,7 +23,7 @@ University of California, San Diego<br />
 </div><!-- col-md-8 -->
 
 <div id="portraits" class="d-none d-md-block col-md-4">
-  <a href="/images/pannuto-headshot-hires.jpg"><img src="/images/pannuto-headshot-square.jpg" alt="Headshot photo of Pat" class="col-md-12"/></a>
+  <a href="/images/headshots/2019/pannuto-headshot-hires.jpg"><img src="/images/headshots/2019/pannuto-headshot-square.jpg" alt="Headshot photo of Pat" class="col-md-12"/></a>
 </div><!-- col-md-4 -->
 
 </div><!-- first row -->

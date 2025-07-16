@@ -55,6 +55,9 @@ table {
 
 <table>
 <tr>
+<th colspan="5">2019</th>
+</tr>
+<tr>
 <th>Crop to Square</th>
 <th>Full Size</th>
 <th>Hi-Res Original</th>
@@ -62,10 +65,20 @@ table {
 <th>Line Art (no background)</th>
 </tr>
 <tr>
-<td><img src="/images/pannuto-headshot-square.jpg" /></td>
-<td><img src="/images/pannuto-headshot.jpg" /></td>
-<td><img src="/images/pannuto-headshot-hires.jpg" /></td>
-<td><img src="/images/pannuto-line.png" /></td>
-<td><img src="/images/pannuto-line-nobg.png" /></td>
+<td><img src="/images/headshots/2019/pannuto-headshot-square.jpg" /></td>
+<td><img src="/images/headshots/2019/pannuto-headshot.jpg" /></td>
+<td><img src="/images/headshots/2019/pannuto-headshot-hires.jpg" /></td>
+<td><img src="/images/headshots/2019/pannuto-line.png" /></td>
+<td><img src="/images/headshots/2019/pannuto-line-nobg.png" /></td>
+</tr>
+<tr>
+<th colspan="5">2025</th>
+</tr>
+<tr>
+<td></td>
+<td><img src="/images/headshots/2025/pannuto-headshot.jpg" /></td>
+<td><img src="/images/headshots/2025/pannuto-headshot-hires.jpg" /></td>
+<td></td>
+<td></td>
 </tr>
 </table>
