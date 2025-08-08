@@ -59,9 +59,30 @@ start = 2020
 [ms]
 display = "MS Students"
 
+[ms.samir-rashid]
+name = "Samir Rashid"
+url = "https://godsped.com/"
+degree = "M.Sc."
+discipline = "CSE"
+next = "Starlink"
+thesis = "The Time is Right: Retrofitting Formal Verification onto Timers in an Operating System"
+start = 2024
+end = 2025
+
+[ms.anthony-tarbinian]
+name = "Anthony Tarbinian"
+url = "https://atarbinian.com/"
+degree = "M.Sc."
+discipline = "CSE"
+next = "Apple"
+thesis = "Sharing is Caring: Shared Libraries for an Embedded Operating System"
+start = 2024
+end = 2025
+
 [ms.edward-burns]
 name = "Edward Burns"
 start = 2024
+end = 2025
 degree = "M.Eng."
 discipline = "ECE"
 
@@ -100,6 +121,8 @@ thesis = "TotTernary: A wearable platform for social interaction tracking"
 start = 2018
 end = 2018
 
+
+
 [ugrad]
 display = "Undergraduate Students"
 
@@ -107,13 +130,19 @@ display = "Undergraduate Students"
 name = "Samir Rashid"
 url = "https://godsped.com/"
 context = "Secure Embedded Operating Systems"
+degree = "B.S."
+next = "MS program at UC San Diego"
 start = 2023
+end = 2024
 
 [ugrad.anthony-tarbinian]
 name = "Anthony Tarbinian"
 url = "https://atarbinian.com/"
 context = "Secure Embedded Operating Systems"
+degree = "B.S."
+next = "MS program at UC San Diego"
 start = 2024
+end = 2024
 
 [ugrad.jacob-liu]
 name = "Jacob Liu"

@@ -58,6 +58,11 @@ display="University of Michigan Department of Computer Science First-Year Fellow
 [publications]
 display="Publication & Presentation Awards"
 
+[publications.spices2024]
+honoree="Tyler Potyondy, Samir Rashid, Anthony Tarbinian"
+year="2024"
+display="Best Paper Award, The 3rd Workshop on Security and Privacy in Connected Embedded Systems (SPICES 2024)"
+
 [publications.asplos2023]
 year="2023"
 display="Distinguished Paper Award, Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 2"
