@@ -847,7 +847,7 @@ These are some references I've found useful, as much links for myself as anythin
 [virginiaSalo]: https://www.vanderbilt.edu/psychological_sciences/bio/virginia-salo
 [hayers]: https://sing.stanford.edu/site/users/46
 [balex]: https://www.sysnet.ucsd.edu/~abellon/
-[tpotyondy]: https://www.linkedin.com/in/tyler-potyondy-88553b124
+[tpotyondy]: https://tylerpotyondy.com
 [potyondy-ms-thesis]: https://escholarship.org/uc/item/8n68229c
 [jacob-liu]: https://www.linkedin.com/in/jacob-liu-731100129
 [aquiroga]: https://www.linkedin.com/in/anthony-quiroga-bab181235
