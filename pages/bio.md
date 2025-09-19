@@ -7,7 +7,7 @@
 Bio
 ---
 
-Pat Pannuto is an Assistant Professor at the University of California San Diego.
+Pat Pannuto is an Associate Professor at the University of California San Diego.
 Pat received a PhD from the Department of Electrical Engineering and Computer
 Sciences at the University of California, Berkeley
 and an MSE in Computer Science and BSE in Computer Engineering from
@@ -27,7 +27,7 @@ You can find more information at [patpannuto.com](https://patpannuto.com).
 Bio Short
 ---------
 
-Pat Pannuto is an Assistant Professor at UC&nbsp;San&nbsp;Diego.
+Pat Pannuto is an Associate Professor at UC&nbsp;San&nbsp;Diego.
 Pat received a PhD from UC&nbsp;Berkeley and an MSE and BSE from the University of Michigan.
 Pat's research is in the broad area of networked embedded systems, with contributions in architecture, wireless, mobile, OS, and development engineering.
 Pat is an NSF, NDSEG, and Qualcomm Innovation Fellow and received teaching

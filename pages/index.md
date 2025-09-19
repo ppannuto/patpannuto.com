@@ -3,7 +3,7 @@
 
 # Pat Pannuto
 <div class="lead">
-Assistant Professor, Computer Science Engineering<br />
+Associate Professor, Computer Science Engineering<br />
 <!--<a href="https://cse.ucsd.edu/">University of California, San Diego</a><br />-->
 University of California, San Diego<br />
 <small>
@@ -268,23 +268,6 @@ A [history of my teaching prior to joining UCSD](/teaching.html) is also availab
 <td markdown="1">[Anthony Quiroga][aquiroga] (ERSP &#x2714;; TRELS &#x2714;; BS &#x2714;; MS [thesis][quiroga-ms-thesis] &#x2714;, CSE)</td>
 </tr>
 
-<tr>
-<td colspan="2" style="padding-top: 5px;"></td>
-</tr>
-
-<tr markdown="1">
-<td>2023–present</td>
-<td markdown="1">[Samir Rashid][samir-rashid] (BS &#x2714;; MS, CSE)</td>
-</tr>
-
-<tr>
-<td colspan="2" style="padding-top: 5px;"></td>
-</tr>
-
-<tr markdown="1">
-<td>2024–present</td>
-<td markdown="1">[Anthony Tarbinian][anthony-tarbinian] (BS &#x2714;; MS, CSE)</td>
-</tr>
 
 <!--
 <tr markdown="1">
@@ -305,6 +288,24 @@ A [history of my teaching prior to joining UCSD](/teaching.html) is also availab
 <tr markdown="1">
 <td>2020–2021</td>
 <td markdown="1">[Dhananjay Jagtap][dhananjay] (MS, ECE) &rarr; Apple</td>
+</tr>
+
+<tr>
+<td colspan="2" style="padding-top: 5px;"></td>
+</tr>
+
+<tr markdown="1">
+<td>2023–2025</td>
+<td markdown="1">[Samir Rashid][samir-rashid] (BS &#x2714;; MS [thesis][samir-rashid-ms-thesis] &#x2714, CSE) &rarr; Starlink</td>
+</tr>
+
+<tr>
+<td colspan="2" style="padding-top: 5px;"></td>
+</tr>
+
+<tr markdown="1">
+<td>2024–2025</td>
+<td markdown="1">[Anthony Tarbinian][anthony-tarbinian] (BS &#x2714;;  MS [thesis][anthony-tarbinian-ms-thesis] &#x2714, CSE) &rarr; Apple</td>
 </tr>
 
 </table>
@@ -854,7 +855,9 @@ These are some references I've found useful, as much links for myself as anythin
 [aredding]: https://alexanderredding.com/
 [edward-burns]: #
 [samir-rashid]: https://godsped.com/
+[samir-rashid-ms-thesis]: https://godsped.com/thesis
 [anthony-tarbinian]: https://atarbinian.com/
+[anthony-tarbinian-ms-thesis]: https://github.com/atar13/ms-thesis/releases/download/0.12.0/sharing-is-caring-0.12.0.pdf
 [janet-vorobyeva]: https://jvorob.github.io/
 [danial-zuberi]: https://dzuberi.github.io/
 [keerthivasan]: https://www.linkedin.com/in/vkvasan6

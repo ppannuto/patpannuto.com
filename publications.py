@@ -170,7 +170,7 @@ def latex_to_html(latex):
 					h += ' '
 					continue
 
-				if cmd in ('em', 'emph'):
+				if cmd in ('em', 'emph', 'textit'):
 					h += '<em>'
 				elif cmd in ('bf', 'textbf'):
 					h += '<strong>'
@@ -193,7 +193,7 @@ def latex_to_html(latex):
 				except IndexError:
 					logger.error("Unbalanced braces?")
 					raise
-				if cmd in ('em', 'emph'):
+				if cmd in ('em', 'emph', 'textit'):
 					h += '</em>'
 				elif cmd in ('bf', 'textbf'):
 					h += '</strong>'
