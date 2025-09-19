@@ -120,8 +120,7 @@ A complete list is available on my [publications page](/publications.html).
 #### <a name="teaching"></a>Teaching
 
  - `[SP25]` CSE141 – Introduction to Computer Architecture
- - `[WI25]` [WES269 – Wireless and Communication in the Internet of Things](https://cseweb.ucsd.edu/classes/wi25/cse222C-a/index.html)
- - `[WI25]` [CSE122 / CSE222C – Wireless Networks](https://cseweb.ucsd.edu/classes/wi25/cse222C-a/index.html)
+ - `[WI25]` [{CSE122/CSE222C} / WES269 – Wireless Networks](https://cseweb.ucsd.edu/classes/wi25/cse222C-a/)
  - `[FA23]` CSE141 – Introduction to Computer Architecture
  - `[SU23]` [WES237B – Introductions to Embedded Systems Design](https://sites.google.com/ucsd.edu/su23-wes237b-introembedded/)
  - `[SP23]` [CSE291 – Critical Analysis in Computing](https://sites.google.com/ucsd.edu/sp23-cse291-critical-computing/)
