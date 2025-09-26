@@ -7,7 +7,7 @@
  month = {10},
  isbn = {97948440074187040/2025/10},
  location = {Seoul, Republic of Korea},
- url = {http://doi.acm.org/10.1145/3132747.3132786},
+ url = {http://doi.acm.org/10.1145/3731569.3764828},
  doi = {10.1145/3731569.3764828},
  publisher = {ACM},
  address = {New York, NY, USA},
@@ -28,6 +28,40 @@
    of using a type-safe language (Rust)---particularly in
    security-sensitive settings---and the experience of supporting a
    production open-source operating system from academia.
+ },
+}
+
+@inproceedings{rindisbacher2025tickTock,
+ author = {Rindisbacher, Vivien and Johnson, Evan and Lehmann, Nico and Potyondy, Tyler and \textbf{Pannuto}, \textbf{Pat} and Savage, Stefan and Stefan, Deian and Jhala, Ranjit},
+ title = {\textsc{TickTock}: Verified Isolation in a Prodcution Embedded OS},
+ booktitle = {Proceedings of the 31st Symposium on Operating Systems Principles},
+ series = {SOSP'25},
+ year = {2025},
+ month = {10},
+ isbn = {79-8-4007-1870-0/2025/10},
+ location = {Seoul, Republic of Korea},
+ url = {http://doi.acm.org/10.1145/3731569.3764856},
+ doi = {10.1145/3731569.3764856},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ conference-url={\url{https://sigops.org/s/conferences/sosp/2025/}},
+ abstract = {We present a case study formally verifying process isolation
+   in the \textsc{Tock} production microcontroller OS kernel.
+   \textsc{Tock} combines hardware memory protection units and
+   language-level techniques---by writing the kernel in Rust---to enforce
+   isolation between user and kernel code. Our effort to verify
+   \textsc{Tock}'s process abstraction unearthed multiple, subtle bugs
+   that broke isolation---many allowing malicious applications
+   to compromise the whole OS. We describe this effort and
+   \textsc{TickTock}, our fork of the \textsc{Tock} operating system kernel
+   that eliminates isolation bugs by construction. \textsc{TickTock}
+   uses Flux, an SMT-based Rust verifier, to formally spec-
+   ify and verify process isolation for all ARMv7-M platforms
+   \textsc{Tock} supports and for three RISC-V 32-bit platforms. Our
+   verification-guided design and implementation led to a new,
+   \emph{granular} process abstraction that is simpler than Tock's, has
+   formal security guarantees (that are verified in half a minute),
+   and outperforms \textsc{Tock} on certain critical code paths.
  },
 }
 

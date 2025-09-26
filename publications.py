@@ -174,6 +174,8 @@ def latex_to_html(latex):
 					h += '<em>'
 				elif cmd in ('bf', 'textbf'):
 					h += '<strong>'
+				elif cmd in ('sc', 'textsc'):
+					h += '<span style="font-variant: small-caps;">'
 				elif cmd == 'uA':
 					h += '&mu;A'
 				elif cmd == 'uW':
@@ -197,6 +199,8 @@ def latex_to_html(latex):
 					h += '</em>'
 				elif cmd in ('bf', 'textbf'):
 					h += '</strong>'
+				elif cmd in ('sc', 'textsc'):
+					h += '</span>'
 				elif cmd == 'uA':
 					h += '&mu;A'
 				elif cmd == '':
