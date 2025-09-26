@@ -1,1 +1,48 @@
-# Empty
+display = "Research Opportunity Programs"
+
+[ersp]
+display = "UC San Diego Early Research Scholars Program (ERSP)"
+url = "https://ersp.ucsd.edu/"
+
+[ersp.ay2022-2023-marcano]
+display = "Academic Year 2022–2023 Cohort"
+mentor = "Gabriel Marcano"
+mentees = ["Kristin Ebuengan", "Melody Gill", "Sophia Gomez"]
+
+[ersp.ay2022-2023-switzer]
+display = "Academic Year 2022–2023 Cohort"
+mentor = "Jennifer Switzer"
+mentees = ["Christian Lee", "Edward Jin", "Lillian Ho"]
+
+[ersp.ay2020-2021-pannuto]
+display = "Academic Year 2020–2021 Cohort"
+mentees = ["Karen Gong", "Colin Lemarchand", "Anthony Quiroga", "Sonika Ram"]
+#    Karen Gong (BS, CSE)
+#    Colin Lemarchand (BS, CSE)
+#    Anthony Quiroga (BS, CSE) → TRELS
+#    Sonika Ram (BS, CSE)
+
+
+[enlace]
+display = "ENLACE"
+url = "http://resilientmaterials.ucsd.edu/ENLACE"
+
+[enlace.su2022-switzer]
+display = "Summer 2022 High School Cohort"
+mentor = "Jennifer Switzer"
+mentees = ["Belinda Andrea Ramírez Espíndola", "Daniella Rivera", "Leslie Pérez Solis"]
+
+[enlace.su2022-yen]
+display = "Summer 2022 High School Cohort"
+mentor = "Alex Yen"
+mentees = ["Kaila Marie Rosing", "Regina García Garza"]
+
+
+[trels]
+display = "Triton Research & Experiential Learning Scholars (TRELS)"
+url = "https://ugresearch.ucsd.edu/programs/trels/index.html"
+
+[trels.su2021]
+display = "Summer 2021 Cohort"
+mentees = ["Anthony Quiroga"]
+#    Anthony Quiroga (BS, CSE) → Independent Research
