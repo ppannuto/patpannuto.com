@@ -15,12 +15,14 @@ the University of Michigan.
 Pat's research is in the broad area of networked embedded systems, with
 contributions to computer architecture, wireless communications, mobile
 computing, operating systems, and development engineering.
-Pat's work has been recognized as a Top Pick in Computer
-Architecture and selected as a Best Paper Finalist at IPSN, and has been
-awarded NSF, NDSEG, and Qualcomm Innovation fellowships.
+Pat's work has been recognized as a Top Pick in Computer Architecture, a
+Distinguished Paper at ASPLOS, a Best Paper at OSDI, and selected as a Best
+Paper Finalist at IPSN;
+Pat has been awarded NSF, NDSEG, and Qualcomm Innovation fellowships.
 Pat has also received teaching awards from the Computer Science Department, the
 College of Engineering, and the Rackham Graduate School at the University of
-Michigan.
+Michigan and mentoring awards from the Computer Science and Engineering
+Department at the University of California, San Diego.
 You can find more information at [patpannuto.com](https://patpannuto.com).
 
 
@@ -31,9 +33,7 @@ Pat Pannuto is an Associate Professor at UC&nbsp;San&nbsp;Diego.
 Pat received a PhD from UC&nbsp;Berkeley and an MSE and BSE from the University of Michigan.
 Pat's research is in the broad area of networked embedded systems, with contributions in architecture, wireless, mobile, OS, and development engineering.
 Pat is an NSF, NDSEG, and Qualcomm Innovation Fellow and received teaching
-awards from the CSE Department, the
-College of Engineering, and the Rackham Graduate School at the University of
-Michigan.
+and mentoring awards from the University of Michigan and UC San Diego.
 You can find more information at [patpannuto.com](https://patpannuto.com).
 
 
