@@ -834,6 +834,16 @@ These are some references I've found useful, as much links for myself as anythin
 [starnet]: https://www.src.org/program/starnet/about/
 [jump]: https://www.src.org/program/jump/
 
+---
+
+<small mardown="1">
+Text required by CA Prop 209:
+_"This initiative is open to all eligible members and does not discriminate
+against, or grant preferential treatment to, any individual or group on the
+basis of race, color, national origin, religion, sex, disability, and/or
+other protected categories."_
+</small>
+
 </div>
 </div>
 
