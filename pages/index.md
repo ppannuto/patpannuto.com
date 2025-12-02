@@ -119,6 +119,7 @@ A complete list is available on my [publications page](/publications.html).
 
 #### <a name="teaching"></a>Teaching
 
+ - `[FA25]` CSE141 – Introduction to Computer Architecture
  - `[SP25]` CSE141 – Introduction to Computer Architecture
  - `[WI25]` [{CSE122/CSE222C} / WES269 – Wireless Networks](https://cseweb.ucsd.edu/classes/wi25/cse222C-a/)
  - `[FA23]` CSE141 – Introduction to Computer Architecture
@@ -138,7 +139,7 @@ A complete list is available on my [publications page](/publications.html).
 I also co-founded the
 [UCSD Embedded Systems Seminar](https://sites.google.com/ucsd.edu/emsyslunch/),
 which now runs every quarter.
-I am instructor of record for the seminar in `[SP25]`, `[FA23]`, `[WI23]`, `[WI22]`, `[FA21]`, `[WI21]`, and `[FA20]`.
+I am instructor of record for the seminar in `[FA25]`, `[SP25]`, `[FA23]`, `[WI23]`, `[WI22]`, `[FA21]`, `[WI21]`, and `[FA20]`.
 
 A [history of my teaching prior to joining UCSD](/teaching.html) is also available.
 
