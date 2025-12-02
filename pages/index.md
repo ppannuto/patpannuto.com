@@ -814,7 +814,7 @@ During graduate school, I was a
 Fellow (2013),
 a [National Science Foundation Graduate Research Fellowship Program (NSF GRFP)](http://www.nsfgrfp.org/)
 Fellow (2013),
-and a [Qualcomm Innovation Fellowship (QInF)](https://www.qualcomm.com/invention/research/university-relations/innovation-fellowship)
+and a [Qualcomm Innovation Fellowship (QIF)](https://www.qualcomm.com/invention/research/university-relations/innovation-fellowship)
 Fellow (2013).
 My graduate studies were also generously supported by the [Semiconductor Research Corporation][src]
 through both the [TerraSwarm][terraswarm] program (part of [STARnet][starnet]) and the
